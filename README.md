@@ -57,10 +57,15 @@ geen verschil.
    GitHub repo-secret `FIREBASE_SERVICE_ACCOUNT_RU_MIL_TRACKER` (aangemaakt via
    `firebase init hosting:github`).
 3. ✅ Repo `Leathan80/ru-mil-tracker` (public i.v.m. gratis Actions-minuten).
-4. ⏳ cron-job.org: POST naar
+4. ⏳ **Nog te doen (enige handmatige stap):** cron-job.org: POST naar
    `https://api.github.com/repos/Leathan80/ru-mil-tracker/actions/workflows/feed.yml/dispatches`
    met body `{"ref":"master"}` en een PAT met workflow-scope, elke 4 uur.
-5. ⏳ Dagelijkse Claude-taak registreren; procedure: `analysis/daily-analysis-prompt.md`.
+   Tot dit is ingesteld draait de crawler op de dagelijkse GitHub-cron-fallback
+   (05:23 UTC).
+5. ✅ Dagelijkse Claude-taak `ru-mil-tracker-daily-analysis` geregistreerd
+   (07:03 lokaal); procedure: `analysis/daily-analysis-prompt.md`.
+6. ✅ Cross-feed-widget live op adepti-academy.nl (`Adepti/index.html`, tegel
+   "RU Mil Tracker" + widget-blok "Recent Russian Military Developments").
 
 ## Lokaal draaien
 
