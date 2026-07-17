@@ -50,16 +50,17 @@ Bron zonder RSS? Gebruik een Google News site-query als `feedUrl`
 (`https://news.google.com/rss/search?q=site:example.com`) — de crawler merkt
 geen verschil.
 
-## Eenmalige setup (al gedaan / bij herinstallatie)
+## Eenmalige setup (afgerond)
 
-1. Firebase-project `ru-mil-tracker` + hosting (`firebase deploy --only hosting`).
-2. Google Cloud service-account (rol Firebase Hosting Admin) → JSON-key → GitHub
-   repo-secret `FIREBASE_SERVICE_ACCOUNT`.
-3. Repo `Leathan80/ru-mil-tracker` (public i.v.m. gratis Actions-minuten).
-4. cron-job.org: POST naar
+1. ✅ Firebase-project `ru-mil-tracker` + hosting (`firebase deploy --only hosting`).
+2. ✅ Service-account `github-action-1304190100` (rol Firebase Hosting Admin) →
+   GitHub repo-secret `FIREBASE_SERVICE_ACCOUNT_RU_MIL_TRACKER` (aangemaakt via
+   `firebase init hosting:github`).
+3. ✅ Repo `Leathan80/ru-mil-tracker` (public i.v.m. gratis Actions-minuten).
+4. ⏳ cron-job.org: POST naar
    `https://api.github.com/repos/Leathan80/ru-mil-tracker/actions/workflows/feed.yml/dispatches`
-   met body `{"ref":"main"}` en een PAT met workflow-scope, elke 4 uur.
-5. Dagelijkse Claude-taak registreren; procedure: `analysis/daily-analysis-prompt.md`.
+   met body `{"ref":"master"}` en een PAT met workflow-scope, elke 4 uur.
+5. ⏳ Dagelijkse Claude-taak registreren; procedure: `analysis/daily-analysis-prompt.md`.
 
 ## Lokaal draaien
 
