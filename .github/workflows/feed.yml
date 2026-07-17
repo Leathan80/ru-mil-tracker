@@ -1,0 +1,49 @@
+name: Feed crawl
+
+# De 4-uurlijkse trigger wordt extern aangestuurd door cron-job.org, dat de
+# workflow_dispatch-API op een vast schema aanroept (GitHub's eigen cron is
+# best-effort en laat runs vallen onder belasting). Dit interne schema is
+# slechts een dagelijkse fallback-heartbeat voor als de externe trigger stopt.
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  crawl-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # De dagelijkse analysetaak deployt vanaf de lokale machine, dus de live
+      # site heeft altijd de nieuwste analysis.json/history.json. Die eerst
+      # ophalen zodat deze deploy ze nooit overschrijft met verouderde
+      # repo-kopieën. De huidige feed.json/pretag.json komen ook mee, zodat
+      # gefaalde bronnen hun laatste feed behouden (carry-over).
+      - name: Sync latest data from live site
+        run: |
+          curl -sf https://ru-mil-tracker.web.app/analysis.json -o public/analysis.json || true
+          curl -sf https://ru-mil-tracker.web.app/history.json -o public/history.json || true
+          curl -sf https://ru-mil-tracker.web.app/feed.json -o public/feed.json || true
+          curl -sf https://ru-mil-tracker.web.app/pretag.json -o public/pretag.json || true
+
+      - name: Crawl OSINT feeds (verified + single-source)
+        run: node crawler/crawl.js
+
+      # Pre-tagging shortlist voor de dagelijkse analysetaak. Niet-fataal: als
+      # feed.json ontbreekt blijft de vorige pretag.json staan.
+      - name: Build pretag shortlist
+        run: node crawler/pretag.js || true
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          channelId: live
+          projectId: ru-mil-tracker

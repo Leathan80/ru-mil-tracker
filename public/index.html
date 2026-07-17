@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RU//MIL TRACKER</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span id="brandText" class="brand-text">RU//MIL TRACKER</span>
+    <span id="tagline" class="tagline"></span>
+  </div>
+  <div class="topbar-right">
+    <div class="updated-stamps">
+      <span id="analysisUpdated"></span>
+      <span id="feedUpdated"></span>
+    </div>
+    <div class="lang-switch">
+      <button class="lang-btn active" data-lang="nl">NL</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<nav class="tabbar" id="tabbar">
+  <button class="tab-btn active" data-tab="all"></button>
+  <button class="tab-btn" data-tab="ttp"></button>
+  <button class="tab-btn" data-tab="weapon"></button>
+  <button class="tab-btn" data-tab="org"></button>
+  <button class="tab-btn" data-tab="pub"></button>
+  <button class="tab-btn" data-tab="timeline"></button>
+</nav>
+
+<div id="analysisMissingNotice" class="notice hidden"></div>
+
+<div class="topic-chips" id="topicChips"></div>
+
+<main id="mainView">
+  <div id="pubDisclaimer" class="disclaimer hidden"></div>
+  <div id="cardList" class="card-list"></div>
+  <div id="timelineView" class="timeline-view hidden"></div>
+</main>
+
+<section class="raw-panel">
+  <button class="raw-toggle" id="rawToggle"></button>
+  <div class="raw-content hidden" id="rawContent">
+    <div class="disclaimer" id="rawDisclaimer"></div>
+    <div id="rawList" class="raw-list"></div>
+  </div>
+</section>
+
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
