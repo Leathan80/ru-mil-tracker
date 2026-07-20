@@ -1,152 +1,1712 @@
 {
- "updated": "2026-07-19T06:00:57.480Z",
+ "updated": "2026-07-20T02:00:41.638Z",
  "stats": {
-  "ok": 22,
-  "carried": 1,
-  "failed": 1,
-  "items": 353
+  "ok": 23,
+  "carried": 0,
+  "failed": 0,
+  "items": 394
  },
  "sources": {
-  "oryx": {
-   "name": "Oryx",
-   "stream": "verified",
-   "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:46.704Z"
-  },
   "twz": {
    "name": "The War Zone",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:46.745Z"
+   "lastSuccess": "2026-07-20T02:00:39.957Z"
   },
   "defensenews": {
    "name": "Defense News",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:46.766Z"
-  },
-  "isw": {
-   "name": "ISW",
-   "stream": "verified",
-   "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:46.772Z"
-  },
-  "militarnyi": {
-   "name": "Militarnyi",
-   "stream": "verified",
-   "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:46.780Z"
-  },
-  "euromaidan": {
-   "name": "Euromaidan Press",
-   "stream": "verified",
-   "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:46.820Z"
+   "lastSuccess": "2026-07-20T02:00:40.003Z"
   },
   "pravda-en": {
    "name": "Ukrainska Pravda (EN)",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:46.831Z"
+   "lastSuccess": "2026-07-20T02:00:40.034Z"
+  },
+  "oryx": {
+   "name": "Oryx",
+   "stream": "verified",
+   "status": "ok",
+   "lastSuccess": "2026-07-20T02:00:40.058Z"
+  },
+  "militarnyi": {
+   "name": "Militarnyi",
+   "stream": "verified",
+   "status": "ok",
+   "lastSuccess": "2026-07-20T02:00:40.078Z"
+  },
+  "isw": {
+   "name": "ISW",
+   "stream": "verified",
+   "status": "ok",
+   "lastSuccess": "2026-07-20T02:00:40.083Z"
+  },
+  "euromaidan": {
+   "name": "Euromaidan Press",
+   "stream": "verified",
+   "status": "ok",
+   "lastSuccess": "2026-07-20T02:00:40.088Z"
   },
   "meduza-en": {
    "name": "Meduza (EN)",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:46.954Z"
+   "lastSuccess": "2026-07-20T02:00:40.205Z"
   },
   "wotr": {
    "name": "War on the Rocks",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:46.971Z"
+   "lastSuccess": "2026-07-20T02:00:40.221Z"
   },
   "breakingdef": {
    "name": "Breaking Defense",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.028Z"
+   "lastSuccess": "2026-07-20T02:00:40.244Z"
   },
   "kyivindep": {
    "name": "Kyiv Independent",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.037Z"
+   "lastSuccess": "2026-07-20T02:00:40.263Z"
   },
   "hcss": {
    "name": "HCSS",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.130Z"
-  },
-  "rusi": {
-   "name": "RUSI",
-   "stream": "verified",
-   "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.167Z"
+   "lastSuccess": "2026-07-20T02:00:40.392Z"
   },
   "vpk": {
    "name": "Voyenno-promyshlenny Kuryer",
    "stream": "single",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.251Z"
+   "lastSuccess": "2026-07-20T02:00:40.520Z"
+  },
+  "rusi": {
+   "name": "RUSI",
+   "stream": "verified",
+   "status": "ok",
+   "lastSuccess": "2026-07-20T02:00:40.533Z"
   },
   "vm": {
    "name": "Voyennaya Mysl",
    "stream": "single",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.323Z"
+   "lastSuccess": "2026-07-20T02:00:40.571Z"
   },
   "nvo": {
    "name": "Nezavisimoye Voyennoye Obozreniye",
    "stream": "single",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.399Z"
+   "lastSuccess": "2026-07-20T02:00:40.670Z"
   },
   "defexpress": {
    "name": "Defense Express",
    "stream": "single",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.550Z"
+   "lastSuccess": "2026-07-20T02:00:40.798Z"
   },
   "defenceblog": {
    "name": "Defence Blog",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.553Z"
-  },
-  "topwar": {
-   "name": "Topwar",
-   "stream": "single",
-   "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.625Z"
+   "lastSuccess": "2026-07-20T02:00:40.801Z"
   },
   "tass": {
    "name": "TASS",
    "stream": "verified",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.725Z"
+   "lastSuccess": "2026-07-20T02:00:40.885Z"
   },
   "censor": {
    "name": "Censor.NET (EN)",
    "stream": "single",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.734Z"
+   "lastSuccess": "2026-07-20T02:00:41.003Z"
+  },
+  "redstar": {
+   "name": "Krasnaya Zvezda",
+   "stream": "single",
+   "status": "ok",
+   "lastSuccess": "2026-07-20T02:00:41.006Z"
   },
   "armyinform": {
    "name": "ArmyInform",
    "stream": "single",
    "status": "ok",
-   "lastSuccess": "2026-07-19T06:00:47.889Z"
+   "lastSuccess": "2026-07-20T02:00:41.040Z"
   },
-  "redstar": {
-   "name": "Krasnaya Zvezda",
+  "topwar": {
+   "name": "Topwar",
    "stream": "single",
-   "status": "carried",
-   "lastSuccess": "2026-07-19T02:00:45.313Z"
+   "status": "ok",
+   "lastSuccess": "2026-07-20T02:00:41.627Z"
   }
  },
  "items": [
+  {
+   "id": "9c87e81750e3",
+   "title": "Twenty more UAVs destroyed over Moscow",
+   "url": "https://tass.com/emergencies/2162311",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-20T01:38:21.000Z",
+   "summaryRaw": "Emergency services specialists are working at the sites where the debris fell, Mayor Sergey Sobyanin said"
+  },
+  {
+   "id": "b5cc46eff16b",
+   "title": "«Квадрига»: назад, в будущее?",
+   "url": "https://topwar.ru/286420-kvadriga-nazad-v-buduschee.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-20T00:56:46.000Z",
+   "summaryRaw": "Куда немецкий истребитель нового поколения Quadriga Eurofighter совершил первый полёт."
+  },
+  {
+   "id": "15b7a20fc769",
+   "title": "Зенитная артиллерия Израиля",
+   "url": "https://topwar.ru/286451-zenitnaja-artillerija-izrailja.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-20T00:56:27.000Z",
+   "summaryRaw": "Помимо импорта 30 и 40-мм зенитных автоматов, не менее важным источником вооружения израильских подразделений ПВО являлись многочисленные зенитные орудия советского производства, отбитые у арабов"
+  },
+  {
+   "id": "9f2c62e47576",
+   "title": "Переносы и новые проекты: перспективы американского гиперзвука",
+   "url": "https://topwar.ru/286462-perenosy-i-novye-proekty-perspektivy-amerikanskogo-giperzvuka.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-20T00:56:10.000Z",
+   "summaryRaw": "США активно работают над гиперзвуковыми ракетными комплексам для разных родов войск. Уже имеются определённые успехи, но все проекты сталкиваются с заметными проблемами."
+  },
+  {
+   "id": "ee4f575d8e43",
+   "title": "О появлении некоторых ножей",
+   "url": "https://topwar.ru/286219-o-pojavlenii-nekotoryh-nozhej.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-20T00:55:54.000Z",
+   "summaryRaw": "Когда где-то в начале XVIII века индейцы Северной Америки начали активно торговать с европейцами, они стали с них требовать и ножи, и топорики-томагавки. Часто приобретались просто полосы металла, а ножи из него индейцы делали сами"
+  },
+  {
+   "id": "7582d086384e",
+   "title": "Кто такие печенеги и куда они «исчезли»?",
+   "url": "https://topwar.ru/286295-kto-takie-pechenegi-i-kuda-oni-ischezli.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-20T00:52:12.000Z",
+   "summaryRaw": "990 лет назад великий русский князь Ярослав Владимирович разгромил печенегов, которые осадили стольный град Киев."
+  },
+  {
+   "id": "84ef80ba4426",
+   "title": "Air defenses shoot down seven more drones headed for Moscow",
+   "url": "https://tass.com/emergencies/2162307",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-20T00:20:17.000Z",
+   "summaryRaw": "Mayor Sergey Sobyanin reported that emergency services specialists are working at the sites where the debris fell"
+  },
+  {
+   "id": "1b181a8bae81",
+   "title": "Over 30 countries confirm participation in Russia-Africa Summit — Russian Foreign Ministry",
+   "url": "https://tass.com/politics/2162299",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T22:55:33.000Z",
+   "summaryRaw": "Department Director Anatoly Bashkin says the number of countries expressing their readiness to attend the summit is rising \"each day\""
+  },
+  {
+   "id": "5a94c9428061",
+   "title": "Russian Geran-4 drone hits vessel at port of Odessa",
+   "url": "https://tass.com/defense/2162269",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T21:55:53.000Z",
+   "summaryRaw": "According to radar control data, the drone hit the designated target"
+  },
+  {
+   "id": "cdf1acded4da",
+   "title": "Деятельно и скрупулёзно",
+   "url": "http://redstar.ru/deyatelno-i-skrupulyozno",
+   "source": "redstar",
+   "sourceName": "Krasnaya Zvezda",
+   "state": true,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T21:04:00.000Z",
+   "summaryRaw": "На коллегии Минобороны России рассмотрели ход выполнения приоритетных задач. Под руководством"
+  },
+  {
+   "id": "7bd4ee857e58",
+   "title": "Наступаем на всех оперативных направлениях",
+   "url": "http://redstar.ru/nastupaem-na-vseh-operativnyh-napravleniyah",
+   "source": "redstar",
+   "sourceName": "Krasnaya Zvezda",
+   "state": true,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T21:03:00.000Z",
+   "summaryRaw": "Российские Вооружённые Силы продолжают освобождение территории Донбасса и Новороссии. Начальник Генерального"
+  },
+  {
+   "id": "29468407b6d7",
+   "title": "Тема обсуждения – дроны-перехватчики",
+   "url": "http://redstar.ru/tema-obsuzhdeniya-drony-perehvatchiki",
+   "source": "redstar",
+   "sourceName": "Krasnaya Zvezda",
+   "state": true,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T21:02:00.000Z",
+   "summaryRaw": "Заместитель министра обороны Российской Федерации Василий Осьмаков принял участие в стратегической сессии,"
+  },
+  {
+   "id": "2135620b3623",
+   "title": "Чтобы танк не стал мишенью",
+   "url": "http://redstar.ru/chtoby-tank-ne-stal-mishenyu",
+   "source": "redstar",
+   "sourceName": "Krasnaya Zvezda",
+   "state": true,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T21:01:00.000Z",
+   "summaryRaw": "От кочующих закрытых огневых позиций до противодействия вражеским БпЛА: об особенностях работы"
+  },
+  {
+   "id": "1f5eebf06936",
+   "title": "Оплот военной медицины в Подольске",
+   "url": "http://redstar.ru/oplot-voennoj-meditsiny-v-podolske",
+   "source": "redstar",
+   "sourceName": "Krasnaya Zvezda",
+   "state": true,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T21:00:00.000Z",
+   "summaryRaw": "Военный клинический госпиталь Московского военного округа отмечает 85-летие. 20 июля одна"
+  },
+  {
+   "id": "f3cf4dd071ec",
+   "title": "Артиллерийские стрельбы на Балтике",
+   "url": "http://redstar.ru/artillerijskie-strelby-na-baltike-9",
+   "source": "redstar",
+   "sourceName": "Krasnaya Zvezda",
+   "state": true,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T21:00:00.000Z",
+   "summaryRaw": "В морских полигонах Балтийского флота экипаж морского тральщика «Александр Обухов» провёл"
+  },
+  {
+   "id": "8fe8cdf127c1",
+   "title": "Russians hit Zaporizhzhia: 3 killed, 33 injured, including children – photos",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044833",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T20:47:00.000Z",
+   "summaryRaw": "Three people were killed and 33 were injured, including five children, as a result of a Russian attack with guided aerial bombs on Zaporizhzhia on the evening of 19 July."
+  },
+  {
+   "id": "3e032ce82dba",
+   "title": "Russo-Ukrainian war, day 1607: Russia fires over 40 missiles at Kyiv in under an hour in record ballistic barrage",
+   "url": "https://euromaidanpress.com/2026/07/19/russo-ukrainian-war-day-1607",
+   "source": "euromaidan",
+   "sourceName": "Euromaidan Press",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T20:30:00.000Z",
+   "summaryRaw": "The capital's heaviest single-hour ballistic assault killed at least one person and wounded 16, even as Ukraine set three Russian oil depots ablaze in Stavropol Krai and pushed Russian forces out of Kostiantynivka."
+  },
+  {
+   "id": "cd16e4359f8e",
+   "title": "Russia expects IAEA to give unbiased assessment of attack on Darkhovin NPP",
+   "url": "https://tass.com/politics/2162267",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T20:27:21.000Z",
+   "summaryRaw": "Foreign Ministry Spokeswoman Maria Zakharova says Russia expects that the agency \"will take immediate and concrete steps to end such lawlessness\""
+  },
+  {
+   "id": "1eecbef504f3",
+   "title": "Current economic collapse in Europe stems from anti-Russian sanctions — RDIF CEO",
+   "url": "https://tass.com/politics/2162259",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T19:08:46.000Z",
+   "summaryRaw": "EU sanctions are unpopular in Europe — they do not work and cost EU countries more than €3 trillion, Kirill Dmitriev said"
+  },
+  {
+   "id": "dc796ff1c827",
+   "title": "Russia-North Korea relations developing in all areas — Putin",
+   "url": "https://tass.com/politics/2162225",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T18:25:44.000Z",
+   "summaryRaw": "\"I am very glad to see you. Welcome,\" he said"
+  },
+  {
+   "id": "641f3ac813f2",
+   "title": "Russian forces continue striking Ukrainian ports — Russian defense ministry",
+   "url": "https://tass.com/defense/2162231",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T18:24:08.000Z",
+   "summaryRaw": "The Russian armed forces continued striking Ukrainian ports and vessels used in the interests of the Ukrainian army, the Russian defense ministry said"
+  },
+  {
+   "id": "2ab19ff24165",
+   "title": "Putin says highly values friendly relations with North Korea’s Kim",
+   "url": "https://tass.com/politics/2162223",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T18:22:47.000Z",
+   "summaryRaw": "\"I highly value the mutual understanding on all issues and friendly relations between us,\" he said"
+  },
+  {
+   "id": "107617bf21df",
+   "title": "Putin thanks North Korea for support for special military operation",
+   "url": "https://tass.com/politics/2162227",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T18:21:25.000Z",
+   "summaryRaw": "\"I would like to express gratitude for the support for our special military operation,\" he said"
+  },
+  {
+   "id": "711d65eaa2eb",
+   "title": "Иран атаковал иорданскую Акабу в ответ на пуск США крылатой ракеты",
+   "url": "https://topwar.ru/286586-iran-atakoval-iordanskuju-akabu-v-otvet-na-pusk-ssha-krylatoj-rakety.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T18:18:09.000Z",
+   "summaryRaw": "Иорданская пресса утверждает, что обломки иранских ракет упали и в израильском Эйлате"
+  },
+  {
+   "id": "e92d35212721",
+   "title": "North Korea committed to developing relations with Russia — top diplomat",
+   "url": "https://tass.com/politics/2162237",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T18:15:09.000Z",
+   "summaryRaw": "Comrade Kim Jong Un once again put forward the strategic line of steadfastly advancing the comprehensive strategic partnership and allied relations with the Russia, North Korean Foreign Minister Choe Son Hui said"
+  },
+  {
+   "id": "1970540ccc52",
+   "title": "Russian forces hit two vessels with military cargoes at port of Odessa",
+   "url": "https://tass.com/defense/2162255",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:59:00.000Z",
+   "summaryRaw": "Russian Aerospace Forces aircraft and unmanned aerial vehicles struck two bulk carriers carrying military cargo, the Russian defense ministry said"
+  },
+  {
+   "id": "fb41ee5405c3",
+   "title": "Акт тероризму на морі: росія вдарила крилатими ракетами по цивільному судну",
+   "url": "https://armyinform.com.ua/2026/07/19/akt-teroryzmu-na-mori-rosiya-vdaryla-krylatymy-raketamy-po-czyvilnomu-sudnu",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T17:54:30.000Z",
+   "summaryRaw": "Про це повідомили Військово-Морські Сили ЗСУ. Судно у момент атаки рухалося на вихід із зони бойових дій із вантажем збіжжя...."
+  },
+  {
+   "id": "eb6238847cd9",
+   "title": "‘All we could do was watch our merchandise burn’: Russian small business owners respond to losing their stock when Ukrainian drones hit two Wildberries warehouses",
+   "url": "https://meduza.io/en/feature/2026/07/19/all-we-could-do-was-watch-our-merchandise-burn-russian-small-business-owners-respond-to-losing-their-stock-when-ukrainian-drones-hit-two-wildberries-warehouses",
+   "source": "meduza-en",
+   "sourceName": "Meduza (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:51:13.000Z",
+   "summaryRaw": "On the night of July 18, Ukrainian drones struck two Wildberries warehouses — one outside Moscow and one in the Tambov region. At least eight people were killed and more than 80 injured. One strike hit the company’s major logistics center in Elektrostal, which sent a smoke plume drifting more than 200 kilometers (almost 125 miles) and damaged up to 15 percent of the company’s total warehouse space"
+  },
+  {
+   "id": "d58d3b61f3fe",
+   "title": "Russian forces hit military depot with Western supplies at port of Yuzhny",
+   "url": "https://tass.com/defense/2162249",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:40:24.000Z",
+   "summaryRaw": "It was a depot with military property supplied by Western countries for the Ukrainian army, the Russian defense ministry said"
+  },
+  {
+   "id": "0344d7698988",
+   "title": "Russian forces hit Odessa port infrastructure",
+   "url": "https://tass.com/defense/2162247",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:39:00.000Z",
+   "summaryRaw": "Onyx anti-ship missiles, air-launched cruise missiles, and loitering munitions hit port infrastructure, the Russian defense ministry said"
+  },
+  {
+   "id": "374b7b362342",
+   "title": "Putin congratulates North Korea on upcoming anniversary of victory in Korean War",
+   "url": "https://tass.com/politics/2162243",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:37:44.000Z",
+   "summaryRaw": "It is referred to as the Great Fatherland Liberation War in North Korea"
+  },
+  {
+   "id": "8b291ae0c1e6",
+   "title": "Russia’s Rublev wins Bastad ATP tournament in Sweden",
+   "url": "https://tass.com/sports/2162239",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:36:31.000Z",
+   "summaryRaw": "Russia’s tennis star has won Italy’s second-seeded Luciano Darderi"
+  },
+  {
+   "id": "3385f0fc7c84",
+   "title": "КНДР будет стоять с Россией до Победы: в Кремле приняли главу МИД Северной Кореи",
+   "url": "https://topwar.ru/286585-kndr-budet-stojat-s-rossiej-do-pobedy-v-kremle-prinjali-glavu-mid-severnoj-korei.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T17:34:11.000Z",
+   "summaryRaw": "Пхеньян подтверждает стратегический курс на сотрудничество с Россией"
+  },
+  {
+   "id": "037a8a500439",
+   "title": "Following Ukrainian drone strikes on its biggest warehouse, Russian online retail giant Wildberries offers sellers discounts and loans, but no compensation for destroyed goods",
+   "url": "https://meduza.io/en/feature/2026/07/19/following-ukrainian-drone-strikes-on-its-biggest-warehouse-russian-online-retail-giantwildberries-offers-sellers-discounts-and-loans-but-no-compensation-for-destroyed-goods",
+   "source": "meduza-en",
+   "sourceName": "Meduza (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:33:16.000Z",
+   "summaryRaw": "After a Ukrainian attack, two Wildberries warehouses caught fire in the Moscow and Tambov regions. The fire at the warehouse in Elektrostal has still not been extinguished. It remains unknown how many goods burned along with the buildings or what losses sellers will face. Wildberries said it will take about another month to calculate the damage. Immediately after the strikes, Wildberries CEO Tatya"
+  },
+  {
+   "id": "d9beb1306a2c",
+   "title": "They pried the gates open with their hands. They jumped from a freight door. Workers describe the chaos inside two burning warehouses run by Wildberries, Russia’s largest online retailer.",
+   "url": "https://meduza.io/en/feature/2026/07/19/they-pried-the-gates-open-with-their-hands-they-jumped-from-a-freight-door-workers-describe-the-chaos-inside-two-burning-warehouses-run-by-wildberries-russia-s-largest-online-retailer",
+   "source": "meduza-en",
+   "sourceName": "Meduza (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:22:52.000Z",
+   "summaryRaw": "Wildberries warehouses in Moscow and Tambov oblasts caught fire after Ukrainian drone strikes, and the evacuation of employees was marred by violations, according to eyewitness accounts cited by Post- magazine and the independent investigative outlet iStories. In some sections, managers kept workers inside the burning buildings; employees had to open automatic gates by hand, evacuate chaotically t"
+  },
+  {
+   "id": "0529ab7539ec",
+   "title": "Ukrainian drones torched a Wildberries warehouse outside Moscow. In that town, the weekend went on as usual.",
+   "url": "https://meduza.io/en/feature/2026/07/19/ukrainian-drones-torched-a-wildberries-warehouse-outside-moscow-in-that-town-the-weekend-went-on-as-usual",
+   "source": "meduza-en",
+   "sourceName": "Meduza (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:16:27.000Z",
+   "summaryRaw": "In the early hours of July 18, Ukrainian drones struck a Wildberries warehouse in Elektrostal, a city outside Moscow. Smoke from the fire spread across more than 5,000 square kilometers (about 1,930 square miles) — twice the area of Moscow — and was captured in satellite imagery and footage shot from an airplane. Yet at first glance, city life seemed to have barely changed: people pushed strollers"
+  },
+  {
+   "id": "29b54e53df95",
+   "title": "Trump calls for Iran provisions in Russia sanctions bill because \"that's what Lindsey wanted to do\"",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044839",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T17:07:00.000Z",
+   "summaryRaw": "US President Donald Trump has again called on Congress to include Iran-related provisions in a bipartisan Russia sanctions bill co-authored by the late Senator Lindsey Graham, claiming that Graham would have wanted this."
+  },
+  {
+   "id": "6055a9efeae9",
+   "title": "Fires erupt at three Russian oil depots after Ukraine targets fuel supply chain overnight in Stavropol Krai",
+   "url": "https://euromaidanpress.com/2026/07/19/ukraine-strikes-russian-oil-depots-deep-inside-stavropol-krai",
+   "source": "euromaidan",
+   "sourceName": "Euromaidan Press",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T16:58:07.000Z",
+   "summaryRaw": "Ukraine confirmed strikes on Russian fuel infrastructure after drone attacks caused fires at oil depots in Russia’s Stavropol Krai."
+  },
+  {
+   "id": "62f0f98223cb",
+   "title": "Russian Military Sees War With Ukraine Turning Into an Iran-Iraq-Style ‘War of Cities’",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMjZUOUJraFM5dVF6TW9oNHFPN1ByNUppaEE1cGk3cnl6QzNfZl9xN3U4TGlwaEZSM2JMS1BiNFhXTDdMSUdiOVI2RHFTZXV0WVJRYUR0TlozQUxxZm5UY0l0a0pwNngzWExpTFBBU0RuQjZwTUlUM0NMdFZVRndsaUNUSzVWVnExMUtLWmxETTJMaElULWJpbmdLTXZhR1lmdUVCbTF3Q0FCZ09JZHg3QWhQYzdNdUU?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T16:48:58.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOMjZUOUJraFM5dVF6TW9oNHFPN1ByNUppaEE1cGk3cnl6QzNfZl9xN3U4TGlwaEZSM2JMS1BiNFhXTDdMSUdiOVI2RHFTZXV0WVJRYUR0TlozQUxxZm5UY0l0a0pwNngzWExpTFBBU0RuQjZwTUlUM0NMdFZVRndsaUNUSzVWVnExMUtLWmxETTJMaElULWJpbmdLTXZhR1lmdUVCbTF3Q0FCZ09JZHg3QWhQYzdNdUU?oc=5\" target=\"_blank\">Russian Military Sees War With Ukraine Turning Into an Iran-Iraq-Style ‘War of C"
+  },
+  {
+   "id": "e2806d142b8a",
+   "title": "Не одно, а четыре: МО подтвердило дневные удары по грузовым судам Украины",
+   "url": "https://topwar.ru/286583-ne-odno-a-chetyre-mo-podtverdilo-dnevnye-udary-po-gruzovym-sudam-ukrainy.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T16:36:58.000Z",
+   "summaryRaw": "Отсечение бандеровского режима от поставок морем продолжается"
+  },
+  {
+   "id": "8cd11eeadb5b",
+   "title": "Four injured in Russian attacks on Nikopol district, woman in serious condition",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044837",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T16:28:00.000Z",
+   "summaryRaw": "Four people were injured in Russian attacks on the Nikopol district of Dnipropetrovsk Oblast on 19 July."
+  },
+  {
+   "id": "8f1400bbaeec",
+   "title": "Ukrainian drones slash Kerch ferry crossing capacity by 75%, as daily strikes continue on Russian vessels and occupation energy infrastructure",
+   "url": "https://euromaidanpress.com/2026/07/19/madyar-ukrainian-drones-cripple-russian-ferry-crossing",
+   "source": "euromaidan",
+   "sourceName": "Euromaidan Press",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T16:19:39.000Z",
+   "summaryRaw": "Ukraine’s drone forces reported strikes against Russian logistics and energy infrastructure, including the Kerch ferry crossing, Black Sea vessels, and power substations in occupied Crimea and eastern and southern Ukraine."
+  },
+  {
+   "id": "cad0345bebf5",
+   "title": "Trump called for Iran to be included in sanctions against Russia: That was what Lindsey Graham wanted",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc3g2ZExMVEx0b1VpN3U4aThESVRqNHZBaXRiSy1FQXBONEZYdGhiNUNPZXk4UXlZWDVzVkJOeVVVUFRDMnE5WWR4dzNQTlNTdy15TnJBWG1VdW1YVXF1YXpEXzh4ZGotM2tZWDMzZ3paVHZ2bDZNS2c5Q1FwaTg5RHhVUUItbDRrSFdoQmMwd3VCQWpOa3hNUTRnMWtKZw?oc=5",
+   "source": "censor",
+   "sourceName": "Censor.NET (EN)",
+   "state": false,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T16:16:00.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOc3g2ZExMVEx0b1VpN3U4aThESVRqNHZBaXRiSy1FQXBONEZYdGhiNUNPZXk4UXlZWDVzVkJOeVVVUFRDMnE5WWR4dzNQTlNTdy15TnJBWG1VdW1YVXF1YXpEXzh4ZGotM2tZWDMzZ3paVHZ2bDZNS2c5Q1FwaTg5RHhVUUItbDRrSFdoQmMwd3VCQWpOa3hNUTRnMWtKZw?oc=5\" target=\"_blank\">Trump called for Iran to be included in sanctions against Russia: That was what Lindsey Graham wanted</a>&nbsp;&n"
+  },
+  {
+   "id": "5d5b94c27ec6",
+   "title": "Kerch Ferry Loses 75% of Capacity in Two Weeks",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSWVYR3AyeE9sWEtEN3V3d3gwdWVpRHJqQ25ZSElEaVItRzd5UWxoSUEycjF4M05TcVU5bWNVWk1mYzFLYWhpMVZqTHBfYXBWLVpsU3VRQjlKSVdsS1J5QjNQaVBnTllla0VlMGpSUmdqLWhvcE5uUkVrSWQ3WXBaRHlJQQ?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T16:10:57.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQSWVYR3AyeE9sWEtEN3V3d3gwdWVpRHJqQ25ZSElEaVItRzd5UWxoSUEycjF4M05TcVU5bWNVWk1mYzFLYWhpMVZqTHBfYXBWLVpsU3VRQjlKSVdsS1J5QjNQaVBnTllla0VlMGpSUmdqLWhvcE5uUkVrSWQ3WXBaRHlJQQ?oc=5\" target=\"_blank\">Kerch Ferry Loses 75% of Capacity in Two Weeks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Мілітарний</font>"
+  },
+  {
+   "id": "37fddd02f11c",
+   "title": "Top North Korean diplomat says Kim reiterates commitment to developing ties with Russia",
+   "url": "https://tass.com/world/2162205",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T16:03:53.000Z",
+   "summaryRaw": "The Russian leader gave a high assessment to the relations between the two countries and expressed gratitude for North Korea’s assistance during the special military operation, Russian presidential press secretary Dmitry Peskov said"
+  },
+  {
+   "id": "e11d0ee54838",
+   "title": "Ukrainian oil producer wins US$10.9m in court case against Russia",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044835",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T16:03:00.000Z",
+   "summaryRaw": "The Commercial Court of Odesa Oblast has ruled to recover UAH 486 million (approx. US$10.9 million) in damages from the Russian Federation in favour of Ukrainian oil producer Ekobiotek-Ukraina LLC."
+  },
+  {
+   "id": "20c283489971",
+   "title": "Казахстан осудил атаку дронов на танкеры КТК, сделав обезличенное заявление",
+   "url": "https://topwar.ru/286582-kazahstan-osudil-ataku-dronov-na-tankery-ktk-sdelav-obezlichennoe-zajavlenie.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T15:57:44.000Z",
+   "summaryRaw": "В заявлении ни разу не упоминается Украина, хотя КТК четко указал, что суда атаковали украинские дроны"
+  },
+  {
+   "id": "87eb86010ad5",
+   "title": "Putin notes North Korean military’s assistance during special op — Kremlin spokesman",
+   "url": "https://tass.com/world/2162203",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T15:44:10.000Z",
+   "summaryRaw": "He stressed that the exploits of the North Korean military who helped our soldiers will never be forgotten in our country and recalled that they had been awarded with state decorations, Putin’s press secretary Dmitry Peskov said"
+  },
+  {
+   "id": "546e23c692ff",
+   "title": "Putin asks top North Korean diplomat to convey greetings to Kim — Kremlin spokesman",
+   "url": "https://tass.com/world/2162201",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T15:41:52.000Z",
+   "summaryRaw": "Putin conveyed his warmest greetings to North Korean leader Kim Jong Un, Putin’s press secretary Dmitry Peskov said"
+  },
+  {
+   "id": "e38392507e39",
+   "title": "Не хватает финансов: Минобороны Италии распродаёт пистолеты-пулемёты 1938 года",
+   "url": "https://topwar.ru/286581-ne-hvataet-finansov-minoborony-italii-rasprodaet-pistolety-pulemety-1938-goda.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T15:38:06.000Z",
+   "summaryRaw": "Запасы МАВ 38 будут продавать как коллекционерам и музеям, так и охранным компаниям"
+  },
+  {
+   "id": "8c3d83e34cea",
+   "title": "Defense Forces Begin Using Heavy Bomber Drones to Transport Kamikaze UGVs",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVmZCdzFrUEtCX1BrMlhMSFhKUTdZcUVjSEJxenZJU1pRTzQ3VGs5YlF3NlQyWTloS1FELXlyMDg5dnhCOWNPS0kwUm5QMWpqMEpOY2hjY0llMWdfWGNCeUF0WFpPWXBJWDdTdmpRM2JQRWlSU0dKNzhfUkRJc3RyeA?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T15:24:52.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNVmZCdzFrUEtCX1BrMlhMSFhKUTdZcUVjSEJxenZJU1pRTzQ3VGs5YlF3NlQyWTloS1FELXlyMDg5dnhCOWNPS0kwUm5QMWpqMEpOY2hjY0llMWdfWGNCeUF0WFpPWXBJWDdTdmpRM2JQRWlSU0dKNzhfUkRJc3RyeA?oc=5\" target=\"_blank\">Defense Forces Begin Using Heavy Bomber Drones to Transport Kamikaze UGVs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Мілітарний</font>"
+  },
+  {
+   "id": "ef4595171e86",
+   "title": "В медиа США заявили, что Иран сбил свой Shahed, а оказалось - американский LUCAS",
+   "url": "https://topwar.ru/286580-v-media-ssha-zajavili-chto-iran-sbil-svoj-shahed-a-okazalos-amerikanskij-lucas.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T15:14:26.000Z",
+   "summaryRaw": "А сколько критики было в адрес наших «Гераней»"
+  },
+  {
+   "id": "3123a54cac3d",
+   "title": "Russia launches 50-60 aerial assets in strikes on Odesa Oblast daily",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044830",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T15:00:00.000Z",
+   "summaryRaw": "Odesa Oblast has seen at least 10 air-raid warnings per day in recent days, with the Russians deploying 50-60 aerial assets against the oblast daily."
+  },
+  {
+   "id": "91aa77ad0e38",
+   "title": "Zelenskyy: Ballistic missiles are why Putin still believes in his war",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044828",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T14:21:00.000Z",
+   "summaryRaw": "President Volodymyr Zelenskyy has stressed that Russia is betting on ballistic missiles in its war against Ukraine."
+  },
+  {
+   "id": "d56c833ccee0",
+   "title": "«Доктор Зло» з Мордовії отримав чергову нову підозру",
+   "url": "https://armyinform.com.ua/2026/07/19/doktor-zlo-z-mordoviyi-otrymav-chergovu-novu-pidozru",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T14:19:39.000Z",
+   "summaryRaw": "Детальне досьє на окупанта оприлюднила Книга катів українського народу. Хто підозрюваний Сорокін Ілля Анатолійович (2 серпня 1990 р. н.)..."
+  },
+  {
+   "id": "25e76d1a6583",
+   "title": "Russians hit postal terminal in Kharkiv suburbs with three Banderol missiles",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044827",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T14:04:00.000Z",
+   "summaryRaw": "Russia attacked the Kharkiv suburbs with three S8000 Banderol missiles, killing four people and injuring 20."
+  },
+  {
+   "id": "ea03f7d195b5",
+   "title": "Russia Used Two-Thirds of Its Annual Zircon Missile Production in 19 Days of July",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbE5jWHo2ZGxYa3FFTzB4Szlwd0F6dVRVcFpOV05nTy1hdnliQ2Y0RkJJSUNmMEJTUFEzYTVlZ00zaTE3U1E5RFJBTXZ2RjNGNnFSLUVLVkttZUFieFE4cUI0emNTZUN2NGFpWUNZUUNzLW03eEFkeHRpblk4X0xHQUtKbmd2c2JDc19GbW1oX3llaDFMOUJTdDRMemhYdzBhb05sRHM2TjEzTkRDUzdBNVd5Zw?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T14:03:19.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNbE5jWHo2ZGxYa3FFTzB4Szlwd0F6dVRVcFpOV05nTy1hdnliQ2Y0RkJJSUNmMEJTUFEzYTVlZ00zaTE3U1E5RFJBTXZ2RjNGNnFSLUVLVkttZUFieFE4cUI0emNTZUN2NGFpWUNZUUNzLW03eEFkeHRpblk4X0xHQUtKbmd2c2JDc19GbW1oX3llaDFMOUJTdDRMemhYdzBhb05sRHM2TjEzTkRDUzdBNVd5Zw?oc=5\" target=\"_blank\">Russia Used Two-Thirds of Its Annual Zircon Missile Production in 19 Days of July</a>"
+  },
+  {
+   "id": "b129bcac5a2b",
+   "title": "Встигли вистрибнути, але не втекли: на Лиманському напрямку вполювали російських квадроциклістів",
+   "url": "https://armyinform.com.ua/2026/07/19/vstygly-vystrybnuty-ale-ne-vtekly-na-lymanskomu-napryamku-vpolyuvaly-rosijskyh-kvadroczyklistiv",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T13:57:58.000Z",
+   "summaryRaw": "Відео бойової роботи було оприлюднене на каналі батальйону. «Пілоти Signum тримають окупантів у постійній напрузі на Лиманському напрямку. Ті, хто..."
+  },
+  {
+   "id": "71c17d069587",
+   "title": "ВС РФ продвинулись в Красном Лимане и заняли новые позиции в южной части города",
+   "url": "https://topwar.ru/286570-vs-rf-prodvinulis-v-krasnom-limane-i-zanjali-novye-pozicii-v-juzhnoj-chasti-goroda.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T13:56:55.000Z",
+   "summaryRaw": "Противник практически утратил возможность оказывать организованное сопротивление в Красном Лимане"
+  },
+  {
+   "id": "af0e124a75fe",
+   "title": "Vucic says will not impose sanctions against Russia, wants to maintain friendship with it",
+   "url": "https://tass.com/world/2162175",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T13:50:45.000Z",
+   "summaryRaw": "\"My policy is no sanctions and that we want to maintain friendly relations with Russia,\" he told reporters while visiting the Lapovo municipality"
+  },
+  {
+   "id": "2c4c73bf00bc",
+   "title": "Действия ВСУ вписываются в принятую США в 2019 году доктрину ослабления России",
+   "url": "https://topwar.ru/286576-dejstvija-vsu-vpisyvajutsja-v-prinjatuju-ssha-v-2019-godu-doktrinu-oslablenija-rossii.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T13:50:18.000Z",
+   "summaryRaw": "В доктрине 2019 года предполагается максимальное ослабление России, избегая прямого столкновения"
+  },
+  {
+   "id": "7000b7d6e8f3",
+   "title": "Трамп подпишет «закон Грэма» о санкциях против России, если туда внесут и Иран",
+   "url": "https://topwar.ru/286575-tramp-podpishet-zakon-grjema-o-sankcijah-protiv-rossii-esli-tuda-vnesut-i-iran.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T13:47:22.000Z",
+   "summaryRaw": "США хотят надавить на Иран еще и с экономической стороны, хотя республика и так под американскими санкциями"
+  },
+  {
+   "id": "73ca0858dbf6",
+   "title": "How Aster Missile Licensing Could Pave the Way for Ukraine to Get Comet Air-to-Air Missile with 200–300 km Range",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNclNIcWFiUW52SFZJWnE4Zlc5cDI2eTA3dTdjNUp2MEItMm9UQzZBQ0ItcFZFNlZXQ0FUSmFOUmRXVGlmeHFpVHRnWG9mWUctT1gwNlBYUndaMWxHaXV3MHpFMVUyUzByZWhQRzRsUlZGYllGTGhCam5mZzhvZFg1WGxZZEhIeG9IMU9IMjNuQmlRZWlIQVVXcFM0UnQ0UU9QRVhWc251dlA0OG40Q091d29lLURJV2tHSkg1d2d5ZGVRRmJsY2hrQUxpUVhjLUNzOXc2NklzeE1lLTh4aEU2TUZLam1VLVFO?oc=5",
+   "source": "defexpress",
+   "sourceName": "Defense Express",
+   "state": false,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T13:43:53.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxNclNIcWFiUW52SFZJWnE4Zlc5cDI2eTA3dTdjNUp2MEItMm9UQzZBQ0ItcFZFNlZXQ0FUSmFOUmRXVGlmeHFpVHRnWG9mWUctT1gwNlBYUndaMWxHaXV3MHpFMVUyUzByZWhQRzRsUlZGYllGTGhCam5mZzhvZFg1WGxZZEhIeG9IMU9IMjNuQmlRZWlIQVVXcFM0UnQ0UU9QRVhWc251dlA0OG40Q091d29lLURJV2tHSkg1d2d5ZGVRRmJsY2hrQUxpUVhjLUNzOXc2NklzeE1lLTh4aEU2TUZLam1VLVFO?oc=5\" target=\"_blank\">How Aster Missi"
+  },
+  {
+   "id": "1ebe8749a25f",
+   "title": "Russian forces hit Ukrainian army’s logistics center in Chernigov Region",
+   "url": "https://tass.com/defense/2162173",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T13:43:26.000Z",
+   "summaryRaw": "The center was used to deliver military cargoes in the interests of the Ukrainian army, the Russian defense ministry said"
+  },
+  {
+   "id": "a037bde53568",
+   "title": "Russian forces hit Ukrainian army’s gas processing facility in Kharkov Region",
+   "url": "https://tass.com/defense/2162171",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T13:42:08.000Z",
+   "summaryRaw": "Radar control data indicate that the target was hit successfully, the Russian defense ministry said"
+  },
+  {
+   "id": "2d58e9ac9915",
+   "title": "Russians attack Izium in Kharkiv Oblast: 20 injured, including one-year-old child – photos",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044823",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T13:26:00.000Z",
+   "summaryRaw": "Russian forces attacked the town of Izium in Kharkiv Oblast with drones on the morning of 19 July, injuring 20 people, including a one-year-old boy."
+  },
+  {
+   "id": "0135b385f67f",
+   "title": "На Покровський та Слов’янський напрямки припала половина ворожих атак — Генштаб ЗСУ",
+   "url": "https://armyinform.com.ua/2026/07/19/na-pokrovskyj-ta-slovyanskyj-napryamky-prypala-polovyna-vorozhyh-atak-genshtab-zsu",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T13:25:35.000Z",
+   "summaryRaw": "Оперативна інформація станом на 16:00 19 липня оприлюднив Генеральний штаб ЗСУ. Тривають артилерійські обстріли прикордонних районів. Сьогодні на Сумщині постраждали..."
+  },
+  {
+   "id": "2ac3afdab79d",
+   "title": "«Така смачна «випічка», що ворожі гелікоптери падають»: вбивчі «пекарі» розповіли про свою роботу",
+   "url": "https://armyinform.com.ua/2026/07/19/taka-smachna-vypichka-shho-vorozhi-gelikoptery-padayut-vbyvchi-pekari-rozpovily-pro-svoyu-robotu",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T13:15:23.000Z",
+   "summaryRaw": "Репортаж про майстрів був оприлюднений 19 липня на каналі бригади. До того як дрон злітає — боєприпас уже готовий. У..."
+  },
+  {
+   "id": "bc628fe66adb",
+   "title": "Израиль захватил ещё одно поселение на юге Сирии",
+   "url": "https://topwar.ru/286572-izrail-zahvatil-esche-odno-poselenie-na-juge-sirii.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T13:15:01.000Z",
+   "summaryRaw": "Тель-Авив создает «зону безопасности» не только в Ливане, но и в Сирии"
+  },
+  {
+   "id": "d5f13242a535",
+   "title": "Beyond repair: satellite image shows destroyed Russian Tu-95MS bomber",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044822",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T13:09:00.000Z",
+   "summaryRaw": "Satellite images of the Engels-2 air base confirm the destruction of a Russian Tu-95MS strategic bomber following a strike by Ukraine's Security Service of Ukraine."
+  },
+  {
+   "id": "c279d76a54cb",
+   "title": "Russian troops gain new foothold in Dnepropetrovsk Region after liberating Volnoye",
+   "url": "https://tass.com/defense/2162161",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T13:07:08.000Z",
+   "summaryRaw": "Before storming the village, aerial reconnaissance identified enemy machine-gun and mortar firing positions, the Russian Defense Ministry reported"
+  },
+  {
+   "id": "ae37c348fdcf",
+   "title": "Number injured in Kyiv rises to 17, 89-year-old woman killed",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044819",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T13:06:00.000Z",
+   "summaryRaw": "The number of people injured in Russia's overnight attack on Kyiv has risen to 17, with one person killed."
+  },
+  {
+   "id": "e9a466c05ec7",
+   "title": "Russian missile hits retail company warehouse during attack on Kyiv",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044816",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T13:00:00.000Z",
+   "summaryRaw": "A warehouse belonging to GoodWine, a wine retail company, was destroyed on the night of 18-19 July. This is the second attack on the company's facilities."
+  },
+  {
+   "id": "2590977ed542",
+   "title": "«Камандованіє нам сказало: “О, новоє мясо прівєзлі”»: російський полонений розповів про ставлення командирів",
+   "url": "https://armyinform.com.ua/2026/07/19/kamandovaniye-nam-skazalo-o-novoye-myaso-privyezli-rosijskyj-polonenyj-rozpoviv-pro-stavlennya-komandyriv",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T12:54:14.000Z",
+   "summaryRaw": "Відео розмови з окупантом було оприлюднене 19 липня на каналі «Рубіжу». «Ялта» розповів, чому боявся путіна більше, ніж українського полону,..."
+  },
+  {
+   "id": "188cd9a69c39",
+   "title": "Satellite Images Confirm Destruction of Russian Tu-95MS Bomber",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRHphY2JWUG1hZUppZGFmZklsamo5ckJRUmpPR0FUYzBoVmc4bGNmRTkxRzJFTGRMMTVaTTRoSVB3V1VfMzNLVXh2TXcxZkY3UWIzaDFZcjl2Z01OS3ZHOEJWZ2t5eTRZcVdNTDdCbzZkaHFkempVSFpVZTNnT0ZRMHJvRU8ydldnNVBrS1Jla0ZXQ0JKZVhEYVBR?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T12:49:21.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPRHphY2JWUG1hZUppZGFmZklsamo5ckJRUmpPR0FUYzBoVmc4bGNmRTkxRzJFTGRMMTVaTTRoSVB3V1VfMzNLVXh2TXcxZkY3UWIzaDFZcjl2Z01OS3ZHOEJWZ2t5eTRZcVdNTDdCbzZkaHFkempVSFpVZTNnT0ZRMHJvRU8ydldnNVBrS1Jla0ZXQ0JKZVhEYVBR?oc=5\" target=\"_blank\">Satellite Images Confirm Destruction of Russian Tu-95MS Bomber</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Мілітарний</font>"
+  },
+  {
+   "id": "4b2d65da6cae",
+   "title": "Ukraine reduces Russia's ferry crossing capacity in Kerch by 75%",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044817",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T12:46:00.000Z",
+   "summaryRaw": "Robert \"Magyar\" Brovdi, Commander of Ukraine's Unmanned Systems Forces (USF), has said that Ukrainian forces have disabled or significantly damaged ferries serving the Kerch crossing over the last two weeks, reducing its capacity by 75%."
+  },
+  {
+   "id": "97339f9a771e",
+   "title": "Пентагон обеспокоен способностью Ирана адаптироваться к системам обороны ВС США",
+   "url": "https://topwar.ru/286571-pentagon-obespokoen-sposobnostju-irana-adaptirovatsja-k-sistemam-oborony-vs-ssha.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T12:43:53.000Z",
+   "summaryRaw": "Эффективные удары по американским базам в Иордании стали неожиданностью для Вашингтона"
+  },
+  {
+   "id": "54be30c21029",
+   "title": "«Поставлена задача влаштувати випалену землю на 2 дні»: у «К-20» показали, як вирізають ворожий тил",
+   "url": "https://armyinform.com.ua/2026/07/19/postavlena-zadacha-vlashtuvaty-vypalenu-zemlyu-na-2-dni-u-k-20-pokazaly-yak-vyrizayut-vorozhyj-tyl",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T12:33:04.000Z",
+   "summaryRaw": "Репортаж про бойову роботу був оприлюднений 19 липня на каналі бригади. «Бачили такі і схожі заголовки: «Коли у ворога закінчуються..."
+  },
+  {
+   "id": "6ae36a9360f8",
+   "title": "Trump believes Iran should be added to sanctions bill against Russia",
+   "url": "https://tass.com/world/2162159",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T12:27:14.000Z",
+   "summaryRaw": "Republicans should add Iran to the Russian Sanctions Bill, he wrote on Truth Social"
+  },
+  {
+   "id": "00ce869dadbe",
+   "title": "Russia launches record ballistic missile barrage on Kyiv, firing over 40 missiles in under an hour",
+   "url": "https://euromaidanpress.com/2026/07/19/russia-launches-record-ballistic-missile-barrage-on-kyiv",
+   "source": "euromaidan",
+   "sourceName": "Euromaidan Press",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T12:25:35.000Z",
+   "summaryRaw": "Russia's overnight assault on Kyiv killed at least one person and injured at least 16."
+  },
+  {
+   "id": "738178e4e8ef",
+   "title": "Satellite image appears to confirm destroyed Tu-95 at Engels base",
+   "url": "https://defence-blog.com/satellite-image-appears-to-confirm-destroyed-tu-95-at-engels-base",
+   "source": "defenceblog",
+   "sourceName": "Defence Blog",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T12:24:55.000Z",
+   "summaryRaw": "A satellite photograph taken Sunday appears to confirm what Ukraine’s president claimed just two days earlier: a Russian strategic bomber sitting at Engels air base did not survive a recent drone strike. The open-source monitoring community AviVector published commercial satellite imagery from Planet Labs PBC, dated July 19, showing what the group identified as a […]"
+  },
+  {
+   "id": "8126efa3142b",
+   "title": "Russian attacks kill 20, injure over 140 across Ukraine as missiles slam Kyiv, Kharkiv",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3REhRMVpTZGdSTVR3RGZRcVhpWG5ndW84MTFPalFFWTdJajEtbXZ5NmdmbGFXRFpGM2FrZGR6eUVnajNfXzVDY0pfNXM4MkpEWUFpTUZJVHRQenh6ajJBNVFjSW52LXo0VGRXT3Z3?oc=5",
+   "source": "kyivindep",
+   "sourceName": "Kyiv Independent",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T12:17:35.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFA3REhRMVpTZGdSTVR3RGZRcVhpWG5ndW84MTFPalFFWTdJajEtbXZ5NmdmbGFXRFpGM2FrZGR6eUVnajNfXzVDY0pfNXM4MkpEWUFpTUZJVHRQenh6ajJBNVFjSW52LXo0VGRXT3Z3?oc=5\" target=\"_blank\">Russian attacks kill 20, injure over 140 across Ukraine as missiles slam Kyiv, Kharkiv</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Kyiv Independent</font>"
+  },
+  {
+   "id": "77c0d3a6662a",
+   "title": "Президент сьогодні спілкувався ще з трьома досвідченими українськими військовими",
+   "url": "https://armyinform.com.ua/2026/07/19/prezydent-sogodni-spilkuvavsya-shhe-z-troma-dosvidchenymy-ukrayinskymy-vijskovymy",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T12:13:40.000Z",
+   "summaryRaw": "Про це Президент повідомив вдень 19 липня. Глава держави спілкувався з командувачем Об’єднаних Сил ЗСУ генерал-майором Михайлом Драпатим, заступником начальника..."
+  },
+  {
+   "id": "c53afe8f98e4",
+   "title": "Tokyo should take first step by reversing its hostile policy toward Moscow — Deputy FM",
+   "url": "https://tass.com/politics/2162157",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T12:12:00.000Z",
+   "summaryRaw": "It was Japan that in February 2022, to please Western solidarity, initiated a hostile sanctions policy against Russia, which it continues to this day, Andrei Rudenko stressed"
+  },
+  {
+   "id": "f891fdb00779",
+   "title": "«Прапори просто скидають і кажуть солдатам виставляти»: полонений окупант про флаговтик у Костянтинівці",
+   "url": "https://armyinform.com.ua/2026/07/19/prapory-prosto-skydayut-i-kazhut-soldatam-vystavlyaty-polonenyj-okupant-pro-flagovtyk-u-kostyantynivczi",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T11:51:51.000Z",
+   "summaryRaw": "Про це у відео, яке оприлюднив 19-й армійський корпус, розповів російський полонений. Він підтверджує: окупантів змушували розгортати прапори в Костянтинівці..."
+  },
+  {
+   "id": "840600ba1dfa",
+   "title": "Number injured in Russian strike on amusement park in Odesa Oblast rises to 12, including 2-year-old child – photo",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044809",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T11:37:00.000Z",
+   "summaryRaw": "A Russian strike on an amusement park in Odesa Oblast killed a 16-year-old boy and injured 12 people, including children."
+  },
+  {
+   "id": "bf3c54ebf516",
+   "title": "Russian army strikes transport and logistics infrastructure used by Ukrainian forces",
+   "url": "https://tass.com/defense/2162153",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T11:32:31.000Z",
+   "summaryRaw": "Russian troops also struck deployment points for Ukrainian forces and foreign mercenaries, the Russian Defense Ministry reported"
+  },
+  {
+   "id": "2ada612c0f33",
+   "title": "Two unmanned boats of Ukrainian Armed Forces destroyed in the Black Sea",
+   "url": "https://tass.com/defense/2162149",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T11:23:18.000Z",
+   "summaryRaw": "Air defense systems intercepted 2 Neptune-MD missiles, HIMARS missile, 678 Ukrainian UAVs, the Defense Ministry reported"
+  },
+  {
+   "id": "6387ce0dd719",
+   "title": "​Romania to Buy €7.5 Billion in Weapons, Including UAVs Co-Produced with Ukraine",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEh4ZnJVS0lTa3p2SkluQTVZeUE2MksycnVETnVMWEJsb1lvY2c1dTFPRWoxSnBxQWRENHgwS2tHN1FjT0ZsNUFpOG1UZDhIdUJtTTNHMHo5Q2E2aWJ3VUlUUTduZ252c1VpNWN3Ykt5VERaUm9ZczVnVjN1YWZ2NDhVUzNpZ2VEWng3eTl5aHpRMVRNaTc4bUFSSG80VWhFZVZ1TEpORGhCdHlsVG1xcDFzM04tY1pCVXc?oc=5",
+   "source": "defexpress",
+   "sourceName": "Defense Express",
+   "state": false,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T11:06:52.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEh4ZnJVS0lTa3p2SkluQTVZeUE2MksycnVETnVMWEJsb1lvY2c1dTFPRWoxSnBxQWRENHgwS2tHN1FjT0ZsNUFpOG1UZDhIdUJtTTNHMHo5Q2E2aWJ3VUlUUTduZ252c1VpNWN3Ykt5VERaUm9ZczVnVjN1YWZ2NDhVUzNpZ2VEWng3eTl5aHpRMVRNaTc4bUFSSG80VWhFZVZ1TEpORGhCdHlsVG1xcDFzM04tY1pCVXc?oc=5\" target=\"_blank\">​Romania to Buy €7.5 Billion in Weapons, Including UAVs Co-Produced with Ukr"
+  },
+  {
+   "id": "1c86e6075b67",
+   "title": "Three killed, 20 injured in Russian attack on outskirts of Kharkiv – video",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044802",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T11:01:00.000Z",
+   "summaryRaw": "Three people were killed and 20 others injured after Russian forces attacked the outskirts of Kharkiv."
+  },
+  {
+   "id": "bcc1ded43240",
+   "title": "Zelenskyy: Ukraine has struck three Russian oil depots and three Russian tankers",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044805",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T10:37:00.000Z",
+   "summaryRaw": "President Volodymyr Zelenskyy has said Ukraine struck four fuel infrastructure facilities in Russia's Stavropol Krai and three Russian shadow fleet tankers in the Black Sea."
+  },
+  {
+   "id": "579545bafe04",
+   "title": "Russian attack destroys one of Ukraine's largest logistics hubs – photos",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044803",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T10:08:00.000Z",
+   "summaryRaw": "A Russian strike hit a logistics hub in Kyiv Oblast on the night of 18-19 July, triggering a major fire."
+  },
+  {
+   "id": "a4d99b9f4edb",
+   "title": "Белый дом опасается, что новые санкции против России ударят по доллару",
+   "url": "https://topwar.ru/286565-belyj-dom-opasaetsja-chto-novye-sankcii-protiv-rossii-udarjat-po-dollaru.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T09:53:37.000Z",
+   "summaryRaw": "Доллар теряет значение в качестве валюты для мировых расчетов"
+  },
+  {
+   "id": "96fb387cd104",
+   "title": "Уражено ще один танкер «тіньового флоту» рф та три нафтобази у Ставропольському краї",
+   "url": "https://armyinform.com.ua/2026/07/19/urazheno-shhe-odyn-tanker-tinovogo-flotu-rf-ta-try-naftobazy-u-stavropolskomu-krayi",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T09:48:24.000Z",
+   "summaryRaw": "Про це повідомила 19 липня Служба безпеки України. Танкер «Avero» був задіяний у транспортуванні російської сирої нафти в період дії..."
+  },
+  {
+   "id": "de0e8b9e9dad",
+   "title": "После прилётов по Киеву Мадьяру припомнили его восторг от ударов по Wildberries",
+   "url": "https://topwar.ru/286564-posle-priletov-po-kievu-madjaru-pripomnili-ego-vostorg-ot-udarov-po-wildberries.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T09:33:33.000Z",
+   "summaryRaw": "Лайки мгновенно сменились совсем на иные оценки"
+  },
+  {
+   "id": "7ffdb58c0950",
+   "title": "Ворог здійснив одну з наймасованіших балістичних атак на Київ — Президент",
+   "url": "https://armyinform.com.ua/2026/07/19/vorog-zdijsnyv-odnu-z-najmasovanishyh-balistychnyh-atak-na-kyyiv-prezydent",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T09:22:46.000Z",
+   "summaryRaw": "Про це вранці 19 липня повідомив Президент України Володимир Зеленський. «Станом на зараз у Києві та в області відомо про..."
+  },
+  {
+   "id": "1d328adf4974",
+   "title": "Ударами по мостам США отрезали от снабжения критически важный для Ирана регион",
+   "url": "https://topwar.ru/286541-udarami-po-mostam-ssha-otrezali-ot-snabzhenija-kriticheski-vazhnyj-dlja-irana-region.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T09:08:18.000Z",
+   "summaryRaw": "В Бендер-Аббасе, помимо прочего, расположена база ВМС, позволяющая Ирану контролировать Ормузский пролив"
+  },
+  {
+   "id": "cd65acc1f090",
+   "title": "Власти Нью-Йорка ищут законный повод для ареста Нетаньяху по ордеру МУС",
+   "url": "https://topwar.ru/286562-vlasti-nju-jorka-ischut-zakonnyj-povod-dlja-aresta-netanjahu-po-orderu-mus.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T09:06:20.000Z",
+   "summaryRaw": "Израильский премьер прибудет в Нью-Йорк в сентябре на Генассамблею ООН"
+  },
+  {
+   "id": "91375590f2d4",
+   "title": "Russian attack destroys UKRTAC manufacturing plant",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044797",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T09:02:00.000Z",
+   "summaryRaw": "Read more about the aftermath of the Russian attack in the article."
+  },
+  {
+   "id": "95e76dd35505",
+   "title": "Внаслідок російського удару по Сумах загинула людина",
+   "url": "https://armyinform.com.ua/2026/07/19/vnaslidok-rosijskogo-udaru-po-sumah-zagynula-lyudyna",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T09:01:12.000Z",
+   "summaryRaw": "Про це повідомила 19 липня поліція Сумської області. За даними Сумської обласної військової адміністрації, ворог ударив по місту сьома КАБами...."
+  },
+  {
+   "id": "b1759786f401",
+   "title": "Никакой помощи Киеву: в Бундестаге призвали пересмотреть внешнюю политику ФРГ",
+   "url": "https://topwar.ru/286561-nikakoj-pomoschi-kievu-v-bundestage-prizvali-peresmotret-vneshnjuju-politiku-frg.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T08:56:00.000Z",
+   "summaryRaw": "Берлин выделяет деньги на финансирование Украины в ущерб немецкой экономике"
+  },
+  {
+   "id": "21a5a0d4fb65",
+   "title": "Ukraine's Security Service strikes major Russian shadow fleet tanker with naval drone – video",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044792",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T08:54:00.000Z",
+   "summaryRaw": "Ukraine's Security Service says its Mamai naval drone struck the Russian shadow fleet tanker Avero and drones attacked three oil depots in Russia's Stavropol Krai."
+  },
+  {
+   "id": "a9f0f7a60aa2",
+   "title": "Russian strike hits underpass near Lukianivska metro station in Kyiv – video",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044789",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T08:48:00.000Z",
+   "summaryRaw": "A direct Russian strike hit a pedestrian underpass near Lukianivska metro station during the latest large-scale attack on Kyiv."
+  },
+  {
+   "id": "0e0672afbbbf",
+   "title": "Patriot Missiles for Ukraine Found in Greece — Will Ukraine Receive Them, Can They Intercept Ballistic Missiles?",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTFo0bFBBaVctUllLNWdwMDEyWHkyZ0hiRHYxX0VRQlJDaHctYVB3UnpsdndLajN4QzktWFQxQmEzVXl4ZXhUalVRTVdzVC1pTURJZ2xUVXdkdGg1ODM2Snh6alBJVy10X3dsamN0OXFMaVpqNFJZMHBXNWhmbGp5ZVlmOTFyMlYxYW1JWTZVVUh1Vi0wNUllWTJHUlNrRDAxQmVGcThxR3BFdklwdG1sLUJqa2JSMjQ2bmlXMWNwUEdrXy1UT3ZxTTc4VXZ4bmZXYU8ta0hUN0VJUU9YdkZ1SWkwcGE?oc=5",
+   "source": "defexpress",
+   "sourceName": "Defense Express",
+   "state": false,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T08:41:42.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTFo0bFBBaVctUllLNWdwMDEyWHkyZ0hiRHYxX0VRQlJDaHctYVB3UnpsdndLajN4QzktWFQxQmEzVXl4ZXhUalVRTVdzVC1pTURJZ2xUVXdkdGg1ODM2Snh6alBJVy10X3dsamN0OXFMaVpqNFJZMHBXNWhmbGp5ZVlmOTFyMlYxYW1JWTZVVUh1Vi0wNUllWTJHUlNrRDAxQmVGcThxR3BFdklwdG1sLUJqa2JSMjQ2bmlXMWNwUEdrXy1UT3ZxTTc4VXZ4bmZXYU8ta0hUN0VJUU9YdkZ1SWkwcGE?oc=5\" target=\"_blank\">Patriot Missiles for"
+  },
+  {
+   "id": "9e96e20053a1",
+   "title": "Уражено два танкери, плавучий кран, ЗРК «Бук» та інші військові об’єкти противника — Генштаб ЗСУ",
+   "url": "https://armyinform.com.ua/2026/07/19/urazheno-dva-tankery-plavuchyj-kran-zrk-buk-ta-inshi-vijskovi-obyekty-protyvnyka-genshtab-zsu",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T08:39:21.000Z",
+   "summaryRaw": "Про це повідомив Генеральний штаб ЗСУ. Так, уражено два танкери в акваторії Чорного моря, а також плавучий кран в акваторії..."
+  },
+  {
+   "id": "ba3f88e8a413",
+   "title": "One killed in Russian attack on industrial area in Sumy",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044781",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T08:22:00.000Z",
+   "summaryRaw": "One person has been killed in a Russian guided aerial bomb strike on civilian infrastructure and an industrial area in the city of Sumy."
+  },
+  {
+   "id": "4367c694e1a3",
+   "title": "За ніч уражено 4 кораблі тіньового флоту рф у Чорному морі і 13 підстанцій на окупованих територіях",
+   "url": "https://armyinform.com.ua/2026/07/19/za-nich-urazheno-4-korabli-tinovogo-flotu-rf-u-chornomu-mori-i-13-pidstanczij-na-okupovanyh-terytoriyah",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T08:21:05.000Z",
+   "summaryRaw": "Про це вранці 19 липня повідомив командувач Сил безпілотних систем ЗСУ майор Роберт Бровді з позивним «Мадяр». Протягом ночі 19..."
+  },
+  {
+   "id": "13d47bff0961",
+   "title": "Air defense shoot down 120 Ukrainian drones in Kursk region over past day — governor",
+   "url": "https://tass.com/emergencies/2162129",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T08:11:47.000Z",
+   "summaryRaw": "Eight people were injured, Alexander Khinshtein said"
+  },
+  {
+   "id": "8dbddb7cb762",
+   "title": "Russian drone strikes passenger train in Zaporizhzhia Oblast – photo",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044780",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T08:10:00.000Z",
+   "summaryRaw": "A Russian drone struck a passenger train in Zaporizhzhia Oblast. A train conductor was injured, passengers were evacuated; railway services continue to run."
+  },
+  {
+   "id": "95d43675b20c",
+   "title": "«Я завжди розумів, що повернуся»: історія бійця «Паштета» який повернувся у стрій за 2 дні",
+   "url": "https://armyinform.com.ua/2026/07/19/ya-zavzhdy-rozumiv-shho-povernusya-istoriya-bijczya-pashteta-yakyj-povernuvsya-u-strij-za-2-dni",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T08:01:33.000Z",
+   "summaryRaw": "Відео розмови з бійцем було оприлюднене 11-м корпусом до складу якого входить 54-та бригада. Лише два дні від подання заявки..."
+  },
+  {
+   "id": "7be2aaffdd6b",
+   "title": "Ukraine strikes 3 shadow fleet tankers on Black Sea, oil depots in southwestern Russia, Zelensky says",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObmFqLTNTeDd0am9zb0VzSXRQWS1LZzNQN1FiUjdIdTBuLTMtTHlfbkx6b0JWcFgzdHF3aGg3Znd5eU1CQ0Eyd3BwVmt3OXBFOVpRUXlDRnFzS0RHcDlla01NZlQ0Z2pkank1VUc0clFzcUZqSFVTdV9hc2xpT1BKLWJWNXp3SGlLak1nVE5B?oc=5",
+   "source": "kyivindep",
+   "sourceName": "Kyiv Independent",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T07:58:23.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxObmFqLTNTeDd0am9zb0VzSXRQWS1LZzNQN1FiUjdIdTBuLTMtTHlfbkx6b0JWcFgzdHF3aGg3Znd5eU1CQ0Eyd3BwVmt3OXBFOVpRUXlDRnFzS0RHcDlla01NZlQ0Z2pkank1VUc0clFzcUZqSFVTdV9hc2xpT1BKLWJWNXp3SGlLak1nVE5B?oc=5\" target=\"_blank\">Ukraine strikes 3 shadow fleet tankers on Black Sea, oil depots in southwestern Russia, Zelensky says</a>&nbsp;&nbsp;<font color=\"#6f6f"
+  },
+  {
+   "id": "8622e9dd4f7e",
+   "title": "Drones Attacked Three Oil Depots in the Stavropol Krai",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNkwyU2t1Rzl1OHpGZU02TVFFck9fS0l5cEJ5cEFjSEljRk5PWWQ0VkVDX29kVFd6bVFqZmt0NmdpMDFOR2tYWXluQkJoQXo4WUlCRDZMSHZ0QW84bWllbkt2Vk4tR0d6c3VVM3U3NG5fdkoxaF95am1hLUJJcGdVOWdfR3RiaVFHQThRcHBZYw?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T07:47:32.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQNkwyU2t1Rzl1OHpGZU02TVFFck9fS0l5cEJ5cEFjSEljRk5PWWQ0VkVDX29kVFd6bVFqZmt0NmdpMDFOR2tYWXluQkJoQXo4WUlCRDZMSHZ0QW84bWllbkt2Vk4tR0d6c3VVM3U3NG5fdkoxaF95am1hLUJJcGdVOWdfR3RiaVFHQThRcHBZYw?oc=5\" target=\"_blank\">Drones Attacked Three Oil Depots in the Stavropol Krai</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Мілітарний</font>"
+  },
+  {
+   "id": "dde9f9fb9408",
+   "title": "View profile Kirill Nedrya (ID: 341093)",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3TDdaZDN2U0dzWHZHZlBoMEpiT0FPeWsxMl9PdHhDaWZVeUN2dnBZUnJnZmllNC1RSzRtR1Jrb0tYYmplMmg4Qg?oc=5",
+   "source": "censor",
+   "sourceName": "Censor.NET (EN)",
+   "state": false,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T07:41:52.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3TDdaZDN2U0dzWHZHZlBoMEpiT0FPeWsxMl9PdHhDaWZVeUN2dnBZUnJnZmllNC1RSzRtR1Jrb0tYYmplMmg4Qg?oc=5\" target=\"_blank\">View profile Kirill Nedrya (ID: 341093)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Цензор.НЕТ</font>"
+  },
+  {
+   "id": "7094cc527141",
+   "title": "Ukrainian drones hit Wildberries warehouses near Moscow, killing one person and injuring 61. Meduza republishes an on-the-ground report filed as the fire burned.",
+   "url": "https://meduza.io/en/feature/2026/07/19/ukrainian-drones-hit-wildberries-warehouses-near-moscow-killing-one-person-and-injuring-61-meduza-republishes-an-on-the-ground-report-filed-as-the-fire-burned",
+   "source": "meduza-en",
+   "sourceName": "Meduza (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T07:30:08.000Z",
+   "summaryRaw": "A Ukrainian attack on Wildberries warehouses in Elektrostal and an oil depot in Noginsk killed one person and injured 61 others. Nine of the injured are in serious condition, and 31 are in moderate condition. Most were diagnosed with shrapnel and blast injuries, traumatic brain injuries, fractures, burns, and smoke inhalation. The strikes triggered fires that blanketed parts of the Moscow region i"
+  },
+  {
+   "id": "6999e318aa1f",
+   "title": "Генштаб ВСУ отчитался об «эффективном» отражении ракетной атаки на Киев",
+   "url": "https://topwar.ru/286557-genshtab-vsu-otchitalsja-ob-jeffektivnom-otrazhenii-raketnoj-ataki-na-kiev.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T07:24:12.000Z",
+   "summaryRaw": "Сегодня украинская ПВО «сбивала» исключительно баллистику и гиперзвук"
+  },
+  {
+   "id": "920840aee29e",
+   "title": "«Два нєгрітьонка аткрилі двєрі, а слєдом я с арабамі»: окупанти кидають на штурми іноземців",
+   "url": "https://armyinform.com.ua/2026/07/19/dva-nyegritonka-atkryli-dvyeri-a-slyedom-ya-s-arabami-okupanty-kydayut-na-shturmy-inozemcziv",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T07:21:15.000Z",
+   "summaryRaw": "Перехоплення відповідних розмов було оприлюднене Головним управлінням розвідки Міністерства оборони України. У черговому здобутому воєнними розвідниками перехопленні роіянин на Донеччині..."
+  },
+  {
+   "id": "17b1b54823b8",
+   "title": "Russia will respond proportionately to Seoul’s deployment of Typhon missile systems — MFA",
+   "url": "https://tass.com/politics/2162125",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T07:18:41.000Z",
+   "summaryRaw": "However, Andrei Rudenko noted that the Russian Foreign Ministry currently has no information regarding the Republic of Korea's intentions to take such a step"
+  },
+  {
+   "id": "2ba2f7923e72",
+   "title": "Всіюють дороги «пиріжками»: окупанти засипають наші тили мінами з 3D-принтерів",
+   "url": "https://armyinform.com.ua/2026/07/19/vsiyuyut-dorogy-pyrizhkamy-okupanty-zasypayut-nashi-tyly-minamy-z-3d-prynteriv",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T07:02:32.000Z",
+   "summaryRaw": "Про це на стрімі АрміяTV розповів начальник групи комунікацій 48-ї інженерної Кам’янець-Подільської бригади підполковник Роман Щербина. «Противник здійснює дистанційне мінування..."
+  },
+  {
+   "id": "b8335646686b",
+   "title": "Ukrainian foreign minister urges West to exert devastating pressure on Russia after massive attack on Kyiv",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044777",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T06:56:00.000Z",
+   "summaryRaw": "Ukrainian Foreign Minister Andrii Sybiha has called for \"devastating pressure\" on Russia following its latest large-scale attack on Kyiv."
+  },
+  {
+   "id": "a8374db76f4c",
+   "title": "Российского учёного-физика из Щёлково арестовали по обвинению в госизмене",
+   "url": "https://topwar.ru/286556-rossijskogo-uchenogo-fizika-iz-schelkovo-arestovali-po-obvineniju-v-gosizmene.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T06:51:05.000Z",
+   "summaryRaw": "Это уже четвертый ученый из этого института, задержанный за госизмену"
+  },
+  {
+   "id": "0148b181e0bb",
+   "title": "Захищав Маріуполь, два роки пробув у полоні, повернувся і бомбить ворога: історія пілота Міллера",
+   "url": "https://armyinform.com.ua/2026/07/19/zahyshhav-mariupol-dva-roky-probuv-u-poloni-povernuvsya-i-bombyt-voroga-istoriya-pilota-millera",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T06:41:06.000Z",
+   "summaryRaw": "Відео з бійцем було оприлюднене на каналі центру. «Міллер» — один із захисників Маріуполя, який разом з іншими виходив з..."
+  },
+  {
+   "id": "2fb65b7e400f",
+   "title": "Zelenskyy reveals details of one of the largest ballistic missile attacks on Kyiv – photos, video",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044776",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T06:40:00.000Z",
+   "summaryRaw": "Russia carried out one of the largest ballistic missile attacks on Kyiv on the night of 18-19 July. One person was killed and 16 others were injured in Kyiv and Kyiv Oblast."
+  },
+  {
+   "id": "73572fe39418",
+   "title": "140 Ukrainian UAVs shot down overnight over Russian regions, Sea of Azov, Black Sea",
+   "url": "https://tass.com/defense/2162121",
+   "source": "tass",
+   "sourceName": "TASS",
+   "state": true,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T06:32:43.000Z",
+   "summaryRaw": "They were destroyed over the territories of the Belgorod, Bryansk, Voronezh, Kaluga, Kursk, Rostov regions, the Moscow region, the Krasnodar region, the Republic of Crimea"
+  },
+  {
+   "id": "c19e1f7ef1a4",
+   "title": "Коли схованка стає могилою: наші пілоти нищать окупантів по місцю їх залягання",
+   "url": "https://armyinform.com.ua/2026/07/19/koly-shovanka-staye-mogyloyu-nashi-piloty-nyshhat-okupantiv-po-misczyu-yih-zalyagannya",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T06:21:03.000Z",
+   "summaryRaw": "Відео бойової роботи було оприлюднене 18 липня на каналі бригади. «Коли окупант знаходить якесь укриття або підвал, він думає, що..."
+  },
+  {
+   "id": "9b105ff69364",
+   "title": "Ukrainian drones struck four Russian vessels and 13 power substations overnight",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044775",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T06:12:00.000Z",
+   "summaryRaw": "Ukraine's Unmanned Systems Forces say they struck four Russian shadow fleet vessels in the Black Sea and 13 power substations in occupied Crimea and other Russian-occupied territories overnight on the night of 18-19 July."
+  },
+  {
+   "id": "413e1a65d714",
+   "title": "Новые подробности от Минобороны по ночному удару",
+   "url": "https://topwar.ru/286555-novye-podrobnosti-ot-minoborony-po-nochnomu-udaru.html",
+   "source": "topwar",
+   "sourceName": "Topwar",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T06:09:39.000Z",
+   "summaryRaw": "Основная атака была по Киеву"
+  },
+  {
+   "id": "a5de0a168348",
+   "title": "Пам’яті полковника Олександра Очеретнюка (позивний «Чорний»)",
+   "url": "https://armyinform.com.ua/2026/07/19/pamyati-polkovnyka-oleksandra-ocheretnyuka-pozyvnyj-chornyj",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T06:00:03.000Z",
+   "summaryRaw": "«Він ніколи не сидів у штабі й не ховався за чужими спинами. Як полковник міг керувати підрозділом на відстані, але завжди був поруч зі своїми людьми. Часто говорив:..."
+  },
+  {
+   "id": "0eea844a6636",
+   "title": "Під час нічної російської атаки було знешкоджено 18 ракет та 108 БПЛА ворога — Повітряні Сили",
+   "url": "https://armyinform.com.ua/2026/07/19/pid-chas-nichnoyi-rosijskoyi-ataky-bulo-zneshkodzheno-18-raket-ta-108-bpla-voroga-povitryani-syly",
+   "source": "armyinform",
+   "sourceName": "ArmyInform",
+   "state": true,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T05:56:06.000Z",
+   "summaryRaw": "Про це повідомили 19 липня Повітряні Сили ЗСУ. Основний напрямок удару — Київ. Усього радіотехнічними військами Повітряних Сил зафіксовано 166..."
+  },
+  {
+   "id": "ccf2d9b79a23",
+   "title": "Russian attacks on Donetsk and Kherson oblasts kill five civilians and injure 31",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044770",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T05:52:00.000Z",
+   "summaryRaw": "Five people were killed and 31 injured, including four children, in Russian attacks on Donetsk and Kherson oblasts. Residential buildings and infrastructure were damaged."
+  },
+  {
+   "id": "1e86cd5e2985",
+   "title": "Russia attacks Ukraine with 41 missiles and 125 drones: 23 missile hits recorded",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044769",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T05:40:00.000Z",
+   "summaryRaw": "Russian forces launched a large-scale combined attack on Ukraine using 41 missiles and 125 drones on the night of 18-19 July. The Air Force has reported that hits by 23 missiles and 10 attack drones have been reported, and Kyiv was the main target."
+  },
   {
    "id": "0cff59874d00",
    "title": "Збільшилася кількість постраждалих внаслідок російського удару по Києву",
@@ -170,6 +1730,18 @@
    "origin": "ru",
    "date": "2026-07-19T05:25:47.000Z",
    "summaryRaw": "Предварительно, по базе отработали дроны-камикадзе типа «Герань»"
+  },
+  {
+   "id": "4e4f95814a00",
+   "title": "Russia struck amusement park in Odesa region: one child killed, six injured(updated). PHOTOS",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQzdFTmpNRUZYeUx6WFU2R0dkc1o5eGZneGl2NnROVVdCRUdjc3pmQW1Ud2NoblRpaFEzWXZLYVhJLWhrLVlPNWNKMm5SNWFnYnBUeHpCWE9IUWwxVUZkOUUtTFRSVDdoQUtrdnRob2tiUElVd25pXy1NTWE1eHlkT0RxdzRJa0VCemIxTmRBelJ0RzFHaFgwemFGRQ?oc=5",
+   "source": "censor",
+   "sourceName": "Censor.NET (EN)",
+   "state": false,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T05:14:00.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNQzdFTmpNRUZYeUx6WFU2R0dkc1o5eGZneGl2NnROVVdCRUdjc3pmQW1Ud2NoblRpaFEzWXZLYVhJLWhrLVlPNWNKMm5SNWFnYnBUeHpCWE9IUWwxVUZkOUUtTFRSVDdoQUtrdnRob2tiUElVd25pXy1NTWE1eHlkT0RxdzRJa0VCemIxTmRBelJ0RzFHaFgwemFGRQ?oc=5\" target=\"_blank\">Russia struck amusement park in Odesa region: one child killed, six injured(updated). PHOTOS</a>&nbsp;&nbsp;<font col"
   },
   {
    "id": "031bb421eb05",
@@ -232,6 +1804,30 @@
    "summaryRaw": "Украинская ПВО снова сплоховала, с перехватом баллистики и гиперзвука всё сложно"
   },
   {
+   "id": "9aa966c384fb",
+   "title": "- Независимая газета",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tN1U2NHdkSG9abFBuaHdZSkIwbjc5SXJLWTM2SWVFVUpSV3NSZlZQTXEza3M0azJTVEVjWVhqVzRJQllsVVMwS0tfbFNzTy1qd3ctbmppWTd6bG9OR1M5cmR6NGhac1NBRkdvTmhkOU9YLVF4?oc=5",
+   "source": "nvo",
+   "sourceName": "Nezavisimoye Voyennoye Obozreniye",
+   "state": false,
+   "stream": "single",
+   "origin": "ru",
+   "date": "2026-07-19T04:42:31.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5tN1U2NHdkSG9abFBuaHdZSkIwbjc5SXJLWTM2SWVFVUpSV3NSZlZQTXEza3M0azJTVEVjWVhqVzRJQllsVVMwS0tfbFNzTy1qd3ctbmppWTd6bG9OR1M5cmR6NGhac1NBRkdvTmhkOU9YLVF4?oc=5\" target=\"_blank\"></a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Независимая газета</font>"
+  },
+  {
+   "id": "cd0e3bc10700",
+   "title": "Thirteen injured in Russian attacks on Zaporizhzhia and surrounding district on Saturday",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044767",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T04:40:00.000Z",
+   "summaryRaw": "Thirteen people were injured in Russian strikes on the city of Zaporizhzhia and the Zaporizhzhia district on Saturday 18 July."
+  },
+  {
    "id": "3ee19f82d750",
    "title": "US aims at double deterrence of Moscow, Beijing — Russian academician",
    "url": "https://tass.com/politics/2162105",
@@ -254,6 +1850,18 @@
    "origin": "ru",
    "date": "2026-07-19T04:02:26.000Z",
    "summaryRaw": "Однако перепродавать российскую систему другим странам Анкара не будет"
+  },
+  {
+   "id": "450bc10650f5",
+   "title": "Russia loses 1,520 soldiers over past day",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044766",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T03:44:00.000Z",
+   "summaryRaw": "Ukraine's General Staff has updated data on Russian losses: Russia lost 1,520 soldiers killed and wounded over the past day."
   },
   {
    "id": "81e84ccbc645",
@@ -328,6 +1936,18 @@
    "summaryRaw": "The cabinet of ministers expects the first results in 2027"
   },
   {
+   "id": "63d24507705d",
+   "title": "Russian Offensive Campaign Assessment, July 18, 2026",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWENPa2xaUmdtSWhSeGhXUl84T2dvbTNwbnpVMHM3aEppc3JrQUtJMnA2dnhKcEt2Uk5JSWxHZjhCTUhIRURDZmhacHpQb3RCcFRVS3JsS29menJmRjQ5S0Q3bm5CNGVIMkxUMFhyc0k5YThIR1lGVGEyOWpEMHNKS0MwdnJSOWs5a3JGOXU3YmlZUG42djczS3M4SVk1V2VFZDR2MXp5dw?oc=5",
+   "source": "isw",
+   "sourceName": "ISW",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T02:56:25.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQWENPa2xaUmdtSWhSeGhXUl84T2dvbTNwbnpVMHM3aEppc3JrQUtJMnA2dnhKcEt2Uk5JSWxHZjhCTUhIRURDZmhacHpQb3RCcFRVS3JsS29menJmRjQ5S0Q3bm5CNGVIMkxUMFhyc0k5YThIR1lGVGEyOWpEMHNKS0MwdnJSOWs5a3JGOXU3YmlZUG42djczS3M4SVk1V2VFZDR2MXp5dw?oc=5\" target=\"_blank\">Russian Offensive Campaign Assessment, July 18, 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institute f"
+  },
+  {
    "id": "742bbd389ec6",
    "title": "Масована атака на Київ: влучання балістики у п’яти районах, є загиблий та поранені",
    "url": "https://armyinform.com.ua/2026/07/19/masovana-ataka-na-kyyiv-vluchannya-balistyky-u-pyaty-rajonah-ye-zagyblyj-ta-poraneni",
@@ -388,6 +2008,18 @@
    "summaryRaw": "Kiev receives about a third of this amount from the EU, the rest is financed from its budget and through debt"
   },
   {
+   "id": "61ec8fec8bd4",
+   "title": "One killed and eight injured in Russian large-scale attack on Kyiv – photos",
+   "url": "https://www.pravda.com.ua/eng/news/2026/07/19/8044762",
+   "source": "pravda-en",
+   "sourceName": "Ukrainska Pravda (EN)",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-19T01:30:00.000Z",
+   "summaryRaw": "One person has been killed and eight others have been injured in the latest Russian attack on Kyiv. Fires have broken out in at least five districts of the capital."
+  },
+  {
    "id": "9b35c2e24ace",
    "title": "Russia repels Ukrainian drone attack near Stavropol, fires break out in industrial zone",
    "url": "https://tass.com/emergencies/2162087",
@@ -434,30 +2066,6 @@
    "origin": null,
    "date": "2026-07-19T01:00:00.000Z",
    "summaryRaw": "An oil depot in Russia's Stavropol Krai has caught fire following a drone attack."
-  },
-  {
-   "id": "e1881650d1a4",
-   "title": "Moscow, Pyongyang work hard to cement union — Russian deputy foreign minister",
-   "url": "https://tass.com/politics/2162083",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-19T00:53:04.000Z",
-   "summaryRaw": "Andrey Rudenko stated that active contacts with the DPRK at various levels continue this year"
-  },
-  {
-   "id": "f690f0f1f82a",
-   "title": "Russian tourists' interest in North Korea grows — deputy foreign minister",
-   "url": "https://tass.com/politics/2162079",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-19T00:41:53.000Z",
-   "summaryRaw": "According to Andrey Rudenko, about 7,000 Russians visited the country by the end of 2025"
   },
   {
    "id": "0ce40ef42c72",
@@ -520,6 +2128,18 @@
    "summaryRaw": "Федерация американских учёных насчитала у Китая около 620 ядерных боеголовок, Пентагон обещает свыше тысячи к 2030 году — а разница между этими цифрами держится на сотнях новых шахт, в которых пока не видно ракет"
   },
   {
+   "id": "a948d5c0c1ac",
+   "title": "Ukraine's SSU Alpha Unit Reports More Than 50,000 russian Troops Neutralized Since Start of 2026",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUzRZaGw0VGVqUGdvYXlmRUw5QTFuWUY1R0Y1Z3dDMWR2ZF8zZTNGUXdmZGVwUEMwU3FQSEY3Qlg2X3Z1RFlfQjZZNWtlX3BCMWx5MmVCSTlabDdnRmY1UjJGV2t0SldXVFhwQkc2cHlWVUgyME9IUzhlUnVLVTBvQ0MzbEtyUUdqTlBod0xScXFoWHNabVdWQlA4Mmh6bmFaVV9RV1FzelR4NXkwNXVHcEFfTGVJWEFEcG5MN0JrTXY1LU5RZDdsSWZBLWk5LTJXQTZTZFhOMA?oc=5",
+   "source": "defexpress",
+   "sourceName": "Defense Express",
+   "state": false,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-19T00:01:50.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUzRZaGw0VGVqUGdvYXlmRUw5QTFuWUY1R0Y1Z3dDMWR2ZF8zZTNGUXdmZGVwUEMwU3FQSEY3Qlg2X3Z1RFlfQjZZNWtlX3BCMWx5MmVCSTlabDdnRmY1UjJGV2t0SldXVFhwQkc2cHlWVUgyME9IUzhlUnVLVTBvQ0MzbEtyUUdqTlBod0xScXFoWHNabVdWQlA4Mmh6bmFaVV9RV1FzelR4NXkwNXVHcEFfTGVJWEFEcG5MN0JrTXY1LU5RZDdsSWZBLWk5LTJXQTZTZFhOMA?oc=5\" target=\"_blank\">Ukraine's SSU Alpha Unit Reports More"
+  },
+  {
    "id": "9a6f95afdd4a",
    "title": "Iran Update Special Report, July 18, 2026",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMjk0Tm1fVGFJX2Jmak11R3Y4QVFzTm9KQng4NElpLWljaUwtX0xRZ244ZXAtUzJoRE1odDNkMGx2c2pBRXpVN0VUdWtRRDJxNHR5Y3FvSGl0WmI4MlJXTFR4TG1yNTd2amlGeUdWRFdmSnBnSzR2SEJUU3pjQUgxYlJzcGl1ak5ZZmpud21ETF9Dbk9t?oc=5",
@@ -556,18 +2176,6 @@
    "summaryRaw": "Ukraine's 425th Skelia Assault Regiment says it cleared Kostiantynivka and the city is under Ukrainian control."
   },
   {
-   "id": "71366130bf37",
-   "title": "‘Spirit of Anchorage’ coined by journalists — Russian academician",
-   "url": "https://tass.com/society/2162067",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T22:33:53.000Z",
-   "summaryRaw": "President of the Institute of the World Economy and International Relations Alexander Dynkin called the meeting in Alaska a \"preliminary understanding of the two sides\""
-  },
-  {
    "id": "76cd2219ada7",
    "title": "Ukraine has netted over 1,000 kilometers of road. That’s how completely drones reshaped front",
    "url": "https://euromaidanpress.com/2026/07/19/ukraine-has-netted-over-1000-kilometers-of-road-thats-how-completely-drones-reshaped-front",
@@ -592,18 +2200,6 @@
    "summaryRaw": "Russia struck Odesa Oblast on the evening of 18 July, killing a 16-year-old boy and wounding at least seven others."
   },
   {
-   "id": "513b0db5938c",
-   "title": "Moscow sees Japan’s cooperation with Kiev as help in killing Russian civilians",
-   "url": "https://tass.com/politics/2162059",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T21:39:03.000Z",
-   "summaryRaw": "Deputy Foreign Minister Andrey Rudenko says Russia classifies such cooperation as an openly hostile action"
-  },
-  {
    "id": "14a7d26d06ac",
    "title": "Russo-Ukrainian war, day 1607: Russia may mobilize half million troops this fall",
    "url": "https://euromaidanpress.com/2026/07/19/russo-ukrainian-war-day-1607-russia-may-mobilize-half-million-troops-this-fall",
@@ -616,18 +2212,6 @@
    "summaryRaw": "Ukraine has formally adopted the Tsyklop interceptor drone, a high-altitude hunter-killer credited with downing more than 100 Russian air targets."
   },
   {
-   "id": "0a8003247db1",
-   "title": "Response to Ukrainian strikes on Wildberries warehouses to be harsh — Russian senator",
-   "url": "https://tass.com/politics/2162055",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T20:59:56.000Z",
-   "summaryRaw": "Grigory Karasin condemned the ongoing escalation, noting that the latest assault marks a disturbing new phase"
-  },
-  {
    "id": "f97c9d54f734",
    "title": "Ukraine says Russia may mobilize half million people this fall",
    "url": "https://euromaidanpress.com/2026/07/18/ukraine-says-russia-may-mobilize-half-million-people-this-fall",
@@ -638,18 +2222,6 @@
    "origin": null,
    "date": "2026-07-18T20:57:06.000Z",
    "summaryRaw": "Some of the mobilized may be thrown into battle within the first weeks."
-  },
-  {
-   "id": "dafb78f5610f",
-   "title": "- Независимая газета",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GU3dxTEdFc0hsWEU5RHY5ZmZkTFdkUkhwcW1QWERGTEx5UEwyT1lyUGx3bU5hRzZ2YWVTZko4bFVwaWg0dS0zb2RSZnlfZGo3azctTkVZRHhrbXpHR2pnbWdJdjN3QjJ0dWhZelgyWQ?oc=5",
-   "source": "nvo",
-   "sourceName": "Nezavisimoye Voyennoye Obozreniye",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T20:50:56.000Z",
-   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5GU3dxTEdFc0hsWEU5RHY5ZmZkTFdkUkhwcW1QWERGTEx5UEwyT1lyUGx3bU5hRzZ2YWVTZko4bFVwaWg0dS0zb2RSZnlfZGo3azctTkVZRHhrbXpHR2pnbWdJdjN3QjJ0dWhZelgyWQ?oc=5\" target=\"_blank\"></a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Независимая газета</font>"
   },
   {
    "id": "99a3c6b5801e",
@@ -688,18 +2260,6 @@
    "summaryRaw": "Russia has built a new complex on an Mi-8 helicopter probably meant to jam the satellite navigation of Ukraine's long-range strike drones, Militarnyi says."
   },
   {
-   "id": "6939b4ac9038",
-   "title": "Eight killed, 86 wounded in Moscow Region, near Tambov: aftermath of Ukrainian attacks",
-   "url": "https://tass.com/politics/2162053",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T20:25:54.000Z",
-   "summaryRaw": "Russian air defense systems destroyed 379 Ukrainian UAVs overnight"
-  },
-  {
    "id": "95298bec6155",
    "title": "Russian drone hits apartment building in Kherson: five injured, children in critical condition",
    "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044750",
@@ -710,18 +2270,6 @@
    "origin": null,
    "date": "2026-07-18T20:22:00.000Z",
    "summaryRaw": "Five people were injured, including two children who are in a critical condition, in a Russian drone attack on an apartment building in Kherson on the evening of 18 July."
-  },
-  {
-   "id": "0051ab2f8d83",
-   "title": "AfD leader calls for ending aid to Kiev, opposes Ukraine's accession to EU, NATO",
-   "url": "https://tass.com/world/2162051",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T19:57:56.000Z",
-   "summaryRaw": "Alice Weidel also reiterated the party’s stance of non-alignment, asserting that the AfD opposes taking sides in the conflict"
   },
   {
    "id": "fb52d89c9fb2",
@@ -758,18 +2306,6 @@
    "origin": null,
    "date": "2026-07-18T19:15:15.000Z",
    "summaryRaw": "Archbishop Paul Gallagher, the Holy See's foreign minister, visited the site of a Russian missile strike in Kyiv that destroyed homes and killed civilians."
-  },
-  {
-   "id": "665d34f90b13",
-   "title": "Japanese MFA about to resume sending students on short-term internships to Russia",
-   "url": "https://tass.com/world/2162043",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T18:39:34.000Z",
-   "summaryRaw": "Tokyo remains committed to maintaining its overall sanctions policy toward Russia, reports the Asahi newspaper"
   },
   {
    "id": "6621ad28a492",
@@ -820,18 +2356,6 @@
    "summaryRaw": "Дальность действия наземного беспилотника существенно увеличивается"
   },
   {
-   "id": "683b4763f83c",
-   "title": "Russia’s Rublev reaches final of tennis tournament in Sweden",
-   "url": "https://tass.com/sports/2162039",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T18:07:16.000Z",
-   "summaryRaw": "The match concluded with Rublev edging out Tabilo 6-4, 4-6, 6-4"
-  },
-  {
    "id": "e6d4cc63fbf8",
    "title": "Zelenskyy speaks with ex-defence minister Fedorov and Commander-in-Chief Syrskyi: \"Decisions on army will be worked out\"",
    "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044740",
@@ -842,30 +2366,6 @@
    "origin": null,
    "date": "2026-07-18T18:05:00.000Z",
    "summaryRaw": "Ukrainian President Volodymyr Zelenskyy has said he has spoken with former defence minister Mykhailo Fedorov and Commander-in-Chief Oleksandr Syrskyi. He promised that \"decisions regarding the army will be worked out\"."
-  },
-  {
-   "id": "3ea418852c82",
-   "title": "IN BRIEF: Liberation of Krasny Liman due soon, 5 km to Kramatorsk — General Staff",
-   "url": "https://tass.com/defense/2162033",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T17:52:38.000Z",
-   "summaryRaw": "Chief of the General Staff of the Russian Armed Forces Valery Gerasimov has inspected the progress in combat operations by the Battlegroup West"
-  },
-  {
-   "id": "50505cb36531",
-   "title": "US official believes idea of appointing him as next ambassador to Moscow came from Russia",
-   "url": "https://tass.com/world/2162035",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T17:46:09.000Z",
-   "summaryRaw": "Chairperson of the US Commission of Fine Arts Rodney Mims Cook Jr. said, that he serve at the pleasure of the President Donald Trump"
   },
   {
    "id": "6c907c097bef",
@@ -916,30 +2416,6 @@
    "summaryRaw": "Многие страны Европы не обладают возможностью выделять Украине значительные средства"
   },
   {
-   "id": "b5aff85cfb44",
-   "title": "Rodney Cook Jr. ready to negotiate resumption of Russia-US air links if Trump approves",
-   "url": "https://tass.com/world/2162031",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T17:15:18.000Z",
-   "summaryRaw": "Head of the American delegation at the SPIEF called for Russia and the United States to achieve a peaceful resolution to the conflict in Ukraine"
-  },
-  {
-   "id": "075052ad872d",
-   "title": "Khmara is pawn in West's hands incapable of decisions — expert",
-   "url": "https://tass.com/politics/2162029",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T17:14:16.000Z",
-   "summaryRaw": "Andrey Marochko warned that acting head of Ukraine's Defense Ministry could see an escalation in terrorist activities targeting Russia’s frontline and rear areas"
-  },
-  {
    "id": "27ed6b63b011",
    "title": "Russians attack Kharkiv Oblast: 11 people injured, including 5 police officers",
    "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044736",
@@ -950,6 +2426,18 @@
    "origin": null,
    "date": "2026-07-18T17:12:00.000Z",
    "summaryRaw": "Eleven people have been injured as a result of Russian attacks on the Derhachi hromada in Kharkiv Oblast on 18 July, including five police officers. [A hromada is an administrative unit designating a village, several villages, or a town, and their adjacent territories – ed.]"
+  },
+  {
+   "id": "45ddfeab2bdf",
+   "title": "Canada Orders 190 More LAV 6 ACSV Vehicles for $1.4B, Same Platform Already Sent 124 Units to Ukraine With 35 More Promised in 2026",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMlI0OGVNcHBidjJTTDNCYXdNLVRWRFZDbnNOc1RucE5hUERWM2NzOUhqTi1BdU5ITFctZ3JmRlpReFlTMVhFVWl1LW1JZ0JNOC1LUnJhalFOTDB4UEp3dEgxcERQOFdJem5jTzlYNXlabUlRZzhNZlZkSXlBUEk3ejcwb1BFTzVpVDRNTnJOUS1qT2pJWmVUQmVxYWFHbXdQRGJEUTB4eWIyVGZJaXJBVktzalVhR3lwUVFxWUpiT0ZibTVuMUVPaF9ESEI2dUxxempCU1BpUDRoaVVITDRPbHR6d2RUWlpuV1MwYi1zcnI3ZEJZYm4yYlJJXzRodk0?oc=5",
+   "source": "defexpress",
+   "sourceName": "Defense Express",
+   "state": false,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-18T17:11:25.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMlI0OGVNcHBidjJTTDNCYXdNLVRWRFZDbnNOc1RucE5hUERWM2NzOUhqTi1BdU5ITFctZ3JmRlpReFlTMVhFVWl1LW1JZ0JNOC1LUnJhalFOTDB4UEp3dEgxcERQOFdJem5jTzlYNXlabUlRZzhNZlZkSXlBUEk3ejcwb1BFTzVpVDRNTnJOUS1qT2pJWmVUQmVxYWFHbXdQRGJEUTB4eWIyVGZJaXJBVktzalVhR3lwUVFxWUpiT0ZibTVuMUVPaF9ESEI2dUxxempCU1BpUDRoaVVITDRPbHR6d2RUWlpuV1MwYi1zcnI3ZEJZYm4yYlJJXzRodk0?oc=5\" "
   },
   {
    "id": "11f3cc933981",
@@ -988,30 +2476,6 @@
    "summaryRaw": "Botswana's Ministry of International Relations has stated that an increasing number of its citizens are being coerced into fighting for Russia in its war against Ukraine."
   },
   {
-   "id": "fdab45d2b187",
-   "title": "«Буду уезжать — подожгу дом»: реакция херсонцев на приказ Киева об эвакуации",
-   "url": "https://topwar.ru/286535-budu-uezzhat-podozhgu-dom-reakcija-hersoncev-na-prikaz-kieva-ob-jevakuacii.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T16:29:08.000Z",
-   "summaryRaw": "Осенью 2022 года в Херсонской области на правом берегу остались те, кто ждал ВСУ"
-  },
-  {
-   "id": "88b5d17cb329",
-   "title": "Ukrainians have awakened Poles’ ‘age-old hatred’ — head of Crimea’s State Council",
-   "url": "https://tass.com/politics/2162005",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T16:15:29.000Z",
-   "summaryRaw": "Recent reports from the Polish newspaper Rzeczpospolita indicate a troubling increase in hate crimes targeting Ukrainian citizens in Poland"
-  },
-  {
    "id": "191e54f71cee",
    "title": "Ukrainian high jumper Mahuchikh finishes second at Diamond League stage in London",
    "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044724",
@@ -1022,18 +2486,6 @@
    "origin": null,
    "date": "2026-07-18T16:06:00.000Z",
    "summaryRaw": "Ukrainian high jumper Yaroslava Mahuchikh finished second at the Diamond League in London, losing to Australia’s Nicola Olyslagers."
-  },
-  {
-   "id": "896808098a9f",
-   "title": "Лавров напомнил, что «Анкориджские договорённости» были инициативой Трампа",
-   "url": "https://topwar.ru/286528-lavrov-napomnil-chto-ankoridzhskie-dogovorennosti-byli-iniciativoj-trampa.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T15:49:15.000Z",
-   "summaryRaw": "США с легкостью отказались от своих же не особо выгодных России предложений"
   },
   {
    "id": "31b50779512f",
@@ -1072,18 +2524,6 @@
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxOS3h1QVd5LUVsR3g5R2pCUDZIaV9ZYTluYVVBQk1QbVByM1p5QnhrcmlCTVdHcTREOUI0azJoXzh0OVVWMGptWk5sR2ZCTV9QNW82SHg5R3M3UEQyR2RGR3ZJWXRJZDFQYXlmaE1JYkFOM25kX0hGVFlxYXVPY3pObExsVlRCYWhDbG5SNzU5VHYwNU5EY0Rjb282cWNQVUduWDhWTnR5bXVvNF8tWlhzRG1sdGlYdUx6YlRUMHZfMWlCS042Z3dHejYxNUpOVGRoQ0NZZmtDMTlFSVRjQXlzSVBCZVRYb2dPUHB1VmxLREVtaTBVaUMtMnd5WVE0bGhwODhjVW"
   },
   {
-   "id": "547e4e16a2f1",
-   "title": "Russia destroys key heating facility in Kherson after over 1,000 strikes – video",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044730",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T15:26:00.000Z",
-   "summaryRaw": "Russian forces destroyed a heating supply facility in Kherson on the night of 17-18 July. The site has been struck more than a thousand times."
-  },
-  {
    "id": "14252907b02b",
    "title": "Photos and videos show the aftermath of Ukrainian drone strikes that killed eight night-shift workers at online retailer Wildberries’ warehouses in Russia",
    "url": "https://meduza.io/en/feature/2026/07/18/photos-and-videos-show-the-aftermath-of-ukrainian-drone-strikes-that-killed-eight-night-shift-workers-at-online-retailer-wildberries-warehouses-in-russia",
@@ -1118,6 +2558,18 @@
    "origin": null,
    "date": "2026-07-18T15:15:39.000Z",
    "summaryRaw": "Wildberries is “working out” compensation for sellers who lost goods in Ukrainian drone strikes on its warehouses in the Moscow and Tambov regions, the company’s founder and chief executive, Tatyana Kim, said."
+  },
+  {
+   "id": "c045c81c929c",
+   "title": "The Fourth Law and TAF Industries Have Developed Autonomous FPV With Range of 40 km",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV0poSzhqaWVmTmRkV0dkS3JxLXJGdnd0VE9yVUVBRHh4TnFiaW43aFBlU2J2SE5FNDJvdmdyWjRmbjZFZGN3T0dDSlhzczd0ejhDbjFNcnZYTlpCWmhJYzYtcDhQZmd5Z094T1FTNk1oczF5eDF1eTJ6QVQzckxaMlhxQ2dETzlnM0hjNnpYSGJIWFZkeEo2S1lNYnhtM0M4LWwxRDZDWDd4eXNvQ0ZjN0w2MXJ4Zw?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-18T15:15:10.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOV0poSzhqaWVmTmRkV0dkS3JxLXJGdnd0VE9yVUVBRHh4TnFiaW43aFBlU2J2SE5FNDJvdmdyWjRmbjZFZGN3T0dDSlhzczd0ejhDbjFNcnZYTlpCWmhJYzYtcDhQZmd5Z094T1FTNk1oczF5eDF1eTJ6QVQzckxaMlhxQ2dETzlnM0hjNnpYSGJIWFZkeEo2S1lNYnhtM0M4LWwxRDZDWDd4eXNvQ0ZjN0w2MXJ4Zw?oc=5\" target=\"_blank\">The Fourth Law and TAF Industries Have Developed Autonomous FPV With Range of 40 "
   },
   {
    "id": "0143e2f1e92e",
@@ -1156,40 +2608,16 @@
    "summaryRaw": "Serhii \"Flash\" Beskrestnov says Russia is shifting from mass Shahed attacks to single, complex, manually-controlled strikes."
   },
   {
-   "id": "55df797c1700",
-   "title": "Hungary hopes to avoid US sanctions against Russian oil, gas buyers",
-   "url": "https://tass.com/economy/2162003",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T14:58:37.000Z",
-   "summaryRaw": "Marton Hajdu, Chairman of the Hungarian Parliament’s Foreign Affairs Committee, revealed that he discussed this pressing issue with colleagues in the US Congress during a recent visit to Washington"
-  },
-  {
-   "id": "f19e4724af01",
-   "title": "Russians estimate Wildberries marketplace losses at tens of billions of roubles after Ukrainian strikes",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044727",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
+   "id": "a098679ccb7f",
+   "title": "As war drags on, Russia's pro-war camp turns its anger on the Kremlin",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUjJsN18tREtKeE5TMzZWTjNsTlN2UTFqaTVwN0M2TkptMVBCWTZHUWQ2a0hTUDZVVGFwUnJtaUtDckwyVThrWGh6d2QzSWFnTURCdHVaNmdBTGZUZmhyRVE3Y3hicV94dlBuWElsbXNiQzIyeVV2SGxBTEphcU5SZHNDTDItMjRiN0VibmFiSlVGak9pSVVWNFhhcWk?oc=5",
+   "source": "kyivindep",
+   "sourceName": "Kyiv Independent",
    "state": false,
    "stream": "verified",
    "origin": null,
-   "date": "2026-07-18T14:57:00.000Z",
-   "summaryRaw": "Fires at Wildberries warehouses in Moscow and Tambov Oblasts have led to losses exceeding US$1.3 billion."
-  },
-  {
-   "id": "4f14618e06b5",
-   "title": "Russian forces hit Zaporizhzhia: girl, 17, among those injured – photos",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044726",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T14:51:00.000Z",
-   "summaryRaw": "Two people, including a teenage girl, have been injured as a result of a Russian attack on the city of Zaporizhzhia on Saturday 18 July."
+   "date": "2026-07-18T15:00:22.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQUjJsN18tREtKeE5TMzZWTjNsTlN2UTFqaTVwN0M2TkptMVBCWTZHUWQ2a0hTUDZVVGFwUnJtaUtDckwyVThrWGh6d2QzSWFnTURCdHVaNmdBTGZUZmhyRVE3Y3hicV94dlBuWElsbXNiQzIyeVV2SGxBTEphcU5SZHNDTDItMjRiN0VibmFiSlVGak9pSVVWNFhhcWk?oc=5\" target=\"_blank\">As war drags on, Russia's pro-war camp turns its anger on the Kremlin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Kyiv "
   },
   {
    "id": "406a27e075da",
@@ -1216,16 +2644,16 @@
    "summaryRaw": "A separate strike hit an oil depot at Noginsk."
   },
   {
-   "id": "c13496db2099",
-   "title": "Russia is becoming priority for Mossad, experts say",
-   "url": "https://tass.com/world/2162001",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
+   "id": "f6a390583f1c",
+   "title": "Who are Ukraine's new police and security chiefs, and what accusations do they face?",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanNqNE5uU3M5cG1Ma2MyUUIxM3g0MUNhY1pFN0Q1cGVScW5fSDZjandtdFNWTGNDNFhuaTg5cGh4X08yS2tzaHB5azBaRVhwT0lwdHZWNjNLcWlVc3NPWjJMX2pLLUk5RkFvdE4zWTl2MDRhOEtESXNsLWpab1I5SExORnAweFhGSENmWEZCVTJLX3NrYTVsWE1HMXBRQWM5d3VpWEtqWERPd2FzU0ZR?oc=5",
+   "source": "kyivindep",
+   "sourceName": "Kyiv Independent",
+   "state": false,
    "stream": "verified",
    "origin": null,
-   "date": "2026-07-18T14:43:08.000Z",
-   "summaryRaw": "According to analysts, a Russian-speaking Mossad director Roman Hoffman offers a distinctive advantage in operations across the post-Soviet space"
+   "date": "2026-07-18T14:26:39.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPanNqNE5uU3M5cG1Ma2MyUUIxM3g0MUNhY1pFN0Q1cGVScW5fSDZjandtdFNWTGNDNFhuaTg5cGh4X08yS2tzaHB5azBaRVhwT0lwdHZWNjNLcWlVc3NPWjJMX2pLLUk5RkFvdE4zWTl2MDRhOEtESXNsLWpab1I5SExORnAweFhGSENmWEZCVTJLX3NrYTVsWE1HMXBRQWM5d3VpWEtqWERPd2FzU0ZR?oc=5\" target=\"_blank\">Who are Ukraine's new police and security chiefs, and what accusations do they face?</a>&nb"
   },
   {
    "id": "57f780e8edf0",
@@ -1240,30 +2668,6 @@
    "summaryRaw": "Відео бойової роботи надали АрміяInform у бригаді. Подібну місію провели вперше, до цього завдяки НРК евакуювали лише поранених та доставляли..."
   },
   {
-   "id": "5df91c1da2cc",
-   "title": "Ukrainian Defense Forces Attack Second Russian Svetlyak-class Patrol Boat in Kerch in Two Days",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTFoN2hHa1BhOGg3aXBaTlhQM2k1V0U5RFhnUG9OenIxZVA5T0lJQVBaRDVNeVVFYW45X1hGOXZfZS1vMjEwUEllZXVhdGdhOXQwVzdRYldYR2VFdzRZcmgyLWJPcGF5SXRJd3NweHhhVzBQaWUtRjJleWhYZ2VNR3dlVHBYQ2E1Qm5JM2xCZE1jdEdGYXFPUi1fN2FQM1MzQnhJRTF3V2tJYVZIeUFiUUZVR0ZvNHBoNzAtdEFHZnAwRGM5?oc=5",
-   "source": "militarnyi",
-   "sourceName": "Militarnyi",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T14:13:17.000Z",
-   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTFoN2hHa1BhOGg3aXBaTlhQM2k1V0U5RFhnUG9OenIxZVA5T0lJQVBaRDVNeVVFYW45X1hGOXZfZS1vMjEwUEllZXVhdGdhOXQwVzdRYldYR2VFdzRZcmgyLWJPcGF5SXRJd3NweHhhVzBQaWUtRjJleWhYZ2VNR3dlVHBYQ2E1Qm5JM2xCZE1jdEdGYXFPUi1fN2FQM1MzQnhJRTF3V2tJYVZIeUFiUUZVR0ZvNHBoNzAtdEFHZnAwRGM5?oc=5\" target=\"_blank\">Ukrainian Defense Forces Attack Second Russian Svetlyak-class P"
-  },
-  {
-   "id": "b327fadbf2e0",
-   "title": "Meet \"Grandpa\": Ukrainian military tells the story of ground robot that has completed nearly 50 missions in a year – photos, video",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044722",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T14:04:00.000Z",
-   "summaryRaw": "Ukraine’s 7th Air Assault Corps has spoken about a ground robotic system that has survived three FPV drone hits and remains in service. It has carried out almost 50 missions in around a year"
-  },
-  {
    "id": "a05dc3bc732d",
    "title": "Canada orders more ACSV armored vehicles, some for Ukraine",
    "url": "https://defence-blog.com/canada-orders-more-acsv-armored-vehicles-some-for-ukraine",
@@ -1274,18 +2678,6 @@
    "origin": null,
    "date": "2026-07-18T14:02:38.000Z",
    "summaryRaw": "Canada’s Prime Minister Mark Carney traveled to General Dynamics Land Systems-Canada’s facility in London, Ontario, alongside National Defence Minister David J. McGuinty, to formally announce a new Strategic Partnership between the Canadian government and the company, along with a contract worth roughly $1.4 billion for 190 additional Armoured Combat Support Vehicles for the Canadian military […]"
-  },
-  {
-   "id": "32667793e609",
-   "title": "US sanction bill against Russia will not affect India's ties with Russia — expert",
-   "url": "https://tass.com/world/2161993",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T14:02:34.000Z",
-   "summaryRaw": "Professor at the School of International Relations at Nalanda University Arvind Kumar believes that new tariffs could also delay the discussion of the bilateral trade agreement that India and the US plan to conclude"
   },
   {
    "id": "23df12e2148c",
@@ -1312,66 +2704,6 @@
    "summaryRaw": "Про це повідомив 18 липня командувач Сил безпілотних систем ЗСУ майор Роберт Бровді з позивним «Мадяр». За його даними, були..."
   },
   {
-   "id": "d68dc00858cf",
-   "title": "Germany to move closer to war with Russia by deploying Tomahawks — Finnish politician",
-   "url": "https://tass.com/world/2161991",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T13:49:47.000Z",
-   "summaryRaw": "The West is making a big mistake by choosing the path of hostilites, noted a member of the Finnish national-conservative party Freedom Alliance Armando Mema"
-  },
-  {
-   "id": "1c5c8308dd52",
-   "title": "«Белоруснефть» опровергла слухи о дефиците топлива на АЗС у границы с Россией",
-   "url": "https://topwar.ru/286523-belorusneft-oprovergla-sluhi-o-deficite-topliva-na-azs-u-granicy-s-rossiej.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T13:42:03.000Z",
-   "summaryRaw": "Заверили, что лимитов нет"
-  },
-  {
-   "id": "99cfc0a298cc",
-   "title": "Тайбэй готовится к вторжению НОАК: береговая охрана Тайваня закупает новые БЭК",
-   "url": "https://topwar.ru/286521-tajbjej-gotovitsja-k-vtorzheniju-noak-beregovaja-ohrana-tajvanja-zakupaet-novye-bjek.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T13:40:50.000Z",
-   "summaryRaw": "Американская компания поставит Тайваню опытные образцы своих новейших БЭК"
-  },
-  {
-   "id": "7dbdfb6708d2",
-   "title": "В Черновцах лестницу на площади выложили плиткой с надгробий",
-   "url": "https://topwar.ru/286522-v-chernovcah-lestnicu-na-ploschadi-vylozhili-plitkoj-s-nadgrobij.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T13:39:53.000Z",
-   "summaryRaw": "На гранитных ступенях отремонтированной лестницы в центре города сохранились изображения лиц усопших"
-  },
-  {
-   "id": "342e6b6a4bc1",
-   "title": "One killed in Russian strike on critical infrastructure in Kryvyi Rih",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044718",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T13:39:00.000Z",
-   "summaryRaw": "One person has been killed in a Russian strike on a critical infrastructure facility in the city of Kryvyi Rih."
-  },
-  {
    "id": "0a947229addf",
    "title": "Маневр і ще маневр: наш бомбер зміг втекти від російського перехоплювача",
    "url": "https://armyinform.com.ua/2026/07/18/manevr-i-shhe-manevr-nash-bomber-zmig-vtekty-vid-rosijskogo-perehoplyuvacha",
@@ -1382,18 +2714,6 @@
    "origin": "ua",
    "date": "2026-07-18T13:31:35.000Z",
    "summaryRaw": "Відео бойової роботи було оприлюднене на каналі підрозділу. «Ворог прекрасно усвідомлює, що українські дрони — це головна загроза для нього...."
-  },
-  {
-   "id": "7789eef2c768",
-   "title": "FT: Zelenskyy weighs replacing Ukraine's military chief and courts former PM for US ambassador post",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044715",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T13:12:00.000Z",
-   "summaryRaw": "The Financial Times has reported that Ukrainian President Volodymyr Zelenskyy is considering dismissing Oleksandr Syrskyi, Commander-in-Chief of the Armed Forces of Ukraine, amid protests if he can find a suitable candidate to replace him."
   },
   {
    "id": "2ba833cdb2bf",
@@ -1420,42 +2740,6 @@
    "summaryRaw": "Про це повідомили 18 липня Сили безпілотних систем ЗСУ. Зокрема, уражено 8 суден-суховантажів в акваторії Чорного моря. Ураження завдали оператори..."
   },
   {
-   "id": "9f109587ad17",
-   "title": "US official describes SPIEF visit as Washington’s ‘pivot’ toward Russia",
-   "url": "https://tass.com/world/2161983",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T12:53:14.000Z",
-   "summaryRaw": "On whether US President Donald Trump had \"blessed\" his communication with Russian officials, Rodney Mims Cook Jr. responded affirmatively"
-  },
-  {
-   "id": "65980dc07ab8",
-   "title": "Мэр Москвы: столицу РФ за неделю пытались атаковать почти две тысячи дронов ВСУ",
-   "url": "https://topwar.ru/286520-mjer-moskvy-stolicu-rf-za-nedelju-pytalis-atakovat-pochti-dve-tysjachi-dronov-vsu.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T12:53:05.000Z",
-   "summaryRaw": "Данные взяты за период с 11 до 18 июля"
-  },
-  {
-   "id": "dabbcfa62b18",
-   "title": "Атакованный ВС РФ сельхозкомплекс под Черниговом оказался военной базой ВСУ",
-   "url": "https://topwar.ru/286519-atakovannyj-vs-rf-selhozkompleks-pod-chernigovom-okazalsja-voennoj-bazoj-vsu.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T12:44:10.000Z",
-   "summaryRaw": "Враг вновь использовал сугубо гражданский объект в военных целях, но был рассекречен нашей разведкой"
-  },
-  {
    "id": "876ea5fbf5af",
    "title": "«Іноземців варто залучати в українське військо» — командир корпусу «Хартія»",
    "url": "https://armyinform.com.ua/2026/07/18/inozemcziv-varto-zaluchaty-v-ukrayinske-vijsko-komandyr-korpusu-hartiya",
@@ -1468,16 +2752,16 @@
    "summaryRaw": "Думка комкора була оприлюднена 18 липня на каналі корпусу. «У кожного народу є люди, наділені природною войовничістю. Ті, хто обирають..."
   },
   {
-   "id": "a61157731bff",
-   "title": "Iranian supreme leader to avoid public appearances until war US ends — source",
-   "url": "https://tass.com/world/2161977",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
+   "id": "0d8315add198",
+   "title": "We're ready to make any Russian move cost far more than it's worth — NATO military chief in exclusive interview",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVVBSRzhSZEpUSFRRYjBWRjkzWk9RbzlldUtFR2lqdjVjaURaWkxfZzRPNTVFZmZpdU9naThuNHI3XzI2eDNjNWlfamUtZktiV0Z6WTEwREk3eEZyczc1WU1XX1lSMTF2aFhUb3dLc0FjUnNOYk9RSnIteHdTdE1yemVRc1hVN1VvbUFJY1IyRGJzSllfVzZGd0ZmblJ6anNoZDRERnRidVhrWTVFWlgwSDJnM0YwbUJNNTJEVXpIQ1RQQ0dFVnoyWVN0Z2NtanFjSVE?oc=5",
+   "source": "kyivindep",
+   "sourceName": "Kyiv Independent",
+   "state": false,
    "stream": "verified",
    "origin": null,
-   "date": "2026-07-18T12:22:31.000Z",
-   "summaryRaw": "The source added that Mojtaba Khamenei’s first contact with a foreign leader could be a phone call or meeting with Russian President Vladimir Putin"
+   "date": "2026-07-18T12:24:08.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVVBSRzhSZEpUSFRRYjBWRjkzWk9RbzlldUtFR2lqdjVjaURaWkxfZzRPNTVFZmZpdU9naThuNHI3XzI2eDNjNWlfamUtZktiV0Z6WTEwREk3eEZyczc1WU1XX1lSMTF2aFhUb3dLc0FjUnNOYk9RSnIteHdTdE1yemVRc1hVN1VvbUFJY1IyRGJzSllfVzZGd0ZmblJ6anNoZDRERnRidVhrWTVFWlgwSDJnM0YwbUJNNTJEVXpIQ1RQQ0dFVnoyWVN0Z2NtanFjSVE?oc=5\" target=\"_blank\">We're ready to make any Russian move cost fa"
   },
   {
    "id": "25780fbbbd6e",
@@ -1490,30 +2774,6 @@
    "origin": "ua",
    "date": "2026-07-18T12:22:30.000Z",
    "summaryRaw": "Про це на стрімі АрміяTV розповів спікер 42-механізованої бригади імені Героя України Валерія Гудзя сержант Олексій Фалін. «Ви можете просто..."
-  },
-  {
-   "id": "0e84ac459559",
-   "title": "Kiev targets children with drones while Moscow never attacks civilians — Russian senator",
-   "url": "https://tass.com/politics/2161975",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T12:19:23.000Z",
-   "summaryRaw": "This requires an international investigation, Alexey Kondratyev said"
-  },
-  {
-   "id": "a759ef69b94c",
-   "title": "Russia strikes locomotive and passenger carriages twice in Zaporizhzhia Oblast –photo",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044711",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T12:19:00.000Z",
-   "summaryRaw": "Russian forces have carried out a double strike on the locomotive and passenger carriages of a train in Zaporizhzhia Oblast. Early reports indicate that no one was injured."
   },
   {
    "id": "092044b7960f",
@@ -1540,42 +2800,6 @@
    "summaryRaw": "2-й Западный окружной военный суд вынес приговор по уголовному делу в отношении"
   },
   {
-   "id": "33e103147022",
-   "title": "Russian rights commissioner appeals to UN over another series of Ukrainian attacks",
-   "url": "https://tass.com/politics/2161973",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T11:39:12.000Z",
-   "summaryRaw": "Russia documents all details of such developments and provides them to international institutions, Yana Lantratova said"
-  },
-  {
-   "id": "d65cdc0dfbde",
-   "title": "Almost 1,900 drones heading for Moscow shot down in past week — official",
-   "url": "https://tass.com/emergencies/2161971",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T11:34:30.000Z",
-   "summaryRaw": "Air defenses shot down most of them at distant approaches, Moscow Mayor Sergey Sobyanin said"
-  },
-  {
-   "id": "2adedb760192",
-   "title": "Ukrainian attacks on Belgorod Region kill civilian, injure three others in past day",
-   "url": "https://tass.com/emergencies/2161969",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T11:33:06.000Z",
-   "summaryRaw": "The Ukrainian armed forces carried out 69 attacks on the region"
-  },
-  {
    "id": "ab72f8203647",
    "title": "In Addition to Polish MiG-29s, Ukraine Also Wants to Receive Repair Equipment in Exchange for Drones",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc1hQeDlOU0VKQkJYaU1TRkJzR1VnaHpoNHhkTGNSelZvcmt3T1l0UFAzeXZzalRBR1FvRGx0UjI1UlZhZjdpbjVMeUp4UXFPQ1N6RVI2Z3phVEZxdy1ENzE3Nmp1WTVPbTMxZld2THFrXzNsLXowNHZTbFBLcHNhZDJobm5Ddlh6SzhmQXI1SWtXeHhJaDFYX3QyQTRWa01QMXlDN2VKNmJtTnBHdE9GQjR4WHNObG9fZXAyWG1xYUcxSkFZMW9vbktuMA?oc=5",
@@ -1586,30 +2810,6 @@
    "origin": null,
    "date": "2026-07-18T11:11:28.000Z",
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQc1hQeDlOU0VKQkJYaU1TRkJzR1VnaHpoNHhkTGNSelZvcmt3T1l0UFAzeXZzalRBR1FvRGx0UjI1UlZhZjdpbjVMeUp4UXFPQ1N6RVI2Z3phVEZxdy1ENzE3Nmp1WTVPbTMxZld2THFrXzNsLXowNHZTbFBLcHNhZDJobm5Ddlh6SzhmQXI1SWtXeHhJaDFYX3QyQTRWa01QMXlDN2VKNmJtTnBHdE9GQjR4WHNObG9fZXAyWG1xYUcxSkFZMW9vbktuMA?oc=5\" target=\"_blank\">In Addition to Polish MiG-29s, Ukraine Also Wants to "
-  },
-  {
-   "id": "a3809e98c547",
-   "title": "Ukraine's General Staff reports strikes on oil depot, tankers and \"Svetlyak\" vessel",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044701",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T11:08:00.000Z",
-   "summaryRaw": "On the night of 17-18 July, Ukraine's defence forces struck an oil depot in Moscow Oblast, vessels in the Sea of Azov and the Black Sea, a Russian patrol ship in Kerch and a railway bridge in Russian-occupied Luhansk Oblast."
-  },
-  {
-   "id": "823804627e1e",
-   "title": "Ukraine loses about 1,540 troops in special military operation zone in past day",
-   "url": "https://tass.com/defense/2161967",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T10:45:52.000Z",
-   "summaryRaw": "The Russian Defense Ministry pointed out that units of Battlegroup North had hit the forces and equipment of a Ukrainian mechanized brigade, an air mobile brigade, and a territorial defense brigade near Mikhailovskoye, Ulanovo, Ryzhyovka, Mogritsa and Sadki in the Sumy Region"
   },
   {
    "id": "0208347428ca",
@@ -1624,66 +2824,6 @@
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOOVJQRXdCMmwzanM5eUxtUWZ5eTFFQXJfRUw5RDhZbUJwWmFEYVJjaVJmdkcycmpzaVk1b0ZEU002eUd2TGFUbVZQcGxxSi03enN6UUtTTmZKSnRjdlc4Tk9HZk4zaENFTm9YNVJTYnRpeEJNVG9TZzdkTUdaVTUwRlhTVlB1ajBVQmlaYkViQTQwaVFkRXFBam4xMG1IeVdIdXFTMC1oYlh1UEZ0UnRFdE8yckpmdw?oc=5\" target=\"_blank\">33rd Assault Regiment Launched Assault on Russian Positions Using Droid TW 12.7 U"
   },
   {
-   "id": "4a0cfb425406",
-   "title": "Удары беспилотников по российским НПЗ вдруг отразились на ценах в США",
-   "url": "https://topwar.ru/286509-udary-ukrainskih-bespilotnikov-po-rossijskim-npz-otrazilis-na-cenah-v-ssha.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T09:51:32.000Z",
-   "summaryRaw": "Глобализация сделала своё дело"
-  },
-  {
-   "id": "55aff2848a9a",
-   "title": "В Ровно на памятной доске Бандере нарисовали красную звезду",
-   "url": "https://topwar.ru/286511-v-rovno-na-pamjatnoj-doske-bandere-narisovali-krasnuju-zvezdu.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T09:50:56.000Z",
-   "summaryRaw": "Протест не самый мощный, но носит двойной смысл — ведь красная звезда еще и символ советского прошлого"
-  },
-  {
-   "id": "11ee118ba0a5",
-   "title": "ВВС США попытались обрушить своды тоннеля Шахед Мирзаи в Иране",
-   "url": "https://topwar.ru/286510-vvs-ssha-popytalis-obrushit-svodku-tonnelja-shahed-mirzai-v-irane.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T09:47:34.000Z",
-   "summaryRaw": "Иран в свою очередь ударил по военной базе США и НПЗ в Кувейте"
-  },
-  {
-   "id": "375522f7b087",
-   "title": "Zelenskyy: warehouses attacked in Russia supplied components for drone production",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044692",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T09:42:00.000Z",
-   "summaryRaw": "Ukrainian President Volodymyr Zelenskyy has said that logistics facilities struck in Russia's Moscow and Tambov oblasts were used to supply sanctioned components for drone production and navigation equipment."
-  },
-  {
-   "id": "c2776687b149",
-   "title": "На Украине горят военные склады, поражённые дронами ВС РФ",
-   "url": "https://topwar.ru/286508-na-ukraine-gorjat-voennye-sklady-na-fone-udarov-vsu-po-obektam-marketplejsov-rf.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T09:41:56.000Z",
-   "summaryRaw": "В Кривом Роге разгорелся масштабный пожар"
-  },
-  {
    "id": "2e94947c4b46",
    "title": "3 влучання FPV, 2 капремонти, майже 50 місій — історія робота-ветерана «Діда»",
    "url": "https://armyinform.com.ua/2026/07/18/3-vluchannya-fpv-2-kapremonty-majzhe-50-misij-istoriya-robota-veterana-dida",
@@ -1694,18 +2834,6 @@
    "origin": "ua",
    "date": "2026-07-18T09:41:12.000Z",
    "summaryRaw": "Відео про робота-ветерана було оприлюднене 18 липня на каналі 7-го корпусу ДШВ. Наземні роботизовані комплекси на передовій зазвичай живуть недовго,..."
-  },
-  {
-   "id": "a845cc5f5e83",
-   "title": "Russian MFA announces official visit by top North Korean diplomat",
-   "url": "https://tass.com/politics/2161951",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T09:31:21.000Z",
-   "summaryRaw": "Choe Son Hui was invited by Russian Foreign Minister Sergei Lavrov"
   },
   {
    "id": "b35c6510827b",
@@ -1732,18 +2860,6 @@
    "summaryRaw": "Russian forces have grown increasingly willing to sacrifice a fake air defense system rather than a real one, a pattern that keeps surfacing in drone strike footage even as Ukrainian units continue to celebrate each new video as a confirmed kill. A recent example centers on footage released by Ukrainian military showing a Hornet kamikaze […]"
   },
   {
-   "id": "cf0e4eebe241",
-   "title": "Polish PM welcomes Zelenskyy's decision on Ukrainian-Polish relations",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044690",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T09:15:00.000Z",
-   "summaryRaw": "Polish Prime Minister Donald Tusk has welcomed President Volodymyr Zelenskyy's decision on Ukrainian-Polish relations."
-  },
-  {
    "id": "e7a78520139c",
    "title": "Retaliatory Strikes Against Russia's Warehouse Infrastructure Have Begun: Wildberries Terminals in Moscow and Tambov Regions are on Fire",
    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOU0ZYZkVBU3NVRlBmTUJvM0JRZWFCdF94RHZyNWFXak9fRTluLXpwdXpHRUdoaEtxUWpzQXZCTDVyTmxyM05vVXg3SURieXVpWTVCakJPQXgzZ004ejJVeTMwNzhla1FScFFFNnpvOThjaTljNFVZV2JFeDlSNG1KbHZ4MDFETlg4aGRPc2tEbmR6UnVGYXR6RlVUT2ZaYW5aQUhtWEo0eGJTaWdUQVU1ZDRBUHVsRV9wVVBQa3BaQzl3X0dlT3VyRENCVzJpYk1EcmtiaTA4ZG1FbEVMMF9EVjB1QWJjV0RNcVFxZ2dxSXc4V2tZN0k0eC1tbw?oc=5",
@@ -1754,18 +2870,6 @@
    "origin": null,
    "date": "2026-07-18T09:04:59.000Z",
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxOU0ZYZkVBU3NVRlBmTUJvM0JRZWFCdF94RHZyNWFXak9fRTluLXpwdXpHRUdoaEtxUWpzQXZCTDVyTmxyM05vVXg3SURieXVpWTVCakJPQXgzZ004ejJVeTMwNzhla1FScFFFNnpvOThjaTljNFVZV2JFeDlSNG1KbHZ4MDFETlg4aGRPc2tEbmR6UnVGYXR6RlVUT2ZaYW5aQUhtWEo0eGJTaWdUQVU1ZDRBUHVsRV9wVVBQa3BaQzl3X0dlT3VyRENCVzJpYk1EcmtiaTA4ZG1FbEVMMF9EVjB1QWJjV0RNcVFxZ2dxSXc4V2tZN0k0eC1tbw?oc=5\" targe"
-  },
-  {
-   "id": "2a6ea8404ea2",
-   "title": "Финны вновь ограничили морской и авиационный трафик из-за украинских БПЛА",
-   "url": "https://topwar.ru/286507-v-finskom-zalive-vnov-ogranichen-morskoj-i-aviatrafik-iz-za-ukrainskih-bpla.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T09:04:09.000Z",
-   "summaryRaw": "Силы обороны Финляндии вновь перекрыли часть залива из-за угроз появления украинских дронов в ходе атаки по территории РФ"
   },
   {
    "id": "617c8f3ecd8f",
@@ -1780,16 +2884,16 @@
    "summaryRaw": "Про це повідомило Міністерство оборони України. «Циклоп» призначений для ураження повітряних і наземних цілей противника. Його розробили на українському підприємстві..."
   },
   {
-   "id": "c3cc0b8a405a",
-   "title": "Brigades ordered to record videos in support of Ukraine's military chief Syrskyi",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044687",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
+   "id": "37963e25edf0",
+   "title": "Russian attacks kill 11, injure 62 across Ukraine over past day; foreign civilian vessel damaged in Odesa port",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQTUyWWFQZjFyYTJaZFdxTjNwSEhlMjhpblZOaHlqUGpLaEZXMlMxTmFtZEY1VWRldDNsblVBNmxoalh6SmV3LUEwSXpXdnRyS0pCN2VCaVFtV09fUURkMDdnYkdUTVNIby02Z1UweXpaWGN6TzJDeEtDRDE1UjdVZE93ZTF5b1ZFRWdkUHlfb0xqdE9INWxON2tHeHlmbWlmTEduX3dYZ3hxMjRmV00yeERSYTFVWlVweXdZY3VrM041WDdQVmN0RThKWjRBZUFTOFdKc1hrSQ?oc=5",
+   "source": "kyivindep",
+   "sourceName": "Kyiv Independent",
    "state": false,
    "stream": "verified",
    "origin": null,
-   "date": "2026-07-18T08:51:00.000Z",
-   "summaryRaw": "Serhii Sternenko, a volunteer and former advisor to Ukraine's defence minister, has said that commanders of Ukrainian brigades have been ordered to record video statements in support of Oleksandr Syrskyi, Commander-in-Chief of Ukraine's Armed Forces. Ukrainska Pravda sources within the military have confirmed that such an instruction was issued."
+   "date": "2026-07-18T08:44:46.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQTUyWWFQZjFyYTJaZFdxTjNwSEhlMjhpblZOaHlqUGpLaEZXMlMxTmFtZEY1VWRldDNsblVBNmxoalh6SmV3LUEwSXpXdnRyS0pCN2VCaVFtV09fUURkMDdnYkdUTVNIby02Z1UweXpaWGN6TzJDeEtDRDE1UjdVZE93ZTF5b1ZFRWdkUHlfb0xqdE9INWxON2tHeHlmbWlmTEduX3dYZ3hxMjRmV00yeERSYTFVWlVweXdZY3VrM041WDdQVmN0RThKWjRBZUFTOFdKc1hrSQ?oc=5\" target=\"_blank\">Russian attacks kill 11, injure 62 ac"
   },
   {
    "id": "c48051452043",
@@ -1828,18 +2932,6 @@
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWU9EaWZpMkdJVFp0eXV6V0hock5neUFiSmgyUGl2TE5RUzJqTld4eU1zaEg5YXlheDRiUzh2clZzN01STGdVRXoycnRZc0NYSUJRMVFVb3FqaHRsZHhMblNGbV9NQXM3bFV0cnNyQzVaQWZmOXlmNnAyNWpfZ01SSmdta3FITlJueWJzYW9nYTNxTEtxQ0xxVWQ3Y1NqYUFvR2tDWG5LR0Fld3d1akFEOW9vTThQXzN6?oc=5\" target=\"_blank\">For the First Time Since 2013, Russia has Left Mediterranean Sea Without a Sing"
   },
   {
-   "id": "dc30638b0a7b",
-   "title": "Russian shadow fleet tanker spills oil off Oman coast",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044686",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T08:23:00.000Z",
-   "summaryRaw": "The sanctioned Caroline Bezengi tanker, which was transporting Russian oil, has likely caused a spill in a protected marine area off the coast of Oman."
-  },
-  {
    "id": "af8cb6d091cb",
    "title": "За «Нову пошту» та «Розетку»: уражено 2 великих логістичних об’єкти на російській території",
    "url": "https://armyinform.com.ua/2026/07/18/za-novu-poshtu-ta-rozetku-urazheno-2-velykyh-logistychnyh-obyekty-na-rosijskij-terytoriyi",
@@ -1850,18 +2942,6 @@
    "origin": "ua",
    "date": "2026-07-18T08:18:11.000Z",
    "summaryRaw": "Про це повідомив повідомив 18 липня Президент Володимир Зеленський. За його словами, уражені цілі знаходилися на відстані понад 500 і близько..."
-  },
-  {
-   "id": "fb579d1e50bc",
-   "title": "Russians attack cars and pedestrians in Kherson: nine people injured",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044684",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T08:07:00.000Z",
-   "summaryRaw": "Russian forces carried out several drone attacks on Kherson on the morning of 18 July, injuring nine people, including a 14-year-old boy."
   },
   {
    "id": "1916e07e56fe",
@@ -1876,30 +2956,6 @@
    "summaryRaw": "Відео розмови з бійцем було оприлюднене 18 липня на каналі бригади. Після повернення до війська він вирушив виконувати бойові завдання..."
   },
   {
-   "id": "8ec8550f4946",
-   "title": "Russian drone strike destroys fuel depot used by Ukrainian army in Chernigov Region",
-   "url": "https://tass.com/defense/2161947",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T07:58:09.000Z",
-   "summaryRaw": "Russian military used a Geran-3 Seeker drone"
-  },
-  {
-   "id": "9c0255a89060",
-   "title": "IN BRIEF: Seven killed, over 50 injured in Ukrainian drone attacks on Russian regions",
-   "url": "https://tass.com/emergencies/2161943",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T07:54:47.000Z",
-   "summaryRaw": "At least 370 drones were detected flying toward the Moscow region between the evening of July 17 and the morning of July 18"
-  },
-  {
    "id": "634e21acc3c3",
    "title": "Drones Struck Oil Depot in Noginsk, 50 km From Moscow",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZnpLbVFEVW5TUG9rd052UnhHcWVVWDc0Sy1FTm9QLUNiQW1SM29IWVhaZDlySl9TS2oyZGxEeFVRMWJDdjNDeEltbjJCMllZbUdVVkZUOHhzdlZVSE43NlZpaGxCZWdmVWtlVXNwSktMN0tLZFE5dW4xMGVadHk5SS1SbzV2ajJfc3hHZA?oc=5",
@@ -1910,78 +2966,6 @@
    "origin": null,
    "date": "2026-07-18T07:23:48.000Z",
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPZnpLbVFEVW5TUG9rd052UnhHcWVVWDc0Sy1FTm9QLUNiQW1SM29IWVhaZDlySl9TS2oyZGxEeFVRMWJDdjNDeEltbjJCMllZbUdVVkZUOHhzdlZVSE43NlZpaGxCZWdmVWtlVXNwSktMN0tLZFE5dW4xMGVadHk5SS1SbzV2ajJfc3hHZA?oc=5\" target=\"_blank\">Drones Struck Oil Depot in Noginsk, 50 km From Moscow</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Мілітарний</font>"
-  },
-  {
-   "id": "4348a9590551",
-   "title": "Russia weakens drone operations on battlefield to protect shadow fleet",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044682",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T07:20:00.000Z",
-   "summaryRaw": "Robert \"Magyar\" Brovdi, Commander of the Unmanned Systems Forces, has said that Russia is redeploying up to 200 Rubikon drone centre crews from the battlefield to protect vessels in the Black Sea and the Sea of Azov."
-  },
-  {
-   "id": "74d809a5bae1",
-   "title": "Twenty-five people injured in Ukrainian attack on warehouse in Russia’s Tambov Region",
-   "url": "https://tass.com/emergencies/2161935",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T07:11:54.000Z",
-   "summaryRaw": "The governor Yevgeny Pervyshov said earlier that the attack had killed seven night shift workers"
-  },
-  {
-   "id": "db795d7c1b25",
-   "title": "Технічні роботи у «Резерв+» триватимуть у нічний час, але військово-обліковий документ краще скачати",
-   "url": "https://armyinform.com.ua/2026/07/18/tehnichni-roboty-u-rezerv-tryvatymut-u-nichnyj-chas-ale-vijskovo-oblikovyj-dokument-krashhe-skachaty",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-18T06:58:14.000Z",
-   "summaryRaw": "Про це повідомило 18 липня Міністерство оборони України. За даними відомства, PDF-версія військово-облікового документа потрібна для уникнення незручностей та підтвердження..."
-  },
-  {
-   "id": "4b9d39dc0495",
-   "title": "Наследие Грэма: Пошлины для покупателей газа из РФ могут «потопить» Словакию",
-   "url": "https://topwar.ru/286496-nasledie-grjema-poshliny-dlja-pokupatelej-gaza-iz-rf-mogut-potopit-slovakiju.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T06:58:10.000Z",
-   "summaryRaw": "Несладко придётся и Венгрии"
-  },
-  {
-   "id": "c62e8d560022",
-   "title": "Чорне море стає для росіян червоним: за ніч уражено ще 13 кораблів ворожого тіньового флоту",
-   "url": "https://armyinform.com.ua/2026/07/18/chorne-more-staye-dlya-rosiyan-chervonym-za-nich-urazheno-shhe-13-korabliv-vorozhogo-tinovogo-flotu",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-18T06:38:08.000Z",
-   "summaryRaw": "Про це вранці 18 липня повідомив командувач Сил безпілотних систем ЗСУ майор Роберт Бровді з позивним «Мадяр». Згідно інфографіки командувача..."
-  },
-  {
-   "id": "9dcd4aab77e7",
-   "title": "Large-scale drone attack on Moscow and Moscow Oblast: oil depot and Wildberries warehouse on fire – photo, videos",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044673",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T06:32:00.000Z",
-   "summaryRaw": "Moscow and Moscow Oblast came under a large-scale drone attack overnight, triggering fires at a Wildberries logistics centre and an oil depot, while Russian authorities reported dozens of casualties."
   },
   {
    "id": "ada26f3d1282",
@@ -1996,162 +2980,6 @@
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQVndkSTlNNXhHMDdyc3dXaFpWR2RkT1UyUEFiSE9lQUk3UTBTTDcyVk00Yjk1RnhRdjZQZGhERk5ZbGkyeFlNQ2dNSEUyNDY2a3BtT2tKdjdXWlZ5aXlnYXpZb3hhYmF3NEROUE9TbFZjeTlBT0EyZjRHN0pLRjNFbEIwb09yTmE0UHpLTjR4dl80UzFOczZrUFpkdVJLMzRrTnJqeDhR?oc=5\" target=\"_blank\">1606 Days of russia-Ukraine War – russian Casualties in Ukraine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">De"
   },
   {
-   "id": "0f4e62edeab6",
-   "title": "Russian forces carry out strikes on Ukrainian ports used for military cargo deliveries",
-   "url": "https://tass.com/defense/2161915",
-   "source": "tass",
-   "sourceName": "TASS",
-   "state": true,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T06:18:55.000Z",
-   "summaryRaw": "Also the Russian Armed Forces struck facilities used for unloading fuel intended for the Ukrainian military, as well as storage tanks, at the Odessa port"
-  },
-  {
-   "id": "2f0693cb29e6",
-   "title": "Ворог запустив по Україні 7 ракет та 90 БПЛА. Основний напрямок удару — Одещина",
-   "url": "https://armyinform.com.ua/2026/07/18/voroga-zapustyv-po-ukrayini-7-raket-ta-90-bpla-osnovnyj-napryamok-udaru-odeshhyna",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-18T06:18:42.000Z",
-   "summaryRaw": "Про це повідомили вранці 18 квітня Повітряні Сили ЗСУ. Зокрема, ворог ударив двома балістичними ракетами «іскандер-м», двома протикорабельними ракетами «онікс»,..."
-  },
-  {
-   "id": "99b53498bb1b",
-   "title": "Russia attacks Ukraine with seven missiles and 90 drones: missile and 19 drone strikes recorded",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044676",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T06:07:00.000Z",
-   "summaryRaw": "Russia launched seven missiles and 90 drones overnight, with Odesa Oblast as the main target of the attack."
-  },
-  {
-   "id": "67509349c5c6",
-   "title": "Противник атаковал сразу два логистических центра Wildberries на территории РФ",
-   "url": "https://topwar.ru/286494-protivnik-atakoval-srazu-dva-logisticheskih-centra-wildberries-na-territorii-rf.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T06:04:30.000Z",
-   "summaryRaw": "Губернатор Московской области сообщил о ночных украинских ударах"
-  },
-  {
-   "id": "a72da2af3e66",
-   "title": "Пам’яті історика Валерія Романовського (позивний «Козак»)",
-   "url": "https://armyinform.com.ua/2026/07/18/pamyati-istoryka-valeriya-romanovskogo-pozyvnyj-kozak",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-18T06:00:05.000Z",
-   "summaryRaw": "Свою останню наукову доповідь харківський історик Валерій Романовський робив з окопу, земля довкола якого вже була густо поцяткована воронками близьких вибухів...."
-  },
-  {
-   "id": "b2c57dac7bb6",
-   "title": "«Одноразові носильники, одноразові дрони»: під Лиманом ворог намагається хоч якось налагодити логістику",
-   "url": "https://armyinform.com.ua/2026/07/18/odnorazovi-nosylnyky-odnorazovi-drony-pid-lymanom-vorog-namagayetsya-hoch-yakos-nalagodyty-logistyku",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-18T05:47:37.000Z",
-   "summaryRaw": "Про це на стрімі АрміяTV розповів речник 66-ї механізованої бригади імені князя Мстислава Хороброго Василь Денисюк. «Ми полюємо не лише..."
-  },
-  {
-   "id": "79945bc89f19",
-   "title": "На выставке Eurosatory США представили M1E3 Abrams с ИИ и автоматом заряжания",
-   "url": "https://topwar.ru/286493-na-vystavke-eurosatory-ssha-predstavili-m1e3-abrams-s-ii-i-avtomatom-zarjazhanija.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T05:34:56.000Z",
-   "summaryRaw": "Утверждается, что M1E3 делает акцент на ситуационную осведомлённость, живучесть и глубокую сетевую интеграцию"
-  },
-  {
-   "id": "ca3996e9e963",
-   "title": "Six people killed and 26 injured in Russian attacks on Donetsk and Kherson oblasts",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044661",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T05:28:00.000Z",
-   "summaryRaw": "Russian attacks on 17 July killed six people and injured 26 others in Donetsk and Kherson oblasts, with houses and infrastructure damaged."
-  },
-  {
-   "id": "53635ab9e890",
-   "title": "Військові моряки врятували 17 людей з ураженого ворогом цивільного судна — ВМС ЗСУ",
-   "url": "https://armyinform.com.ua/2026/07/18/vijskovi-moryaky-vryatuvaly-17-lyudej-z-urazhenogo-vorogom-czyvilnogo-sudna-vms-zsu",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-18T05:25:34.000Z",
-   "summaryRaw": "Про це повідомили вранці 18 липня Військово-Морські Сили України. Після російського удару, суховантажне судно VENTURO, зазнало пошкоджень та втратило хід...."
-  },
-  {
-   "id": "6f06420fcd9b",
-   "title": "Ворог найбільше атакував на Покровському та Гуляйпільському напрямках — Генштаб ЗСУ",
-   "url": "https://armyinform.com.ua/2026/07/18/vorog-najbilshe-atakuvav-na-pokrovskomu-ta-gulyajpilskomu-napryamkah-genshtab-zsu-2",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-18T05:12:51.000Z",
-   "summaryRaw": "Оперативна інформація станом на 08:00 18 липня була оприлюднена Генеральним штабом ЗСУ. Вчора противник завдав трьох ракетних ударів із застосуванням..."
-  },
-  {
-   "id": "5e405568f89c",
-   "title": "Russian forces strike Zaporizhzhia Oblast more than 800 times, killing one person",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044659",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T04:55:00.000Z",
-   "summaryRaw": "Russian forces conducted 851 attacks across Zaporizhzhia Oblast in 24 hours, killing one person, injuring two, and damaging houses and infrastructure."
-  },
-  {
-   "id": "91b79704f4df",
-   "title": "Военные Греции: откуда Киев знает, у скольких наших ЗУР истекает срок годности",
-   "url": "https://topwar.ru/286491-voennye-grecii-otkuda-kiev-znaet-u-skolkih-nashih-zur-istekaet-srok-godnosti.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T04:36:17.000Z",
-   "summaryRaw": "Партнёры по НАТО требуют от греков передать половину своих батарей Patriot Украине"
-  },
-  {
-   "id": "c21a71545db2",
-   "title": "Літак, 6 систем ПВО та понад 1400 солдатів — Генштаб повідомив про втрати ворога",
-   "url": "https://armyinform.com.ua/2026/07/18/litak-6-system-pvo-ta-ponad-1400-soldativ-genshtab-povidomyv-pro-vtraty-voroga",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-18T04:28:39.000Z",
-   "summaryRaw": "Про це вранці 18 липня повідомив Генеральний штаб ЗСУ. Загальні бойові втрати противника з 24.02.22 по 18.07.26 орієнтовно склали: особового..."
-  },
-  {
    "id": "bf2d5a3c3d20",
    "title": "FIFA set to provide World Cup payments to Russian clubs owned by sanctioned oil, gas companies, investigation finds",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oLUN2VVh2c0FiYVRTSkdKaXpfMHE4WDBRb21JbFNza1hKS1FwS3pfakxyYkdKWWNXNWRTNkU5MmdnOVJOMjBRcVM4YzJSeFI2WFZTdVBR?oc=5",
@@ -2164,78 +2992,6 @@
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oLUN2VVh2c0FiYVRTSkdKaXpfMHE4WDBRb21JbFNza1hKS1FwS3pfakxyYkdKWWNXNWRTNkU5MmdnOVJOMjBRcVM4YzJSeFI2WFZTdVBR?oc=5\" target=\"_blank\">FIFA set to provide World Cup payments to Russian clubs owned by sanctioned oil, gas companies, investigation finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Kyiv Independent</font>"
   },
   {
-   "id": "a0eac3455308",
-   "title": "Russia loses 1,420 soldiers over past day",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044658",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T04:07:00.000Z",
-   "summaryRaw": "Ukraine's General Staff has updated data on Russian losses: Russia lost 1,420 soldiers killed and wounded over the past day."
-  },
-  {
-   "id": "5b23f1e93d83",
-   "title": "Противник ударил по тамбовскому Котовску - есть погибшие и раненые",
-   "url": "https://topwar.ru/286490-protivnik-udaril-po-tambovskomu-kotovsku-est-pogibshie-i-ranenye.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T03:45:05.000Z",
-   "summaryRaw": "Губернатор региона подтверждает прилёты БПЛА"
-  },
-  {
-   "id": "8c9a78469214",
-   "title": "«Вынос» морской логистики: атакованы цели в Черноморске, Одессе, Николаеве",
-   "url": "https://topwar.ru/286489-vynos-morskoj-logistiki-atakovany-celi-v-chernomorske-odesse-nikolaeve.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T03:35:07.000Z",
-   "summaryRaw": "Под удар попало используемое в интересах киевского режима судно под флагом Маршалловых островов, а также портовая инфраструктура"
-  },
-  {
-   "id": "64df354a9fac",
-   "title": "Сырский решил себя показать: ВСУ отбили большую часть днепропетровской Ивановки",
-   "url": "https://topwar.ru/286488-syrskij-reshil-sebja-pokazat-vsu-otbili-bolshuju-chast-dnepropetrovskoj-ivanovki.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-18T03:15:49.000Z",
-   "summaryRaw": "Пытаются вновь войти в ДНР на этом участке фронта"
-  },
-  {
-   "id": "2820dfefff9d",
-   "title": "«Два роки — і ти маєш право звільнитися. Це важливо»: командир «Бродяг» — про нові контракти і війну розумом",
-   "url": "https://armyinform.com.ua/2026/07/18/%c2%abdva-roky-%e2%80%94-i-ty-mayesh-pravo-zvilnytysya-cze-vazhlyvo%c2%bb-komandyr-%c2%abbrodyag%c2%bb-%e2%80%94-pro-novi-kontrakty-i-vijnu-rozumom",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-18T03:03:35.000Z",
-   "summaryRaw": "Сьогодні — він командир 431-й окремого батальйону безпілотних систем: зграї, яка воює за принципом «не числом, а інтелектом». АрміяInform він розповів про те, як народжується культура, в якій ніхто..."
-  },
-  {
-   "id": "7242fd69eb64",
-   "title": "Drones strike Russia's Tambov Oblast: logistics centre catches fire – photos, videos",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044655",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T02:47:00.000Z",
-   "summaryRaw": "Drones targeted Russia's Tambov Oblast overnight, with fires reported at a Wildberries logistics centre in Kotovsk and a residential building in Vladimir."
-  },
-  {
    "id": "92354e056531",
    "title": "Russian Offensive Campaign Assessment, July 17, 2026",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMmQ1QmI4SXBmNXdYanhiVVpVQ1laZ1BmanZyR2lDcTVvRjN2cG9ha0pQaFZTdVJoUUpYOXEtWTNNcmhzV3RxUU9MMklZS2hkUmVuSVFvTENyeFJzZ3QzTzVLdC13VDdYNEtZMzZRbm9zYU00UG94TlRyYUUtWjg0cllsekUwZ2lGUU9xOUMzV2tSalVhZFBvb1o1d2xVeGJpUEhFekxOZw?oc=5",
@@ -2246,18 +3002,6 @@
    "origin": null,
    "date": "2026-07-18T02:24:15.000Z",
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQMmQ1QmI4SXBmNXdYanhiVVpVQ1laZ1BmanZyR2lDcTVvRjN2cG9ha0pQaFZTdVJoUUpYOXEtWTNNcmhzV3RxUU9MMklZS2hkUmVuSVFvTENyeFJzZ3QzTzVLdC13VDdYNEtZMzZRbm9zYU00UG94TlRyYUUtWjg0cllsekUwZ2lGUU9xOUMzV2tSalVhZFBvb1o1d2xVeGJpUEhFekxOZw?oc=5\" target=\"_blank\">Russian Offensive Campaign Assessment, July 17, 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institute f"
-  },
-  {
-   "id": "7e5d98ff3c2e",
-   "title": "Drones strike occupied Crimea: air base may have been targeted",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044652",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-18T00:56:00.000Z",
-   "summaryRaw": "Explosions were reported across occupied Crimea overnight, with a fire breaking out near the Hvardiiske air base and blasts heard in several cities."
   },
   {
    "id": "9a8c3f1278d7",
@@ -2306,66 +3050,6 @@
    "origin": null,
    "date": "2026-07-17T23:21:02.000Z",
    "summaryRaw": "Fedorov's middle-strike drones are throttling the supply lines behind the Russian push. Whether they keep doing it without him is the question hanging over Sloviansk."
-  },
-  {
-   "id": "8270e019ba03",
-   "title": "Авианосец «Фуцзянь»: свой путь к совершенству",
-   "url": "https://topwar.ru/286354-avianosec-fuczjan-svoj-put-k-sovershenstvu.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-17T23:11:48.000Z",
-   "summaryRaw": "Китайский авианосец «Фуцзянь» может стать первым в мире авианосцем с действующей противоторпедной системой."
-  },
-  {
-   "id": "96b415c9b63d",
-   "title": "Стрелок под бронёй: что турецкий SARP меняет в войне дронов, а что нет",
-   "url": "https://topwar.ru/286432-strelok-pod-bronej-chto-tureckij-sarp-menjaet-v-vojne-dronov-a-chto-net.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-17T23:11:13.000Z",
-   "summaryRaw": "Турецкая ASELSAN запустила серийное производство дистанционно управляемых боевых модулей SARP — но за громкой премьерой скрывается вопрос поважнее самого «железа»: способно ли такое оружие реально прикрыть экипажи от FPV-дронов и почему массовость здесь решает больше, чем паспортные характеристики отдельного образца."
-  },
-  {
-   "id": "14dd93324fcb",
-   "title": "Самолёты ДРЛО и управления стран НАТО: от широкофюзеляжного E-767 до отменённого и возрождённого E-7",
-   "url": "https://topwar.ru/285928-samolety-drlo-i-upravlenija-stran-nato-ot-shirokofjuzeljazhnogo-e-767-do-otmenennogo-i-vozrozhdennogo-e-7.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-17T23:10:07.000Z",
-   "summaryRaw": "Переход авиации дальнего радиолокационного обнаружения на широкофюзеляжные платформы, распространение неподвижных АФАР вместо вращающихся антенн и громкая история с отменой и частичным возвратом американской программы E-7 показывают, что единого ответа на вопрос о будущем больших радарных самолётов у стран НАТО пока нет"
-  },
-  {
-   "id": "2857b9301ae4",
-   "title": "Вьетнам: Тонкинский цирк",
-   "url": "https://topwar.ru/285986-vetnam-tonkinskij-cirk.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-17T23:09:44.000Z",
-   "summaryRaw": "После убийства Нго Динь Зьема перед сайгонским правительством забрезжила надежда на победу. Теперь вместо непопулярного католика у руля встали генералы-буддисты. Жёсткие и... проамериканские!"
-  },
-  {
-   "id": "e9e72fb8ec93",
-   "title": "Фридрих II: прусский ответ на уроки Полтавы",
-   "url": "https://topwar.ru/286362-fridrih-ii-prusskij-otvet-na-uroki-poltavy.html",
-   "source": "topwar",
-   "sourceName": "Topwar",
-   "state": false,
-   "stream": "single",
-   "origin": "ru",
-   "date": "2026-07-17T23:09:23.000Z",
-   "summaryRaw": "Под Полтавой шведская пехота шла на редуты сквозь неподвижный огонь и не дошла — и весь XVIII век европейская военная мысль, от Фридриха II до Морица Саксонского, по сути искала ответ на один вопрос: чем заменить голый натиск, если он больше не работает"
   },
   {
    "id": "ea3ec67077bf",
@@ -2452,18 +3136,6 @@
    "summaryRaw": "Ukrainian President Volodymyr Zelensky has announced plans to open Ukraine’s intelligence archives on the Volhynia massacre, following a meeting on relations with Poland."
   },
   {
-   "id": "053c271a8f3d",
-   "title": "Russia strikes Marshall Islands-flagged vessel in Odesa Oblast port again, injuring four",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/17/8044644",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-17T20:45:00.000Z",
-   "summaryRaw": "A Russian missile strike on port infrastructure facilities in Odesa Oblast damaged a civilian vessel sailing under the flag of the Marshall Islands, leaving four crew members injured."
-  },
-  {
    "id": "7ee446f0d8f4",
    "title": "Russo-Ukrainian war, day 1605: Ukraine kills bomber deep inside Russia",
    "url": "https://euromaidanpress.com/2026/07/17/russo-ukrainian-war-day-1605-ukraine-kills-bomber-deep-inside-russia",
@@ -2512,18 +3184,6 @@
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQaHBUQUQzeGtzSzc0MUNXNU9YQlNEMy1adXZTLXY3cVJCT05uak1jTGVXT3h5WFlTSlEtZ0o5Qlc5UjBOX3pTTUphRUpIYjMwNVBETW9ITjZ6WkVDVk1oMloydzNwdkE3WTVXalgwVXVtRWNDUU04Qkp5SDlPX3dfTFhkc0FUNWROZHpSU3BEMGtsbm81YXc?oc=5\" target=\"_blank\">Russian propagandists celebrate Fedorov’s dismissal as Ukraine’s defence minister: \"It is plus for us if such proactive pers"
   },
   {
-   "id": "8aa40cb7d7d7",
-   "title": "Russian attack drone hits Chernihiv Oblast, injuring family with three children – photo",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/17/8044638",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-17T19:57:00.000Z",
-   "summaryRaw": "Russian forces launched a drone attack on Novhorod-Siverskyi in Chernihiv Oblast on the evening of 17 July, injuring a family with three children."
-  },
-  {
    "id": "aa8e8b7d0738",
    "title": "Ukraine contracted $8 billion in drones this year. In-stock ones reach units in nine days",
    "url": "https://euromaidanpress.com/2026/07/17/ukraine-contracted-8-billion-in-drones-this-year-in-stock-ones-reach-units-in-nine-days",
@@ -2546,54 +3206,6 @@
    "origin": "ua",
    "date": "2026-07-17T19:20:36.000Z",
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMimgJBVV95cUxQcDNIcElRM1RqS2lrc1FrMGJadTlORzhRdFdTTG16WTZYQnBfWDcybDRjSWp5RmVsbVRMU1ZFck9KNE15RjJ0cFZpSm10dkxySUtkQlNnSEtucHpsdkE2cm5FZmFuWUhVM0hKejBTTUo4YjVVeWYwbXlLLWxaRkxyZXpCMnY5UzA2ZDZwSEFZNnd1UlhKTzBzdFFlZXFDMUQwV2ZydHE4dWxlcjA1UmlBNFdMY2NMc05XaDVJbW05QWhPWlJCak1KbGsxc2lpeUJ4bUw3LUtsblFOamFkYXpOc3dmWjl0TnJrajQyMU5BVjhuclRBUlU4YVNuM2NZWEdycVV6Nk"
-  },
-  {
-   "id": "1bf41aadd55d",
-   "title": "Government appoints Tsutskiridze as acting head of Ukraine's National Police",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/17/8044635",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-17T19:17:00.000Z",
-   "summaryRaw": "Ukraine's Cabinet of Ministers has appointed Maksym Tsutskiridze as acting head of the National Police after Ivan Vyhivskyi became Interior Minister."
-  },
-  {
-   "id": "40725c306187",
-   "title": "Three children injured in Russian guided bomb attack on Izium in Kharkiv Oblast – photos",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/17/8044597",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-17T19:00:00.000Z",
-   "summaryRaw": "Seven people, including three children, have been injured as a result of a Russian guided aerial bomb strike on the town of Izium in Kharkiv Oblast on 17 July."
-  },
-  {
-   "id": "a574ce2ffa63",
-   "title": "Zelenskyy appoints Poklad as acting head of Security Service of Ukraine",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/17/8044633",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-17T18:50:00.000Z",
-   "summaryRaw": "President Volodymyr Zelenskyy has officially appointed Oleksandr Poklad as acting head of the Security Service of Ukraine."
-  },
-  {
-   "id": "514e94135852",
-   "title": "Zelenskyy appoints Beskrestnov as adviser on defence technology development",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/17/8044629",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-17T18:37:00.000Z",
-   "summaryRaw": "Ukrainian President Volodymyr Zelenskyy has appointed Serhii \"Flash\" Beskrestnov, a former adviser to the defence minister, as his non-staff adviser on the development of defence technologies."
   },
   {
    "id": "47a5f296d761",
@@ -2656,78 +3268,6 @@
    "summaryRaw": "The real goal of this trial is to silence me and keep me from running for the State Duma. If I am found guilty, I will lose the right to run — and according to polls, I am currently winning the race. This is a farcical situation. I cannot understand why Alexey Navalny’s face qualifies as the symbol of an extremist organization. If that is the case, then people who resemble him should be detained. "
   },
   {
-   "id": "b1c3e7c0b84c",
-   "title": "Protests in support of ex-defence minister Fedorov continue for second day in Kyiv and other cities across Ukraine – photos, video",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/17/8044630",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-17T17:56:00.000Z",
-   "summaryRaw": "Protests in support of former defence minister Mykhailo Fedorov continue for a second consecutive day in Kyiv and other cities across Ukraine following his dismissal."
-  },
-  {
-   "id": "d80cab888793",
-   "title": "Сергій «Флеш» Бескрестнов став радником Президента з оборонних технологій",
-   "url": "https://armyinform.com.ua/2026/07/17/sergij-flesh-beskrestnov-stav-radnykom-prezydenta-z-oboronnyh-tehnologij",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T17:53:05.000Z",
-   "summaryRaw": "Відповідний указ № 621/2026 оприлюднено на сайті Президента України. Посаду Сергій Бескрестнов обійматиме поза штатом. Рішення з’явилося після зустрічі Володимира Зеленського із Сергієм Бескрестновим, під час якої..."
-  },
-  {
-   "id": "b30d2ed8c3d9",
-   "title": "Ядерна експансія згасає: війна змусила росію згортати атомні проєкти",
-   "url": "https://armyinform.com.ua/2026/07/17/yaderna-ekspansiya-zgasaye-vijna-zmusyla-rosiyu-zgortaty-atomni-proyekty",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T17:51:26.000Z",
-   "summaryRaw": "Про це повідомили у Центрі протидії дезінформації. У самому «Росатомі» підтвердили, що компанія змушена переглядати інвестиційні плани через погіршення економічної ситуації. Протягом багатьох років кремль..."
-  },
-  {
-   "id": "eaeb6431b571",
-   "title": "Військовим не забороняли публічно висловлюватися — Генштаб відповів на заяви в соцмережах",
-   "url": "https://armyinform.com.ua/2026/07/17/vijskovym-ne-zaboronyaly-publichno-vyslovlyuvatysya-genshtab-vidpoviv-na-zayavy-v-soczmerezhah",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T17:48:24.000Z",
-   "summaryRaw": "Про це повідомили у Генеральному штабі ЗСУ після появи відповідних заяв військових у соціальних мережах. У Генштабі наголосили, що жодних розпорядчих документів Головнокомандувача ЗСУ чи Генерального штабу,..."
-  },
-  {
-   "id": "7c35ab4594c7",
-   "title": "Обрав бригаду, подав рапорт, і на місці: як Сергій повернувся до війська через Армія+ після СЗЧ в півтора роки",
-   "url": "https://armyinform.com.ua/2026/07/17/obrav-brygadu-podav-raport-i-na-misczi-yak-sergij-povernuvsya-do-vijska-cherez-armiya-pislya-szch-v-pivtora-roky",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T17:46:36.000Z",
-   "summaryRaw": "Його історію оприлюднило оперативне командування «Захід» Сухопутних військ ЗСУ. За його словами, у 2024 році його мобілізували через ТЦК. Після завершення базової..."
-  },
-  {
-   "id": "945cdd107200",
-   "title": "US feels impact of Ukrainian strikes on Russian oil infrastructure – Axios",
-   "url": "https://www.pravda.com.ua/eng/news/2026/07/17/8044627",
-   "source": "pravda-en",
-   "sourceName": "Ukrainska Pravda (EN)",
-   "state": false,
-   "stream": "verified",
-   "origin": null,
-   "date": "2026-07-17T17:35:00.000Z",
-   "summaryRaw": "Attacks by Ukrainian drones on oil refineries in Russia have dealt a major blow to the country's oil infrastructure, triggering an economic shock whose effects are now being felt in the United States."
-  },
-  {
    "id": "f1f5cc90106b",
    "title": "The Fedorov Dismissal: On Trust, Technology, and Turnover",
    "url": "https://warontherocks.com/the-fedorov-dismissal-on-trust-technology-and-turnover-2",
@@ -2738,18 +3278,6 @@
    "origin": null,
    "date": "2026-07-17T17:30:33.000Z",
    "summaryRaw": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum only for War on the Rocks members.Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.Western coverage often narrows the view to the battlefield — these pieces widen"
-  },
-  {
-   "id": "53602fdf866a",
-   "title": "Черговий воєнний злочин рф: окупанти вдарили по пожежній частині у Краматорську",
-   "url": "https://armyinform.com.ua/2026/07/17/chergovyj-voyennyj-zlochyn-rf-okupanty-vdaryly-po-pozhezhnij-chastyni-u-kramatorsku",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T17:24:28.000Z",
-   "summaryRaw": "Про це повідомили у Державній службі України з надзвичайних ситуацій. На момент обстрілу особовий склад перебував в укритті, тому ніхто з рятувальників не постраждав. Пожежна техніка також залишилася..."
   },
   {
    "id": "57761c389953",
@@ -2764,30 +3292,6 @@
    "summaryRaw": "Ilya Remeslo, a pro-Kremlin blogger and informant, publishes a lengthy post on his Telegram channel sharply criticizing Russian President Vladimir Putin."
   },
   {
-   "id": "311a1c0e1a76",
-   "title": "«Кожне збиття пам’ятаю по секундах»: історія водія британського ЗРК RAVEN, який полює на ракети й «Шахеди»",
-   "url": "https://armyinform.com.ua/2026/07/17/kozhne-zbyttya-pamyatayu-po-sekundah-istoriya-vodiya-brytanskogo-zrk-raven-yakyj-polyuye-na-rakety-j-shahedy",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T17:11:13.000Z",
-   "summaryRaw": "Про історію водія британського ЗРК RAVEN Володимира з позивним «Михайлович» розповіли на сторінці Повітряного командування «Схід». Від СТО — до полювання на ракети До війни Володимир працював на станції..."
-  },
-  {
-   "id": "0188bc877d66",
-   "title": "Логістичний локдаун в дії: окупанти у Криму формують списки на евакуацію родин військових",
-   "url": "https://armyinform.com.ua/2026/07/17/logistychnyj-lokdaun-v-diyi-okupanty-u-krymu-formuyut-spysky-na-evakuacziyu-rodyn-vijskovyh",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T16:32:16.000Z",
-   "summaryRaw": "Таку інформацію вдалося довелось отримати з джерел у військовій вертикалі окупаційної влади Криму. Начальник Севастопольського територіального гарнізону адмірал С. Пінчук..."
-  },
-  {
    "id": "6ee754683308",
    "title": "He was supposed to fund Russia’s drive to replace Western imports. So how did an adult-diaper factory end up losing 50 million rubles?",
    "url": "https://meduza.io/en/news/2026/07/17/he-was-supposed-to-fund-russia-s-drive-to-replace-western-imports-so-how-did-an-adult-diaper-factory-end-up-losing-50-million-rubles",
@@ -2798,18 +3302,6 @@
    "origin": null,
    "date": "2026-07-17T16:29:21.000Z",
    "summaryRaw": "A Moscow court has ordered the detention of Dmitry Kolobov on suspicion of fraud on an especially large scale. Kolobov formerly headed the Industry and Trade Ministry’s Department for Industrial Development and Socially Significant Goods. The Russian state news agency TASS and the business news outlet RBC reported the detention, citing sources."
-  },
-  {
-   "id": "97ba57305202",
-   "title": "Чотири гармати і щільна стіна вогню: в НГУ показали бойове чергування екіпажу «Шилки»",
-   "url": "https://armyinform.com.ua/2026/07/17/chotyry-garmaty-i-shhilna-stina-vognyu-v-ngu-pokazaly-bojove-cherguvannya-ekipazhu-shylky",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T16:28:58.000Z",
-   "summaryRaw": "Світлини роботи розрахунку оприлюднили в Національній гвардії України. У Нацгвардії наголошують: попри поважний вік, ця радянська установка й досі залишається ефективним засобом ближньої протиповітряної оборони. Водночас..."
   },
   {
    "id": "6e5e6fa37413",
@@ -2872,42 +3364,6 @@
    "summaryRaw": "Ukrainian President Volodymyr Zelensky has offered Ihor Klymenko, the former interior minister, the post of secretary of the National Security and Defense Council (NSDC). A decree formalizing the appointment is already being prepared, Zelensky said."
   },
   {
-   "id": "d2302805f703",
-   "title": "Обладнав сховок для ухилянтів: водій буса вирішив заробити на незаконному переправленні за кордон",
-   "url": "https://armyinform.com.ua/2026/07/17/obladnav-shovok-dlya-uhylyantiv-vodij-busa-vyrishyv-zarobyty-na-nezakonnomu-perepravlenni-za-kordon",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T16:13:35.000Z",
-   "summaryRaw": "Про це у п’ятницю, 17 липня, розповіли у ДПСУ. Як повідомляється, 43-річний чоловік облаштував у своєму мікроавтобусі спеціальну схованку для..."
-  },
-  {
-   "id": "37087a9fdab1",
-   "title": "«Будуть рішення»: Володимир Зеленський обговорив із Сергієм «Флешем» технологічні потреби оборони",
-   "url": "https://armyinform.com.ua/2026/07/17/budut-rishennya-volodymyr-zelenskyj-obgovoryv-iz-sergiyem-fleshem-tehnologichni-potreby-oborony",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T16:02:55.000Z",
-   "summaryRaw": "Про це Володимир Зеленський повідомив на своїй офіційній сторінці. За словами Президента, саме технологічна перевага допомагає зберігати життя українських військових і завдавати ударів по противнику. «Саме технологічність..."
-  },
-  {
-   "id": "625fd863b12d",
-   "title": "Виправдовувала агресію рф і радила, куди бити ракетами: посадовиця Мінкульту постане перед судом",
-   "url": "https://armyinform.com.ua/2026/07/17/vypravdovuvala-agresiyu-rf-i-radyla-kudy-byty-raketamy-posadovyczya-minkultu-postane-pered-sudom",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T15:52:56.000Z",
-   "summaryRaw": "Про це повідомила Київська міська прокурора. Прокурорами Київської міської прокуратури до суду скеровано обвинувальний акт щодо начальниці одного з відділів Міністерства культури, яка обвинувачується..."
-  },
-  {
    "id": "e3fefc968139",
    "title": "Ukraine protests Zelensky’s decision to fire defense minister",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTG1hMXRCdWQzeF91Nk5rYlpreUJHVGxsbWZCendNLWdiMTJNVHlfR3lubE5wRTQzbXJQQjNlbW9WdkVhUnc1Ti1tTEN1eno2SWtnTEQ5RDJoZDBBV0ozVnNpTEk3ZFotMW5QcWRzWEk3UDNzUWo0TlkxcENvQ3puN1BtNVVpVU01T1A0SGFfMldQV3c?oc=5",
@@ -2942,18 +3398,6 @@
    "origin": null,
    "date": "2026-07-17T15:40:21.000Z",
    "summaryRaw": "Ukrainian repair troops completed Rosomak maintenance training in Poland."
-  },
-  {
-   "id": "1f87f806c7d7",
-   "title": "«На рішення були секунди»: бійці ПвК «Схід» розповіли, як збили крилату ракету з ПЗРК «Ігла»",
-   "url": "https://armyinform.com.ua/2026/07/17/na-rishennya-buly-sekundy-bijczi-pvk-shid-rozpovily-yak-zbyly-krylatu-raketu-z-pzrk-igla",
-   "source": "armyinform",
-   "sourceName": "ArmyInform",
-   "state": true,
-   "stream": "single",
-   "origin": "ua",
-   "date": "2026-07-17T15:34:50.000Z",
-   "summaryRaw": "Про це розповіли у Повітряному командуванні «Схід». «Такі цілі виявити непросто, а на ухвалення рішення залишаються лічені секунди», — говорить оператор переносного зенітного ракетного комплексу «Ігла»..."
   },
   {
    "id": "ae1d5d5511d6",
@@ -3304,6 +3748,18 @@
    "summaryRaw": "Latvia's Prime Minister named a gas facility and the dam upstream of the capital as the sites now under heavier guard."
   },
   {
+   "id": "5df91c1da2cc",
+   "title": "Ukrainian Defense Forces Attack Second Russian Svetlyak-class Patrol Boat in Kerch in Two Days",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTFoN2hHa1BhOGg3aXBaTlhQM2k1V0U5RFhnUG9OenIxZVA5T0lJQVBaRDVNeVVFYW45X1hGOXZfZS1vMjEwUEllZXVhdGdhOXQwVzdRYldYR2VFdzRZcmgyLWJPcGF5SXRJd3NweHhhVzBQaWUtRjJleWhYZ2VNR3dlVHBYQ2E1Qm5JM2xCZE1jdEdGYXFPUi1fN2FQM1MzQnhJRTF3V2tJYVZIeUFiUUZVR0ZvNHBoNzAtdEFHZnAwRGM5?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-17T07:00:00.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTFoN2hHa1BhOGg3aXBaTlhQM2k1V0U5RFhnUG9OenIxZVA5T0lJQVBaRDVNeVVFYW45X1hGOXZfZS1vMjEwUEllZXVhdGdhOXQwVzdRYldYR2VFdzRZcmgyLWJPcGF5SXRJd3NweHhhVzBQaWUtRjJleWhYZ2VNR3dlVHBYQ2E1Qm5JM2xCZE1jdEdGYXFPUi1fN2FQM1MzQnhJRTF3V2tJYVZIeUFiUUZVR0ZvNHBoNzAtdEFHZnAwRGM5?oc=5\" target=\"_blank\">Ukrainian Defense Forces Attack Second Russian Svetlyak-class P"
+  },
+  {
    "id": "d641cd06dc62",
    "title": "Ukraine’s most effective defense minister? What Fedorov got right, and what his dismissal risks reversing",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSjlDeVpjNmQtbHZQMjFuT1NsSkR5NVZJUVJZNDdVOXFfMDRwTU93MWNiNmJLVkZYZk5yYWluNVVzRjYyUmE0dlRYbFNuSXhnQ1FOYXlGNVdZd0xDbDlfZVpwbEhncm5vZ3habDM1LV80WlpyZjh3eG9NT04ycUlRVU9wM1BSZFh3SGhTRmZSOXBWMVE?oc=5",
@@ -3581,7 +4037,7 @@
   },
   {
    "id": "953a98556cf5",
-   "title": "Zelenskyy dismisses Tymur Tkachenko as head of Kyiv City Military Administration",
+   "title": "Zelenskyy dismisses Tymur Tkachenko as head of Kyiv KCMA",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOemswTDNLZkRDQmptNDR0dVVSdjBKakxVMFBCRzBEZmxNME9sSnpZUTViUGxWOEw3NTFCVkZXeDBobHN3U1VydktuZVNTdWNlR285NHpobzJXTllaYWNNcEQ4NzUtcHJISjI0ZjBnX1BBWExjdXpqM1JXdTBmZzlYNVMwMmtxa1dvZnpBM0FXc2l1TFlEMC1mUnBB?oc=5",
    "source": "censor",
    "sourceName": "Censor.NET (EN)",
@@ -3589,7 +4045,7 @@
    "stream": "single",
    "origin": "ua",
    "date": "2026-07-16T18:21:00.000Z",
-   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOemswTDNLZkRDQmptNDR0dVVSdjBKakxVMFBCRzBEZmxNME9sSnpZUTViUGxWOEw3NTFCVkZXeDBobHN3U1VydktuZVNTdWNlR285NHpobzJXTllaYWNNcEQ4NzUtcHJISjI0ZjBnX1BBWExjdXpqM1JXdTBmZzlYNVMwMmtxa1dvZnpBM0FXc2l1TFlEMC1mUnBB?oc=5\" target=\"_blank\">Zelenskyy dismisses Tymur Tkachenko as head of Kyiv City Military Administration</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ц"
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOemswTDNLZkRDQmptNDR0dVVSdjBKakxVMFBCRzBEZmxNME9sSnpZUTViUGxWOEw3NTFCVkZXeDBobHN3U1VydktuZVNTdWNlR285NHpobzJXTllaYWNNcEQ4NzUtcHJISjI0ZjBnX1BBWExjdXpqM1JXdTBmZzlYNVMwMmtxa1dvZnpBM0FXc2l1TFlEMC1mUnBB?oc=5\" target=\"_blank\">Zelenskyy dismisses Tymur Tkachenko as head of Kyiv KCMA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Цензор.НЕТ</font>"
   },
   {
    "id": "97dd0b0a3ba4",
@@ -3614,6 +4070,18 @@
    "origin": "ua",
    "date": "2026-07-16T17:05:06.000Z",
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMisAJBVV95cUxQTnNBSlA1aEJDMVkxR2twWmZaOUtKdG9qRVVMVGlFaUNpVGVvamlQdElYQms0YUFfcDdkT2ZVYmtKcnhZci14bl9FMzYzMlE0MzVrX3JKZ1U2cXNPdS13bFA3dlFSdVBwOHlGbjlsMXR1TThkZXJ0c0lqOGh5UmFlQkFRQl83Tkd1SGNBeHpDZGhnYVBVLVlfT055eXpUeW0wZHMtV1JXZ29sVElkTlBKbnFJQnNibDBXSi1Nc2pSa1JZTEZrVDJYN1R5enFndHVESVJSSzdIaEZhTVVScmpNczBBZV9Fa2JhcmZNb0JUZ3VQUDZON1p5QnRlaG44ZVBSZG5FcG"
+  },
+  {
+   "id": "b208a1c92cac",
+   "title": "Fedorov’s first deputy Oleksii Vyskub to temporarily head Defence Ministry",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMHFOTkFzR2V6NjZtSXhiVkkzeWk3N0JWTWJSWlRkRktxSXA3VklHSFhWSWNNZWFsYkhjLTJrekRNNkpaaDhKV0p2WXl6a0NCOWVBVWljZWJGTEdNU3hlZDhnS19IT21qRThWbFlMc3p5enNrS3VZXzJSMEk1QkNPSDlJbVRlUWw2WUxJdUNn?oc=5",
+   "source": "censor",
+   "sourceName": "Censor.NET (EN)",
+   "state": false,
+   "stream": "single",
+   "origin": "ua",
+   "date": "2026-07-16T15:39:00.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOMHFOTkFzR2V6NjZtSXhiVkkzeWk3N0JWTWJSWlRkRktxSXA3VklHSFhWSWNNZWFsYkhjLTJrekRNNkpaaDhKV0p2WXl6a0NCOWVBVWljZWJGTEdNU3hlZDhnS19IT21qRThWbFlMc3p5enNrS3VZXzJSMEk1QkNPSDlJbVRlUWw2WUxJdUNn?oc=5\" target=\"_blank\">Fedorov’s first deputy Oleksii Vyskub to temporarily head Defence Ministry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Цензор.НЕТ</font>"
   },
   {
    "id": "a544d08bb9e2",
@@ -4096,6 +4564,18 @@
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1yRDl6Y0xSX29Md2c1RTNmREo1SWZrTFFfckRGNUxwS2t4YjBwQU9IM3FHSk5mZDRia3QxNHlVOG1nZjBnamlWT0ROcm1yNngwQkl0dzZ4LUMtMGVZMmZRV2hQVFU1WnUzZU0tR3VNNl9qLXNPcUFtcDRKWHZQanc?oc=5\" target=\"_blank\">Ukrainian Pilots and Ground Forces Participated in the Bastille Day Parade in Paris</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Мілітарний</font>"
   },
   {
+   "id": "1e9a1a2b07fa",
+   "title": "Ukraine has Once Again Begun Shooting Down Russian Ballistic Missiles",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYlUzMTU4QkNaUEU5MXdXRGpraS1WQUVfb3duVnduSTItQ1I3Q1NJdXZQclRYRXhqQjh3Yk9QRjBHdEYxd2k0Z1FHTUFvekdtR0lEaGF1VHcwVE52Rlc0WkU5OTFuajZUWEJVQ2xaZ2RNQ0xJVFhMMDRxNGxDVWhTRk1ia00tUHBINDM2X0N5ZEdDd0NqSTNNbW5pZ3EzTW81U2Zj?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-14T10:40:23.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOYlUzMTU4QkNaUEU5MXdXRGpraS1WQUVfb3duVnduSTItQ1I3Q1NJdXZQclRYRXhqQjh3Yk9QRjBHdEYxd2k0Z1FHTUFvekdtR0lEaGF1VHcwVE52Rlc0WkU5OTFuajZUWEJVQ2xaZ2RNQ0xJVFhMMDRxNGxDVWhTRk1ia00tUHBINDM2X0N5ZEdDd0NqSTNNbW5pZ3EzTW81U2Zj?oc=5\" target=\"_blank\">Ukraine has Once Again Begun Shooting Down Russian Ballistic Missiles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">"
+  },
+  {
    "id": "7bb3c90950fd",
    "title": "Ukraine agrees on plan to acquire 16 Rafale jets, France’s Macron says",
    "url": "https://www.defensenews.com/global/europe/2026/07/14/ukraine-agrees-on-plan-to-acquire-16-rafale-jets-frances-macron-says",
@@ -4214,6 +4694,18 @@
    "origin": null,
    "date": "2026-07-13T08:13:05.000Z",
    "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPaTh5ZGRjem15Yk1NTVduSjg1SUdiYWlVZ1AwNXY0c1lnV0JmaHFqbXlmTGhyRHh4TDlwMk9QOTBfWTZlUkhFaE5iSTN0QWVhZDBYeUZwdVVXeE5ZYlVON0N3R2NaTEJ6el91aGFfV3hVM0drVXEwbHdLLXJudHdwMS1ZNl84cWZFQUdFeFVIMjB2dnZ5U3NNb0lXc1laSmM?oc=5\" target=\"_blank\">All Primary Oil Refining Units at Syzran Oil Refinery Were Damaged</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Мілітарн"
+  },
+  {
+   "id": "91b8404aa97f",
+   "title": "Defense Forces Attacked LUKOIL Oil Depot in Stavropol Krai",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdjZMNHVNLTRHYnkydjdKb1drTXhOZ09nZ2x1QzVtb0R1c0dpMUJtOXlILUNmVU0wNFhiS2swMVdvd2NLMkwydDVFOGpFR2MzR1JOVFhibV9WU19Ba2xXQjBwX0tlUXhFRXVUTTF6MkMxMUVpTVJQNDRwY0FETDdUMFJlV2hiQzdvMGhjZVBFUzh1Ujc2?oc=5",
+   "source": "militarnyi",
+   "sourceName": "Militarnyi",
+   "state": false,
+   "stream": "verified",
+   "origin": null,
+   "date": "2026-07-13T06:24:45.000Z",
+   "summaryRaw": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQdjZMNHVNLTRHYnkydjdKb1drTXhOZ09nZ2x1QzVtb0R1c0dpMUJtOXlILUNmVU0wNFhiS2swMVdvd2NLMkwydDVFOGpFR2MzR1JOVFhibV9WU19Ba2xXQjBwX0tlUXhFRXVUTTF6MkMxMUVpTVJQNDRwY0FETDdUMFJlV2hiQzdvMGhjZVBFUzh1Ujc2?oc=5\" target=\"_blank\">Defense Forces Attacked LUKOIL Oil Depot in Stavropol Krai</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Мілітарний</font>"
   },
   {
    "id": "63435e4729d2",
