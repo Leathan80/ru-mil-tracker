@@ -22,7 +22,7 @@
   var TAB_UI_KEY = { all: "tabAll", ttp: "tabTtp", weapon: "tabWeapon", org: "tabOrg", pub: "tabPub", timeline: "tabTimeline" };
 
   var state = {
-    lang: "nl",
+    lang: "en",
     tab: "all",
     topics: new Set(),
     feed: null,
