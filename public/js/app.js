@@ -12,14 +12,13 @@
     pubDisclaimer: document.getElementById("pubDisclaimer"),
     cardList: document.getElementById("cardList"),
     timelineView: document.getElementById("timelineView"),
-    rawToggle: document.getElementById("rawToggle"),
-    rawContent: document.getElementById("rawContent"),
+    rawView: document.getElementById("rawView"),
     rawDisclaimer: document.getElementById("rawDisclaimer"),
     rawList: document.getElementById("rawList"),
   };
 
-  var TABS = ["all", "ttp", "weapon", "org", "pub", "timeline"];
-  var TAB_UI_KEY = { all: "tabAll", ttp: "tabTtp", weapon: "tabWeapon", org: "tabOrg", pub: "tabPub", timeline: "tabTimeline" };
+  var TABS = ["all", "ttp", "weapon", "org", "pub", "timeline", "raw"];
+  var TAB_UI_KEY = { all: "tabAll", ttp: "tabTtp", weapon: "tabWeapon", org: "tabOrg", pub: "tabPub", timeline: "tabTimeline", raw: "tabRaw" };
 
   var state = {
     lang: "en",
@@ -92,7 +91,6 @@
       b.classList.toggle("active", b.getAttribute("data-tab") === state.tab);
     });
     el.rawDisclaimer.textContent = ui("rawFeedDisclaimer");
-    el.rawToggle.textContent = ui(el.rawContent.classList.contains("hidden") ? "rawFeedToggleShow" : "rawFeedToggleHide");
     el.pubDisclaimer.textContent = ui("pubDisclaimer");
 
     if (!state.analysis) {
@@ -292,13 +290,21 @@
     renderChrome();
 
     var isTimeline = state.tab === "timeline";
+    var isRaw = state.tab === "raw";
     el.timelineView.classList.toggle("hidden", !isTimeline);
-    el.cardList.classList.toggle("hidden", isTimeline);
+    el.rawView.classList.toggle("hidden", !isRaw);
+    el.cardList.classList.toggle("hidden", isTimeline || isRaw);
     el.pubDisclaimer.classList.toggle("hidden", state.tab !== "pub");
 
     if (isTimeline) {
       el.topicChips.innerHTML = "";
       renderTimeline();
+      return;
+    }
+
+    if (isRaw) {
+      el.topicChips.innerHTML = "";
+      renderRawFeed();
       return;
     }
 
@@ -323,12 +329,6 @@
     state.tab = btn.getAttribute("data-tab");
     state.topics.clear();
     render();
-  });
-
-  el.rawToggle.addEventListener("click", function () {
-    var hidden = el.rawContent.classList.toggle("hidden");
-    el.rawToggle.textContent = ui(hidden ? "rawFeedToggleShow" : "rawFeedToggleHide");
-    if (!hidden) renderRawFeed();
   });
 
   // ---------- init ----------

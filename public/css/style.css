@@ -203,20 +203,6 @@ main { padding: 16px 20px 8px; max-width: 1100px; margin: 0 auto; }
 
 .empty-state { color: var(--text-dim); padding: 30px 0; text-align: center; }
 
-.raw-panel { max-width: 1100px; margin: 0 auto; padding: 0 20px 30px; }
-.raw-toggle {
-  width: 100%;
-  text-align: left;
-  background: var(--bg-panel);
-  border: 1px solid var(--border);
-  color: var(--text-dim);
-  padding: 10px 14px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-.raw-content { margin-top: 10px; }
 .raw-list { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
 .raw-item {
   display: flex;
@@ -236,6 +222,6 @@ main { padding: 16px 20px 8px; max-width: 1100px; margin: 0 auto; }
 
 @media (max-width: 640px) {
   .topbar { padding: 12px 14px; }
-  main, .raw-panel { padding-left: 14px; padding-right: 14px; }
+  main { padding-left: 14px; padding-right: 14px; }
   .card-title { min-width: 100%; }
 }
