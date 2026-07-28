@@ -182,12 +182,17 @@
       return '<span class="topic-tag">' + esc(topicLabel(t)) + '</span>';
     }).join("");
 
+    var datesHtml = [];
+    if (e.publishedAt) datesHtml.push('<span class="date-item">' + esc(ui("publishedLabel")) + ': ' + fmtTime(e.publishedAt) + '</span>');
+    if (e.updatedAt) datesHtml.push('<span class="date-item">' + esc(ui("entryUpdatedLabel")) + ': ' + fmtTime(e.updatedAt) + '</span>');
+
     var summaryHtml = paras.map(function (p, i) {
       return '<p class="' + (i === 0 ? "first" : "extra") + '">' + esc(p) + '</p>';
     }).join("");
 
     var sourcesHtml = (e.sourceRefs || []).map(function (s) {
-      return '<div><span class="src-name">' + esc(s.source) + '</span><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a></div>';
+      var dateSuffix = s.date ? ' <span class="src-date">(' + fmtTime(s.date) + ')</span>' : "";
+      return '<div><span class="src-name">' + esc(s.source) + '</span><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>' + dateSuffix + '</div>';
     }).join("");
 
     var card = document.createElement("article");
@@ -199,6 +204,7 @@
       '</div>' +
       '<div class="card-topics">' + topicsHtml + '</div>' +
       '<div class="card-sig">' + ui("significance") + ': ' + sigPips(e.significance || 0) + '</div>' +
+      (datesHtml.length ? '<div class="card-dates">' + datesHtml.join("") + '</div>' : "") +
       '<div class="card-summary">' + summaryHtml + '</div>' +
       (paras.length > 1 ? '<button class="card-toggle">' + esc(ui("readMore")) + '</button>' : "") +
       '<div class="card-sources"><strong>' + esc(ui("sources")) + ':</strong>' + sourcesHtml + '</div>';

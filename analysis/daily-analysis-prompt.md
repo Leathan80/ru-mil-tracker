@@ -43,7 +43,8 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
      inhoudelijk weergeven (geen teaser), met staatsbron-caveat waar relevant;
    - de instructie om een compact resultaat terug te geven: voorgestelde
      `title`/`titleNl`, `category`, `topics`, `significance`, `syndicate`,
-     `sourceRefs` (itemId/title/url/source) en de twee samenvattingen.
+     `sourceRefs` (itemId/title/url/source/**date**), de afgeleide
+     `publishedAt` (vroegste sourceRef-datum) en de twee samenvattingen.
 
    Beoordeel elk agent-resultaat zelf voordat het de analysis.json in gaat:
    check of de samenvatting klopt met de bron, of category/significance/
@@ -55,6 +56,19 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
    Regels die elke agent moet volgen bij het opstellen van een entry:
    - Eén definitieve `category`: `ttp`, `weapon` of `org`.
    - Gecureerde `topics` (hergebruik de topic-ids uit `pretag.json.topics`).
+   - Elk object in `sourceRefs` krijgt een `date`-veld: de publicatiedatum/tijd
+     (ISO 8601) van dát brondocument. Voor items die uit `pretag.json`/
+     `feed.json` komen staat deze datum al op het item (`date`-veld, overnemen
+     as-is) — niet zelf hernieuwen. Voor bronnen die de agent los heeft
+     opgezocht (bijv. bij het volgen van een verwijzing in de tekst): de
+     dateline van het artikel gebruiken, of anders weglaten (geen datum
+     verzinnen).
+   - `publishedAt` op het entry-niveau: de vroegste `date` uit de
+     `sourceRefs`-array van die entry (dus wanneer het onderliggende nieuws
+     voor het eerst gemeld werd, niet wanneer de tracker het oppikte). Bij een
+     `"update"` van een bestaande entry: `publishedAt` blijft de oorspronkelijke
+     vroegste datum, tenzij een nieuw toegevoegde bron een nóg eerdere datum
+     heeft.
    - `significance`: 1 (routine) tot 3 (majeure ontwikkeling).
    - `changeFlag`: `"new"` voor een development die nog niet in analysis.json
      stond, `"update"` als een bestaande entry materieel wijzigt (dan

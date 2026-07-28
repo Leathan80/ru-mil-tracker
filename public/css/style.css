@@ -162,6 +162,8 @@ main { padding: 16px 20px 8px; max-width: 1100px; margin: 0 auto; }
 .card-sig .pip { color: var(--accent); }
 .card-sig .pip.off { color: var(--border); }
 
+.card-dates { display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.74rem; color: var(--text-dim); margin-bottom: 8px; }
+
 .card-summary p { margin: 0 0 8px; color: var(--text); }
 .card-summary p.extra { display: none; }
 .card.expanded .card-summary p.extra { display: block; }
@@ -180,6 +182,7 @@ main { padding: 16px 20px 8px; max-width: 1100px; margin: 0 auto; }
 .card-sources a { color: var(--accent); text-decoration: none; }
 .card-sources a:hover { text-decoration: underline; }
 .card-sources .src-name { color: var(--text-dim); margin-right: 4px; }
+.card-sources .src-date { color: var(--text-dim); font-size: 0.72rem; }
 
 .timeline-view { display: flex; flex-direction: column; gap: 18px; }
 .timeline-day { display: flex; gap: 16px; }
