@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-30T07:37:35.622Z",
- "analysisUpdated": "2026-07-29T07:00:00.000Z",
+ "updated": "2026-07-30T20:07:51.994Z",
+ "analysisUpdated": "2026-07-30T07:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 115,
-  "cardsWithHits": 37,
-  "matches": 149
+  "entriesConsidered": 126,
+  "cardsWithHits": 38,
+  "matches": 163
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,35 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 18,
+     "total": 19,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260730-01",
+       "title": "Russia launches combined missile and drone barrage on Kyiv, Lviv, Kryvyi Rih and Poltava Oblast; Zelensky cites critical air-defence missile shortage",
+       "titleNl": "Rusland lanceert gecombineerde raket- en drone-aanval op Kyiv, Lviv, Kryvyi Rih en Poltava-oblast; Zelensky wijst op kritiek tekort aan luchtafweerraketten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-07-30T02:42:00.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland voerde in de nacht van 29 op 30 juli 2026 een grootschalige gecombineerde aanval uit op Oekraïne, met inzet van raketten en aanvalsdrones vanaf lucht-, land- en zeeplatforms. Volgens de Oekraïense luchtmacht werden 358 doelen gedetecteerd: 74 raketten (4 Zircon/Oniks-antischeepsraketten, 9 Iskander-M/S-400/KN-…",
+       "enSummary": "On the night of 29-30 July 2026, Russia carried out a large-scale combined attack on Ukraine using missiles and attack drones launched from air, land and sea platforms. Ukraine's Air Force detected 358 aerial assets in total: 74 missiles (4 Zircon/Oniks anti-ship missiles, 9 Iskander-M/S-400/KN-23 ballistic missiles a…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046494",
+       "sourceCount": 14,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260729-07",
        "title": "DeepState: Russian infantry infiltrates Kostiantynivka as bombardment intensifies on Sloviansk-Kramatorsk front",
@@ -137,31 +163,6 @@
        "sourceCount": 1,
        "signals": [
         "loss",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260725-08",
-       "title": "A Cold War submarine hunter is Ukraine's newest Shahed killer",
-       "titleNl": "Een onderzeeërjager uit de Koude Oorlog is Oekraïnes nieuwste Shahed-killer",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "navy"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-25T06:00:00.000Z",
-       "updatedAt": "2026-07-25T07:00:00.000Z",
-       "nlSummary": "De Westland Sea King, een marinehelikopter uit de jaren zeventig die oorspronkelijk werd ontworpen voor onderzeebootbestrijding tijdens de Koude Oorlog, krijgt in Oekraïense dienst een geheel nieuwe taak: het onderscheppen van Russische Shahed-achtige aanvalsdrones. Oekraïne beschikt over deze toestellen dankzij donat…",
-       "enSummary": "The Westland Sea King, a 1970s-era naval helicopter originally built for Cold War submarine hunting, is being given an entirely new role in Ukrainian service: intercepting Russian Shahed-style attack drones. Ukraine's Sea King fleet comes from donations — Germany supplied six of the helicopters, while the United Kingd…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/25/sea-king-drone-hunter",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
         "counter"
        ]
       }
@@ -383,9 +384,60 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 4,
-     "signalCount": 4,
+     "total": 6,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260730-01",
+       "title": "Russia launches combined missile and drone barrage on Kyiv, Lviv, Kryvyi Rih and Poltava Oblast; Zelensky cites critical air-defence missile shortage",
+       "titleNl": "Rusland lanceert gecombineerde raket- en drone-aanval op Kyiv, Lviv, Kryvyi Rih en Poltava-oblast; Zelensky wijst op kritiek tekort aan luchtafweerraketten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-07-30T02:42:00.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland voerde in de nacht van 29 op 30 juli 2026 een grootschalige gecombineerde aanval uit op Oekraïne, met inzet van raketten en aanvalsdrones vanaf lucht-, land- en zeeplatforms. Volgens de Oekraïense luchtmacht werden 358 doelen gedetecteerd: 74 raketten (4 Zircon/Oniks-antischeepsraketten, 9 Iskander-M/S-400/KN-…",
+       "enSummary": "On the night of 29-30 July 2026, Russia carried out a large-scale combined attack on Ukraine using missiles and attack drones launched from air, land and sea platforms. Ukraine's Air Force detected 358 aerial assets in total: 74 missiles (4 Zircon/Oniks anti-ship missiles, 9 Iskander-M/S-400/KN-23 ballistic missiles a…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046494",
+       "sourceCount": 14,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260730-07",
+       "title": "Ukraine's Air Force reports F-16 crash during combat mission, pilot ejects safely",
+       "titleNl": "Oekraïense luchtmacht meldt crash van F-16 tijdens gevechtsmissie, piloot ejecteert veilig",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-07-29T18:47:00.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Op 29 juli 2026 verloor de Oekraïense luchtmacht het contact met een F-16-gevechtsvliegtuig tijdens een gevechtsmissie aan een deel van het front, waarbij het toestel vijandelijke luchtdoelen onderschepte. Volgens de luchtmacht deed zich aan boord een noodsituatie voor, waardoor de piloot moest ejecteren. De piloot ej…",
+       "enSummary": "On 29 July 2026, Ukraine's Air Force lost contact with an F-16 fighter jet while it was carrying out a combat mission on one section of the front, intercepting enemy air assets. According to the Air Force, an emergency situation developed on board, forcing the pilot to eject. The pilot ejected safely and was evacuated…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/29/8046457",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260729-s04",
        "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
@@ -636,15 +688,14 @@
        ],
        "stream": "verified",
        "origin": null,
-       "significance": 2,
+       "significance": 3,
        "publishedAt": "2026-07-28T18:41:04.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Foto's die online circuleren — volgens Euromaidan Press voor het eerst getoond aan Vladimir Poetin tijdens een gesloten wapenbeurs in 2025 — laten zien dat Rusland een grondgebaseerde lanceerinrichting heeft ingevoerd voor de S8000 Banderol, een compacte, straalgedreven kruis-/glijraket die Rusland al inzet bij gecomb…",
-       "enSummary": "Photos circulating online — reportedly first shown to Vladimir Putin at a closed 2025 arms exhibition, per Euromaidan Press — show that Russia has fielded a ground-based launcher for its S8000 Banderol, a compact jet-powered cruise/glide missile that Russia already uses in combined strikes on Kyiv. The Banderol is pow…",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland heeft een grondgebaseerde lanceerinrichting ingevoerd voor de S8000 Banderol, een compacte, straalgedreven kruis-/glijraket die het al inzet bij gecombineerde aanvallen op Kyiv, en maakt daarmee een einde aan de afhankelijkheid van de schaarse Orion-verkennings-/aanvalsdrone — tot dusver het enige bevestigde l…",
+       "enSummary": "Russia has fielded a ground-based launcher for its S8000 Banderol, a compact jet-powered cruise/glide missile it already uses in combined strikes on Kyiv, ending its former reliance on the scarce Orion strike/reconnaissance drone — previously the missile's only confirmed launch platform, able to carry just one Bandero…",
        "sourceUrl": "https://militarnyi.com/en/news/russian-s8000-banderol-missile-receives-ground-based-launcher/",
-       "sourceCount": 2,
+       "sourceCount": 3,
        "signals": [
-        "loss",
         "deploy",
         "perf",
         "scale"
@@ -744,9 +795,32 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 21,
+     "total": 22,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260730-s01",
+       "title": "«Теперь российские FPV-дроны видимы»: комплекс активной защиты SOVA-1.0 для ВСУ",
+       "titleNl": "\"Nu zijn Russische FPV-drones zichtbaar\": actief beschermingscomplex SOVA-1.0 voor de ZSU",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-07-30T09:39:38.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "De Russische pro-Kremlin publicatie topwar.ru meldt dat het Oekraïense bedrijf Tactical Technology een geïntegreerd actief beschermingscomplex (KAZ) genaamd SOVA-1.0 heeft ontwikkeld voor gebruik door de Oekraïense strijdkrachten (ZSU), gericht tegen Russische FPV-drones. Het systeem zou vier detectiemethoden combiner…",
+       "enSummary": "Russian pro-Kremlin outlet topwar.ru reports that Ukrainian company Tactical Technology has developed an integrated active protection complex (APS) called SOVA-1.0 for use by Ukraine's armed forces (ZSU) against Russian FPV drones. The system reportedly combines four detection methods: RF detection via the FlyOff soft…",
+       "sourceUrl": "https://topwar.ru/287177-teper-rossijskie-fpv-drony-vidimy-kompleks-aktivnoj-zaschity-sova-10-dlja-vsu.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260729-05",
        "title": "Fiber-optic cable litter from drone guidance lines blankets the front line, with unknown ecological cost",
@@ -836,50 +910,27 @@
        ]
       },
       {
-       "id": "e-20260727-03",
-       "title": "Ukraine Launches Multi-Domain Strike Wave Across Russia and the Caspian Sea, Hits Molniya-Class Missile Boat",
-       "titleNl": "Oekraïne lanceert brede aanvalsgolf over Rusland en de Kaspische Zee, raakt Molniya-klasse raketboot",
-       "category": "ttp",
+       "id": "e-20260729-02",
+       "title": "Russia Fields Ground-Based Launcher for S8000 Banderol Missile, Ending Reliance on Scarce Orion Drone",
+       "titleNl": "Rusland introduceert grondgebaseerde lanceerinrichting voor S8000 Banderol-raket, einde aan afhankelijkheid van schaarse Orion-drone",
+       "category": "weapon",
        "topics": [
-        "navy",
         "missiles",
-        "air-defense",
-        "logistics",
         "drones"
        ],
        "stream": "verified",
        "origin": null,
        "significance": 3,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "In de nacht van 24 op 25 juli 2026 voerde Oekraïne een brede golf langeafstandsaanvallen uit tegen doelen verspreid over Rusland en de Kaspische Zee. Volgens de Oekraïense presidentiële staf, de veiligheidsdienst SBU en de Generale Staf werden onder meer marinedoelen, luchtafweersystemen en logistieke knooppunten gera…",
-       "enSummary": "On the night of 24-25 July 2026, Ukraine carried out a wide-ranging wave of long-range strikes against targets spread across Russia and the Caspian Sea. According to Ukraine's presidential office, the Security Service of Ukraine (SBU) and the General Staff, the strikes hit naval assets, air-defense systems and logisti…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/25/wave-of-ukrainian-strikes-across-russia-and-caspian-sea-overnight",
-       "sourceCount": 2,
+       "publishedAt": "2026-07-28T18:41:04.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland heeft een grondgebaseerde lanceerinrichting ingevoerd voor de S8000 Banderol, een compacte, straalgedreven kruis-/glijraket die het al inzet bij gecombineerde aanvallen op Kyiv, en maakt daarmee een einde aan de afhankelijkheid van de schaarse Orion-verkennings-/aanvalsdrone — tot dusver het enige bevestigde l…",
+       "enSummary": "Russia has fielded a ground-based launcher for its S8000 Banderol, a compact jet-powered cruise/glide missile it already uses in combined strikes on Kyiv, ending its former reliance on the scarce Orion strike/reconnaissance drone — previously the missile's only confirmed launch platform, able to carry just one Bandero…",
+       "sourceUrl": "https://militarnyi.com/en/news/russian-s8000-banderol-missile-receives-ground-based-launcher/",
+       "sourceCount": 3,
        "signals": [
+        "deploy",
+        "perf",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260727-s02",
-       "title": "Ukraine Destroys Msta-B, Giatsint-B and BM-21 Grad Systems, FPV Drone Cache Near Dobropillia",
-       "titleNl": "Oekraïne vernietigt Msta-B, Giatsint-B en BM-21 Grad-systemen en FPV-drone-opslag bij Dobropillia",
-       "category": "weapon",
-       "topics": [
-        "artillery",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "Volgens Defense Express (22 juli 2026) heeft de Oekraïense grenswacht-eenheid Phoenix op de Dobropillia-as in de oblast Donetsk een cluster Russische artillerie- en raketsystemen vernietigd: een 2A65 Msta-B zelfrijdende houwitser (152mm), een 2A36 Giatsint-B getrokken veldkanon (152mm) en een BM-21 Grad meervoudige ra…",
-       "enSummary": "According to Defense Express (22 July 2026), Ukraine's Phoenix border guard unit reportedly destroyed a cluster of Russian artillery and rocket systems on the Dobropillia axis in Donetsk Oblast: a 2A65 Msta-B 152mm self-propelled howitzer, a 2A36 Giatsint-B 152mm towed field gun, and a BM-21 Grad multiple rocket launc…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRlBTdXpCcjRKZXExdmt5eklLZ1lfSUlub2dMQTFFMVYxYTZtcDFMcU5kWXZzekwtc3J2dEdEblhHNGxWMTdPV2hGS293WTFfWnlUNTMzQlZONnRWQzJpTGtUWjZpNWlNdHVPZm0xOXFIaGwxeW9tUjdKbDhKcnRIU2duaGVuRDNrWDN5Tk9sVzkwdFNRM25NYnhHLXk4MWNUY1ljXzVGTzlpNkprLUxPcml2dzVHN0tfbE9jTUw4bjJ4QWVqbkhxR2szUFEybEJMOU51ZA?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -1040,9 +1091,33 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 9,
+     "total": 10,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260729-02",
+       "title": "Russia Fields Ground-Based Launcher for S8000 Banderol Missile, Ending Reliance on Scarce Orion Drone",
+       "titleNl": "Rusland introduceert grondgebaseerde lanceerinrichting voor S8000 Banderol-raket, einde aan afhankelijkheid van schaarse Orion-drone",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-07-28T18:41:04.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland heeft een grondgebaseerde lanceerinrichting ingevoerd voor de S8000 Banderol, een compacte, straalgedreven kruis-/glijraket die het al inzet bij gecombineerde aanvallen op Kyiv, en maakt daarmee een einde aan de afhankelijkheid van de schaarse Orion-verkennings-/aanvalsdrone — tot dusver het enige bevestigde l…",
+       "enSummary": "Russia has fielded a ground-based launcher for its S8000 Banderol, a compact jet-powered cruise/glide missile it already uses in combined strikes on Kyiv, ending its former reliance on the scarce Orion strike/reconnaissance drone — previously the missile's only confirmed launch platform, able to carry just one Bandero…",
+       "sourceUrl": "https://militarnyi.com/en/news/russian-s8000-banderol-missile-receives-ground-based-launcher/",
+       "sourceCount": 3,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260728-03",
        "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
@@ -1165,33 +1240,6 @@
         "scale",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260723-08",
-       "title": "Skyfall unveils Jetkiller interceptor drone to counter faster Russian Shaheds",
-       "titleNl": "Skyfall onthult Jetkiller-onderscheppingsdrone tegen snellere Russische Shaheds",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-23T06:00:00.000Z",
-       "updatedAt": "2026-07-23T06:57:32.000Z",
-       "nlSummary": "De Oekraïense fabrikant Skyfall onthulde tijdens de Farnborough Airshow in juli 2026 de P1-SUN Jetkiller, een nieuwe variant binnen de P1-SUN-familie van onderscheppingsdrones, specifiek ontwikkeld om jet-aangedreven Shahed-drones te bestrijden. Volgens bedrijfswoordvoerder \"Ares\" (een codenaam om veiligheidsredenen)…",
-       "enSummary": "Ukrainian manufacturer Skyfall unveiled the P1-SUN Jetkiller at the Farnborough Airshow in July 2026, a new variant in its P1-SUN interceptor drone family built specifically to counter jet-powered Shahed drones. According to company spokesman \"Ares\" (a codename cited for security reasons), the Jetkiller reaches 370 km…",
-       "sourceUrl": "https://breakingdefense.com/2026/07/ukraines-skyfall-unveils-new-drone-interceptor-to-strike-russian-shaheds-faster",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
       }
      ]
     }
@@ -1204,9 +1252,59 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 8,
+     "total": 10,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260730-03",
+       "title": "Ukraine destroys Russia's 5,000-km Murmansk-BN electronic-warfare station in Crimea",
+       "titleNl": "Oekraïne vernietigt Ruslands Murmansk-BN elektronische-oorlogvoeringsstation met bereik van 5.000 km op de Krim",
+       "category": "ttp",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-07-30T07:53:00.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "In de nacht van 26 op 27 juli 2026 hebben drones van de Oekraïense militaire inlichtingendienst (HUR/GUR), ingezet door de Afdeling Onbemande Systemen, een Russisch Moermansk-BN-station voor elektronische oorlogvoering getroffen nabij Kaap Fiolent in het bezette Krim. Het systeem, geproduceerd door het Russische conce…",
+       "enSummary": "On the night of 26–27 July 2026, drones operated by Ukraine's Defense Intelligence (HUR/GUR) Department of Unmanned Systems struck a Russian Murmansk-BN electronic-warfare station near Cape Fiolent in occupied Crimea. The system, built by Russian defense concern KRET and in service since 2014, was first fielded in Cri…",
+       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-parked-a-5000-kilometer-jamming-station-in-crimea-ukraine-parked-a-drone-on-top-of-it",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260730-01",
+       "title": "Russia launches combined missile and drone barrage on Kyiv, Lviv, Kryvyi Rih and Poltava Oblast; Zelensky cites critical air-defence missile shortage",
+       "titleNl": "Rusland lanceert gecombineerde raket- en drone-aanval op Kyiv, Lviv, Kryvyi Rih en Poltava-oblast; Zelensky wijst op kritiek tekort aan luchtafweerraketten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-07-30T02:42:00.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland voerde in de nacht van 29 op 30 juli 2026 een grootschalige gecombineerde aanval uit op Oekraïne, met inzet van raketten en aanvalsdrones vanaf lucht-, land- en zeeplatforms. Volgens de Oekraïense luchtmacht werden 358 doelen gedetecteerd: 74 raketten (4 Zircon/Oniks-antischeepsraketten, 9 Iskander-M/S-400/KN-…",
+       "enSummary": "On the night of 29-30 July 2026, Russia carried out a large-scale combined attack on Ukraine using missiles and attack drones launched from air, land and sea platforms. Ukraine's Air Force detected 358 aerial assets in total: 74 missiles (4 Zircon/Oniks anti-ship missiles, 9 Iskander-M/S-400/KN-23 ballistic missiles a…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046494",
+       "sourceCount": 14,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260728-05",
        "title": "Russia Builds Around 24 New Pantsir Towers in Expanded Air Defense Ring Around Moscow",
@@ -1294,52 +1392,6 @@
        "sourceCount": 1,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260725-01",
-       "title": "Russian ballistic missile kills at least 11 at Kyiv Oblast arms exhibition in rare daytime strike",
-       "titleNl": "Russische ballistische raketaanval eist minstens 11 levens bij wapenbeurs in Kyiv Oblast bij zeldzame aanval overdag",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-25T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "Op 24 juli 2026 voerde Rusland een zeldzame ballistische raketaanval overdag uit op een particulier trainingsterrein in het district Boetsja, Kyiv Oblast, waar op dat moment de wapenbeurs \"Armada\" voor de defensie-industrie werd gehouden. Volgens de procureur-generaal is het dodental sindsdien gestegen van 10 naar 11:…",
-       "enSummary": "On 24 July 2026, Russia carried out a rare daytime ballistic missile strike on a private training ground in the Bucha district of Kyiv Oblast, during the \"Armada\" arms exhibition for the defense industry. According to Ukraine's Prosecutor General's Office, the death toll has since risen from 10 to 11 after a 66-year-o…",
-       "sourceUrl": "https://kyivindependent.com/explosions-in-kyiv-as-russia-launches-daytime-missile-attack/",
-       "sourceCount": 7,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260725-02",
-       "title": "Ukraine's Flamingo missile strikes Russian ejection-seat and missile-component plant in Kirov, ~1,200 km deep",
-       "titleNl": "Oekraïense Flamingo-raket treft Russische schietstoel- en raketonderdelenfabriek in Kirov, ruim 1.200 km diep",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-25T06:00:00.000Z",
-       "updatedAt": "2026-07-25T07:00:00.000Z",
-       "nlSummary": "Op de ochtend van 24 juli 2026 sloeg een Oekraïense FP-5 \"Flamingo\" kruisraket in op de Avitek-fabriek (officieel de Vyatka Machine-Building Enterprise) in de Russische stad Kirov. De bronnen geven enigszins uiteenlopende afstandscijfers — Euromaidan Press meldt ongeveer 1.200 km \"van huis\", terwijl Defence Blog Kirov…",
-       "enSummary": "On the morning of 24 July 2026, a Ukrainian FP-5 \"Flamingo\" cruise missile struck the Avitek plant (formally the Vyatka Machine-Building Enterprise) in the Russian city of Kirov. Sources give somewhat inconsistent distance figures — Euromaidan Press reports roughly 1,200 km \"from home,\" while Defence Blog puts Kirov a…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/24/8045666",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -1548,9 +1600,32 @@
     "sa17": {
      "name": "Buk-M2/M3 (SA-17)",
      "nameEn": "Buk-M2/M3 (SA-17)",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260730-04",
+       "title": "Ukraine torches Russian naval-drone base at Snizhne near occupied Yevpatoriia",
+       "titleNl": "Oekraïne verwoest Russische zeedrone-basis bij Snizjne nabij bezet Jevpatoria",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "navy",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-07-30T10:10:16.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland stationeert in bezet Krim een vloot onbemande zeedrones die specifiek zijn bedoeld om Oekraïense maritieme doelen te jagen, waaronder Oekraïne's eigen zeedrones die de Zwarte Zee-vloot en aanvoerroutes naar het schiereiland onder druk zetten. Deze Russische vaartuigen lagen gestationeerd in hangars bij Snizjne…",
+       "enSummary": "Russia bases a fleet of uncrewed naval boats in occupied Crimea specifically to hunt Ukrainian maritime targets, including Ukraine's own sea drones that have been squeezing the Black Sea Fleet and supply routes to the peninsula. These Russian vessels were kept in hangars near Snizhne, close to Yevpatoriia on Crimea's…",
+       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-builds-sea-drones-to-hunt-ukraine-ukraine-just-torched-the-base-where-they-sit-in-occupied-crimea",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260724-07",
        "title": "Ukrainian Border Guards Destroy Russian Buk-M3 Air Defense System Worth $50M in Donetsk Oblast",
@@ -1831,6 +1906,38 @@
        "sourceCount": 1,
        "signals": [
         "loss"
+       ]
+      }
+     ]
+    },
+    "murmansk": {
+     "name": "Murmansk-BN",
+     "nameEn": "Murmansk-BN",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260730-03",
+       "title": "Ukraine destroys Russia's 5,000-km Murmansk-BN electronic-warfare station in Crimea",
+       "titleNl": "Oekraïne vernietigt Ruslands Murmansk-BN elektronische-oorlogvoeringsstation met bereik van 5.000 km op de Krim",
+       "category": "ttp",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-07-30T07:53:00.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "In de nacht van 26 op 27 juli 2026 hebben drones van de Oekraïense militaire inlichtingendienst (HUR/GUR), ingezet door de Afdeling Onbemande Systemen, een Russisch Moermansk-BN-station voor elektronische oorlogvoering getroffen nabij Kaap Fiolent in het bezette Krim. Het systeem, geproduceerd door het Russische conce…",
+       "enSummary": "On the night of 26–27 July 2026, drones operated by Ukraine's Defense Intelligence (HUR/GUR) Department of Unmanned Systems struck a Russian Murmansk-BN electronic-warfare station near Cape Fiolent in occupied Crimea. The system, built by Russian defense concern KRET and in service since 2014, was first fielded in Cri…",
+       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-parked-a-5000-kilometer-jamming-station-in-crimea-ukraine-parked-a-drone-on-top-of-it",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
        ]
       }
      ]
@@ -2284,9 +2391,56 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 15,
+     "total": 17,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260730-s01",
+       "title": "«Теперь российские FPV-дроны видимы»: комплекс активной защиты SOVA-1.0 для ВСУ",
+       "titleNl": "\"Nu zijn Russische FPV-drones zichtbaar\": actief beschermingscomplex SOVA-1.0 voor de ZSU",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-07-30T09:39:38.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "De Russische pro-Kremlin publicatie topwar.ru meldt dat het Oekraïense bedrijf Tactical Technology een geïntegreerd actief beschermingscomplex (KAZ) genaamd SOVA-1.0 heeft ontwikkeld voor gebruik door de Oekraïense strijdkrachten (ZSU), gericht tegen Russische FPV-drones. Het systeem zou vier detectiemethoden combiner…",
+       "enSummary": "Russian pro-Kremlin outlet topwar.ru reports that Ukrainian company Tactical Technology has developed an integrated active protection complex (APS) called SOVA-1.0 for use by Ukraine's armed forces (ZSU) against Russian FPV drones. The system reportedly combines four detection methods: RF detection via the FlyOff soft…",
+       "sourceUrl": "https://topwar.ru/287177-teper-rossijskie-fpv-drony-vidimy-kompleks-aktivnoj-zaschity-sova-10-dlja-vsu.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260730-03",
+       "title": "Ukraine destroys Russia's 5,000-km Murmansk-BN electronic-warfare station in Crimea",
+       "titleNl": "Oekraïne vernietigt Ruslands Murmansk-BN elektronische-oorlogvoeringsstation met bereik van 5.000 km op de Krim",
+       "category": "ttp",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-07-30T07:53:00.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "In de nacht van 26 op 27 juli 2026 hebben drones van de Oekraïense militaire inlichtingendienst (HUR/GUR), ingezet door de Afdeling Onbemande Systemen, een Russisch Moermansk-BN-station voor elektronische oorlogvoering getroffen nabij Kaap Fiolent in het bezette Krim. Het systeem, geproduceerd door het Russische conce…",
+       "enSummary": "On the night of 26–27 July 2026, drones operated by Ukraine's Defense Intelligence (HUR/GUR) Department of Unmanned Systems struck a Russian Murmansk-BN electronic-warfare station near Cape Fiolent in occupied Crimea. The system, built by Russian defense concern KRET and in service since 2014, was first fielded in Cri…",
+       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-parked-a-5000-kilometer-jamming-station-in-crimea-ukraine-parked-a-drone-on-top-of-it",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260729-05",
        "title": "Fiber-optic cable litter from drone guidance lines blankets the front line, with unknown ecological cost",
@@ -2377,52 +2531,6 @@
        "signals": [
         "deploy",
         "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260727-s01",
-       "title": "InformNapalm claims Ukrainian hack caused Russian air defence to shoot down its own Su-57 near Moscow",
-       "titleNl": "InformNapalm claimt dat Oekraïense hack Russische luchtafweer eigen Su-57 bij Moskou liet neerschieten",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "De Oekraïense OSINT/inlichtingengroep InformNapalm claimt, gemeld door Censor.net op 23 juli 2026, dat Oekraïense diensten een gecombineerde HUMINT- en CYBINT-operatie uitvoerden tegen de Russische luchtafweer-eenheid 'BARS Moskva', die de hoofdstadregio moet beschermen tegen Oekraïense langeafstandsdrones — dezelfde…",
-       "enSummary": "The Ukrainian OSINT/intelligence-affiliated group InformNapalm claims, as reported by Censor.net on 23 July 2026, that Ukrainian intelligence services carried out a combined HUMINT and CYBINT operation against Russia's 'BARS Moscow' air-defence formation, tasked with protecting the capital region from Ukrainian long-r…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3hhTVlhN1ozUW1OY3RUSzlaQ0ktcnVyT0pmRGF4RU9aQUdYTGNHM3I3MHdPSGZsaGQxQURneDk4cjVSU2Q2MFc0eVJRbWJsd0lmMy1pekxyVlBQdEI5YlFPcFI3cnBUdHZ6M1VHek5FWS10dF9raV9ib2NsLUttUHFJTHJ0VUo3UExmVWdRcVVvajNQQlRnXw?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260727-s04",
-       "title": "Important for Americans to Know: Russia Improved Accuracy of Shahed UAVs While Iranian Ballistic Missiles Have Become More Effective, Deadlier",
-       "titleNl": "Belangrijk voor Amerikanen om te weten: Rusland verbeterde nauwkeurigheid van Shahed-drones, terwijl Iraanse ballistische raketten effectiever en dodelijker zijn geworden",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "missiles"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "Defense Express stelt in een analyse-/opiniestuk (24 juli 2026, expliciet gericht aan een Amerikaans publiek) dat Iraanse Shahed-136-drones merkbaar effectiever zijn geworden: beter bestand tegen elektronische oorlogsvoering en zo nauwkeurig dat ze hetzelfde doelwit in het inslaggat van een vorige treffer kunnen raken…",
-       "enSummary": "In an analysis/opinion piece (24 July 2026, explicitly addressed to a U.S. audience), Defense Express argues that Iranian Shahed-136 drones have become markedly more effective: more resistant to electronic warfare and accurate enough to strike the same target directly in the impact hole left by a previous hit. The con…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZlFuTkZNWjZWX05YdGFibzl3RDJmTTY2bEd0UEN2QzRJOFNBUmZESUdIckQtNWdlSGtia253N0pvVWN5OU8zcXRETzFmVGFMeUg4OG9uU3lpTHhReU9WbFNQeDVfUG4wTHd1VlBTNTQ3a3Q0SVF3VmV2QllKdjdNWVhjemZZS1Y2UzFtRHM2U2dZcFdGQWlNOGJCZmZUdVMxbEZRNm03dEhEcl9BMS10TV9aSTZJX2pmWW9pWW93akhRQ2dZeHQ5UjQ4ajJvdHZnWVJpUXBNT1ZuSWVMdW1pZmRrZEVJWVptUmxUUXBXTl9CZE56OG00YmlTOU9KWnRhaUxkdjBFMUFSeWwzMkN3?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
         "counter"
        ]
       }
@@ -2549,9 +2657,35 @@
     "decoys": {
      "name": "Decoys & chaff",
      "nameEn": "Decoys & chaff",
-     "total": 7,
+     "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260730-01",
+       "title": "Russia launches combined missile and drone barrage on Kyiv, Lviv, Kryvyi Rih and Poltava Oblast; Zelensky cites critical air-defence missile shortage",
+       "titleNl": "Rusland lanceert gecombineerde raket- en drone-aanval op Kyiv, Lviv, Kryvyi Rih en Poltava-oblast; Zelensky wijst op kritiek tekort aan luchtafweerraketten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-07-30T02:42:00.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland voerde in de nacht van 29 op 30 juli 2026 een grootschalige gecombineerde aanval uit op Oekraïne, met inzet van raketten en aanvalsdrones vanaf lucht-, land- en zeeplatforms. Volgens de Oekraïense luchtmacht werden 358 doelen gedetecteerd: 74 raketten (4 Zircon/Oniks-antischeepsraketten, 9 Iskander-M/S-400/KN-…",
+       "enSummary": "On the night of 29-30 July 2026, Russia carried out a large-scale combined attack on Ukraine using missiles and attack drones launched from air, land and sea platforms. Ukraine's Air Force detected 358 aerial assets in total: 74 missiles (4 Zircon/Oniks anti-ship missiles, 9 Iskander-M/S-400/KN-23 ballistic missiles a…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046494",
+       "sourceCount": 14,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260728-03",
        "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
@@ -2668,39 +2802,38 @@
         "scale",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260718-01",
-       "title": "Satellite imagery confirms destruction of Tu-95 bomber at Russia's Engels",
-       "titleNl": "Satellietbeelden bevestigen vernietiging van Tu-95-bommenwerper op Russische basis Engels",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-18T06:00:00.000Z",
-       "updatedAt": "2026-07-20T07:00:00.000Z",
-       "nlSummary": "President Zelensky en de Oekraïense Veiligheidsdienst (SBU) meldden op 17 juli dat een Russische Tu-95-strategische bommenwerper was vernietigd op vliegbasis Engels in de Saratov-oblast, op circa 800 kilometer van de Oekraïense grens, en dat dit toestel zou zijn ingezet voor raketaanvallen op Oekraïne. De aanval vond…",
-       "enSummary": "President Zelenskyy and Ukraine's Security Service (SSU) said on 17 July that a Russian Tu-95 strategic bomber had been destroyed at Engels air base in Saratov Oblast, roughly 800 kilometres from Ukraine's border, and that the aircraft had been used for missile strikes on Ukraine. The strike occurred on the night of 1…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/17/8044546",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "deploy",
-        "counter"
-       ]
       }
      ]
     },
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260730-04",
+       "title": "Ukraine torches Russian naval-drone base at Snizhne near occupied Yevpatoriia",
+       "titleNl": "Oekraïne verwoest Russische zeedrone-basis bij Snizjne nabij bezet Jevpatoria",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "navy",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-07-30T10:10:16.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland stationeert in bezet Krim een vloot onbemande zeedrones die specifiek zijn bedoeld om Oekraïense maritieme doelen te jagen, waaronder Oekraïne's eigen zeedrones die de Zwarte Zee-vloot en aanvoerroutes naar het schiereiland onder druk zetten. Deze Russische vaartuigen lagen gestationeerd in hangars bij Snizjne…",
+       "enSummary": "Russia bases a fleet of uncrewed naval boats in occupied Crimea specifically to hunt Ukrainian maritime targets, including Ukraine's own sea drones that have been squeezing the Black Sea Fleet and supply routes to the peninsula. These Russian vessels were kept in hangars near Snizhne, close to Yevpatoriia on Crimea's…",
+       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-builds-sea-drones-to-hunt-ukraine-ukraine-just-torched-the-base-where-they-sit-in-occupied-crimea",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260724-02",
        "title": "Russian aircraft, reportedly a Su-57, crashes in Moscow Oblast — friendly-fire claims unconfirmed",
@@ -2774,9 +2907,32 @@
     "epm": {
      "name": "Electronic protection",
      "nameEn": "Electronic protection",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260730-s01",
+       "title": "«Теперь российские FPV-дроны видимы»: комплекс активной защиты SOVA-1.0 для ВСУ",
+       "titleNl": "\"Nu zijn Russische FPV-drones zichtbaar\": actief beschermingscomplex SOVA-1.0 voor de ZSU",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-07-30T09:39:38.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "De Russische pro-Kremlin publicatie topwar.ru meldt dat het Oekraïense bedrijf Tactical Technology een geïntegreerd actief beschermingscomplex (KAZ) genaamd SOVA-1.0 heeft ontwikkeld voor gebruik door de Oekraïense strijdkrachten (ZSU), gericht tegen Russische FPV-drones. Het systeem zou vier detectiemethoden combiner…",
+       "enSummary": "Russian pro-Kremlin outlet topwar.ru reports that Ukrainian company Tactical Technology has developed an integrated active protection complex (APS) called SOVA-1.0 for use by Ukraine's armed forces (ZSU) against Russian FPV drones. The system reportedly combines four detection methods: RF detection via the FlyOff soft…",
+       "sourceUrl": "https://topwar.ru/287177-teper-rossijskie-fpv-drony-vidimy-kompleks-aktivnoj-zaschity-sova-10-dlja-vsu.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260728-03",
        "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
