@@ -14,9 +14,14 @@
 $ErrorActionPreference = "Stop"
 Set-Location $PSScriptRoot
 
-Write-Host "Actuele feed.json/pretag.json van de site halen (crawler-eigendom)..."
+Write-Host "Actuele crawler-bestanden van de site halen (crawler-eigendom)..."
 curl.exe -s "https://ru-mil-tracker.web.app/feed.json" -o "public/feed.json"
 curl.exe -s "https://ru-mil-tracker.web.app/pretag.json" -o "public/pretag.json"
+
+# crosscheck.json wordt lokaal opnieuw gegenereerd uit de verse analysis.json,
+# zodat de zustersites direct de nieuwste analyse-koppelingen zien.
+Write-Host "Cross-check opnieuw opbouwen uit de lokale analysis.json..."
+node crawler/crosscheck.js
 
 Write-Host "Deployen naar Firebase Hosting..."
 firebase deploy --only hosting

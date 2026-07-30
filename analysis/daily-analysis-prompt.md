@@ -97,9 +97,41 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
    `"Военная мысль"`, onafhankelijk van wat er in pretag.json staat.
 
 5. **Cross-feed naar Adepti**: entries met `syndicate: true` verschijnen
-   automatisch op adepti-academy.nl via de widget in `Adepti/index.html` (die
-   `analysis.json` live cross-origin fetcht). Geen aparte actie nodig — alleen
-   zorgvuldig zijn met wat `syndicate: true` krijgt.
+   automatisch op adepti-academy.nl via de widget in `Adepti/current-intel.html`
+   (die `analysis.json` live cross-origin fetcht). Geen aparte actie nodig —
+   alleen zorgvuldig zijn met wat `syndicate: true` krijgt.
+
+5b. **Cross-check naar de leersites (threat sheets)**. `crawler/crosscheck.js`
+   koppelt entries aan de kaart-ids van de zustersites via
+   `crawler/cardmap.json` en schrijft `public/crosscheck.json`. De drie sites
+   fetchen dat bestand zelf en tonen per kaart een blok "Geanalyseerde
+   ontwikkelingen" — dat deel gaat automatisch. Wat *jij* elke run moet doen:
+
+   1. Draai `node crawler/crosscheck.js` (na het schrijven van analysis.json).
+   2. Loop de kaarten met `signalCount > 0` door. De signalen (`loss`,
+      `variant`, `deploy`, `perf`, `scale`, `counter`) wijzen op een mogelijk
+      **verouderde gecureerde kaartwaarde** op de leersite.
+   3. Vergelijk zulke entries met de actuele waarde in het bronbestand van die
+      site:
+      - drone-academy → `drone-academy/js/data-cards.js` (`window.DRONE_CARDS`)
+      - AirDefense/VKS → `VKS-leeromgeving/js/data-threats.js`
+      - EW Academy → hoofdstukinhoud in `ew-leeromgeving/content/ch*.js`
+        (thematisch, geen kaarten)
+   4. Als een waarde daadwerkelijk achterhaald lijkt: schrijf een **voorstel**
+      in het runrapport — kaart-id, huidige waarde, voorgestelde waarde,
+      bronlink en waarom. **Wijzig het lesmateriaal niet zelf.** Zelfde
+      afspraak als `threat-review.js` bij het intel-dashboard: gecureerde
+      lesinhoud wordt door een mens aangepast, niet automatisch. Leg de
+      voorstellen aan de gebruiker voor; pas ze alleen door na expliciete
+      goedkeuring.
+   5. Nieuw wapensysteem/dronetype gezien dat nog geen kaart-id heeft? Meld dat
+      als suggestie (nieuwe kaart + regel in `cardmap.json`) in plaats van het
+      stil te laten vallen.
+
+   Let op bij het uitbreiden van `cardmap.json`: gebruik `\b`-woordgrenzen bij
+   korte namen (anders matcht bijv. `verba` binnen het Nederlandse "verband") en
+   het `require`-veld bij systeemnamen die samenvallen met plaatsnamen
+   (Voronezh, Murmansk, Borisoglebsk).
 
 6. **Tijdlijn bijwerken**: significance ≥ 2 → toevoegen aan
    `public/history.json` (`events`, append-only, nieuwste eerst). Gebruik
@@ -116,6 +148,13 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
    git commit -m "Daily analysis: <korte samenvatting>"
    git push
    ```
+   `deploy.ps1` draait `crawler/crosscheck.js` zelf opnieuw vóór de deploy, zodat
+   de leersites direct de nieuwste koppelingen zien.
+
+9. **Rapporteer** aan het einde: aantal nieuwe entries, aantal updates, uitkomst
+   van de Voyennaya Mysl-check, en — als stap 5b iets opleverde — de
+   voorstellenlijst voor de threat sheets (kaart-id, huidige vs. voorgestelde
+   waarde, bron). Expliciet melden als er niets voor te stellen valt.
 
 ## Kwaliteitscriteria
 

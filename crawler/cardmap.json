@@ -1,0 +1,340 @@
+{
+  "_comment": "Kaartmap voor cross-check naar de zustersites. De ids MOETEN exact overeenkomen met de kaart-ids op de betreffende site (drone-academy/js/data-cards.js, VKS-leeromgeving/js/data-threats.js). Voor ew-leeromgeving bestaan geen per-systeem kaarten (hoofdstukstructuur), daar zijn de ids thematisch. 'match' is een case-insensitive regex over titel + samenvattingen van een analysis-entry. 'topics' (optioneel) beperkt de match tot entries met minstens één van die topic-ids. 'require' (optioneel) is een tweede regex die óók moet matchen — nodig bij systeemnamen die samenvallen met plaatsnamen (Voronezh, Murmansk, Borisoglebsk). Let op: gebruik \\b-grenzen bij korte namen, anders matcht bijv. 'verba' binnen het Nederlandse woord 'verband'.",
+  "sites": {
+    "drone": {
+      "name": "Drone Academy",
+      "url": "https://drone-academy.web.app",
+      "cards": {
+        "shahed": {
+          "name": "Shahed-136 / Geran-2",
+          "match": "shahed|geran-?2|герань-?2|шахед"
+        },
+        "geran3": {
+          "name": "Geran-3",
+          "match": "geran-?3|geran-?4|geran-?5|герань-?3"
+        },
+        "lancet": {
+          "name": "Lancet-1 / Lancet-3",
+          "match": "lancet|ланцет|izdeliye-?5[12]"
+        },
+        "orlan": {
+          "name": "Orlan-10",
+          "match": "\\b(orlan|орлан)"
+        },
+        "gerbera": {
+          "name": "Gerbera",
+          "match": "\\b(gerbera|гербера)"
+        },
+        "molniya2": {
+          "name": "Molniya-2",
+          "match": "\\b(molniya|молния)"
+        },
+        "garpiya": {
+          "name": "Garpiya",
+          "match": "\\b(garpiya|гарпия)"
+        },
+        "zala-z16": {
+          "name": "ZALA Z-16",
+          "match": "\\b(zala|z-?16)\\b"
+        },
+        "orion": {
+          "name": "Orion",
+          "match": "\\b(orion|иноходец|inokhodets)\\b",
+          "topics": [
+            "drones"
+          ]
+        },
+        "forpost": {
+          "name": "Forpost",
+          "match": "forpost|форпост"
+        },
+        "supercam": {
+          "name": "Supercam",
+          "match": "supercam|суперкам"
+        },
+        "fpv": {
+          "name": "FPV-drones",
+          "match": "fpv|first.person view|fibre.optic|fiber.optic|glasvezel|оптоволок",
+          "topics": [
+            "drones",
+            "ttp"
+          ]
+        },
+        "cots": {
+          "name": "COTS-drones",
+          "match": "mavic|dji|commercial off.the.shelf|\\bcots\\b|quadcopter",
+          "topics": [
+            "drones"
+          ]
+        },
+        "mws-rwr": {
+          "name": "MWS / RWR",
+          "match": "missile warning|radar warning|\\brwr\\b|\\bmws\\b"
+        },
+        "dircm": {
+          "name": "DIRCM",
+          "match": "dircm|directional infrared|infrared countermeasure"
+        },
+        "ew-spoof": {
+          "name": "EW / spoofing tegen UAS",
+          "match": "spoofing|spoofed|gps.jamming|gnss.jamming|crpa|counter.uas jam",
+          "topics": [
+            "drones",
+            "ew"
+          ]
+        },
+        "hardkill": {
+          "name": "Hard-kill counter-UAS",
+          "match": "interceptor drone|hard.kill|gun.based|c.uas missile|counter.drone missile|interceptie.drone",
+          "topics": [
+            "drones",
+            "air-defense"
+          ]
+        },
+        "killchain": {
+          "name": "Kill chain",
+          "match": "kill chain|recon.strike|sensor.to.shooter|targeting cycle",
+          "topics": [
+            "drones",
+            "ttp"
+          ]
+        }
+      }
+    },
+    "vks": {
+      "name": "AirDefense Academy",
+      "url": "https://airdefense-academy.web.app",
+      "cards": {
+        "sa21": {
+          "name": "S-400 (SA-21)",
+          "match": "s-?400|sa-?21|триумф|triumf"
+        },
+        "s500": {
+          "name": "S-500",
+          "match": "s-?500|prometheus|прометей"
+        },
+        "sa20": {
+          "name": "S-300P (SA-20)",
+          "match": "s-?300p|sa-?20|favorit"
+        },
+        "sa23": {
+          "name": "S-300V4 (SA-23)",
+          "match": "s-?300v|sa-?23|antey|антей"
+        },
+        "sa22": {
+          "name": "Pantsir (SA-22)",
+          "match": "pantsir|панцирь|sa-?22"
+        },
+        "sa17": {
+          "name": "Buk-M2/M3 (SA-17)",
+          "match": "buk-?m|бук-?м|sa-?17"
+        },
+        "sa15": {
+          "name": "Tor-M2 (SA-15)",
+          "match": "tor-?m|тор-?м|sa-?15"
+        },
+        "sa19": {
+          "name": "Tunguska (SA-19)",
+          "match": "tunguska|тунгуска|sa-?19"
+        },
+        "sa13": {
+          "name": "Strela-10 (SA-13)",
+          "match": "strela-?10|стрела-?10|sa-?13"
+        },
+        "sa29": {
+          "name": "Verba (SA-29)",
+          "match": "\\b(verba|верба|sa-?29)\\b"
+        },
+        "sa11": {
+          "name": "Buk-M1 (SA-11)",
+          "match": "buk-?m1|sa-?11"
+        },
+        "sa27": {
+          "name": "S-350 (SA-27)",
+          "match": "s-?350|vityaz|витязь|sa-?27"
+        },
+        "nebom": {
+          "name": "Nebo-M",
+          "match": "nebo-?m|небо-?м"
+        },
+        "nebosvu": {
+          "name": "Nebo-SVU",
+          "match": "nebo-?svu"
+        },
+        "protivnik": {
+          "name": "Protivnik-GE",
+          "match": "protivnik|противник"
+        },
+        "gamma": {
+          "name": "Gamma-DE/S1",
+          "match": "gamma-?(de|s1)|гамма-?"
+        },
+        "podlet": {
+          "name": "Podlet-K1",
+          "match": "podlet|подлёт|подлет"
+        },
+        "kasta": {
+          "name": "Kasta-2E2",
+          "match": "\\b(kasta|каста)\\b"
+        },
+        "r96l6": {
+          "name": "96L6",
+          "match": "96l6"
+        },
+        "voronezh": {
+          "name": "Voronezh",
+          "match": "voronezh|воронеж",
+          "require": "radar|early.warning|vroegtijdige waarschuwing|waarschuwingssysteem|радиолокац|радар",
+          "topics": [
+            "air-defense",
+            "missiles"
+          ]
+        },
+        "krasukha2": {
+          "name": "Krasukha-2",
+          "match": "krasukha-?2|красуха-?2"
+        },
+        "krasukha4": {
+          "name": "Krasukha-4",
+          "match": "krasukha|красуха"
+        },
+        "murmansk": {
+          "name": "Murmansk-BN",
+          "match": "murmansk-?bn|мурманск-?бн|\\bmurmansk\\b",
+          "require": "jamming|jammer|electronic warfare|\\bew\\b|hf |shortwave|radio|РЭБ|stoorzender"
+        },
+        "moskva1": {
+          "name": "Moskva-1",
+          "match": "moskva-?1|москва-?1"
+        },
+        "divnomorye": {
+          "name": "Divnomorye",
+          "match": "divnomorye|дивноморье"
+        },
+        "borisoglebsk": {
+          "name": "Borisoglebsk-2",
+          "match": "borisoglebsk-?2|борисоглебск-?2|\\bborisoglebsk\\b",
+          "require": "jamming|jammer|electronic warfare|\\bew\\b|РЭБ|stoorzender"
+        },
+        "palantin": {
+          "name": "Palantin",
+          "match": "\\b(palantin|палантин)\\b"
+        },
+        "zhitel": {
+          "name": "R-330Zh Zhitel",
+          "match": "r-?330zh|zhitel|житель"
+        },
+        "leer3": {
+          "name": "Leer-3",
+          "match": "leer-?3|леер-?3"
+        },
+        "rtutbm": {
+          "name": "Rtut-BM",
+          "match": "\\b(rtut-?bm|rtut|ртуть)\\b"
+        },
+        "mig31": {
+          "name": "MiG-31",
+          "match": "mig-?31|миг-?31"
+        },
+        "su35": {
+          "name": "Su-35",
+          "match": "su-?35|су-?35"
+        },
+        "su34": {
+          "name": "Su-34",
+          "match": "su-?34|су-?34"
+        },
+        "su25": {
+          "name": "Su-25",
+          "match": "su-?25|су-?25"
+        },
+        "mig29": {
+          "name": "MiG-29",
+          "match": "mig-?29|миг-?29"
+        },
+        "su57": {
+          "name": "Su-57",
+          "match": "su-?57|су-?57"
+        },
+        "tu160": {
+          "name": "Tu-160",
+          "match": "tu-?160|ту-?160"
+        },
+        "tu95": {
+          "name": "Tu-95",
+          "match": "tu-?95|ту-?95"
+        },
+        "tu22m3": {
+          "name": "Tu-22M3",
+          "match": "tu-?22m|ту-?22м"
+        },
+        "r37m": {
+          "name": "R-37M",
+          "match": "r-?37m"
+        },
+        "r77m": {
+          "name": "R-77M",
+          "match": "r-?77m"
+        },
+        "r77": {
+          "name": "R-77",
+          "match": "r-?77\\b"
+        },
+        "r73": {
+          "name": "R-73",
+          "match": "r-?73\\b"
+        },
+        "r27": {
+          "name": "R-27",
+          "match": "r-?27\\b"
+        }
+      }
+    },
+    "ew": {
+      "name": "EW Academy",
+      "url": "https://ew-academy.web.app",
+      "note": "Thematische ids — ew-leeromgeving heeft een hoofdstukstructuur, geen per-systeem kaarten.",
+      "cards": {
+        "jamming": {
+          "name": "Jamming",
+          "match": "jamming|jammer|gestoord|storing|подавлени|глушени|РЭБ",
+          "topics": [
+            "ew",
+            "drones",
+            "ttp"
+          ]
+        },
+        "gnss": {
+          "name": "GNSS-denial & spoofing",
+          "match": "gnss|gps.denial|gps.jamming|spoofing|spoofed|crpa|navigation warfare|satellietnavigatie",
+          "topics": [
+            "ew",
+            "drones"
+          ],
+          "nameEn": "GNSS denial & spoofing"
+        },
+        "drfm": {
+          "name": "DRFM",
+          "match": "drfm|digital radio frequency memory"
+        },
+        "decoys": {
+          "name": "Decoys & chaff",
+          "match": "\\bdecoy|chaff|lokdoel|towed decoy|expendable active"
+        },
+        "ir": {
+          "name": "IR-dreiging & DIRCM",
+          "match": "infrared|ir.seeker|manpad|dircm|flare|thermal imaging|warmtebeeld",
+          "nameEn": "IR threat & DIRCM"
+        },
+        "esm": {
+          "name": "ESM / SIGINT",
+          "match": "sigint|elint|\\besm\\b|direction finding|radiopeiling|electronic support"
+        },
+        "epm": {
+          "name": "Electronic protection",
+          "match": "frequency hopping|anti.jam|electronic protection|\\bepm\\b|hardened against jamming|jam.resistant"
+        }
+      }
+    }
+  }
+}

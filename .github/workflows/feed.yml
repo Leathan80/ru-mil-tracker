@@ -40,6 +40,13 @@ jobs:
       - name: Build pretag shortlist
         run: node crawler/pretag.js || true
 
+      # Cross-check: koppelt gecureerde entries aan de threat-cards van de
+      # zustersites (drone-academy, AirDefense/VKS, EW Academy). Voedt zowel hun
+      # live "recente ontwikkelingen"-blokken als de signaallijst voor de
+      # dagelijkse analysetaak. Niet-fataal.
+      - name: Build cross-check for sibling sites
+        run: node crawler/crosscheck.js || true
+
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
