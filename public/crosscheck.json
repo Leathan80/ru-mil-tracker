@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-30T20:07:51.994Z",
- "analysisUpdated": "2026-07-30T07:00:00.000Z",
+ "updated": "2026-07-31T20:04:57.688Z",
+ "analysisUpdated": "2026-07-31T21:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 126,
-  "cardsWithHits": 38,
-  "matches": 163
+  "entriesConsidered": 132,
+  "cardsWithHits": 40,
+  "matches": 172
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -538,9 +538,32 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260731-03",
+       "title": "Russian MoD source claims destruction of 120 Ukrainian UAV control posts near Kharkiv",
+       "titleNl": "Russische bron claimt vernietiging van 120 Oekraïense UAV-controleposten bij Charkov",
+       "category": "ttp",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-07-31T08:36:10.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens TASS heeft een bron genaamd 'Karta', omschreven als hoofd Planning en Counter-UAV-operaties bij het 11e Legerkorps van de Battlegroup North, verklaard dat Russische droneoperators sinds begin juli circa 120 Oekraïense controleposten en lanceerlocaties voor drones in de regio Charkov zouden hebben vernietigd. V…",
+       "enSummary": "According to TASS, a source identified as 'Karta', described as chief of Planning and Counter-UAV Operations for the 11th Army Corps (Battlegroup North), claims Russian drone operators destroyed roughly 120 Ukrainian drone control posts and launch sites in the Kharkiv region since the start of July. The source states…",
+       "sourceUrl": "https://tass.com/defense/2167569",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260729-s04",
        "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
@@ -795,9 +818,32 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 22,
+     "total": 23,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260731-03",
+       "title": "Russian MoD source claims destruction of 120 Ukrainian UAV control posts near Kharkiv",
+       "titleNl": "Russische bron claimt vernietiging van 120 Oekraïense UAV-controleposten bij Charkov",
+       "category": "ttp",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-07-31T08:36:10.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens TASS heeft een bron genaamd 'Karta', omschreven als hoofd Planning en Counter-UAV-operaties bij het 11e Legerkorps van de Battlegroup North, verklaard dat Russische droneoperators sinds begin juli circa 120 Oekraïense controleposten en lanceerlocaties voor drones in de regio Charkov zouden hebben vernietigd. V…",
+       "enSummary": "According to TASS, a source identified as 'Karta', described as chief of Planning and Counter-UAV Operations for the 11th Army Corps (Battlegroup North), claims Russian drone operators destroyed roughly 120 Ukrainian drone control posts and launch sites in the Kharkiv region since the start of July. The source states…",
+       "sourceUrl": "https://tass.com/defense/2167569",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260730-s01",
        "title": "«Теперь российские FPV-дроны видимы»: комплекс активной защиты SOVA-1.0 для ВСУ",
@@ -834,11 +880,11 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-07-29T12:25:37.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
        "nlSummary": "Glasvezel-gestuurde FPV-drones — die een dunne kabel afrollen in plaats van een radioverbinding te gebruiken — zijn een van de effectiefste wapens van de oorlog geworden omdat ze vooraf niet gedetecteerd of gestoord kunnen worden: ruw terrein en elektronische oorlogsvoering tasten het signaal niet aan, en het bereik w…",
        "enSummary": "Fiber-optic-guided FPV drones — which trail a thin cable instead of using a radio link — have become one of the most effective weapons of the war because they cannot be detected or jammed in advance: rough terrain and electronic warfare do not degrade the signal, and range is limited only by the cable spool. Russia be…",
        "sourceUrl": "https://meduza.io/en/feature/2026/07/29/fiber-optic-cables-used-to-guide-drones-are-blanketing-ukraine-s-front-line-researchers-are-only-beginning-to-understand-their-environmental-impact",
-       "sourceCount": 1,
+       "sourceCount": 2,
        "signals": [
         "scale"
        ]
@@ -907,30 +953,6 @@
        "sourceCount": 2,
        "signals": [
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260729-02",
-       "title": "Russia Fields Ground-Based Launcher for S8000 Banderol Missile, Ending Reliance on Scarce Orion Drone",
-       "titleNl": "Rusland introduceert grondgebaseerde lanceerinrichting voor S8000 Banderol-raket, einde aan afhankelijkheid van schaarse Orion-drone",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-28T18:41:04.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "Rusland heeft een grondgebaseerde lanceerinrichting ingevoerd voor de S8000 Banderol, een compacte, straalgedreven kruis-/glijraket die het al inzet bij gecombineerde aanvallen op Kyiv, en maakt daarmee een einde aan de afhankelijkheid van de schaarse Orion-verkennings-/aanvalsdrone — tot dusver het enige bevestigde l…",
-       "enSummary": "Russia has fielded a ground-based launcher for its S8000 Banderol, a compact jet-powered cruise/glide missile it already uses in combined strikes on Kyiv, ending its former reliance on the scarce Orion strike/reconnaissance drone — previously the missile's only confirmed launch platform, able to carry just one Bandero…",
-       "sourceUrl": "https://militarnyi.com/en/news/russian-s8000-banderol-missile-receives-ground-based-launcher/",
-       "sourceCount": 3,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -1252,8 +1274,8 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 10,
-     "signalCount": 6,
+     "total": 11,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260730-03",
@@ -1349,6 +1371,26 @@
        ]
       },
       {
+       "id": "e-20260731-s02",
+       "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
+       "titleNl": "Turkije zou Egypte als koper van S-400's overwegen om F-35-impasse op te lossen; Caïro heeft al Russische S-300VM",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-27T08:47:54.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens Defense Express (Ivan Kyrychevskiy) zoekt Turkije nog steeds naar een koper voor zijn Russische S-400-luchtverdedigingssystemen, die het land onder een contract uit 2017 van Moskou kocht en die de directe aanleiding vormden voor Turkijes uitsluiting van het Amerikaanse F-35-programma. Egypte zou nu naar voren…",
+       "enSummary": "Defense Express (author Ivan Kyrychevskiy) reports that Turkey is still seeking a buyer for its Russian S-400 air defense systems, acquired under a 2017 contract with Moscow and the direct cause of Turkey's exclusion from the US F-35 program. Egypt has reportedly emerged as a probable buyer, with talks said to have ta…",
+       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
+       "sourceCount": 1,
+       "signals": []
+      },
+      {
        "id": "e-20260727-03",
        "title": "Ukraine Launches Multi-Domain Strike Wave Across Russia and the Caspian Sea, Hits Molniya-Class Missile Boat",
        "titleNl": "Oekraïne lanceert brede aanvalsgolf over Rusland en de Kaspische Zee, raakt Molniya-klasse raketboot",
@@ -1372,34 +1414,13 @@
        "signals": [
         "scale"
        ]
-      },
-      {
-       "id": "e-20260727-05",
-       "title": "Ukrainian intelligence destroys Russian S-400 launcher and radar in occupied Crimea",
-       "titleNl": "Oekraïense inlichtingendienst vernietigt Russische S-400-lanceerinstallatie en radar op bezette Krim",
-       "category": "weapon",
-       "topics": [
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "Oekraïne's Defence Intelligence (DIU, ook bekend als GUR) claimt in de nacht van 25 op 26 juli 2026 een Russisch S-400 Triumf-luchtafweersysteem te hebben geraakt op de bezette Krim. Volgens een persbericht van de DIU, gemeld door Ukrainska Pravda, hebben operators van de 'Unmanned Systems Department' van de dienst he…",
-       "enSummary": "Ukraine's Defence Intelligence (DIU, also known as GUR) claims to have struck a Russian S-400 Triumf air defence system in occupied Crimea on the night of 25-26 July 2026. According to a DIU press release reported by Ukrainska Pravda, operators from the agency's Unmanned Systems Department tracked down the system and…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/27/8046035",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "sa23": {
      "name": "S-300V4 (SA-23)",
      "nameEn": "S-300V4 (SA-23)",
-     "total": 2,
+     "total": 3,
      "signalCount": 2,
      "entries": [
       {
@@ -1423,6 +1444,26 @@
        "signals": [
         "deploy"
        ]
+      },
+      {
+       "id": "e-20260731-s02",
+       "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
+       "titleNl": "Turkije zou Egypte als koper van S-400's overwegen om F-35-impasse op te lossen; Caïro heeft al Russische S-300VM",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-27T08:47:54.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens Defense Express (Ivan Kyrychevskiy) zoekt Turkije nog steeds naar een koper voor zijn Russische S-400-luchtverdedigingssystemen, die het land onder een contract uit 2017 van Moskou kocht en die de directe aanleiding vormden voor Turkijes uitsluiting van het Amerikaanse F-35-programma. Egypte zou nu naar voren…",
+       "enSummary": "Defense Express (author Ivan Kyrychevskiy) reports that Turkey is still seeking a buyer for its Russian S-400 air defense systems, acquired under a 2017 contract with Moscow and the direct cause of Turkey's exclusion from the US F-35 program. Egypt has reportedly emerged as a probable buyer, with talks said to have ta…",
+       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
+       "sourceCount": 1,
+       "signals": []
       },
       {
        "id": "e-20260725-02",
@@ -1598,83 +1639,37 @@
      ]
     },
     "sa17": {
-     "name": "Buk-M2/M3 (SA-17)",
-     "nameEn": "Buk-M2/M3 (SA-17)",
-     "total": 3,
-     "signalCount": 3,
+     "name": "Buk-M2 (SA-17)",
+     "nameEn": "Buk-M2 (SA-17)",
+     "total": 1,
+     "signalCount": 0,
      "entries": [
       {
-       "id": "e-20260730-04",
-       "title": "Ukraine torches Russian naval-drone base at Snizhne near occupied Yevpatoriia",
-       "titleNl": "Oekraïne verwoest Russische zeedrone-basis bij Snizjne nabij bezet Jevpatoria",
-       "category": "ttp",
+       "id": "e-20260731-s02",
+       "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
+       "titleNl": "Turkije zou Egypte als koper van S-400's overwegen om F-35-impasse op te lossen; Caïro heeft al Russische S-300VM",
+       "category": "weapon",
        "topics": [
-        "naval-drones",
-        "navy",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-30T10:10:16.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "Rusland stationeert in bezet Krim een vloot onbemande zeedrones die specifiek zijn bedoeld om Oekraïense maritieme doelen te jagen, waaronder Oekraïne's eigen zeedrones die de Zwarte Zee-vloot en aanvoerroutes naar het schiereiland onder druk zetten. Deze Russische vaartuigen lagen gestationeerd in hangars bij Snizjne…",
-       "enSummary": "Russia bases a fleet of uncrewed naval boats in occupied Crimea specifically to hunt Ukrainian maritime targets, including Ukraine's own sea drones that have been squeezing the Black Sea Fleet and supply routes to the peninsula. These Russian vessels were kept in hangars near Snizhne, close to Yevpatoriia on Crimea's…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-builds-sea-drones-to-hunt-ukraine-ukraine-just-torched-the-base-where-they-sit-in-occupied-crimea",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260724-07",
-       "title": "Ukrainian Border Guards Destroy Russian Buk-M3 Air Defense System Worth $50M in Donetsk Oblast",
-       "titleNl": "Oekraïense grenswachters vernietigen Russisch Buk-M3-luchtafweersysteem ter waarde van $50 miljoen in Donetsk",
-       "category": "ttp",
-       "topics": [
+        "missiles",
         "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-24T06:00:00.000Z",
-       "updatedAt": "2026-07-24T07:00:00.000Z",
-       "nlSummary": "Strijders van de eenheid Phoenix van de Oekraïense Staatsgrenswacht hebben een Russisch Buk-M3 luchtafweersysteem vernietigd in de oblast Donetsk. Dat meldde de Grenswacht op haar Telegram-kanaal, geciteerd door Ukrainska Pravda op 23 juli 2026. Volgens de dienst verplaatsten Russische troepen het systeem richting het…",
-       "enSummary": "Fighters of the Phoenix unit of Ukraine's State Border Guard Service destroyed a Russian Buk-M3 medium-range surface-to-air missile system in Donetsk Oblast, the service reported via its Telegram channel, as cited by Ukrainska Pravda on 23 July 2026. According to the report, Russian forces were moving the system towar…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/23/8045476",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260722-s02",
-       "title": "Ukraine Destroys Tor-M2 System, Hits Buk-M1 Units, and Five russian Radars in Coordinated Drone Strikes",
-       "titleNl": "Oekraïne vernietigt Tor-M2-systeem, raakt Buk-M1-eenheden en vijf Russische radars bij gecoördineerde drone-aanvallen",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones"
        ],
        "stream": "single",
        "origin": "ua",
        "significance": 2,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Volgens Defense Express hebben operators van de Oekraïense Unmanned Systems Forces — specifiek het 1st Separate Center in samenwerking met het Deep Strike Center — in de nacht van 20 juli 2026 een gecoördineerde reeks drone-aanvallen uitgevoerd tegen Russische luchtverdedigings- en radarinfrastructuur. Daarbij zou bij…",
-       "enSummary": "According to Defense Express, operators from Ukraine's Unmanned Systems Forces — specifically the 1st Separate Center working with the Deep Strike Center — carried out a coordinated overnight drone-strike campaign on 20 July 2026 against Russian air-defense and radar infrastructure. The report claims a Tor-M2 short-ra…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk1UWXNJQl9LMmEzQURpUmxRckkyc3VCYk1QZnJyVHJ2TVJGM2JDZ0lyX1NNYndhbXJwZ3dDNzRSM1lhNEE0UkZ4XzRvNDBpWWduM0Rfc3hMYVd4RGVnS2xiTm9QZndtWDZVSFdrS0xubUYtQ3c3NHNnWl9OM1pZa0pjbFJPbmVMRWZRWWdCOERnZ1ZacjlKVlRjVWNlUW9zOE56djRIRUtMaDdURDRRb285U3F0LXhqUThqd1VfSWhreFg3UmZtbTZfOTYtM1Z0VWZKTE5mZzQwQVV2Ym5BQmZfQQ?oc=5",
+       "publishedAt": "2026-07-27T08:47:54.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens Defense Express (Ivan Kyrychevskiy) zoekt Turkije nog steeds naar een koper voor zijn Russische S-400-luchtverdedigingssystemen, die het land onder een contract uit 2017 van Moskou kocht en die de directe aanleiding vormden voor Turkijes uitsluiting van het Amerikaanse F-35-programma. Egypte zou nu naar voren…",
+       "enSummary": "Defense Express (author Ivan Kyrychevskiy) reports that Turkey is still seeking a buyer for its Russian S-400 air defense systems, acquired under a 2017 contract with Moscow and the direct cause of Turkey's exclusion from the US F-35 program. Egypt has reportedly emerged as a probable buyer, with talks said to have ta…",
+       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
        "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
+       "signals": []
       }
      ]
     },
     "sa15": {
      "name": "Tor-M2 (SA-15)",
      "nameEn": "Tor-M2 (SA-15)",
-     "total": 5,
+     "total": 6,
      "signalCount": 4,
      "entries": [
       {
@@ -1699,6 +1694,26 @@
         "deploy",
         "perf"
        ]
+      },
+      {
+       "id": "e-20260731-s02",
+       "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
+       "titleNl": "Turkije zou Egypte als koper van S-400's overwegen om F-35-impasse op te lossen; Caïro heeft al Russische S-300VM",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-27T08:47:54.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens Defense Express (Ivan Kyrychevskiy) zoekt Turkije nog steeds naar een koper voor zijn Russische S-400-luchtverdedigingssystemen, die het land onder een contract uit 2017 van Moskou kocht en die de directe aanleiding vormden voor Turkijes uitsluiting van het Amerikaanse F-35-programma. Egypte zou nu naar voren…",
+       "enSummary": "Defense Express (author Ivan Kyrychevskiy) reports that Turkey is still seeking a buyer for its Russian S-400 air defense systems, acquired under a 2017 contract with Moscow and the direct cause of Turkey's exclusion from the US F-35 program. Egypt has reportedly emerged as a probable buyer, with talks said to have ta…",
+       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
+       "sourceCount": 1,
+       "signals": []
       },
       {
        "id": "e-20260727-03",
@@ -1817,6 +1832,118 @@
        "sourceCount": 1,
        "signals": [
         "loss"
+       ]
+      }
+     ]
+    },
+    "sa27": {
+     "name": "Buk-M3 (SA-27)",
+     "nameEn": "Buk-M3 (SA-27)",
+     "total": 3,
+     "signalCount": 3,
+     "entries": [
+      {
+       "id": "e-20260731-s01",
+       "title": "Ukraine Hits russian Buk-M3 System, Nebo-SVU Radar, Drone Base, and 205th Vessel",
+       "titleNl": "Oekraïne raakt Russisch Buk-M3-systeem, Nebo-SVU-radar, dronebasis en 205e vaartuig",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones",
+        "naval-drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-31T04:07:01.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens Oekraïense bronnen (Defense Express, op basis van verklaringen van de Oekraïense Unmanned Systems Forces / \"Madyar's Birds\") voerden Oekraïense eenheden een gecoördineerde multi-domein aanvalsoperatie uit, gemeld op 31 juli 2026. In de regio Donetsk (Snizhne) sloegen operators van de grenseenheid \"Phoenix\" een…",
+       "enSummary": "According to Ukrainian sources (Defense Express, citing statements from Ukraine's Unmanned Systems Forces / \"Madyar's Birds\"), Ukrainian units carried out a coordinated multi-domain strike operation reported on 31 July 2026. In Donetsk region (Snizhne), operators from the \"Phoenix\" border-guard unit struck a Buk-M3 su…",
+       "sourceUrl": "https://en.defence-ua.com/news/ukraine_hits_russian_buk_m3_system_nebo_svu_radar_drone_base_and_205th_vessel_video-19308.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260730-04",
+       "title": "Ukraine torches Russian naval-drone base at Snizhne near occupied Yevpatoriia",
+       "titleNl": "Oekraïne verwoest Russische zeedrone-basis bij Snizjne nabij bezet Jevpatoria",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "navy",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-07-30T10:10:16.000Z",
+       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "nlSummary": "Rusland stationeert in bezet Krim een vloot onbemande zeedrones die specifiek zijn bedoeld om Oekraïense maritieme doelen te jagen, waaronder Oekraïne's eigen zeedrones die de Zwarte Zee-vloot en aanvoerroutes naar het schiereiland onder druk zetten. Deze Russische vaartuigen lagen gestationeerd in hangars bij Snizjne…",
+       "enSummary": "Russia bases a fleet of uncrewed naval boats in occupied Crimea specifically to hunt Ukrainian maritime targets, including Ukraine's own sea drones that have been squeezing the Black Sea Fleet and supply routes to the peninsula. These Russian vessels were kept in hangars near Snizhne, close to Yevpatoriia on Crimea's…",
+       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-builds-sea-drones-to-hunt-ukraine-ukraine-just-torched-the-base-where-they-sit-in-occupied-crimea",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260724-07",
+       "title": "Ukrainian Border Guards Destroy Russian Buk-M3 Air Defense System Worth $50M in Donetsk Oblast",
+       "titleNl": "Oekraïense grenswachters vernietigen Russisch Buk-M3-luchtafweersysteem ter waarde van $50 miljoen in Donetsk",
+       "category": "ttp",
+       "topics": [
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-07-24T06:00:00.000Z",
+       "updatedAt": "2026-07-24T07:00:00.000Z",
+       "nlSummary": "Strijders van de eenheid Phoenix van de Oekraïense Staatsgrenswacht hebben een Russisch Buk-M3 luchtafweersysteem vernietigd in de oblast Donetsk. Dat meldde de Grenswacht op haar Telegram-kanaal, geciteerd door Ukrainska Pravda op 23 juli 2026. Volgens de dienst verplaatsten Russische troepen het systeem richting het…",
+       "enSummary": "Fighters of the Phoenix unit of Ukraine's State Border Guard Service destroyed a Russian Buk-M3 medium-range surface-to-air missile system in Donetsk Oblast, the service reported via its Telegram channel, as cited by Ukrainska Pravda on 23 July 2026. According to the report, Russian forces were moving the system towar…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/23/8045476",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      }
+     ]
+    },
+    "nebosvu": {
+     "name": "Nebo-SVU",
+     "nameEn": "Nebo-SVU",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260731-s01",
+       "title": "Ukraine Hits russian Buk-M3 System, Nebo-SVU Radar, Drone Base, and 205th Vessel",
+       "titleNl": "Oekraïne raakt Russisch Buk-M3-systeem, Nebo-SVU-radar, dronebasis en 205e vaartuig",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones",
+        "naval-drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-31T04:07:01.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens Oekraïense bronnen (Defense Express, op basis van verklaringen van de Oekraïense Unmanned Systems Forces / \"Madyar's Birds\") voerden Oekraïense eenheden een gecoördineerde multi-domein aanvalsoperatie uit, gemeld op 31 juli 2026. In de regio Donetsk (Snizhne) sloegen operators van de grenseenheid \"Phoenix\" een…",
+       "enSummary": "According to Ukrainian sources (Defense Express, citing statements from Ukraine's Unmanned Systems Forces / \"Madyar's Birds\"), Ukrainian units carried out a coordinated multi-domain strike operation reported on 31 July 2026. In Donetsk region (Snizhne), operators from the \"Phoenix\" border-guard unit struck a Buk-M3 su…",
+       "sourceUrl": "https://en.defence-ua.com/news/ukraine_hits_russian_buk_m3_system_nebo_svu_radar_drone_base_and_205th_vessel_video-19308.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "counter"
        ]
       }
      ]
@@ -2117,9 +2244,32 @@
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260730-02",
+       "title": "Kh-101 crash in Poland: Warsaw weighs Patriot transfer to Ukraine as Russia's ambassador is summoned and probe continues",
+       "titleNl": "Kh-101-inslag in Polen: Warschau overweegt Patriot-overdracht aan Oekraïne, Russische ambassadeur ontboden en onderzoek loopt door",
+       "category": "org",
+       "topics": [
+        "missiles",
+        "command",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-07-30T06:42:00.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Het object dat in de nacht van 29 op 30 juli 2026 neerkwam bij Tarnawa-Kolonia in de Poolse woiwodschap Lublin, is door de Poolse autoriteiten bevestigd als een Russische Kh-101-kruisraket, geproduceerd in het tweede kwartaal van 2026 bij een fabriek in de regio Moskou, aldus vicepremier en minister van Defensie Kosin…",
+       "enSummary": "Polish authorities have confirmed that the object which crashed near Tarnawa-Kolonia in Lublin Voivodeship overnight on 29-30 July 2026 was a Russian Kh-101 cruise missile, manufactured in the second quarter of 2026 at a factory in Moscow Oblast, according to Deputy PM and Defence Minister Kosiniak-Kamysz. PM Tusk sai…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046502",
+       "sourceCount": 11,
+       "signals": [
+        "perf"
+       ]
+      },
       {
        "id": "e-20260724-01",
        "title": "Ukrainian F-16 Reportedly Downs Russian Su-35 in First Confirmed Air-to-Air Kill",
@@ -2454,11 +2604,11 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-07-29T12:25:37.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
        "nlSummary": "Glasvezel-gestuurde FPV-drones — die een dunne kabel afrollen in plaats van een radioverbinding te gebruiken — zijn een van de effectiefste wapens van de oorlog geworden omdat ze vooraf niet gedetecteerd of gestoord kunnen worden: ruw terrein en elektronische oorlogsvoering tasten het signaal niet aan, en het bereik w…",
        "enSummary": "Fiber-optic-guided FPV drones — which trail a thin cable instead of using a radio link — have become one of the most effective weapons of the war because they cannot be detected or jammed in advance: rough terrain and electronic warfare do not degrade the signal, and range is limited only by the cable spool. Russia be…",
        "sourceUrl": "https://meduza.io/en/feature/2026/07/29/fiber-optic-cables-used-to-guide-drones-are-blanketing-ukraine-s-front-line-researchers-are-only-beginning-to-understand-their-environmental-impact",
-       "sourceCount": 1,
+       "sourceCount": 2,
        "signals": [
         "scale"
        ]
@@ -2808,8 +2958,8 @@
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260730-04",
@@ -2877,6 +3027,28 @@
        "signals": [
         "perf",
         "counter"
+       ]
+      },
+      {
+       "id": "e-20260719-03",
+       "title": "Wildberries' drone-liability playbook spreads to Megamarket, Ozon and Yandex Market as strikes continue",
+       "titleNl": "Wildberries' ontwijking van aansprakelijkheid bij drone-aanvallen slaat over naar Megamarket, Ozon en Yandex Market",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-07-19T06:00:00.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "De Oekraïense droneaanvallen op Wildberries, Ruslands grootste online marktplaats, blijven zich sinds het begin van de aanvallen rond 17-18 juli 2026 uitbreiden. Op 30 juli waren sinds half juli minstens 13 Wildberries-logistiekcentra geraakt (tegen 11 op 29 juli), verspreid ver voorbij de oorspronkelijke cluster rond…",
+       "enSummary": "Ukraine's drone campaign against Wildberries, Russia's largest online marketplace, has continued to widen since the strikes began around July 17-18, 2026. By July 30, at least 13 Wildberries logistics facilities had been hit since mid-July (up from 11 on July 29), spreading well beyond the original cluster around Mosc…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/18/8044673",
+       "sourceCount": 32,
+       "signals": [
+        "loss"
        ]
       },
       {
