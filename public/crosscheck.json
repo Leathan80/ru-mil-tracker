@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-31T20:04:57.688Z",
- "analysisUpdated": "2026-07-31T21:00:00.000Z",
+ "updated": "2026-08-01T19:36:33.221Z",
+ "analysisUpdated": "2026-08-01T21:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 132,
+  "entriesConsidered": 140,
   "cardsWithHits": 40,
-  "matches": 172
+  "matches": 177
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -713,11 +713,11 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-07-28T18:41:04.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "updatedAt": "2026-08-01T21:00:00.000Z",
        "nlSummary": "Rusland heeft een grondgebaseerde lanceerinrichting ingevoerd voor de S8000 Banderol, een compacte, straalgedreven kruis-/glijraket die het al inzet bij gecombineerde aanvallen op Kyiv, en maakt daarmee een einde aan de afhankelijkheid van de schaarse Orion-verkennings-/aanvalsdrone — tot dusver het enige bevestigde l…",
        "enSummary": "Russia has fielded a ground-based launcher for its S8000 Banderol, a compact jet-powered cruise/glide missile it already uses in combined strikes on Kyiv, ending its former reliance on the scarce Orion strike/reconnaissance drone — previously the missile's only confirmed launch platform, able to carry just one Bandero…",
        "sourceUrl": "https://militarnyi.com/en/news/russian-s8000-banderol-missile-receives-ground-based-launcher/",
-       "sourceCount": 3,
+       "sourceCount": 4,
        "signals": [
         "deploy",
         "perf",
@@ -754,9 +754,33 @@
     "forpost": {
      "name": "Forpost",
      "nameEn": "Forpost",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260801-s03",
+       "title": "'Birds of Magyar' shoot down rare Russian Forpost-R UAV with Chaklun-KM interceptor over Kursk region",
+       "titleNl": "'Vogels van Magyar' schieten zeldzame Russische Forpost-R neer met Chaklun-KM-onderscheppingsdrone boven Koersk",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-27T18:54:00.000Z",
+       "updatedAt": "2026-08-01T21:00:00.000Z",
+       "nlSummary": "Volgens Censor.NET, gebaseerd op videomateriaal dat commandant Robert Brovdi ('Madyar') op 27 juli 2026 via Telegram publiceerde, heeft het 7e Bataljon Topota van de 414e Afzonderlijke Brigade Onbemande Systemen ('Vogels van Magyar') een Russische Forpost-R verkennings- en aanvalsdrone neergeschoten boven de Koersk-re…",
+       "enSummary": "According to Censor.NET, based on video footage released by commander Robert Brovdi ('Madyar') via Telegram on 27 July 2026, the 7th Topota Battalion of the 414th Separate Unmanned Systems Brigade ('Birds of Magyar') shot down a Russian Forpost-R reconnaissance-and-strike UAV over the Kursk region at an altitude of ro…",
+       "sourceUrl": "https://censor.net/en/videonews/4015623/birds-of-magyar-down-rare-forpost-r-drone-over-kursk-region",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260729-01",
        "title": "Ukrainian Interceptor Drones Set New Altitude Records Downing Russian ZALA Z-20 and Forpost-R Recon UAVs",
@@ -1113,7 +1137,7 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 10,
+     "total": 11,
      "signalCount": 6,
      "entries": [
       {
@@ -1129,11 +1153,11 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-07-28T18:41:04.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
+       "updatedAt": "2026-08-01T21:00:00.000Z",
        "nlSummary": "Rusland heeft een grondgebaseerde lanceerinrichting ingevoerd voor de S8000 Banderol, een compacte, straalgedreven kruis-/glijraket die het al inzet bij gecombineerde aanvallen op Kyiv, en maakt daarmee een einde aan de afhankelijkheid van de schaarse Orion-verkennings-/aanvalsdrone — tot dusver het enige bevestigde l…",
        "enSummary": "Russia has fielded a ground-based launcher for its S8000 Banderol, a compact jet-powered cruise/glide missile it already uses in combined strikes on Kyiv, ending its former reliance on the scarce Orion strike/reconnaissance drone — previously the missile's only confirmed launch platform, able to carry just one Bandero…",
        "sourceUrl": "https://militarnyi.com/en/news/russian-s8000-banderol-missile-receives-ground-based-launcher/",
-       "sourceCount": 3,
+       "sourceCount": 4,
        "signals": [
         "deploy",
         "perf",
@@ -1161,6 +1185,30 @@
         "loss",
         "scale",
         "counter"
+       ]
+      },
+      {
+       "id": "e-20260801-s03",
+       "title": "'Birds of Magyar' shoot down rare Russian Forpost-R UAV with Chaklun-KM interceptor over Kursk region",
+       "titleNl": "'Vogels van Magyar' schieten zeldzame Russische Forpost-R neer met Chaklun-KM-onderscheppingsdrone boven Koersk",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-27T18:54:00.000Z",
+       "updatedAt": "2026-08-01T21:00:00.000Z",
+       "nlSummary": "Volgens Censor.NET, gebaseerd op videomateriaal dat commandant Robert Brovdi ('Madyar') op 27 juli 2026 via Telegram publiceerde, heeft het 7e Bataljon Topota van de 414e Afzonderlijke Brigade Onbemande Systemen ('Vogels van Magyar') een Russische Forpost-R verkennings- en aanvalsdrone neergeschoten boven de Koersk-re…",
+       "enSummary": "According to Censor.NET, based on video footage released by commander Robert Brovdi ('Madyar') via Telegram on 27 July 2026, the 7th Topota Battalion of the 414th Separate Unmanned Systems Brigade ('Birds of Magyar') shot down a Russian Forpost-R reconnaissance-and-strike UAV over the Kursk region at an altitude of ro…",
+       "sourceUrl": "https://censor.net/en/videonews/4015623/birds-of-magyar-down-rare-forpost-r-drone-over-kursk-region",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
        ]
       },
       {
@@ -1234,32 +1282,6 @@
        "signals": [
         "deploy",
         "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260724-05",
-       "title": "Russia copies Ukraine's airborne drone-interceptor tactic using WWII-era An-2 biplanes",
-       "titleNl": "Rusland kopieert Oekraïens luchtgedragen drone-onderscheppingsconcept met WOII-era An-2's",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-24T06:00:00.000Z",
-       "updatedAt": "2026-07-24T07:00:00.000Z",
-       "nlSummary": "Euromaidan Press meldt dat Rusland een tactiek heeft overgenomen die geldt als een van Oekraïnes slimste goedkope tegenmaatregelen tegen Shahed-aanvalsdrones: het bewapenen van oude transportvliegtuigen met relatief goedkope onderscheppingsdrones. Het Oekraïense origineel gebruikt Antonov An-28-turbopropvliegtuigen di…",
-       "enSummary": "Euromaidan Press reports that Russia has copied what it calls one of Ukraine's cleverest low-cost counter-drone innovations: arming older transport aircraft with cheap interceptor drones. Ukraine's original concept uses Antonov An-28 turboprops that launch interceptor drones from altitude, operating above cloud cover…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/23/russian-gunships",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "perf",
-        "scale",
         "counter"
        ]
       }
@@ -1669,9 +1691,29 @@
     "sa15": {
      "name": "Tor-M2 (SA-15)",
      "nameEn": "Tor-M2 (SA-15)",
-     "total": 6,
-     "signalCount": 4,
+     "total": 7,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260729-06",
+       "title": "Ukraine's command shake-up widens: Fedorov cites 'ideological conflict' with Syrskyi, delayed mobilisation reform, new deputy ministers, NATO awaits Drapatyi meeting",
+       "titleNl": "Oekraïense commandowissel breidt uit: Fedorov spreekt van 'ideologisch conflict' met Syrsky, vertraagde mobilisatiehervorming, nieuwe plaatsvervangend ministers, NAVO wacht op ontmoeting met Drapatyi",
+       "category": "org",
+       "topics": [
+        "command",
+        "mobilization"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-07-29T16:49:36.000Z",
+       "updatedAt": "2026-08-01T21:00:00.000Z",
+       "nlSummary": "De Oekraïense generale staf voert onder de nieuw aangestelde opperbevelhebber Mykhailo Drapatyi een leger-breed onderzoek uit naar de verdeling van personeel over brigades, regimenten en legerkorpsen, met als doel scheve bemanning tussen front- en achterwaartse eenheden bloot te leggen en te verhelpen. Het is een van…",
+       "enSummary": "Ukraine's General Staff, under newly appointed Commander-in-Chief Mykhailo Drapatyi, is carrying out a force-wide review of how personnel is distributed across brigades, regiments and corps, aiming to expose and correct staffing imbalances between front-line and rear/support units. It is one of Drapatyi's first substa…",
+       "sourceUrl": "https://euromaidanpress.com/2026/07/29/ukraines-army-has-some-brigades-starved-of-soldiers-and-others-overstaffed-new-commander-is-now-auditing-why",
+       "sourceCount": 8,
+       "signals": []
+      },
       {
        "id": "e-20260729-s04",
        "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
@@ -1781,28 +1823,6 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260722-s03",
-       "title": "Fighters from Black Forest unit struck MiG-29 and Pantsir-S1 at Khalino airfield in the Kursk region",
-       "titleNl": "Vechters van eenheid 'Black Forest' raakten MiG-29 en Pantsir-S1 op vliegveld Chalino in oblast Koersk",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Censor.NET (EN) meldt dat vechters van de Oekraïense eenheid 'Black Forest' — elders geïdentificeerd als de 15e Aparte Artillerieverkenningsbrigade 'Black Forest' van de Oekraïense Landmacht — een Russisch MiG-29-jachtvliegtuig en een Pantsir-S1-luchtafweersysteem raakten op het vliegveld Chalino in oblast Koersk, cir…",
-       "enSummary": "Censor.NET (EN) reports that fighters from Ukraine's 'Black Forest' unit — identified elsewhere as the 15th Separate Artillery Reconnaissance Brigade 'Black Forest' of the Ukrainian Ground Forces — struck a Russian MiG-29 fighter jet and a Pantsir-S1 gun/missile air-defense system at the Khalino airfield in Kursk Obla…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSzRXMnVhd3JCN0lYRUU4Slk1S2VHMWxkMmNWd2ZxX29kVU9yVG1WRVFYUEVLYkZibm5Vb0JIZ1pVRXZRcE54Rm1HRUtYdlFZdGVjQUdaSXlYZlUzOE5Zd0tsV0dDaUVyb0V1QVotOElSOW8yeGlpZDAzSmhSRmlxUUl6enRobkNQY1RYOU01b0lscEFKb3VXOVR0ZmRodWxENWZmSU1OeF9IU19OZFpLWEhocE5aWkJDU1NSNlJSWGd3UWhsZW5xaldpYXhKRkFDV0ZySkxCRQ?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -1839,8 +1859,8 @@
     "sa27": {
      "name": "Buk-M3 (SA-27)",
      "nameEn": "Buk-M3 (SA-27)",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
       {
        "id": "e-20260731-s01",
@@ -1887,6 +1907,28 @@
        "enSummary": "Russia bases a fleet of uncrewed naval boats in occupied Crimea specifically to hunt Ukrainian maritime targets, including Ukraine's own sea drones that have been squeezing the Black Sea Fleet and supply routes to the peninsula. These Russian vessels were kept in hangars near Snizhne, close to Yevpatoriia on Crimea's…",
        "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-builds-sea-drones-to-hunt-ukraine-ukraine-just-torched-the-base-where-they-sit-in-occupied-crimea",
        "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260801-s02",
+       "title": "Ukrainian Drone Units Destroy russian P-18 Radar and Strike Buk-M3/S-300 Air Defenses Near Kostiantynivka",
+       "titleNl": "Oekraïense drone-eenheden schakelen Russische P-18-radar en Buk-M3/S-300-luchtafweer uit bij Kostiantynivka",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-27T15:43:09.000Z",
+       "updatedAt": "2026-08-01T21:00:00.000Z",
+       "nlSummary": "Defense Express meldt twee afzonderlijke Oekraïense drone-operaties tegen Russische grondgebonden luchtafweer- en radarcapaciteit. Op 27 juli publiceerde de 15e Brigade van de Oekraïense Landstrijdkrachten beeldmateriaal van de vernietiging van een gecamoufleerde Russische P-18 Terek-radar, een uit de Sovjettijd stamm…",
+       "enSummary": "Defense Express reports two separate Ukrainian drone operations against Russian ground-based air-defense and radar assets. On July 27, Ukraine's 15th Brigade released footage of the destruction of a concealed Russian P-18 Terek radar, a Soviet-era early-warning system that, despite its age, remains in service detectin…",
+       "sourceUrl": "https://en.defence-ua.com/news/ukrainian_drone_operators_destroy_russian_p_18_terek_radar_easing_pressure_on_combat_aviation_video-19270.html",
+       "sourceCount": 2,
        "signals": [
         "loss"
        ]
@@ -2261,12 +2303,13 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-07-30T06:42:00.000Z",
-       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "updatedAt": "2026-08-01T21:00:00.000Z",
        "nlSummary": "Het object dat in de nacht van 29 op 30 juli 2026 neerkwam bij Tarnawa-Kolonia in de Poolse woiwodschap Lublin, is door de Poolse autoriteiten bevestigd als een Russische Kh-101-kruisraket, geproduceerd in het tweede kwartaal van 2026 bij een fabriek in de regio Moskou, aldus vicepremier en minister van Defensie Kosin…",
        "enSummary": "Polish authorities have confirmed that the object which crashed near Tarnawa-Kolonia in Lublin Voivodeship overnight on 29-30 July 2026 was a Russian Kh-101 cruise missile, manufactured in the second quarter of 2026 at a factory in Moscow Oblast, according to Deputy PM and Defence Minister Kosiniak-Kamysz. PM Tusk sai…",
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046502",
-       "sourceCount": 11,
+       "sourceCount": 14,
        "signals": [
+        "loss",
         "perf"
        ]
       },
@@ -2541,9 +2584,34 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 17,
+     "total": 18,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260801-02",
+       "title": "Russia Strikes US-Backed Drone Factory and Multiple Kyiv Arms Plants",
+       "titleNl": "Rusland treft door VS gefinancierde dronefabriek en meerdere wapenfabrieken in Kyiv",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-07-31T09:30:23.000Z",
+       "updatedAt": "2026-08-01T21:00:00.000Z",
+       "nlSummary": "Volgens The Guardian (via Meduza, 31 juli) raakte een Russische aanval op 26 juli een vestiging in het zuidwesten van Kyiv van Terminal Autonomy, een in 2023 in de Amerikaanse staat Delaware opgericht bedrijf dat lange-afstandsdrones met AI-navigatie en storingsbestendige besturing bouwt. Het Russische ministerie van…",
+       "enSummary": "According to The Guardian (via Meduza, July 31), a Russian strike on July 26 hit a site in southwestern Kyiv belonging to Terminal Autonomy, a US company founded in Delaware in 2023 that builds long-range drones with AI-assisted, jamming-resistant guidance. Russia's Defense Ministry acknowledged in its daily summary t…",
+       "sourceUrl": "https://meduza.io/en/news/2026/07/31/the-guardian-russia-destroyed-american-drone-factory-in-attack-on-kyiv",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260730-s01",
        "title": "«Теперь российские FPV-дроны видимы»: комплекс активной защиты SOVA-1.0 для ВСУ",
@@ -2656,30 +2724,6 @@
        "sourceCount": 1,
        "signals": [
         "loss",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260728-04",
-       "title": "UK to Localise Stone Cloak Drone EW System Production in Ukraine",
-       "titleNl": "VK lokaliseert productie van Stone Cloak drone-EW-systeem in Oekraïne",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Het Verenigd Koninkrijk heeft de intellectuele-eigendomsrechten en productielicentie van het elektronische-oorlogvoeringssysteem 'Stone Cloak' overgedragen aan Oekraïne, zo maakte de Britse premier Andy Burnham op 27 juli 2026 bekend tijdens het eerste bezoek van president Zelensky sinds Burnhams aantreden (na het aft…",
-       "enSummary": "The United Kingdom has transferred the intellectual property rights and production licence for its 'Stone Cloak' electronic warfare system to Ukraine, British Prime Minister Andy Burnham announced on 27 July 2026 during President Zelensky's first visit since Burnham took office (following Keir Starmer's resignation).…",
-       "sourceUrl": "https://militarnyi.com/en/news/british-stone-cloak-drone-ew-system-to-be-localised-in-ukraine/",
-       "sourceCount": 3,
-       "signals": [
-        "deploy",
         "scale",
         "counter"
        ]
@@ -3042,11 +3086,11 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-07-19T06:00:00.000Z",
-       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "updatedAt": "2026-08-01T21:00:00.000Z",
        "nlSummary": "De Oekraïense droneaanvallen op Wildberries, Ruslands grootste online marktplaats, blijven zich sinds het begin van de aanvallen rond 17-18 juli 2026 uitbreiden. Op 30 juli waren sinds half juli minstens 13 Wildberries-logistiekcentra geraakt (tegen 11 op 29 juli), verspreid ver voorbij de oorspronkelijke cluster rond…",
        "enSummary": "Ukraine's drone campaign against Wildberries, Russia's largest online marketplace, has continued to widen since the strikes began around July 17-18, 2026. By July 30, at least 13 Wildberries logistics facilities had been hit since mid-July (up from 11 on July 29), spreading well beyond the original cluster around Mosc…",
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/18/8044673",
-       "sourceCount": 32,
+       "sourceCount": 37,
        "signals": [
         "loss"
        ]
