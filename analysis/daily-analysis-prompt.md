@@ -118,6 +118,20 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
    `wait` en dan `javascript_tool` met `window.location.href` om de
    uiteindelijke URL vast te leggen voor de sourceRef).
 
+   **Milblogger-bronnen** (Rybar, WarGonzo, Fighterbomber, Два майора — via
+   `crawler/sources.json`-ids `tg-rybar`/`tg-wargonzo`/`tg-fighterbomber`/
+   `tg-dvamajors`, `type: "telegram"`): dit zijn geen officiële staatsbronnen
+   maar persoonlijke/redactionele Telegram-kanalen, dus een eigen behandeling:
+   - Altijd `stream: "single"`, `origin: "ru"`, plus een extra veld
+     `"milblogger": true` op de entry (dit routeert de kaart naar de aparte
+     "Milbloggers"-tab op de site, gescheiden van de officiële `pub`-tab).
+   - Caveat-zin nog terughoudender dan bij TASS/VM: benoem expliciet dat dit
+     een persoonlijke/redactionele stem is, geen MoD-standpunt, en dat
+     milbloggers onderling en met het MoD kunnen tegenspreken.
+   - Zolang deze bronnen op `enabled: false` staan in `sources.json` komen ze
+     niet vanzelf in feed/pretag — pas als ze op `enabled: true` gezet zijn
+     (na akkoord) hoort deze stap in de reguliere ronde mee.
+
 5. **Cross-feed naar Adepti**: entries met `syndicate: true` verschijnen
    automatisch op adepti-academy.nl via de widget in `Adepti/current-intel.html`
    (die `analysis.json` live cross-origin fetcht). Geen aparte actie nodig —

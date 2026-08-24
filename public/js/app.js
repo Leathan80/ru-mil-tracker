@@ -10,6 +10,7 @@
     analysisMissingNotice: document.getElementById("analysisMissingNotice"),
     topicChips: document.getElementById("topicChips"),
     pubDisclaimer: document.getElementById("pubDisclaimer"),
+    milblogDisclaimer: document.getElementById("milblogDisclaimer"),
     cardList: document.getElementById("cardList"),
     timelineView: document.getElementById("timelineView"),
     rawView: document.getElementById("rawView"),
@@ -17,8 +18,8 @@
     rawList: document.getElementById("rawList"),
   };
 
-  var TABS = ["all", "ttp", "weapon", "org", "pub", "timeline", "raw"];
-  var TAB_UI_KEY = { all: "tabAll", ttp: "tabTtp", weapon: "tabWeapon", org: "tabOrg", pub: "tabPub", timeline: "tabTimeline", raw: "tabRaw" };
+  var TABS = ["all", "ttp", "weapon", "org", "pub", "milblog", "timeline", "raw"];
+  var TAB_UI_KEY = { all: "tabAll", ttp: "tabTtp", weapon: "tabWeapon", org: "tabOrg", pub: "tabPub", milblog: "tabMilblog", timeline: "tabTimeline", raw: "tabRaw" };
 
   var state = {
     lang: "en",
@@ -92,6 +93,7 @@
     });
     el.rawDisclaimer.textContent = ui("rawFeedDisclaimer");
     el.pubDisclaimer.textContent = ui("pubDisclaimer");
+    el.milblogDisclaimer.textContent = ui("milblogDisclaimer");
 
     if (!state.analysis) {
       el.analysisMissingNotice.textContent = ui("analysisMissing");
@@ -135,7 +137,8 @@
 
   function entriesForTab(tab) {
     var all = (state.analysis && state.analysis.entries) || [];
-    if (tab === "pub") return all.filter(function (e) { return e.stream === "single"; });
+    if (tab === "milblog") return all.filter(function (e) { return e.milblogger === true; });
+    if (tab === "pub") return all.filter(function (e) { return e.stream === "single" && e.milblogger !== true; });
     var verified = all.filter(function (e) { return e.stream === "verified"; });
     if (tab === "all") return verified;
     return verified.filter(function (e) { return e.category === tab; });
@@ -168,7 +171,11 @@
     badges.push('<span class="badge badge-cat cat-' + e.category + '">' + esc(ui("categoryLabel")[e.category] || e.category) + '</span>');
     if (e.state) badges.push('<span class="badge badge-state">' + esc(ui("badgeState")) + '</span>');
     if (e.stream === "single") {
-      badges.push('<span class="badge badge-single">' + esc(ui("badgeSingle")) + '</span>');
+      if (e.milblogger) {
+        badges.push('<span class="badge badge-milblog">' + esc(ui("badgeMilblog")) + '</span>');
+      } else {
+        badges.push('<span class="badge badge-single">' + esc(ui("badgeSingle")) + '</span>');
+      }
       if (e.origin) badges.push('<span class="badge badge-origin">' + esc(ui("origin")[e.origin] || e.origin.toUpperCase()) + '</span>');
     }
     if (e.changeFlag && isRecent(e.updatedAt, 48)) {
@@ -295,6 +302,7 @@
     el.rawView.classList.toggle("hidden", !isRaw);
     el.cardList.classList.toggle("hidden", isTimeline || isRaw);
     el.pubDisclaimer.classList.toggle("hidden", state.tab !== "pub");
+    el.milblogDisclaimer.classList.toggle("hidden", state.tab !== "milblog");
 
     if (isTimeline) {
       el.topicChips.innerHTML = "";

@@ -11,6 +11,7 @@
   --org: #6fce8f;
   --state: #d9a441;
   --single: #c9506a;
+  --milblog: #8a5cf6;
   --shadow: rgba(0,0,0,0.35);
 }
 
@@ -151,6 +152,7 @@ main { padding: 16px 20px 8px; max-width: 1100px; margin: 0 auto; }
 .badge-cat.cat-org { background: var(--org); }
 .badge-state { background: var(--state); color: #241a05; }
 .badge-single { background: var(--single); color: #fff; }
+.badge-milblog { background: var(--milblog); color: #fff; }
 .badge-origin { background: var(--border); color: var(--text); }
 .badge-new { background: var(--accent); color: #0b0f14; }
 .badge-updated { background: #6b5bd6; color: #fff; }
