@@ -24,7 +24,9 @@ const SUMMARY_MAX = 400;
 // betrouwbaar op Cyrillic in JS-regex (\w is ASCII-only) — de Cyrillische
 // tak hieronder gebruikt daarom geen \b-grenzen.
 const RU_RE_LATIN = /\b(russia[n]?s?|russisch|moscow|kremlin|putin|ukrain\w*|shahed|geran-?\d*|lancet|iskander|kinzhal|kalibr|glide bomb|FAB-\d+|UMPK|wagner|vdv\b|spetsnaz|donbas|donetsk|luhansk|kharkiv|zaporizh\w*|kherson|crimea|black sea fleet|belgorod|kursk|mobili[sz]ation|rosgvardia|gerasimov|shoigu|belousov)\b/i;
-const RU_RE_CYRILLIC = /(укра[иі]н|росси[йя]|москв|кремл|путин|герань|герани|шахед|искандер|калибр|кинжал|фпв|дрон|минобороны|вкс\b|вс рф|всу\W|фронт|обстрел|удар|штурм|фаб-\d|бпла|бпак|днр|лнр|донбасс|донецк|луганск|харьков|запорож|херсон|крым|бахмут|курск|белгород|мобилизац)/i;
+// Geen \b rond de Cyrillische varianten — \w is ASCII-only in JS-regex, dus
+// een suffix-\b zou hier nooit matchen (zie ook uw() in pretag.js).
+const RU_RE_CYRILLIC = /(укра[иі]н|росси[йя]|москв|кремл|путин|герань|герани|шахед|искандер|калибр|кинжал|фпв|дрон|минобороны|вкс|вс рф|всу\W|фронт|обстрел|удар|штурм|фаб-\d|бпла|бпак|днр|лнр|донбасс|донецк|луганск|харьков|запорож|херсон|крым|бахмут|курск|белгород|мобилизац)/i;
 const RU_RE = { test: s => RU_RE_LATIN.test(s) || RU_RE_CYRILLIC.test(s) };
 
 const CFG = JSON.parse(fs.readFileSync(path.join(__dirname, "sources.json"), "utf8"));
