@@ -92,9 +92,31 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
    **Voyennaya Mysl-uitzondering**: dit is een maandblad; de crawler's
    14/30-dagenvenster mist het vaak (nieuwe nummers verschijnen onregelmatig
    en Google News indexeert oudere artikelen door elkaar). Check daarom
-   maandelijks handmatig of er een nieuw nummer is verschenen via
-   `https://vm.ric.mil.ru/` of een Google News-zoekopdracht op
-   `"Военная мысль"`, onafhankelijk van wat er in pretag.json staat.
+   maandelijks handmatig of er een nieuw nummer is verschenen, onafhankelijk
+   van wat er in pretag.json staat.
+
+   `vm.ric.mil.ru` is direct niet bereikbaar (ECONNREFUSED, zowel http als
+   https) — dit is een langdurige netwerkblokkade, geen tijdelijke storing:
+   ook de Wayback Machine heeft de site sinds maart 2025 niet meer kunnen
+   crawlen (laatste snapshot 2025-03-19, te checken via
+   `http://web.archive.org/__wb/sparkline?output=json&url=https%3A%2F%2Fvm.ric.mil.ru%2F&collection=web`).
+   CyberLeninka en eLibrary.ru indexeren het tijdschrift met jaren vertraging
+   (CyberLeninka bleef bij een check in 2026 steken op jaargang 2023) en zijn
+   dus ook geen bruikbare live-bron.
+
+   Werkende aanpak: gebruik de Browser-tool (niet WebFetch — die weigert
+   web.archive.org en loopt vast op Google's consent-redirect) en zoek via
+   Google News RSS naar `"Военная мысль"` (evt. gecombineerd met een
+   verwacht onderwerp, bijv. een wapensysteem). VM zelf wordt zelden direct
+   geciteerd; nieuwe nummers duiken meestal een paar dagen later op via
+   Russische staatsmedia die er losse claims uit overnemen (Life.ru, TASS,
+   EADaily, NEWS.ru, Rambler e.d.) — zoek op zinsneden als `"Военная мысль"
+   номер` of citaten met een auteursnaam/functie. Navigeer met de Browser
+   naar de Google News RSS-link (`https://news.google.com/rss/search?q=...`);
+   bij een individueel artikel-item leidt `navigate` naar de item-URL vaak
+   via een korte JS-redirect alsnog naar het achterliggende artikel (even
+   `wait` en dan `javascript_tool` met `window.location.href` om de
+   uiteindelijke URL vast te leggen voor de sourceRef).
 
 5. **Cross-feed naar Adepti**: entries met `syndicate: true` verschijnen
    automatisch op adepti-academy.nl via de widget in `Adepti/current-intel.html`
