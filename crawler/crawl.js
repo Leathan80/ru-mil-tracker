@@ -20,8 +20,12 @@ const MAX_TOTAL = 400;
 const SUMMARY_MAX = 400;
 
 // Relevantie-gate voor brede bronnen (relevance: "filter"): alleen items die
-// aan Rusland/Oekraïne-militair raken komen door.
-const RU_RE = /\b(russia[n]?s?|russisch|moscow|kremlin|putin|ukrain\w*|shahed|geran-?\d*|lancet|iskander|kinzhal|kalibr|glide bomb|FAB-\d+|UMPK|wagner|vdv\b|spetsnaz|donbas|donetsk|luhansk|kharkiv|zaporizh\w*|kherson|crimea|black sea fleet|belgorod|kursk|mobili[sz]ation|rosgvardia|gerasimov|shoigu|belousov)\b/i;
+// aan Rusland/Oekraïne-militair raken komen door. LET OP: \b werkt niet
+// betrouwbaar op Cyrillic in JS-regex (\w is ASCII-only) — de Cyrillische
+// tak hieronder gebruikt daarom geen \b-grenzen.
+const RU_RE_LATIN = /\b(russia[n]?s?|russisch|moscow|kremlin|putin|ukrain\w*|shahed|geran-?\d*|lancet|iskander|kinzhal|kalibr|glide bomb|FAB-\d+|UMPK|wagner|vdv\b|spetsnaz|donbas|donetsk|luhansk|kharkiv|zaporizh\w*|kherson|crimea|black sea fleet|belgorod|kursk|mobili[sz]ation|rosgvardia|gerasimov|shoigu|belousov)\b/i;
+const RU_RE_CYRILLIC = /(укра[иі]н|росси[йя]|москв|кремл|путин|герань|герани|шахед|искандер|калибр|кинжал|фпв|дрон|минобороны|вкс\b|вс рф|всу\W|фронт|обстрел|удар|штурм|фаб-\d|бпла|бпак|днр|лнр|донбасс|донецк|луганск|харьков|запорож|херсон|крым|бахмут|курск|белгород|мобилизац)/i;
+const RU_RE = { test: s => RU_RE_LATIN.test(s) || RU_RE_CYRILLIC.test(s) };
 
 const CFG = JSON.parse(fs.readFileSync(path.join(__dirname, "sources.json"), "utf8"));
 const SOURCES = CFG.sources.filter(s => s.enabled);
@@ -103,15 +107,50 @@ function parseFeed(xml) {
   return blocks.map(b => parseBlock(b, isAtom)).filter(Boolean);
 }
 
+// t.me/s/<kanaal> publieke preview-pagina (geen RSS). Regex-parse van de
+// tgme_widget_message-blokken — geen DOM nodig, zelfde stijl als parseFeed.
+// Titel bestaat niet op Telegram: afgeleid uit de eerste ~90 tekens van de
+// posttekst. Alleen tekstberichten (foto/video-only posts zonder tekst
+// worden overgeslagen); dat is acceptabel voor dit doel (TTP/claims-signaal,
+// geen mediarchief).
+function parseTelegram(html, channelId) {
+  if (!/tgme_channel_info|tgme_widget_message/.test(html)) return null; // privé/onbestaand kanaal
+  const wraps = html.split('class="tgme_widget_message_wrap').slice(1);
+  const items = [];
+  for (const chunk of wraps) {
+    const postM = chunk.match(/data-post="([^"]+)"/);
+    if (!postM) continue;
+    const textM = chunk.match(/class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)<\/div>/);
+    if (!textM) continue; // geen tekst (bv. losse foto) — overslaan
+    const text = stripHtml(textM[1]);
+    if (!text) continue;
+    const dateM = chunk.match(/<time datetime="([^"]+)"/);
+    const d = dateM ? new Date(dateM[1]) : null;
+    const title = text.length > 90 ? text.slice(0, 90).trim() + "…" : text;
+    items.push({
+      title,
+      url: normalizeUrl("https://t.me/" + postM[1]),
+      date: d && !isNaN(d) ? d.toISOString() : null,
+      summaryRaw: text.slice(0, SUMMARY_MAX),
+    });
+  }
+  return items;
+}
+
 async function fetchSource(src) {
   for (let attempt = 1; ; attempt++) {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
     try {
+      const isTelegram = src.type === "telegram";
       const res = await fetch(src.feedUrl, {
         headers: {
-          "User-Agent": src.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ru-mil-tracker/1.0",
-          "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+          "User-Agent": src.userAgent || (isTelegram
+            ? "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+            : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ru-mil-tracker/1.0"),
+          "Accept": isTelegram
+            ? "text/html,application/xhtml+xml"
+            : "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
         },
         signal: ctrl.signal,
         redirect: "follow",
@@ -121,9 +160,15 @@ async function fetchSource(src) {
         throw new Error("HTTP " + res.status);
       }
       const xml = await res.text();
-      const parsed = parseFeed(xml);
-      // Lege maar geldige feed (bijv. Google News-query zonder resultaten) is geen fout.
-      if (!parsed.length && !/<(rss|feed)[\s>]/.test(xml)) throw new Error("geen items geparsed (geen RSS/Atom?)");
+      let parsed;
+      if (isTelegram) {
+        parsed = parseTelegram(xml, src.id);
+        if (parsed === null) throw new Error("kanaal niet publiek toegankelijk (geen tgme_widget_message gevonden)");
+      } else {
+        parsed = parseFeed(xml);
+        // Lege maar geldige feed (bijv. Google News-query zonder resultaten) is geen fout.
+        if (!parsed.length && !/<(rss|feed)[\s>]/.test(xml)) throw new Error("geen items geparsed (geen RSS/Atom?)");
+      }
 
       const relevant = src.relevance === "filter"
         ? parsed.filter(it => RU_RE.test(it.title + " " + it.summaryRaw))
