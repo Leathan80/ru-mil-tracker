@@ -42,6 +42,7 @@
     topics: new Set(),
     query: "",
     lead: null,
+    expanded: false,
     feed: null,
     pretag: null,
     analysis: null,
@@ -162,10 +163,26 @@
       });
   }
 
+  // De lead is niet simpelweg het nieuwste item: van de meest recente dag wordt het
+  // item met het hoogste belang bovenaan gezet, bij gelijk belang het nieuwste.
+  // Een door de lezer aangetikt digest-item wint altijd.
+  function pickLead(list) {
+    var day = function (e) { return (e.updatedAt || e.publishedAt || "").slice(0, 10); };
+    var newest = day(list[0]);
+    var pool = list.filter(function (e) { return day(e) === newest; });
+    if (!pool.length) pool = list;
+    return pool.reduce(function (best, e) {
+      if (!best) return e;
+      var diff = (e.significance || 0) - (best.significance || 0);
+      if (diff !== 0) return diff > 0 ? e : best;
+      return (e.updatedAt || "") > (best.updatedAt || "") ? e : best;
+    }, null);
+  }
+
   function leadEntry(list) {
     if (!list.length) return null;
     var found = state.lead && list.filter(function (e) { return e.id === state.lead; })[0];
-    return found || list[0];
+    return found || pickLead(list);
   }
 
   // ---------- chrome ----------
@@ -247,6 +264,10 @@
       return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.source) + "</a>";
     }).join('<span aria-hidden="true">·</span>');
 
+    var bodyHtml = paras.map(function (p, i) {
+      return '<p class="' + (i === 0 ? "p-lead" : "p-rest") + '">' + esc(p) + "</p>";
+    }).join("");
+
     el.leadArticle.innerHTML =
       '<div class="lead-kicker">' +
         '<span class="cat-chip ' + esc(e.category) + '">' + esc(ui("categoryLabel")[e.category] || e.category) + "</span>" +
@@ -255,11 +276,28 @@
         (origin ? '<span class="flag-chip">' + esc(origin) + "</span>" : "") +
       "</div>" +
       "<h2>" + esc(entryTitle(e)) + "</h2>" +
-      '<div class="lead-body">' + paras.map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") + "</div>" +
+      '<div class="lead-body' + (state.expanded ? "" : " collapsed") + '">' + bodyHtml + "</div>" +
+      '<button class="lead-more hidden' + (state.expanded ? " open" : "") + '" id="leadMore">' +
+        "<span>" + esc(ui(state.expanded ? "readLess" : "readMore")) + "</span>" +
+        '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>' +
+      "</button>" +
       '<div class="lead-meta">' +
         '<span class="date">' + esc(fmtDay(e.updatedAt || e.publishedAt)) + "</span>" +
         '<span class="lead-sources">' + sources + "</span>" +
       "</div>";
+
+    // De knop verschijnt alleen als er ook echt iets verborgen is: meer dan één
+    // alinea, of een eerste alinea die door de zesregelige afkapping wordt geraakt.
+    var btn = el.leadArticle.querySelector("#leadMore");
+    var first = el.leadArticle.querySelector(".p-lead");
+    var truncated = first && first.scrollHeight > first.clientHeight + 2;
+    if (btn && (paras.length > 1 || truncated || state.expanded)) btn.classList.remove("hidden");
+    if (btn) {
+      btn.addEventListener("click", function () {
+        state.expanded = !state.expanded;
+        render();
+      });
+    }
   }
 
   function renderDigest(list, lead) {
@@ -301,6 +339,7 @@
       chip.addEventListener("click", function () {
         if (state.topics.has(id)) state.topics.delete(id); else state.topics.add(id);
         state.lead = null;
+        state.expanded = false;
         render();
       });
       el.topicChips.appendChild(chip);
@@ -478,6 +517,7 @@
     state.tab = btn.getAttribute("data-tab");
     state.topics.clear();
     state.lead = null;
+    state.expanded = false;
     render();
   });
 
@@ -485,6 +525,7 @@
     var btn = ev.target.closest(".digest-item");
     if (!btn) return;
     state.lead = btn.getAttribute("data-id");
+    state.expanded = false;
     render();
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
@@ -495,6 +536,7 @@
     searchTimer = setTimeout(function () {
       state.query = el.searchInput.value;
       state.lead = null;
+      state.expanded = false;
       render();
     }, 150);
   });

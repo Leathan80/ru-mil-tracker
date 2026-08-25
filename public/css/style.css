@@ -256,6 +256,37 @@ a:hover { color: #7ee8c8; text-decoration: underline; }
 .lead-body p { margin: 0 0 12px; font-size: 15px; line-height: 1.72; color: #a8b1ba; text-wrap: pretty; }
 .lead-body p:last-child { margin-bottom: 0; }
 
+/* Ingeklapt: alleen de eerste alinea, afgekapt op zes regels. */
+.lead-body.collapsed .p-rest { display: none; }
+.lead-body.collapsed .p-lead {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.lead-more {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  cursor: pointer;
+}
+.lead-more:hover { color: #7ee8c8; }
+.lead-more svg { transition: transform 0.15s ease; }
+.lead-more.open svg { transform: rotate(180deg); }
+
 .lead-meta {
   display: flex;
   align-items: baseline;
