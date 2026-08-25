@@ -1,56 +1,141 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RU//MIL TRACKER</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Russian Military Tracker</title>
+<meta name="description" content="Open-source watch on Russian military change — TTPs, weapon systems and organization.">
+<meta name="theme-color" content="#0b0d10">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="RU//MIL">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon-180.png">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="topbar">
-  <div class="brand">
-    <span id="brandText" class="brand-text">RU//MIL TRACKER</span>
-    <span id="tagline" class="tagline"></span>
-  </div>
-  <div class="topbar-right">
-    <div class="updated-stamps">
-      <span id="analysisUpdated"></span>
-      <span id="feedUpdated"></span>
+
+<div class="topline"></div>
+
+<header class="masthead">
+  <div class="mast-left">
+    <svg class="mark" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 3l7 4v6c0 4-3 6.5-7 8-4-1.5-7-4-7-8V7z"></path><path d="M9.5 12l1.8 1.8L15 10"></path></svg>
+    <div class="edition">
+      <span class="edition-label" id="editionLabel"></span>
+      <span class="edition-date" id="editionDate"></span>
     </div>
-    <div class="lang-switch">
+  </div>
+  <div class="mast-title">
+    <h1 class="wordmark">Russian Military Tracker</h1>
+    <span class="submast" id="submast"></span>
+  </div>
+  <div class="mast-right">
+    <div class="lang-switch" id="langSwitch">
       <button class="lang-btn" data-lang="nl">NL</button>
       <button class="lang-btn active" data-lang="en">EN</button>
     </div>
+    <span class="counts" id="counts"></span>
   </div>
 </header>
 
-<nav class="tabbar" id="tabbar">
-  <button class="tab-btn active" data-tab="all"></button>
-  <button class="tab-btn" data-tab="ttp"></button>
-  <button class="tab-btn" data-tab="weapon"></button>
-  <button class="tab-btn" data-tab="org"></button>
-  <button class="tab-btn" data-tab="pub"></button>
-  <button class="tab-btn" data-tab="milblog"></button>
-  <button class="tab-btn" data-tab="timeline"></button>
-  <button class="tab-btn" data-tab="raw"></button>
+<div class="rule"></div>
+
+<nav class="navbar">
+  <div class="nav-sections" id="navSections"></div>
+  <div class="searchbox">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+    <input type="search" id="searchInput" autocomplete="off">
+    <kbd class="kbd">/</kbd>
+  </div>
 </nav>
 
-<div id="analysisMissingNotice" class="notice hidden"></div>
+<div class="notice hidden" id="analysisMissingNotice"></div>
 
-<div class="topic-chips" id="topicChips"></div>
+<main class="wrap">
 
-<main id="mainView">
-  <div id="pubDisclaimer" class="disclaimer hidden"></div>
-  <div id="milblogDisclaimer" class="disclaimer hidden"></div>
-  <div id="cardList" class="card-list"></div>
-  <div id="timelineView" class="timeline-view hidden"></div>
-  <div id="rawView" class="raw-view hidden">
-    <div class="disclaimer" id="rawDisclaimer"></div>
-    <div id="rawList" class="raw-list"></div>
+  <div class="brief" id="briefView">
+    <div class="lead-col">
+      <article class="lead" id="leadArticle"></article>
+      <section class="digest">
+        <h2 class="section-label" id="digestLabel"></h2>
+        <div class="digest-grid" id="digestList"></div>
+      </section>
+    </div>
+    <aside class="margin-col">
+      <section class="margin-block" id="topicBlock">
+        <h2 class="section-label" id="topicsLabel"></h2>
+        <div class="topic-chips" id="topicChips"></div>
+      </section>
+      <section class="margin-block" id="impactBlock">
+        <h2 class="section-label" id="impactLabel"></h2>
+        <p class="margin-sub" id="impactSub"></p>
+        <div id="impactList"></div>
+      </section>
+      <section class="reading-note" id="readingNote"></section>
+    </aside>
   </div>
+
+  <section class="timeline-view hidden" id="timelineView"></section>
+
+  <section class="raw-view hidden" id="rawView">
+    <p class="reading-note" id="rawDisclaimer"></p>
+    <div class="raw-list" id="rawList"></div>
+  </section>
+
 </main>
+
+<div class="install-hint hidden" id="installHint">
+  <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V4"></path><path d="M8.5 7.5L12 4l3.5 3.5"></path><path d="M6 12H5a2 2 0 00-2 2v5a2 2 0 002 2h14a2 2 0 002-2v-5a2 2 0 00-2-2h-1"></path></svg>
+  <p id="installHintText"></p>
+  <button class="hint-close" id="installHintClose" aria-label="Close">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+  </button>
+</div>
+
+<footer class="site-foot">
+  <span id="footUpdated"></span>
+</footer>
 
 <script src="js/i18n.js"></script>
 <script src="js/app.js"></script>
+
+<script>
+/* Vangnet. Eindigt de pagina zonder CSS of zonder JavaScript — bijvoorbeeld doordat een
+   service worker een kapotte of half opgeruimde cache serveert — gooi dan eenmalig alle
+   workers en caches weg en herlaad. Zonder dit blijft een geinstalleerde app in die
+   toestand hangen zolang hij niet met de hand wordt gewist. */
+(function () {
+  window.addEventListener("load", function () {
+    var cssOk = getComputedStyle(document.body).backgroundColor === "rgb(11, 13, 16)";
+    var jsOk = !!window.UI_EN;
+    if (cssOk && jsOk) return;
+
+    var already;
+    try {
+      already = sessionStorage.getItem("rumil_heal");
+      sessionStorage.setItem("rumil_heal", "1");
+    } catch (e) {
+      return; // zonder sessionStorage geen zelfherstel: dat zou een herlaadlus riskeren
+    }
+    if (already) return;
+
+    var reload = function () { location.reload(); };
+    if (navigator.serviceWorker && navigator.serviceWorker.getRegistrations && window.caches) {
+      navigator.serviceWorker.getRegistrations()
+        .then(function (rs) { return Promise.all(rs.map(function (r) { return r.unregister(); })); })
+        .then(function () { return caches.keys(); })
+        .then(function (ks) { return Promise.all(ks.map(function (k) { return caches.delete(k); })); })
+        .then(reload, reload);
+    } else {
+      reload();
+    }
+  });
+})();
+</script>
 </body>
 </html>

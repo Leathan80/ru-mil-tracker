@@ -1,3 +1,12 @@
 .firebase/
 firebase-debug.log
 node_modules/
+
+# Ontwerpconcept: de artboards (.dc.html) en canvas.json zijn de bron en gaan mee.
+# Het geseede canvas (2,4 MB, bevat de complete editor) en de tussenbestanden van
+# build_data.py zijn afgeleid — die worden opnieuw gegenereerd, niet bewaard.
+_design-concept/ru-mil-tracker-redesign.html
+_design-concept/entries.js.json
+_design-concept/cross.js.json
+_design-concept/data.json
+_design-concept/extra.json

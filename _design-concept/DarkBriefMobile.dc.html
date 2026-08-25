@@ -1,0 +1,985 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: #4dd4ac; text-decoration: none; } a:hover { color: #7ee8c8; text-decoration: underline; }
+    .hscroll { scrollbar-width: none; -ms-overflow-style: none; }
+    .hscroll::-webkit-scrollbar { width: 0; height: 0; display: none; }
+  </style>
+</helmet>
+<div style="width: 390px; min-height: 1540px; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); background: #0b0d10; color: #ccd2d8; font-family: 'IBM Plex Sans', system-ui, sans-serif; display: flex; flex-direction: column">
+
+  <div style="height: 3px; background: linear-gradient(90deg, #4dd4ac 0%, #2b7f68 28%, #1b2027 70%); flex-shrink: 0"></div>
+
+  <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px 10px">
+    <div style="display: flex; align-items: center; gap: 9px">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4dd4ac" stroke-width="1.7"><path d="M12 3l7 4v6c0 4-3 6.5-7 8-4-1.5-7-4-7-8V7z"></path><path d="M9.5 12l1.8 1.8L15 10"></path></svg>
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #4dd4ac">{{L.edition}}</div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; letter-spacing: 0.02em; color: #6d7681">{{L.editionDateShort}}</div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 4px">
+      <sc-for list="{{langs}}" as="lg" hint-placeholder-count="2">
+        <button onClick="{{lg.pick}}" style="{{lg.style}}">{{lg.code}}</button>
+      </sc-for>
+    </div>
+  </div>
+
+  <div style="padding: 4px 16px 12px; display: flex; flex-direction: column; align-items: center; gap: 5px">
+    <div style="font-size: 16px; font-weight: 600; letter-spacing: 0.13em; text-transform: uppercase; line-height: 1.15; text-align: center; color: #e8edf1">Russian Military Tracker</div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.04em; color: #5a636d">{{L.counts}}</div>
+  </div>
+
+  <div style="margin: 0 16px; border-top: 1px solid #2a323b; border-bottom: 1px solid #1b2027; height: 4px; flex-shrink: 0"></div>
+
+  <div class="hscroll" style="display: flex; gap: 18px; padding: 0 16px; overflow-x: auto; border-bottom: 1px solid #1b2027">
+    <sc-for list="{{sections}}" as="s" hint-placeholder-count="6">
+      <button onClick="{{s.pick}}" style="{{s.style}}">{{s.label}}</button>
+    </sc-for>
+  </div>
+
+  <div style="padding: 12px 16px 14px; border-bottom: 1px solid #1b2027">
+    <div style="display: flex; align-items: center; gap: 9px; height: 44px; padding: 0 12px; border: 1px solid #232a33; border-radius: 6px; background: #0f1216">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#4a535d" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+      <input type="text" placeholder="{{L.searchShort}}" style="flex-grow: 1; min-width: 0; background: transparent; border: none; outline: none; color: #ccd2d8; font-family: 'IBM Plex Mono', monospace; font-size: 12px">
+    </div>
+  </div>
+
+  <div style="padding: 16px 16px 18px; display: flex; flex-direction: column; gap: 10px">
+    <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase">
+      <span style="{{lead.catStyle}}">{{lead.cat}}</span>
+      <span style="display: flex; align-items: center; gap: 5px; color: #6d7681">{{L.significance}}
+        <span style="display: flex; gap: 3px">
+          <sc-for list="{{lead.bars}}" as="b" hint-placeholder-count="3">
+            <span style="{{b.style}}"></span>
+          </sc-for>
+        </span>
+      </span>
+      <sc-if value="{{lead.flagged}}" hint-placeholder-val="{{ true }}">
+        <span style="{{lead.flagStyle}}">{{lead.flag}}</span>
+      </sc-if>
+    </div>
+    <h1 style="font-size: 22px; font-weight: 600; line-height: 1.26; margin: 0; letter-spacing: -0.01em; color: #e8edf1; text-wrap: pretty">{{lead.title}}</h1>
+    <div style="font-size: 15px; line-height: 1.68; color: #a8b1ba; text-wrap: pretty">{{lead.summary}}</div>
+    <div style="display: flex; flex-direction: column; gap: 4px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.03em; color: #6d7681">
+      <span style="font-weight: 600; color: #ccd2d8">{{lead.date}}</span>
+      <span style="line-height: 1.5">{{lead.srcLine}}</span>
+    </div>
+  </div>
+
+  <div style="padding: 0 16px 18px; display: flex; flex-direction: column; gap: 2px">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #4dd4ac; padding: 12px 0 8px; border-top: 1px solid #1b2027">{{L.digest}}</div>
+    <sc-for list="{{digest}}" as="d" hint-placeholder-count="6">
+      <div onClick="{{d.pick}}" style="display: flex; flex-direction: column; gap: 5px; padding: 12px 0 12px 12px; border-bottom: 1px solid #14181d; border-left: 2px solid {{d.tint}}; cursor: pointer">
+        <div style="font-size: 15px; font-weight: 500; line-height: 1.35; color: #ccd2d8">{{d.title}}</div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #5a636d">{{d.meta}}</div>
+      </div>
+    </sc-for>
+  </div>
+
+  <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 10px">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #4dd4ac; padding-top: 14px; border-top: 1px solid #1b2027">{{L.impactTitle}}</div>
+    <div style="font-size: 13px; line-height: 1.6; color: #6d7681">{{L.impactSub}}</div>
+    <sc-for list="{{impact}}" as="m" hint-placeholder-count="3">
+      <div style="display: flex; align-items: center; gap: 12px; padding: 12px; border: 1px solid #1b2027; border-radius: 5px; background: #0f1216">
+        <div style="display: flex; flex-direction: column; gap: 3px; flex-grow: 1; min-width: 0">
+          <span style="font-size: 14px; font-weight: 500; color: #ccd2d8">{{m.name}}</span>
+          <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #4dd4ac">{{m.site}}</span>
+        </div>
+        <div style="display: flex; gap: 4px; flex-shrink: 0">
+          <sc-for list="{{m.signals}}" as="s" hint-placeholder-count="2">
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 6px; border: 1px solid #232a33; border-radius: 2px; color: #8b949e">{{s.label}}</span>
+          </sc-for>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+
+  <div style="margin: 0 16px 20px; padding: 14px 16px; background: #0f1216; border-left: 3px solid #4dd4ac; border-radius: 0 4px 4px 0">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #4dd4ac; margin-bottom: 7px">{{note.title}}</div>
+    <div style="font-size: 13.5px; line-height: 1.66; color: #a8b1ba">{{note.body}}</div>
+  </div>
+
+  <sc-if value="{{showHint}}" hint-placeholder-val="{{ true }}">
+    <div style="margin: 0 12px 16px; display: flex; align-items: center; gap: 12px; padding: 12px 12px 12px 14px; border: 1px solid #232a33; border-radius: 8px; background: #12171b; box-shadow: 0 8px 24px rgba(0,0,0,0.45)">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#4dd4ac" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V4"></path><path d="M8.5 7.5L12 4l3.5 3.5"></path><path d="M6 12H5a2 2 0 00-2 2v5a2 2 0 002 2h14a2 2 0 002-2v-5a2 2 0 00-2-2h-1"></path></svg>
+      <div style="flex-grow: 1; min-width: 0; font-size: 12.5px; line-height: 1.5; color: #a8b1ba">{{L.hint}}</div>
+      <button onClick="{{dismissHint}}" style="flex-shrink: 0; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; border: none; border-radius: 6px; background: transparent; cursor: pointer">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6d7681" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+  </sc-if>
+
+  <div style="margin-top: auto; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 16px; border-top: 1px solid #1b2027; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: #6d7681">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#6d7681" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="15" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+    {{L.archive}}
+  </div>
+
+</div>
+</x-dc>
+<script data-dc-script data-props='{}'>
+class Component extends DCLogic {
+  entries() { return [
+ {
+  "id": "e-20260825-13",
+  "cat": "ttp",
+  "sig": 2,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "drones"
+  ],
+  "topicsEn": [
+   "Drones/FPV"
+  ],
+  "topicsNl": [
+   "Drones/FPV"
+  ],
+  "date": "25 Aug",
+  "en": "Ukrainian drone strike kills three children in Russia's Krasnodar region, officials say",
+  "nl": "Oekraïense droneaanval doodt drie kinderen in Russische regio Krasnodar, melden autoriteiten",
+  "enS": "Overnight on 23-24 August 2026, Ukraine carried out drone strikes against multiple targets in southern Russia. Meduza (EN, the verified-stream lead source) reports that in Krasnodar, drone debris struck a private children's center, and that local officials say three children were killed, seven other children were injured, and two adults…",
+  "nlS": "In de nacht van 23 op 24 augustus 2026 voerde Oekraïne droneaanvallen uit tegen meerdere doelen in Zuid-Rusland. Meduza (EN, verified-stream hoofdbron) meldt dat in Krasnodar wrakstukken van een drone een particulier kindercentrum raakten, en dat lokale autoriteiten spreken van drie omgekomen kinderen, zeven gewonde kinderen en twee…",
+  "src": [
+   "Meduza",
+   "TASS",
+   "WarGonzo (Telegram, milblogger)"
+  ]
+ },
+ {
+  "id": "e-20260825-15",
+  "cat": "org",
+  "sig": 2,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "mobilization"
+  ],
+  "topicsEn": [
+   "Mobilization"
+  ],
+  "topicsNl": [
+   "Mobilisatie"
+  ],
+  "date": "25 Aug",
+  "en": "How Men in Russia's Penza Region Are Being Abducted and Sent to War",
+  "nl": "Hoe mannen in de Russische regio Penza worden ontvoerd en naar het front gestuurd",
+  "enS": "An investigative piece by iStories, published via Meduza, documents a wave of forced recruitment in the Bashmakovsky District of Russia's Penza region, ongoing since mid-June 2026. Men are seized off the street or from their homes and forced to sign contracts with Russia's Defense Ministry before being sent to fight in Ukraine. This is…",
+  "nlS": "Een onderzoeksartikel van iStories, gepubliceerd via Meduza, documenteert een golf van gedwongen rekrutering in het Basjmakovski-district van de Russische regio Penza, aan de gang sinds medio juni 2026. Mannen worden op straat of thuis opgepakt en gedwongen contracten met het Russische ministerie van Defensie te tekenen, waarna ze naar…",
+  "src": [
+   "Meduza"
+  ]
+ },
+ {
+  "id": "e-20260823-11",
+  "cat": "ttp",
+  "sig": 3,
+  "flag": "update",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "drones",
+   "logistics"
+  ],
+  "topicsEn": [
+   "Drones/FPV",
+   "Logistics"
+  ],
+  "topicsNl": [
+   "Drones/FPV",
+   "Logistiek"
+  ],
+  "date": "25 Aug",
+  "en": "Ukrainian drones strike Lukoil refinery in Perm, 1,530 km inside Russia",
+  "nl": "Oekraïense drones treffen Lukoil-raffinaderij in Perm, 1.530 km diep in Rusland",
+  "enS": "Ukrainian drones struck the Lukoil-Permnefteorgsintez (PNOS) oil refinery in Perm, Russia, overnight on August 21, 2026 — one of the deepest strikes of the war, with Euromaidan Press placing the refinery 1,530 km from Ukraine's northern border. President Zelensky confirmed the strike on Telegram, saying Ukraine \"continue[s] to…",
+  "nlS": "Oekraïense drones vielen in de nacht van 21 augustus 2026 de olieraffinaderij Lukoil-Permnefteorgsintez (PNOS) in Perm, Rusland, aan — een van de diepste strikes van de oorlog tot nu toe. Euromaidan Press plaatst de raffinaderij op 1.530 km van de noordgrens van Oekraïne. President Zelensky bevestigde de aanval op Telegram: \"We blijven…",
+  "src": [
+   "Meduza",
+   "Kyiv Independent",
+   "Euromaidan Press"
+  ]
+ },
+ {
+  "id": "e-20260823-15",
+  "cat": "ttp",
+  "sig": 2,
+  "flag": "update",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "airforce",
+   "air-defense",
+   "drones",
+   "logistics"
+  ],
+  "topicsEn": [
+   "Air force",
+   "Air defense",
+   "Drones/FPV",
+   "Logistics"
+  ],
+  "topicsNl": [
+   "Luchtmacht",
+   "Luchtverdediging",
+   "Drones/FPV",
+   "Logistiek"
+  ],
+  "date": "25 Aug",
+  "en": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at…",
+  "nl": "Weeklange Oekraïense aanvalscampagne treft Russische luchtmachtbases en radarnetwerk van Krim tot Rostov, tweede MiG-29 bij…",
+  "enS": "Between 20 and 24 August, Ukraine's General Staff and the Unmanned Systems Forces (USF/SBS, commander Robert 'Magyar' Brovdi) sustained a rolling series of drone strikes against Russian air force and air-defense infrastructure stretching from occupied Crimea to Rostov Oblast. At Akhtubinsk airbase (Astrakhan region, home to the 929th…",
+  "nlS": "Tussen 20 en 24 augustus voerden de Oekraïense Generale Staf en de Unmanned Systems Forces (USF/SBS, commandant Robert 'Madyar' Brovdi) een aanhoudende reeks dronaanvallen uit tegen Russische luchtmacht- en luchtverdedigingsinfrastructuur, verspreid van bezet Krim tot Rostov-oblast. Op vliegbasis Achtoebinsk (Astrachan-oblast, 929e…",
+  "src": [
+   "Militarnyi",
+   "Ukrainska Pravda",
+   "Euromaidan Press",
+   "Kyiv Independent"
+  ]
+ },
+ {
+  "id": "e-20260824-03",
+  "cat": "ttp",
+  "sig": 3,
+  "flag": "update",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "drones",
+   "logistics"
+  ],
+  "topicsEn": [
+   "Drones/FPV",
+   "Logistics"
+  ],
+  "topicsNl": [
+   "Drones/FPV",
+   "Logistiek"
+  ],
+  "date": "25 Aug",
+  "en": "Ukraine's drone campaign against Wildberries and Ozon logistics widens: Ozon shares plunge 28%, Wildberries wins tax relief,…",
+  "nl": "Oekraïense dronecampagne tegen Wildberries- en Ozon-logistiek breidt uit: Ozon-aandeel keldert 28%, Wildberries krijgt…",
+  "enS": "On the night of 23–24 August, Ukrainian drones struck Ozon logistics facilities for the third consecutive night, hitting at least four regions — Krasnodar Krai (Chapaevsk), Stavropol Krai (Nevinnomyssk), the Republic of Dagestan (Makhachkala) and the Republic of Adygea (Adygeysk/Maykop) — damaging roughly 233,000 m² of warehouse space,…",
+  "nlS": "In de nacht van 23–24 augustus vielen Oekraïense drones voor de derde nacht op rij logistieke centra aan van Ozon, de op één na grootste online marktplaats van Rusland, in ten minste vier regio's: Kraj Krasnodar (Tsjapajevsk), Kraj Stavropol (Nevinnomyssk), de Republiek Dagestan (Machatsjkala) en de Republiek Adygea (Adygejsk/Majkop),…",
+  "src": [
+   "Ukrainska Pravda",
+   "Meduza",
+   "Censor.NET"
+  ]
+ },
+ {
+  "id": "e-20260824-04",
+  "cat": "org",
+  "sig": 2,
+  "flag": "update",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "logistics",
+   "drones"
+  ],
+  "topicsEn": [
+   "Logistics",
+   "Drones/FPV"
+  ],
+  "topicsNl": [
+   "Logistiek",
+   "Drones/FPV"
+  ],
+  "date": "25 Aug",
+  "en": "Putin Grants State Power to Seize Poorly Protected Fuel and Logistics Infrastructure",
+  "nl": "Poetin geeft staat bevoegdheid tot overname van onvoldoende beschermde brandstof- en logistieke infrastructuur",
+  "enS": "President Vladimir Putin has signed a decree granting the Russian state the power to temporarily take control of critical infrastructure facilities deemed inadequately protected against drone attacks, or too slow to repair after being struck. The decree covers fuel, energy, industrial, communications, transport and commercial logistics…",
+  "nlS": "Poetin heeft een decreet ondertekend dat de Russische staat de bevoegdheid geeft om tijdelijk de controle over te nemen van kritieke infrastructuur die onvoldoende beschermd is tegen droneaanvallen of die te traag wordt hersteld na schade. Het decreet omvat brandstof-, energie-, industriële, communicatie-, transport- en logistieke…",
+  "src": [
+   "Ukrainska Pravda",
+   "The Moscow Times",
+   "Meduza"
+  ]
+ },
+ {
+  "id": "e-20260825-01",
+  "cat": "weapon",
+  "sig": 3,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "drones",
+   "ew",
+   "doctrine"
+  ],
+  "topicsEn": [
+   "Drones/FPV",
+   "Electronic warfare",
+   "Doctrine"
+  ],
+  "topicsNl": [
+   "Drones/FPV",
+   "Elektronische oorlogvoering",
+   "Doctrine"
+  ],
+  "date": "25 Aug",
+  "en": "NYT Investigation: Nvidia-Powered Fully Autonomous Russian AI Drone Killed Three Civilians in Zaporizhzhia",
+  "nl": "NYT-onderzoek: volledig autonome Russische AI-drone op Nvidia-chip doodt drie burgers in Zaporizjzja",
+  "enS": "On July 6, 2026, a Russian attack drone killed three civilians at a gas station in Zaporizhzhia, roughly 14 kilometers from the front line: 19-year-old accounting student Tetiana Bubynets, and two men, Oleksiy Svirin (41) and Roman Karpiy (48). This is reported in a New York Times investigation (published August 24, 2026, byline Andrew…",
+  "nlS": "Op 6 juli 2026 doodde een Russische aanvalsdrone drie burgers bij een tankstation in Zaporizjzja, op ongeveer 14 kilometer van het front: de 19-jarige boekhoudstudente Tetjana Boebynets en de mannen Oleksi Svirin (41) en Roman Karpi (48). Dat blijkt uit een onderzoek van The New York Times (gepubliceerd 24 augustus 2026, door Andrew E.…",
+  "src": [
+   "New York Times",
+   "Meduza"
+  ]
+ },
+ {
+  "id": "e-20260825-04",
+  "cat": "ttp",
+  "sig": 2,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "air-defense",
+   "missiles",
+   "drones"
+  ],
+  "topicsEn": [
+   "Air defense",
+   "Missiles",
+   "Drones/FPV"
+  ],
+  "topicsNl": [
+   "Luchtverdediging",
+   "Raketten",
+   "Drones/FPV"
+  ],
+  "date": "25 Aug",
+  "en": "Ukraine's Air Defence Downs Oniks Anti-Ship Missile and 113 Other Russian Assets, Strikes Recorded at 22 Locations",
+  "nl": "Oekraïense luchtverdediging schiet Oniks-antischipraket en 113 andere Russische wapens neer, treffers geregistreerd op 22 locaties",
+  "enS": "On the night of 23-24 August, Russia carried out a combined air attack with Odesa Oblast as its main target. According to Ukraine's Air Force Command, Russia launched 2 Oniks anti-ship missiles from temporarily occupied Crimea, 6 Kh-31P and Kh-59 air-launched missiles from airspace over the Black Sea, and 143 attack drones — roughly a…",
+  "nlS": "In de nacht van 23 op 24 augustus voerde Rusland een gecombineerde luchtaanval uit met als hoofddoel Odesa Oblast. Volgens het Oekraïense Luchtmachtcommando werden 2 Oniks-antischipraketten vanuit de tijdelijk bezette Krim afgevuurd, 6 Kh-31P- en Kh-59-luchtgelanceerde raketten vanuit het luchtruim boven de Zwarte Zee, en 143…",
+  "src": [
+   "Ukrainska Pravda"
+  ]
+ },
+ {
+  "id": "e-20260825-06",
+  "cat": "org",
+  "sig": 3,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "missiles",
+   "air-defense",
+   "logistics"
+  ],
+  "topicsEn": [
+   "Missiles",
+   "Air defense",
+   "Logistics"
+  ],
+  "topicsNl": [
+   "Raketten",
+   "Luchtverdediging",
+   "Logistiek"
+  ],
+  "date": "25 Aug",
+  "en": "France Accelerates Missile Deliveries as UK Enables Ukraine to Build Domestic Storm Shadow/SCALP Missile Production",
+  "nl": "Frankrijk versnelt raketleveringen terwijl VK Oekraïne in staat stelt eigen Storm Shadow/SCALP-raketproductie op te zetten",
+  "enS": "On 22 August 2026, French President Emmanuel Macron pledged — after a nearly two-hour phone call with President Volodymyr Zelensky — to speed up deliveries of missiles and air-defense equipment to Ukraine, specifically \"interceptors.\" Macron reaffirmed France's readiness to license Ukraine to produce, on its own soil, ASTER interceptor…",
+  "nlS": "Op 22 augustus 2026 beloofde de Franse president Emmanuel Macron, na een bijna twee uur durend telefoongesprek met president Volodymyr Zelensky, de levering van raketten en luchtafweersystemen aan Oekraïne te versnellen — met name \"interceptors\". Macron bevestigde daarbij opnieuw Frankrijks bereidheid om Oekraïne licenties te verlenen…",
+  "src": [
+   "kyivindep",
+   "Ukrainska Pravda",
+   "defensenews",
+   "twz"
+  ]
+ },
+ {
+  "id": "e-20260825-07",
+  "cat": "org",
+  "sig": 2,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "missiles",
+   "air-defense",
+   "logistics"
+  ],
+  "topicsEn": [
+   "Missiles",
+   "Air defense",
+   "Logistics"
+  ],
+  "topicsNl": [
+   "Raketten",
+   "Luchtverdediging",
+   "Logistiek"
+  ],
+  "date": "25 Aug",
+  "en": "European Commission Approves €6.1 Billion ($7.1bn) in New Defence Procurement for Ukraine on Independence Day",
+  "nl": "Europese Commissie keurt op Onafhankelijkheidsdag €6,1 miljard (7,1 miljard dollar) aan nieuwe defensie-aankopen voor Oekraïne…",
+  "enS": "On 24 August 2026 — Ukraine's Independence Day — the European Commission approved new defence procurement for Ukraine worth €6.1 billion (reported by Defence Blog as roughly $7.1 billion in dollar terms). The funds fall under the defence component of the EU's broader €90 billion loan to Ukraine and are earmarked for air and missile…",
+  "nlS": "Op 24 augustus 2026 — Oekraïne's Onafhankelijkheidsdag — keurde de Europese Commissie nieuwe defensie-aankopen voor Oekraïne goed ter waarde van €6,1 miljard (omgerekend circa 7,1 miljard dollar, zoals Defence Blog het bedrag in dollars presenteerde). Het geld valt onder het defensieonderdeel van de bredere EU-lening van €90 miljard aan…",
+  "src": [
+   "Ukrainska Pravda",
+   "defenceblog"
+  ]
+ },
+ {
+  "id": "e-20260825-11",
+  "cat": "ttp",
+  "sig": 2,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "drones"
+  ],
+  "topicsEn": [
+   "Drones/FPV"
+  ],
+  "topicsNl": [
+   "Drones/FPV"
+  ],
+  "date": "25 Aug",
+  "en": "Russian drone hits residential building in Chernihiv: 8 injured, fire being extinguished",
+  "nl": "Russische drone raakt woongebouw in Tsjernihiv: 8 gewonden, brand wordt geblust",
+  "enS": "On the afternoon of 24 August 2026 — Ukraine's Independence Day — a Russian jet-powered drone struck a multi-story residential building in Chernihiv. According to the initial report from Ukrainska Pravda's English edition (published 09:29 UTC), eight people were injured, and emergency services extinguished a fire that broke out after the…",
+  "nlS": "Op de middag van 24 augustus 2026 — de Oekraïense Onafhankelijkheidsdag — sloeg een Russische, straalgedreven (jet-aangedreven) drone in op een woongebouw met meerdere verdiepingen in Tsjernihiv. Volgens het eerste bericht van Ukrainska Pravda (Engelstalige editie, 09:29 UTC) raakten acht mensen gewond en blusten hulpdiensten een brand…",
+  "src": [
+   "Ukrainska Pravda",
+   "ArmyInform"
+  ]
+ },
+ {
+  "id": "e-20260825-12",
+  "cat": "ttp",
+  "sig": 2,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "drones",
+   "doctrine"
+  ],
+  "topicsEn": [
+   "Drones/FPV",
+   "Doctrine"
+  ],
+  "topicsNl": [
+   "Drones/FPV",
+   "Doctrine"
+  ],
+  "date": "25 Aug",
+  "en": "Russian military publishes video of drone strike on unarmed cyclist in Donetsk region",
+  "nl": "Russisch leger publiceert video van dronestrike op ongewapende fietser in regio Donetsk",
+  "enS": "On 24 August 2026 (07:47 UTC), Meduza's English edition reported that Russia's 3rd Combined Arms Army had published footage showing an FPV drone attacking an unarmed man on a bicycle near Vasylivska Pustosh in the Kramatorsk district of Donetsk region. The footage shows the cyclist noticing the approaching drone, stopping, and being…",
+  "nlS": "Op 24 augustus 2026 (07:47 UTC) meldde Meduza (Engelstalige editie) dat Ruslands 3e Combined Arms Army beeldmateriaal had gepubliceerd van een FPV-drone die een aanval uitvoert op een ongewapende man op een fiets, nabij Vasylivska Poestosj in het Kramatorsk-district van de oblast Donetsk. Op de beelden is te zien hoe de fietser de…",
+  "src": [
+   "Meduza"
+  ]
+ },
+ {
+  "id": "e-20260825-09",
+  "cat": "org",
+  "sig": 2,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "mobilization"
+  ],
+  "topicsEn": [
+   "Mobilization"
+  ],
+  "topicsNl": [
+   "Mobilisatie"
+  ],
+  "date": "25 Aug",
+  "en": "WSJ: Russian military conducted mobilization drills across multiple regions, including Kaliningrad Oblast",
+  "nl": "WSJ: Russisch leger hield mobilisatie-oefeningen in meerdere regio's, waaronder Kaliningrad Oblast",
+  "enS": "According to The Wall Street Journal, citing Western intelligence officials, Russian military officers flew from St. Petersburg to Kaliningrad Oblast in July 2026 to oversee an exercise testing mobilization procedures for the local population. The officers supervised readiness planning, including arrangements for housing, feeding and…",
+  "nlS": "Volgens The Wall Street Journal, gebaseerd op westerse inlichtingenbronnen, vlogen Russische legerofficieren in juli 2026 van Sint-Petersburg naar de Kaliningrad Oblast om daar een oefening te leiden gericht op mobilisatieprocedures voor de lokale bevolking. De officieren superviseerden paraatheidsplanning inclusief regelingen voor…",
+  "src": [
+   "Meduza (EN)",
+   "Ukrainska Pravda (EN)"
+  ]
+ },
+ {
+  "id": "e-20260825-16",
+  "cat": "weapon",
+  "sig": 2,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "drones"
+  ],
+  "topicsEn": [
+   "Drones/FPV"
+  ],
+  "topicsNl": [
+   "Drones/FPV"
+  ],
+  "date": "25 Aug",
+  "en": "Ukraine Holds World's First All-Drone Military Parade on Independence Day",
+  "nl": "Oekraïne houdt 's werelds eerste volledig-dronemilitaire parade op Onafhankelijkheidsdag",
+  "enS": "On 24 August 2026, Ukraine's 35th Independence Day, Kyiv held what organizers described as the world's first military parade composed entirely of unmanned systems. Dozens of ground robotic systems rolled down Khreshchatyk Street, including the Termit, Rys, Simba, Ardal, Zmiy and Ratel types, built for logistics, reconnaissance and combat…",
+  "nlS": "Op 24 augustus 2026, de 35e Onafhankelijkheidsdag van Oekraïne, hield Kyiv wat organisatoren omschreven als 's werelds eerste militaire parade die volledig uit onbemande systemen bestond. Op Chresjtsjatyk-straat reden tientallen grondrobotsystemen voorbij, waaronder de types Termit, Rys, Simba, Ardal, Zmiy en Ratel, gebouwd voor…",
+  "src": [
+   "Defence Blog",
+   "ArmyInform"
+  ]
+ },
+ {
+  "id": "e-20260824-01",
+  "cat": "org",
+  "sig": 2,
+  "flag": "new",
+  "stream": "verified",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "drones",
+   "north-korea"
+  ],
+  "topicsEn": [
+   "Drones/FPV",
+   "north-korea"
+  ],
+  "topicsNl": [
+   "Drones/FPV",
+   "north-korea"
+  ],
+  "date": "24 Aug",
+  "en": "North Korea Sends 400 Drone Operators to Kursk Region",
+  "nl": "Noord-Korea stuurt 400 drone-operators naar Koersk-regio",
+  "enS": "Ukraine's Defense Intelligence (HUR) says North Korea has significantly expanded its military presence in Russia's Kursk region, deploying roughly 8,500 troops, including approximately 400 trained drone operators and around 1,000 engineers and sappers. Deputy HUR chief Vadym Skibitskyi told CNN the drone operators are likely to be used…",
+  "nlS": "Volgens de Oekraïense militaire inlichtingendienst (HUR) heeft Noord-Korea zijn militaire aanwezigheid in de Russische Koersk-regio flink uitgebreid, met de inzet van ongeveer 8.500 militairen, waaronder circa 400 getrainde drone-operators en zo'n 1.000 genisten/sappers. Plaatsvervangend HUR-chef Vadym Skibitskyi zei tegen CNN dat de…",
+  "src": [
+   "Militarnyi",
+   "United24 Media"
+  ]
+ },
+ {
+  "id": "e-20260825-s05",
+  "cat": "weapon",
+  "sig": 2,
+  "flag": "new",
+  "stream": "single",
+  "milblog": false,
+  "origin": "ru",
+  "topics": [
+   "missiles",
+   "artillery"
+  ],
+  "topicsEn": [
+   "Missiles",
+   "artillery"
+  ],
+  "topicsNl": [
+   "Raketten",
+   "artillery"
+  ],
+  "date": "25 Aug",
+  "en": "US Prepares Cheap Hypersonic Missile for HIMARS",
+  "nl": "VS bereidt goedkope hypersonische raket voor HIMARS voor",
+  "enS": "SINGLE SOURCE — Russian publication (Topwar.ru) reporting on a US weapons program. Castelion — founded in late 2022 by three former SpaceX employees — is developing the \"Blackbeard\" hypersonic missile under the Pentagon's RCCTO, intended for ground launch (e.g. HIMARS) and integration on the F/A-18E/F Super Hornet.",
+  "nlS": "SINGLE SOURCE — Russische publicatie (Topwar.ru), verslag over een Amerikaans wapenprogramma. Castelion — eind 2022 opgericht door drie voormalige SpaceX-medewerkers — ontwikkelt de hypersonische raket \"Blackbeard\" onder toezicht van het Pentagon-orgaan RCCTO, bedoeld voor lancering vanaf grondsystemen zoals HIMARS en integratie op de…",
+  "src": [
+   "Topwar.ru"
+  ]
+ },
+ {
+  "id": "e-20260825-s06",
+  "cat": "weapon",
+  "sig": 1,
+  "flag": "new",
+  "stream": "single",
+  "milblog": false,
+  "origin": "ru",
+  "topics": [
+   "armor"
+  ],
+  "topicsEn": [
+   "armor"
+  ],
+  "topicsNl": [
+   "armor"
+  ],
+  "date": "25 Aug",
+  "en": "Lightness and Maneuverability Against Drones: US Army Orders Thousands of ISV Armored Vehicles",
+  "nl": "Lichtheid en wendbaarheid tegen drones: VS-leger bestelt duizenden ISV-pantservoertuigen",
+  "enS": "SINGLE SOURCE — Russian publication (Topwar.ru) on US procurement policy. The US Army has sharply expanded its ISV order from GM Defense: from an original 649 to 11,582 units (nearly 18-fold). The ISV carries nine soldiers and prioritizes lightness/agility over armor; meant to complement, not replace, the Humvee/JLTV.",
+  "nlS": "SINGLE SOURCE — Russische publicatie (Topwar.ru) over Amerikaans aanschafbeleid. Het Amerikaanse leger heeft zijn bestelling van Infantry Squad Vehicles (ISV) bij GM Defense sterk uitgebreid: van oorspronkelijk 649 naar 11.582 exemplaren (bijna 18x). De ISV vervoert negen militairen en benadrukt lichtheid/wendbaarheid boven pantsering;…",
+  "src": [
+   "Topwar.ru"
+  ]
+ },
+ {
+  "id": "e-20260825-03",
+  "cat": "ttp",
+  "sig": 2,
+  "flag": "new",
+  "stream": "single",
+  "milblog": false,
+  "origin": "ua",
+  "topics": [
+   "drones",
+   "logistics"
+  ],
+  "topicsEn": [
+   "Drones/FPV",
+   "Logistics"
+  ],
+  "topicsNl": [
+   "Drones/FPV",
+   "Logistiek"
+  ],
+  "date": "25 Aug",
+  "en": "Ukrainian Forces Have Carried Out Over 100,000 Ground Drone Missions So Far in 2026",
+  "nl": "Oekraïense strijdkrachten hebben in 2026 al meer dan 100.000 grondrobotmissies uitgevoerd",
+  "enS": "According to Ukraine's Ministry of Defence, Ukrainian ground robotic systems have carried out more than 100,000 logistics and evacuation missions since the start of 2026 — the article explicitly names only these two mission types, not assault or mine-clearing tasks. The figures come from Delta, Ukraine's digital battlefield-management…",
+  "nlS": "Volgens het Oekraïense ministerie van Defensie hebben Oekraïense grondrobotsystemen sinds begin 2026 meer dan 100.000 logistieke en evacuatiemissies uitgevoerd — het artikel noemt uitdrukkelijk alleen deze twee missietypen, geen aanvals- of mijnenruimingstaken. De cijfers zijn afkomstig uit Delta, het Oekraïense digitale…",
+  "src": [
+   "Ukrainska Pravda"
+  ]
+ },
+ {
+  "id": "e-20260825-08",
+  "cat": "org",
+  "sig": 2,
+  "flag": "new",
+  "stream": "single",
+  "milblog": false,
+  "origin": null,
+  "topics": [
+   "drones",
+   "logistics"
+  ],
+  "topicsEn": [
+   "Drones/FPV",
+   "Logistics"
+  ],
+  "topicsNl": [
+   "Drones/FPV",
+   "Logistiek"
+  ],
+  "date": "25 Aug",
+  "en": "Finland's Patria to Partner With Ukraine's General Cherry on Drone Production",
+  "nl": "Fins defensiebedrijf Patria en Oekraïens dronebedrijf General Cherry sluiten intentieverklaring voor droneproductie in Finland",
+  "enS": "On 24 August 2026, Defense News reported that Finnish defense manufacturer Patria has signed a letter of intent with Ukrainian drone maker General Cherry to jointly develop unmanned systems and establish drone production in Finland. General Cherry, co-founded by Stanislav Hryshyn, makes one-way FPV strike drones and interceptor drones…",
+  "nlS": "SINGLE SOURCE. Op 24 augustus 2026 meldde Defense News dat het Finse defensiebedrijf Patria een intentieverklaring (letter of intent) heeft ondertekend met het Oekraïense dronebedrijf General Cherry om samen onbemande systemen te ontwikkelen en droneproductie in Finland op te zetten. General Cherry, mede opgericht door Stanislav Hryshyn,…",
+  "src": [
+   "defensenews"
+  ]
+ },
+ {
+  "id": "e-20260825-10",
+  "cat": "org",
+  "sig": 2,
+  "flag": "new",
+  "stream": "single",
+  "milblog": false,
+  "origin": "ua",
+  "topics": [
+   "mobilization"
+  ],
+  "topicsEn": [
+   "Mobilization"
+  ],
+  "topicsNl": [
+   "Mobilisatie"
+  ],
+  "date": "25 Aug",
+  "en": "Ukraine weighing 'radical' mobilization changes amid recruitment challenges, official says",
+  "nl": "Oekraïne overweegt 'radicale' wijzigingen in mobilisatiesysteem vanwege wervingsproblemen, zegt functionaris",
+  "enS": "Roman Kostenko, secretary of the Ukrainian parliament's (Verkhovna Rada) defense committee, said Ukraine is preparing \"radical\" changes to its mobilization system. The trigger is that financial incentives introduced to encourage Ukrainians to voluntarily sign military contracts have failed to meaningfully boost recruitment numbers.",
+  "nlS": "Roman Kostenko, secretaris van de defensiecommissie van het Oekraïense parlement (Verchovna Rada), verklaarde dat Oekraïne 'radicale' aanpassingen aan zijn mobilisatiesysteem voorbereidt. Aanleiding is dat de financiële prikkels die zijn ingevoerd om Oekraïners te bewegen vrijwillig een militair contract te tekenen, onvoldoende effect…",
+  "src": [
+   "Kyiv Independent"
+  ]
+ },
+ {
+  "id": "e-20260825-s02",
+  "cat": "org",
+  "sig": 2,
+  "flag": "new",
+  "stream": "single",
+  "milblog": true,
+  "origin": "ru",
+  "topics": [
+   "air-defense",
+   "missiles"
+  ],
+  "topicsEn": [
+   "Air defense",
+   "Missiles"
+  ],
+  "topicsNl": [
+   "Luchtverdediging",
+   "Raketten"
+  ],
+  "date": "25 Aug",
+  "en": "South Korea Reportedly Refuses to Supply Ukraine with Patriot Interceptor Missiles",
+  "nl": "Zuid-Korea weigert naar verluidt onderscheppingsraketten voor Patriot aan Oekraïne te leveren",
+  "enS": "MILBLOGGER — Russian Telegram channel WarGonzo (not an official MoD source) reports that South Korea's government has refused to supply Ukraine with interceptor missiles for Patriot air-defense systems. Citing South Korean newspaper The Chosun Ilbo, the channel states Seoul's decision reflected its own national-security considerations…",
+  "nlS": "MILBLOGGER — Russisch Telegram-kanaal WarGonzo (geen officiële MoD-bron) meldt dat de Zuid-Koreaanse regering heeft geweigerd onderscheppingsraketten voor Patriot-luchtafweersystemen aan Oekraïne te leveren. Volgens het kanaal, dat zich beroept op de Zuid-Koreaanse krant The Chosun Ilbo, hield Seoel bij dit besluit rekening met de eigen…",
+  "src": [
+   "WarGonzo (TG)"
+  ]
+ },
+ {
+  "id": "e-20260825-s04",
+  "cat": "ttp",
+  "sig": 1,
+  "flag": "new",
+  "stream": "single",
+  "milblog": true,
+  "origin": "ru",
+  "topics": [
+   "drones",
+   "doctrine"
+  ],
+  "topicsEn": [
+   "Drones/FPV",
+   "Doctrine"
+  ],
+  "topicsNl": [
+   "Drones/FPV",
+   "Doctrine"
+  ],
+  "date": "25 Aug",
+  "en": "Rise of the Machines: How Autonomous Agents Could Reshape Drone Warfare",
+  "nl": "Opstand der machines: hoe autonome agenten de dronenoorlog kunnen veranderen",
+  "enS": "MILBLOGGER — a personal/editorial Telegram voice (Rybar), not an official position of the Russian Ministry of Defense. Rybar discusses an experiment by the channel InsideAI in which popular American and Chinese language models were used to control military equipment: one AI agent was given control of a tank (physically operated by a…",
+  "nlS": "MILBLOGGER — persoonlijke/redactionele Telegram-stem (Rybar), geen officieel standpunt van het Russische ministerie van Defensie. Rybar bespreekt een experiment van het kanaal InsideAI, waarin populaire Amerikaanse en Chinese taalmodellen werden ingezet om militair materieel aan te sturen: één AI-agent kreeg een tank onder zich (fysiek…",
+  "src": [
+   "tg-rybar"
+  ]
+ }
+]; }
+  crossData() { return [
+ {
+  "site": "Drone Academy",
+  "url": "drone-academy.web.app",
+  "tint": "#d9a441",
+  "cards": [
+   {
+    "name": "Shahed-136 / Geran-2",
+    "hits": 14,
+    "signals": [
+     "scale",
+     "variant",
+     "perf"
+    ]
+   },
+   {
+    "name": "Gerbera",
+    "hits": 8,
+    "signals": [
+     "loss",
+     "deploy"
+    ]
+   },
+   {
+    "name": "Lancet-1 / Lancet-3",
+    "hits": 5,
+    "signals": [
+     "loss",
+     "perf"
+    ]
+   }
+  ]
+ },
+ {
+  "site": "AirDefense Academy",
+  "url": "airdefense-academy.web.app",
+  "tint": "#7fa8c9",
+  "cards": [
+   {
+    "name": "S-400 (SA-21)",
+    "hits": 11,
+    "signals": [
+     "deploy",
+     "scale"
+    ]
+   },
+   {
+    "name": "Tor-M2 (SA-15)",
+    "hits": 10,
+    "signals": [
+     "deploy",
+     "scale"
+    ]
+   },
+   {
+    "name": "Pantsir (SA-22)",
+    "hits": 7,
+    "signals": [
+     "deploy",
+     "counter"
+    ]
+   }
+  ]
+ },
+ {
+  "site": "EW Academy",
+  "url": "ew-academy.web.app",
+  "tint": "#9b8ec4",
+  "cards": [
+   {
+    "name": "Jamming",
+    "hits": 14,
+    "signals": [
+     "perf",
+     "counter"
+    ]
+   },
+   {
+    "name": "IR-dreiging & DIRCM",
+    "hits": 8,
+    "signals": [
+     "variant",
+     "scale"
+    ]
+   },
+   {
+    "name": "GNSS-denial & spoofing",
+    "hits": 4,
+    "signals": [
+     "loss",
+     "counter"
+    ]
+   }
+  ]
+ }
+]; }
+  labels() {
+    return {
+      en: { edition: "Daily brief", editionDateShort: "Mon 25 Aug 2026",
+        counts: "88 verified · 50 single-source", archive: "Archive", digest: "Also today", significance: "Sig",
+        searchShort: "search developments",
+        hint: "Add to Home Screen to open the tracker full-screen, without the address bar.",
+        impactTitle: "Academy impact", impactSub: "Cards on the sister sites this development bears on.",
+        all: "All", ttp: "TTPs", weapon: "Weapons", org: "Organization", pub: "Publications", milblog: "Milbloggers",
+        catttp: "TTP", catweapon: "Weapon system", catorg: "Organization",
+        flagNew: "New", flagUpdated: "Updated",
+        noteVerifiedT: "How to read this", noteVerifiedB: "Verified stream: corroborated by at least two independent sources. Summaries are analytical, not translations of the source.",
+        noteSingleT: "Single source", noteSingleB: "Display is not verification. The value lies in what the party itself publishes or claims — doctrine, self-image, announcements.",
+        noteMilblogT: "Milblogger", noteMilblogB: "Russian military Telegram channels outside the MoD. Often earlier and more detailed than official channels, but also more contradictory and prone to exaggeration." },
+      nl: { edition: "Dagelijkse briefing", editionDateShort: "ma 25 aug 2026",
+        counts: "88 geverifieerd · 50 single-source", archive: "Archief", digest: "Ook vandaag", significance: "Belang",
+        searchShort: "zoek ontwikkelingen",
+        hint: "Zet op beginscherm om de tracker schermvullend te openen, zonder adresbalk.",
+        impactTitle: "Impact op academies", impactSub: "Kaarten op de zustersites waar deze ontwikkeling op drukt.",
+        all: "Alles", ttp: "TTP's", weapon: "Wapens", org: "Organisatie", pub: "Publicaties", milblog: "Milbloggers",
+        catttp: "TTP", catweapon: "Wapensysteem", catorg: "Organisatie",
+        flagNew: "Nieuw", flagUpdated: "Gewijzigd",
+        noteVerifiedT: "Hoe je dit leest", noteVerifiedB: "Geverifieerde stroom: bevestigd door minstens twee onafhankelijke bronnen. Samenvattingen zijn analytisch, geen vertalingen van de bron.",
+        noteSingleT: "Single source", noteSingleB: "Weergave is geen verificatie. De waarde zit in wat de partij zélf publiceert of claimt — doctrine, zelfbeeld, aankondigingen.",
+        noteMilblogT: "Milblogger", noteMilblogB: "Russische militaire Telegram-kanalen buiten het ministerie. Vaak eerder en gedetailleerder dan officiële kanalen, maar ook tegenstrijdiger en vatbaar voor overdrijving." }
+    };
+  }
+  catColor(cat) { return { ttp: "#d99a4e", weapon: "#d16a72", org: "#5fb98a" }[cat] || "#4dd4ac"; }
+  impactFor(e) {
+    const map = { drones: "Drone Academy", "naval-drones": "Drone Academy", ew: "EW Academy", doctrine: "EW Academy",
+      "air-defense": "AirDefense Academy", missiles: "AirDefense Academy", airforce: "AirDefense Academy" };
+    const wanted = [];
+    e.topics.forEach((t) => { const s = map[t]; if (s && wanted.indexOf(s) < 0) wanted.push(s); });
+    const out = [];
+    this.crossData().forEach((g) => {
+      if (wanted.indexOf(g.site) < 0) return;
+      g.cards.slice(0, 2).forEach((c) => out.push({ name: c.name, site: g.site, hits: c.hits, signals: c.signals.slice(0, 2).map((s) => ({ label: s })) }));
+    });
+    return out.slice(0, 2);
+  }
+  renderVals() {
+    const st = this.state || {};
+    const lang = st.lang ?? "en";
+    const L = this.labels()[lang];
+    const section = st.section ?? "all";
+    const accent = "#4dd4ac";
+    const all = this.entries();
+    const inSection = (e, s) => s === "milblog" ? e.milblog
+      : s === "pub" ? (e.stream === "single" && !e.milblog)
+      : s === "all" ? e.stream === "verified"
+      : (e.stream === "verified" && e.cat === s);
+    const list = all.filter((e) => inSection(e, section));
+    const leadId = st.lead ?? null;
+    const leadEntry = list.find((e) => e.id === leadId) || list[0] || all[0];
+
+    const sections = ["all", "ttp", "weapon", "org", "pub", "milblog"].map((k) => ({
+      label: L[k],
+      style: "font-family: 'IBM Plex Sans', sans-serif; font-size: 13px; font-weight: " + (section === k ? "600" : "400") + "; letter-spacing: 0.02em; white-space: nowrap; height: 44px; padding: 0; border: none; background: transparent; cursor: pointer; border-bottom: 2px solid " + (section === k ? accent : "transparent") + "; color: " + (section === k ? "#e8edf1" : "#6d7681"),
+      pick: () => this.setState({ section: k, lead: null })
+    }));
+
+    const bar = (on, col) => ({ style: "width: 10px; height: 3px; background: " + (on ? col : "#232a33") });
+    const col = this.catColor(leadEntry.cat);
+    const flag = leadEntry.flag === "new" ? L.flagNew : leadEntry.flag === "update" ? L.flagUpdated : "";
+    const lead = {
+      cat: L["cat" + leadEntry.cat],
+      catStyle: "padding: 3px 8px; border-radius: 2px; background: " + col + "; color: #0b0d10",
+      bars: [1, 2, 3].map((n) => bar(n <= leadEntry.sig, col)),
+      flagged: flag !== "",
+      flag: flag,
+      flagStyle: "padding: 2px 8px; border-radius: 2px; border: 1px solid #2a323b; color: #8b949e",
+      title: lang === "nl" ? leadEntry.nl : leadEntry.en,
+      summary: lang === "nl" ? leadEntry.nlS : leadEntry.enS,
+      date: leadEntry.date,
+      srcLine: leadEntry.src.join(" · ")
+    };
+
+    const digest = list.filter((e) => e.id !== leadEntry.id).slice(0, 6).map((e) => ({
+      title: lang === "nl" ? e.nl : e.en,
+      meta: e.date + " · " + (lang === "nl" ? e.topicsNl : e.topicsEn).slice(0, 2).join(", "),
+      tint: this.catColor(e.cat),
+      pick: () => this.setState({ lead: e.id })
+    }));
+
+    const note = leadEntry.milblog ? { title: L.noteMilblogT, body: L.noteMilblogB }
+      : leadEntry.stream === "single" ? { title: L.noteSingleT, body: L.noteSingleB }
+      : { title: L.noteVerifiedT, body: L.noteVerifiedB };
+
+    const langs = ["nl", "en"].map((code) => ({
+      code: code.toUpperCase(),
+      style: "font-family: 'IBM Plex Mono', monospace; font-size: 11px; width: 44px; height: 34px; border-radius: 4px; cursor: pointer; border: 1px solid " + (lang === code ? "rgba(77,212,172,0.4)" : "#232a33") + "; background: " + (lang === code ? "rgba(77,212,172,0.1)" : "transparent") + "; color: " + (lang === code ? accent : "#6d7681"),
+      pick: () => this.setState({ lang: code })
+    }));
+
+    const showHint = st.hint !== false;
+    const dismissHint = () => this.setState({ hint: false });
+
+    return { L, sections, lead, digest, impact: this.impactFor(leadEntry), note, langs, showHint, dismissHint };
+  }
+}
+</script>
+</body>
+</html>

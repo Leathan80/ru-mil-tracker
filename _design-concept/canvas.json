@@ -1,0 +1,71 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "Keuzeblad",
+      "x": 0,
+      "y": 0,
+      "w": 760,
+      "h": 1180
+    },
+    {
+      "file": "AdeptiCommand.dc.html",
+      "title": "A · Adepti Command",
+      "x": 860,
+      "y": 0,
+      "w": 1240,
+      "h": 940
+    },
+    {
+      "file": "AnalystConsole.dc.html",
+      "title": "B · Analyst Console",
+      "x": 2200,
+      "y": 0,
+      "w": 1240,
+      "h": 940
+    },
+    {
+      "file": "DailyBrief.dc.html",
+      "title": "C · Daily Brief",
+      "x": 3540,
+      "y": 0,
+      "w": 1240,
+      "h": 940
+    },
+    {
+      "file": "DarkBrief.dc.html",
+      "title": "D · Brief in consolestijl",
+      "x": 4880,
+      "y": 0,
+      "w": 1240,
+      "h": 940
+    },
+    {
+      "file": "DarkBriefMobile.dc.html",
+      "title": "D · Mobiel (390 px)",
+      "x": 6220,
+      "y": 0,
+      "w": 390,
+      "h": 1540
+    }
+  ],
+  "annotations": [
+    {
+      "id": "hoe-te-lezen",
+      "x": 0,
+      "y": -150,
+      "w": 460,
+      "text": "Alle artboards zijn klikbaar: stromen, onderwerpfilters, NL/EN en het uitklappen of selecteren van een item werken echt.\n\nD is de indeling van C in het palet van B.\n\nDe inhoud komt uit analysis.json en crosscheck.json van 25 augustus."
+    },
+    {
+      "id": "mobiel-vouw",
+      "x": 6220,
+      "y": -150,
+      "w": 390,
+      "text": "Mobiele versie van D op 390 px breed — de hele pagina in één beeld.\n\nOp een telefoon van 390×844 valt de vouw rond het eerste digest-item.\n\nDe pagina reserveert de safe-area boven- en onderaan, zodat hij ook klopt wanneer hij vanaf het beginscherm zonder adresbalk opent; de statusbalk van het toestel is bewust niet nagetekend."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

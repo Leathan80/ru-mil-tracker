@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: #d4af6a; } a:hover { color: #f0d9a8; }
+  </style>
+</helmet>
+<div style="width: 760px; min-height: 1180px; background: #0a0f1c; color: #e6e2d8; font-family: 'IBM Plex Sans', system-ui, sans-serif; padding: 36px 36px 40px; display: flex; flex-direction: column; gap: 26px">
+
+  <div style="display: flex; flex-direction: column; gap: 10px">
+    <div style="font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; color: #d4af6a">Concept · augustus 2026</div>
+    <h1 style="font-family: 'Cinzel', serif; font-size: 30px; font-weight: 600; letter-spacing: 0.03em; margin: 0; color: #f2e9d8; line-height: 1.2">Russian Military Tracker<br>vier richtingen</h1>
+    <p style="margin: 0; font-size: 14px; line-height: 1.65; color: #9aa4b8; max-width: 560px; text-wrap: pretty">Dezelfde data, vier manieren om die te lezen — drie richtingen plus één kruising ervan. Kies op basis van hoe je de tracker dagelijks gebruikt, niet op basis van welke het mooist oogt. Daarna werk ik die richting volledig uit.</p>
+  </div>
+
+  <div style="height: 1px; background: linear-gradient(90deg, #d4af6a, rgba(212,175,106,0.05))"></div>
+
+  <sc-for list="{{options}}" as="opt" hint-placeholder-count="3">
+    <div style="display: flex; flex-direction: column; gap: 10px; padding: 20px; border: 1px solid #233049; border-left: 3px solid {{opt.tint}}; border-radius: 10px; background: linear-gradient(165deg, rgba(255,255,255,0.035) 0%, transparent 45%), #131c2f">
+      <div style="display: flex; align-items: baseline; gap: 12px">
+        <div style="font-family: 'Cinzel', serif; font-size: 18px; font-weight: 600; color: #f2e9d8">{{opt.name}}</div>
+        <div style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: {{opt.tint}}">{{opt.tag}}</div>
+      </div>
+      <div style="font-size: 13.5px; line-height: 1.6; color: #c3c9d6">{{opt.pitch}}</div>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 4px">
+        <div style="display: flex; flex-direction: column; gap: 4px">
+          <div style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #6f7a90">Sterk in</div>
+          <div style="font-size: 12.5px; line-height: 1.55; color: #d8dce5">{{opt.strength}}</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 4px">
+          <div style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #6f7a90">Prijs die je betaalt</div>
+          <div style="font-size: 12.5px; line-height: 1.55; color: #d8dce5">{{opt.cost}}</div>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px; margin-top: 6px; padding-top: 12px; border-top: 1px solid rgba(212,175,106,0.16)">
+        <sc-for list="{{opt.answers}}" as="row" hint-placeholder-count="3">
+          <div style="display: flex; gap: 10px; font-size: 12px; line-height: 1.5">
+            <div style="min-width: 96px; color: #6f7a90">{{row.k}}</div>
+            <div style="color: #c3c9d6; flex-grow: 1">{{row.v}}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </sc-for>
+
+  <div style="display: flex; flex-direction: column; gap: 8px; margin-top: auto; padding: 16px 18px; border: 1px solid #233049; border-radius: 10px; background: #0e1524">
+    <div style="font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #6f7a90">Blijft in alle drie gelijk</div>
+    <div style="font-size: 12.5px; line-height: 1.6; color: #c3c9d6">De datapijplijn (crawler elke 4 uur, dagelijkse analyse), de acht stromen, NL/EN, en de eigendomsregel tussen feed.json en analysis.json. Dit is puur de leeslaag.</div>
+  </div>
+
+</div>
+</x-dc>
+<script data-dc-script data-props='{}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      options: [
+        {
+          name: 'A · Adepti Command',
+          tag: 'Huisstijl',
+          tint: '#d4af6a',
+          pitch: 'De tracker wordt zichtbaar onderdeel van The Adepti: navy en goud, Cinzel-koppen, metallic randen. Wie van adepti-academy.nl doorklikt, blijft in hetzelfde huis.',
+          strength: 'Herkenbaarheid en autoriteit; de tracker leest als een product, niet als een losse tool.',
+          cost: 'Decoratie kost ruimte — je ziet minder items per scherm dan nu.',
+          answers: [
+            { k: 'Navigatie', v: 'Vaste linkerkolom met stromen en tellingen; tijdlijn en ruwe feed eronder gescheiden.' },
+            { k: 'Crosscheck', v: 'Rechterkolom "Academy impact" — welke leerkaarten geraakt worden.' },
+            { k: 'Dichtheid', v: 'Ruime kaarten, drie gouden staafjes voor belang.' }
+          ]
+        },
+        {
+          name: 'B · Analyst Console',
+          tag: 'Werktuig',
+          tint: '#4dd4ac',
+          pitch: 'Een werkbank, geen etalage. Compacte regels in plaats van kaarten, alles filterbaar vanaf één balk, detail in een vast paneel rechts. Gebouwd om dagelijks 140 items door te nemen.',
+          strength: 'Snelheid en overzicht: drie keer zoveel items per scherm, sneltoetsen, scanbare kolommen.',
+          cost: 'Zakelijk en koel; deelt weinig visuele DNA met de rest van Adepti.',
+          answers: [
+            { k: 'Navigatie', v: 'Eén commandobalk: zoek, stroom, categorie, onderwerp, belang — geen tabrij.' },
+            { k: 'Crosscheck', v: 'In het detailpaneel, direct onder de bronnen van het geselecteerde item.' },
+            { k: 'Dichtheid', v: 'Regels van 34 px; schakelbaar naar comfortabel.' }
+          ]
+        },
+        {
+          name: 'C · Daily Brief',
+          tag: 'Redactioneel',
+          tint: '#a8452f',
+          pitch: 'Geen database maar een briefing: lichte papierkleur, serif-koppen, één hoofdverhaal per dag met de rest als digest. Leest als iets dat je uitprint en meeneemt.',
+          strength: 'Leesbaarheid van lange samenvattingen; hiërarchie dwingt af wat er echt toe doet.',
+          cost: 'Redactionele keuze per dag is nodig — de analysetaak moet één lead aanwijzen.',
+          answers: [
+            { k: 'Navigatie', v: 'Tekstlinks in de kop, secties in plaats van tabs; archief per datum.' },
+            { k: 'Crosscheck', v: 'Als kantlijn naast het artikel waar het bij hoort.' },
+            { k: 'Dichtheid', v: 'Twee kolommen digest onder de lead; lezen boven scannen.' }
+          ]
+        },
+        {
+          name: 'D · Brief in consolestijl',
+          tag: 'Kruising C × B',
+          tint: '#4dd4ac',
+          pitch: 'De indeling van C — masthead, één lead, digest in twee kolommen, kantlijn — maar in het donkere palet en de Plex-typografie van B. Dezelfde hiërarchie, zonder de papieren toon.',
+          strength: 'Rustig lezen in een donkere omgeving; past bij de andere Adepti-tools zonder de gouden decoratie van A.',
+          cost: 'Zonder serif verdwijnt een deel van het redactionele karakter; het leunt volledig op hiërarchie en witruimte.',
+          answers: [
+            { k: 'Navigatie', v: 'Tekstlinks als in C, actief onderstreept in teal.' },
+            { k: 'Crosscheck', v: 'Kantlijn, identiek aan C.' },
+            { k: 'Dichtheid', v: 'Als C: één lead plus acht digest-items in beeld.' }
+          ]
+        }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
