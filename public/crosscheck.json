@@ -1,11 +1,11 @@
 {
- "updated": "2026-08-25T19:57:39.204Z",
- "analysisUpdated": "2026-08-25T10:00:00.000Z",
+ "updated": "2026-08-26T13:08:12.851Z",
+ "analysisUpdated": "2026-08-26T10:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 140,
-  "cardsWithHits": 39,
-  "matches": 170
+  "entriesConsidered": 138,
+  "cardsWithHits": 38,
+  "matches": 157
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -26,6 +26,55 @@
      "total": 14,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260826-05",
+       "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
+       "titleNl": "Russische aanvalsdrones jammen nu de goedkope interceptors die hen moeten neerhalen",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-25T16:39:38.000Z",
+       "updatedAt": "2026-08-26T10:00:00.000Z",
+       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, heeft Rusland een deel van zijn Geran-drones (de Russische variant van de Iraanse Shahed) uitgerust met een EW-jammer die specifiek is gericht tegen Oekraïense interceptordrones. Het systeem luistert naar het video-signa…",
+       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to Ukraine's president on defense technology, Russia has fitted some of its Geran drones (its version of Iran's Shahed) with an electronic-warfare jammer specifically aimed at Ukrainian interceptor drones. The system listens for the video signal of an approaching int…",
+       "sourceUrl": "https://euromaidanpress.com/2026/08/25/russias-attack-drones-now-jam-the-cheap-interceptors-sent-to-kill-them",
+       "sourceCount": 1,
+       "signals": [
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260825-02",
+       "title": "Ukraine Unveils MV11 Mothership USV Carrying 18 Anti-Drone Interceptors",
+       "titleNl": "Oekraïne onthult MV11-mothership met 18 anti-dronedrones aan boord",
+       "category": "weapon",
+       "topics": [
+        "naval-drones",
+        "drones",
+        "navy"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-24T20:12:54.000Z",
+       "updatedAt": "2026-08-26T10:00:00.000Z",
+       "nlSummary": "Oekraïne heeft tijdens de Onafhankelijkheidsdagparade in Kyiv op 24 augustus 2026 de Magura MV11 onthuld, het grootste vaartuig tot nu toe binnen de gevechtsbeproefde Magura-familie van onbemande oppervlaktevaartuigen (USV's). Het schip is ontwikkeld door UFORCE — ontstaan uit de consolidatie van negen Oekraïense fabr…",
+       "enSummary": "Ukraine unveiled the Magura MV11 during the Independence Day parade in Kyiv on August 24, 2026, the largest vessel yet in its combat-proven Magura family of uncrewed surface vessels (USVs). The platform was developed by UFORCE — formed by consolidating nine Ukrainian unmanned systems developers, with a Portuguese desi…",
+       "sourceUrl": "https://defence-blog.com/ukraine-unveils-mv11-largest-naval-drone-in-magura-naval-family",
+       "sourceCount": 2,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260824-08",
        "title": "Ukraine Reveals Scale of Behemoth Kamikaze Drone Production Line",
@@ -121,62 +170,14 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260823-17",
-       "title": "Ukraine unveils Alexa Spatium jet-powered reusable interceptor drone",
-       "titleNl": "Oekraïne onthult Alexa Spatium, herbruikbare straalinterceptordrone",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-21T21:34:18.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïens ministerie van Defensie heeft voor het eerst de Alexa Spatium getoond, omschreven als 's lands eerste straalaangedreven interceptordrone, specifiek ontwikkeld om Ruslands nieuwste en snelste aanvalsdrones te counteren — de Geran-3, Geran-4 en Geran-5-varianten — evenals Shahed-131-verkenningsdrones en heliko…",
-       "enSummary": "Ukraine's Ministry of Defense has for the first time presented the Alexa Spatium, described as the country's first jet-powered interceptor drone, developed specifically to counter Russia's newest and fastest attack drones — the Geran-3, Geran-4 and Geran-5 variants — as well as Shahed-131 reconnaissance drones and hel…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/22/ukraine-has-shown-its-answer-to-russias-most-powerful-drones-for-first-time-meet-alexa-spatium-which-can-carry-thermobaric-warheads-and-fly-back-home",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260823-06",
-       "title": "Ukraine fields jet-powered interceptor drones to counter jet-powered Shaheds",
-       "titleNl": "Oekraïne zet jet-aangedreven onderscheppingsdrones in tegen jet-Shaheds",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-21T10:39:33.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïense strijdkrachten hebben de Alexa Spatium in dienst genomen, een jet-aangedreven onderscheppingsdrone die specifiek is ontwikkeld om Ruslands snelle jet-Shaheds te bestrijden: de Geran-3, Geran-4 en Geran-5, naast de tragere propeller-Shahed-131. Het toestel meet ongeveer 1,5 bij 1,7 meter, is gebouwd uit lich…",
-       "enSummary": "Ukraine's Defense Forces have fielded the Alexa Spatium, a jet-powered interceptor drone built specifically to counter Russia's fast jet-powered Shahed-type drones — the Geran-3, Geran-4 and Geran-5 — as well as the slower propeller-driven Shahed-131. The airframe measures roughly 1.5 by 1.7 meters, is built from ligh…",
-       "sourceUrl": "https://defence-blog.com/ukraine-fields-new-jet-powered-interceptor-to-counter-russian-drones",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 5,
-     "signalCount": 5,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
       {
        "id": "e-20260825-11",
@@ -267,35 +268,14 @@
         "scale",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260727-06",
-       "title": "Russia used jet-powered Geran-4 drone with video camera in deadly strike on Chernihiv supermarket",
-       "titleNl": "Rusland zette straalgedreven Geran-4-drone met camera in bij dodelijke aanval op supermarkt in Tsjernihiv",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "Op de middag van 26 juli sloeg een Russische drone in op de ATB-supermarkt in de wijk ZAZ in Tsjernihiv. Volgens Dmytro Bryzhynskyi, hoofd van de militaire stadsadministratie van Tsjernihiv, en Viacheslav Chaus, hoofd van de militaire oblastadministratie, kwamen twee mensen om het leven, onder wie een negenjarig meisj…",
-       "enSummary": "On the afternoon of 26 July, a Russian drone crashed into the ATB supermarket in the ZAZ residential district of Chernihiv. According to Dmytro Bryzhynskyi, head of the Chernihiv City Military Administration, and Viacheslav Chaus, head of the Chernihiv Oblast Military Administration, two people were killed, including…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/26/8045997",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "lancet": {
      "name": "Lancet-1 / Lancet-3",
      "nameEn": "Lancet-1 / Lancet-3",
-     "total": 5,
-     "signalCount": 5,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20260729-s04",
@@ -341,56 +321,6 @@
         "loss",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260729-01",
-       "title": "Ukrainian Interceptor Drones Set New Altitude Records Downing Russian ZALA Z-20 and Forpost-R Recon UAVs",
-       "titleNl": "Oekraïense onderscheppingsdrones zetten nieuwe hoogterecords bij neerhalen van Russische ZALA Z-20- en Forpost-R-verkenningsdrones",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-27T07:00:00.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Op 28 juli 2026 vernietigden dronepiloten van Lasar's Group, een onderscheppingseenheid van de Oekraïense Nationale Garde, een Russische ZALA Z-20-verkenningsdrone boven Zuid-Oekraïne op een hoogte van 6.400 meter — volgens bevelhebber generaal-majoor Oleksandr Pivnenko een nieuw record voor de hoogst geslaagde luchto…",
-       "enSummary": "On 28 July 2026, drone operators from Lasar's Group, an interceptor-drone unit of Ukraine's National Guard, destroyed a Russian ZALA Z-20 reconnaissance drone over southern Ukraine at an altitude of 6,400 meters — described by National Guard commander Maj. Gen. Oleksandr Pivnenko as a new record for the highest succes…",
-       "sourceUrl": "https://militarnyi.com/en/news/record-interception-lasar-s-group-downs-a-zala-z-20-uav-at-6-4-km-altitude/",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "variant",
-        "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260727-04",
-       "title": "Ukraine Repelled Large-Scale Offensive by Two Russian Armies and Division in Dobropillia Sector",
-       "titleNl": "Oekraïne claimt afslaan van grootschalig Russisch offensief van twee legers en een divisie bij Dobropillia",
-       "category": "ttp",
-       "topics": [
-        "armor",
-        "artillery",
-        "command",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "Volgens het 1e Azov Korps van de Nationale Garde van Oekraïne — de enige bron van deze claim, geciteerd door militarnyi.com — hebben Oekraïense strijdkrachten op 22 juli een grootschalig gemechaniseerd offensief afgeslagen nabij Dobropillia, Donetsk Oblast. Volgens de Oekraïense claim zette Rusland eenheden in van twe…",
-       "enSummary": "According to the 1st Azov Corps of Ukraine's National Guard — the sole source of this claim, cited by militarnyi.com — Ukrainian forces repelled a large-scale mechanized offensive on 22 July near Dobropillia, Donetsk Oblast. Per the Ukrainian claim, Russia committed units from two armies, the 8th and 41st Guards Combi…",
-       "sourceUrl": "https://militarnyi.com/en/news/ukraine-repel-offensive-2-rus-army-division/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy"
        ]
       },
       {
@@ -477,7 +407,7 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 8,
+     "total": 7,
      "signalCount": 6,
      "entries": [
       {
@@ -628,8 +558,8 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 3,
-     "signalCount": 3,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20260731-03",
@@ -676,39 +606,14 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260727-03",
-       "title": "Ukraine Launches Multi-Domain Strike Wave Across Russia and the Caspian Sea, Hits Molniya-Class Missile Boat",
-       "titleNl": "Oekraïne lanceert brede aanvalsgolf over Rusland en de Kaspische Zee, raakt Molniya-klasse raketboot",
-       "category": "ttp",
-       "topics": [
-        "navy",
-        "missiles",
-        "air-defense",
-        "logistics",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "In de nacht van 24 op 25 juli 2026 voerde Oekraïne een brede golf langeafstandsaanvallen uit tegen doelen verspreid over Rusland en de Kaspische Zee. Volgens de Oekraïense presidentiële staf, de veiligheidsdienst SBU en de Generale Staf werden onder meer marinedoelen, luchtafweersystemen en logistieke knooppunten gera…",
-       "enSummary": "On the night of 24-25 July 2026, Ukraine carried out a wide-ranging wave of long-range strikes against targets spread across Russia and the Caspian Sea. According to Ukraine's presidential office, the Security Service of Ukraine (SBU) and the General Staff, the strikes hit naval assets, air-defense systems and logisti…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/25/wave-of-ukrainian-strikes-across-russia-and-caspian-sea-overnight",
-       "sourceCount": 2,
-       "signals": [
-        "scale"
-       ]
       }
      ]
     },
     "zala-z16": {
      "name": "ZALA Z-16",
      "nameEn": "ZALA Z-16",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20260728-03",
@@ -730,31 +635,6 @@
        "signals": [
         "loss",
         "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260729-01",
-       "title": "Ukrainian Interceptor Drones Set New Altitude Records Downing Russian ZALA Z-20 and Forpost-R Recon UAVs",
-       "titleNl": "Oekraïense onderscheppingsdrones zetten nieuwe hoogterecords bij neerhalen van Russische ZALA Z-20- en Forpost-R-verkenningsdrones",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-27T07:00:00.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Op 28 juli 2026 vernietigden dronepiloten van Lasar's Group, een onderscheppingseenheid van de Oekraïense Nationale Garde, een Russische ZALA Z-20-verkenningsdrone boven Zuid-Oekraïne op een hoogte van 6.400 meter — volgens bevelhebber generaal-majoor Oleksandr Pivnenko een nieuw record voor de hoogst geslaagde luchto…",
-       "enSummary": "On 28 July 2026, drone operators from Lasar's Group, an interceptor-drone unit of Ukraine's National Guard, destroyed a Russian ZALA Z-20 reconnaissance drone over southern Ukraine at an altitude of 6,400 meters — described by National Guard commander Maj. Gen. Oleksandr Pivnenko as a new record for the highest succes…",
-       "sourceUrl": "https://militarnyi.com/en/news/record-interception-lasar-s-group-downs-a-zala-z-20-uav-at-6-4-km-altitude/",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "variant",
-        "perf",
         "counter"
        ]
       }
@@ -820,8 +700,8 @@
     "forpost": {
      "name": "Forpost",
      "nameEn": "Forpost",
-     "total": 3,
-     "signalCount": 3,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20260824-s04",
@@ -869,31 +749,6 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260729-01",
-       "title": "Ukrainian Interceptor Drones Set New Altitude Records Downing Russian ZALA Z-20 and Forpost-R Recon UAVs",
-       "titleNl": "Oekraïense onderscheppingsdrones zetten nieuwe hoogterecords bij neerhalen van Russische ZALA Z-20- en Forpost-R-verkenningsdrones",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-27T07:00:00.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Op 28 juli 2026 vernietigden dronepiloten van Lasar's Group, een onderscheppingseenheid van de Oekraïense Nationale Garde, een Russische ZALA Z-20-verkenningsdrone boven Zuid-Oekraïne op een hoogte van 6.400 meter — volgens bevelhebber generaal-majoor Oleksandr Pivnenko een nieuw record voor de hoogst geslaagde luchto…",
-       "enSummary": "On 28 July 2026, drone operators from Lasar's Group, an interceptor-drone unit of Ukraine's National Guard, destroyed a Russian ZALA Z-20 reconnaissance drone over southern Ukraine at an altitude of 6,400 meters — described by National Guard commander Maj. Gen. Oleksandr Pivnenko as a new record for the highest succes…",
-       "sourceUrl": "https://militarnyi.com/en/news/record-interception-lasar-s-group-downs-a-zala-z-20-uav-at-6-4-km-altitude/",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "variant",
-        "perf",
-        "counter"
-       ]
       }
      ]
     },
@@ -931,9 +786,51 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 19,
-     "signalCount": 6,
+     "total": 20,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260826-05",
+       "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
+       "titleNl": "Russische aanvalsdrones jammen nu de goedkope interceptors die hen moeten neerhalen",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-25T16:39:38.000Z",
+       "updatedAt": "2026-08-26T10:00:00.000Z",
+       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, heeft Rusland een deel van zijn Geran-drones (de Russische variant van de Iraanse Shahed) uitgerust met een EW-jammer die specifiek is gericht tegen Oekraïense interceptordrones. Het systeem luistert naar het video-signa…",
+       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to Ukraine's president on defense technology, Russia has fitted some of its Geran drones (its version of Iran's Shahed) with an electronic-warfare jammer specifically aimed at Ukrainian interceptor drones. The system listens for the video signal of an approaching int…",
+       "sourceUrl": "https://euromaidanpress.com/2026/08/25/russias-attack-drones-now-jam-the-cheap-interceptors-sent-to-kill-them",
+       "sourceCount": 1,
+       "signals": [
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260826-04",
+       "title": "Head of Russia's flagship Tula drone center arrested on fraud charges",
+       "titleNl": "Hoofd van Ruslands vlaggenschip-dronecentrum in Tula gearresteerd wegens fraude",
+       "category": "org",
+       "topics": [
+        "drones",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-25T16:16:59.000Z",
+       "updatedAt": "2026-08-26T10:00:00.000Z",
+       "nlSummary": "Jevgeni Grigorjev, algemeen directeur van TulaDron — een onderzoeks- en productiecentrum voor onbemande luchtvaartsystemen in de Russische regio Tula — is aangehouden op verdenking van grootschalige fraude (artikel 159, deel 4, van het Russische Wetboek van Strafrecht). Een rechtbank gelastte op 14 augustus 2026 twee…",
+       "enSummary": "Yevgeny Grigoryev, general director of TulaDron — a research and production center for unmanned aircraft systems in Russia's Tula region — has been detained on suspicion of large-scale fraud under Part 4, Article 159 of Russia's Criminal Code. A court ordered him held in pretrial detention for two months from August 1…",
+       "sourceUrl": "https://meduza.io/en/news/2026/08/25/the-head-of-russia-s-flagship-tula-drone-center-is-arrested-on-fraud-charges",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260825-08",
        "title": "Finland's Patria to Partner With Ukraine's General Cherry on Drone Production",
@@ -1024,52 +921,6 @@
        "sourceCount": 1,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260824-09",
-       "title": "Ukraine Standardizes Fiber-Optic Drone Procurement to Beat Russian Jamming",
-       "titleNl": "Oekraïne standaardiseert aanbesteding van glasvezeldrones tegen Russische storing",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-22T05:07:00.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Het Oekraïense ministerie van Defensie heeft voor het eerst een enkele, uniforme standaard vastgesteld voor jam-proof glasvezel-FPV-kamikazedrones. In plaats van een aanbesteding toe te snijden op één specifieke fabrikant of dronemodel, definieert het ministerie nu generieke technische parameters — waaronder het berei…",
-       "enSummary": "Ukraine's Ministry of Defense has for the first time set a single, uniform standard for jam-proof fiber-optic FPV kamikaze drones. Rather than tailoring a tender to one specific manufacturer or drone model, the ministry now defines generic technical parameters — including range (determined by the length of the fiber-o…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/22/ukraine-is-buying-jam-proof-fiber-optic-drones-for-first-time-to-single-standard-so-any-maker-can-compete",
-       "sourceCount": 1,
-       "signals": [
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260823-18",
-       "title": "Ukrainian EDRONE Establishes Production of Drone Frames, Motors and Electronics",
-       "titleNl": "EDRONE zet binnenlandse productie op van dronechassis, motoren en elektronica",
-       "category": "org",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T16:12:12.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "De Oekraïense dronefabrikant EDRONE heeft eigen productielijnen opgezet voor een reeks componenten die voorheen grotendeels uit China werden geïmporteerd. Het gaat om dronechassis (frames), motoren — waarbij het bedrijf zelf de motorbehuizingen fabriceert en de assemblage en wikkeling in eigen hand heeft — gegoten pro…",
-       "enSummary": "Ukrainian drone manufacturer EDRONE has set up in-house production lines for a range of components that were previously largely imported from China. This includes drone frames, motors — with the company manufacturing the motor housings itself and handling assembly and winding in-house — molded propellers, landing legs…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSS1RaGhUS05MQ3RTLUs2elQwaWRrMExQSkFMX0NfWmthRm5TR2h6ZHZNUzdWUXdkVlpBT1NUR0FMRjFQblZ5NkYtdkl0bFgtU2NkNk5OaDctSkVzb29FSlBtbG1GV3ZCZGhQNndzcUt3UWxaS3NueFFHWGVNdjVDdGlodXV6YVlJMVFNVF81M2ZZYmxpRVJ5WmJSZDZUeFlUbjg4bWJxQjQ0TzUtNzQ4?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -1231,9 +1082,58 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 10,
+     "total": 11,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260826-05",
+       "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
+       "titleNl": "Russische aanvalsdrones jammen nu de goedkope interceptors die hen moeten neerhalen",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-25T16:39:38.000Z",
+       "updatedAt": "2026-08-26T10:00:00.000Z",
+       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, heeft Rusland een deel van zijn Geran-drones (de Russische variant van de Iraanse Shahed) uitgerust met een EW-jammer die specifiek is gericht tegen Oekraïense interceptordrones. Het systeem luistert naar het video-signa…",
+       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to Ukraine's president on defense technology, Russia has fitted some of its Geran drones (its version of Iran's Shahed) with an electronic-warfare jammer specifically aimed at Ukrainian interceptor drones. The system listens for the video signal of an approaching int…",
+       "sourceUrl": "https://euromaidanpress.com/2026/08/25/russias-attack-drones-now-jam-the-cheap-interceptors-sent-to-kill-them",
+       "sourceCount": 1,
+       "signals": [
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260825-02",
+       "title": "Ukraine Unveils MV11 Mothership USV Carrying 18 Anti-Drone Interceptors",
+       "titleNl": "Oekraïne onthult MV11-mothership met 18 anti-dronedrones aan boord",
+       "category": "weapon",
+       "topics": [
+        "naval-drones",
+        "drones",
+        "navy"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-24T20:12:54.000Z",
+       "updatedAt": "2026-08-26T10:00:00.000Z",
+       "nlSummary": "Oekraïne heeft tijdens de Onafhankelijkheidsdagparade in Kyiv op 24 augustus 2026 de Magura MV11 onthuld, het grootste vaartuig tot nu toe binnen de gevechtsbeproefde Magura-familie van onbemande oppervlaktevaartuigen (USV's). Het schip is ontwikkeld door UFORCE — ontstaan uit de consolidatie van negen Oekraïense fabr…",
+       "enSummary": "Ukraine unveiled the Magura MV11 during the Independence Day parade in Kyiv on August 24, 2026, the largest vessel yet in its combat-proven Magura family of uncrewed surface vessels (USVs). The platform was developed by UFORCE — formed by consolidating nine Ukrainian unmanned systems developers, with a Portuguese desi…",
+       "sourceUrl": "https://defence-blog.com/ukraine-unveils-mv11-largest-naval-drone-in-magura-naval-family",
+       "sourceCount": 2,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260825-08",
        "title": "Finland's Patria to Partner With Ukraine's General Cherry on Drone Production",
@@ -1327,54 +1227,6 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260823-17",
-       "title": "Ukraine unveils Alexa Spatium jet-powered reusable interceptor drone",
-       "titleNl": "Oekraïne onthult Alexa Spatium, herbruikbare straalinterceptordrone",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-21T21:34:18.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïens ministerie van Defensie heeft voor het eerst de Alexa Spatium getoond, omschreven als 's lands eerste straalaangedreven interceptordrone, specifiek ontwikkeld om Ruslands nieuwste en snelste aanvalsdrones te counteren — de Geran-3, Geran-4 en Geran-5-varianten — evenals Shahed-131-verkenningsdrones en heliko…",
-       "enSummary": "Ukraine's Ministry of Defense has for the first time presented the Alexa Spatium, described as the country's first jet-powered interceptor drone, developed specifically to counter Russia's newest and fastest attack drones — the Geran-3, Geran-4 and Geran-5 variants — as well as Shahed-131 reconnaissance drones and hel…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/22/ukraine-has-shown-its-answer-to-russias-most-powerful-drones-for-first-time-meet-alexa-spatium-which-can-carry-thermobaric-warheads-and-fly-back-home",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260823-06",
-       "title": "Ukraine fields jet-powered interceptor drones to counter jet-powered Shaheds",
-       "titleNl": "Oekraïne zet jet-aangedreven onderscheppingsdrones in tegen jet-Shaheds",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-21T10:39:33.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïense strijdkrachten hebben de Alexa Spatium in dienst genomen, een jet-aangedreven onderscheppingsdrone die specifiek is ontwikkeld om Ruslands snelle jet-Shaheds te bestrijden: de Geran-3, Geran-4 en Geran-5, naast de tragere propeller-Shahed-131. Het toestel meet ongeveer 1,5 bij 1,7 meter, is gebouwd uit lich…",
-       "enSummary": "Ukraine's Defense Forces have fielded the Alexa Spatium, a jet-powered interceptor drone built specifically to counter Russia's fast jet-powered Shahed-type drones — the Geran-3, Geran-4 and Geran-5 — as well as the slower propeller-driven Shahed-131. The airframe measures roughly 1.5 by 1.7 meters, is built from ligh…",
-       "sourceUrl": "https://defence-blog.com/ukraine-fields-new-jet-powered-interceptor-to-counter-russian-drones",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
       }
      ]
     }
@@ -1387,7 +1239,7 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 11,
+     "total": 9,
      "signalCount": 6,
      "entries": [
       {
@@ -1761,123 +1613,9 @@
     "sa15": {
      "name": "Tor-M2 (SA-15)",
      "nameEn": "Tor-M2 (SA-15)",
-     "total": 10,
-     "signalCount": 4,
+     "total": 2,
+     "signalCount": 1,
      "entries": [
-      {
-       "id": "e-20260825-08",
-       "title": "Finland's Patria to Partner With Ukraine's General Cherry on Drone Production",
-       "titleNl": "Fins defensiebedrijf Patria en Oekraïens dronebedrijf General Cherry sluiten intentieverklaring voor droneproductie in Finland",
-       "category": "org",
-       "topics": [
-        "drones",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T14:45:18.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE. Op 24 augustus 2026 meldde Defense News dat het Finse defensiebedrijf Patria een intentieverklaring (letter of intent) heeft ondertekend met het Oekraïense dronebedrijf General Cherry om samen onbemande systemen te ontwikkelen en droneproductie in Finland op te zetten. General Cherry, mede opgericht doo…",
-       "enSummary": "On 24 August 2026, Defense News reported that Finnish defense manufacturer Patria has signed a letter of intent with Ukrainian drone maker General Cherry to jointly develop unmanned systems and establish drone production in Finland. General Cherry, co-founded by Stanislav Hryshyn, makes one-way FPV strike drones and i…",
-       "sourceUrl": "https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260825-06",
-       "title": "France Accelerates Missile Deliveries as UK Enables Ukraine to Build Domestic Storm Shadow/SCALP Missile Production",
-       "titleNl": "Frankrijk versnelt raketleveringen terwijl VK Oekraïne in staat stelt eigen Storm Shadow/SCALP-raketproductie op te zetten",
-       "category": "org",
-       "topics": [
-        "missiles",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-22T15:26:09.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "Op 22 augustus 2026 beloofde de Franse president Emmanuel Macron, na een bijna twee uur durend telefoongesprek met president Volodymyr Zelensky, de levering van raketten en luchtafweersystemen aan Oekraïne te versnellen — met name \"interceptors\". Macron bevestigde daarbij opnieuw Frankrijks bereidheid om Oekraïne lice…",
-       "enSummary": "On 22 August 2026, French President Emmanuel Macron pledged — after a nearly two-hour phone call with President Volodymyr Zelensky — to speed up deliveries of missiles and air-defense equipment to Ukraine, specifically \"interceptors.\" Macron reaffirmed France's readiness to license Ukraine to produce, on its own soil,…",
-       "sourceUrl": "https://kyivindependent.com/france-to-speed-up-missile-deliveries-to-ukraine-amid-critical-air-defense-shortage/",
-       "sourceCount": 4,
-       "signals": [
-        "variant",
-        "deploy",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260824-13",
-       "title": "Danish and Russian Drones Observe Each Other in Close Encounter Over Baltic Sea",
-       "titleNl": "Deense en Russische drones observeren elkaar bij close encounter boven de Baltische Zee",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "naval-drones",
-        "navy"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T13:13:32.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Op 25 juni 2026 vond zo'n 30 kilometer ten zuidoosten van het Deense eiland Bornholm een opmerkelijke confrontatie plaats tussen Deense en Russische onbemande systemen. Het Deense zeedrone-startup Stormborn testte zijn onbemand oppervlaktevaartuig 'Stormborn X-Wave', uitgerust met radar- en sonarapparatuur van de Deen…",
-       "enSummary": "On 25 June 2026, roughly 30 kilometers southeast of the Danish island of Bornholm, a notable confrontation took place between Danish and Russian unmanned systems. Danish sea-drone startup Stormborn was testing its unmanned surface vessel 'Stormborn X-Wave', fitted with radar and sonar equipment from Danish defense man…",
-       "sourceUrl": "https://defence-blog.com/danish-and-russian-drones-observe-each-other-in-baltic-sea",
-       "sourceCount": 1,
-       "signals": [
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260729-06",
-       "title": "Ukraine's command shake-up widens: Fedorov cites 'ideological conflict' with Syrskyi, delayed mobilisation reform, new deputy ministers, NATO awaits Drapatyi meeting",
-       "titleNl": "Oekraïense commandowissel breidt uit: Fedorov spreekt van 'ideologisch conflict' met Syrsky, vertraagde mobilisatiehervorming, nieuwe plaatsvervangend ministers, NAVO wacht op ontmoeting met Drapatyi",
-       "category": "org",
-       "topics": [
-        "command",
-        "mobilization"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-29T16:49:36.000Z",
-       "updatedAt": "2026-08-01T21:00:00.000Z",
-       "nlSummary": "De Oekraïense generale staf voert onder de nieuw aangestelde opperbevelhebber Mykhailo Drapatyi een leger-breed onderzoek uit naar de verdeling van personeel over brigades, regimenten en legerkorpsen, met als doel scheve bemanning tussen front- en achterwaartse eenheden bloot te leggen en te verhelpen. Het is een van…",
-       "enSummary": "Ukraine's General Staff, under newly appointed Commander-in-Chief Mykhailo Drapatyi, is carrying out a force-wide review of how personnel is distributed across brigades, regiments and corps, aiming to expose and correct staffing imbalances between front-line and rear/support units. It is one of Drapatyi's first substa…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/29/ukraines-army-has-some-brigades-starved-of-soldiers-and-others-overstaffed-new-commander-is-now-auditing-why",
-       "sourceCount": 8,
-       "signals": []
-      },
-      {
-       "id": "e-20260729-s04",
-       "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
-       "titleNl": "«Rubicon», «Lancets» en zwermen FPV's: hoe de Russen de richting Pokrovsk bestormen",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-29T06:41:06.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Sergeant Oleksiy Hodzenko, woordvoerder van het onbemande-systemenbataljon \"Korsar\" van de Oekraïense 38e Aparte Brigade Mariniers (vernoemd naar hetman Petro Sahaidatsjny), beschreef de gevechten in de richting Pokrovsk tijdens een uitzending van Armiya TV op 29 juli 2026. Volgens hem blijven Russische troepen aanval…",
-       "enSummary": "Sergeant Oleksiy Hodzenko, spokesman for the \"Korsar\" unmanned systems battalion of Ukraine's 38th Separate Marine Infantry Brigade (named after Hetman Petro Sahaidachny), described fighting in the Pokrovsk direction in a broadcast on Army TV on 29 July 2026. He said Russian forces continue attacking with small infant…",
-       "sourceUrl": "https://armyinform.com.ua/2026/07/29/%c2%abprosochuyutsya-i-perevazhno-vmyrayut%c2%bb-morpihy-rozpovily-yak-rosiyany-shturmuyut-pokrovskyj-napryamok",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
-      },
       {
        "id": "e-20260731-s02",
        "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
@@ -1897,6 +1635,28 @@
        "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
        "sourceCount": 1,
        "signals": []
+      },
+      {
+       "id": "e-20260722-s02",
+       "title": "Ukraine Destroys Tor-M2 System, Hits Buk-M1 Units, and Five russian Radars in Coordinated Drone Strikes",
+       "titleNl": "Oekraïne vernietigt Tor-M2-systeem, raakt Buk-M1-eenheden en vijf Russische radars bij gecoördineerde drone-aanvallen",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-22T06:00:00.000Z",
+       "updatedAt": "2026-07-22T07:30:00.000Z",
+       "nlSummary": "Volgens Defense Express hebben operators van de Oekraïense Unmanned Systems Forces — specifiek het 1st Separate Center in samenwerking met het Deep Strike Center — in de nacht van 20 juli 2026 een gecoördineerde reeks drone-aanvallen uitgevoerd tegen Russische luchtverdedigings- en radarinfrastructuur. Daarbij zou bij…",
+       "enSummary": "According to Defense Express, operators from Ukraine's Unmanned Systems Forces — specifically the 1st Separate Center working with the Deep Strike Center — carried out a coordinated overnight drone-strike campaign on 20 July 2026 against Russian air-defense and radar infrastructure. The report claims a Tor-M2 short-ra…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk1UWXNJQl9LMmEzQURpUmxRckkyc3VCYk1QZnJyVHJ2TVJGM2JDZ0lyX1NNYndhbXJwZ3dDNzRSM1lhNEE0UkZ4XzRvNDBpWWduM0Rfc3hMYVd4RGVnS2xiTm9QZndtWDZVSFdrS0xubUYtQ3c3NHNnWl9OM1pZa0pjbFJPbmVMRWZRWWdCOERnZ1ZacjlKVlRjVWNlUW9zOE56djRIRUtMaDdURDRRb285U3F0LXhqUThqd1VfSWhreFg3UmZtbTZfOTYtM1Z0VWZKTE5mZzQwQVV2Ym5BQmZfQQ?oc=5",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
       }
      ]
     },
@@ -2154,35 +1914,6 @@
       }
      ]
     },
-    "r96l6": {
-     "name": "96L6",
-     "nameEn": "96L6",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20260727-05",
-       "title": "Ukrainian intelligence destroys Russian S-400 launcher and radar in occupied Crimea",
-       "titleNl": "Oekraïense inlichtingendienst vernietigt Russische S-400-lanceerinstallatie en radar op bezette Krim",
-       "category": "weapon",
-       "topics": [
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "Oekraïne's Defence Intelligence (DIU, ook bekend als GUR) claimt in de nacht van 25 op 26 juli 2026 een Russisch S-400 Triumf-luchtafweersysteem te hebben geraakt op de bezette Krim. Volgens een persbericht van de DIU, gemeld door Ukrainska Pravda, hebben operators van de 'Unmanned Systems Department' van de dienst he…",
-       "enSummary": "Ukraine's Defence Intelligence (DIU, also known as GUR) claims to have struck a Russian S-400 Triumf air defence system in occupied Crimea on the night of 25-26 July 2026. According to a DIU press release reported by Ukrainska Pravda, operators from the agency's Unmanned Systems Department tracked down the system and…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/27/8046035",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      }
-     ]
-    },
     "murmansk": {
      "name": "Murmansk-BN",
      "nameEn": "Murmansk-BN",
@@ -2249,9 +1980,32 @@
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260826-01",
+       "title": "Ukraine mapped Russia's Su-35 down to individual control units — and found 22 unsanctioned firms",
+       "titleNl": "Oekraïne bracht de Su-35 van Rusland tot op onderdelenniveau in kaart — en vond 22 niet-gesanctioneerde bedrijven",
+       "category": "weapon",
+       "topics": [
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-25T14:30:23.000Z",
+       "updatedAt": "2026-08-26T10:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) heeft de volledige toeleveringsketen van het Russische Su-35S-gevechtsvliegtuig in kaart gebracht en daarbij 79 bedrijven geïdentificeerd die betrokken zijn bij de productie — van motoren en brandstofsystemen tot besturings-, communicatie- en geleidingssystemen, het ele…",
+       "enSummary": "Ukraine's military intelligence directorate (HUR) has mapped the full supply chain behind Russia's Su-35S fighter jet, identifying 79 companies involved in its production — spanning engines and fuel systems, control, communications and guidance systems, the aircraft's electronic warfare suite, and the missiles it carr…",
+       "sourceUrl": "https://euromaidanpress.com/2026/08/25/ukraine-mapped-russias-su-35-down-to-individual-control-units-and-found-22-firms-nobody-has-sanctioned",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260722-s05",
        "title": "Eurofighter Typhoon Tranche 4 Takes Flight, Giving Europe a Powerful New Rival to Russia's Su-35 and Su-57",
@@ -2279,9 +2033,32 @@
     "su34": {
      "name": "Su-34",
      "nameEn": "Su-34",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260826-01",
+       "title": "Ukraine mapped Russia's Su-35 down to individual control units — and found 22 unsanctioned firms",
+       "titleNl": "Oekraïne bracht de Su-35 van Rusland tot op onderdelenniveau in kaart — en vond 22 niet-gesanctioneerde bedrijven",
+       "category": "weapon",
+       "topics": [
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-25T14:30:23.000Z",
+       "updatedAt": "2026-08-26T10:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) heeft de volledige toeleveringsketen van het Russische Su-35S-gevechtsvliegtuig in kaart gebracht en daarbij 79 bedrijven geïdentificeerd die betrokken zijn bij de productie — van motoren en brandstofsystemen tot besturings-, communicatie- en geleidingssystemen, het ele…",
+       "enSummary": "Ukraine's military intelligence directorate (HUR) has mapped the full supply chain behind Russia's Su-35S fighter jet, identifying 79 companies involved in its production — spanning engines and fuel systems, control, communications and guidance systems, the aircraft's electronic warfare suite, and the missiles it carr…",
+       "sourceUrl": "https://euromaidanpress.com/2026/08/25/ukraine-mapped-russias-su-35-down-to-individual-control-units-and-found-22-firms-nobody-has-sanctioned",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260823-s01",
        "title": "Germany's Cobra 600 Jet Drone Completes First Flight, Armed With IRIS-T Missile, Creators Hope It Can Shoot Down russian Su-34 KAB Carriers",
@@ -2636,9 +2413,31 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 14,
+     "total": 15,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260826-05",
+       "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
+       "titleNl": "Russische aanvalsdrones jammen nu de goedkope interceptors die hen moeten neerhalen",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-25T16:39:38.000Z",
+       "updatedAt": "2026-08-26T10:00:00.000Z",
+       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, heeft Rusland een deel van zijn Geran-drones (de Russische variant van de Iraanse Shahed) uitgerust met een EW-jammer die specifiek is gericht tegen Oekraïense interceptordrones. Het systeem luistert naar het video-signa…",
+       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to Ukraine's president on defense technology, Russia has fitted some of its Geran drones (its version of Iran's Shahed) with an electronic-warfare jammer specifically aimed at Ukrainian interceptor drones. The system listens for the video signal of an approaching int…",
+       "sourceUrl": "https://euromaidanpress.com/2026/08/25/russias-attack-drones-now-jam-the-cheap-interceptors-sent-to-kill-them",
+       "sourceCount": 1,
+       "signals": [
+        "counter"
+       ]
+      },
       {
        "id": "e-20260824-11",
        "title": "Ukraine's GPS-Free Beacon Network Guides Drones Hunting Russian Spy Aircraft Over the Black Sea",
@@ -2753,31 +2552,6 @@
        "sourceCount": 2,
        "signals": [
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260801-02",
-       "title": "Russia Strikes US-Backed Drone Factory and Multiple Kyiv Arms Plants",
-       "titleNl": "Rusland treft door VS gefinancierde dronefabriek en meerdere wapenfabrieken in Kyiv",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-31T09:30:23.000Z",
-       "updatedAt": "2026-08-01T21:00:00.000Z",
-       "nlSummary": "Volgens The Guardian (via Meduza, 31 juli) raakte een Russische aanval op 26 juli een vestiging in het zuidwesten van Kyiv van Terminal Autonomy, een in 2023 in de Amerikaanse staat Delaware opgericht bedrijf dat lange-afstandsdrones met AI-navigatie en storingsbestendige besturing bouwt. Het Russische ministerie van…",
-       "enSummary": "According to The Guardian (via Meduza, July 31), a Russian strike on July 26 hit a site in southwestern Kyiv belonging to Terminal Autonomy, a US company founded in Delaware in 2023 that builds long-range drones with AI-assisted, jamming-resistant guidance. Russia's Defense Ministry acknowledged in its daily summary t…",
-       "sourceUrl": "https://meduza.io/en/news/2026/07/31/the-guardian-russia-destroyed-american-drone-factory-in-attack-on-kyiv",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "scale",
-        "counter"
        ]
       }
      ]
