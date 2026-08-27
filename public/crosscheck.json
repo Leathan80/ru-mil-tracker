@@ -1,11 +1,11 @@
 {
- "updated": "2026-08-26T13:08:12.851Z",
- "analysisUpdated": "2026-08-26T10:00:00.000Z",
+ "updated": "2026-08-27T06:04:58.403Z",
+ "analysisUpdated": "2026-08-27T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 138,
+  "entriesConsidered": 149,
   "cardsWithHits": 38,
-  "matches": 157
+  "matches": 163
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -407,9 +407,31 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 7,
-     "signalCount": 6,
+     "total": 8,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260827-s01",
+       "title": "Ukraine's General Staff claims deep strikes on a MiG-29 in Rostov Oblast plus a 'Kasta' radar and EW systems in Crimea and Donbas",
+       "titleNl": "Oekraïense Generale Staf claimt diepe aanvallen op een MiG-29 in de oblast Rostov plus een 'Kasta'-radar en EW-systemen op de Krim en in de Donbas",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "air-defense",
+        "ew",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-08-25T00:00:00.000Z",
+       "updatedAt": "2026-08-27T09:00:00.000Z",
+       "nlSummary": "In twee opeenvolgende dagrapporten (24–25 en 25–26 augustus 2026) claimt de Oekraïense Generale Staf een reeks diepe aanvallen op Russische militaire doelen op bezet gebied en in Rusland zelf. Het meest opvallend is een treffer op een MiG-29-gevechtsvliegtuig op het vliegveld Millerovo in de oblast Rostov, volgens de…",
+       "enSummary": "In two consecutive daily strike reports (covering 24–25 and 25–26 August 2026), Ukraine's General Staff claims a series of deep strikes against Russian military targets on occupied territory and inside Russia. The headline claim is a hit on a MiG-29 fighter at Millerovo airfield in Russia's Rostov Oblast, which the Ge…",
+       "sourceUrl": "https://armyinform.com.ua/2026/08/25/syly-oborony-urazyly-vynyshhuvach-mig-29-u-rostovskij-oblasti-kompleksy-reb-ta-sklady-okupantiv-genshtab",
+       "sourceCount": 2,
+       "signals": []
+      },
       {
        "id": "e-20260825-04",
        "title": "Ukraine's Air Defence Downs Oniks Anti-Ship Missile and 113 Other Russian Assets, Strikes Recorded at 22 Locations",
@@ -529,38 +551,39 @@
         "scale",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260729-s04",
-       "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
-       "titleNl": "«Rubicon», «Lancets» en zwermen FPV's: hoe de Russen de richting Pokrovsk bestormen",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-29T06:41:06.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Sergeant Oleksiy Hodzenko, woordvoerder van het onbemande-systemenbataljon \"Korsar\" van de Oekraïense 38e Aparte Brigade Mariniers (vernoemd naar hetman Petro Sahaidatsjny), beschreef de gevechten in de richting Pokrovsk tijdens een uitzending van Armiya TV op 29 juli 2026. Volgens hem blijven Russische troepen aanval…",
-       "enSummary": "Sergeant Oleksiy Hodzenko, spokesman for the \"Korsar\" unmanned systems battalion of Ukraine's 38th Separate Marine Infantry Brigade (named after Hetman Petro Sahaidachny), described fighting in the Pokrovsk direction in a broadcast on Army TV on 29 July 2026. He said Russian forces continue attacking with small infant…",
-       "sourceUrl": "https://armyinform.com.ua/2026/07/29/%c2%abprosochuyutsya-i-perevazhno-vmyrayut%c2%bb-morpihy-rozpovily-yak-rosiyany-shturmuyut-pokrovskyj-napryamok",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
       }
      ]
     },
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260827-09",
+       "title": "OSINT: damaged Black Sea Fleet vessels sheltering in Sevastopol's bays",
+       "titleNl": "OSINT: beschadigde schepen van de Zwarte Zeevloot in de baaien van Sevastopol",
+       "category": "ttp",
+       "topics": [
+        "navy",
+        "naval-drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-26T00:00:00.000Z",
+       "updatedAt": "2026-08-27T09:00:00.000Z",
+       "nlSummary": "Ukrajinska Pravda meldt, op basis van het Krim-Telegramkanaal Krymsky Veter (\"Crimean Wind\"), dat meerdere beschadigde schepen van de Russische Zwarte Zeevloot zijn gefotografeerd terwijl ze beschutting zoeken in de baaien van Sevastopol. Een raketkorvet van Project 1241 (Molniya-klasse) werd gezien in de Sevastopol-b…",
+       "enSummary": "Ukrainska Pravda, citing the Crimean Telegram channel Krymsky Veter (\"Crimean Wind\"), reports that several damaged Black Sea Fleet vessels have been photographed sheltering in Sevastopol's bays. A Project 1241 Molniya-class missile corvette was seen in Sevastopol Bay with part of its superstructure missing and draped…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/26/8050406",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260731-03",
        "title": "Russian MoD source claims destruction of 120 Ukrainian UAV control posts near Kharkiv",
@@ -1862,9 +1885,31 @@
     "kasta": {
      "name": "Kasta-2E2",
      "nameEn": "Kasta-2E2",
-     "total": 2,
+     "total": 3,
      "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260827-s01",
+       "title": "Ukraine's General Staff claims deep strikes on a MiG-29 in Rostov Oblast plus a 'Kasta' radar and EW systems in Crimea and Donbas",
+       "titleNl": "Oekraïense Generale Staf claimt diepe aanvallen op een MiG-29 in de oblast Rostov plus een 'Kasta'-radar en EW-systemen op de Krim en in de Donbas",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "air-defense",
+        "ew",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-08-25T00:00:00.000Z",
+       "updatedAt": "2026-08-27T09:00:00.000Z",
+       "nlSummary": "In twee opeenvolgende dagrapporten (24–25 en 25–26 augustus 2026) claimt de Oekraïense Generale Staf een reeks diepe aanvallen op Russische militaire doelen op bezet gebied en in Rusland zelf. Het meest opvallend is een treffer op een MiG-29-gevechtsvliegtuig op het vliegveld Millerovo in de oblast Rostov, volgens de…",
+       "enSummary": "In two consecutive daily strike reports (covering 24–25 and 25–26 August 2026), Ukraine's General Staff claims a series of deep strikes against Russian military targets on occupied territory and inside Russia. The headline claim is a hit on a MiG-29 fighter at Millerovo airfield in Russia's Rostov Oblast, which the Ge…",
+       "sourceUrl": "https://armyinform.com.ua/2026/08/25/syly-oborony-urazyly-vynyshhuvach-mig-29-u-rostovskij-oblasti-kompleksy-reb-ta-sklady-okupantiv-genshtab",
+       "sourceCount": 2,
+       "signals": []
+      },
       {
        "id": "e-20260823-15",
        "title": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at Millerovo",
@@ -1980,9 +2025,30 @@
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260827-08",
+       "title": "Ukraine names 100+ Russian ballistic-missile producers, seeks blanket allied sanctions after Iskander teardown finds 62 US parts",
+       "titleNl": "Oekraïne noemt 100+ Russische ballistische-raketproducenten en wil sancties tegen allen, na Iskander-teardown met 62 Amerikaanse onderdelen",
+       "category": "weapon",
+       "topics": [
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-26T22:02:31.000Z",
+       "updatedAt": "2026-08-27T09:00:00.000Z",
+       "nlSummary": "Presidentieel sanctiecommissaris Vladyslav Vlasjoek maakte bekend dat een Iskander die Rusland op 10 juli 2026 op oblast Kyiv afvuurde meer dan 140 buitenlandse componenten bevatte, waarvan 62 van Amerikaanse oorsprong. De rest kwam onder meer uit Zwitserland, Duitsland, Taiwan, China en Japan, naast Russische en Wit-…",
+       "enSummary": "Presidential sanctions commissioner Vladyslav Vlasiuk disclosed that an Iskander Russia fired at Kyiv Oblast on 10 July 2026 contained more than 140 foreign components, 62 of them US-origin, with the remainder traced to Switzerland, Germany, Taiwan, China and Japan alongside Russian- and Belarusian-made parts. The com…",
+       "sourceUrl": "https://euromaidanpress.com/2026/08/27/iskander-russia-fired-at-kyiv-oblast-in-july-held-62-american-parts-ukraine-has-now-named-more-than-100-russian-ballistics-producers-and-wants-its-allies-to-sanction-all-of-them",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260826-01",
        "title": "Ukraine mapped Russia's Su-35 down to individual control units — and found 22 unsanctioned firms",
@@ -2146,9 +2212,31 @@
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 6,
-     "signalCount": 6,
+     "total": 7,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260827-s01",
+       "title": "Ukraine's General Staff claims deep strikes on a MiG-29 in Rostov Oblast plus a 'Kasta' radar and EW systems in Crimea and Donbas",
+       "titleNl": "Oekraïense Generale Staf claimt diepe aanvallen op een MiG-29 in de oblast Rostov plus een 'Kasta'-radar en EW-systemen op de Krim en in de Donbas",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "air-defense",
+        "ew",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-08-25T00:00:00.000Z",
+       "updatedAt": "2026-08-27T09:00:00.000Z",
+       "nlSummary": "In twee opeenvolgende dagrapporten (24–25 en 25–26 augustus 2026) claimt de Oekraïense Generale Staf een reeks diepe aanvallen op Russische militaire doelen op bezet gebied en in Rusland zelf. Het meest opvallend is een treffer op een MiG-29-gevechtsvliegtuig op het vliegveld Millerovo in de oblast Rostov, volgens de…",
+       "enSummary": "In two consecutive daily strike reports (covering 24–25 and 25–26 August 2026), Ukraine's General Staff claims a series of deep strikes against Russian military targets on occupied territory and inside Russia. The headline claim is a hit on a MiG-29 fighter at Millerovo airfield in Russia's Rostov Oblast, which the Ge…",
+       "sourceUrl": "https://armyinform.com.ua/2026/08/25/syly-oborony-urazyly-vynyshhuvach-mig-29-u-rostovskij-oblasti-kompleksy-reb-ta-sklady-okupantiv-genshtab",
+       "sourceCount": 2,
+       "signals": []
+      },
       {
        "id": "e-20260825-s03",
        "title": "Polish Ministry of National Defense Admits Continued MiG-29 Operation Is Dangerous Amid Stalled Drone-Tech Exchange with Ukraine",
@@ -2265,28 +2353,6 @@
        "signals": [
         "loss",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260722-s03",
-       "title": "Fighters from Black Forest unit struck MiG-29 and Pantsir-S1 at Khalino airfield in the Kursk region",
-       "titleNl": "Vechters van eenheid 'Black Forest' raakten MiG-29 en Pantsir-S1 op vliegveld Chalino in oblast Koersk",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Censor.NET (EN) meldt dat vechters van de Oekraïense eenheid 'Black Forest' — elders geïdentificeerd als de 15e Aparte Artillerieverkenningsbrigade 'Black Forest' van de Oekraïense Landmacht — een Russisch MiG-29-jachtvliegtuig en een Pantsir-S1-luchtafweersysteem raakten op het vliegveld Chalino in oblast Koersk, cir…",
-       "enSummary": "Censor.NET (EN) reports that fighters from Ukraine's 'Black Forest' unit — identified elsewhere as the 15th Separate Artillery Reconnaissance Brigade 'Black Forest' of the Ukrainian Ground Forces — struck a Russian MiG-29 fighter jet and a Pantsir-S1 gun/missile air-defense system at the Khalino airfield in Kursk Obla…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSzRXMnVhd3JCN0lYRUU4Slk1S2VHMWxkMmNWd2ZxX29kVU9yVG1WRVFYUEVLYkZibm5Vb0JIZ1pVRXZRcE54Rm1HRUtYdlFZdGVjQUdaSXlYZlUzOE5Zd0tsV0dDaUVyb0V1QVotOElSOW8yeGlpZDAzSmhSRmlxUUl6enRobkNQY1RYOU01b0lscEFKb3VXOVR0ZmRodWxENWZmSU1OeF9IU19OZFpLWEhocE5aWkJDU1NSNlJSWGd3UWhsZW5xaldpYXhKRkFDV0ZySkxCRQ?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -2413,8 +2479,8 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 15,
-     "signalCount": 6,
+     "total": 16,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260826-05",
@@ -2437,6 +2503,28 @@
        "signals": [
         "counter"
        ]
+      },
+      {
+       "id": "e-20260827-s01",
+       "title": "Ukraine's General Staff claims deep strikes on a MiG-29 in Rostov Oblast plus a 'Kasta' radar and EW systems in Crimea and Donbas",
+       "titleNl": "Oekraïense Generale Staf claimt diepe aanvallen op een MiG-29 in de oblast Rostov plus een 'Kasta'-radar en EW-systemen op de Krim en in de Donbas",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "air-defense",
+        "ew",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-08-25T00:00:00.000Z",
+       "updatedAt": "2026-08-27T09:00:00.000Z",
+       "nlSummary": "In twee opeenvolgende dagrapporten (24–25 en 25–26 augustus 2026) claimt de Oekraïense Generale Staf een reeks diepe aanvallen op Russische militaire doelen op bezet gebied en in Rusland zelf. Het meest opvallend is een treffer op een MiG-29-gevechtsvliegtuig op het vliegveld Millerovo in de oblast Rostov, volgens de…",
+       "enSummary": "In two consecutive daily strike reports (covering 24–25 and 25–26 August 2026), Ukraine's General Staff claims a series of deep strikes against Russian military targets on occupied territory and inside Russia. The headline claim is a hit on a MiG-29 fighter at Millerovo airfield in Russia's Rostov Oblast, which the Ge…",
+       "sourceUrl": "https://armyinform.com.ua/2026/08/25/syly-oborony-urazyly-vynyshhuvach-mig-29-u-rostovskij-oblasti-kompleksy-reb-ta-sklady-okupantiv-genshtab",
+       "sourceCount": 2,
+       "signals": []
       },
       {
        "id": "e-20260824-11",
@@ -2530,28 +2618,6 @@
        "signals": [
         "deploy",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260824-12",
-       "title": "EA-37B Compass Call Flies Along Kaliningrad Border in NATO EW Mission",
-       "titleNl": "EA-37B Compass Call vliegt langs grens Kaliningrad tijdens NAVO EW-missie",
-       "category": "ttp",
-       "topics": [
-        "ew",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-18T00:00:00.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Op 18 augustus 2026 vloog een Amerikaanse EA-37B Compass Call, met de callsign SHOCK55, bijna twee uur lang orbits in Pools luchtruim vlak langs de grens met de Russische exclave Kaliningrad. Het toestel maakte deel uit van een groter, opvallend complex NAVO-luchtpakket dat naast de EA-37B ook een NAVO E-3A AWACS, een…",
-       "enSummary": "On August 18, 2026, a U.S. Air Force EA-37B Compass Call, callsign SHOCK55, flew orbits for nearly two hours in Polish airspace right along the border of the Russian exclave of Kaliningrad. The aircraft was part of a larger, unusually complex NATO air package that also included a NATO E-3A AWACS, a U.S. Army ARTEMIS r…",
-       "sourceUrl": "https://www.twz.com/air/ea-37b-flew-along-kaliningrad-border-as-part-of-specialized-recon-ew-flight-package",
-       "sourceCount": 2,
-       "signals": [
-        "deploy"
        ]
       }
      ]
