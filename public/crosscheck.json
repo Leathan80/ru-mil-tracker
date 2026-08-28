@@ -1,11 +1,11 @@
 {
- "updated": "2026-08-27T06:04:58.403Z",
- "analysisUpdated": "2026-08-27T09:00:00.000Z",
+ "updated": "2026-08-28T05:38:15.800Z",
+ "analysisUpdated": "2026-08-28T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 149,
-  "cardsWithHits": 38,
-  "matches": 163
+  "entriesConsidered": 140,
+  "cardsWithHits": 36,
+  "matches": 148
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -26,6 +26,30 @@
      "total": 14,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260828-03",
+       "title": "Video shows Ukrainian drone strike on Nebo-U early-warning radar at Millerovo airfield",
+       "titleNl": "Video toont Oekraïense droneaanval op Nebo-U-radar voor vroege waarschuwing bij vliegveld Millerovo",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-27T16:16:00.000Z",
+       "updatedAt": "2026-08-28T09:00:00.000Z",
+       "nlSummary": "Op 27 augustus 2026 publiceerde de Engelstalige editie van Ukrajinska Pravda video- en fotobeelden die volgens Oekraïense bronnen een droneaanval tonen op een Nebo-U-radar (55Zj6) op het militaire vliegveld Millerovo in de Russische oblast Rostov. De aanval wordt opgeëist door de Oekraïense Onbemande Systeemtroepen, m…",
+       "enSummary": "On 27 August 2026 the English-language edition of Ukrainska Pravda published video and photo material that, according to Ukrainian sources, shows a drone strike on a Nebo-U (55Zh6) radar at the Millerovo military airfield in Russia's Rostov Oblast. The attack is claimed by Ukraine's Unmanned Systems Forces, specifical…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/27/8050644/",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260826-05",
        "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
@@ -146,30 +170,6 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260823-02",
-       "title": "Ukraine strikes Russian naval drone infrastructure, Geran/Gerbera relay and radar in Crimea",
-       "titleNl": "Oekraïense aanval op Russische marinedrone-infrastructuur, Geran/Gerbera-relaisstation en radar op de Krim",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "naval-drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-23T10:13:00.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïense strijdkrachten hebben in de nacht van 22 op 23 augustus meerdere doelen getroffen op de bezette Krim. In Chornomorske werden een lanceer- en opslaglocatie voor onbemande zeevaartuigen (marinedrones) en een grondrelaisstation voor de aansturing van Geran- en Gerbera-aanvalsdrones uitgeschakeld. Dit relaissta…",
-       "enSummary": "Ukraine's Armed Forces struck several Russian military targets in occupied Crimea overnight on 22-23 August. In Chornomorske, a launch and storage site for uncrewed surface vessels (naval drones) was hit, along with a ground relay station used to control Geran and Gerbera attack drones — a key node in the network Russ…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/23/8049922",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -274,8 +274,8 @@
     "lancet": {
      "name": "Lancet-1 / Lancet-3",
      "nameEn": "Lancet-1 / Lancet-3",
-     "total": 3,
-     "signalCount": 3,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20260729-s04",
@@ -298,29 +298,6 @@
         "loss",
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260728-03",
-       "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
-       "titleNl": "Rusland standaardiseert geleidingssystemen van Gerbera Seeker- en Geran Seeker-drones",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense vrijwilliger Ihor Sjkilny (bekend als 'Zampotech Omelianovitsj', gepubliceerd op Facebook) heeft Rusland de geleidings-, communicatie- en navigatiesystemen van de Gerbera Seeker en de Geran Seeker gestandaardiseerd. De Gerbera Seeker behoudt het casco, de vluchtcomputer en de servo's van de origi…",
-       "enSummary": "According to Ukrainian volunteer Ihor Shkilny (known online as 'Zampotech Omelianovich', posting on Facebook), Russia has standardized the guidance, communication and navigation systems of the Gerbera Seeker and Geran Seeker drones. The Gerbera Seeker keeps the airframe, flight controller and servos of the original Ge…",
-       "sourceUrl": "https://militarnyi.com/en/news/rus-standard-guidance-gerbera-geran-seeker/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "scale",
-        "counter"
        ]
       },
       {
@@ -352,8 +329,8 @@
     "orlan": {
      "name": "Orlan-10",
      "nameEn": "Orlan-10",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20260824-11",
@@ -378,36 +355,13 @@
         "perf",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260728-03",
-       "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
-       "titleNl": "Rusland standaardiseert geleidingssystemen van Gerbera Seeker- en Geran Seeker-drones",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense vrijwilliger Ihor Sjkilny (bekend als 'Zampotech Omelianovitsj', gepubliceerd op Facebook) heeft Rusland de geleidings-, communicatie- en navigatiesystemen van de Gerbera Seeker en de Geran Seeker gestandaardiseerd. De Gerbera Seeker behoudt het casco, de vluchtcomputer en de servo's van de origi…",
-       "enSummary": "According to Ukrainian volunteer Ihor Shkilny (known online as 'Zampotech Omelianovich', posting on Facebook), Russia has standardized the guidance, communication and navigation systems of the Gerbera Seeker and Geran Seeker drones. The Gerbera Seeker keeps the airframe, flight controller and servos of the original Ge…",
-       "sourceUrl": "https://militarnyi.com/en/news/rus-standard-guidance-gerbera-geran-seeker/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "scale",
-        "counter"
-       ]
       }
      ]
     },
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 8,
+     "total": 7,
      "signalCount": 5,
      "entries": [
       {
@@ -632,42 +586,11 @@
       }
      ]
     },
-    "zala-z16": {
-     "name": "ZALA Z-16",
-     "nameEn": "ZALA Z-16",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20260728-03",
-       "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
-       "titleNl": "Rusland standaardiseert geleidingssystemen van Gerbera Seeker- en Geran Seeker-drones",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense vrijwilliger Ihor Sjkilny (bekend als 'Zampotech Omelianovitsj', gepubliceerd op Facebook) heeft Rusland de geleidings-, communicatie- en navigatiesystemen van de Gerbera Seeker en de Geran Seeker gestandaardiseerd. De Gerbera Seeker behoudt het casco, de vluchtcomputer en de servo's van de origi…",
-       "enSummary": "According to Ukrainian volunteer Ihor Shkilny (known online as 'Zampotech Omelianovich', posting on Facebook), Russia has standardized the guidance, communication and navigation systems of the Gerbera Seeker and Geran Seeker drones. The Gerbera Seeker keeps the airframe, flight controller and servos of the original Ge…",
-       "sourceUrl": "https://militarnyi.com/en/news/rus-standard-guidance-gerbera-geran-seeker/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "scale",
-        "counter"
-       ]
-      }
-     ]
-    },
     "orion": {
      "name": "Orion",
      "nameEn": "Orion",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20260823-15",
@@ -692,30 +615,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260729-02",
-       "title": "Russia Fields Ground-Based Launcher for S8000 Banderol Missile, Ending Reliance on Scarce Orion Drone",
-       "titleNl": "Rusland introduceert grondgebaseerde lanceerinrichting voor S8000 Banderol-raket, einde aan afhankelijkheid van schaarse Orion-drone",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-28T18:41:04.000Z",
-       "updatedAt": "2026-08-01T21:00:00.000Z",
-       "nlSummary": "Rusland heeft een grondgebaseerde lanceerinrichting ingevoerd voor de S8000 Banderol, een compacte, straalgedreven kruis-/glijraket die het al inzet bij gecombineerde aanvallen op Kyiv, en maakt daarmee een einde aan de afhankelijkheid van de schaarse Orion-verkennings-/aanvalsdrone — tot dusver het enige bevestigde l…",
-       "enSummary": "Russia has fielded a ground-based launcher for its S8000 Banderol, a compact jet-powered cruise/glide missile it already uses in combined strikes on Kyiv, ending its former reliance on the scarce Orion strike/reconnaissance drone — previously the missile's only confirmed launch platform, able to carry just one Bandero…",
-       "sourceUrl": "https://militarnyi.com/en/news/russian-s8000-banderol-missile-receives-ground-based-launcher/",
-       "sourceCount": 4,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -775,41 +674,10 @@
       }
      ]
     },
-    "supercam": {
-     "name": "Supercam",
-     "nameEn": "Supercam",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20260728-03",
-       "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
-       "titleNl": "Rusland standaardiseert geleidingssystemen van Gerbera Seeker- en Geran Seeker-drones",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense vrijwilliger Ihor Sjkilny (bekend als 'Zampotech Omelianovitsj', gepubliceerd op Facebook) heeft Rusland de geleidings-, communicatie- en navigatiesystemen van de Gerbera Seeker en de Geran Seeker gestandaardiseerd. De Gerbera Seeker behoudt het casco, de vluchtcomputer en de servo's van de origi…",
-       "enSummary": "According to Ukrainian volunteer Ihor Shkilny (known online as 'Zampotech Omelianovich', posting on Facebook), Russia has standardized the guidance, communication and navigation systems of the Gerbera Seeker and Geran Seeker drones. The Gerbera Seeker keeps the airframe, flight controller and servos of the original Ge…",
-       "sourceUrl": "https://militarnyi.com/en/news/rus-standard-guidance-gerbera-geran-seeker/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "scale",
-        "counter"
-       ]
-      }
-     ]
-    },
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 20,
+     "total": 19,
      "signalCount": 5,
      "entries": [
       {
@@ -1028,8 +896,8 @@
     "ew-spoof": {
      "name": "EW / spoofing tegen UAS",
      "nameEn": "EW / spoofing tegen UAS",
-     "total": 3,
-     "signalCount": 3,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20260824-13",
@@ -1051,29 +919,6 @@
        "sourceUrl": "https://defence-blog.com/danish-and-russian-drones-observe-each-other-in-baltic-sea",
        "sourceCount": 1,
        "signals": [
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260728-03",
-       "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
-       "titleNl": "Rusland standaardiseert geleidingssystemen van Gerbera Seeker- en Geran Seeker-drones",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense vrijwilliger Ihor Sjkilny (bekend als 'Zampotech Omelianovitsj', gepubliceerd op Facebook) heeft Rusland de geleidings-, communicatie- en navigatiesystemen van de Gerbera Seeker en de Geran Seeker gestandaardiseerd. De Gerbera Seeker behoudt het casco, de vluchtcomputer en de servo's van de origi…",
-       "enSummary": "According to Ukrainian volunteer Ihor Shkilny (known online as 'Zampotech Omelianovich', posting on Facebook), Russia has standardized the guidance, communication and navigation systems of the Gerbera Seeker and Geran Seeker drones. The Gerbera Seeker keeps the airframe, flight controller and servos of the original Ge…",
-       "sourceUrl": "https://militarnyi.com/en/news/rus-standard-guidance-gerbera-geran-seeker/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "scale",
         "counter"
        ]
       },
@@ -1105,7 +950,7 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 11,
+     "total": 9,
      "signalCount": 6,
      "entries": [
       {
@@ -1266,6 +1111,30 @@
      "signalCount": 6,
      "entries": [
       {
+       "id": "e-20260828-02",
+       "title": "Russia converts up to 17 S-400 launchers to fire RM-48U missiles in a surface-to-surface role against Ukraine — DIU",
+       "titleNl": "Rusland bouwt tot 17 S-400-lanceerinrichtingen om voor RM-48U-raketten in een grond-grondrol tegen Oekraïne — HUR",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-26T15:03:05.000Z",
+       "updatedAt": "2026-08-28T09:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR/DIU) heeft voor het eerst als officiële instantie openlijk verklaard dat Rusland tot 17 lanceerinrichtingen van het S-400-luchtverdedigingssysteem (NAVO-aanduiding SA-21) heeft omgebouwd om de RM-48U-raket in een grond-grondrol tegen Oekraïense doelen af te vuren. Volgen…",
+       "enSummary": "Ukraine's Defence Intelligence (DIU/HUR) has stated publicly, for the first time as an official institution, that Russia has converted up to 17 launchers of the S-400 air-defence system (NATO reporting name SA-21) to fire the RM-48U missile in a surface-to-surface (ground-attack) role against Ukrainian targets. The la…",
+       "sourceUrl": "https://militarnyi.com/en/news/russia-converted-up-to-17-s-400-launchers-for-strikes-on-ukraine-diu/",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
+      {
        "id": "e-20260824-01",
        "title": "North Korea Sends 400 Drone Operators to Kursk Region",
        "titleNl": "Noord-Korea stuurt 400 drone-operators naar Koersk-regio",
@@ -1386,27 +1255,6 @@
         "perf",
         "scale"
        ]
-      },
-      {
-       "id": "e-20260728-05",
-       "title": "Russia Builds Around 24 New Pantsir Towers in Expanded Air Defense Ring Around Moscow",
-       "titleNl": "Rusland bouwt circa 24 nieuwe Pantsir-torens in uitgebreide luchtafweerring rond Moskou",
-       "category": "weapon",
-       "topics": [
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "OSINT-onderzoeker 'jembob' heeft via satellietbeelden op X gedocumenteerd dat de afgelopen maanden rond Moskou circa 24 nieuwe torens zijn gebouwd voor de plaatsing van Pantsir-luchtafweersystemen (verhoogde platforms voor de raket-kanon-combinatie). Samen vormen ze een nieuwe verdedigingsring met een straal van ongev…",
-       "enSummary": "Satellite-imagery analysis published on X by open-source researcher 'jembob' indicates that roughly two dozen new towers for Pantsir air-defense systems have been built around Moscow over the past several months. Together they form a new defensive ring with a radius of about 40 kilometers around the Russian capital. I…",
-       "sourceUrl": "https://militarnyi.com/en/news/new-towers-built-around-moscow-for-pantsir/",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -1463,7 +1311,7 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 7,
+     "total": 6,
      "signalCount": 6,
      "entries": [
       {
@@ -1537,27 +1385,6 @@
        ]
       },
       {
-       "id": "e-20260728-05",
-       "title": "Russia Builds Around 24 New Pantsir Towers in Expanded Air Defense Ring Around Moscow",
-       "titleNl": "Rusland bouwt circa 24 nieuwe Pantsir-torens in uitgebreide luchtafweerring rond Moskou",
-       "category": "weapon",
-       "topics": [
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "OSINT-onderzoeker 'jembob' heeft via satellietbeelden op X gedocumenteerd dat de afgelopen maanden rond Moskou circa 24 nieuwe torens zijn gebouwd voor de plaatsing van Pantsir-luchtafweersystemen (verhoogde platforms voor de raket-kanon-combinatie). Samen vormen ze een nieuwe verdedigingsring met een straal van ongev…",
-       "enSummary": "Satellite-imagery analysis published on X by open-source researcher 'jembob' indicates that roughly two dozen new towers for Pantsir air-defense systems have been built around Moscow over the past several months. Together they form a new defensive ring with a radius of about 40 kilometers around the Russian capital. I…",
-       "sourceUrl": "https://militarnyi.com/en/news/new-towers-built-around-moscow-for-pantsir/",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
        "id": "e-20260728-s02",
        "title": "Russia Considers Mounting Pantsir Air Defenses on Autonomous Trucks",
        "titleNl": "Rusland overweegt Pantsir-luchtafweersystemen op autonome vrachtwagens te monteren",
@@ -1601,6 +1428,29 @@
        "sourceCount": 1,
        "signals": [
         "loss"
+       ]
+      },
+      {
+       "id": "e-20260722-s04",
+       "title": "Ukrainian Drones Destroy Warehouses Near Moscow Despite Dozens of Pantsir Systems and Three S-400s",
+       "titleNl": "Oekraïense drones vernietigen pakhuizen bij Moskou ondanks tientallen Pantsir-systemen en drie S-400's",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-22T06:00:00.000Z",
+       "updatedAt": "2026-07-22T07:30:00.000Z",
+       "nlSummary": "Oekraïense langeafstandsdrones zouden rond 20 juli 2026 een reeks logistieke en brandstofdoelen in de Moskouse oblast hebben geraakt: het grootste sorteercentrum van Wildberries in Koledino, het industriepark 'South Gate' (Zoezjni Vorota) bij Metkino, en een olieopslag in Lvovskoje — allemaal 20 tot 30 km ten zuiden v…",
+       "enSummary": "Ukrainian long-range attack drones reportedly struck a cluster of logistics and fuel facilities in Moscow Oblast around 20 July 2026, hitting Wildberries' largest sorting center in Koledino, the 'South Gate' (Yuzhni Vorota) industrial park near Metkino, and an oil depot in Lvovskoye, all located 20-30 km south of cent…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZXZDQ1ZmZTQ1SjFqemFIZlFrdk01Z0FHS0c0Mk1LTFFPaHVEdi1KRTBVamhrZDBoZldfbVVkclZ5VHl3dFpWQjk0MUlSc3BfZEh3QWNwbkFJZmZrM1RGRG1Wc0RESDNrTHZtU2N1c21lb0h0SVFoU0Q0R1MzSHVsUTZPTEY0SlpBSEZCWjluYUsxbEU3ZnBXRDNMc2pMYmRZRkhWdUhLZy1aSXQ2YlQ5Q2hObnhJWFhvV0lhM0hxS1pmOG9zR1kyRWdKanN1YWdjR2phMjBMVQ?oc=5",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
        ]
       }
      ]
@@ -2212,9 +2062,33 @@
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 7,
+     "total": 8,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260828-03",
+       "title": "Video shows Ukrainian drone strike on Nebo-U early-warning radar at Millerovo airfield",
+       "titleNl": "Video toont Oekraïense droneaanval op Nebo-U-radar voor vroege waarschuwing bij vliegveld Millerovo",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-27T16:16:00.000Z",
+       "updatedAt": "2026-08-28T09:00:00.000Z",
+       "nlSummary": "Op 27 augustus 2026 publiceerde de Engelstalige editie van Ukrajinska Pravda video- en fotobeelden die volgens Oekraïense bronnen een droneaanval tonen op een Nebo-U-radar (55Zj6) op het militaire vliegveld Millerovo in de Russische oblast Rostov. De aanval wordt opgeëist door de Oekraïense Onbemande Systeemtroepen, m…",
+       "enSummary": "On 27 August 2026 the English-language edition of Ukrainska Pravda published video and photo material that, according to Ukrainian sources, shows a drone strike on a Nebo-U (55Zh6) radar at the Millerovo military airfield in Russia's Rostov Oblast. The attack is claimed by Ukraine's Unmanned Systems Forces, specifical…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/27/8050644/",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260827-s01",
        "title": "Ukraine's General Staff claims deep strikes on a MiG-29 in Rostov Oblast plus a 'Kasta' radar and EW systems in Crimea and Donbas",
@@ -2329,30 +2203,6 @@
        "signals": [
         "loss",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260730-02",
-       "title": "Kh-101 crash in Poland: Warsaw weighs Patriot transfer to Ukraine as Russia's ambassador is summoned and probe continues",
-       "titleNl": "Kh-101-inslag in Polen: Warschau overweegt Patriot-overdracht aan Oekraïne, Russische ambassadeur ontboden en onderzoek loopt door",
-       "category": "org",
-       "topics": [
-        "missiles",
-        "command",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-30T06:42:00.000Z",
-       "updatedAt": "2026-08-01T21:00:00.000Z",
-       "nlSummary": "Het object dat in de nacht van 29 op 30 juli 2026 neerkwam bij Tarnawa-Kolonia in de Poolse woiwodschap Lublin, is door de Poolse autoriteiten bevestigd als een Russische Kh-101-kruisraket, geproduceerd in het tweede kwartaal van 2026 bij een fabriek in de regio Moskou, aldus vicepremier en minister van Defensie Kosin…",
-       "enSummary": "Polish authorities have confirmed that the object which crashed near Tarnawa-Kolonia in Lublin Voivodeship overnight on 29-30 July 2026 was a Russian Kh-101 cruise missile, manufactured in the second quarter of 2026 at a factory in Moscow Oblast, according to Deputy PM and Defence Minister Kosiniak-Kamysz. PM Tusk sai…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046502",
-       "sourceCount": 14,
-       "signals": [
-        "loss",
-        "perf"
        ]
       }
      ]
@@ -2479,7 +2329,7 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 16,
+     "total": 13,
      "signalCount": 5,
      "entries": [
       {
@@ -2625,8 +2475,8 @@
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 4,
-     "signalCount": 4,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20260824-11",
@@ -2676,29 +2526,6 @@
        ]
       },
       {
-       "id": "e-20260728-03",
-       "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
-       "titleNl": "Rusland standaardiseert geleidingssystemen van Gerbera Seeker- en Geran Seeker-drones",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense vrijwilliger Ihor Sjkilny (bekend als 'Zampotech Omelianovitsj', gepubliceerd op Facebook) heeft Rusland de geleidings-, communicatie- en navigatiesystemen van de Gerbera Seeker en de Geran Seeker gestandaardiseerd. De Gerbera Seeker behoudt het casco, de vluchtcomputer en de servo's van de origi…",
-       "enSummary": "According to Ukrainian volunteer Ihor Shkilny (known online as 'Zampotech Omelianovich', posting on Facebook), Russia has standardized the guidance, communication and navigation systems of the Gerbera Seeker and Geran Seeker drones. The Gerbera Seeker keeps the airframe, flight controller and servos of the original Ge…",
-       "sourceUrl": "https://militarnyi.com/en/news/rus-standard-guidance-gerbera-geran-seeker/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "scale",
-        "counter"
-       ]
-      },
-      {
        "id": "e-20260727-s04",
        "title": "Important for Americans to Know: Russia Improved Accuracy of Shahed UAVs While Iranian Ballistic Missiles Have Become More Effective, Deadlier",
        "titleNl": "Belangrijk voor Amerikanen om te weten: Rusland verbeterde nauwkeurigheid van Shahed-drones, terwijl Iraanse ballistische raketten effectiever en dodelijker zijn geworden",
@@ -2729,6 +2556,30 @@
      "total": 4,
      "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260828-03",
+       "title": "Video shows Ukrainian drone strike on Nebo-U early-warning radar at Millerovo airfield",
+       "titleNl": "Video toont Oekraïense droneaanval op Nebo-U-radar voor vroege waarschuwing bij vliegveld Millerovo",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-27T16:16:00.000Z",
+       "updatedAt": "2026-08-28T09:00:00.000Z",
+       "nlSummary": "Op 27 augustus 2026 publiceerde de Engelstalige editie van Ukrajinska Pravda video- en fotobeelden die volgens Oekraïense bronnen een droneaanval tonen op een Nebo-U-radar (55Zj6) op het militaire vliegveld Millerovo in de Russische oblast Rostov. De aanval wordt opgeëist door de Oekraïense Onbemande Systeemtroepen, m…",
+       "enSummary": "On 27 August 2026 the English-language edition of Ukrainska Pravda published video and photo material that, according to Ukrainian sources, shows a drone strike on a Nebo-U (55Zh6) radar at the Millerovo military airfield in Russia's Rostov Oblast. The attack is claimed by Ukraine's Unmanned Systems Forces, specifical…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/27/8050644/",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260825-04",
        "title": "Ukraine's Air Defence Downs Oniks Anti-Ship Missile and 113 Other Russian Assets, Strikes Recorded at 22 Locations",
@@ -2801,29 +2652,6 @@
         "deploy",
         "perf",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260728-03",
-       "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
-       "titleNl": "Rusland standaardiseert geleidingssystemen van Gerbera Seeker- en Geran Seeker-drones",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense vrijwilliger Ihor Sjkilny (bekend als 'Zampotech Omelianovitsj', gepubliceerd op Facebook) heeft Rusland de geleidings-, communicatie- en navigatiesystemen van de Gerbera Seeker en de Geran Seeker gestandaardiseerd. De Gerbera Seeker behoudt het casco, de vluchtcomputer en de servo's van de origi…",
-       "enSummary": "According to Ukrainian volunteer Ihor Shkilny (known online as 'Zampotech Omelianovich', posting on Facebook), Russia has standardized the guidance, communication and navigation systems of the Gerbera Seeker and Geran Seeker drones. The Gerbera Seeker keeps the airframe, flight controller and servos of the original Ge…",
-       "sourceUrl": "https://militarnyi.com/en/news/rus-standard-guidance-gerbera-geran-seeker/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "scale",
-        "counter"
        ]
       }
      ]
@@ -2981,8 +2809,8 @@
     "epm": {
      "name": "Electronic protection",
      "nameEn": "Electronic protection",
-     "total": 3,
-     "signalCount": 3,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20260824-11",
@@ -3028,29 +2856,6 @@
        "sourceCount": 1,
        "signals": [
         "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260728-03",
-       "title": "Russia Standardizes Guidance Systems Across Gerbera Seeker and Geran Seeker Drones",
-       "titleNl": "Rusland standaardiseert geleidingssystemen van Gerbera Seeker- en Geran Seeker-drones",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense vrijwilliger Ihor Sjkilny (bekend als 'Zampotech Omelianovitsj', gepubliceerd op Facebook) heeft Rusland de geleidings-, communicatie- en navigatiesystemen van de Gerbera Seeker en de Geran Seeker gestandaardiseerd. De Gerbera Seeker behoudt het casco, de vluchtcomputer en de servo's van de origi…",
-       "enSummary": "According to Ukrainian volunteer Ihor Shkilny (known online as 'Zampotech Omelianovich', posting on Facebook), Russia has standardized the guidance, communication and navigation systems of the Gerbera Seeker and Geran Seeker drones. The Gerbera Seeker keeps the airframe, flight controller and servos of the original Ge…",
-       "sourceUrl": "https://militarnyi.com/en/news/rus-standard-guidance-gerbera-geran-seeker/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "scale",
         "counter"
        ]
       }
