@@ -1,11 +1,11 @@
 {
- "updated": "2026-08-28T05:38:15.800Z",
- "analysisUpdated": "2026-08-28T09:00:00.000Z",
+ "updated": "2026-08-30T08:56:40.276Z",
+ "analysisUpdated": "2026-08-30T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 140,
+  "entriesConsidered": 129,
   "cardsWithHits": 36,
-  "matches": 148
+  "matches": 140
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,83 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 14,
+     "total": 15,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260830-s01",
+       "title": "О способности БПЛА «отменить» надводные корабли",
+       "titleNl": "Over het vermogen van drones om oppervlakteschepen 'af te schaffen'",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "navy",
+        "drones",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-08-30T01:08:32.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "Een opiniestuk op het Russische militaire portaal Topwar (auteur Andrej Kolobov) betoogt dat onbemande systemen — zowel luchtdrones als onbemande oppervlaktevaartuigen (USV's) — de bemande oppervlaktevloot niet overbodig maken. De auteur erkent dat Oekraïense USV's opvallende successen boekten tegen de Russische Zwart…",
+       "enSummary": "An opinion piece on the Russian military portal Topwar (by Andrey Kolobov) argues that unmanned systems — both aerial UAVs and uncrewed surface vessels (USVs) — will not make the crewed surface fleet obsolete. English gloss of the title: 'On the ability of UAVs to \"cancel\" surface ships.' The author concedes that Ukra…",
+       "sourceUrl": "https://topwar.ru/288779-o-sposobnosti-bpla-otmenit-nadvodnye-korabli.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260830-01",
+       "title": "Russian strike on ammunition depot near Kyiv kills at least 37 as Moscow shifts to round-the-clock attacks on the capital",
+       "titleNl": "Russische aanval op munitiedepot bij Kyiv eist zeker 37 doden terwijl Moskou overgaat op non-stop aanvallen op de hoofdstad",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense",
+        "logistics",
+        "doctrine"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-29T09:48:00.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "In de avond van 28 augustus 2026 (rond 20.10 uur lokale tijd) trof een Russische Geran-drone (Shahed-type) een opslagloods bij het dorp Myla in het district Boetsja, oblast Kyiv, ongeveer 5 km ten westen van Kyiv. Volgens het Oekraïense Openbaar Ministerie lag er munitie c.q. 'explosief materiaal' opgeslagen; de insla…",
+       "enSummary": "On the evening of 28 August 2026 (around 8:10 p.m. local time) a Russian Geran drone (a Shahed-type loitering munition) struck a storage warehouse near the village of Myla in Bucha district, Kyiv Oblast, roughly 5 km west of Kyiv. Ukrainian prosecutors said the site held ammunition or 'explosive objects'; the impact s…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/08/29/at-least-37-killed-after-russian-strike-hits-an-ammunition-warehouse-near-kyiv-triggering-massive-explosions-many-of-the-victims-were-residents-of-a-nearby-care-home",
+       "sourceCount": 6,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260830-07",
+       "title": "Ukraine's General Staff claims Buk-M3 destroyed plus strikes on Shahed launch sites, EW complex and command posts",
+       "titleNl": "Oekraïense generale staf claimt vernietigde Buk-M3 en aanvallen op Shahed-lanceerlocaties, EW-complex en commandoposten",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones",
+        "ew",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-29T09:09:12.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "Op 29 augustus 2026 meldde de generale staf van de Oekraïense strijdkrachten een reeks aanvallen op Russische militaire doelen in het achterland en nabij het front. Na analyse van aanvullende operationele gegevens bevestigde de staf de vernietiging van een Russisch Buk-M3 luchtverdedigingssysteem bij Klintsy in de Rus…",
+       "enSummary": "On 29 August 2026 the General Staff of Ukraine's Armed Forces reported a series of strikes on Russian military targets in the deep rear and near the front line. After analysing additional operational data, it confirmed the destruction of a Russian Buk-M3 air-defence system near Klintsy in Russia's Bryansk Oblast on 28…",
+       "sourceUrl": "https://armyinform.com.ua/2026/08/29/syly-oborony-urazyly-misczya-zapusku-udarnyh-bpla-ta-kompleks-reb-okupantiv",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260828-03",
        "title": "Video shows Ukrainian drone strike on Nebo-U early-warning radar at Millerovo airfield",
@@ -40,14 +114,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-08-27T16:16:00.000Z",
-       "updatedAt": "2026-08-28T09:00:00.000Z",
-       "nlSummary": "Op 27 augustus 2026 publiceerde de Engelstalige editie van Ukrajinska Pravda video- en fotobeelden die volgens Oekraïense bronnen een droneaanval tonen op een Nebo-U-radar (55Zj6) op het militaire vliegveld Millerovo in de Russische oblast Rostov. De aanval wordt opgeëist door de Oekraïense Onbemande Systeemtroepen, m…",
-       "enSummary": "On 27 August 2026 the English-language edition of Ukrainska Pravda published video and photo material that, according to Ukrainian sources, shows a drone strike on a Nebo-U (55Zh6) radar at the Millerovo military airfield in Russia's Rostov Oblast. The attack is claimed by Ukraine's Unmanned Systems Forces, specifical…",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "Op 27 augustus 2026 publiceerde de Engelstalige editie van Ukrajinska Pravda video- en fotobeelden die volgens Oekraïense bronnen een droneaanval tonen op een Nebo-U-radar (55Zj6) voor vroege waarschuwing op het militaire vliegveld Millerovo in de Russische oblast Rostov, op zo'n 170 km van de frontlinie. De aanval wo…",
+       "enSummary": "On 27 August 2026 the English-language edition of Ukrainska Pravda published video and photo material that, according to Ukrainian sources, shows a drone strike on a Nebo-U (55Zh6) early-warning radar at the Millerovo military airfield in Russia's Rostov Oblast, roughly 170 km from the front line. The attack is claime…",
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/27/8050644/",
-       "sourceCount": 2,
+       "sourceCount": 3,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -97,78 +170,6 @@
         "perf",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260824-08",
-       "title": "Ukraine Reveals Scale of Behemoth Kamikaze Drone Production Line",
-       "titleNl": "Oekraïne onthult schaal van Behemoth kamikaze-droneproductielijn",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T12:53:21.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Nieuw vrijgegeven beeldmateriaal rond de Oekraïense Onafhankelijkheidsdag (24 augustus 2026) toont voor het eerst de omvang van de productielijn van de Behemoth, een Oekraïense kamikaze-drone voor de middellange afstand. De opnamen laten tientallen zwarte, Shahed-vormige romfrasten zien die vleugel aan vleugel op hout…",
-       "enSummary": "Newly released footage timed to Ukraine's Independence Day (24 August 2026) offers the clearest public look yet at the scale of the Behemoth's production line, a Ukrainian mid-range kamikaze drone. The video shows dozens of black, Shahed-shaped airframes mounted wingtip to wingtip on wooden and metal stands inside wha…",
-       "sourceUrl": "https://defence-blog.com/ukraine-reveals-scale-of-behemoth-kamikaze-drone-production-line",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260824-07",
-       "title": "Ukraine Arms Mi-8 Helicopters with Drone-Interceptor Launchers Against Shaheds",
-       "titleNl": "Oekraïne rust Mi-8-helikopters uit met drone-interceptorlanceerders tegen Shaheds",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "airforce",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T08:09:54.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Oekraïne heeft Mi-8-transporthelikopters uitgerust met speciale lanceerinrichtingen voor interceptordrones, bedoeld om Russische Shahed/Geran-aanvalsdrones te onderscheppen. Aan elke kant van de helikopter zijn minstens drie lanceerrails gemonteerd, goed voor in totaal zes interceptordrones per toestel. De interceptor…",
-       "enSummary": "Ukraine has fitted Mi-8 transport helicopters with dedicated launchers for interceptor drones aimed at destroying Russian Shahed/Geran attack drones. At least three launch rails are mounted on each side of the helicopter, giving it a total capacity of six interceptor drones per aircraft. The interceptors are reportedl…",
-       "sourceUrl": "https://defence-blog.com/ukraines-mi-8-gets-drone-interceptor-launchers-to-hunt-shaheds",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260825-04",
-       "title": "Ukraine's Air Defence Downs Oniks Anti-Ship Missile and 113 Other Russian Assets, Strikes Recorded at 22 Locations",
-       "titleNl": "Oekraïense luchtverdediging schiet Oniks-antischipraket en 113 andere Russische wapens neer, treffers geregistreerd op 22 locaties",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "missiles",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T06:58:00.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "In de nacht van 23 op 24 augustus voerde Rusland een gecombineerde luchtaanval uit met als hoofddoel Odesa Oblast. Volgens het Oekraïense Luchtmachtcommando werden 2 Oniks-antischipraketten vanuit de tijdelijk bezette Krim afgevuurd, 6 Kh-31P- en Kh-59-luchtgelanceerde raketten vanuit het luchtruim boven de Zwarte Zee…",
-       "enSummary": "On the night of 23-24 August, Russia carried out a combined air attack with Odesa Oblast as its main target. According to Ukraine's Air Force Command, Russia launched 2 Oniks anti-ship missiles from temporarily occupied Crimea, 6 Kh-31P and Kh-59 air-launched missiles from airspace over the Black Sea, and 143 attack d…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/24/8050010",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -361,8 +362,8 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 7,
-     "signalCount": 5,
+     "total": 5,
+     "signalCount": 4,
      "entries": [
       {
        "id": "e-20260827-s01",
@@ -456,54 +457,26 @@
        ]
       },
       {
-       "id": "e-20260730-01",
-       "title": "Russia launches combined missile and drone barrage on Kyiv, Lviv, Kryvyi Rih and Poltava Oblast; Zelensky cites critical air-defence missile shortage",
-       "titleNl": "Rusland lanceert gecombineerde raket- en drone-aanval op Kyiv, Lviv, Kryvyi Rih en Poltava-oblast; Zelensky wijst op kritiek tekort aan luchtafweerraketten",
+       "id": "e-20260729-s04",
+       "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
+       "titleNl": "«Rubicon», «Lancets» en zwermen FPV's: hoe de Russen de richting Pokrovsk bestormen",
        "category": "ttp",
        "topics": [
-        "missiles",
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-30T02:42:00.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "Rusland voerde in de nacht van 29 op 30 juli 2026 een grootschalige gecombineerde aanval uit op Oekraïne, met inzet van raketten en aanvalsdrones vanaf lucht-, land- en zeeplatforms. Volgens de Oekraïense luchtmacht werden 358 doelen gedetecteerd: 74 raketten (4 Zircon/Oniks-antischeepsraketten, 9 Iskander-M/S-400/KN-…",
-       "enSummary": "On the night of 29-30 July 2026, Russia carried out a large-scale combined attack on Ukraine using missiles and attack drones launched from air, land and sea platforms. Ukraine's Air Force detected 358 aerial assets in total: 74 missiles (4 Zircon/Oniks anti-ship missiles, 9 Iskander-M/S-400/KN-23 ballistic missiles a…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046494",
-       "sourceCount": 14,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260730-07",
-       "title": "Ukraine's Air Force reports F-16 crash during combat mission, pilot ejects safely",
-       "titleNl": "Oekraïense luchtmacht meldt crash van F-16 tijdens gevechtsmissie, piloot ejecteert veilig",
-       "category": "ttp",
-       "topics": [
-        "airforce",
         "drones"
        ],
-       "stream": "verified",
-       "origin": null,
+       "stream": "single",
+       "origin": "ua",
        "significance": 2,
-       "publishedAt": "2026-07-29T18:47:00.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "Op 29 juli 2026 verloor de Oekraïense luchtmacht het contact met een F-16-gevechtsvliegtuig tijdens een gevechtsmissie aan een deel van het front, waarbij het toestel vijandelijke luchtdoelen onderschepte. Volgens de luchtmacht deed zich aan boord een noodsituatie voor, waardoor de piloot moest ejecteren. De piloot ej…",
-       "enSummary": "On 29 July 2026, Ukraine's Air Force lost contact with an F-16 fighter jet while it was carrying out a combat mission on one section of the front, intercepting enemy air assets. According to the Air Force, an emergency situation developed on board, forcing the pilot to eject. The pilot ejected safely and was evacuated…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/29/8046457",
-       "sourceCount": 3,
+       "publishedAt": "2026-07-29T06:41:06.000Z",
+       "updatedAt": "2026-07-29T07:00:00.000Z",
+       "nlSummary": "Sergeant Oleksiy Hodzenko, woordvoerder van het onbemande-systemenbataljon \"Korsar\" van de Oekraïense 38e Aparte Brigade Mariniers (vernoemd naar hetman Petro Sahaidatsjny), beschreef de gevechten in de richting Pokrovsk tijdens een uitzending van Armiya TV op 29 juli 2026. Volgens hem blijven Russische troepen aanval…",
+       "enSummary": "Sergeant Oleksiy Hodzenko, spokesman for the \"Korsar\" unmanned systems battalion of Ukraine's 38th Separate Marine Infantry Brigade (named after Hetman Petro Sahaidachny), described fighting in the Pokrovsk direction in a broadcast on Army TV on 29 July 2026. He said Russian forces continue attacking with small infant…",
+       "sourceUrl": "https://armyinform.com.ua/2026/07/29/%c2%abprosochuyutsya-i-perevazhno-vmyrayut%c2%bb-morpihy-rozpovily-yak-rosiyany-shturmuyut-pokrovskyj-napryamok",
+       "sourceCount": 1,
        "signals": [
         "loss",
         "deploy",
-        "scale",
-        "counter"
+        "perf"
        ]
       }
      ]
@@ -511,8 +484,8 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 3,
-     "signalCount": 3,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20260827-09",
@@ -536,29 +509,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260731-03",
-       "title": "Russian MoD source claims destruction of 120 Ukrainian UAV control posts near Kharkiv",
-       "titleNl": "Russische bron claimt vernietiging van 120 Oekraïense UAV-controleposten bij Charkov",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 1,
-       "publishedAt": "2026-07-31T08:36:10.000Z",
-       "updatedAt": "2026-07-31T21:00:00.000Z",
-       "nlSummary": "Volgens TASS heeft een bron genaamd 'Karta', omschreven als hoofd Planning en Counter-UAV-operaties bij het 11e Legerkorps van de Battlegroup North, verklaard dat Russische droneoperators sinds begin juli circa 120 Oekraïense controleposten en lanceerlocaties voor drones in de regio Charkov zouden hebben vernietigd. V…",
-       "enSummary": "According to TASS, a source identified as 'Karta', described as chief of Planning and Counter-UAV Operations for the 11th Army Corps (Battlegroup North), claims Russian drone operators destroyed roughly 120 Ukrainian drone control posts and launch sites in the Kharkiv region since the start of July. The source states…",
-       "sourceUrl": "https://tass.com/defense/2167569",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "counter"
        ]
       },
       {
@@ -677,9 +627,31 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 19,
+     "total": 16,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260830-06",
+       "title": "Ground-robot maker Ratel unveils first strike drone, claims 30 km flight on Starlink link",
+       "titleNl": "Grondrobotbouwer Ratel toont eerste aanvalsdrone, claimt vlucht van 30 km via Starlink-verbinding",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-30T05:14:02.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "De Oekraïense fabrikant Ratel Robotics, tot nu toe bekend van onbemande grondvoertuigen (UGV's) voor logistiek, gewondenafvoer, mijnenlegging en mijnruiming, breidt uit naar de lucht met zijn eerste aanvalsdrone, de Ratel K1. Volgens het bedrijf heeft het toestel een 22-inch frame, een topsnelheid van circa 75 km/u, e…",
+       "enSummary": "Ukrainian manufacturer Ratel Robotics, until now known for unmanned ground vehicles used for logistics, casualty evacuation, mine-laying and demining, has moved into the air with its first strike drone, the Ratel K1. According to the company the aircraft has a 22-inch frame, a top speed of roughly 75 km/h, an enduranc…",
+       "sourceUrl": "https://euromaidanpress.com/2026/08/30/ukrainian-ground-robot-maker-has-moved-into-air-ratels-first-strike-drone-flies-30-kilometers-on-starlink-link",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260826-05",
        "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
@@ -790,28 +762,6 @@
        "sourceCount": 1,
        "signals": [
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260825-12",
-       "title": "Russian military publishes video of drone strike on unarmed cyclist in Donetsk region",
-       "titleNl": "Russisch leger publiceert video van dronestrike op ongewapende fietser in regio Donetsk",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T07:47:01.000Z",
-       "updatedAt": "2026-08-25T07:00:00.000Z",
-       "nlSummary": "Op 24 augustus 2026 (07:47 UTC) meldde Meduza (Engelstalige editie) dat Ruslands 3e Combined Arms Army beeldmateriaal had gepubliceerd van een FPV-drone die een aanval uitvoert op een ongewapende man op een fiets, nabij Vasylivska Poestosj in het Kramatorsk-district van de oblast Donetsk. Op de beelden is te zien hoe…",
-       "enSummary": "On 24 August 2026 (07:47 UTC), Meduza's English edition reported that Russia's 3rd Combined Arms Army had published footage showing an FPV drone attacking an unarmed man on a bicycle near Vasylivska Pustosh in the Kramatorsk district of Donetsk region. The footage shows the cyclist noticing the approaching drone, stop…",
-       "sourceUrl": "https://meduza.io/en/news/2026/08/24/russian-military-publishes-video-of-drone-strike-on-unarmed-cyclist-in-donetsk-region",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -1107,8 +1057,8 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 9,
-     "signalCount": 6,
+     "total": 7,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260828-02",
@@ -1207,54 +1157,46 @@
        ]
       },
       {
-       "id": "e-20260730-03",
-       "title": "Ukraine destroys Russia's 5,000-km Murmansk-BN electronic-warfare station in Crimea",
-       "titleNl": "Oekraïne vernietigt Ruslands Murmansk-BN elektronische-oorlogvoeringsstation met bereik van 5.000 km op de Krim",
-       "category": "ttp",
+       "id": "e-20260729-s01",
+       "title": "Turkiye Eyes Egypt as S-400 Buyer to Fix F-35 Program Problem, Cairo Already Operates russian S-300VM Claiming 40km Ballistic Intercept",
+       "titleNl": "Turkije ziet Egypte als koper voor S-400 om F-35-programmaprobleem op te lossen; Caïro heeft al Russische S-300VM met beweerd onderscheppingsbereik van 40 km tegen ballistische doelen",
+       "category": "weapon",
        "topics": [
-        "ew",
-        "drones"
+        "missiles",
+        "air-defense"
        ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-30T07:53:00.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "In de nacht van 26 op 27 juli 2026 hebben drones van de Oekraïense militaire inlichtingendienst (HUR/GUR), ingezet door de Afdeling Onbemande Systemen, een Russisch Moermansk-BN-station voor elektronische oorlogvoering getroffen nabij Kaap Fiolent in het bezette Krim. Het systeem, geproduceerd door het Russische conce…",
-       "enSummary": "On the night of 26–27 July 2026, drones operated by Ukraine's Defense Intelligence (HUR/GUR) Department of Unmanned Systems struck a Russian Murmansk-BN electronic-warfare station near Cape Fiolent in occupied Crimea. The system, built by Russian defense concern KRET and in service since 2014, was first fielded in Cri…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-parked-a-5000-kilometer-jamming-station-in-crimea-ukraine-parked-a-drone-on-top-of-it",
-       "sourceCount": 2,
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-07-27T08:47:54.000Z",
+       "updatedAt": "2026-07-29T07:00:00.000Z",
+       "nlSummary": "Volgens de Oekraïense uitgave Defense Express (die de Arabischtalige site Defence Arabic aanhaalt) verkent Turkije de mogelijkheid om zijn Russische S-400-luchtafweersystemen door te verkopen, waarbij Egypte wordt genoemd als een van de \"waarschijnlijke kopers.\" Turkije kocht de S-400 in 2017 van Rusland, een aankoop…",
+       "enSummary": "According to Ukrainian outlet Defense Express (citing the Arabic-language outlet Defence Arabic), Turkey is looking at selling its Russian-made S-400 air defense systems onward, with Egypt named among the \"probable buyers.\" Turkey acquired the S-400 from Russia in 2017, a purchase that led to Ankara's expulsion from t…",
+       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
+       "sourceCount": 1,
        "signals": [
-        "loss",
-        "deploy",
-        "perf"
+        "deploy"
        ]
       },
       {
-       "id": "e-20260730-01",
-       "title": "Russia launches combined missile and drone barrage on Kyiv, Lviv, Kryvyi Rih and Poltava Oblast; Zelensky cites critical air-defence missile shortage",
-       "titleNl": "Rusland lanceert gecombineerde raket- en drone-aanval op Kyiv, Lviv, Kryvyi Rih en Poltava-oblast; Zelensky wijst op kritiek tekort aan luchtafweerraketten",
-       "category": "ttp",
+       "id": "e-20260731-s02",
+       "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
+       "titleNl": "Turkije zou Egypte als koper van S-400's overwegen om F-35-impasse op te lossen; Caïro heeft al Russische S-300VM",
+       "category": "weapon",
        "topics": [
         "missiles",
-        "drones",
         "air-defense"
        ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-30T02:42:00.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "Rusland voerde in de nacht van 29 op 30 juli 2026 een grootschalige gecombineerde aanval uit op Oekraïne, met inzet van raketten en aanvalsdrones vanaf lucht-, land- en zeeplatforms. Volgens de Oekraïense luchtmacht werden 358 doelen gedetecteerd: 74 raketten (4 Zircon/Oniks-antischeepsraketten, 9 Iskander-M/S-400/KN-…",
-       "enSummary": "On the night of 29-30 July 2026, Russia carried out a large-scale combined attack on Ukraine using missiles and attack drones launched from air, land and sea platforms. Ukraine's Air Force detected 358 aerial assets in total: 74 missiles (4 Zircon/Oniks anti-ship missiles, 9 Iskander-M/S-400/KN-23 ballistic missiles a…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046494",
-       "sourceCount": 14,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
-        "scale"
-       ]
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-27T08:47:54.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens Defense Express (Ivan Kyrychevskiy) zoekt Turkije nog steeds naar een koper voor zijn Russische S-400-luchtverdedigingssystemen, die het land onder een contract uit 2017 van Moskou kocht en die de directe aanleiding vormden voor Turkijes uitsluiting van het Amerikaanse F-35-programma. Egypte zou nu naar voren…",
+       "enSummary": "Defense Express (author Ivan Kyrychevskiy) reports that Turkey is still seeking a buyer for its Russian S-400 air defense systems, acquired under a 2017 contract with Moscow and the direct cause of Turkey's exclusion from the US F-35 program. Egypt has reportedly emerged as a probable buyer, with talks said to have ta…",
+       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
+       "sourceCount": 1,
+       "signals": []
       }
      ]
     },
@@ -1596,6 +1538,31 @@
      "signalCount": 3,
      "entries": [
       {
+       "id": "e-20260830-07",
+       "title": "Ukraine's General Staff claims Buk-M3 destroyed plus strikes on Shahed launch sites, EW complex and command posts",
+       "titleNl": "Oekraïense generale staf claimt vernietigde Buk-M3 en aanvallen op Shahed-lanceerlocaties, EW-complex en commandoposten",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones",
+        "ew",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-29T09:09:12.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "Op 29 augustus 2026 meldde de generale staf van de Oekraïense strijdkrachten een reeks aanvallen op Russische militaire doelen in het achterland en nabij het front. Na analyse van aanvullende operationele gegevens bevestigde de staf de vernietiging van een Russisch Buk-M3 luchtverdedigingssysteem bij Klintsy in de Rus…",
+       "enSummary": "On 29 August 2026 the General Staff of Ukraine's Armed Forces reported a series of strikes on Russian military targets in the deep rear and near the front line. After analysing additional operational data, it confirmed the destruction of a Russian Buk-M3 air-defence system near Klintsy in Russia's Bryansk Oblast on 28…",
+       "sourceUrl": "https://armyinform.com.ua/2026/08/29/syly-oborony-urazyly-misczya-zapusku-udarnyh-bpla-ta-kompleks-reb-okupantiv",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
+      {
        "id": "e-20260731-s01",
        "title": "Ukraine Hits russian Buk-M3 System, Nebo-SVU Radar, Drone Base, and 205th Vessel",
        "titleNl": "Oekraïne raakt Russisch Buk-M3-systeem, Nebo-SVU-radar, dronebasis en 205e vaartuig",
@@ -1619,29 +1586,6 @@
         "deploy",
         "perf",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260730-04",
-       "title": "Ukraine torches Russian naval-drone base at Snizhne near occupied Yevpatoriia",
-       "titleNl": "Oekraïne verwoest Russische zeedrone-basis bij Snizjne nabij bezet Jevpatoria",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "navy",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-30T10:10:16.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "Rusland stationeert in bezet Krim een vloot onbemande zeedrones die specifiek zijn bedoeld om Oekraïense maritieme doelen te jagen, waaronder Oekraïne's eigen zeedrones die de Zwarte Zee-vloot en aanvoerroutes naar het schiereiland onder druk zetten. Deze Russische vaartuigen lagen gestationeerd in hangars bij Snizjne…",
-       "enSummary": "Russia bases a fleet of uncrewed naval boats in occupied Crimea specifically to hunt Ukrainian maritime targets, including Ukraine's own sea drones that have been squeezing the Black Sea Fleet and supply routes to the peninsula. These Russian vessels were kept in hangars near Snizhne, close to Yevpatoriia on Crimea's…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-builds-sea-drones-to-hunt-ukraine-ukraine-just-torched-the-base-where-they-sit-in-occupied-crimea",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       },
       {
@@ -1805,38 +1749,6 @@
        "sourceCount": 1,
        "signals": [
         "loss"
-       ]
-      }
-     ]
-    },
-    "murmansk": {
-     "name": "Murmansk-BN",
-     "nameEn": "Murmansk-BN",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20260730-03",
-       "title": "Ukraine destroys Russia's 5,000-km Murmansk-BN electronic-warfare station in Crimea",
-       "titleNl": "Oekraïne vernietigt Ruslands Murmansk-BN elektronische-oorlogvoeringsstation met bereik van 5.000 km op de Krim",
-       "category": "ttp",
-       "topics": [
-        "ew",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-30T07:53:00.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "In de nacht van 26 op 27 juli 2026 hebben drones van de Oekraïense militaire inlichtingendienst (HUR/GUR), ingezet door de Afdeling Onbemande Systemen, een Russisch Moermansk-BN-station voor elektronische oorlogvoering getroffen nabij Kaap Fiolent in het bezette Krim. Het systeem, geproduceerd door het Russische conce…",
-       "enSummary": "On the night of 26–27 July 2026, drones operated by Ukraine's Defense Intelligence (HUR/GUR) Department of Unmanned Systems struck a Russian Murmansk-BN electronic-warfare station near Cape Fiolent in occupied Crimea. The system, built by Russian defense concern KRET and in service since 2014, was first fielded in Cri…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-parked-a-5000-kilometer-jamming-station-in-crimea-ukraine-parked-a-drone-on-top-of-it",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
        ]
       }
      ]
@@ -2062,32 +1974,29 @@
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 8,
-     "signalCount": 5,
+     "total": 7,
+     "signalCount": 4,
      "entries": [
       {
-       "id": "e-20260828-03",
-       "title": "Video shows Ukrainian drone strike on Nebo-U early-warning radar at Millerovo airfield",
-       "titleNl": "Video toont Oekraïense droneaanval op Nebo-U-radar voor vroege waarschuwing bij vliegveld Millerovo",
-       "category": "ttp",
+       "id": "e-20260830-02",
+       "title": "Ukraine converts Air Force aviation brigades to 'aviation wings'; aviation commander teases unspecified new indigenous aircraft 'in testing'",
+       "titleNl": "Oekraïne vormt luchtmachtbrigades om tot 'luchtvaartvleugels'; luchtvaartcommandant hint op ongespecificeerde nieuwe eigen vliegtuigen 'in beproeving'",
+       "category": "org",
        "topics": [
-        "drones",
-        "air-defense",
-        "airforce"
+        "airforce",
+        "command",
+        "doctrine"
        ],
        "stream": "verified",
        "origin": null,
        "significance": 2,
-       "publishedAt": "2026-08-27T16:16:00.000Z",
-       "updatedAt": "2026-08-28T09:00:00.000Z",
-       "nlSummary": "Op 27 augustus 2026 publiceerde de Engelstalige editie van Ukrajinska Pravda video- en fotobeelden die volgens Oekraïense bronnen een droneaanval tonen op een Nebo-U-radar (55Zj6) op het militaire vliegveld Millerovo in de Russische oblast Rostov. De aanval wordt opgeëist door de Oekraïense Onbemande Systeemtroepen, m…",
-       "enSummary": "On 27 August 2026 the English-language edition of Ukrainska Pravda published video and photo material that, according to Ukrainian sources, shows a drone strike on a Nebo-U (55Zh6) radar at the Millerovo military airfield in Russia's Rostov Oblast. The attack is claimed by Ukraine's Unmanned Systems Forces, specifical…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/27/8050644/",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
+       "publishedAt": "2026-08-29T04:12:51.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "De Oekraïense luchtmacht wordt gereorganiseerd: de luchtvaartbrigades worden omgevormd tot 'luchtvaartvleugels' (авіаційні крила), een model dat aansluit bij westerse luchtmachten en bedoeld is om het groeiende aantal westerse toestellen zoals de F-16 op te vangen. Volgens ArmyInform is de 107e Zelfstandige Luchtvaart…",
+       "enSummary": "Ukraine's Air Force is restructuring, converting its aviation brigades into 'aviation wings' (авіаційні крила), a model aligned with Western air forces and intended to accommodate the growing number of Western-supplied aircraft such as the F-16. According to ArmyInform, the 107th Separate Aviation Wing — which operate…",
+       "sourceUrl": "https://euromaidanpress.com/2026/08/29/we-have-surprises-for-our-neighbors-ukraines-aviation-commander-says-new-aircraft-developments-are-essentially-finished-and-already-in-testing",
+       "sourceCount": 3,
+       "signals": []
       },
       {
        "id": "e-20260827-s01",
@@ -2263,9 +2172,33 @@
     "tu160": {
      "name": "Tu-160",
      "nameEn": "Tu-160",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260830-03",
+       "title": "Ukrainian deep strike hits Yaroslavl YANOS refinery and damages Tu-95MS bomber at Engels; satellite imagery confirms bomber damage",
+       "titleNl": "Oekraïense diepteaanval treft raffinaderij YANOS in Jaroslavl en beschadigt Tu-95MS-bommenwerper op Engels; satellietbeelden bevestigen schade",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-28T07:45:53.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "In de nacht van 27 op 28 augustus 2026 voerde Oekraïne een gecombineerde diepteaanval uit op Russische energie- en luchtmachtdoelen. De Oekraïense generale staf bevestigde een aanval op de raffinaderij Slavneft-YANOS in Jaroslavl, ongeveer 250 km ten noordoosten van Moskou en met een verwerkingscapaciteit van circa 15…",
+       "enSummary": "On the night of 27-28 August 2026, Ukraine carried out a combined deep strike against Russian energy and air force targets. Ukraine's General Staff confirmed a strike on the Slavneft-YANOS refinery in Yaroslavl, roughly 250 km northeast of Moscow and, with a throughput of about 15 million tons of crude per year, one o…",
+       "sourceUrl": "https://kyivindependent.com/ukrainian-drones-target-moscow-one-of-russias-largest-oil-refineries-in-yaroslavl-sparking-fire-media-reports/",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260728-s01",
        "title": "Sanctions Push Russia's Aviation Industry Into Crisis, Forcing Rostec Restructuring",
@@ -2286,6 +2219,38 @@
        "sourceCount": 1,
        "signals": [
         "scale"
+       ]
+      }
+     ]
+    },
+    "tu95": {
+     "name": "Tu-95",
+     "nameEn": "Tu-95",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260830-03",
+       "title": "Ukrainian deep strike hits Yaroslavl YANOS refinery and damages Tu-95MS bomber at Engels; satellite imagery confirms bomber damage",
+       "titleNl": "Oekraïense diepteaanval treft raffinaderij YANOS in Jaroslavl en beschadigt Tu-95MS-bommenwerper op Engels; satellietbeelden bevestigen schade",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-28T07:45:53.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "In de nacht van 27 op 28 augustus 2026 voerde Oekraïne een gecombineerde diepteaanval uit op Russische energie- en luchtmachtdoelen. De Oekraïense generale staf bevestigde een aanval op de raffinaderij Slavneft-YANOS in Jaroslavl, ongeveer 250 km ten noordoosten van Moskou en met een verwerkingscapaciteit van circa 15…",
+       "enSummary": "On the night of 27-28 August 2026, Ukraine carried out a combined deep strike against Russian energy and air force targets. Ukraine's General Staff confirmed a strike on the Slavneft-YANOS refinery in Yaroslavl, roughly 250 km northeast of Moscow and, with a throughput of about 15 million tons of crude per year, one o…",
+       "sourceUrl": "https://kyivindependent.com/ukrainian-drones-target-moscow-one-of-russias-largest-oil-refineries-in-yaroslavl-sparking-fire-media-reports/",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy"
        ]
       }
      ]
@@ -2329,9 +2294,34 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 13,
+     "total": 11,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260830-01",
+       "title": "Russian strike on ammunition depot near Kyiv kills at least 37 as Moscow shifts to round-the-clock attacks on the capital",
+       "titleNl": "Russische aanval op munitiedepot bij Kyiv eist zeker 37 doden terwijl Moskou overgaat op non-stop aanvallen op de hoofdstad",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense",
+        "logistics",
+        "doctrine"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-29T09:48:00.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "In de avond van 28 augustus 2026 (rond 20.10 uur lokale tijd) trof een Russische Geran-drone (Shahed-type) een opslagloods bij het dorp Myla in het district Boetsja, oblast Kyiv, ongeveer 5 km ten westen van Kyiv. Volgens het Oekraïense Openbaar Ministerie lag er munitie c.q. 'explosief materiaal' opgeslagen; de insla…",
+       "enSummary": "On the evening of 28 August 2026 (around 8:10 p.m. local time) a Russian Geran drone (a Shahed-type loitering munition) struck a storage warehouse near the village of Myla in Bucha district, Kyiv Oblast, roughly 5 km west of Kyiv. Ukrainian prosecutors said the site held ammunition or 'explosive objects'; the impact s…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/08/29/at-least-37-killed-after-russian-strike-hits-an-ammunition-warehouse-near-kyiv-triggering-massive-explosions-many-of-the-victims-were-residents-of-a-nearby-care-home",
+       "sourceCount": 6,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260826-05",
        "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
@@ -2446,38 +2436,39 @@
        "signals": [
         "counter"
        ]
-      },
-      {
-       "id": "e-20260823-19",
-       "title": "Ukrainian UNWAVE EW System Only One to Jam a UAV During NATO's Baltic Trust 26 Exercises",
-       "titleNl": "Oekraïens EW-systeem UNWAVE als enige in staat UAV te storen tijdens NAVO-oefening Baltic Trust 26",
-       "category": "weapon",
-       "topics": [
-        "ew",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-19T09:43:59.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Tijdens de NAVO-oefening Baltic Trust 26 in Letland — de slotfase van een NAVO-testprogramma voor counter-UAS-systemen — was het Oekraïense EW-systeem UNWAVE als enige deelnemer in staat een UAV succesvol te storen. Tijdens de zogeheten Jamming Performance Challenge verloor de drone door de storing de besturing en sto…",
-       "enSummary": "During NATO's Baltic Trust 26 exercise in Latvia — the final stage of a NATO counter-UAS testing programme — the Ukrainian EW system UNWAVE was the only participant able to successfully jam a UAV. During the so-called Jamming Performance Challenge, the drone lost control after being jammed and crashed, earning the com…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWlxemk2QmdfRjRCSWpTbTVkeTN4VmdHcFotNkdnemsyRWhtb0lPd190aXNpb0FralN3NkRocUdNU1hqNjNCbzhwb0w4Z0ZEcTUzdDZ5U2d6RVpBajRwTnpSYVU5VHcyTHk5UjliLUxPNC0xVzlyWFF6M09neWJId0d4TGZ6bXBOT2F3c3F6RWFGcDVMT2ZLa25PMFpUMEZEY1BvMUNjVzVWMkhGTWRfWmxn?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "counter"
-       ]
       }
      ]
     },
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260830-s01",
+       "title": "О способности БПЛА «отменить» надводные корабли",
+       "titleNl": "Over het vermogen van drones om oppervlakteschepen 'af te schaffen'",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "navy",
+        "drones",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-08-30T01:08:32.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "Een opiniestuk op het Russische militaire portaal Topwar (auteur Andrej Kolobov) betoogt dat onbemande systemen — zowel luchtdrones als onbemande oppervlaktevaartuigen (USV's) — de bemande oppervlaktevloot niet overbodig maken. De auteur erkent dat Oekraïense USV's opvallende successen boekten tegen de Russische Zwart…",
+       "enSummary": "An opinion piece on the Russian military portal Topwar (by Andrey Kolobov) argues that unmanned systems — both aerial UAVs and uncrewed surface vessels (USVs) — will not make the crewed surface fleet obsolete. English gloss of the title: 'On the ability of UAVs to \"cancel\" surface ships.' The author concedes that Ukra…",
+       "sourceUrl": "https://topwar.ru/288779-o-sposobnosti-bpla-otmenit-nadvodnye-korabli.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260824-11",
        "title": "Ukraine's GPS-Free Beacon Network Guides Drones Hunting Russian Spy Aircraft Over the Black Sea",
@@ -2557,6 +2548,30 @@
      "signalCount": 4,
      "entries": [
       {
+       "id": "e-20260830-s01",
+       "title": "О способности БПЛА «отменить» надводные корабли",
+       "titleNl": "Over het vermogen van drones om oppervlakteschepen 'af te schaffen'",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "navy",
+        "drones",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-08-30T01:08:32.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "Een opiniestuk op het Russische militaire portaal Topwar (auteur Andrej Kolobov) betoogt dat onbemande systemen — zowel luchtdrones als onbemande oppervlaktevaartuigen (USV's) — de bemande oppervlaktevloot niet overbodig maken. De auteur erkent dat Oekraïense USV's opvallende successen boekten tegen de Russische Zwart…",
+       "enSummary": "An opinion piece on the Russian military portal Topwar (by Andrey Kolobov) argues that unmanned systems — both aerial UAVs and uncrewed surface vessels (USVs) — will not make the crewed surface fleet obsolete. English gloss of the title: 'On the ability of UAVs to \"cancel\" surface ships.' The author concedes that Ukra…",
+       "sourceUrl": "https://topwar.ru/288779-o-sposobnosti-bpla-otmenit-nadvodnye-korabli.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
        "id": "e-20260828-03",
        "title": "Video shows Ukrainian drone strike on Nebo-U early-warning radar at Millerovo airfield",
        "titleNl": "Video toont Oekraïense droneaanval op Nebo-U-radar voor vroege waarschuwing bij vliegveld Millerovo",
@@ -2570,14 +2585,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-08-27T16:16:00.000Z",
-       "updatedAt": "2026-08-28T09:00:00.000Z",
-       "nlSummary": "Op 27 augustus 2026 publiceerde de Engelstalige editie van Ukrajinska Pravda video- en fotobeelden die volgens Oekraïense bronnen een droneaanval tonen op een Nebo-U-radar (55Zj6) op het militaire vliegveld Millerovo in de Russische oblast Rostov. De aanval wordt opgeëist door de Oekraïense Onbemande Systeemtroepen, m…",
-       "enSummary": "On 27 August 2026 the English-language edition of Ukrainska Pravda published video and photo material that, according to Ukrainian sources, shows a drone strike on a Nebo-U (55Zh6) radar at the Millerovo military airfield in Russia's Rostov Oblast. The attack is claimed by Ukraine's Unmanned Systems Forces, specifical…",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "Op 27 augustus 2026 publiceerde de Engelstalige editie van Ukrajinska Pravda video- en fotobeelden die volgens Oekraïense bronnen een droneaanval tonen op een Nebo-U-radar (55Zj6) voor vroege waarschuwing op het militaire vliegveld Millerovo in de Russische oblast Rostov, op zo'n 170 km van de frontlinie. De aanval wo…",
+       "enSummary": "On 27 August 2026 the English-language edition of Ukrainska Pravda published video and photo material that, according to Ukrainian sources, shows a drone strike on a Nebo-U (55Zh6) early-warning radar at the Millerovo military airfield in Russia's Rostov Oblast, roughly 170 km from the front line. The attack is claime…",
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/27/8050644/",
-       "sourceCount": 2,
+       "sourceCount": 3,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -2627,32 +2641,6 @@
         "loss",
         "deploy"
        ]
-      },
-      {
-       "id": "e-20260730-01",
-       "title": "Russia launches combined missile and drone barrage on Kyiv, Lviv, Kryvyi Rih and Poltava Oblast; Zelensky cites critical air-defence missile shortage",
-       "titleNl": "Rusland lanceert gecombineerde raket- en drone-aanval op Kyiv, Lviv, Kryvyi Rih en Poltava-oblast; Zelensky wijst op kritiek tekort aan luchtafweerraketten",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-07-30T02:42:00.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "Rusland voerde in de nacht van 29 op 30 juli 2026 een grootschalige gecombineerde aanval uit op Oekraïne, met inzet van raketten en aanvalsdrones vanaf lucht-, land- en zeeplatforms. Volgens de Oekraïense luchtmacht werden 358 doelen gedetecteerd: 74 raketten (4 Zircon/Oniks-antischeepsraketten, 9 Iskander-M/S-400/KN-…",
-       "enSummary": "On the night of 29-30 July 2026, Russia carried out a large-scale combined attack on Ukraine using missiles and attack drones launched from air, land and sea platforms. Ukraine's Air Force detected 358 aerial assets in total: 74 missiles (4 Zircon/Oniks anti-ship missiles, 9 Iskander-M/S-400/KN-23 ballistic missiles a…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/07/30/8046494",
-       "sourceCount": 14,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
-        "scale"
-       ]
       }
      ]
     },
@@ -2662,6 +2650,29 @@
      "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260830-s02",
+       "title": "Russia Appears to Be Copying Iran's 359 Air-Defense Missile, Potentially Threatening Ukrainian Jet Drones and Cruise Missiles",
+       "titleNl": "Rusland lijkt Irans 359-luchtverdedigingsraket te kopiëren, met een mogelijke dreiging voor Oekraïense jetdrones en kruisraketten",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "missiles",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-08-29T09:37:26.000Z",
+       "updatedAt": "2026-08-30T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Oekraïens defensiemedium Defense Express, niet onafhankelijk geverifieerd. Het artikel meldt dat een nieuwe Russische drone-raket, in ontwikkeling bij het Russische bedrijf Aerokon, sterk lijkt op de Iraanse '359': feitelijk een straalaangedreven luchtverdedigingsdrone in plaats van een klassieke lucht…",
+       "enSummary": "SINGLE SOURCE — Ukrainian defense outlet Defense Express, not independently verified. The article reports that a new Russian drone-missile being developed by the Russian company Aerokon strongly resembles Iran's '359': in effect a jet-powered air-defense drone rather than a conventional anti-aircraft missile. Iran has…",
+       "sourceUrl": "https://en.defence-ua.com/weapon_and_tech/",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260823-s02",
        "title": "US to develop new RIM-7 Sea Sparrow modification used in Ukrainian-American FrankenSAM",
@@ -2779,29 +2790,6 @@
        "sourceCount": 1,
        "signals": [
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260730-04",
-       "title": "Ukraine torches Russian naval-drone base at Snizhne near occupied Yevpatoriia",
-       "titleNl": "Oekraïne verwoest Russische zeedrone-basis bij Snizjne nabij bezet Jevpatoria",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "navy",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-07-30T10:10:16.000Z",
-       "updatedAt": "2026-07-30T07:00:00.000Z",
-       "nlSummary": "Rusland stationeert in bezet Krim een vloot onbemande zeedrones die specifiek zijn bedoeld om Oekraïense maritieme doelen te jagen, waaronder Oekraïne's eigen zeedrones die de Zwarte Zee-vloot en aanvoerroutes naar het schiereiland onder druk zetten. Deze Russische vaartuigen lagen gestationeerd in hangars bij Snizjne…",
-       "enSummary": "Russia bases a fleet of uncrewed naval boats in occupied Crimea specifically to hunt Ukrainian maritime targets, including Ukraine's own sea drones that have been squeezing the Black Sea Fleet and supply routes to the peninsula. These Russian vessels were kept in hangars near Snizhne, close to Yevpatoriia on Crimea's…",
-       "sourceUrl": "https://euromaidanpress.com/2026/07/30/russia-builds-sea-drones-to-hunt-ukraine-ukraine-just-torched-the-base-where-they-sit-in-occupied-crimea",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
