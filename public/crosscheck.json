@@ -1,11 +1,11 @@
 {
- "updated": "2026-08-31T05:25:49.753Z",
- "analysisUpdated": "2026-08-31T09:00:00.000Z",
+ "updated": "2026-09-01T05:51:27.104Z",
+ "analysisUpdated": "2026-09-01T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 137,
+  "entriesConsidered": 145,
   "cardsWithHits": 37,
-  "matches": 155
+  "matches": 162
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -673,9 +673,32 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 17,
+     "total": 19,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260901-s03",
+       "title": "Самый опасный враг сегодня – в небе",
+       "titleNl": "De gevaarlijkste vijand is tegenwoordig in de lucht (Krasnaya Zvezda over counter-drone training van stormtroepen)",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-08-30T21:00:00.000Z",
+       "updatedAt": "2026-09-01T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Krasnaja Zvezda is de officiële krant van het Russische ministerie van Defensie (staatsmedium); de beschrijving en claims hieronder weerspiegelen de positie van het Russische MoD en zijn niet onafhankelijk geverifieerd.",
+       "enSummary": "SINGLE SOURCE — Krasnaya Zvezda is the official newspaper of the Russian Ministry of Defence (a state outlet); the account and claims below reflect the Russian MoD position and are not independently verified.",
+       "sourceUrl": "http://redstar.ru/samyj-opasnyj-vrag-segodnya-v-nebe",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260831-06",
        "title": "Ukrainian firm Rebel Group unveils Brama stationary EW/SIGINT system against FPV drones",
@@ -697,6 +720,30 @@
        "signals": [
         "deploy",
         "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260901-s01",
+       "title": "Russian milbloggers push for networking mobile fire groups (MOG) as frontline counter-drone air defence",
+       "titleNl": "Russische milbloggers pleiten voor het koppelen van mobiele vuurgroepen (MOG) als counter-drone luchtverdediging",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense",
+        "command"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-08-30T08:24:23.000Z",
+       "updatedAt": "2026-09-01T09:00:00.000Z",
+       "nlSummary": "MILBLOGGER — dit berust op twee persoonlijke/redactionele pro-Russische Telegram-kanalen (Rybar en WarGonzo), geen officieel standpunt van het Russische ministerie van Defensie. Milbloggers spreken elkaar en het ministerie geregeld tegen, overdrijven behaalde resultaten en hebben eigen belangen (Rybar promoot explicie…",
+       "enSummary": "MILBLOGGER — this rests on two personal/editorial pro-Russian Telegram channels (Rybar and WarGonzo), not an official Russian MoD position. Milbloggers routinely contradict each other and the ministry, inflate claimed results, and pursue their own agendas (Rybar openly promotes allied channels and a named manufacturer…",
+       "sourceUrl": "https://t.me/rybar/82764",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
         "counter"
        ]
       },
@@ -763,63 +810,38 @@
        "sourceUrl": "https://meduza.io/en/news/2026/08/25/the-head-of-russia-s-flagship-tula-drone-center-is-arrested-on-fraud-charges",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20260825-08",
-       "title": "Finland's Patria to Partner With Ukraine's General Cherry on Drone Production",
-       "titleNl": "Fins defensiebedrijf Patria en Oekraïens dronebedrijf General Cherry sluiten intentieverklaring voor droneproductie in Finland",
-       "category": "org",
-       "topics": [
-        "drones",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T14:45:18.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE. Op 24 augustus 2026 meldde Defense News dat het Finse defensiebedrijf Patria een intentieverklaring (letter of intent) heeft ondertekend met het Oekraïense dronebedrijf General Cherry om samen onbemande systemen te ontwikkelen en droneproductie in Finland op te zetten. General Cherry, mede opgericht doo…",
-       "enSummary": "On 24 August 2026, Defense News reported that Finnish defense manufacturer Patria has signed a letter of intent with Ukrainian drone maker General Cherry to jointly develop unmanned systems and establish drone production in Finland. General Cherry, co-founded by Stanislav Hryshyn, makes one-way FPV strike drones and i…",
-       "sourceUrl": "https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260824-08",
-       "title": "Ukraine Reveals Scale of Behemoth Kamikaze Drone Production Line",
-       "titleNl": "Oekraïne onthult schaal van Behemoth kamikaze-droneproductielijn",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T12:53:21.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Nieuw vrijgegeven beeldmateriaal rond de Oekraïense Onafhankelijkheidsdag (24 augustus 2026) toont voor het eerst de omvang van de productielijn van de Behemoth, een Oekraïense kamikaze-drone voor de middellange afstand. De opnamen laten tientallen zwarte, Shahed-vormige romfrasten zien die vleugel aan vleugel op hout…",
-       "enSummary": "Newly released footage timed to Ukraine's Independence Day (24 August 2026) offers the clearest public look yet at the scale of the Behemoth's production line, a Ukrainian mid-range kamikaze drone. The video shows dozens of black, Shahed-shaped airframes mounted wingtip to wingtip on wooden and metal stands inside wha…",
-       "sourceUrl": "https://defence-blog.com/ukraine-reveals-scale-of-behemoth-kamikaze-drone-production-line",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf",
-        "scale"
-       ]
       }
      ]
     },
     "cots": {
      "name": "COTS-drones",
      "nameEn": "COTS-drones",
-     "total": 4,
-     "signalCount": 3,
+     "total": 5,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260901-s03",
+       "title": "Самый опасный враг сегодня – в небе",
+       "titleNl": "De gevaarlijkste vijand is tegenwoordig in de lucht (Krasnaya Zvezda over counter-drone training van stormtroepen)",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-08-30T21:00:00.000Z",
+       "updatedAt": "2026-09-01T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Krasnaja Zvezda is de officiële krant van het Russische ministerie van Defensie (staatsmedium); de beschrijving en claims hieronder weerspiegelen de positie van het Russische MoD en zijn niet onafhankelijk geverifieerd.",
+       "enSummary": "SINGLE SOURCE — Krasnaya Zvezda is the official newspaper of the Russian Ministry of Defence (a state outlet); the account and claims below reflect the Russian MoD position and are not independently verified.",
+       "sourceUrl": "http://redstar.ru/samyj-opasnyj-vrag-segodnya-v-nebe",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260831-04",
        "title": "Verstka: Russians spent over 25 billion rubles ($290M) on body armor, optics and drone parts via Ozon in a year",
@@ -969,9 +991,33 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 10,
+     "total": 11,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260901-s01",
+       "title": "Russian milbloggers push for networking mobile fire groups (MOG) as frontline counter-drone air defence",
+       "titleNl": "Russische milbloggers pleiten voor het koppelen van mobiele vuurgroepen (MOG) als counter-drone luchtverdediging",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense",
+        "command"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-08-30T08:24:23.000Z",
+       "updatedAt": "2026-09-01T09:00:00.000Z",
+       "nlSummary": "MILBLOGGER — dit berust op twee persoonlijke/redactionele pro-Russische Telegram-kanalen (Rybar en WarGonzo), geen officieel standpunt van het Russische ministerie van Defensie. Milbloggers spreken elkaar en het ministerie geregeld tegen, overdrijven behaalde resultaten en hebben eigen belangen (Rybar promoot explicie…",
+       "enSummary": "MILBLOGGER — this rests on two personal/editorial pro-Russian Telegram channels (Rybar and WarGonzo), not an official Russian MoD position. Milbloggers routinely contradict each other and the ministry, inflate claimed results, and pursue their own agendas (Rybar openly promotes allied channels and a named manufacturer…",
+       "sourceUrl": "https://t.me/rybar/82764",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260831-01",
        "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine field-tests four interceptors",
@@ -1090,30 +1136,6 @@
         "loss",
         "variant"
        ]
-      },
-      {
-       "id": "e-20260824-07",
-       "title": "Ukraine Arms Mi-8 Helicopters with Drone-Interceptor Launchers Against Shaheds",
-       "titleNl": "Oekraïne rust Mi-8-helikopters uit met drone-interceptorlanceerders tegen Shaheds",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "airforce",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T08:09:54.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Oekraïne heeft Mi-8-transporthelikopters uitgerust met speciale lanceerinrichtingen voor interceptordrones, bedoeld om Russische Shahed/Geran-aanvalsdrones te onderscheppen. Aan elke kant van de helikopter zijn minstens drie lanceerrails gemonteerd, goed voor in totaal zes interceptordrones per toestel. De interceptor…",
-       "enSummary": "Ukraine has fitted Mi-8 transport helicopters with dedicated launchers for interceptor drones aimed at destroying Russian Shahed/Geran attack drones. At least three launch rails are mounted on each side of the helicopter, giving it a total capacity of six interceptor drones per aircraft. The interceptors are reportedl…",
-       "sourceUrl": "https://defence-blog.com/ukraines-mi-8-gets-drone-interceptor-launchers-to-hunt-shaheds",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "perf"
-       ]
       }
      ]
     }
@@ -1126,9 +1148,32 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 7,
-     "signalCount": 5,
+     "total": 8,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260901-06",
+       "title": "Ukraine's General Staff reports strikes on an S-400 command vehicle and radar in Bryansk Oblast, 30-31 August",
+       "titleNl": "Oekraïense generale staf meldt aanvallen op een S-400-commandovoertuig en radar in oblast Brjansk, 30-31 augustus",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-31T09:31:59.000Z",
+       "updatedAt": "2026-09-01T09:00:00.000Z",
+       "nlSummary": "De Oekraïense generale staf meldde op 31 augustus 2026 dat de Defensietroepen in het afgelopen etmaal en de nacht van 30 op 31 augustus een reeks Russische doelen troffen, met de nadruk op luchtverdediging. In de oblast Brjansk zou een radarstation bij Desnjansky zijn geraakt en, apart, een commando- en stafvoertuig (…",
+       "enSummary": "Ukraine's General Staff reported on 31 August 2026 that over the previous day and the night of 30-31 August its Defence Forces struck a series of Russian targets, with an emphasis on air defence. In Bryansk Oblast a radar station near Desnyansky was reportedly hit and, separately, a command-and-staff vehicle (KShM) fr…",
+       "sourceUrl": "https://armyinform.com.ua/2026/08/31/syly-oborony-urazyly-rls-systemu-ppo-ta-komandno-shtabnu-mashynu-okupantiv",
+       "sourceCount": 2,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260828-02",
        "title": "Russia converts up to 17 S-400 launchers to fire RM-48U missiles in a surface-to-surface role against Ukraine — DIU",
@@ -1246,26 +1291,6 @@
        "signals": [
         "deploy"
        ]
-      },
-      {
-       "id": "e-20260731-s02",
-       "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
-       "titleNl": "Turkije zou Egypte als koper van S-400's overwegen om F-35-impasse op te lossen; Caïro heeft al Russische S-300VM",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T08:47:54.000Z",
-       "updatedAt": "2026-07-31T21:00:00.000Z",
-       "nlSummary": "Volgens Defense Express (Ivan Kyrychevskiy) zoekt Turkije nog steeds naar een koper voor zijn Russische S-400-luchtverdedigingssystemen, die het land onder een contract uit 2017 van Moskou kocht en die de directe aanleiding vormden voor Turkijes uitsluiting van het Amerikaanse F-35-programma. Egypte zou nu naar voren…",
-       "enSummary": "Defense Express (author Ivan Kyrychevskiy) reports that Turkey is still seeking a buyer for its Russian S-400 air defense systems, acquired under a 2017 contract with Moscow and the direct cause of Turkey's exclusion from the US F-35 program. Egypt has reportedly emerged as a probable buyer, with talks said to have ta…",
-       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
-       "sourceCount": 1,
-       "signals": []
       }
      ]
     },
@@ -1322,9 +1347,32 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 7,
+     "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260901-06",
+       "title": "Ukraine's General Staff reports strikes on an S-400 command vehicle and radar in Bryansk Oblast, 30-31 August",
+       "titleNl": "Oekraïense generale staf meldt aanvallen op een S-400-commandovoertuig en radar in oblast Brjansk, 30-31 augustus",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-31T09:31:59.000Z",
+       "updatedAt": "2026-09-01T09:00:00.000Z",
+       "nlSummary": "De Oekraïense generale staf meldde op 31 augustus 2026 dat de Defensietroepen in het afgelopen etmaal en de nacht van 30 op 31 augustus een reeks Russische doelen troffen, met de nadruk op luchtverdediging. In de oblast Brjansk zou een radarstation bij Desnjansky zijn geraakt en, apart, een commando- en stafvoertuig (…",
+       "enSummary": "Ukraine's General Staff reported on 31 August 2026 that over the previous day and the night of 30-31 August its Defence Forces struck a series of Russian targets, with an emphasis on air defence. In Bryansk Oblast a radar station near Desnyansky was reportedly hit and, separately, a command-and-staff vehicle (KShM) fr…",
+       "sourceUrl": "https://armyinform.com.ua/2026/08/31/syly-oborony-urazyly-rls-systemu-ppo-ta-komandno-shtabnu-mashynu-okupantiv",
+       "sourceCount": 2,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260831-02",
        "title": "Ukraine strikes Kirishi refinery, Yeysk and Millerovo airfields in coordinated deep-strike package; SBS claims Pantsir-S1 and four radars destroyed",
@@ -1441,28 +1489,6 @@
         "loss",
         "variant",
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260722-s03",
-       "title": "Fighters from Black Forest unit struck MiG-29 and Pantsir-S1 at Khalino airfield in the Kursk region",
-       "titleNl": "Vechters van eenheid 'Black Forest' raakten MiG-29 en Pantsir-S1 op vliegveld Chalino in oblast Koersk",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Censor.NET (EN) meldt dat vechters van de Oekraïense eenheid 'Black Forest' — elders geïdentificeerd als de 15e Aparte Artillerieverkenningsbrigade 'Black Forest' van de Oekraïense Landmacht — een Russisch MiG-29-jachtvliegtuig en een Pantsir-S1-luchtafweersysteem raakten op het vliegveld Chalino in oblast Koersk, cir…",
-       "enSummary": "Censor.NET (EN) reports that fighters from Ukraine's 'Black Forest' unit — identified elsewhere as the 15th Separate Artillery Reconnaissance Brigade 'Black Forest' of the Ukrainian Ground Forces — struck a Russian MiG-29 fighter jet and a Pantsir-S1 gun/missile air-defense system at the Khalino airfield in Kursk Obla…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSzRXMnVhd3JCN0lYRUU4Slk1S2VHMWxkMmNWd2ZxX29kVU9yVG1WRVFYUEVLYkZibm5Vb0JIZ1pVRXZRcE54Rm1HRUtYdlFZdGVjQUdaSXlYZlUzOE5Zd0tsV0dDaUVyb0V1QVotOElSOW8yeGlpZDAzSmhSRmlxUUl6enRobkNQY1RYOU01b0lscEFKb3VXOVR0ZmRodWxENWZmSU1OeF9IU19OZFpLWEhocE5aWkJDU1NSNlJSWGd3UWhsZW5xaldpYXhKRkFDV0ZySkxCRQ?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -2189,9 +2215,33 @@
     "su57": {
      "name": "Su-57",
      "nameEn": "Su-57",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260901-03",
+       "title": "Russia details two-seat Su-57D role: back-seater to control S-70 Okhotnik and drone groups",
+       "titleNl": "Rusland licht rol tweezits Su-57D toe: achterste stoel moet S-70 Okhotnik en dronegroepen aansturen",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "airforce",
+        "doctrine"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-08-31T08:39:00.000Z",
+       "updatedAt": "2026-09-01T09:00:00.000Z",
+       "nlSummary": "Het Russische staatsconcern Rostec gaf via het tv-programma \"Voennaja Prijomka\" nieuwe details vrij over de tweezitsvariant van de Su-57, wisselend Su-57D (\"D\" vermoedelijk voor demonstrator) of Su-57UB genoemd. Volgens Rostec vloog het prototype voor het eerst in mei 2026 en zit het in de testfase. Het is geen nieuwb…",
+       "enSummary": "Russia's state defense conglomerate Rostec, via the TV program \"Military Acceptance,\" released new details on the two-seat variant of the Su-57, referred to variously as Su-57D (\"D\" likely for demonstrator) or Su-57UB. Rostec says the prototype first flew in May 2026 and is in flight testing. It is not new-build: avia…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/31/8051125",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "variant"
+       ]
+      },
       {
        "id": "e-20260727-s01",
        "title": "InformNapalm claims Ukrainian hack caused Russian air defence to shoot down its own Su-57 near Moscow",
@@ -2782,11 +2832,11 @@
        "origin": "ru",
        "significance": 1,
        "publishedAt": "2026-08-30T15:00:37.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
+       "updatedAt": "2026-09-01T09:00:00.000Z",
        "nlSummary": "MILBLOGGER — persoonlijke/redactionele Russische Telegram-stem (\"Два майора\"), geen officieel standpunt van het Russische ministerie van Defensie; de tekst zelf is ondertekend door \"ПВО СОВА\" (PVO SOVA), een commerciële aanbieder van een counter-drone-complex, en eindigt met een verkooppitch. Het is dus een tactische…",
        "enSummary": "MILBLOGGER — a personal/editorial Russian Telegram voice (\"Dva Majora\"), not an official Russian MoD position; the text itself is signed by \"PVO SOVA\", a commercial vendor of a counter-drone complex, and ends with a sales pitch. It is therefore a vendor's tactical marketing note relayed by a milblogger; the effectiven…",
        "sourceUrl": "https://t.me/dva_majors/98243",
-       "sourceCount": 1,
+       "sourceCount": 2,
        "signals": [
         "counter"
        ]
