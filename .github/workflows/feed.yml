@@ -47,6 +47,21 @@ jobs:
       - name: Build cross-check for sibling sites
         run: node crawler/crosscheck.js || true
 
+      # firebase-admin is de enige externe dependency van de crawler en wordt
+      # alleen door forum-sync.js gebruikt. Niet-fataal: zonder installatie
+      # schrijft dat script alleen entities.json en slaat Firestore over.
+      - name: Install crawler dependencies
+        run: npm install --omit=dev --no-audit --no-fund || true
+
+      # Voedt het Adepti Forum: entities.json voor de systeemherkenning,
+      # discussiedraden voor de zwaarste items, en de wekelijkse
+      # Corroboration Watch met de onbevestigde meldingen. Schrijft de
+      # verdicts terug naar public/forum-verdicts.json. Niet-fataal.
+      - name: Sync the Adepti Forum
+        env:
+          FIREBASE_SERVICE_ACCOUNT_ADEPTI_FORUM: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ADEPTI_FORUM }}
+        run: node crawler/forum-sync.js || true
+
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:

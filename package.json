@@ -1,0 +1,9 @@
+{
+  "name": "ru-mil-tracker-crawler",
+  "private": true,
+  "version": "1.0.0",
+  "description": "De crawler draait op Node-ingebouwde modules. De enige externe dependency is firebase-admin, die alleen forum-sync.js nodig heeft om draden in het Adepti Forum te schrijven; ontbreekt hij, dan slaat dat script die stap netjes over.",
+  "dependencies": {
+    "firebase-admin": "^14.3.0"
+  }
+}
