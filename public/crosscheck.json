@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-01T05:51:27.104Z",
- "analysisUpdated": "2026-09-01T09:00:00.000Z",
+ "updated": "2026-09-02T17:18:10.946Z",
+ "analysisUpdated": "2026-09-02T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 145,
-  "cardsWithHits": 37,
-  "matches": 162
+  "entriesConsidered": 150,
+  "cardsWithHits": 39,
+  "matches": 177
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,13 +23,38 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 17,
+     "total": 20,
      "signalCount": 6,
      "entries": [
       {
+       "id": "e-20260902-s02",
+       "title": "IRIS-T ВСУ уничтожен расчетом РУК ZALA «Ланцет» с расстояния почти 200 км",
+       "titleNl": "Oekraïense IRIS-T uitgeschakeld door 'Lancet'-ploeg van ZALA-verkennings-/aanvalscomplex vanaf bijna 200 km (milblogger-claim)",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-01T11:46:54.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Het Russische Telegram-kanaal \"Два майора\" (Dva Majora) plaatste op 1 september 2026 een bericht — doorgestuurd van fabrikant ZALA — met de kop \"een Oekraïense IRIS-T vernietigd door een ploeg van het ZALA-«Lancet»-verkennings-/aanvalscomplex vanaf bijna 200 km\". Volgens de post viel een ploeg van dat complex, toegesc…",
+       "enSummary": "On 1 September 2026 the Russian Telegram channel \"Два майора\" (Dva Majora) published a post — forwarded from the manufacturer ZALA — headlined \"a Ukrainian IRIS-T destroyed by a ZALA «Lancet» reconnaissance-strike-complex crew from a range of almost 200 km\". The post states that a crew of that complex, attributed to t…",
+       "sourceUrl": "https://t.me/dva_majors/98357",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
+      {
        "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine field-tests four interceptors",
-       "titleNl": "Aantal straalaangedreven Shahed-drones in een maand met minstens 67% gestegen; Oekraïne test vier interceptors",
+       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
+       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
        "category": "weapon",
        "topics": [
         "drones",
@@ -37,13 +62,13 @@
        ],
        "stream": "verified",
        "origin": null,
-       "significance": 2,
+       "significance": 3,
        "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
        "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
        "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
        "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 4,
+       "sourceCount": 8,
        "signals": [
         "loss",
         "deploy",
@@ -73,6 +98,31 @@
        "sourceCount": 1,
        "signals": [
         "loss"
+       ]
+      },
+      {
+       "id": "e-20260901-02",
+       "title": "Russia shifts its Kyiv strike campaign to sustained, round-the-clock drone pressure",
+       "titleNl": "Rusland verlegt zijn aanvalscampagne op Kyiv naar aanhoudende druk de klok rond",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense",
+        "doctrine"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-29T19:15:36.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Rond 27-31 augustus 2026 stapte Rusland af van het patroon van geconcentreerde nachtelijke salvo's tegen Kyiv en ging over op frequentie boven omvang. In plaats van één massale nachtbarrage van ballistische en kruisraketten met daaraan voorafgaand drone-golven, stuurt Moskou nu kleine groepen straalaangedreven drones…",
+       "enSummary": "Around 27-31 August 2026 Russia broke with its established pattern of concentrated overnight salvos against Kyiv and adopted an approach prioritising frequency over amplitude. Instead of a single massed night barrage of ballistic and cruise missiles preceded by drone waves, Moscow now sends small groups of jet-powered…",
+       "sourceUrl": "https://www.twz.com/news-features/russia-changing-missile-and-drone-attack-strategy-on-ukrainian-captial",
+       "sourceCount": 11,
+       "signals": [
+        "loss",
+        "scale"
        ]
       },
       {
@@ -122,63 +172,40 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260830-07",
-       "title": "Ukraine's General Staff claims Buk-M3 destroyed plus strikes on Shahed launch sites, EW complex and command posts",
-       "titleNl": "Oekraïense generale staf claimt vernietigde Buk-M3 en aanvallen op Shahed-lanceerlocaties, EW-complex en commandoposten",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones",
-        "ew",
-        "command"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-29T09:09:12.000Z",
-       "updatedAt": "2026-08-30T09:00:00.000Z",
-       "nlSummary": "Op 29 augustus 2026 meldde de generale staf van de Oekraïense strijdkrachten een reeks aanvallen op Russische militaire doelen in het achterland en nabij het front. Na analyse van aanvullende operationele gegevens bevestigde de staf de vernietiging van een Russisch Buk-M3 luchtverdedigingssysteem bij Klintsy in de Rus…",
-       "enSummary": "On 29 August 2026 the General Staff of Ukraine's Armed Forces reported a series of strikes on Russian military targets in the deep rear and near the front line. After analysing additional operational data, it confirmed the destruction of a Russian Buk-M3 air-defence system near Klintsy in Russia's Bryansk Oblast on 28…",
-       "sourceUrl": "https://armyinform.com.ua/2026/08/29/syly-oborony-urazyly-misczya-zapusku-udarnyh-bpla-ta-kompleks-reb-okupantiv",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260828-03",
-       "title": "Video shows Ukrainian drone strike on Nebo-U early-warning radar at Millerovo airfield",
-       "titleNl": "Video toont Oekraïense droneaanval op Nebo-U-radar voor vroege waarschuwing bij vliegveld Millerovo",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-27T16:16:00.000Z",
-       "updatedAt": "2026-08-30T09:00:00.000Z",
-       "nlSummary": "Op 27 augustus 2026 publiceerde de Engelstalige editie van Ukrajinska Pravda video- en fotobeelden die volgens Oekraïense bronnen een droneaanval tonen op een Nebo-U-radar (55Zj6) voor vroege waarschuwing op het militaire vliegveld Millerovo in de Russische oblast Rostov, op zo'n 170 km van de frontlinie. De aanval wo…",
-       "enSummary": "On 27 August 2026 the English-language edition of Ukrainska Pravda published video and photo material that, according to Ukrainian sources, shows a drone strike on a Nebo-U (55Zh6) early-warning radar at the Millerovo military airfield in Russia's Rostov Oblast, roughly 170 km from the front line. The attack is claime…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/27/8050644/",
-       "sourceCount": 3,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260831-01",
+       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
+       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-30T05:48:15.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
+       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
+       "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
+       "sourceCount": 8,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260825-11",
        "title": "Russian drone hits residential building in Chernihiv: 8 injured, fire being extinguished",
@@ -274,9 +301,34 @@
     "lancet": {
      "name": "Lancet-1 / Lancet-3",
      "nameEn": "Lancet-1 / Lancet-3",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260902-s02",
+       "title": "IRIS-T ВСУ уничтожен расчетом РУК ZALA «Ланцет» с расстояния почти 200 км",
+       "titleNl": "Oekraïense IRIS-T uitgeschakeld door 'Lancet'-ploeg van ZALA-verkennings-/aanvalscomplex vanaf bijna 200 km (milblogger-claim)",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-01T11:46:54.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Het Russische Telegram-kanaal \"Два майора\" (Dva Majora) plaatste op 1 september 2026 een bericht — doorgestuurd van fabrikant ZALA — met de kop \"een Oekraïense IRIS-T vernietigd door een ploeg van het ZALA-«Lancet»-verkennings-/aanvalscomplex vanaf bijna 200 km\". Volgens de post viel een ploeg van dat complex, toegesc…",
+       "enSummary": "On 1 September 2026 the Russian Telegram channel \"Два майора\" (Dva Majora) published a post — forwarded from the manufacturer ZALA — headlined \"a Ukrainian IRIS-T destroyed by a ZALA «Lancet» reconnaissance-strike-complex crew from a range of almost 200 km\". The post states that a crew of that complex, attributed to t…",
+       "sourceUrl": "https://t.me/dva_majors/98357",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260729-s04",
        "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
@@ -388,8 +440,8 @@
      "entries": [
       {
        "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine field-tests four interceptors",
-       "titleNl": "Aantal straalaangedreven Shahed-drones in een maand met minstens 67% gestegen; Oekraïne test vier interceptors",
+       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
+       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
        "category": "weapon",
        "topics": [
         "drones",
@@ -397,13 +449,13 @@
        ],
        "stream": "verified",
        "origin": null,
-       "significance": 2,
+       "significance": 3,
        "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
        "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
        "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
        "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 4,
+       "sourceCount": 8,
        "signals": [
         "loss",
         "deploy",
@@ -582,6 +634,39 @@
       }
      ]
     },
+    "zala-z16": {
+     "name": "ZALA Z-16",
+     "nameEn": "ZALA Z-16",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260902-s02",
+       "title": "IRIS-T ВСУ уничтожен расчетом РУК ZALA «Ланцет» с расстояния почти 200 км",
+       "titleNl": "Oekraïense IRIS-T uitgeschakeld door 'Lancet'-ploeg van ZALA-verkennings-/aanvalscomplex vanaf bijna 200 km (milblogger-claim)",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-01T11:46:54.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Het Russische Telegram-kanaal \"Два майора\" (Dva Majora) plaatste op 1 september 2026 een bericht — doorgestuurd van fabrikant ZALA — met de kop \"een Oekraïense IRIS-T vernietigd door een ploeg van het ZALA-«Lancet»-verkennings-/aanvalscomplex vanaf bijna 200 km\". Volgens de post viel een ploeg van dat complex, toegesc…",
+       "enSummary": "On 1 September 2026 the Russian Telegram channel \"Два майора\" (Dva Majora) published a post — forwarded from the manufacturer ZALA — headlined \"a Ukrainian IRIS-T destroyed by a ZALA «Lancet» reconnaissance-strike-complex crew from a range of almost 200 km\". The post states that a crew of that complex, attributed to t…",
+       "sourceUrl": "https://t.me/dva_majors/98357",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      }
+     ]
+    },
     "orion": {
      "name": "Orion",
      "nameEn": "Orion",
@@ -673,9 +758,32 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 19,
-     "signalCount": 5,
+     "total": 21,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260902-01",
+       "title": "Ukraine forms 446th Unmanned Systems Brigade — second new drone brigade in two months",
+       "titleNl": "Oekraïne formeert 446e Brigade Onbemande Systemen — tweede nieuwe dronebrigade in twee maanden",
+       "category": "org",
+       "topics": [
+        "drones",
+        "command",
+        "doctrine"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-01T13:46:16.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Oekraïne stelt de 446e Zelfstandige Brigade Onbemande Systemen op. De eenheid zit begin september 2026 in de wervings- en formatiefase en rekruteert zowel dronepersoneel (operators van grondrobots, FPV-, bommenwerper- en interceptordrones) als ondersteunende functies zoals analisten, psychologische-ondersteuningsoffic…",
+       "enSummary": "Ukraine's Armed Forces are establishing the 446th Separate Unmanned Systems Brigade. As of early September 2026 the unit is in the recruitment and formation phase, seeking both drone personnel (operators of ground robots, FPV, bomber and interceptor drones) and support roles such as analysts, psychological-support off…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/01/second-drone-brigade-in-two-months-ukraine-is-forming-the-446th-unmanned-systems-brigade/",
+       "sourceCount": 2,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260901-s03",
        "title": "Самый опасный враг сегодня – в небе",
@@ -790,34 +898,14 @@
        "signals": [
         "counter"
        ]
-      },
-      {
-       "id": "e-20260826-04",
-       "title": "Head of Russia's flagship Tula drone center arrested on fraud charges",
-       "titleNl": "Hoofd van Ruslands vlaggenschip-dronecentrum in Tula gearresteerd wegens fraude",
-       "category": "org",
-       "topics": [
-        "drones",
-        "command"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-25T16:16:59.000Z",
-       "updatedAt": "2026-08-26T10:00:00.000Z",
-       "nlSummary": "Jevgeni Grigorjev, algemeen directeur van TulaDron — een onderzoeks- en productiecentrum voor onbemande luchtvaartsystemen in de Russische regio Tula — is aangehouden op verdenking van grootschalige fraude (artikel 159, deel 4, van het Russische Wetboek van Strafrecht). Een rechtbank gelastte op 14 augustus 2026 twee…",
-       "enSummary": "Yevgeny Grigoryev, general director of TulaDron — a research and production center for unmanned aircraft systems in Russia's Tula region — has been detained on suspicion of large-scale fraud under Part 4, Article 159 of Russia's Criminal Code. A court ordered him held in pretrial detention for two months from August 1…",
-       "sourceUrl": "https://meduza.io/en/news/2026/08/25/the-head-of-russia-s-flagship-tula-drone-center-is-arrested-on-fraud-charges",
-       "sourceCount": 1,
-       "signals": []
       }
      ]
     },
     "cots": {
      "name": "COTS-drones",
      "nameEn": "COTS-drones",
-     "total": 5,
-     "signalCount": 4,
+     "total": 6,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260901-s03",
@@ -862,6 +950,30 @@
        "sourceUrl": "https://meduza.io/en/news/2026/08/28/russians-bought-over-25-billion-rubles-290-million-in-body-armor-night-vision-gear-and-drone-parts-on-the-ozon-marketplace-in-a-year-verstka-finds",
        "sourceCount": 1,
        "signals": []
+      },
+      {
+       "id": "e-20260827-04",
+       "title": "Germany formally accuses Russia of Leipzig airport drone attack, closes Bonn consulate and Russian House",
+       "titleNl": "Duitsland beschuldigt Rusland formeel van drone-aanval op luchthaven Leipzig en sluit consulaat Bonn en Russisch Huis",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "doctrine",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-26T23:35:24.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "In de nacht van 4 op 5 augustus 2026 werd op de luchthaven Leipzig/Halle in Duitsland een gemodificeerde drone met explosieven van militaire kwaliteit en een ontsteker aangetroffen, vlak bij een Oekraïens Antonov-vrachtvliegtuig dat munitie geladen had. Het toestel ontplofte niet omdat het triggermechanisme was losgek…",
+       "enSummary": "Overnight on 4-5 August 2026, a modified drone fitted with military-grade explosives and a detonator was found at Leipzig/Halle Airport in Germany, close to a Ukrainian Antonov cargo aircraft loaded with ammunition. The device failed to detonate because its triggering mechanism was disconnected. The same night a secon…",
+       "sourceUrl": "https://kyivindependent.com/us-intel-links-explosive-drone-found-at-german-airport-to-russias-military-intelligence/",
+       "sourceCount": 11,
+       "signals": [
+        "perf",
+        "counter"
+       ]
       },
       {
        "id": "e-20260824-13",
@@ -937,9 +1049,31 @@
     "ew-spoof": {
      "name": "EW / spoofing tegen UAS",
      "nameEn": "EW / spoofing tegen UAS",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260902-03",
+       "title": "Ukraine's Kaban retrofit kit turns in-service vehicles — including an HMMWV — into uncrewed ground vehicles",
+       "titleNl": "Oekraïens Kaban-inbouwsysteem maakt van bestaande voertuigen — waaronder een HMMWV — onbemande grondvoertuigen",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "armor"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-31T13:59:56.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "De Oekraïense fabrikant Drone Fight Group heeft een HMMWV (\"Humvee\") omgebouwd tot een op afstand bestuurbaar, onbemand grondvoertuig met zijn Kaban-systeem — een inbouwkit die bestaande voertuigen in de vloot ombouwt zonder constructieve wijzigingen, in plaats van een speciaal ontworpen UGV te bouwen. De ontwikkeling…",
+       "enSummary": "Ukrainian manufacturer Drone Fight Group has converted an HMMWV (\"Humvee\") into a remote-controlled uncrewed ground vehicle using its Kaban system — a retrofit kit that turns vehicles already in service into remotely operated platforms without structural modification, rather than building a purpose-made UGV. The work…",
+       "sourceUrl": "https://defence-blog.com/ukraine-converts-iconic-hmmwv-into-robot-vehicle/",
+       "sourceCount": 3,
+       "signals": [
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260824-13",
        "title": "Danish and Russian Drones Observe Each Other in Close Encounter Over Baltic Sea",
@@ -991,9 +1125,32 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 11,
+     "total": 12,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260902-01",
+       "title": "Ukraine forms 446th Unmanned Systems Brigade — second new drone brigade in two months",
+       "titleNl": "Oekraïne formeert 446e Brigade Onbemande Systemen — tweede nieuwe dronebrigade in twee maanden",
+       "category": "org",
+       "topics": [
+        "drones",
+        "command",
+        "doctrine"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-01T13:46:16.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Oekraïne stelt de 446e Zelfstandige Brigade Onbemande Systemen op. De eenheid zit begin september 2026 in de wervings- en formatiefase en rekruteert zowel dronepersoneel (operators van grondrobots, FPV-, bommenwerper- en interceptordrones) als ondersteunende functies zoals analisten, psychologische-ondersteuningsoffic…",
+       "enSummary": "Ukraine's Armed Forces are establishing the 446th Separate Unmanned Systems Brigade. As of early September 2026 the unit is in the recruitment and formation phase, seeking both drone personnel (operators of ground robots, FPV, bomber and interceptor drones) and support roles such as analysts, psychological-support off…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/01/second-drone-brigade-in-two-months-ukraine-is-forming-the-446th-unmanned-systems-brigade/",
+       "sourceCount": 2,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260901-s01",
        "title": "Russian milbloggers push for networking mobile fire groups (MOG) as frontline counter-drone air defence",
@@ -1020,8 +1177,8 @@
       },
       {
        "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine field-tests four interceptors",
-       "titleNl": "Aantal straalaangedreven Shahed-drones in een maand met minstens 67% gestegen; Oekraïne test vier interceptors",
+       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
+       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
        "category": "weapon",
        "topics": [
         "drones",
@@ -1029,13 +1186,13 @@
        ],
        "stream": "verified",
        "origin": null,
-       "significance": 2,
+       "significance": 3,
        "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
        "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
        "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
        "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 4,
+       "sourceCount": 8,
        "signals": [
         "loss",
         "deploy",
@@ -1113,28 +1270,6 @@
        "signals": [
         "deploy",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260825-16",
-       "title": "Ukraine Holds World's First All-Drone Military Parade on Independence Day",
-       "titleNl": "Oekraïne houdt 's werelds eerste volledig-dronemilitaire parade op Onafhankelijkheidsdag",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T12:09:29.000Z",
-       "updatedAt": "2026-08-25T05:13:20.000Z",
-       "nlSummary": "Op 24 augustus 2026, de 35e Onafhankelijkheidsdag van Oekraïne, hield Kyiv wat organisatoren omschreven als 's werelds eerste militaire parade die volledig uit onbemande systemen bestond. Op Chresjtsjatyk-straat reden tientallen grondrobotsystemen voorbij, waaronder de types Termit, Rys, Simba, Ardal, Zmiy en Ratel, g…",
-       "enSummary": "On 24 August 2026, Ukraine's 35th Independence Day, Kyiv held what organizers described as the world's first military parade composed entirely of unmanned systems. Dozens of ground robotic systems rolled down Khreshchatyk Street, including the Termit, Rys, Simba, Ardal, Zmiy and Ratel types, built for logistics, recon…",
-       "sourceUrl": "https://defence-blog.com/ukraine-holds-worlds-first-all-drone-military-parade",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "variant"
        ]
       }
      ]
@@ -1849,6 +1984,38 @@
       }
      ]
     },
+    "voronezh": {
+     "name": "Voronezh",
+     "nameEn": "Voronezh",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260902-s01",
+       "title": "Russia Covers 6,000-km-Range Voronezh-DM Radar With Anti-Drone Nets After Ukraine Struck One of Them",
+       "titleNl": "Rusland dekt Voronezh-DM-radar met bereik van 6.000 km af met anti-dronenetten nadat Oekraïne er een van raakte",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-01T04:07:26.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Defense Express, een Oekraïens defensiemedium, meldt dat Rusland een Voronezh-DM-radar voor vroegtijdige raketwaarschuwing heeft afgedekt met anti-dronenetten. Op basis van satellietbeelden die op sociale media circuleren identificeert het medium de installatie op het voormalige vliegveld Dunajevka in de oblast Kalini…",
+       "enSummary": "Defense Express, a Ukrainian defence outlet, reports that Russia has covered a Voronezh-DM missile-attack early-warning radar with anti-drone netting. Citing satellite imagery circulating on social media, it identifies the site as the installation at the former Dunayevka airfield in Russia's Kaliningrad region, and sa…",
+       "sourceUrl": "https://en.defence-ua.com/news/russians_cover_6000_km_range_voronezh_dm_radar_with_anti_drone_nets_after_ukraine_struck_one_of_them-19637.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      }
+     ]
+    },
     "mig31": {
      "name": "MiG-31",
      "nameEn": "MiG-31",
@@ -2414,7 +2581,7 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 12,
+     "total": 13,
      "signalCount": 5,
      "entries": [
       {
@@ -2439,6 +2606,31 @@
        "sourceCount": 5,
        "signals": [
         "loss"
+       ]
+      },
+      {
+       "id": "e-20260901-02",
+       "title": "Russia shifts its Kyiv strike campaign to sustained, round-the-clock drone pressure",
+       "titleNl": "Rusland verlegt zijn aanvalscampagne op Kyiv naar aanhoudende druk de klok rond",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense",
+        "doctrine"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-29T19:15:36.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Rond 27-31 augustus 2026 stapte Rusland af van het patroon van geconcentreerde nachtelijke salvo's tegen Kyiv en ging over op frequentie boven omvang. In plaats van één massale nachtbarrage van ballistische en kruisraketten met daaraan voorafgaand drone-golven, stuurt Moskou nu kleine groepen straalaangedreven drones…",
+       "enSummary": "Around 27-31 August 2026 Russia broke with its established pattern of concentrated overnight salvos against Kyiv and adopted an approach prioritising frequency over amplitude. Instead of a single massed night barrage of ballistic and cruise missiles preceded by drone waves, Moscow now sends small groups of jet-powered…",
+       "sourceUrl": "https://www.twz.com/news-features/russia-changing-missile-and-drone-attack-strategy-on-ukrainian-captial",
+       "sourceCount": 11,
+       "signals": [
+        "loss",
+        "scale"
        ]
       },
       {
@@ -2533,39 +2725,37 @@
         "perf",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260824-09",
-       "title": "Ukraine Standardizes Fiber-Optic Drone Procurement to Beat Russian Jamming",
-       "titleNl": "Oekraïne standaardiseert aanbesteding van glasvezeldrones tegen Russische storing",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-22T05:07:00.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Het Oekraïense ministerie van Defensie heeft voor het eerst een enkele, uniforme standaard vastgesteld voor jam-proof glasvezel-FPV-kamikazedrones. In plaats van een aanbesteding toe te snijden op één specifieke fabrikant of dronemodel, definieert het ministerie nu generieke technische parameters — waaronder het berei…",
-       "enSummary": "Ukraine's Ministry of Defense has for the first time set a single, uniform standard for jam-proof fiber-optic FPV kamikaze drones. Rather than tailoring a tender to one specific manufacturer or drone model, the ministry now defines generic technical parameters — including range (determined by the length of the fiber-o…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/22/ukraine-is-buying-jam-proof-fiber-optic-drones-for-first-time-to-single-standard-so-any-maker-can-compete",
-       "sourceCount": 1,
-       "signals": [
-        "scale",
-        "counter"
-       ]
       }
      ]
     },
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260902-03",
+       "title": "Ukraine's Kaban retrofit kit turns in-service vehicles — including an HMMWV — into uncrewed ground vehicles",
+       "titleNl": "Oekraïens Kaban-inbouwsysteem maakt van bestaande voertuigen — waaronder een HMMWV — onbemande grondvoertuigen",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "armor"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-31T13:59:56.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "De Oekraïense fabrikant Drone Fight Group heeft een HMMWV (\"Humvee\") omgebouwd tot een op afstand bestuurbaar, onbemand grondvoertuig met zijn Kaban-systeem — een inbouwkit die bestaande voertuigen in de vloot ombouwt zonder constructieve wijzigingen, in plaats van een speciaal ontworpen UGV te bouwen. De ontwikkeling…",
+       "enSummary": "Ukrainian manufacturer Drone Fight Group has converted an HMMWV (\"Humvee\") into a remote-controlled uncrewed ground vehicle using its Kaban system — a retrofit kit that turns vehicles already in service into remotely operated platforms without structural modification, rather than building a purpose-made UGV. The work…",
+       "sourceUrl": "https://defence-blog.com/ukraine-converts-iconic-hmmwv-into-robot-vehicle/",
+       "sourceCount": 3,
+       "signals": [
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260830-s01",
        "title": "О способности БПЛА «отменить» надводные корабли",
@@ -2670,8 +2860,8 @@
      "entries": [
       {
        "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine field-tests four interceptors",
-       "titleNl": "Aantal straalaangedreven Shahed-drones in een maand met minstens 67% gestegen; Oekraïne test vier interceptors",
+       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
+       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
        "category": "weapon",
        "topics": [
         "drones",
@@ -2679,13 +2869,13 @@
        ],
        "stream": "verified",
        "origin": null,
-       "significance": 2,
+       "significance": 3,
        "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
        "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
        "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
        "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 4,
+       "sourceCount": 8,
        "signals": [
         "loss",
         "deploy",
@@ -2816,9 +3006,31 @@
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 10,
+     "total": 11,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260902-03",
+       "title": "Ukraine's Kaban retrofit kit turns in-service vehicles — including an HMMWV — into uncrewed ground vehicles",
+       "titleNl": "Oekraïens Kaban-inbouwsysteem maakt van bestaande voertuigen — waaronder een HMMWV — onbemande grondvoertuigen",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "armor"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-08-31T13:59:56.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "De Oekraïense fabrikant Drone Fight Group heeft een HMMWV (\"Humvee\") omgebouwd tot een op afstand bestuurbaar, onbemand grondvoertuig met zijn Kaban-systeem — een inbouwkit die bestaande voertuigen in de vloot ombouwt zonder constructieve wijzigingen, in plaats van een speciaal ontworpen UGV te bouwen. De ontwikkeling…",
+       "enSummary": "Ukrainian manufacturer Drone Fight Group has converted an HMMWV (\"Humvee\") into a remote-controlled uncrewed ground vehicle using its Kaban system — a retrofit kit that turns vehicles already in service into remotely operated platforms without structural modification, rather than building a purpose-made UGV. The work…",
+       "sourceUrl": "https://defence-blog.com/ukraine-converts-iconic-hmmwv-into-robot-vehicle/",
+       "sourceCount": 3,
+       "signals": [
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260831-s02",
        "title": "Russian Telegram channel shares a vendor's \"5 rules\" for using searchlight complexes with mobile air-defense fire groups against night drones",
@@ -2933,28 +3145,6 @@
         "perf",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260823-s03",
-       "title": "Why Did russian Ka-52 Helicopter Fail to Shoot Down Ukrainian FP-1 UAV with Missile, What Alternatives do russians Have",
-       "titleNl": "Waarom miste een Russische Ka-52-helikopter de Oekraïense FP-1-drone met een raket, en welke alternatieven heeft Rusland",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-08-21T12:01:26.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Oekraïense publicatie (Defense Express), geen onafhankelijke tweede bron.",
-       "enSummary": "SINGLE SOURCE — Ukrainian publication (Defense Express), not independently corroborated.",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQeTQycGxMM09fLW1sYnFreEZXSlVQYmdZRVdQOFo1NHlDYWVmUWZkYmJWbEM3WTF5UldqQmJFMDRQaU5IMjhSeVNoRFNfSUhuNnZsZGl3T0dqeWFsNjJPSS11aUhiN2Nta0h3S0pNNVlnejY4YXFWTzdrc2txbDdRWl9lc1VMdVV5cVZaTkRnNHl2UmpqblhWNjNGd0dFaG5OWGM3bE96X0xiYl8yV1pSa1J4Mk40NlRSVDBlbXFFTjN6UGNQVXQyM2VHUkJqRXJEUGdYSTRtUklYU0xHQ3pxR0JLZFdlVWg0b09FVHhiR1dUeFl4dXRV?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "scale"
        ]
       }
      ]
