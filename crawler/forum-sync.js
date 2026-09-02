@@ -111,26 +111,36 @@ function firestore() {
     console.log("geen service-account in de omgeving — Firestore-stappen overgeslagen");
     return null;
   }
-  let admin;
+  // De modulaire sub-paden, niet het oude `require("firebase-admin")`-object:
+  // vanaf v13 bestaat `admin.apps` daar niet meer.
+  let getApps, initializeApp, cert, getFirestore, FieldValue;
   try {
-    admin = require("firebase-admin");
+    ({ getApps, initializeApp, cert } = require("firebase-admin/app"));
+    ({ getFirestore, FieldValue } = require("firebase-admin/firestore"));
   } catch (err) {
     console.log("firebase-admin niet geinstalleerd — Firestore-stappen overgeslagen");
     return null;
   }
-  const credential = JSON.parse(raw);
-  if (!admin.apps.length) {
-    admin.initializeApp({
-      credential: admin.credential.cert(credential),
-      projectId: FORUM_PROJECT,
-    });
+
+  // Onbruikbare credentials mogen dit script niet laten vallen: het hoort
+  // non-fataal te zijn, net als crosscheck.js. Een ingetrokken sleutel of
+  // stukgelopen secret levert dus een melding op, geen stacktrace.
+  try {
+    const credential = JSON.parse(raw);
+    if (!getApps().length) {
+      initializeApp({ credential: cert(credential), projectId: FORUM_PROJECT });
+    }
+    return { db: getFirestore(), FieldValue };
+  } catch (err) {
+    console.error("service-account onbruikbaar (" + err.message +
+      ") — Firestore-stappen overgeslagen");
+    return null;
   }
-  return { admin, db: admin.firestore() };
 }
 
 /* ---------- 2a. nieuwsdraden ---------- */
 
-async function syncNewsThreads(db, admin, analysis, entities) {
+async function syncNewsThreads(db, FieldValue, analysis, entities) {
   const top = (analysis.entries || []).filter(
     (e) => (e.significance || 0) >= NEWS_MIN_SIGNIFICANCE
   );
@@ -159,8 +169,8 @@ async function syncNewsThreads(db, admin, analysis, entities) {
       sourceRef: entry.id,
       authorUid: "tracker",
       authorName: "tracker",
-      createdAt: admin.firestore.FieldValue.serverTimestamp(),
-      lastReply: admin.firestore.FieldValue.serverTimestamp(),
+      createdAt: FieldValue.serverTimestamp(),
+      lastReply: FieldValue.serverTimestamp(),
       replyCount: 0,
       status: null,
       votes: 0,
@@ -176,7 +186,7 @@ async function syncNewsThreads(db, admin, analysis, entities) {
 
 /* ---------- 2b. Corroboration Watch ---------- */
 
-async function syncCorroboration(db, admin, analysis, entities) {
+async function syncCorroboration(db, FieldValue, analysis, entities) {
   const cutoff = Date.now() - CORROBORATION_WINDOW_DAYS * 86400000;
 
   const items = (analysis.entries || [])
@@ -238,8 +248,8 @@ async function syncCorroboration(db, admin, analysis, entities) {
     sourceRef: null,
     authorUid: "tracker",
     authorName: "tracker",
-    createdAt: admin.firestore.FieldValue.serverTimestamp(),
-    lastReply: admin.firestore.FieldValue.serverTimestamp(),
+    createdAt: FieldValue.serverTimestamp(),
+    lastReply: FieldValue.serverTimestamp(),
     replyCount: 0,
     status: null,
     votes: 0,
@@ -372,8 +382,8 @@ async function main() {
   if (!fb) return;
 
   try {
-    await syncNewsThreads(fb.db, fb.admin, analysis, entities);
-    await syncCorroboration(fb.db, fb.admin, analysis, entities);
+    await syncNewsThreads(fb.db, fb.FieldValue, analysis, entities);
+    await syncCorroboration(fb.db, fb.FieldValue, analysis, entities);
     await exportVerdicts(fb.db);
     await exportForumIndex(fb.db);
   } catch (err) {
