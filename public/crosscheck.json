@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-02T17:18:10.946Z",
- "analysisUpdated": "2026-09-02T09:00:00.000Z",
+ "updated": "2026-09-03T05:36:29.313Z",
+ "analysisUpdated": "2026-09-03T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 150,
+  "entriesConsidered": 161,
   "cardsWithHits": 39,
-  "matches": 177
+  "matches": 187
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,56 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 20,
-     "signalCount": 6,
+     "total": 23,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260903-06",
+       "title": "Missile shortage now hits Ukraine's F-16 force, limiting its use against Russian drones and cruise missiles",
+       "titleNl": "Rakettekort treft nu ook Oekraïnes F-16-vloot en beperkt de inzet tegen Russische drones en kruisraketten",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T22:26:44.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
+       "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
+       "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
+       "sourceCount": 1,
+       "signals": []
+      },
+      {
+       "id": "e-20260903-01",
+       "title": "Ukraine downs Russian 'Banderol' (S8000) cruise missiles over the south — MiG-29 R-60 kill at very low altitude, plus a ground air-defence intercept",
+       "titleNl": "Oekraïne schiet Russische 'Banderol' (S8000)-kruisraketten neer boven het zuiden — MiG-29 met R-60 op zeer lage hoogte, plus een neerhaling door grondluchtverdediging",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T12:48:12.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "In de nacht van 2 september 2026 meldden Oekraïense strijdkrachten dat zij Russische S8000-kruisraketten van het type «Banderol» hadden neergeschoten boven Zuid-Oekraïne, met beeldmateriaal van de neerhalingen. Een aan de Oekraïense luchtmacht gelieerd Telegram-kanaal zei dat een piloot in een gemoderniseerde MiG-29MU…",
+       "enSummary": "Overnight on 2 September 2026, Ukrainian forces reported shooting down Russian S8000 «Banderol» cruise missiles over southern Ukraine and published footage of the engagements. A Ukrainian Air Force-affiliated Telegram channel said a pilot in a modernised MiG-29MU1 destroyed a Banderol at extremely low altitude using a…",
+       "sourceUrl": "https://militarnyi.com/en/news/mig-29-shoots-down-russian-banderol-with-an-r-60-missile-at-extremely-low-altitude/",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260902-s02",
        "title": "IRIS-T ВСУ уничтожен расчетом РУК ZALA «Ланцет» с расстояния почти 200 км",
@@ -49,6 +96,29 @@
         "loss",
         "deploy",
         "perf"
+       ]
+      },
+      {
+       "id": "e-20260903-s04",
+       "title": "Rybar: 'many jet drones, little counter to them' — Russian milblogger frames the strike-August Geran campaign as beating Ukrainian air defence",
+       "titleNl": "Rybar: 'veel straaldrones, weinig tegenmaatregelen' — Russische milblogger presenteert de Geran-campagne van 'strike-augustus' als winnend van de Oekraïense luchtverdediging",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-09-01T08:30:15.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "MILBLOGGER — persoonlijke/redactionele Telegram-stem (Rybar), geen officieel standpunt van het Russische ministerie van Defensie; milbloggers spreken elkaar en het ministerie geregeld tegen. Op 1 september 2026 publiceerde Rybar een bericht «Veel straaldrones, maar weinig tegenmaatregelen». Rybar stelt dat de Russisch…",
+       "enSummary": "MILBLOGGER — a personal/editorial Telegram voice (Rybar), not an official Russian Ministry of Defence position; milbloggers routinely contradict one another and the ministry. On 1 September 2026 Rybar published a post titled «Many jet ones, but little counter to them». Rybar argues that Russia's «strike August» agains…",
+       "sourceUrl": "https://t.me/rybar/82821",
+       "sourceCount": 1,
+       "signals": [
+        "scale",
+        "counter"
        ]
       },
       {
@@ -99,88 +169,39 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260901-02",
-       "title": "Russia shifts its Kyiv strike campaign to sustained, round-the-clock drone pressure",
-       "titleNl": "Rusland verlegt zijn aanvalscampagne op Kyiv naar aanhoudende druk de klok rond",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "air-defense",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-29T19:15:36.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "Rond 27-31 augustus 2026 stapte Rusland af van het patroon van geconcentreerde nachtelijke salvo's tegen Kyiv en ging over op frequentie boven omvang. In plaats van één massale nachtbarrage van ballistische en kruisraketten met daaraan voorafgaand drone-golven, stuurt Moskou nu kleine groepen straalaangedreven drones…",
-       "enSummary": "Around 27-31 August 2026 Russia broke with its established pattern of concentrated overnight salvos against Kyiv and adopted an approach prioritising frequency over amplitude. Instead of a single massed night barrage of ballistic and cruise missiles preceded by drone waves, Moscow now sends small groups of jet-powered…",
-       "sourceUrl": "https://www.twz.com/news-features/russia-changing-missile-and-drone-attack-strategy-on-ukrainian-captial",
-       "sourceCount": 11,
-       "signals": [
-        "loss",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260831-05",
-       "title": "Russian strikes on Ukraine, 29–30 August 2026: overnight missile-and-drone salvo, daytime attacks on Kyiv, cross-border alerts in Poland and Romania",
-       "titleNl": "Russische aanvallen op Oekraïne, 29–30 augustus 2026: nachtelijk raket- en dronesalvo, aanvallen overdag op Kyiv, grensoverschrijdende waarschuwingen in Polen en Roemenië",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-29T16:05:00.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
-       "nlSummary": "In de nacht van 29 op 30 augustus 2026 viel Rusland Oekraïne aan met twee ballistische Iskander-M-raketten vanuit de oblast Koersk en ongeveer 130 drones — Shahed- en Gerbera-loiteringmunitie, S8000 Banderol-raketdrones en Parodiya-lokdrones, grotendeels straalaangedreven. Volgens de luchtmacht schoot of stoorde de lu…",
-       "enSummary": "On the night of 29–30 August 2026 Russia struck Ukraine with two Iskander-M ballistic missiles launched from Kursk Oblast and about 130 drones — Shahed and Gerbera loitering munitions, S8000 Banderol missile-drones and Parodiya decoys, most jet-powered. Ukraine's Air Force said air defences shot down or jammed 125 of…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/29/8050965",
-       "sourceCount": 6,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260830-01",
-       "title": "Russian strike on ammunition depot near Kyiv kills at least 37 as Moscow shifts to round-the-clock attacks on the capital",
-       "titleNl": "Russische aanval op munitiedepot bij Kyiv eist zeker 37 doden terwijl Moskou overgaat op non-stop aanvallen op de hoofdstad",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "air-defense",
-        "logistics",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-29T09:48:00.000Z",
-       "updatedAt": "2026-08-30T09:00:00.000Z",
-       "nlSummary": "In de avond van 28 augustus 2026 (rond 20.10 uur lokale tijd) trof een Russische Geran-drone (Shahed-type) een opslagloods bij het dorp Myla in het district Boetsja, oblast Kyiv, ongeveer 5 km ten westen van Kyiv. Volgens het Oekraïense Openbaar Ministerie lag er munitie c.q. 'explosief materiaal' opgeslagen; de insla…",
-       "enSummary": "On the evening of 28 August 2026 (around 8:10 p.m. local time) a Russian Geran drone (a Shahed-type loitering munition) struck a storage warehouse near the village of Myla in Bucha district, Kyiv Oblast, roughly 5 km west of Kyiv. Ukrainian prosecutors said the site held ammunition or 'explosive objects'; the impact s…",
-       "sourceUrl": "https://meduza.io/en/feature/2026/08/29/at-least-37-killed-after-russian-strike-hits-an-ammunition-warehouse-near-kyiv-triggering-massive-explosions-many-of-the-victims-were-residents-of-a-nearby-care-home",
-       "sourceCount": 6,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 5,
-     "signalCount": 5,
+     "total": 6,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260903-03",
+       "title": "Russia reopens its winter grid campaign: Odesa Oblast strike cuts power to ~350,000 households as Putin threatens 'massive strikes' on Ukraine's energy sector",
+       "titleNl": "Rusland heropent de wintercampagne tegen het stroomnet: aanval op de oblast Odesa laat ~350.000 huishoudens zonder stroom terwijl Poetin 'massale klappen' tegen de Oekraïense energiesector aankondigt",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense",
+        "mobilization"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-09-02T03:17:06.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "In de nacht van 1 op 2 september 2026 voerde Rusland een grootschalige gecombineerde raket- en drone-aanval uit op elektriciteitstransmissie-installaties in de oblast Odesa. Volgens energiebedrijf DTEK en regionale autoriteiten kwamen daardoor tijdelijk meer dan 350.000 huishoudens in het district Odesa zonder stroom…",
+       "enSummary": "Overnight on 1-2 September 2026, Russia launched a large-scale combined missile and drone attack on power-transmission facilities in Odesa Oblast. According to energy company DTEK and regional authorities, the strikes temporarily left more than 350,000 households in the Odesa district without electricity; power was su…",
+       "sourceUrl": "https://kyivindependent.com/putin-brushes-off-mobilization-reports-as-absolute-nonsense-threatens-mass-strikes-on-ukraines-energy-sector/",
+       "sourceCount": 4,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260831-01",
        "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
@@ -301,9 +322,34 @@
     "lancet": {
      "name": "Lancet-1 / Lancet-3",
      "nameEn": "Lancet-1 / Lancet-3",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260903-07",
+       "title": "Ukraine destroys a Russian naval drone near Snake Island as Russian USV activity in the Black Sea grows",
+       "titleNl": "Oekraïne vernietigt een Russische zeedrone bij Slangeneiland terwijl Russische USV-activiteit in de Zwarte Zee toeneemt",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "navy",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T08:50:43.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "Op 2 september 2026 meldde de Oekraïense marine dat zij een Russisch onbemand oppervlaktevaartuig (USV, Russisch «БЭК») heeft vernietigd nabij Slangeneiland in de noordwestelijke Zwarte Zee. Volgens Militarnyi en Defence Blog toont bijgevoegd beeldmateriaal hoe de dronemboot na detectie wordt geraakt door precisiemuni…",
+       "enSummary": "On 2 September 2026, Ukraine's Navy said it had destroyed a Russian uncrewed surface vessel (USV; Russian «БЭК») near Snake Island in the northwestern Black Sea. According to Militarnyi and Defence Blog, footage released with the announcement shows the drone boat being struck by a precision munition dropped from an un…",
+       "sourceUrl": "https://defence-blog.com/ukraine-strikes-russian-naval-drone-in-black-sea/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "variant",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260902-s02",
        "title": "IRIS-T ВСУ уничтожен расчетом РУК ZALA «Ланцет» с расстояния почти 200 км",
@@ -637,9 +683,34 @@
     "zala-z16": {
      "name": "ZALA Z-16",
      "nameEn": "ZALA Z-16",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260903-07",
+       "title": "Ukraine destroys a Russian naval drone near Snake Island as Russian USV activity in the Black Sea grows",
+       "titleNl": "Oekraïne vernietigt een Russische zeedrone bij Slangeneiland terwijl Russische USV-activiteit in de Zwarte Zee toeneemt",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "navy",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T08:50:43.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "Op 2 september 2026 meldde de Oekraïense marine dat zij een Russisch onbemand oppervlaktevaartuig (USV, Russisch «БЭК») heeft vernietigd nabij Slangeneiland in de noordwestelijke Zwarte Zee. Volgens Militarnyi en Defence Blog toont bijgevoegd beeldmateriaal hoe de dronemboot na detectie wordt geraakt door precisiemuni…",
+       "enSummary": "On 2 September 2026, Ukraine's Navy said it had destroyed a Russian uncrewed surface vessel (USV; Russian «БЭК») near Snake Island in the northwestern Black Sea. According to Militarnyi and Defence Blog, footage released with the announcement shows the drone boat being struck by a precision munition dropped from an un…",
+       "sourceUrl": "https://defence-blog.com/ukraine-strikes-russian-naval-drone-in-black-sea/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "variant",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260902-s02",
        "title": "IRIS-T ВСУ уничтожен расчетом РУК ZALA «Ланцет» с расстояния почти 200 км",
@@ -965,12 +1036,13 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-08-26T23:35:24.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
        "nlSummary": "In de nacht van 4 op 5 augustus 2026 werd op de luchthaven Leipzig/Halle in Duitsland een gemodificeerde drone met explosieven van militaire kwaliteit en een ontsteker aangetroffen, vlak bij een Oekraïens Antonov-vrachtvliegtuig dat munitie geladen had. Het toestel ontplofte niet omdat het triggermechanisme was losgek…",
        "enSummary": "Overnight on 4-5 August 2026, a modified drone fitted with military-grade explosives and a detonator was found at Leipzig/Halle Airport in Germany, close to a Ukrainian Antonov cargo aircraft loaded with ammunition. The device failed to detonate because its triggering mechanism was disconnected. The same night a secon…",
        "sourceUrl": "https://kyivindependent.com/us-intel-links-explosive-drone-found-at-german-airport-to-russias-military-intelligence/",
-       "sourceCount": 11,
+       "sourceCount": 16,
        "signals": [
+        "deploy",
         "perf",
         "counter"
        ]
@@ -1482,9 +1554,32 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 8,
+     "total": 9,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260903-s02",
+       "title": "Defense Express analyses photos of two Russian Pantsir-S1 systems destroyed by Ukrainian drone strikes",
+       "titleNl": "Defense Express analyseert foto's van twee door Oekraïense droneaanvallen vernietigde Russische Pantsir-S1-systemen",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-01T11:02:33.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Oekraïense publicatie. Defense Express publiceerde close-upfoto's van twee Russische Pantsir-S1-luchtverdedigingssystemen die eind augustus 2026 door Oekraïense droneaanvallen zijn uitgeschakeld, en stelt dat beide als vernietigd moeten gelden en niet slechts als beschadigd. Het eerste werd op 29 augus…",
+       "enSummary": "SINGLE SOURCE — Ukrainian publication. Defense Express published close-up photographs of two Russian Pantsir-S1 air-defence systems knocked out by Ukrainian drone strikes in late August 2026, arguing that both should count as destroyed rather than merely damaged. The first was hit on 29 August near occupied Kerch in C…",
+       "sourceUrl": "https://en.defence-ua.com/news/photos_show_what_happens_to_russian_pantsir_s1_air_defense_systems_after_ukrainian_drone_strikes-19643.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260901-06",
        "title": "Ukraine's General Staff reports strikes on an S-400 command vehicle and radar in Bryansk Oblast, 30-31 August",
@@ -1599,30 +1694,6 @@
        "sourceCount": 7,
        "signals": [
         "loss",
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260728-s02",
-       "title": "Russia Considers Mounting Pantsir Air Defenses on Autonomous Trucks",
-       "titleNl": "Rusland overweegt Pantsir-luchtafweersystemen op autonome vrachtwagens te monteren",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense OSINT-outlet Defense Express verkent Rusland een concept om Pantsir-S luchtafweersystemen te monteren op volledig autonome voertuigen, die zonder bemanning aan boord vooraf geprogrammeerde routes zouden afpatrouilleren en via een gecentraliseerd command-and-controlsysteem worden aangestuurd. Als…",
-       "enSummary": "According to the Ukrainian OSINT outlet Defense Express, Russia is exploring a concept to mount Pantsir-S air-defense systems on fully autonomous vehicles that would patrol pre-programmed routes without an onboard crew, coordinated through a centralized command-and-control system. The proposed chassis is the KamAZ-651…",
-       "sourceUrl": "https://en.defence-ua.com/news/to_stop_more_ukrainian_drones_russia_wants_to_mount_pantsir_systems_on_autonomous_trucks-19264.html",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "variant",
         "deploy"
        ]
       }
@@ -2237,9 +2308,58 @@
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 7,
+     "total": 9,
      "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260903-02",
+       "title": "Ukraine's General Staff confirms an Aug. 27 MiG-29 and an Aug. 30 Ka-27 kill; reports fresh strikes on Russian depots in Donetsk and Bryansk oblasts",
+       "titleNl": "Oekraïense Generale Staf bevestigt vernietiging van een MiG-29 (27 aug) en een Ka-27 (30 aug); meldt nieuwe aanvallen op Russische depots in de oblasten Donetsk en Brjansk",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "drones",
+        "navy"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T13:25:24.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "De Oekraïense Generale Staf meldde op 2 september 2026 dat na analyse van aanvullende gegevens de vernietiging is bevestigd van een Russische Ka-27-onderzeebootbestrijdingshelikopter nabij het vliegveld Jejsk (kraj Krasnodar) op 30 augustus en van een MiG-29-jachtvliegtuig nabij de vliegbasis Millerovo (oblast Rostov)…",
+       "enSummary": "Ukraine's General Staff said on 2 September 2026 that, following analysis of additional data, it had confirmed the destruction of a Russian Ka-27 anti-submarine helicopter near Yeysk airfield (Krasnodar Krai) on 30 August and of a MiG-29 fighter jet near Millerovo air base (Rostov Oblast) on 27 August. These are not n…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/02/aviacziya-rf-otrymala-chergovyj-udar-genshtab-zsu-pidtverdyv-znyshhennya-vorozhyh-mig-29-ta-ka-27",
+       "sourceCount": 3,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260903-01",
+       "title": "Ukraine downs Russian 'Banderol' (S8000) cruise missiles over the south — MiG-29 R-60 kill at very low altitude, plus a ground air-defence intercept",
+       "titleNl": "Oekraïne schiet Russische 'Banderol' (S8000)-kruisraketten neer boven het zuiden — MiG-29 met R-60 op zeer lage hoogte, plus een neerhaling door grondluchtverdediging",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T12:48:12.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "In de nacht van 2 september 2026 meldden Oekraïense strijdkrachten dat zij Russische S8000-kruisraketten van het type «Banderol» hadden neergeschoten boven Zuid-Oekraïne, met beeldmateriaal van de neerhalingen. Een aan de Oekraïense luchtmacht gelieerd Telegram-kanaal zei dat een piloot in een gemoderniseerde MiG-29MU…",
+       "enSummary": "Overnight on 2 September 2026, Ukrainian forces reported shooting down Russian S8000 «Banderol» cruise missiles over southern Ukraine and published footage of the engagements. A Ukrainian Air Force-affiliated Telegram channel said a pilot in a modernised MiG-29MU1 destroyed a Banderol at extremely low altitude using a…",
+       "sourceUrl": "https://militarnyi.com/en/news/mig-29-shoots-down-russian-banderol-with-an-r-60-missile-at-extremely-low-altitude/",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260830-02",
        "title": "Ukraine converts Air Force aviation brigades to 'aviation wings'; aviation commander teases unspecified new indigenous aircraft 'in testing'",
@@ -2327,54 +2447,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260823-16",
-       "title": "New details emerge about Ukraine's homegrown Vyrivnyuvach ('Equalizer') glide bomb",
-       "titleNl": "Nieuwe details over Oekraïens eigen zweefbom Vyrivnyuvach ('Equalizer')",
-       "category": "weapon",
-       "topics": [
-        "glide-bombs",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-18T23:00:18.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïne heeft meer details vrijgegeven over de Vyrivnyuvach (Oekraïens voor 'Equalizer'), zijn eerste zelfontwikkelde precisiezweefbom. Het wapen bestaat uit een zweefbomkit — vleugels en een geleidingsmodule — gemonteerd op een 250 kg-kernlading, zonder eigen motor. Volgens functionarissen van het Brave1-platform ma…",
-       "enSummary": "Ukraine has released further details on the Vyrivnyuvach (Ukrainian for 'Equalizer'), its first domestically developed precision glide bomb. The weapon is a glide-bomb kit — pop-out wings plus a guidance module — fitted to a 250 kg warhead, with no engine of its own. Brave1 officials describe 'modern guidance algorith…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPLS1oZzU5MmxuUEU5UU5qa3V0X1VyVFc0OER0UG1DT3VKR25wOHlGcUg2SV9LMkQ1SGFtYUxtNmkxSXJRVmVxWVlBeU5yZDA3MzJYTktzOFpPeUJyenYyVUF3Qm1WT0tqdHF6WFBrWTFsYTZ3SmRJMHlJNmRaeVFPNzQ0cTFvZEl1UnFveEs1YnVfMWgyQmN3M3V2QTNJTGUwYTdVYWpTMGhkSlRMQ1NvQVBFTzVmNEhHakl1RmRsbVBtMXpUUk56VWl6c2VKckZsWm93aTEtenh2RlFVdnpEWjE2UDhyXzc0NXByb2JR?oc=5",
-       "sourceCount": 2,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260824-s05",
-       "title": "Voyennaya Mysl: S-400 Crews Claim 10 MiG-29 Kills in One Day in 2023 via Over-the-Horizon Shoot-and-Scoot Tactic",
-       "titleNl": "Militaire Gedachte: S-400-bemanningen claimen 10 MiG-29-treffers op één dag in 2023 via loer-en-verplaats-tactiek",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "missiles",
-        "doctrine"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-08-04T14:52:00.000Z",
-       "updatedAt": "2026-08-24T18:18:15.000Z",
-       "nlSummary": "SINGLE SOURCE — Russisch ministerie van Defensie-tijdschrift Voyennaya Mysl (Военная Мысль), via Russisch staatsmedium Life.ru. Een artikel in Voyennaya Mysl, mede geschreven door generaal-majoor Aleksandr Romanenkov (hoofd van de luchtdoelraketttroepen van de Russische luchtruimtestrijdkrachten VKS), behandelt de man…",
-       "enSummary": "SINGLE SOURCE — Russian Ministry of Defense journal Voyennaya Mysl (Military Thought), via Russian state media outlet Life.ru. An article in Voyennaya Mysl, co-authored by Major General Alexander Romanenkov (chief of the Russian Aerospace Forces' air-defense missile troops), addresses SAM unit maneuver tactics during…",
-       "sourceUrl": "https://life.ru/p/1907881",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "counter"
        ]
       }
      ]
@@ -3006,9 +3078,35 @@
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 11,
+     "total": 12,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260903-01",
+       "title": "Ukraine downs Russian 'Banderol' (S8000) cruise missiles over the south — MiG-29 R-60 kill at very low altitude, plus a ground air-defence intercept",
+       "titleNl": "Oekraïne schiet Russische 'Banderol' (S8000)-kruisraketten neer boven het zuiden — MiG-29 met R-60 op zeer lage hoogte, plus een neerhaling door grondluchtverdediging",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T12:48:12.000Z",
+       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "nlSummary": "In de nacht van 2 september 2026 meldden Oekraïense strijdkrachten dat zij Russische S8000-kruisraketten van het type «Banderol» hadden neergeschoten boven Zuid-Oekraïne, met beeldmateriaal van de neerhalingen. Een aan de Oekraïense luchtmacht gelieerd Telegram-kanaal zei dat een piloot in een gemoderniseerde MiG-29MU…",
+       "enSummary": "Overnight on 2 September 2026, Ukrainian forces reported shooting down Russian S8000 «Banderol» cruise missiles over southern Ukraine and published footage of the engagements. A Ukrainian Air Force-affiliated Telegram channel said a pilot in a modernised MiG-29MU1 destroyed a Banderol at extremely low altitude using a…",
+       "sourceUrl": "https://militarnyi.com/en/news/mig-29-shoots-down-russian-banderol-with-an-r-60-missile-at-extremely-low-altitude/",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260902-03",
        "title": "Ukraine's Kaban retrofit kit turns in-service vehicles — including an HMMWV — into uncrewed ground vehicles",
@@ -3117,30 +3215,6 @@
        "sourceCount": 1,
        "signals": [
         "variant",
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260823-17",
-       "title": "Ukraine unveils Alexa Spatium jet-powered reusable interceptor drone",
-       "titleNl": "Oekraïne onthult Alexa Spatium, herbruikbare straalinterceptordrone",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-21T21:34:18.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïens ministerie van Defensie heeft voor het eerst de Alexa Spatium getoond, omschreven als 's lands eerste straalaangedreven interceptordrone, specifiek ontwikkeld om Ruslands nieuwste en snelste aanvalsdrones te counteren — de Geran-3, Geran-4 en Geran-5-varianten — evenals Shahed-131-verkenningsdrones en heliko…",
-       "enSummary": "Ukraine's Ministry of Defense has for the first time presented the Alexa Spatium, described as the country's first jet-powered interceptor drone, developed specifically to counter Russia's newest and fastest attack drones — the Geran-3, Geran-4 and Geran-5 variants — as well as Shahed-131 reconnaissance drones and hel…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/22/ukraine-has-shown-its-answer-to-russias-most-powerful-drones-for-first-time-meet-alexa-spatium-which-can-carry-thermobaric-warheads-and-fly-back-home",
-       "sourceCount": 1,
-       "signals": [
         "deploy",
         "perf",
         "scale",
