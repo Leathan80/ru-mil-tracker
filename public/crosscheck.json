@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-03T05:36:29.313Z",
- "analysisUpdated": "2026-09-03T09:00:00.000Z",
+ "updated": "2026-09-04T05:29:20.211Z",
+ "analysisUpdated": "2026-09-04T06:30:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 161,
+  "entriesConsidered": 174,
   "cardsWithHits": 39,
-  "matches": 187
+  "matches": 203
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,58 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 23,
+     "total": 25,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260904-s01",
+       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
+       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-04T01:28:25.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
+       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
+       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260904-06",
+       "title": "Russia uses long-range Gerans as motherships for two wing-mounted FPV drones released deep inside Ukraine; effectiveness disputed",
+       "titleNl": "Rusland gebruikt langeafstands-Gerans als moederschip voor twee vleugelgemonteerde FPV-drones die diep in Oekraïne worden losgelaten; effectiviteit betwist",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T14:26:47.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "Rusland bevestigt twee kleine FPV-aanvalsdrones aan de vleugels van zijn langeafstands-Geran-2 (de in eigen land gebouwde Shahed-136-loiteringmunitie) en laat ze los zodra het draagtoestel diep in Oekraïens gebied is, ver achter de frontlijn. Omdat een Geran honderden kilometers kan vliegen, fungeert hij als vliegend…",
+       "enSummary": "Russia has been fixing two small FPV attack drones to the wings of its long-range Geran-2 (the domestically built Shahed-136 loitering munition) and releasing them once the carrier is deep inside Ukrainian territory, far behind the front line. Because a Geran can fly hundreds of kilometres, it acts as an airborne 'mot…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/03/russia-straps-two-small-attack-drones-to-wings-of-its-long-range-gerans-and-releases-them-deep-inside-ukraine-it-rarely-works-flash-says",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260903-06",
        "title": "Missile shortage now hits Ukraine's F-16 force, limiting its use against Russian drones and cruise missiles",
@@ -120,64 +169,64 @@
         "scale",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
-       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
-       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
-       "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 8,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260830-s01",
-       "title": "О способности БПЛА «отменить» надводные корабли",
-       "titleNl": "Over het vermogen van drones om oppervlakteschepen 'af te schaffen'",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "navy",
-        "drones",
-        "doctrine"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-08-30T01:08:32.000Z",
-       "updatedAt": "2026-08-30T09:00:00.000Z",
-       "nlSummary": "Een opiniestuk op het Russische militaire portaal Topwar (auteur Andrej Kolobov) betoogt dat onbemande systemen — zowel luchtdrones als onbemande oppervlaktevaartuigen (USV's) — de bemande oppervlaktevloot niet overbodig maken. De auteur erkent dat Oekraïense USV's opvallende successen boekten tegen de Russische Zwart…",
-       "enSummary": "An opinion piece on the Russian military portal Topwar (by Andrey Kolobov) argues that unmanned systems — both aerial UAVs and uncrewed surface vessels (USVs) — will not make the crewed surface fleet obsolete. English gloss of the title: 'On the ability of UAVs to \"cancel\" surface ships.' The author concedes that Ukra…",
-       "sourceUrl": "https://topwar.ru/288779-o-sposobnosti-bpla-otmenit-nadvodnye-korabli.html",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 6,
+     "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260904-s01",
+       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
+       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-04T01:28:25.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
+       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
+       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260904-09",
+       "title": "Russia widens strikes on Ukrainian civilian logistics and consumer-goods facilities",
+       "titleNl": "Rusland breidt aanvallen uit naar Oekraïense civiele logistiek en consumentengoederen",
+       "category": "ttp",
+       "topics": [
+        "logistics",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T15:05:08.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "Op 2-3 september 2026 troffen Russische drone- en raketaanvallen een reeks Oekraïense doelen in de civiele logistiek, opslag en consumentengoederen. In het district Borispil (oblast Kyiv) raakte op 3 september het farmaceutische logistiekcomplex Biocon (KhFK Biocon) beschadigd — volgens Tymur Tkatsjenko, hoofd van de…",
+       "enSummary": "Over 2-3 September 2026 a cluster of Russian drone and missile strikes hit Ukrainian civilian logistics, warehousing and consumer-goods sites. In Kyiv Oblast's Boryspil district the Biocon (KhFK Biocon) pharmaceutical logistics complex — described by Kyiv Oblast Military Administration head Tymur Tkachenko as one of U…",
+       "sourceUrl": "https://t.me/dva_majors/98410",
+       "sourceCount": 6,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260903-03",
        "title": "Russia reopens its winter grid campaign: Odesa Oblast strike cuts power to ~350,000 households as Putin threatens 'massive strikes' on Ukraine's energy sector",
@@ -265,51 +314,6 @@
        "enSummary": "Ukraine's Ministry of Defense has for the first time presented the Alexa Spatium, described as the country's first jet-powered interceptor drone, developed specifically to counter Russia's newest and fastest attack drones — the Geran-3, Geran-4 and Geran-5 variants — as well as Shahed-131 reconnaissance drones and hel…",
        "sourceUrl": "https://euromaidanpress.com/2026/08/22/ukraine-has-shown-its-answer-to-russias-most-powerful-drones-for-first-time-meet-alexa-spatium-which-can-carry-thermobaric-warheads-and-fly-back-home",
        "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260823-10",
-       "title": "Double-tap drone strike on Kryvyi Rih shopping center targets rescuers",
-       "titleNl": "Double-tap-dronaanval op winkelcentrum Kryvyi Rih treft hulpverleners",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-21T16:48:25.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Op 21 augustus 2026 voerde Rusland een dronaanval uit op een winkelcentrum in Kryvyi Rih (Dnipropetrovsk-oblast). Volgens Russische militaire kanalen zou een Geran-4-jetdrone zijn ingezet; Moskou claimde een \"directe treffer\" op het complex zonder bewijs van militaire relevantie te leveren. Ongeveer 30 minuten na de e…",
-       "enSummary": "On 21 August 2026, Russia carried out a drone strike on a shopping center in Kryvyi Rih (Dnipropetrovsk Oblast). Russian military channels claimed a Geran-4 jet-powered drone was used and reported a \"direct hit\" on the complex without providing evidence of any military relevance. Roughly 30 minutes after the initial s…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/21/russian-drone-strike-on-kryvyi-rih-shopping-center",
-       "sourceCount": 2,
-       "signals": [
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260823-06",
-       "title": "Ukraine fields jet-powered interceptor drones to counter jet-powered Shaheds",
-       "titleNl": "Oekraïne zet jet-aangedreven onderscheppingsdrones in tegen jet-Shaheds",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-21T10:39:33.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïense strijdkrachten hebben de Alexa Spatium in dienst genomen, een jet-aangedreven onderscheppingsdrone die specifiek is ontwikkeld om Ruslands snelle jet-Shaheds te bestrijden: de Geran-3, Geran-4 en Geran-5, naast de tragere propeller-Shahed-131. Het toestel meet ongeveer 1,5 bij 1,7 meter, is gebouwd uit lich…",
-       "enSummary": "Ukraine's Defense Forces have fielded the Alexa Spatium, a jet-powered interceptor drone built specifically to counter Russia's fast jet-powered Shahed-type drones — the Geran-3, Geran-4 and Geran-5 — as well as the slower propeller-driven Shahed-131. The airframe measures roughly 1.5 by 1.7 meters, is built from ligh…",
-       "sourceUrl": "https://defence-blog.com/ukraine-fields-new-jet-powered-interceptor-to-counter-russian-drones",
-       "sourceCount": 2,
        "signals": [
         "deploy",
         "perf",
@@ -481,9 +485,34 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 7,
+     "total": 8,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260904-s01",
+       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
+       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-04T01:28:25.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
+       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
+       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260831-01",
        "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
@@ -597,28 +626,6 @@
        "enSummary": "Ukraine's Armed Forces struck several Russian military targets in occupied Crimea overnight on 22-23 August. In Chornomorske, a launch and storage site for uncrewed surface vessels (naval drones) was hit, along with a ground relay station used to control Geran and Gerbera attack drones — a key node in the network Russ…",
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/23/8049922",
        "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260825-s01",
-       "title": "Ukrainian Forces Destroy S-300 Missile Carrier Loaded with Missiles (Video)",
-       "titleNl": "Oekraïense strijdkrachten vernietigen met raketten beladen Russisch S-300-transportvoertuig (video)",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-08-22T00:00:50.000Z",
-       "updatedAt": "2026-08-25T00:00:00.000Z",
-       "nlSummary": "Oekraïne's 15e Afzonderlijke Artillerie-Verkenningsbrigade \"Black Forest\" meldt de vernietiging, op 21 augustus 2026, van een Russisch S-300-transportlaadvoertuig dat op het moment van de treffer beladen was met luchtdoelraketten. Volgens de brigade werd het voertuig tijdens een eigen verkenningsoperatie opgespoord, w…",
-       "enSummary": "Ukraine's 15th Separate Artillery Reconnaissance Brigade \"Black Forest\" reports destroying, on 21 August 2026, a Russian S-300 transport-loader vehicle that was carrying anti-aircraft guided missiles at the time it was hit. The brigade says its personnel located the vehicle during a reconnaissance operation and then s…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSWNJeWJIQ016MkdWaFRyTU9hdUExNlpJWUhERkIxYmt1a0M1SEFRa3NhcHE2al8yLVB6aUhHeU9aT1o5M3hUc3U0V1R4QzZJZFV6bWxITmlkVkNGUFZTLWEzNERVRWNxTVk3a2tHbkxQeWtEZzFXNmIyQUlKeXdDVjgwNVQzT1RWYndOMi1rZ3RscW9SQktXSDZkcS14OXQ0OFhHdnE3ZjlmOHBjMmFFM2ZkaFVsQQ?oc=5",
-       "sourceCount": 1,
        "signals": [
         "loss"
        ]
@@ -829,9 +836,56 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 21,
+     "total": 23,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260904-06",
+       "title": "Russia uses long-range Gerans as motherships for two wing-mounted FPV drones released deep inside Ukraine; effectiveness disputed",
+       "titleNl": "Rusland gebruikt langeafstands-Gerans als moederschip voor twee vleugelgemonteerde FPV-drones die diep in Oekraïne worden losgelaten; effectiviteit betwist",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T14:26:47.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "Rusland bevestigt twee kleine FPV-aanvalsdrones aan de vleugels van zijn langeafstands-Geran-2 (de in eigen land gebouwde Shahed-136-loiteringmunitie) en laat ze los zodra het draagtoestel diep in Oekraïens gebied is, ver achter de frontlijn. Omdat een Geran honderden kilometers kan vliegen, fungeert hij als vliegend…",
+       "enSummary": "Russia has been fixing two small FPV attack drones to the wings of its long-range Geran-2 (the domestically built Shahed-136 loitering munition) and releasing them once the carrier is deep inside Ukrainian territory, far behind the front line. Because a Geran can fly hundreds of kilometres, it acts as an airborne 'mot…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/03/russia-straps-two-small-attack-drones-to-wings-of-its-long-range-gerans-and-releases-them-deep-inside-ukraine-it-rarely-works-flash-says",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260904-05",
+       "title": "Ukrainian brigade trials 'Serval Cube' anti-drone EW dome, claims it suppressed every drone in a combat-like test",
+       "titleNl": "Oekraïense brigade test anti-drone-EW-koepel 'Serval Cube' en claimt dat elke drone in een gevechtsrealistische proef werd onderdrukt",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T05:46:30.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "Euromaidan Press meldt dat de Oekraïense 58e Zelfstandige Gemotoriseerde Infanteriebrigade een in eigen land ontwikkeld elektronisch-oorlogvoeringssysteem van het 'koepel'-type, aangeduid als Serval Cube, heeft beproefd. Het is geen kinetisch wapen: het systeem stoort de besturings-, navigatie- en videokanalen waarvan…",
+       "enSummary": "Euromaidan Press reports that Ukraine's 58th Separate Motorized Infantry Brigade has trialed a domestically developed 'dome'-type electronic-warfare system designated Serval Cube. It is not a kinetic weapon: rather than shooting drones down, it jams the control, navigation, and video-transmission channels a drone depe…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/03/ukrainian-brigade-trials-serval-cube-ew-dome-in-combat-like-conditions-suppresses-every-drone-launched-at-it",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260902-01",
        "title": "Ukraine forms 446th Unmanned Systems Brigade — second new drone brigade in two months",
@@ -925,59 +979,38 @@
         "loss",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260830-06",
-       "title": "Ground-robot maker Ratel unveils first strike drone, claims 30 km flight on Starlink link",
-       "titleNl": "Grondrobotbouwer Ratel toont eerste aanvalsdrone, claimt vlucht van 30 km via Starlink-verbinding",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-30T05:14:02.000Z",
-       "updatedAt": "2026-08-30T09:00:00.000Z",
-       "nlSummary": "De Oekraïense fabrikant Ratel Robotics, tot nu toe bekend van onbemande grondvoertuigen (UGV's) voor logistiek, gewondenafvoer, mijnenlegging en mijnruiming, breidt uit naar de lucht met zijn eerste aanvalsdrone, de Ratel K1. Volgens het bedrijf heeft het toestel een 22-inch frame, een topsnelheid van circa 75 km/u, e…",
-       "enSummary": "Ukrainian manufacturer Ratel Robotics, until now known for unmanned ground vehicles used for logistics, casualty evacuation, mine-laying and demining, has moved into the air with its first strike drone, the Ratel K1. According to the company the aircraft has a 22-inch frame, a top speed of roughly 75 km/h, an enduranc…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/30/ukrainian-ground-robot-maker-has-moved-into-air-ratels-first-strike-drone-flies-30-kilometers-on-starlink-link",
-       "sourceCount": 1,
-       "signals": [
-        "variant",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260826-05",
-       "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
-       "titleNl": "Russische aanvalsdrones jammen nu de goedkope interceptors die hen moeten neerhalen",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-25T16:39:38.000Z",
-       "updatedAt": "2026-08-26T10:00:00.000Z",
-       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, heeft Rusland een deel van zijn Geran-drones (de Russische variant van de Iraanse Shahed) uitgerust met een EW-jammer die specifiek is gericht tegen Oekraïense interceptordrones. Het systeem luistert naar het video-signa…",
-       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to Ukraine's president on defense technology, Russia has fitted some of its Geran drones (its version of Iran's Shahed) with an electronic-warfare jammer specifically aimed at Ukrainian interceptor drones. The system listens for the video signal of an approaching int…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/25/russias-attack-drones-now-jam-the-cheap-interceptors-sent-to-kill-them",
-       "sourceCount": 1,
-       "signals": [
-        "counter"
-       ]
       }
      ]
     },
     "cots": {
      "name": "COTS-drones",
      "nameEn": "COTS-drones",
-     "total": 6,
+     "total": 7,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260904-05",
+       "title": "Ukrainian brigade trials 'Serval Cube' anti-drone EW dome, claims it suppressed every drone in a combat-like test",
+       "titleNl": "Oekraïense brigade test anti-drone-EW-koepel 'Serval Cube' en claimt dat elke drone in een gevechtsrealistische proef werd onderdrukt",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T05:46:30.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "Euromaidan Press meldt dat de Oekraïense 58e Zelfstandige Gemotoriseerde Infanteriebrigade een in eigen land ontwikkeld elektronisch-oorlogvoeringssysteem van het 'koepel'-type, aangeduid als Serval Cube, heeft beproefd. Het is geen kinetisch wapen: het systeem stoort de besturings-, navigatie- en videokanalen waarvan…",
+       "enSummary": "Euromaidan Press reports that Ukraine's 58th Separate Motorized Infantry Brigade has trialed a domestically developed 'dome'-type electronic-warfare system designated Serval Cube. It is not a kinetic weapon: rather than shooting drones down, it jams the control, navigation, and video-transmission channels a drone depe…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/03/ukrainian-brigade-trials-serval-cube-ew-dome-in-combat-like-conditions-suppresses-every-drone-launched-at-it",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260901-s03",
        "title": "Самый опасный враг сегодня – в небе",
@@ -1092,29 +1125,6 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260719-s01",
-       "title": "Стрелок под бронёй: что турецкий SARP меняет в войне дронов, а что нет",
-       "titleNl": "Schutter onder pantser: wat de Turkse SARP wel en niet verandert in de dronekrijgvoering",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-07-19T06:00:00.000Z",
-       "updatedAt": "2026-07-19T07:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Russische publicatie (Topwar.ru). Het artikel analyseert het Turkse ASELSAN SARP-afstandsbediende wapenstation (remote weapon station, RWS) en concludeert dat het een evolutionaire, geen revolutionaire verandering in de dronekrijgvoering vertegenwoordigt. RWS-technologie bestaat al decennia — het conce…",
-       "enSummary": "SINGLE SOURCE — Russian publication (Topwar.ru). The article analyzes the Turkish ASELSAN SARP remote weapon station (RWS) and concludes it represents an evolutionary, not revolutionary, change in drone warfare. RWS technology predates quadcopters by decades — the concept traces back to remotely-operated turrets on th…",
-       "sourceUrl": "https://topwar.ru/286432-strelok-pod-bronej-chto-tureckij-sarp-menjaet-v-vojne-dronov-a-chto-net.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale"
-       ]
       }
      ]
     },
@@ -1197,9 +1207,32 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 12,
+     "total": 13,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260904-05",
+       "title": "Ukrainian brigade trials 'Serval Cube' anti-drone EW dome, claims it suppressed every drone in a combat-like test",
+       "titleNl": "Oekraïense brigade test anti-drone-EW-koepel 'Serval Cube' en claimt dat elke drone in een gevechtsrealistische proef werd onderdrukt",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T05:46:30.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "Euromaidan Press meldt dat de Oekraïense 58e Zelfstandige Gemotoriseerde Infanteriebrigade een in eigen land ontwikkeld elektronisch-oorlogvoeringssysteem van het 'koepel'-type, aangeduid als Serval Cube, heeft beproefd. Het is geen kinetisch wapen: het systeem stoort de besturings-, navigatie- en videokanalen waarvan…",
+       "enSummary": "Euromaidan Press reports that Ukraine's 58th Separate Motorized Infantry Brigade has trialed a domestically developed 'dome'-type electronic-warfare system designated Serval Cube. It is not a kinetic weapon: rather than shooting drones down, it jams the control, navigation, and video-transmission channels a drone depe…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/03/ukrainian-brigade-trials-serval-cube-ew-dome-in-combat-like-conditions-suppresses-every-drone-launched-at-it",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260902-01",
        "title": "Ukraine forms 446th Unmanned Systems Brigade — second new drone brigade in two months",
@@ -1320,29 +1353,6 @@
         "scale",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260825-08",
-       "title": "Finland's Patria to Partner With Ukraine's General Cherry on Drone Production",
-       "titleNl": "Fins defensiebedrijf Patria en Oekraïens dronebedrijf General Cherry sluiten intentieverklaring voor droneproductie in Finland",
-       "category": "org",
-       "topics": [
-        "drones",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T14:45:18.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE. Op 24 augustus 2026 meldde Defense News dat het Finse defensiebedrijf Patria een intentieverklaring (letter of intent) heeft ondertekend met het Oekraïense dronebedrijf General Cherry om samen onbemande systemen te ontwikkelen en droneproductie in Finland op te zetten. General Cherry, mede opgericht doo…",
-       "enSummary": "On 24 August 2026, Defense News reported that Finnish defense manufacturer Patria has signed a letter of intent with Ukrainian drone maker General Cherry to jointly develop unmanned systems and establish drone production in Finland. General Cherry, co-founded by Stanislav Hryshyn, makes one-way FPV strike drones and i…",
-       "sourceUrl": "https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "scale"
-       ]
       }
      ]
     }
@@ -1355,9 +1365,32 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 8,
+     "total": 9,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260904-03",
+       "title": "Ukraine's General Staff confirms strike destroying Russian Kasta air-surveillance radar in Zaporizhzhia Oblast",
+       "titleNl": "Oekraïense generale staf bevestigt aanval die Russische Kasta-luchtwaarnemingsradar in oblast Zaporizja uitschakelde",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T12:25:14.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "De Oekraïense generale staf heeft bevestigd dat aanvalsdrones op 1 september 2026 een Russische mobiele 3D-luchtwaarnemingsradar van het type Kasta-2E2 (39N6) hebben geraakt nabij Visjneve in de bezette oblast Zaporizja. Volgens de verklaring troffen de drones de radarantenne en het apparatuur-/zendontvangervoertuig v…",
+       "enSummary": "Ukraine's General Staff has confirmed that on 1 September 2026 strike drones hit a Russian Kasta-2E2 (39N6) mobile 3D air-surveillance radar near Vyshneve in occupied Zaporizhzhia Oblast. According to the statement, the drones struck the radar antenna and the equipment/transceiver vehicle of the radar unit, and the re…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/03/8051761",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260901-06",
        "title": "Ukraine's General Staff reports strikes on an S-400 command vehicle and radar in Bryansk Oblast, 30-31 August",
@@ -1476,28 +1509,6 @@
         "loss",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260729-s01",
-       "title": "Turkiye Eyes Egypt as S-400 Buyer to Fix F-35 Program Problem, Cairo Already Operates russian S-300VM Claiming 40km Ballistic Intercept",
-       "titleNl": "Turkije ziet Egypte als koper voor S-400 om F-35-programmaprobleem op te lossen; Caïro heeft al Russische S-300VM met beweerd onderscheppingsbereik van 40 km tegen ballistische doelen",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-07-27T08:47:54.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense uitgave Defense Express (die de Arabischtalige site Defence Arabic aanhaalt) verkent Turkije de mogelijkheid om zijn Russische S-400-luchtafweersystemen door te verkopen, waarbij Egypte wordt genoemd als een van de \"waarschijnlijke kopers.\" Turkije kocht de S-400 in 2017 van Rusland, een aankoop…",
-       "enSummary": "According to Ukrainian outlet Defense Express (citing the Arabic-language outlet Defence Arabic), Turkey is looking at selling its Russian-made S-400 air defense systems onward, with Egypt named among the \"probable buyers.\" Turkey acquired the S-400 from Russia in 2017, a purchase that led to Ankara's expulsion from t…",
-       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy"
-       ]
       }
      ]
     },
@@ -1554,9 +1565,34 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 9,
+     "total": 10,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260904-02",
+       "title": "Ukrainian naval drones hit Sochi port for the first time, striking Russian support vessel Nefrit",
+       "titleNl": "Oekraïense zeedrones treffen voor het eerst de haven van Sochi en raken het Russische steunvaartuig Nefrit",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "drones",
+        "navy",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-09-03T07:24:18.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "In de ochtend van 3 september 2026 heeft een onbemand oppervlaktevaartuig (USV) van de Oekraïense marine de Nefrit getroffen, een multifunctioneel Russisch steunvaartuig, bij een steiger in de haven van Sochi. OSINT-kanalen (Exilenova+, Krymsky Veter) publiceerden video waarop een zeedrone vlak naast de steiger detone…",
+       "enSummary": "On the morning of 3 September 2026 a Ukrainian Navy uncrewed surface vessel (USV) struck the Nefrit, a Russian-flagged multipurpose offshore support ship, at a pier in the port of Sochi. OSINT channels (Exilenova+, Krymsky Veter) published video showing a sea drone detonating directly beside the pier and an explosion…",
+       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-naval-drone-strikes-nefrit-supply-vessel-in-sochi/",
+       "sourceCount": 5,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260903-s02",
        "title": "Defense Express analyses photos of two Russian Pantsir-S1 systems destroyed by Ukrainian drone strikes",
@@ -1670,31 +1706,6 @@
        "signals": [
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260823-15",
-       "title": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at Millerovo",
-       "titleNl": "Weeklange Oekraïense aanvalscampagne treft Russische luchtmachtbases en radarnetwerk van Krim tot Rostov, tweede MiG-29 bij Millerovo",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T17:50:32.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "Tussen 20 en 24 augustus voerden de Oekraïense Generale Staf en de Unmanned Systems Forces (USF/SBS, commandant Robert 'Madyar' Brovdi) een aanhoudende reeks dronaanvallen uit tegen Russische luchtmacht- en luchtverdedigingsinfrastructuur, verspreid van bezet Krim tot Rostov-oblast. Op vliegbasis Achtoebinsk (Astracha…",
-       "enSummary": "Between 20 and 24 August, Ukraine's General Staff and the Unmanned Systems Forces (USF/SBS, commander Robert 'Magyar' Brovdi) sustained a rolling series of drone strikes against Russian air force and air-defense infrastructure stretching from occupied Crimea to Rostov Oblast. At Akhtubinsk airbase (Astrakhan region, h…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcllqdnB1Z05PVnJIQmVka0JQcU9sMWlFLTJrTmx6X3N6OWR5d3ZmYm1FMnBONUY3NmU5ZGdIaWFQRG9BTGF6d2FEdTh0cTB1ajRaOVBzSnozdTE5TFJYUWltTklaVk9GS2Ryc1UwUUJMdDJwX2dqY0xWZDBLOFNyU2lwSGZlSWxKY1hGSGNVd25hemtOQ0xYZ092RTBoTWNOdzhGcTVRSjc3V3RKV3FSUXNUNA?oc=5",
-       "sourceCount": 7,
-       "signals": [
-        "loss",
-        "deploy"
        ]
       }
      ]
@@ -1981,9 +1992,32 @@
     "kasta": {
      "name": "Kasta-2E2",
      "nameEn": "Kasta-2E2",
-     "total": 3,
-     "signalCount": 2,
+     "total": 4,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260904-03",
+       "title": "Ukraine's General Staff confirms strike destroying Russian Kasta air-surveillance radar in Zaporizhzhia Oblast",
+       "titleNl": "Oekraïense generale staf bevestigt aanval die Russische Kasta-luchtwaarnemingsradar in oblast Zaporizja uitschakelde",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T12:25:14.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "De Oekraïense generale staf heeft bevestigd dat aanvalsdrones op 1 september 2026 een Russische mobiele 3D-luchtwaarnemingsradar van het type Kasta-2E2 (39N6) hebben geraakt nabij Visjneve in de bezette oblast Zaporizja. Volgens de verklaring troffen de drones de radarantenne en het apparatuur-/zendontvangervoertuig v…",
+       "enSummary": "Ukraine's General Staff has confirmed that on 1 September 2026 strike drones hit a Russian Kasta-2E2 (39N6) mobile 3D air-surveillance radar near Vyshneve in occupied Zaporizhzhia Oblast. According to the statement, the drones struck the radar antenna and the equipment/transceiver vehicle of the radar unit, and the re…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/03/8051761",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260827-s01",
        "title": "Ukraine's General Staff claims deep strikes on a MiG-29 in Rostov Oblast plus a 'Kasta' radar and EW systems in Crimea and Donbas",
@@ -2585,9 +2619,31 @@
     "tu95": {
      "name": "Tu-95",
      "nameEn": "Tu-95",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260904-07",
+       "title": "Russian general linked to the Okhmatdyt children's hospital strike shot and gravely wounded near Engels",
+       "titleNl": "Russische generaal die de aanval op kinderziekenhuis Ohmatdyt aanstuurde neergeschoten en zwaargewond bij Engels",
+       "category": "org",
+       "topics": [
+        "airforce",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T11:42:20.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "In de ochtend van 3 september 2026, rond 07.00 uur, opende een schutter op een motor het vuur op een hoge Russische luchtmachtofficier voor een woning in het dorp Probuzjdenie in het district Engels, oblast Saratov — de regio waar de Russische strategische bommenwerpersbasis ligt. Volgens Russische Telegram-kanalen (M…",
+       "enSummary": "On the morning of 3 September 2026, around 07:00, a gunman on a motorcycle opened fire on a senior Russian air-force officer outside a private house in the village of Probuzhdenie in the Engels district of Saratov Oblast, the region that hosts Russia's strategic-bomber base. According to Russian Telegram channels (Mas…",
+       "sourceUrl": "https://militarnyi.com/en/news/commander-of-the-air-division-that-attacked-okhmatdyt-childrens-hospital-seriously-wounded/",
+       "sourceCount": 4,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260830-03",
        "title": "Ukrainian deep strike hits Yaroslavl YANOS refinery and damages Tu-95MS bomber at Engels; satellite imagery confirms bomber damage",
@@ -2927,9 +2983,34 @@
     "decoys": {
      "name": "Decoys & chaff",
      "nameEn": "Decoys & chaff",
-     "total": 6,
+     "total": 7,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260904-s01",
+       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
+       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-04T01:28:25.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
+       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
+       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260831-01",
        "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
@@ -3047,40 +3128,65 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260823-15",
-       "title": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at Millerovo",
-       "titleNl": "Weeklange Oekraïense aanvalscampagne treft Russische luchtmachtbases en radarnetwerk van Krim tot Rostov, tweede MiG-29 bij Millerovo",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T17:50:32.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "Tussen 20 en 24 augustus voerden de Oekraïense Generale Staf en de Unmanned Systems Forces (USF/SBS, commandant Robert 'Madyar' Brovdi) een aanhoudende reeks dronaanvallen uit tegen Russische luchtmacht- en luchtverdedigingsinfrastructuur, verspreid van bezet Krim tot Rostov-oblast. Op vliegbasis Achtoebinsk (Astracha…",
-       "enSummary": "Between 20 and 24 August, Ukraine's General Staff and the Unmanned Systems Forces (USF/SBS, commander Robert 'Magyar' Brovdi) sustained a rolling series of drone strikes against Russian air force and air-defense infrastructure stretching from occupied Crimea to Rostov Oblast. At Akhtubinsk airbase (Astrakhan region, h…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcllqdnB1Z05PVnJIQmVka0JQcU9sMWlFLTJrTmx6X3N6OWR5d3ZmYm1FMnBONUY3NmU5ZGdIaWFQRG9BTGF6d2FEdTh0cTB1ajRaOVBzSnozdTE5TFJYUWltTklaVk9GS2Ryc1UwUUJMdDJwX2dqY0xWZDBLOFNyU2lwSGZlSWxKY1hGSGNVd25hemtOQ0xYZ092RTBoTWNOdzhGcTVRSjc3V3RKV3FSUXNUNA?oc=5",
-       "sourceCount": 7,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
       }
      ]
     },
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 12,
-     "signalCount": 5,
+     "total": 14,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260904-s01",
+       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
+       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-04T01:28:25.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
+       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
+       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260904-01",
+       "title": "Ukraine fields its first Skyranger 35 counter-drone air-defence systems on Leopard 1 chassis",
+       "titleNl": "Oekraïne zet zijn eerste Skyranger 35-luchtverdedigingssystemen tegen drones in op Leopard 1-chassis",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T11:53:41.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "De Oekraïense luchtmacht heeft voor het eerst publiekelijk de Rheinmetall Skyranger 35 getoond, met videobeelden van het 1020e luchtafweerraket- en artillerieregiment. Daarmee wordt bevestigd dat de eerste systemen al eerder in stilte zijn geleverd; de beelden zijn mogelijk al in maart 2026 gemaakt. Het systeem bestaa…",
+       "enSummary": "Ukraine's Air Force has publicly shown the Rheinmetall Skyranger 35 for the first time, releasing video from the 1020th Anti-Aircraft Missile and Artillery Regiment. The footage confirms that the first systems were delivered earlier without announcement, and may have been filmed as early as March 2026. The system pair…",
+       "sourceUrl": "https://defence-blog.com/ukraine-gets-first-skyranger-35-systems-on-leopard-1-tanks",
+       "sourceCount": 4,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260903-01",
        "title": "Ukraine downs Russian 'Banderol' (S8000) cruise missiles over the south — MiG-29 R-60 kill at very low altitude, plus a ground air-defence intercept",
@@ -3172,53 +3278,6 @@
        "sourceCount": 1,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260831-04",
-       "title": "Verstka: Russians spent over 25 billion rubles ($290M) on body armor, optics and drone parts via Ozon in a year",
-       "titleNl": "Verstka: Russen gaven in een jaar meer dan 25 miljard roebel ($290 miljoen) uit aan kogelwerende vesten, optiek en drone-onderdelen via Ozon",
-       "category": "org",
-       "topics": [
-        "logistics",
-        "drones",
-        "mobilization"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-28T16:36:58.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
-       "nlSummary": "Het onafhankelijke Russische medium Verstka meldt dat Russen tussen augustus 2025 en juli 2026 voor meer dan 25 miljard roebel (ongeveer 290 miljoen dollar) aan militair bruikbare goederen kochten via het marktplaatsplatform Ozon. Volgens Verstka kregen de journalisten toegang tot interne analysegegevens van de marktp…",
-       "enSummary": "The independent Russian outlet Verstka reports that between August 2025 and July 2026, Russians purchased more than 25 billion rubles (roughly $290 million) worth of military-applicable goods through the Ozon marketplace. Verstka says its journalists obtained access to the marketplace's internal analytics data and ide…",
-       "sourceUrl": "https://meduza.io/en/news/2026/08/28/russians-bought-over-25-billion-rubles-290-million-in-body-armor-night-vision-gear-and-drone-parts-on-the-ozon-marketplace-in-a-year-verstka-finds",
-       "sourceCount": 1,
-       "signals": []
-      },
-      {
-       "id": "e-20260823-s02",
-       "title": "US to develop new RIM-7 Sea Sparrow modification used in Ukrainian-American FrankenSAM",
-       "titleNl": "VS ontwikkelt nieuwe modificatie van RIM-7 Sea Sparrow, ingezet in Oekraïens-Amerikaans FrankenSAM",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-08-22T19:21:33.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Oekraïense publicatie (Defense Express), geen onafhankelijke tweede bron. De Amerikaanse marine werkt aan een nieuwe generatie van de Evolved Sea Sparrow Missile (ESSM/RIM-162), die is voortgekomen uit de RIM-7 Sea Sparrow — dezelfde raket die Oekraïne inzet in het FrankenSAM-luchtafweersysteem. Volgen…",
-       "enSummary": "SINGLE SOURCE — Ukrainian publication (Defense Express), not independently corroborated. The U.S. Navy is pursuing a next-generation variant of the Evolved Sea Sparrow Missile (ESSM/RIM-162), which itself evolved from the RIM-7 Sea Sparrow — the missile Ukraine fires from its FrankenSAM air defense system. According t…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOZUVVWllTN1FhV0xiVVJXWHJUMGhCV1pUM3VWWTVObGNiV1lOYzUtQ2JqUFM0b2ttYktsZ2RpTjRqc0ROR2dMV1pjcUswcW43RkdrdEtPQ3ZZSUZsVG54VG5GTF9aVk5vUWJJV0Etd3hFTW5zUGRhVTBFdTdCNTVfaldyd3hVeFE0YVd2eWFJUXVRVmh5ZlJoLWx3RmljMHBUcl8wZkFtSFp3YV9wd2J6bFFVSFBSMmZOc0F0dGFTcFNNSER1Rmw4VWtxemUteEN5ZmhCb2tJWDFuaFJfU0dxOFliVjVMc1pxVlgxV2VnOV91ZUN3NFF0VXExdFdGQWVhT3g2Y0RweUFCQQ?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
        ]
       }
      ]
