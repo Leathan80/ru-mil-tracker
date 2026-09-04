@@ -77,11 +77,15 @@
         },
         "ew-spoof": {
           "name": "EW / spoofing tegen UAS",
-          "match": "spoofing|spoofed|gps.jamming|gnss.jamming|crpa|counter.uas jam",
+          "match": "spoofing|spoofed|gps.jamming|gnss.jamming|crpa|counter.uas jam|\\bserval\\b",
           "topics": [
             "drones",
             "ew"
           ]
+        },
+        "skyranger": {
+          "name": "Skyranger 35",
+          "match": "skyranger"
         },
         "hardkill": {
           "name": "Hard-kill counter-UAS",

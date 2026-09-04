@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-04T05:29:20.211Z",
+ "updated": "2026-09-04T05:33:48.251Z",
  "analysisUpdated": "2026-09-04T06:30:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 174,
-  "cardsWithHits": 39,
-  "matches": 203
+  "cardsWithHits": 40,
+  "matches": 205
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -1131,9 +1131,32 @@
     "ew-spoof": {
      "name": "EW / spoofing tegen UAS",
      "nameEn": "EW / spoofing tegen UAS",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260904-05",
+       "title": "Ukrainian brigade trials 'Serval Cube' anti-drone EW dome, claims it suppressed every drone in a combat-like test",
+       "titleNl": "Oekraïense brigade test anti-drone-EW-koepel 'Serval Cube' en claimt dat elke drone in een gevechtsrealistische proef werd onderdrukt",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T05:46:30.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "Euromaidan Press meldt dat de Oekraïense 58e Zelfstandige Gemotoriseerde Infanteriebrigade een in eigen land ontwikkeld elektronisch-oorlogvoeringssysteem van het 'koepel'-type, aangeduid als Serval Cube, heeft beproefd. Het is geen kinetisch wapen: het systeem stoort de besturings-, navigatie- en videokanalen waarvan…",
+       "enSummary": "Euromaidan Press reports that Ukraine's 58th Separate Motorized Infantry Brigade has trialed a domestically developed 'dome'-type electronic-warfare system designated Serval Cube. It is not a kinetic weapon: rather than shooting drones down, it jams the control, navigation, and video-transmission channels a drone depe…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/03/ukrainian-brigade-trials-serval-cube-ew-dome-in-combat-like-conditions-suppresses-every-drone-launched-at-it",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260902-03",
        "title": "Ukraine's Kaban retrofit kit turns in-service vehicles — including an HMMWV — into uncrewed ground vehicles",
@@ -1199,6 +1222,39 @@
        "sourceCount": 1,
        "signals": [
         "loss",
+        "counter"
+       ]
+      }
+     ]
+    },
+    "skyranger": {
+     "name": "Skyranger 35",
+     "nameEn": "Skyranger 35",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260904-01",
+       "title": "Ukraine fields its first Skyranger 35 counter-drone air-defence systems on Leopard 1 chassis",
+       "titleNl": "Oekraïne zet zijn eerste Skyranger 35-luchtverdedigingssystemen tegen drones in op Leopard 1-chassis",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T11:53:41.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "De Oekraïense luchtmacht heeft voor het eerst publiekelijk de Rheinmetall Skyranger 35 getoond, met videobeelden van het 1020e luchtafweerraket- en artillerieregiment. Daarmee wordt bevestigd dat de eerste systemen al eerder in stilte zijn geleverd; de beelden zijn mogelijk al in maart 2026 gemaakt. Het systeem bestaa…",
+       "enSummary": "Ukraine's Air Force has publicly shown the Rheinmetall Skyranger 35 for the first time, releasing video from the 1020th Anti-Aircraft Missile and Artillery Regiment. The footage confirms that the first systems were delivered earlier without announcement, and may have been filmed as early as March 2026. The system pair…",
+       "sourceUrl": "https://defence-blog.com/ukraine-gets-first-skyranger-35-systems-on-leopard-1-tanks",
+       "sourceCount": 4,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf",
         "counter"
        ]
       }
