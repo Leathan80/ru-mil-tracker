@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-05T07:08:08.138Z",
+ "updated": "2026-09-05T07:13:58.864Z",
  "analysisUpdated": "2026-09-05T09:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 189,
-  "cardsWithHits": 41,
-  "matches": 219
+  "cardsWithHits": 43,
+  "matches": 221
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -1501,6 +1501,65 @@
         "perf",
         "scale",
         "counter"
+       ]
+      }
+     ]
+    },
+    "geoscan701": {
+     "name": "Geoscan 701",
+     "nameEn": "Geoscan 701",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260905-10",
+       "title": "Russian Geoscan 701 survey drone found on Finnish coast near Porvoo, investigation opened",
+       "titleNl": "Russische verkenningsdrone Geoscan 701 gevonden aan Finse kust bij Porvoo, onderzoek geopend",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T05:23:00.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "De Finse grenswacht (Rajavartiolaitos) heeft een drone die naar verluidt op 1 september 2026 door een visser werd gevonden in de Pellinki-archipel bij Porvoo (zuidkust, Golf van Finland), voorlopig geïdentificeerd als een Geoscan 701 — een karterings-/opmetingsdrone van de Russische fabrikant Geoscan. Volgens de grens…",
+       "enSummary": "Finland's Border Guard (Rajavartiolaitos) has preliminarily identified a drone reportedly found by a fisherman on 1 September 2026 in the Pellinki archipelago near Porvoo (southern coast, Gulf of Finland) as a Geoscan 701 — a survey/mapping drone made by Russian manufacturer Geoscan. Per the Border Guard, the device c…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/04/8051860",
+       "sourceCount": 2,
+       "signals": [
+        "deploy"
+       ]
+      }
+     ]
+    },
+    "lupinis": {
+     "name": "Lupinis-10 (TFL-1)",
+     "nameEn": "Lupinis-10 (TFL-1)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260905-s02",
+       "title": "Ukrainian \"Lupinis-10\" AI-guided FPV drone destroys Russian drone catapult launcher",
+       "titleNl": "Oekraïense 'slimme' FPV-drone Lupinis-10 vernietigt Russische katapultlancering",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-04T16:55:25.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Oekraïense publicatie (ministerie van Defensie, ArmyInform). Volgens de 58e Afzonderlijke Motorinfanteriebrigade \"Hetman Ivan Vyhovsky\" vernietigde de eenheid een Russische drone terwijl deze nog op de katapultlancering stond, gereed voor lancering. Ingezet werd een Lupinis-10-TFL-1: een Oekraïens FPV-…",
+       "enSummary": "SINGLE SOURCE — Ukrainian publication (Ministry of Defense, ArmyInform). Per the 58th Separate Motorized Infantry Brigade \"Hetman Ivan Vyhovsky,\" the unit destroyed a Russian drone while it was still on its catapult launcher, ready for take-off. The strike used a Lupinis-10-TFL-1: a Ukrainian FPV attack-drone system m…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/04/shopyv-czil-i-dali-sam-yak-rozumnyj-dron-lupynis-10-roznis-vorozhu-katapultu-na-starti",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
        ]
       }
      ]
