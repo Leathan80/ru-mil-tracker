@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-04T05:35:19.800Z",
- "analysisUpdated": "2026-09-04T06:30:00.000Z",
+ "updated": "2026-09-05T07:08:08.138Z",
+ "analysisUpdated": "2026-09-05T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 174,
-  "cardsWithHits": 40,
-  "matches": 205
+  "entriesConsidered": 189,
+  "cardsWithHits": 41,
+  "matches": 219
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,32 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 25,
+     "total": 27,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260905-01",
+       "title": "Russian drone hits SBU headquarters in central Kyiv, wounding up to 12; Zelensky says \"geography\" of Ukraine's response is set",
+       "titleNl": "Russische drone treft SBU-hoofdkwartier in centraal Kyiv, tot 12 gewonden; Zelensky: \"geografie\" van reactie is bepaald",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "command",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-09-04T12:40:00.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Op de middag van 4 september 2026 trof een Russische drone het hoofdkwartier van de Oekraïense veiligheidsdienst SBU op de Volodymyrska-straat in centraal Kyiv, tegenover de Sint-Sofiakathedraal en nabij metrostation Zoloti Vorota. Ooggetuigen meldden een explosie rond 15:30 uur lokale tijd, gevolgd door dichte rook b…",
+       "enSummary": "On the afternoon of 4 September 2026, a Russian drone struck the headquarters of Ukraine's Security Service (SBU) on Volodymyrska Street in central Kyiv, opposite St Sophia's Cathedral and near Zoloti Vorota metro station. Eyewitnesses reported an explosion around 15:30 local time, followed by thick smoke over the are…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/04/8051913",
+       "sourceCount": 9,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260904-s01",
        "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
@@ -145,29 +168,6 @@
         "loss",
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260903-s04",
-       "title": "Rybar: 'many jet drones, little counter to them' — Russian milblogger frames the strike-August Geran campaign as beating Ukrainian air defence",
-       "titleNl": "Rybar: 'veel straaldrones, weinig tegenmaatregelen' — Russische milblogger presenteert de Geran-campagne van 'strike-augustus' als winnend van de Oekraïense luchtverdediging",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-09-01T08:30:15.000Z",
-       "updatedAt": "2026-09-03T09:00:00.000Z",
-       "nlSummary": "MILBLOGGER — persoonlijke/redactionele Telegram-stem (Rybar), geen officieel standpunt van het Russische ministerie van Defensie; milbloggers spreken elkaar en het ministerie geregeld tegen. Op 1 september 2026 publiceerde Rybar een bericht «Veel straaldrones, maar weinig tegenmaatregelen». Rybar stelt dat de Russisch…",
-       "enSummary": "MILBLOGGER — a personal/editorial Telegram voice (Rybar), not an official Russian Ministry of Defence position; milbloggers routinely contradict one another and the ministry. On 1 September 2026 Rybar published a post titled «Many jet ones, but little counter to them». Rybar argues that Russia's «strike August» agains…",
-       "sourceUrl": "https://t.me/rybar/82821",
-       "sourceCount": 1,
-       "signals": [
-        "scale",
-        "counter"
        ]
       }
      ]
@@ -326,9 +326,31 @@
     "lancet": {
      "name": "Lancet-1 / Lancet-3",
      "nameEn": "Lancet-1 / Lancet-3",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260905-03",
+       "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
+       "titleNl": "Rusland verlengt drone-besturingsbereik naar 150-175 km via mesh-netwerk relaisketens",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T11:02:23.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Het Kyiv-gevestigde analysecentrum KI Insights meldt dat Rusland het besturingsbereik van aanvalsdrones met mesh-netwerktechnologie heeft opgevoerd naar circa 150-175 km vanaf het verste grondstation — ongeveer een verdubbeling ten opzichte van 2025 (destijds ~75-100 km, volgens eerdere rapportage van Serhii \"Flash\" B…",
+       "enSummary": "Kyiv-based analytical center KI Insights reports that Russia has extended strike-drone control range using mesh-network technology to roughly 150-175 km from the farthest ground station — about double the ranges documented in 2025 (then ~75-100 km, per earlier reporting from Serhii \"Flash\" Beskrestnov). KI Insights tr…",
+       "sourceUrl": "https://militarnyi.com/en/news/ki-insights-russia-extends-drone-control-range-to-175-km-using-mesh-networks/",
+       "sourceCount": 2,
+       "signals": [
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260903-07",
        "title": "Ukraine destroys a Russian naval drone near Snake Island as Russian USV activity in the Black Sea grows",
@@ -431,9 +453,31 @@
     "orlan": {
      "name": "Orlan-10",
      "nameEn": "Orlan-10",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260905-03",
+       "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
+       "titleNl": "Rusland verlengt drone-besturingsbereik naar 150-175 km via mesh-netwerk relaisketens",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T11:02:23.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Het Kyiv-gevestigde analysecentrum KI Insights meldt dat Rusland het besturingsbereik van aanvalsdrones met mesh-netwerktechnologie heeft opgevoerd naar circa 150-175 km vanaf het verste grondstation — ongeveer een verdubbeling ten opzichte van 2025 (destijds ~75-100 km, volgens eerdere rapportage van Serhii \"Flash\" B…",
+       "enSummary": "Kyiv-based analytical center KI Insights reports that Russia has extended strike-drone control range using mesh-network technology to roughly 150-175 km from the farthest ground station — about double the ranges documented in 2025 (then ~75-100 km, per earlier reporting from Serhii \"Flash\" Beskrestnov). KI Insights tr…",
+       "sourceUrl": "https://militarnyi.com/en/news/ki-insights-russia-extends-drone-control-range-to-175-km-using-mesh-networks/",
+       "sourceCount": 2,
+       "signals": [
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260831-s01",
        "title": "Russia hopes its 80-missile cruiser Admiral Nakhimov will return to service after nearly 30 years of repairs",
@@ -485,9 +529,31 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 8,
+     "total": 9,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260905-03",
+       "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
+       "titleNl": "Rusland verlengt drone-besturingsbereik naar 150-175 km via mesh-netwerk relaisketens",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T11:02:23.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Het Kyiv-gevestigde analysecentrum KI Insights meldt dat Rusland het besturingsbereik van aanvalsdrones met mesh-netwerktechnologie heeft opgevoerd naar circa 150-175 km vanaf het verste grondstation — ongeveer een verdubbeling ten opzichte van 2025 (destijds ~75-100 km, volgens eerdere rapportage van Serhii \"Flash\" B…",
+       "enSummary": "Kyiv-based analytical center KI Insights reports that Russia has extended strike-drone control range using mesh-network technology to roughly 150-175 km from the farthest ground station — about double the ranges documented in 2025 (then ~75-100 km, per earlier reporting from Serhii \"Flash\" Beskrestnov). KI Insights tr…",
+       "sourceUrl": "https://militarnyi.com/en/news/ki-insights-russia-extends-drone-control-range-to-175-km-using-mesh-networks/",
+       "sourceCount": 2,
+       "signals": [
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260904-s01",
        "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
@@ -605,39 +671,37 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260823-02",
-       "title": "Ukraine strikes Russian naval drone infrastructure, Geran/Gerbera relay and radar in Crimea",
-       "titleNl": "Oekraïense aanval op Russische marinedrone-infrastructuur, Geran/Gerbera-relaisstation en radar op de Krim",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "naval-drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-23T10:13:00.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïense strijdkrachten hebben in de nacht van 22 op 23 augustus meerdere doelen getroffen op de bezette Krim. In Chornomorske werden een lanceer- en opslaglocatie voor onbemande zeevaartuigen (marinedrones) en een grondrelaisstation voor de aansturing van Geran- en Gerbera-aanvalsdrones uitgeschakeld. Dit relaissta…",
-       "enSummary": "Ukraine's Armed Forces struck several Russian military targets in occupied Crimea overnight on 22-23 August. In Chornomorske, a launch and storage site for uncrewed surface vessels (naval drones) was hit, along with a ground relay station used to control Geran and Gerbera attack drones — a key node in the network Russ…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/23/8049922",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260905-03",
+       "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
+       "titleNl": "Rusland verlengt drone-besturingsbereik naar 150-175 km via mesh-netwerk relaisketens",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T11:02:23.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Het Kyiv-gevestigde analysecentrum KI Insights meldt dat Rusland het besturingsbereik van aanvalsdrones met mesh-netwerktechnologie heeft opgevoerd naar circa 150-175 km vanaf het verste grondstation — ongeveer een verdubbeling ten opzichte van 2025 (destijds ~75-100 km, volgens eerdere rapportage van Serhii \"Flash\" B…",
+       "enSummary": "Kyiv-based analytical center KI Insights reports that Russia has extended strike-drone control range using mesh-network technology to roughly 150-175 km from the farthest ground station — about double the ranges documented in 2025 (then ~75-100 km, per earlier reporting from Serhii \"Flash\" Beskrestnov). KI Insights tr…",
+       "sourceUrl": "https://militarnyi.com/en/news/ki-insights-russia-extends-drone-control-range-to-175-km-using-mesh-networks/",
+       "sourceCount": 2,
+       "signals": [
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260827-09",
        "title": "OSINT: damaged Black Sea Fleet vessels sheltering in Sevastopol's bays",
@@ -833,12 +897,64 @@
       }
      ]
     },
+    "supercam": {
+     "name": "Supercam",
+     "nameEn": "Supercam",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260905-03",
+       "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
+       "titleNl": "Rusland verlengt drone-besturingsbereik naar 150-175 km via mesh-netwerk relaisketens",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T11:02:23.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Het Kyiv-gevestigde analysecentrum KI Insights meldt dat Rusland het besturingsbereik van aanvalsdrones met mesh-netwerktechnologie heeft opgevoerd naar circa 150-175 km vanaf het verste grondstation — ongeveer een verdubbeling ten opzichte van 2025 (destijds ~75-100 km, volgens eerdere rapportage van Serhii \"Flash\" B…",
+       "enSummary": "Kyiv-based analytical center KI Insights reports that Russia has extended strike-drone control range using mesh-network technology to roughly 150-175 km from the farthest ground station — about double the ranges documented in 2025 (then ~75-100 km, per earlier reporting from Serhii \"Flash\" Beskrestnov). KI Insights tr…",
+       "sourceUrl": "https://militarnyi.com/en/news/ki-insights-russia-extends-drone-control-range-to-175-km-using-mesh-networks/",
+       "sourceCount": 2,
+       "signals": [
+        "deploy"
+       ]
+      }
+     ]
+    },
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 23,
+     "total": 25,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260905-s02",
+       "title": "Ukrainian \"Lupinis-10\" AI-guided FPV drone destroys Russian drone catapult launcher",
+       "titleNl": "Oekraïense 'slimme' FPV-drone Lupinis-10 vernietigt Russische katapultlancering",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-04T16:55:25.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Oekraïense publicatie (ministerie van Defensie, ArmyInform). Volgens de 58e Afzonderlijke Motorinfanteriebrigade \"Hetman Ivan Vyhovsky\" vernietigde de eenheid een Russische drone terwijl deze nog op de katapultlancering stond, gereed voor lancering. Ingezet werd een Lupinis-10-TFL-1: een Oekraïens FPV-…",
+       "enSummary": "SINGLE SOURCE — Ukrainian publication (Ministry of Defense, ArmyInform). Per the 58th Separate Motorized Infantry Brigade \"Hetman Ivan Vyhovsky,\" the unit destroyed a Russian drone while it was still on its catapult launcher, ready for take-off. The strike used a Lupinis-10-TFL-1: a Ukrainian FPV attack-drone system m…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/04/shopyv-czil-i-dali-sam-yak-rozumnyj-dron-lupynis-10-roznis-vorozhu-katapultu-na-starti",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260904-06",
        "title": "Russia uses long-range Gerans as motherships for two wing-mounted FPV drones released deep inside Ukraine; effectiveness disputed",
@@ -861,6 +977,31 @@
         "loss",
         "deploy",
         "perf"
+       ]
+      },
+      {
+       "id": "e-20260905-02",
+       "title": "Drones push Ukraine toward hedgehog cage armor — and more cautious tank use",
+       "titleNl": "Dronedreiging dwingt Oekraïne tot egelpantser — en voorzichtiger tankinzet",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "armor"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T09:50:31.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Beide kanten van het front — Rusland al sinds herfst 2025 — lassen geïmproviseerd \"egelpantser\" op gevechtsvoertuigen: bundels losgedraaide staaldraad of kabel op een metalen frame, bevestigd op romp en toren. Foto's gedocumenteerd door Defence Blog tonen deze bepantsering, in Oekraïne \"Yozh\" (Egel) genoemd, nu ook op…",
+       "enSummary": "On both sides of the front — Russia since autumn 2025 — crews are welding improvised \"hedgehog\" cage armor onto combat vehicles: bundles of unwound steel or cable welded to a frame and bolted onto hull and turret. Photos documented by Defence Blog show this armor, known in Ukraine as \"Yozh\" (Hedgehog), now also fitted…",
+       "sourceUrl": "https://defence-blog.com/ukraine-fits-abrams-tank-with-russian-style-hedgehog-armor",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "counter"
        ]
       },
       {
@@ -929,54 +1070,6 @@
        "sourceCount": 1,
        "signals": [
         "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260831-06",
-       "title": "Ukrainian firm Rebel Group unveils Brama stationary EW/SIGINT system against FPV drones",
-       "titleNl": "Oekraïens bedrijf Rebel Group presenteert stationair EW/SIGINT-systeem Brama tegen FPV-drones",
-       "category": "weapon",
-       "topics": [
-        "ew",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 1,
-       "publishedAt": "2026-08-30T14:14:00.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
-       "nlSummary": "Het Oekraïense defensiebedrijf Rebel Group heeft volgens zijn eigen persdienst een stationair systeem voor elektronische oorlogvoering (EW) en signaalinlichtingen (SIGINT) ontwikkeld, genaamd Brama. Het systeem combineert EW- en SIGINT-functies om FPV-drones tegen te gaan: het kan de frequentie van analoge videosignal…",
-       "enSummary": "Ukrainian defence company Rebel Group has developed a stationary electronic warfare (EW) and signals intelligence (SIGINT) system called Brama, according to its own press service. The system combines EW and SIGINT functions to counter FPV drones: it can detect and decode the frequency of analogue video signals and the…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/30/8051053",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260901-s01",
-       "title": "Russian milbloggers push for networking mobile fire groups (MOG) as frontline counter-drone air defence",
-       "titleNl": "Russische milbloggers pleiten voor het koppelen van mobiele vuurgroepen (MOG) als counter-drone luchtverdediging",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense",
-        "command"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-08-30T08:24:23.000Z",
-       "updatedAt": "2026-09-01T09:00:00.000Z",
-       "nlSummary": "MILBLOGGER — dit berust op twee persoonlijke/redactionele pro-Russische Telegram-kanalen (Rybar en WarGonzo), geen officieel standpunt van het Russische ministerie van Defensie. Milbloggers spreken elkaar en het ministerie geregeld tegen, overdrijven behaalde resultaten en hebben eigen belangen (Rybar promoot explicie…",
-       "enSummary": "MILBLOGGER — this rests on two personal/editorial pro-Russian Telegram channels (Rybar and WarGonzo), not an official Russian MoD position. Milbloggers routinely contradict each other and the ministry, inflate claimed results, and pursue their own agendas (Rybar openly promotes allied channels and a named manufacturer…",
-       "sourceUrl": "https://t.me/rybar/82764",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
         "counter"
        ]
       }
@@ -1421,9 +1514,32 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 9,
+     "total": 10,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260905-12",
+       "title": "Ukrainian drones hit Sochi-area fuel depots and an air-defense position, grounding 100+ flights",
+       "titleNl": "Oekraïense drones treffen brandstofdepots en een luchtverdedigingsstelling bij Sotsji, 100+ vluchten getroffen",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T06:57:09.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Los van de USV-aanval op de Nefrit in de haven van Sochi op 3 september (zie aparte entry) troffen Oekraïense aanvalsdrones in de nacht van 3 op 4 september een reeks doelen rond Groot-Sotsji: onafhankelijke monitor Astra en OSINT-analisten (CyberBoroshno) meldden branden bij twee beschermde brandstofdepots — Rosneft-…",
+       "enSummary": "Separate from the USV strike on the Nefrit at Sochi port on 3 September (see separate entry), Ukrainian attack drones struck a cluster of targets around Greater Sochi overnight from 3 to 4 September: independent monitor Astra and OSINT analysts (CyberBoroshno) reported fires at two protected fuel depots — Rosneft-Kuba…",
+       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-drones-strike-russian-air-defense-position-in-sochi/",
+       "sourceCount": 6,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260904-03",
        "title": "Ukraine's General Staff confirms strike destroying Russian Kasta air-surveillance radar in Zaporizhzhia Oblast",
@@ -1541,30 +1657,6 @@
         "loss",
         "deploy"
        ]
-      },
-      {
-       "id": "e-20260824-s05",
-       "title": "Voyennaya Mysl: S-400 Crews Claim 10 MiG-29 Kills in One Day in 2023 via Over-the-Horizon Shoot-and-Scoot Tactic",
-       "titleNl": "Militaire Gedachte: S-400-bemanningen claimen 10 MiG-29-treffers op één dag in 2023 via loer-en-verplaats-tactiek",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "missiles",
-        "doctrine"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-08-04T14:52:00.000Z",
-       "updatedAt": "2026-08-24T18:18:15.000Z",
-       "nlSummary": "SINGLE SOURCE — Russisch ministerie van Defensie-tijdschrift Voyennaya Mysl (Военная Мысль), via Russisch staatsmedium Life.ru. Een artikel in Voyennaya Mysl, mede geschreven door generaal-majoor Aleksandr Romanenkov (hoofd van de luchtdoelraketttroepen van de Russische luchtruimtestrijdkrachten VKS), behandelt de man…",
-       "enSummary": "SINGLE SOURCE — Russian Ministry of Defense journal Voyennaya Mysl (Military Thought), via Russian state media outlet Life.ru. An article in Voyennaya Mysl, co-authored by Major General Alexander Romanenkov (chief of the Russian Aerospace Forces' air-defense missile troops), addresses SAM unit maneuver tactics during…",
-       "sourceUrl": "https://life.ru/p/1907881",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "counter"
-       ]
       }
      ]
     },
@@ -1621,9 +1713,32 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 10,
+     "total": 11,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260905-12",
+       "title": "Ukrainian drones hit Sochi-area fuel depots and an air-defense position, grounding 100+ flights",
+       "titleNl": "Oekraïense drones treffen brandstofdepots en een luchtverdedigingsstelling bij Sotsji, 100+ vluchten getroffen",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T06:57:09.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Los van de USV-aanval op de Nefrit in de haven van Sochi op 3 september (zie aparte entry) troffen Oekraïense aanvalsdrones in de nacht van 3 op 4 september een reeks doelen rond Groot-Sotsji: onafhankelijke monitor Astra en OSINT-analisten (CyberBoroshno) meldden branden bij twee beschermde brandstofdepots — Rosneft-…",
+       "enSummary": "Separate from the USV strike on the Nefrit at Sochi port on 3 September (see separate entry), Ukrainian attack drones struck a cluster of targets around Greater Sochi overnight from 3 to 4 September: independent monitor Astra and OSINT analysts (CyberBoroshno) reported fires at two protected fuel depots — Rosneft-Kuba…",
+       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-drones-strike-russian-air-defense-position-in-sochi/",
+       "sourceCount": 6,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260904-02",
        "title": "Ukrainian naval drones hit Sochi port for the first time, striking Russian support vessel Nefrit",
@@ -1740,28 +1855,6 @@
        "signals": [
         "deploy",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260823-s05",
-       "title": "Russian Forces Receive More Pantsir Air Defense Systems, Hypersonic Missiles to Try Shoot Down Ukrainian UAVs, But...",
-       "titleNl": "Russische troepen krijgen meer Pantsir-luchtafweersystemen en hypersonische raketten om Oekraïense UAV's neer te schieten, maar...",
-       "category": "weapon",
-       "topics": [
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-08-21T13:24:34.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Oekraïense publicatie (Defense Express), geen onafhankelijke tweede bron. Volgens Defense Express heeft het Russische leger een nieuwe partij Pantsir-luchtafweersystemen ontvangen: het mobiele Pantsir-S1M en de stationaire, kanonloze variant Pantsir-SMD. Beide zouden naast de standaard 57E6-E-ondersche…",
-       "enSummary": "SINGLE SOURCE — Ukrainian publication (Defense Express), not independently corroborated. According to Defense Express, Russian forces have received a new batch of Pantsir air-defense systems: the mobile Pantsir-S1M and the stationary, gunless Pantsir-SMD variant. Both can reportedly fire the standard 57E6-E intercepto…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNN0RzUG9HaS1lN2tWdGREVWkxUWVqM0h0TThaV3BIMVZjVDZiRUV2d21NNjBlUmhqaVpvbnJMZGZveE9PMVNBNUkxSlhLZncxd29rMVM1cHhOd04zVzh4LUcwRjUza0RVNnN6dExfSTl3QkJtMlBqODQyMmdhSHlDeDROM1BmUmI0TDZFaFlOalhEMkxSaUtNRFBpMmU5aGRQMGtIT2YtR1Jsak9aYW1DOTJ6U1kzQkpzSW45R3psajFxaUJQd1dtRFFac21BM2xsZWpiejFpVXpQb1JTSUVtZk96UGt4R2R3dnc?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf"
        ]
       }
      ]
@@ -1903,9 +1996,31 @@
     "sa27": {
      "name": "Buk-M3 (SA-27)",
      "nameEn": "Buk-M3 (SA-27)",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260905-05",
+       "title": "Ukrainian SOF unit \"Balista\" destroys a Russian S-300 launcher and Buk-M3 vehicle in one strike operation",
+       "titleNl": "Oekraïense SOF-eenheid 'Balista' vernietigt Russische S-300-lanceerinrichting en Buk-M3-voertuig in één slagoperatie",
+       "category": "weapon",
+       "topics": [
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T17:20:00.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Oekraïne's Speciale Operatiekrachten (SSO/SOF) melden dat de eenheid \"Balista\" in één speciale verkennings- en slagoperatie een lanceerinrichting van een S-300-luchtdoelraketsysteem en een gevechtsvoertuig van een (gemoderniseerd) Buk-M3-systeem heeft opgespoord en vernietigd op een niet nader genoemde richting. Het b…",
+       "enSummary": "Ukraine's Special Operations Forces (SOF/SSO) report that its \"Balista\" unit located and destroyed an S-300 long-range SAM launcher and a combat vehicle from a (modernized) Buk-M3 system in a single reconnaissance-and-strike operation, on an unspecified direction. The report traces back to an official SOF statement al…",
+       "sourceUrl": "https://en.defence-ua.com/news/ukrainian_sof_take_out_russian_s_300_and_buk_m3_systems_in_one_strike_operation_video-13234.html",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "variant"
+       ]
+      },
       {
        "id": "e-20260830-07",
        "title": "Ukraine's General Staff claims Buk-M3 destroyed plus strikes on Shahed launch sites, EW complex and command posts",
@@ -2765,9 +2880,32 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 13,
+     "total": 14,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260905-12",
+       "title": "Ukrainian drones hit Sochi-area fuel depots and an air-defense position, grounding 100+ flights",
+       "titleNl": "Oekraïense drones treffen brandstofdepots en een luchtverdedigingsstelling bij Sotsji, 100+ vluchten getroffen",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T06:57:09.000Z",
+       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "nlSummary": "Los van de USV-aanval op de Nefrit in de haven van Sochi op 3 september (zie aparte entry) troffen Oekraïense aanvalsdrones in de nacht van 3 op 4 september een reeks doelen rond Groot-Sotsji: onafhankelijke monitor Astra en OSINT-analisten (CyberBoroshno) meldden branden bij twee beschermde brandstofdepots — Rosneft-…",
+       "enSummary": "Separate from the USV strike on the Nefrit at Sochi port on 3 September (see separate entry), Ukrainian attack drones struck a cluster of targets around Greater Sochi overnight from 3 to 4 September: independent monitor Astra and OSINT analysts (CyberBoroshno) reported fires at two protected fuel depots — Rosneft-Kuba…",
+       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-drones-strike-russian-air-defense-position-in-sochi/",
+       "sourceCount": 6,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260831-02",
        "title": "Ukraine strikes Kirishi refinery, Yeysk and Millerovo airfields in coordinated deep-strike package; SBS claims Pantsir-S1 and four radars destroyed",
@@ -2885,30 +3023,6 @@
        "sourceUrl": "https://armyinform.com.ua/2026/08/25/syly-oborony-urazyly-vynyshhuvach-mig-29-u-rostovskij-oblasti-kompleksy-reb-ta-sklady-okupantiv-genshtab",
        "sourceCount": 2,
        "signals": []
-      },
-      {
-       "id": "e-20260824-11",
-       "title": "Ukraine's GPS-Free Beacon Network Guides Drones Hunting Russian Spy Aircraft Over the Black Sea",
-       "titleNl": "Oekraïens GPS-vrij bakennetwerk begeleidt drones bij jacht op Russische spionagetoestellen boven de Zwarte Zee",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T00:00:00.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Oekraïense bemanningen van onderscheppingsdrones schieten Russische Orlan-verkenningsdrones neer ver op de Zwarte Zee, buiten het bereik van kustlandmarks. Euromaidan Press meldde op 24 augustus 2026 dat het 18e Luchtcommandantschap een Orlan-30 op recordafstand van 110 km uit de kust neerhaalde met een Wovkulaka Spit…",
-       "enSummary": "Ukrainian interceptor-drone crews are shooting down Russian Orlan-family reconnaissance drones far out over the Black Sea, well beyond the reach of coastal landmarks. On 24 August 2026, Euromaidan Press reported that the 18th Aviation Commandant's Office downed an Orlan-30 at a record 110 km from shore using a Wovkula…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/24/no-gps-no-landmarks-how-ukraines-drones-hunt-russian-spy-drones-far-out-over-the-black-sea",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "perf",
-        "counter"
-       ]
       }
      ]
     },
@@ -3039,7 +3153,7 @@
     "decoys": {
      "name": "Decoys & chaff",
      "nameEn": "Decoys & chaff",
-     "total": 7,
+     "total": 8,
      "signalCount": 6,
      "entries": [
       {
