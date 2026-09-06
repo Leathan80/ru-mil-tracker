@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-05T07:14:17.107Z",
- "analysisUpdated": "2026-09-05T09:00:00.000Z",
+ "updated": "2026-09-06T11:56:46.507Z",
+ "analysisUpdated": "2026-09-06T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 189,
-  "cardsWithHits": 43,
-  "matches": 221
+  "entriesConsidered": 203,
+  "cardsWithHits": 47,
+  "matches": 246
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,33 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 27,
-     "signalCount": 5,
+     "total": 28,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260906-09",
+       "title": "US Air Force seeks a gun-based air-defence system for overseas bases, citing Ukraine's drone-kill experience",
+       "titleNl": "Amerikaanse luchtmacht zoekt kanongebaseerd luchtverdedigingssysteem voor bases in het buitenland, met verwijzing naar Oekraïense drone-ervaring",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "artillery",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T11:13:20.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "De Amerikaanse luchtmacht heeft op het federale aanbestedingsportaal een Request for Information (RFI) gepubliceerd voor een \"Ground-Based, Medium-Caliber Gun Weapon System\" om haar vliegbases in het buitenland te beschermen tegen lucht- en raketdreigingen, met als eerste prioriteit subsone kruisraketten en drones — v…",
+       "enSummary": "The U.S. Air Force has published a Request for Information on the federal procurement portal for a \"Ground-Based, Medium-Caliber Gun Weapon System\" to defend its overseas air bases against air and missile threats, with an initial focus on subsonic cruise missiles and unmanned aircraft ranging from small quadcopters to…",
+       "sourceUrl": "https://militarnyi.com/en/news/usa-new-air-defense-system-protect-air-base/",
+       "sourceCount": 2,
+       "signals": [
+        "counter"
+       ]
+      },
       {
        "id": "e-20260905-01",
        "title": "Russian drone hits SBU headquarters in central Kyiv, wounding up to 12; Zelensky says \"geography\" of Ukraine's response is set",
@@ -40,11 +64,11 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-09-04T12:40:00.000Z",
-       "updatedAt": "2026-09-05T09:00:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "Op de middag van 4 september 2026 trof een Russische drone het hoofdkwartier van de Oekraïense veiligheidsdienst SBU op de Volodymyrska-straat in centraal Kyiv, tegenover de Sint-Sofiakathedraal en nabij metrostation Zoloti Vorota. Ooggetuigen meldden een explosie rond 15:30 uur lokale tijd, gevolgd door dichte rook b…",
        "enSummary": "On the afternoon of 4 September 2026, a Russian drone struck the headquarters of Ukraine's Security Service (SBU) on Volodymyrska Street in central Kyiv, opposite St Sophia's Cathedral and near Zoloti Vorota metro station. Eyewitnesses reported an explosion around 15:30 local time, followed by thick smoke over the are…",
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/04/8051913",
-       "sourceCount": 9,
+       "sourceCount": 13,
        "signals": [
         "loss"
        ]
@@ -62,12 +86,13 @@
        "origin": "ru",
        "significance": 2,
        "publishedAt": "2026-09-04T01:28:25.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
        "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
        "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
-       "sourceCount": 1,
+       "sourceCount": 2,
        "signals": [
+        "variant",
         "deploy",
         "perf",
         "scale",
@@ -100,8 +125,8 @@
       },
       {
        "id": "e-20260903-06",
-       "title": "Missile shortage now hits Ukraine's F-16 force, limiting its use against Russian drones and cruise missiles",
-       "titleNl": "Rakettekort treft nu ook Oekraïnes F-16-vloot en beperkt de inzet tegen Russische drones en kruisraketten",
+       "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
+       "titleNl": "Rakettekort raakt nu de hele Oekraïense jachtvloot: MiG-29's terug op R-60's uit de jaren zeventig, F-16's met boordkanon",
        "category": "weapon",
        "topics": [
         "missiles",
@@ -112,12 +137,17 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-09-02T22:26:44.000Z",
-       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
        "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
        "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
-       "sourceCount": 1,
-       "signals": []
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf"
+       ]
       },
       {
        "id": "e-20260903-01",
@@ -144,38 +174,13 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260902-s02",
-       "title": "IRIS-T ВСУ уничтожен расчетом РУК ZALA «Ланцет» с расстояния почти 200 км",
-       "titleNl": "Oekraïense IRIS-T uitgeschakeld door 'Lancet'-ploeg van ZALA-verkennings-/aanvalscomplex vanaf bijna 200 km (milblogger-claim)",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-01T11:46:54.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "Het Russische Telegram-kanaal \"Два майора\" (Dva Majora) plaatste op 1 september 2026 een bericht — doorgestuurd van fabrikant ZALA — met de kop \"een Oekraïense IRIS-T vernietigd door een ploeg van het ZALA-«Lancet»-verkennings-/aanvalscomplex vanaf bijna 200 km\". Volgens de post viel een ploeg van dat complex, toegesc…",
-       "enSummary": "On 1 September 2026 the Russian Telegram channel \"Два майора\" (Dva Majora) published a post — forwarded from the manufacturer ZALA — headlined \"a Ukrainian IRIS-T destroyed by a ZALA «Lancet» reconnaissance-strike-complex crew from a range of almost 200 km\". The post states that a crew of that complex, attributed to t…",
-       "sourceUrl": "https://t.me/dva_majors/98357",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 8,
+     "total": 9,
      "signalCount": 6,
      "entries": [
       {
@@ -191,16 +196,43 @@
        "origin": "ru",
        "significance": 2,
        "publishedAt": "2026-09-04T01:28:25.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
        "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
        "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
-       "sourceCount": 1,
+       "sourceCount": 2,
        "signals": [
+        "variant",
         "deploy",
         "perf",
         "scale",
         "counter"
+       ]
+      },
+      {
+       "id": "e-20260903-06",
+       "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
+       "titleNl": "Rakettekort raakt nu de hele Oekraïense jachtvloot: MiG-29's terug op R-60's uit de jaren zeventig, F-16's met boordkanon",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T22:26:44.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
+       "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
+       "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf"
        ]
       },
       {
@@ -253,8 +285,8 @@
       },
       {
        "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
-       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
+       "title": "Jet-powered Shahed strikes climb further; Ukraine posts full August tally and reorganises Close Air Defence under a combat colonel",
+       "titleNl": "Straalaangedreven Shahed-aanvallen stijgen verder; Oekraïne publiceert volledige augustus-balans en reorganiseert de nabijluchtverdediging",
        "category": "weapon",
        "topics": [
         "drones",
@@ -264,11 +296,11 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
        "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
        "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 8,
+       "sourceCount": 11,
        "signals": [
         "loss",
         "deploy",
@@ -295,30 +327,6 @@
        "sourceCount": 2,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260823-17",
-       "title": "Ukraine unveils Alexa Spatium jet-powered reusable interceptor drone",
-       "titleNl": "Oekraïne onthult Alexa Spatium, herbruikbare straalinterceptordrone",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-21T21:34:18.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïens ministerie van Defensie heeft voor het eerst de Alexa Spatium getoond, omschreven als 's lands eerste straalaangedreven interceptordrone, specifiek ontwikkeld om Ruslands nieuwste en snelste aanvalsdrones te counteren — de Geran-3, Geran-4 en Geran-5-varianten — evenals Shahed-131-verkenningsdrones en heliko…",
-       "enSummary": "Ukraine's Ministry of Defense has for the first time presented the Alexa Spatium, described as the country's first jet-powered interceptor drone, developed specifically to counter Russia's newest and fastest attack drones — the Geran-3, Geran-4 and Geran-5 variants — as well as Shahed-131 reconnaissance drones and hel…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/22/ukraine-has-shown-its-answer-to-russias-most-powerful-drones-for-first-time-meet-alexa-spatium-which-can-carry-thermobaric-warheads-and-fly-back-home",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
        ]
       }
      ]
@@ -567,12 +575,13 @@
        "origin": "ru",
        "significance": 2,
        "publishedAt": "2026-09-04T01:28:25.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
        "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
        "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
-       "sourceCount": 1,
+       "sourceCount": 2,
        "signals": [
+        "variant",
         "deploy",
         "perf",
         "scale",
@@ -581,8 +590,8 @@
       },
       {
        "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
-       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
+       "title": "Jet-powered Shahed strikes climb further; Ukraine posts full August tally and reorganises Close Air Defence under a combat colonel",
+       "titleNl": "Straalaangedreven Shahed-aanvallen stijgen verder; Oekraïne publiceert volledige augustus-balans en reorganiseert de nabijluchtverdediging",
        "category": "weapon",
        "topics": [
         "drones",
@@ -592,11 +601,11 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
        "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
        "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 8,
+       "sourceCount": 11,
        "signals": [
         "loss",
         "deploy",
@@ -677,9 +686,31 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 3,
+     "total": 4,
      "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260906-03",
+       "title": "Ukraine fields \"Hrafit,\" a smartphone-based drone-warning system that pushes air-threat alerts to individual soldiers",
+       "titleNl": "Oekraïne voert 'Hrafit' in: een smartphone-dronewaarschuwingssysteem dat luchtdreigingsmeldingen tot bij de individuele militair brengt",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "command",
+        "ew",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T03:19:35.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Hrafit (Графіт, \"grafiet\") is een Oekraïens digitaal systeem voor luchtruim- en EW-situatiebewustzijn dat volgens de berichtgeving één centrale vraag voor de frontsoldaat beantwoordt: \"is het luchtruim vrij?\" Het systeem voegt data samen van beschikbare radiotechnische verkenning en waarnemingsmiddelen tot een gemeens…",
+       "enSummary": "Hrafit (Графіт, \"graphite\") is a Ukrainian digital system for airspace and electronic-warfare situational awareness that, according to the reporting, answers the one question that matters most to a frontline soldier: \"is the sky clear?\" It aggregates data from available radio-technical reconnaissance and surveillance…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/05/nebo-v%c2%a0smartfoni-yak%c2%a0praczyuye-ukrayinska-systema-%c2%abgrafit%c2%bb-shho%c2%a0ryatuye-bijcziv-zsu-vid-vorozhyh-droniv",
+       "sourceCount": 2,
+       "signals": []
+      },
       {
        "id": "e-20260905-03",
        "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
@@ -930,9 +961,81 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 25,
-     "signalCount": 6,
+     "total": 31,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260906-10",
+       "title": "Russia's Rubicon drone centre claims it has used 1 million FPV drones in Ukraine",
+       "titleNl": "Russisch drone-centrum Rubicon claimt 1 miljoen ingezette FPV-drones in Oekraïne",
+       "category": "org",
+       "topics": [
+        "drones",
+        "doctrine",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T10:04:55.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Het Russische Centrum voor Geavanceerde Onbemande Technologieën \"Rubicon\" heeft op zijn officiële Telegram-kanaal beweerd dat zijn operators tussen januari 2025 en augustus 2026 meer dan 1 miljoen FPV-drones hebben ingezet en daarbij ruim 280.000 doelen hebben geraakt. Volgens de eenheid maakt dat 20-maandelijkse tota…",
+       "enSummary": "Russia's Rubicon Center for Advanced Unmanned Technologies has claimed, in a post on its official Telegram channel, that its operators used more than 1 million FPV drones and struck over 280,000 targets in Ukraine between January 2025 and August 2026. The unit said the 20-month total makes it \"the undisputed leader\" i…",
+       "sourceUrl": "https://defence-blog.com/russias-elite-drone-unit-says-it-used-1-million-fpv-drones/",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260906-s02",
+       "title": "Почему танки перестали доминировать на поле боя? (Rybar video essay)",
+       "titleNl": "Waarom domineren tanks het slagveld niet meer? (video-essay van Rybar)",
+       "category": "ttp",
+       "topics": [
+        "armor",
+        "drones",
+        "doctrine",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-05T08:27:04.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Rybar publiceerde een kort videobetoog (2:21) uit de reeks #ИсторияПодвига, doorgestuurd van het gelieerde kanaal Тактикарь, met de vraag waarom de tank het slagveld niet langer domineert. Rybar schetst eerst de klassieke rol: sinds het begin van de vorige eeuw was de tank de \"stalen vuist\" van legers — hij brak verde…",
+       "enSummary": "Rybar published a short video essay (2:21) from its #ИсторияПодвига series, forwarded from the affiliated channel Тактикарь, asking why the tank no longer dominates the battlefield. Rybar first sketches the classic role: since the early twentieth century the tank was the \"steel fist\" of armies — it broke through defen…",
+       "sourceUrl": "https://t.me/rybar/82910",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260906-03",
+       "title": "Ukraine fields \"Hrafit,\" a smartphone-based drone-warning system that pushes air-threat alerts to individual soldiers",
+       "titleNl": "Oekraïne voert 'Hrafit' in: een smartphone-dronewaarschuwingssysteem dat luchtdreigingsmeldingen tot bij de individuele militair brengt",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "command",
+        "ew",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T03:19:35.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Hrafit (Графіт, \"grafiet\") is een Oekraïens digitaal systeem voor luchtruim- en EW-situatiebewustzijn dat volgens de berichtgeving één centrale vraag voor de frontsoldaat beantwoordt: \"is het luchtruim vrij?\" Het systeem voegt data samen van beschikbare radiotechnische verkenning en waarnemingsmiddelen tot een gemeens…",
+       "enSummary": "Hrafit (Графіт, \"graphite\") is a Ukrainian digital system for airspace and electronic-warfare situational awareness that, according to the reporting, answers the one question that matters most to a frontline soldier: \"is the sky clear?\" It aggregates data from available radio-technical reconnaissance and surveillance…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/05/nebo-v%c2%a0smartfoni-yak%c2%a0praczyuye-ukrayinska-systema-%c2%abgrafit%c2%bb-shho%c2%a0ryatuye-bijcziv-zsu-vid-vorozhyh-droniv",
+       "sourceCount": 2,
+       "signals": []
+      },
       {
        "id": "e-20260905-s02",
        "title": "Ukrainian \"Lupinis-10\" AI-guided FPV drone destroys Russian drone catapult launcher",
@@ -956,121 +1059,48 @@
        ]
       },
       {
-       "id": "e-20260904-06",
-       "title": "Russia uses long-range Gerans as motherships for two wing-mounted FPV drones released deep inside Ukraine; effectiveness disputed",
-       "titleNl": "Rusland gebruikt langeafstands-Gerans als moederschip voor twee vleugelgemonteerde FPV-drones die diep in Oekraïne worden losgelaten; effectiviteit betwist",
+       "id": "e-20260906-s01",
+       "title": "Перехват «Бабы Яги»: операторы БпЛА группировки войск «Север» перехватили украинский гексакоптер в полёте",
+       "titleNl": "Onderschepping van een 'Baba Jaga': UAV-operators van de groepering 'Sever' halen Oekraïense hexacopter neer tijdens de vlucht",
        "category": "ttp",
        "topics": [
         "drones",
         "air-defense"
        ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-03T14:26:47.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
-       "nlSummary": "Rusland bevestigt twee kleine FPV-aanvalsdrones aan de vleugels van zijn langeafstands-Geran-2 (de in eigen land gebouwde Shahed-136-loiteringmunitie) en laat ze los zodra het draagtoestel diep in Oekraïens gebied is, ver achter de frontlijn. Omdat een Geran honderden kilometers kan vliegen, fungeert hij als vliegend…",
-       "enSummary": "Russia has been fixing two small FPV attack drones to the wings of its long-range Geran-2 (the domestically built Shahed-136 loitering munition) and releasing them once the carrier is deep inside Ukrainian territory, far behind the front line. Because a Geran can fly hundreds of kilometres, it acts as an airborne 'mot…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/03/russia-straps-two-small-attack-drones-to-wings-of-its-long-range-gerans-and-releases-them-deep-inside-ukraine-it-rarely-works-flash-says",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260905-02",
-       "title": "Drones push Ukraine toward hedgehog cage armor — and more cautious tank use",
-       "titleNl": "Dronedreiging dwingt Oekraïne tot egelpantser — en voorzichtiger tankinzet",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "armor"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-03T09:50:31.000Z",
-       "updatedAt": "2026-09-05T09:00:00.000Z",
-       "nlSummary": "Beide kanten van het front — Rusland al sinds herfst 2025 — lassen geïmproviseerd \"egelpantser\" op gevechtsvoertuigen: bundels losgedraaide staaldraad of kabel op een metalen frame, bevestigd op romp en toren. Foto's gedocumenteerd door Defence Blog tonen deze bepantsering, in Oekraïne \"Yozh\" (Egel) genoemd, nu ook op…",
-       "enSummary": "On both sides of the front — Russia since autumn 2025 — crews are welding improvised \"hedgehog\" cage armor onto combat vehicles: bundles of unwound steel or cable welded to a frame and bolted onto hull and turret. Photos documented by Defence Blog show this armor, known in Ukraine as \"Yozh\" (Hedgehog), now also fitted…",
-       "sourceUrl": "https://defence-blog.com/ukraine-fits-abrams-tank-with-russian-style-hedgehog-armor",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260904-05",
-       "title": "Ukrainian brigade trials 'Serval Cube' anti-drone EW dome, claims it suppressed every drone in a combat-like test",
-       "titleNl": "Oekraïense brigade test anti-drone-EW-koepel 'Serval Cube' en claimt dat elke drone in een gevechtsrealistische proef werd onderdrukt",
-       "category": "weapon",
-       "topics": [
-        "ew",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-03T05:46:30.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
-       "nlSummary": "Euromaidan Press meldt dat de Oekraïense 58e Zelfstandige Gemotoriseerde Infanteriebrigade een in eigen land ontwikkeld elektronisch-oorlogvoeringssysteem van het 'koepel'-type, aangeduid als Serval Cube, heeft beproefd. Het is geen kinetisch wapen: het systeem stoort de besturings-, navigatie- en videokanalen waarvan…",
-       "enSummary": "Euromaidan Press reports that Ukraine's 58th Separate Motorized Infantry Brigade has trialed a domestically developed 'dome'-type electronic-warfare system designated Serval Cube. It is not a kinetic weapon: rather than shooting drones down, it jams the control, navigation, and video-transmission channels a drone depe…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/03/ukrainian-brigade-trials-serval-cube-ew-dome-in-combat-like-conditions-suppresses-every-drone-launched-at-it",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260902-01",
-       "title": "Ukraine forms 446th Unmanned Systems Brigade — second new drone brigade in two months",
-       "titleNl": "Oekraïne formeert 446e Brigade Onbemande Systemen — tweede nieuwe dronebrigade in twee maanden",
-       "category": "org",
-       "topics": [
-        "drones",
-        "command",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-01T13:46:16.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "Oekraïne stelt de 446e Zelfstandige Brigade Onbemande Systemen op. De eenheid zit begin september 2026 in de wervings- en formatiefase en rekruteert zowel dronepersoneel (operators van grondrobots, FPV-, bommenwerper- en interceptordrones) als ondersteunende functies zoals analisten, psychologische-ondersteuningsoffic…",
-       "enSummary": "Ukraine's Armed Forces are establishing the 446th Separate Unmanned Systems Brigade. As of early September 2026 the unit is in the recruitment and formation phase, seeking both drone personnel (operators of ground robots, FPV, bomber and interceptor drones) and support roles such as analysts, psychological-support off…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/01/second-drone-brigade-in-two-months-ukraine-is-forming-the-446th-unmanned-systems-brigade/",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260901-s03",
-       "title": "Самый опасный враг сегодня – в небе",
-       "titleNl": "De gevaarlijkste vijand is tegenwoordig in de lucht (Krasnaya Zvezda over counter-drone training van stormtroepen)",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "doctrine"
-       ],
        "stream": "single",
        "origin": "ru",
        "significance": 1,
-       "publishedAt": "2026-08-30T21:00:00.000Z",
-       "updatedAt": "2026-09-01T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Krasnaja Zvezda is de officiële krant van het Russische ministerie van Defensie (staatsmedium); de beschrijving en claims hieronder weerspiegelen de positie van het Russische MoD en zijn niet onafhankelijk geverifieerd.",
-       "enSummary": "SINGLE SOURCE — Krasnaya Zvezda is the official newspaper of the Russian Ministry of Defence (a state outlet); the account and claims below reflect the Russian MoD position and are not independently verified.",
-       "sourceUrl": "http://redstar.ru/samyj-opasnyj-vrag-segodnya-v-nebe",
+       "publishedAt": "2026-09-04T10:56:02.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Het Russische milbloggerkanaal WarGonzo (doorgestuurd van het Telegram-kanaal van het 44e Legerkorps) meldt dat UAV-operators van de Russische groepering strijdkrachten «Sever» (Noord) een zware Oekraïense multirotor-bommenwerper van het type «Baba Jaga» — een hexacopter — tijdens de vlucht hebben onderschept. Volgens…",
+       "enSummary": "The Russian milblogger channel WarGonzo (reposting the Telegram channel of the 44th Army Corps) reports that UAV operators of the Russian «Sever» (North) group of forces intercepted a Ukrainian «Baba Yaga» heavy multirotor bomber — a hexacopter — while it was in flight. Per the post, after «a precise hit» it lost cont…",
+       "sourceUrl": "https://t.me/wargonzo/36692",
        "sourceCount": 1,
+       "signals": []
+      },
+      {
+       "id": "e-20260906-07",
+       "title": "Ukraine's military intelligence claims a strike on a Bastion-P coastal-defence missile launcher in occupied Crimea",
+       "titleNl": "Oekraïense militaire inlichtingendienst claimt aanval op Bastion-P-kustverdedigingslanceerder op bezet de Krim",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "navy",
+        "drones",
+        "naval-drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T08:46:44.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) maakte op 4 september 2026 bekend dat haar speciale eenheid \"Group 13\" in de loop van augustus 2026 een Russisch Bastion-kustverdedigingsraketsysteem heeft geraakt op bezet de Krim. Volgens HUR werden bij dezelfde operatie ook twee brandstoftankwagens en een commando- e…",
+       "enSummary": "Ukraine's military intelligence directorate (HUR) announced on 4 September 2026 that its special unit \"Group 13\" struck a Russian Bastion coastal-defence missile system in occupied Crimea during operations in August 2026. HUR said the same operation destroyed or damaged two fuel tankers and a command-and-staff vehicle…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/04/ukraine-says-it-struck-a-bastion-in-crimea-the-launcher-russia-pairs-zircon-and-oniks-missiles-on/",
+       "sourceCount": 3,
        "signals": [
-        "perf",
-        "counter"
+        "loss",
+        "deploy"
        ]
       }
      ]
@@ -1078,9 +1108,55 @@
     "cots": {
      "name": "COTS-drones",
      "nameEn": "COTS-drones",
-     "total": 7,
-     "signalCount": 5,
+     "total": 9,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260906-09",
+       "title": "US Air Force seeks a gun-based air-defence system for overseas bases, citing Ukraine's drone-kill experience",
+       "titleNl": "Amerikaanse luchtmacht zoekt kanongebaseerd luchtverdedigingssysteem voor bases in het buitenland, met verwijzing naar Oekraïense drone-ervaring",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "artillery",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T11:13:20.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "De Amerikaanse luchtmacht heeft op het federale aanbestedingsportaal een Request for Information (RFI) gepubliceerd voor een \"Ground-Based, Medium-Caliber Gun Weapon System\" om haar vliegbases in het buitenland te beschermen tegen lucht- en raketdreigingen, met als eerste prioriteit subsone kruisraketten en drones — v…",
+       "enSummary": "The U.S. Air Force has published a Request for Information on the federal procurement portal for a \"Ground-Based, Medium-Caliber Gun Weapon System\" to defend its overseas air bases against air and missile threats, with an initial focus on subsonic cruise missiles and unmanned aircraft ranging from small quadcopters to…",
+       "sourceUrl": "https://militarnyi.com/en/news/usa-new-air-defense-system-protect-air-base/",
+       "sourceCount": 2,
+       "signals": [
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260906-03",
+       "title": "Ukraine fields \"Hrafit,\" a smartphone-based drone-warning system that pushes air-threat alerts to individual soldiers",
+       "titleNl": "Oekraïne voert 'Hrafit' in: een smartphone-dronewaarschuwingssysteem dat luchtdreigingsmeldingen tot bij de individuele militair brengt",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "command",
+        "ew",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T03:19:35.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Hrafit (Графіт, \"grafiet\") is een Oekraïens digitaal systeem voor luchtruim- en EW-situatiebewustzijn dat volgens de berichtgeving één centrale vraag voor de frontsoldaat beantwoordt: \"is het luchtruim vrij?\" Het systeem voegt data samen van beschikbare radiotechnische verkenning en waarnemingsmiddelen tot een gemeens…",
+       "enSummary": "Hrafit (Графіт, \"graphite\") is a Ukrainian digital system for airspace and electronic-warfare situational awareness that, according to the reporting, answers the one question that matters most to a frontline soldier: \"is the sky clear?\" It aggregates data from available radio-technical reconnaissance and surveillance…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/05/nebo-v%c2%a0smartfoni-yak%c2%a0praczyuye-ukrayinska-systema-%c2%abgrafit%c2%bb-shho%c2%a0ryatuye-bijcziv-zsu-vid-vorozhyh-droniv",
+       "sourceCount": 2,
+       "signals": []
+      },
       {
        "id": "e-20260904-05",
        "title": "Ukrainian brigade trials 'Serval Cube' anti-drone EW dome, claims it suppressed every drone in a combat-like test",
@@ -1162,61 +1238,15 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-08-26T23:35:24.000Z",
-       "updatedAt": "2026-09-03T09:00:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "In de nacht van 4 op 5 augustus 2026 werd op de luchthaven Leipzig/Halle in Duitsland een gemodificeerde drone met explosieven van militaire kwaliteit en een ontsteker aangetroffen, vlak bij een Oekraïens Antonov-vrachtvliegtuig dat munitie geladen had. Het toestel ontplofte niet omdat het triggermechanisme was losgek…",
        "enSummary": "Overnight on 4-5 August 2026, a modified drone fitted with military-grade explosives and a detonator was found at Leipzig/Halle Airport in Germany, close to a Ukrainian Antonov cargo aircraft loaded with ammunition. The device failed to detonate because its triggering mechanism was disconnected. The same night a secon…",
        "sourceUrl": "https://kyivindependent.com/us-intel-links-explosive-drone-found-at-german-airport-to-russias-military-intelligence/",
-       "sourceCount": 16,
+       "sourceCount": 17,
        "signals": [
         "deploy",
         "perf",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260824-13",
-       "title": "Danish and Russian Drones Observe Each Other in Close Encounter Over Baltic Sea",
-       "titleNl": "Deense en Russische drones observeren elkaar bij close encounter boven de Baltische Zee",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "naval-drones",
-        "navy"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T13:13:32.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Op 25 juni 2026 vond zo'n 30 kilometer ten zuidoosten van het Deense eiland Bornholm een opmerkelijke confrontatie plaats tussen Deense en Russische onbemande systemen. Het Deense zeedrone-startup Stormborn testte zijn onbemand oppervlaktevaartuig 'Stormborn X-Wave', uitgerust met radar- en sonarapparatuur van de Deen…",
-       "enSummary": "On 25 June 2026, roughly 30 kilometers southeast of the Danish island of Bornholm, a notable confrontation took place between Danish and Russian unmanned systems. Danish sea-drone startup Stormborn was testing its unmanned surface vessel 'Stormborn X-Wave', fitted with radar and sonar equipment from Danish defense man…",
-       "sourceUrl": "https://defence-blog.com/danish-and-russian-drones-observe-each-other-in-baltic-sea",
-       "sourceCount": 1,
-       "signals": [
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260729-s04",
-       "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
-       "titleNl": "«Rubicon», «Lancets» en zwermen FPV's: hoe de Russen de richting Pokrovsk bestormen",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-29T06:41:06.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Sergeant Oleksiy Hodzenko, woordvoerder van het onbemande-systemenbataljon \"Korsar\" van de Oekraïense 38e Aparte Brigade Mariniers (vernoemd naar hetman Petro Sahaidatsjny), beschreef de gevechten in de richting Pokrovsk tijdens een uitzending van Armiya TV op 29 juli 2026. Volgens hem blijven Russische troepen aanval…",
-       "enSummary": "Sergeant Oleksiy Hodzenko, spokesman for the \"Korsar\" unmanned systems battalion of Ukraine's 38th Separate Marine Infantry Brigade (named after Hetman Petro Sahaidachny), described fighting in the Pokrovsk direction in a broadcast on Army TV on 29 July 2026. He said Russian forces continue attacking with small infant…",
-       "sourceUrl": "https://armyinform.com.ua/2026/07/29/%c2%abprosochuyutsya-i-perevazhno-vmyrayut%c2%bb-morpihy-rozpovily-yak-rosiyany-shturmuyut-pokrovskyj-napryamok",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
        ]
       }
      ]
@@ -1323,9 +1353,57 @@
     "skyranger": {
      "name": "Skyranger 35",
      "nameEn": "Skyranger 35",
-     "total": 1,
-     "signalCount": 1,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260906-12",
+       "title": "Ukraine orders 30 Cockerill C3105 unmanned turrets to rebuild Leopard 1A5 hulls as fire-support vehicles",
+       "titleNl": "Oekraïne bestelt 30 onbemande Cockerill C3105-torens om Leopard 1A5-rompen om te bouwen tot vuursteunvoertuigen",
+       "category": "weapon",
+       "topics": [
+        "armor",
+        "artillery"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-05T11:45:26.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Los van de Skyranger 35-luchtverdedigingsombouw (zie e-20260904-01) heeft Oekraïne bij John Cockerill Defense in België 30 onbemande C3105-torenmodules besteld — naast één toren die vorig jaar voor proeven was gekocht — om Leopard 1A5-rompen om te bouwen tot vuursteunvoertuigen. De C3105 is een gelaste onbemande toren…",
+       "enSummary": "Separate from the Skyranger 35 air-defence conversion (see e-20260904-01), Ukraine has contracted John Cockerill Defense of Belgium for 30 C3105 unmanned turret modules — alongside one turret it bought for trials last year — to re-turret Leopard 1A5 hulls as fire-support vehicles. The C3105 is a welded ballistic-alumi…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/05/leopard-1a5-cockerill",
+       "sourceCount": 2,
+       "signals": [
+        "variant",
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260906-09",
+       "title": "US Air Force seeks a gun-based air-defence system for overseas bases, citing Ukraine's drone-kill experience",
+       "titleNl": "Amerikaanse luchtmacht zoekt kanongebaseerd luchtverdedigingssysteem voor bases in het buitenland, met verwijzing naar Oekraïense drone-ervaring",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "artillery",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T11:13:20.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "De Amerikaanse luchtmacht heeft op het federale aanbestedingsportaal een Request for Information (RFI) gepubliceerd voor een \"Ground-Based, Medium-Caliber Gun Weapon System\" om haar vliegbases in het buitenland te beschermen tegen lucht- en raketdreigingen, met als eerste prioriteit subsone kruisraketten en drones — v…",
+       "enSummary": "The U.S. Air Force has published a Request for Information on the federal procurement portal for a \"Ground-Based, Medium-Caliber Gun Weapon System\" to defend its overseas air bases against air and missile threats, with an initial focus on subsonic cruise missiles and unmanned aircraft ranging from small quadcopters to…",
+       "sourceUrl": "https://militarnyi.com/en/news/usa-new-air-defense-system-protect-air-base/",
+       "sourceCount": 2,
+       "signals": [
+        "counter"
+       ]
+      },
       {
        "id": "e-20260904-01",
        "title": "Ukraine fields its first Skyranger 35 counter-drone air-defence systems on Leopard 1 chassis",
@@ -1356,9 +1434,53 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 13,
-     "signalCount": 6,
+     "total": 15,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260906-09",
+       "title": "US Air Force seeks a gun-based air-defence system for overseas bases, citing Ukraine's drone-kill experience",
+       "titleNl": "Amerikaanse luchtmacht zoekt kanongebaseerd luchtverdedigingssysteem voor bases in het buitenland, met verwijzing naar Oekraïense drone-ervaring",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "artillery",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T11:13:20.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "De Amerikaanse luchtmacht heeft op het federale aanbestedingsportaal een Request for Information (RFI) gepubliceerd voor een \"Ground-Based, Medium-Caliber Gun Weapon System\" om haar vliegbases in het buitenland te beschermen tegen lucht- en raketdreigingen, met als eerste prioriteit subsone kruisraketten en drones — v…",
+       "enSummary": "The U.S. Air Force has published a Request for Information on the federal procurement portal for a \"Ground-Based, Medium-Caliber Gun Weapon System\" to defend its overseas air bases against air and missile threats, with an initial focus on subsonic cruise missiles and unmanned aircraft ranging from small quadcopters to…",
+       "sourceUrl": "https://militarnyi.com/en/news/usa-new-air-defense-system-protect-air-base/",
+       "sourceCount": 2,
+       "signals": [
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260906-s01",
+       "title": "Перехват «Бабы Яги»: операторы БпЛА группировки войск «Север» перехватили украинский гексакоптер в полёте",
+       "titleNl": "Onderschepping van een 'Baba Jaga': UAV-operators van de groepering 'Sever' halen Oekraïense hexacopter neer tijdens de vlucht",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-09-04T10:56:02.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Het Russische milbloggerkanaal WarGonzo (doorgestuurd van het Telegram-kanaal van het 44e Legerkorps) meldt dat UAV-operators van de Russische groepering strijdkrachten «Sever» (Noord) een zware Oekraïense multirotor-bommenwerper van het type «Baba Jaga» — een hexacopter — tijdens de vlucht hebben onderschept. Volgens…",
+       "enSummary": "The Russian milblogger channel WarGonzo (reposting the Telegram channel of the 44th Army Corps) reports that UAV operators of the Russian «Sever» (North) group of forces intercepted a Ukrainian «Baba Yaga» heavy multirotor bomber — a hexacopter — while it was in flight. Per the post, after «a precise hit» it lost cont…",
+       "sourceUrl": "https://t.me/wargonzo/36692",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260904-05",
        "title": "Ukrainian brigade trials 'Serval Cube' anti-drone EW dome, claims it suppressed every drone in a combat-like test",
@@ -1431,8 +1553,8 @@
       },
       {
        "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
-       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
+       "title": "Jet-powered Shahed strikes climb further; Ukraine posts full August tally and reorganises Close Air Defence under a combat colonel",
+       "titleNl": "Straalaangedreven Shahed-aanvallen stijgen verder; Oekraïne publiceert volledige augustus-balans en reorganiseert de nabijluchtverdediging",
        "category": "weapon",
        "topics": [
         "drones",
@@ -1442,63 +1564,14 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
        "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
        "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 8,
+       "sourceCount": 11,
        "signals": [
         "loss",
         "deploy",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260826-05",
-       "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
-       "titleNl": "Russische aanvalsdrones jammen nu de goedkope interceptors die hen moeten neerhalen",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-25T16:39:38.000Z",
-       "updatedAt": "2026-08-26T10:00:00.000Z",
-       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, heeft Rusland een deel van zijn Geran-drones (de Russische variant van de Iraanse Shahed) uitgerust met een EW-jammer die specifiek is gericht tegen Oekraïense interceptordrones. Het systeem luistert naar het video-signa…",
-       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to Ukraine's president on defense technology, Russia has fitted some of its Geran drones (its version of Iran's Shahed) with an electronic-warfare jammer specifically aimed at Ukrainian interceptor drones. The system listens for the video signal of an approaching int…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/25/russias-attack-drones-now-jam-the-cheap-interceptors-sent-to-kill-them",
-       "sourceCount": 1,
-       "signals": [
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260825-02",
-       "title": "Ukraine Unveils MV11 Mothership USV Carrying 18 Anti-Drone Interceptors",
-       "titleNl": "Oekraïne onthult MV11-mothership met 18 anti-dronedrones aan boord",
-       "category": "weapon",
-       "topics": [
-        "naval-drones",
-        "drones",
-        "navy"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T20:12:54.000Z",
-       "updatedAt": "2026-08-26T10:00:00.000Z",
-       "nlSummary": "Oekraïne heeft tijdens de Onafhankelijkheidsdagparade in Kyiv op 24 augustus 2026 de Magura MV11 onthuld, het grootste vaartuig tot nu toe binnen de gevechtsbeproefde Magura-familie van onbemande oppervlaktevaartuigen (USV's). Het schip is ontwikkeld door UFORCE — ontstaan uit de consolidatie van negen Oekraïense fabr…",
-       "enSummary": "Ukraine unveiled the Magura MV11 during the Independence Day parade in Kyiv on August 24, 2026, the largest vessel yet in its combat-proven Magura family of uncrewed surface vessels (USVs). The platform was developed by UFORCE — formed by consolidating nine Ukrainian unmanned systems developers, with a Portuguese desi…",
-       "sourceUrl": "https://defence-blog.com/ukraine-unveils-mv11-largest-naval-drone-in-magura-naval-family",
-       "sourceCount": 2,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf",
         "scale",
         "counter"
        ]
@@ -1996,6 +2069,38 @@
       }
      ]
     },
+    "sa19": {
+     "name": "Tunguska (SA-19)",
+     "nameEn": "Tunguska (SA-19)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260906-09",
+       "title": "US Air Force seeks a gun-based air-defence system for overseas bases, citing Ukraine's drone-kill experience",
+       "titleNl": "Amerikaanse luchtmacht zoekt kanongebaseerd luchtverdedigingssysteem voor bases in het buitenland, met verwijzing naar Oekraïense drone-ervaring",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "artillery",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T11:13:20.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "De Amerikaanse luchtmacht heeft op het federale aanbestedingsportaal een Request for Information (RFI) gepubliceerd voor een \"Ground-Based, Medium-Caliber Gun Weapon System\" om haar vliegbases in het buitenland te beschermen tegen lucht- en raketdreigingen, met als eerste prioriteit subsone kruisraketten en drones — v…",
+       "enSummary": "The U.S. Air Force has published a Request for Information on the federal procurement portal for a \"Ground-Based, Medium-Caliber Gun Weapon System\" to defend its overseas air bases against air and missile threats, with an initial focus on subsonic cruise missiles and unmanned aircraft ranging from small quadcopters to…",
+       "sourceUrl": "https://militarnyi.com/en/news/usa-new-air-defense-system-protect-air-base/",
+       "sourceCount": 2,
+       "signals": [
+        "counter"
+       ]
+      }
+     ]
+    },
     "sa11": {
      "name": "Buk-M1 (SA-11)",
      "nameEn": "Buk-M1 (SA-11)",
@@ -2351,6 +2456,39 @@
       }
      ]
     },
+    "zhitel": {
+     "name": "R-330Zh Zhitel",
+     "nameEn": "R-330Zh Zhitel",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260906-08",
+       "title": "Ukraine claims deep strikes on Russian EW and radar nodes in Bryansk Oblast; National Guard says drones destroyed a rare Zhitel jammer 55 km behind the front",
+       "titleNl": "Oekraïne claimt diepteslagen op Russische EOV- en radarsystemen in oblast Brjansk; Nationale Garde zegt zeldzame Zhitel-stoorzender op 55 km achter het front te hebben vernietigd",
+       "category": "ttp",
+       "topics": [
+        "ew",
+        "drones",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T08:24:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Op 4 september 2026 meldde de Oekraïense generale staf dat Oekraïense strijdkrachten drie Russische systemen hebben getroffen in de oblast Brjansk, diep op Russisch grondgebied: een radarstation bij Kartoesjyne, een complex voor elektronische oorlogvoering (REB/EOV) bij Pogar en een signaalrelais (retranslator) voor e…",
+       "enSummary": "On 4 September 2026 Ukraine's General Staff said Ukrainian defence forces had struck three Russian assets in Bryansk Oblast, well inside Russian territory: a radar station near Kartushyne, an electronic-warfare complex near Pogar, and a signal repeater for a military MESH network at Zlynka. Ukrainian state outlet Army…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/05/8052017",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      }
+     ]
+    },
     "mig31": {
      "name": "MiG-31",
      "nameEn": "MiG-31",
@@ -2572,9 +2710,35 @@
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 9,
+     "total": 10,
      "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260903-06",
+       "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
+       "titleNl": "Rakettekort raakt nu de hele Oekraïense jachtvloot: MiG-29's terug op R-60's uit de jaren zeventig, F-16's met boordkanon",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T22:26:44.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
+       "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
+       "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260903-02",
        "title": "Ukraine's General Staff confirms an Aug. 27 MiG-29 and an Aug. 30 Ka-27 kill; reports fresh strikes on Russian depots in Donetsk and Bryansk oblasts",
@@ -2685,31 +2849,6 @@
        "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOb0hjRnZKSlhZdzd1WVBzaksyOV9ka3JHM3VreDMzQmVrclBTNkk4ZkVVU0l1VHlab0NWQV9oSlRuUlM1ZS1xSDJLX3lpLW5oSkpFSXBkMGk3ZnU4YTh1Q3FLajF0TFNwSk1WSkZEclRKR1dWTVhZbHF0RlRiZGJuWWRhZ0VhSjBkSWJESlhEMnViQ1E0VEw4aDJValRwM25fbWVLbndGNjRaclg2MkpITDZfLWFZZUpOaHZheWhmckJxQm5xd2VaMEZKcVo4T1prOVpoOXg3LWM1aHdhWmRnTmtYMnNpUU9GMjVpUHlfNnIzMUM2ckh3dGEwbmdSMlRQVllrU21jN0FlVlFWdWJn?oc=5",
        "sourceCount": 1,
        "signals": [
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260823-15",
-       "title": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at Millerovo",
-       "titleNl": "Weeklange Oekraïense aanvalscampagne treft Russische luchtmachtbases en radarnetwerk van Krim tot Rostov, tweede MiG-29 bij Millerovo",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T17:50:32.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "Tussen 20 en 24 augustus voerden de Oekraïense Generale Staf en de Unmanned Systems Forces (USF/SBS, commandant Robert 'Madyar' Brovdi) een aanhoudende reeks dronaanvallen uit tegen Russische luchtmacht- en luchtverdedigingsinfrastructuur, verspreid van bezet Krim tot Rostov-oblast. Op vliegbasis Achtoebinsk (Astracha…",
-       "enSummary": "Between 20 and 24 August, Ukraine's General Staff and the Unmanned Systems Forces (USF/SBS, commander Robert 'Magyar' Brovdi) sustained a rolling series of drone strikes against Russian air force and air-defense infrastructure stretching from occupied Crimea to Rostov Oblast. At Akhtubinsk airbase (Astrakhan region, h…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcllqdnB1Z05PVnJIQmVka0JQcU9sMWlFLTJrTmx6X3N6OWR5d3ZmYm1FMnBONUY3NmU5ZGdIaWFQRG9BTGF6d2FEdTh0cTB1ajRaOVBzSnozdTE5TFJYUWltTklaVk9GS2Ryc1UwUUJMdDJwX2dqY0xWZDBLOFNyU2lwSGZlSWxKY1hGSGNVd25hemtOQ0xYZ092RTBoTWNOdzhGcTVRSjc3V3RKV3FSUXNUNA?oc=5",
-       "sourceCount": 7,
-       "signals": [
-        "loss",
         "deploy"
        ]
       }
@@ -2929,6 +3068,74 @@
        ]
       }
      ]
+    },
+    "r73": {
+     "name": "R-73",
+     "nameEn": "R-73",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260903-06",
+       "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
+       "titleNl": "Rakettekort raakt nu de hele Oekraïense jachtvloot: MiG-29's terug op R-60's uit de jaren zeventig, F-16's met boordkanon",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T22:26:44.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
+       "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
+       "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      }
+     ]
+    },
+    "r27": {
+     "name": "R-27",
+     "nameEn": "R-27",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260903-06",
+       "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
+       "titleNl": "Rakettekort raakt nu de hele Oekraïense jachtvloot: MiG-29's terug op R-60's uit de jaren zeventig, F-16's met boordkanon",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T22:26:44.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
+       "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
+       "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      }
+     ]
     }
    }
   },
@@ -2939,9 +3146,84 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 14,
-     "signalCount": 5,
+     "total": 17,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260906-10",
+       "title": "Russia's Rubicon drone centre claims it has used 1 million FPV drones in Ukraine",
+       "titleNl": "Russisch drone-centrum Rubicon claimt 1 miljoen ingezette FPV-drones in Oekraïne",
+       "category": "org",
+       "topics": [
+        "drones",
+        "doctrine",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T10:04:55.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Het Russische Centrum voor Geavanceerde Onbemande Technologieën \"Rubicon\" heeft op zijn officiële Telegram-kanaal beweerd dat zijn operators tussen januari 2025 en augustus 2026 meer dan 1 miljoen FPV-drones hebben ingezet en daarbij ruim 280.000 doelen hebben geraakt. Volgens de eenheid maakt dat 20-maandelijkse tota…",
+       "enSummary": "Russia's Rubicon Center for Advanced Unmanned Technologies has claimed, in a post on its official Telegram channel, that its operators used more than 1 million FPV drones and struck over 280,000 targets in Ukraine between January 2025 and August 2026. The unit said the 20-month total makes it \"the undisputed leader\" i…",
+       "sourceUrl": "https://defence-blog.com/russias-elite-drone-unit-says-it-used-1-million-fpv-drones/",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260906-s02",
+       "title": "Почему танки перестали доминировать на поле боя? (Rybar video essay)",
+       "titleNl": "Waarom domineren tanks het slagveld niet meer? (video-essay van Rybar)",
+       "category": "ttp",
+       "topics": [
+        "armor",
+        "drones",
+        "doctrine",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-05T08:27:04.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Rybar publiceerde een kort videobetoog (2:21) uit de reeks #ИсторияПодвига, doorgestuurd van het gelieerde kanaal Тактикарь, met de vraag waarom de tank het slagveld niet langer domineert. Rybar schetst eerst de klassieke rol: sinds het begin van de vorige eeuw was de tank de \"stalen vuist\" van legers — hij brak verde…",
+       "enSummary": "Rybar published a short video essay (2:21) from its #ИсторияПодвига series, forwarded from the affiliated channel Тактикарь, asking why the tank no longer dominates the battlefield. Rybar first sketches the classic role: since the early twentieth century the tank was the \"steel fist\" of armies — it broke through defen…",
+       "sourceUrl": "https://t.me/rybar/82910",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260906-08",
+       "title": "Ukraine claims deep strikes on Russian EW and radar nodes in Bryansk Oblast; National Guard says drones destroyed a rare Zhitel jammer 55 km behind the front",
+       "titleNl": "Oekraïne claimt diepteslagen op Russische EOV- en radarsystemen in oblast Brjansk; Nationale Garde zegt zeldzame Zhitel-stoorzender op 55 km achter het front te hebben vernietigd",
+       "category": "ttp",
+       "topics": [
+        "ew",
+        "drones",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T08:24:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Op 4 september 2026 meldde de Oekraïense generale staf dat Oekraïense strijdkrachten drie Russische systemen hebben getroffen in de oblast Brjansk, diep op Russisch grondgebied: een radarstation bij Kartoesjyne, een complex voor elektronische oorlogvoering (REB/EOV) bij Pogar en een signaalrelais (retranslator) voor e…",
+       "enSummary": "On 4 September 2026 Ukraine's General Staff said Ukrainian defence forces had struck three Russian assets in Bryansk Oblast, well inside Russian territory: a radar station near Kartushyne, an electronic-warfare complex near Pogar, and a signal repeater for a military MESH network at Zlynka. Ukrainian state outlet Army…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/05/8052017",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260905-12",
        "title": "Ukrainian drones hit Sochi-area fuel depots and an air-defense position, grounding 100+ flights",
@@ -3013,75 +3295,6 @@
         "loss",
         "scale"
        ]
-      },
-      {
-       "id": "e-20260830-01",
-       "title": "Russian strike on ammunition depot near Kyiv kills at least 37 as Moscow shifts to round-the-clock attacks on the capital",
-       "titleNl": "Russische aanval op munitiedepot bij Kyiv eist zeker 37 doden terwijl Moskou overgaat op non-stop aanvallen op de hoofdstad",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "air-defense",
-        "logistics",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-29T09:48:00.000Z",
-       "updatedAt": "2026-08-30T09:00:00.000Z",
-       "nlSummary": "In de avond van 28 augustus 2026 (rond 20.10 uur lokale tijd) trof een Russische Geran-drone (Shahed-type) een opslagloods bij het dorp Myla in het district Boetsja, oblast Kyiv, ongeveer 5 km ten westen van Kyiv. Volgens het Oekraïense Openbaar Ministerie lag er munitie c.q. 'explosief materiaal' opgeslagen; de insla…",
-       "enSummary": "On the evening of 28 August 2026 (around 8:10 p.m. local time) a Russian Geran drone (a Shahed-type loitering munition) struck a storage warehouse near the village of Myla in Bucha district, Kyiv Oblast, roughly 5 km west of Kyiv. Ukrainian prosecutors said the site held ammunition or 'explosive objects'; the impact s…",
-       "sourceUrl": "https://meduza.io/en/feature/2026/08/29/at-least-37-killed-after-russian-strike-hits-an-ammunition-warehouse-near-kyiv-triggering-massive-explosions-many-of-the-victims-were-residents-of-a-nearby-care-home",
-       "sourceCount": 6,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260826-05",
-       "title": "Russia's Attack Drones Now Jam the Cheap Interceptors Sent to Kill Them",
-       "titleNl": "Russische aanvalsdrones jammen nu de goedkope interceptors die hen moeten neerhalen",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-25T16:39:38.000Z",
-       "updatedAt": "2026-08-26T10:00:00.000Z",
-       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, heeft Rusland een deel van zijn Geran-drones (de Russische variant van de Iraanse Shahed) uitgerust met een EW-jammer die specifiek is gericht tegen Oekraïense interceptordrones. Het systeem luistert naar het video-signa…",
-       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to Ukraine's president on defense technology, Russia has fitted some of its Geran drones (its version of Iran's Shahed) with an electronic-warfare jammer specifically aimed at Ukrainian interceptor drones. The system listens for the video signal of an approaching int…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/25/russias-attack-drones-now-jam-the-cheap-interceptors-sent-to-kill-them",
-       "sourceCount": 1,
-       "signals": [
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260827-s01",
-       "title": "Ukraine's General Staff claims deep strikes on a MiG-29 in Rostov Oblast plus a 'Kasta' radar and EW systems in Crimea and Donbas",
-       "titleNl": "Oekraïense Generale Staf claimt diepe aanvallen op een MiG-29 in de oblast Rostov plus een 'Kasta'-radar en EW-systemen op de Krim en in de Donbas",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "ew",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-08-25T00:00:00.000Z",
-       "updatedAt": "2026-08-27T09:00:00.000Z",
-       "nlSummary": "In twee opeenvolgende dagrapporten (24–25 en 25–26 augustus 2026) claimt de Oekraïense Generale Staf een reeks diepe aanvallen op Russische militaire doelen op bezet gebied en in Rusland zelf. Het meest opvallend is een treffer op een MiG-29-gevechtsvliegtuig op het vliegveld Millerovo in de oblast Rostov, volgens de…",
-       "enSummary": "In two consecutive daily strike reports (covering 24–25 and 25–26 August 2026), Ukraine's General Staff claims a series of deep strikes against Russian military targets on occupied territory and inside Russia. The headline claim is a hit on a MiG-29 fighter at Millerovo airfield in Russia's Rostov Oblast, which the Ge…",
-       "sourceUrl": "https://armyinform.com.ua/2026/08/25/syly-oborony-urazyly-vynyshhuvach-mig-29-u-rostovskij-oblasti-kompleksy-reb-ta-sklady-okupantiv-genshtab",
-       "sourceCount": 2,
-       "signals": []
       }
      ]
     },
@@ -3228,12 +3441,13 @@
        "origin": "ru",
        "significance": 2,
        "publishedAt": "2026-09-04T01:28:25.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
        "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
        "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
-       "sourceCount": 1,
+       "sourceCount": 2,
        "signals": [
+        "variant",
         "deploy",
         "perf",
         "scale",
@@ -3242,8 +3456,8 @@
       },
       {
        "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes up at least 67% in a month; Ukraine's interception rate slips toward 79%",
-       "titleNl": "Aantal straalaangedreven Shahed-drones +≥67% in een maand; Oekraïens onderscheppingspercentage zakt richting 79%",
+       "title": "Jet-powered Shahed strikes climb further; Ukraine posts full August tally and reorganises Close Air Defence under a combat colonel",
+       "titleNl": "Straalaangedreven Shahed-aanvallen stijgen verder; Oekraïne publiceert volledige augustus-balans en reorganiseert de nabijluchtverdediging",
        "category": "weapon",
        "topics": [
         "drones",
@@ -3253,11 +3467,11 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
        "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
        "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 8,
+       "sourceCount": 11,
        "signals": [
         "loss",
         "deploy",
@@ -3363,7 +3577,7 @@
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 14,
+     "total": 15,
      "signalCount": 6,
      "entries": [
       {
@@ -3379,12 +3593,13 @@
        "origin": "ru",
        "significance": 2,
        "publishedAt": "2026-09-04T01:28:25.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
        "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
        "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
        "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
-       "sourceCount": 1,
+       "sourceCount": 2,
        "signals": [
+        "variant",
         "deploy",
         "perf",
         "scale",
@@ -3414,6 +3629,32 @@
         "deploy",
         "perf",
         "counter"
+       ]
+      },
+      {
+       "id": "e-20260903-06",
+       "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
+       "titleNl": "Rakettekort raakt nu de hele Oekraïense jachtvloot: MiG-29's terug op R-60's uit de jaren zeventig, F-16's met boordkanon",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-02T22:26:44.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
+       "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
+       "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf"
        ]
       },
       {
@@ -3485,29 +3726,6 @@
        "signals": [
         "counter"
        ]
-      },
-      {
-       "id": "e-20260830-s02",
-       "title": "Russia Appears to Be Copying Iran's 359 Air-Defense Missile, Potentially Threatening Ukrainian Jet Drones and Cruise Missiles",
-       "titleNl": "Rusland lijkt Irans 359-luchtverdedigingsraket te kopiëren, met een mogelijke dreiging voor Oekraïense jetdrones en kruisraketten",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "missiles",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-08-29T09:37:26.000Z",
-       "updatedAt": "2026-08-30T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Oekraïens defensiemedium Defense Express, niet onafhankelijk geverifieerd. Het artikel meldt dat een nieuwe Russische drone-raket, in ontwikkeling bij het Russische bedrijf Aerokon, sterk lijkt op de Iraanse '359': feitelijk een straalaangedreven luchtverdedigingsdrone in plaats van een klassieke lucht…",
-       "enSummary": "SINGLE SOURCE — Ukrainian defense outlet Defense Express, not independently verified. The article reports that a new Russian drone-missile being developed by the Russian company Aerokon strongly resembles Iran's '359': in effect a jet-powered air-defense drone rather than a conventional anti-aircraft missile. Iran has…",
-       "sourceUrl": "https://en.defence-ua.com/weapon_and_tech/",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -3546,9 +3764,34 @@
     "epm": {
      "name": "Electronic protection",
      "nameEn": "Electronic protection",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260906-10",
+       "title": "Russia's Rubicon drone centre claims it has used 1 million FPV drones in Ukraine",
+       "titleNl": "Russisch drone-centrum Rubicon claimt 1 miljoen ingezette FPV-drones in Oekraïne",
+       "category": "org",
+       "topics": [
+        "drones",
+        "doctrine",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T10:04:55.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "Het Russische Centrum voor Geavanceerde Onbemande Technologieën \"Rubicon\" heeft op zijn officiële Telegram-kanaal beweerd dat zijn operators tussen januari 2025 en augustus 2026 meer dan 1 miljoen FPV-drones hebben ingezet en daarbij ruim 280.000 doelen hebben geraakt. Volgens de eenheid maakt dat 20-maandelijkse tota…",
+       "enSummary": "Russia's Rubicon Center for Advanced Unmanned Technologies has claimed, in a post on its official Telegram channel, that its operators used more than 1 million FPV drones and struck over 280,000 targets in Ukraine between January 2025 and August 2026. The unit said the 20-month total makes it \"the undisputed leader\" i…",
+       "sourceUrl": "https://defence-blog.com/russias-elite-drone-unit-says-it-used-1-million-fpv-drones/",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260824-11",
        "title": "Ukraine's GPS-Free Beacon Network Guides Drones Hunting Russian Spy Aircraft Over the Black Sea",
