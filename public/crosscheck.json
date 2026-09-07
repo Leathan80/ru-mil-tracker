@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-06T11:56:46.507Z",
- "analysisUpdated": "2026-09-06T09:00:00.000Z",
+ "updated": "2026-09-07T04:43:45.653Z",
+ "analysisUpdated": "2026-09-07T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 203,
-  "cardsWithHits": 47,
-  "matches": 246
+  "entriesConsidered": 210,
+  "cardsWithHits": 49,
+  "matches": 256
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -961,7 +961,7 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 31,
+     "total": 32,
      "signalCount": 4,
      "entries": [
       {
@@ -1093,11 +1093,11 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-09-04T08:46:44.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
        "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) maakte op 4 september 2026 bekend dat haar speciale eenheid \"Group 13\" in de loop van augustus 2026 een Russisch Bastion-kustverdedigingsraketsysteem heeft geraakt op bezet de Krim. Volgens HUR werden bij dezelfde operatie ook twee brandstoftankwagens en een commando- e…",
        "enSummary": "Ukraine's military intelligence directorate (HUR) announced on 4 September 2026 that its special unit \"Group 13\" struck a Russian Bastion coastal-defence missile system in occupied Crimea during operations in August 2026. HUR said the same operation destroyed or damaged two fuel tankers and a command-and-staff vehicle…",
        "sourceUrl": "https://euromaidanpress.com/2026/09/04/ukraine-says-it-struck-a-bastion-in-crimea-the-launcher-russia-pairs-zircon-and-oniks-missiles-on/",
-       "sourceCount": 3,
+       "sourceCount": 4,
        "signals": [
         "loss",
         "deploy"
@@ -1238,7 +1238,7 @@
        "origin": null,
        "significance": 3,
        "publishedAt": "2026-08-26T23:35:24.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
        "nlSummary": "In de nacht van 4 op 5 augustus 2026 werd op de luchthaven Leipzig/Halle in Duitsland een gemodificeerde drone met explosieven van militaire kwaliteit en een ontsteker aangetroffen, vlak bij een Oekraïens Antonov-vrachtvliegtuig dat munitie geladen had. Het toestel ontplofte niet omdat het triggermechanisme was losgek…",
        "enSummary": "Overnight on 4-5 August 2026, a modified drone fitted with military-grade explosives and a detonator was found at Leipzig/Halle Airport in Germany, close to a Ukrainian Antonov cargo aircraft loaded with ammunition. The device failed to detonate because its triggering mechanism was disconnected. The same night a secon…",
        "sourceUrl": "https://kyivindependent.com/us-intel-links-explosive-drone-found-at-german-airport-to-russias-military-intelligence/",
@@ -1646,9 +1646,33 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 10,
+     "total": 11,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260907-04",
+       "title": "Ukraine's Unmanned Systems Forces claims 58,465 Russian targets hit in August, with three named campaigns doing the strategic damage",
+       "titleNl": "Oekraïense Onbemande Systeemtroepen claimen 58.465 geraakte Russische doelen in augustus, met drie campagnes voor de strategische schade",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "doctrine",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-06T05:31:45.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "Euromaidan Press bracht op 6 september 2026 de maandbalans die Robert “Madyar” Brovdi, commandant van de Oekraïense Onbemande Systeemtroepen (USF), op zijn Telegram-kanaal plaatste. De USF claimt in augustus 2026 58.465 Russische doelen te hebben geraakt, gemiddeld bijna 1.900 per dag — ongeveer 9% meer dan in juli en…",
+       "enSummary": "On 6 September 2026 Euromaidan Press reported the monthly operational summary posted to Telegram by Robert “Madyar” Brovdi, commander of Ukraine's Unmanned Systems Forces (USF). The USF claimed its drones hit 58,465 Russian targets in August 2026, an average of nearly 1,900 a day — roughly 9% more than July and more t…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/06/ukraines-drone-forces-say-they-hit-58465-russian-targets-in-august-nearly-1900-a-day-three-named-campaigns-did-the-strategic-damage",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260905-12",
        "title": "Ukrainian drones hit Sochi-area fuel depots and an air-defense position, grounding 100+ flights",
@@ -1764,40 +1788,40 @@
         "deploy",
         "scale"
        ]
-      },
-      {
-       "id": "e-20260823-15",
-       "title": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at Millerovo",
-       "titleNl": "Weeklange Oekraïense aanvalscampagne treft Russische luchtmachtbases en radarnetwerk van Krim tot Rostov, tweede MiG-29 bij Millerovo",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T17:50:32.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "Tussen 20 en 24 augustus voerden de Oekraïense Generale Staf en de Unmanned Systems Forces (USF/SBS, commandant Robert 'Madyar' Brovdi) een aanhoudende reeks dronaanvallen uit tegen Russische luchtmacht- en luchtverdedigingsinfrastructuur, verspreid van bezet Krim tot Rostov-oblast. Op vliegbasis Achtoebinsk (Astracha…",
-       "enSummary": "Between 20 and 24 August, Ukraine's General Staff and the Unmanned Systems Forces (USF/SBS, commander Robert 'Magyar' Brovdi) sustained a rolling series of drone strikes against Russian air force and air-defense infrastructure stretching from occupied Crimea to Rostov Oblast. At Akhtubinsk airbase (Astrakhan region, h…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcllqdnB1Z05PVnJIQmVka0JQcU9sMWlFLTJrTmx6X3N6OWR5d3ZmYm1FMnBONUY3NmU5ZGdIaWFQRG9BTGF6d2FEdTh0cTB1ajRaOVBzSnozdTE5TFJYUWltTklaVk9GS2Ryc1UwUUJMdDJwX2dqY0xWZDBLOFNyU2lwSGZlSWxKY1hGSGNVd25hemtOQ0xYZ092RTBoTWNOdzhGcTVRSjc3V3RKV3FSUXNUNA?oc=5",
-       "sourceCount": 7,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
       }
      ]
     },
     "sa23": {
      "name": "S-300V4 (SA-23)",
      "nameEn": "S-300V4 (SA-23)",
-     "total": 2,
-     "signalCount": 1,
+     "total": 3,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260906-06",
+       "title": "Ukraine confirms its Swedish ASC 890 radar aircraft has flown combat missions since March 2026",
+       "titleNl": "Oekraïne bevestigt dat zijn Zweedse ASC 890-radarvliegtuig sinds maart 2026 gevechtsmissies vliegt",
+       "category": "weapon",
+       "topics": [
+        "airforce",
+        "air-defense",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T13:42:00.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "Het Oekraïense ministerie van Defensie heeft op 5 september 2026 bevestigd dat het door Zweden geleverde ASC 890-vliegtuig voor luchtwaarschuwing en -leiding (AEW&C) actief gevechtsmissies boven Oekraïne uitvoert. De bevestiging stond in een rapport over de Air Force Capability Coalition, het samenwerkingsverband van…",
+       "enSummary": "On 5 September 2026 Ukraine's Ministry of Defence confirmed that the Swedish-supplied ASC 890 airborne early warning and control (AEW&C) aircraft is flying combat missions over Ukraine. The confirmation came in a ministry report on the Air Force Capability Coalition, the group of states supporting Ukraine's air force.…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/05/8052061",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260729-s01",
        "title": "Turkiye Eyes Egypt as S-400 Buyer to Fix F-35 Program Problem, Cairo Already Operates russian S-300VM Claiming 40km Ballistic Intercept",
@@ -1845,9 +1869,57 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 11,
+     "total": 13,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260907-01",
+       "title": "Ukraine hits Ryazan refinery, Rostov airfield and air-defence radar in 5–6 September strike wave; satellite imagery confirms helicopter losses at Sochi",
+       "titleNl": "Oekraïense aanvallen treffen raffinaderij Rjazan, vliegveld Rostov en luchtverdediging in golf van 5–6 september; satellietbeelden bevestigen helikopterverliezen bij Sotsji",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense",
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-06T08:14:23.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "In de nacht van 5 op 6 september 2026 hebben Oekraïense strijdkrachten volgens de Oekraïense generale staf de olieraffinaderij van Rjazan (oblast Rjazan), het militaire vliegveld Rostov aan de Don (oblast Rostov) en drie Russische luchtverdedigingsmiddelen in diezelfde regio getroffen: een “Podlet”-radar (Podljot) voo…",
+       "enSummary": "On the night of 5–6 September 2026, according to Ukraine's General Staff, Ukrainian forces struck the Ryazan oil refinery in Ryazan Oblast, the Rostov-on-Don airfield in Rostov Oblast, and three Russian air-defence assets in the same region: a “Podlet” (Podlyot) low-altitude detection radar and two Pantsir-S1 gun-miss…",
+       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-drones-strike-nine-storage-tanks-and-s-300-position-in-sochi/",
+       "sourceCount": 6,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260907-04",
+       "title": "Ukraine's Unmanned Systems Forces claims 58,465 Russian targets hit in August, with three named campaigns doing the strategic damage",
+       "titleNl": "Oekraïense Onbemande Systeemtroepen claimen 58.465 geraakte Russische doelen in augustus, met drie campagnes voor de strategische schade",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "doctrine",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-06T05:31:45.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "Euromaidan Press bracht op 6 september 2026 de maandbalans die Robert “Madyar” Brovdi, commandant van de Oekraïense Onbemande Systeemtroepen (USF), op zijn Telegram-kanaal plaatste. De USF claimt in augustus 2026 58.465 Russische doelen te hebben geraakt, gemiddeld bijna 1.900 per dag — ongeveer 9% meer dan in juli en…",
+       "enSummary": "On 6 September 2026 Euromaidan Press reported the monthly operational summary posted to Telegram by Robert “Madyar” Brovdi, commander of Ukraine's Unmanned Systems Forces (USF). The USF claimed its drones hit 58,465 Russian targets in August 2026, an average of nearly 1,900 a day — roughly 9% more than July and more t…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/06/ukraines-drone-forces-say-they-hit-58465-russian-targets-in-august-nearly-1900-a-day-three-named-campaigns-did-the-strategic-damage",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260905-12",
        "title": "Ukrainian drones hit Sochi-area fuel depots and an air-defense position, grounding 100+ flights",
@@ -1940,53 +2012,6 @@
        "sourceCount": 2,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260831-02",
-       "title": "Ukraine strikes Kirishi refinery, Yeysk and Millerovo airfields in coordinated deep-strike package; SBS claims Pantsir-S1 and four radars destroyed",
-       "titleNl": "Oekraïne treft raffinaderij Kirishi en vliegvelden Jejsk en Millerovo in gecoördineerde diepteslag; SBS claimt Pantsir-S1 en vier radars vernietigd",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense",
-        "airforce",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-30T00:58:00.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
-       "nlSummary": "In de nacht van 29 op 30 augustus 2026 meldden de Oekraïense generale staf en de Special Operations Forces (SOF) dat de strijdkrachten de olieraffinaderij van Kirishi (\"Kirisjinefteorgsintez\") in de oblast Leningrad en het militaire vliegveld Jejsk in de kraj Krasnodar hadden getroffen; daarnaast werd een opslag-, voo…",
-       "enSummary": "On the night of 29–30 August 2026, Ukraine's General Staff and Special Operations Forces (SOF) said the Defence Forces struck the Kirishi oil refinery (\"Kirishinefteorgsintez\") in Leningrad Oblast and the Yeysk military airfield in Krasnodar Krai, and also hit a facility for storing, preparing and launching attack dro…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/30/8050986",
-       "sourceCount": 5,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260824-01",
-       "title": "North Korea Sends 400 Drone Operators to Kursk Region",
-       "titleNl": "Noord-Korea stuurt 400 drone-operators naar Koersk-regio",
-       "category": "org",
-       "topics": [
-        "drones",
-        "north-korea"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-21T18:21:07.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Volgens de Oekraïense militaire inlichtingendienst (HUR) heeft Noord-Korea zijn militaire aanwezigheid in de Russische Koersk-regio flink uitgebreid, met de inzet van ongeveer 8.500 militairen, waaronder circa 400 getrainde drone-operators en zo'n 1.000 genisten/sappers. Plaatsvervangend HUR-chef Vadym Skibitskyi zei…",
-       "enSummary": "Ukraine's Defense Intelligence (HUR) says North Korea has significantly expanded its military presence in Russia's Kursk region, deploying roughly 8,500 troops, including approximately 400 trained drone operators and around 1,000 engineers and sappers. Deputy HUR chief Vadym Skibitskyi told CNN the drone operators are…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTTQwOFFjXzNGRlE3QnNtaXgxV2tubHdUVkZYQV8xLTROdGRIZlJ5OFk4V2ZRMTkzZlRKbUswWTQ1bjRrV1Q4TFZ6NGU5U1dnRmFpVjdJeEtsRWE5YWVrVzB1OWNlMkUtd2NoTzZ3bmp6RmlLXzBoLXlPazl1R09NTDY1bFkwNDVUbUpjOVNR?oc=5",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "scale"
        ]
       }
      ]
@@ -2324,6 +2349,38 @@
       }
      ]
     },
+    "podlet": {
+     "name": "Podlet-K1",
+     "nameEn": "Podlet-K1",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260907-01",
+       "title": "Ukraine hits Ryazan refinery, Rostov airfield and air-defence radar in 5–6 September strike wave; satellite imagery confirms helicopter losses at Sochi",
+       "titleNl": "Oekraïense aanvallen treffen raffinaderij Rjazan, vliegveld Rostov en luchtverdediging in golf van 5–6 september; satellietbeelden bevestigen helikopterverliezen bij Sotsji",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense",
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-06T08:14:23.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "In de nacht van 5 op 6 september 2026 hebben Oekraïense strijdkrachten volgens de Oekraïense generale staf de olieraffinaderij van Rjazan (oblast Rjazan), het militaire vliegveld Rostov aan de Don (oblast Rostov) en drie Russische luchtverdedigingsmiddelen in diezelfde regio getroffen: een “Podlet”-radar (Podljot) voo…",
+       "enSummary": "On the night of 5–6 September 2026, according to Ukraine's General Staff, Ukrainian forces struck the Ryazan oil refinery in Ryazan Oblast, the Rostov-on-Don airfield in Rostov Oblast, and three Russian air-defence assets in the same region: a “Podlet” (Podlyot) low-altitude detection radar and two Pantsir-S1 gun-miss…",
+       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-drones-strike-nine-storage-tanks-and-s-300-position-in-sochi/",
+       "sourceCount": 6,
+       "signals": [
+        "loss"
+       ]
+      }
+     ]
+    },
     "kasta": {
      "name": "Kasta-2E2",
      "nameEn": "Kasta-2E2",
@@ -2523,9 +2580,34 @@
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260906-06",
+       "title": "Ukraine confirms its Swedish ASC 890 radar aircraft has flown combat missions since March 2026",
+       "titleNl": "Oekraïne bevestigt dat zijn Zweedse ASC 890-radarvliegtuig sinds maart 2026 gevechtsmissies vliegt",
+       "category": "weapon",
+       "topics": [
+        "airforce",
+        "air-defense",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T13:42:00.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "Het Oekraïense ministerie van Defensie heeft op 5 september 2026 bevestigd dat het door Zweden geleverde ASC 890-vliegtuig voor luchtwaarschuwing en -leiding (AEW&C) actief gevechtsmissies boven Oekraïne uitvoert. De bevestiging stond in een rapport over de Air Force Capability Coalition, het samenwerkingsverband van…",
+       "enSummary": "On 5 September 2026 Ukraine's Ministry of Defence confirmed that the Swedish-supplied ASC 890 airborne early warning and control (AEW&C) aircraft is flying combat missions over Ukraine. The confirmation came in a ministry report on the Air Force Capability Coalition, the group of states supporting Ukraine's air force.…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/05/8052061",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260827-08",
        "title": "Ukraine names 100+ Russian ballistic-missile producers, seeks blanket allied sanctions after Iskander teardown finds 62 US parts",
@@ -3069,6 +3151,39 @@
       }
      ]
     },
+    "r37m": {
+     "name": "R-37M",
+     "nameEn": "R-37M",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260906-06",
+       "title": "Ukraine confirms its Swedish ASC 890 radar aircraft has flown combat missions since March 2026",
+       "titleNl": "Oekraïne bevestigt dat zijn Zweedse ASC 890-radarvliegtuig sinds maart 2026 gevechtsmissies vliegt",
+       "category": "weapon",
+       "topics": [
+        "airforce",
+        "air-defense",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-05T13:42:00.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "Het Oekraïense ministerie van Defensie heeft op 5 september 2026 bevestigd dat het door Zweden geleverde ASC 890-vliegtuig voor luchtwaarschuwing en -leiding (AEW&C) actief gevechtsmissies boven Oekraïne uitvoert. De bevestiging stond in een rapport over de Air Force Capability Coalition, het samenwerkingsverband van…",
+       "enSummary": "On 5 September 2026 Ukraine's Ministry of Defence confirmed that the Swedish-supplied ASC 890 airborne early warning and control (AEW&C) aircraft is flying combat missions over Ukraine. The confirmation came in a ministry report on the Air Force Capability Coalition, the group of states supporting Ukraine's air force.…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/05/8052061",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      }
+     ]
+    },
     "r73": {
      "name": "R-73",
      "nameEn": "R-73",
@@ -3146,9 +3261,33 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 17,
+     "total": 19,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260907-04",
+       "title": "Ukraine's Unmanned Systems Forces claims 58,465 Russian targets hit in August, with three named campaigns doing the strategic damage",
+       "titleNl": "Oekraïense Onbemande Systeemtroepen claimen 58.465 geraakte Russische doelen in augustus, met drie campagnes voor de strategische schade",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "doctrine",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-06T05:31:45.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "Euromaidan Press bracht op 6 september 2026 de maandbalans die Robert “Madyar” Brovdi, commandant van de Oekraïense Onbemande Systeemtroepen (USF), op zijn Telegram-kanaal plaatste. De USF claimt in augustus 2026 58.465 Russische doelen te hebben geraakt, gemiddeld bijna 1.900 per dag — ongeveer 9% meer dan in juli en…",
+       "enSummary": "On 6 September 2026 Euromaidan Press reported the monthly operational summary posted to Telegram by Robert “Madyar” Brovdi, commander of Ukraine's Unmanned Systems Forces (USF). The USF claimed its drones hit 58,465 Russian targets in August 2026, an average of nearly 1,900 a day — roughly 9% more than July and more t…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/06/ukraines-drone-forces-say-they-hit-58465-russian-targets-in-august-nearly-1900-a-day-three-named-campaigns-did-the-strategic-damage",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260906-10",
        "title": "Russia's Rubicon drone centre claims it has used 1 million FPV drones in Ukraine",
@@ -3248,51 +3387,26 @@
        ]
       },
       {
-       "id": "e-20260831-02",
-       "title": "Ukraine strikes Kirishi refinery, Yeysk and Millerovo airfields in coordinated deep-strike package; SBS claims Pantsir-S1 and four radars destroyed",
-       "titleNl": "Oekraïne treft raffinaderij Kirishi en vliegvelden Jejsk en Millerovo in gecoördineerde diepteslag; SBS claimt Pantsir-S1 en vier radars vernietigd",
+       "id": "e-20260907-05",
+       "title": "OSINT: Russia builds 21 shore shelters for uncrewed attack boats at Lake Donuzlav, Crimea",
+       "titleNl": "OSINT: Rusland bouwt 21 oeverschuilplaatsen voor onbemande aanvalsboten bij het Donuzlav-meer op de Krim",
        "category": "ttp",
        "topics": [
-        "drones",
-        "air-defense",
-        "airforce",
-        "logistics"
+        "naval-drones",
+        "navy",
+        "fortifications"
        ],
        "stream": "verified",
        "origin": null,
        "significance": 2,
-       "publishedAt": "2026-08-30T00:58:00.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
-       "nlSummary": "In de nacht van 29 op 30 augustus 2026 meldden de Oekraïense generale staf en de Special Operations Forces (SOF) dat de strijdkrachten de olieraffinaderij van Kirishi (\"Kirisjinefteorgsintez\") in de oblast Leningrad en het militaire vliegveld Jejsk in de kraj Krasnodar hadden getroffen; daarnaast werd een opslag-, voo…",
-       "enSummary": "On the night of 29–30 August 2026, Ukraine's General Staff and Special Operations Forces (SOF) said the Defence Forces struck the Kirishi oil refinery (\"Kirishinefteorgsintez\") in Leningrad Oblast and the Yeysk military airfield in Krasnodar Krai, and also hit a facility for storing, preparing and launching attack dro…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/30/8050986",
-       "sourceCount": 5,
+       "publishedAt": "2026-09-01T00:00:00.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "Rond 1 september 2026 publiceerde de Oekraïense OSINT-groep CyberBoroshno een analyse van satellietbeelden van het Donuzlav-meer in het westen van de Krim; het Russische medium Topwar nam die analyse op 7 september over. Op de zuidoever, bij Novoozjornoje en Mirny, zijn volgens de analyse 21 schuilplaatsen voor kleine…",
+       "enSummary": "Around 1 September 2026 the Ukrainian OSINT group CyberBoroshno published an analysis of satellite imagery of Lake Donuzlav in western Crimea; the Russian outlet Topwar relayed the analysis on 7 September. On the southern shore, near Novoozyornoye and Mirny, the analysis identifies 21 shelters for small craft — boat s…",
+       "sourceUrl": "https://topwar.ru/289197-donuzlav-21-ukrytie-dlja-katerov-prizrakov.html",
+       "sourceCount": 3,
        "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260901-02",
-       "title": "Russia shifts its Kyiv strike campaign to sustained, round-the-clock drone pressure",
-       "titleNl": "Rusland verlegt zijn aanvalscampagne op Kyiv naar aanhoudende druk de klok rond",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "air-defense",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-29T19:15:36.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "Rond 27-31 augustus 2026 stapte Rusland af van het patroon van geconcentreerde nachtelijke salvo's tegen Kyiv en ging over op frequentie boven omvang. In plaats van één massale nachtbarrage van ballistische en kruisraketten met daaraan voorafgaand drone-golven, stuurt Moskou nu kleine groepen straalaangedreven drones…",
-       "enSummary": "Around 27-31 August 2026 Russia broke with its established pattern of concentrated overnight salvos against Kyiv and adopted an approach prioritising frequency over amplitude. Instead of a single massed night barrage of ballistic and cruise missiles preceded by drone waves, Moscow now sends small groups of jet-powered…",
-       "sourceUrl": "https://www.twz.com/news-features/russia-changing-missile-and-drone-attack-strategy-on-ukrainian-captial",
-       "sourceCount": 11,
-       "signals": [
-        "loss",
+        "deploy",
         "scale"
        ]
       }
