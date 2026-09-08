@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-07T04:43:45.653Z",
- "analysisUpdated": "2026-09-07T09:00:00.000Z",
+ "updated": "2026-09-08T04:50:19.041Z",
+ "analysisUpdated": "2026-09-08T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 210,
+  "entriesConsidered": 220,
   "cardsWithHits": 49,
-  "matches": 256
+  "matches": 268
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,58 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 28,
+     "total": 30,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260908-02",
+       "title": "Developer reveals upgraded specs for Ukraine's \"Bars\" jet strike drone (up to 1,000 km, 60 kg payload); production to move to Europe",
+       "titleNl": "Ontwikkelaar onthult verbeterde specs van Oekraïense \"Bars\" straaldrone (tot 1.000 km, lading 60 kg); productie verhuist naar Europa",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T17:08:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "De ontwikkelaar van de Oekraïense \"Bars\", een straalaangedreven langeafstands-aanvalsdrone (feitelijk een drone-raket voor diepe slagen in Rusland), heeft op 7 september 2026 bijgewerkte prestatiecijfers vrijgegeven. De nieuwste versie zou een bereik hebben tot 1.000 km en een lading dragen tot 60 kg, tegen eerder 700…",
+       "enSummary": "The developer of Ukraine's \"Bars\", a jet-powered long-range attack drone (effectively a drone-missile for deep strikes into Russia), released updated performance figures on 7 September 2026. The latest version is said to reach up to 1,000 km and carry a payload of up to 60 kg, against a previous 700 km and 22.5 kg, wi…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/07/8052331/",
+       "sourceCount": 2,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260908-03",
+       "title": "Shipping records tie a Chinese state firm to 46 tons of carbon-fiber precursor for Russian Geran drone production",
+       "titleNl": "Scheepvaartdocumenten koppelen Chinees staatsbedrijf aan 46 ton koolstofvezelgrondstof voor Russische Geran-droneproductie",
+       "category": "org",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T10:48:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "Scheepvaartdocumenten die zijn verzameld door het in Kyiv gevestigde Ukrainian Security and Cooperation Center (USCC) en onderzocht door Politico (samen met The Telegraph) tonen dat het Chinese staatsbedrijf Jilin Chemical Fiber Group 46 ton polyacrylonitril (PAN) — een grondstof voor koolstofvezel — heeft geleverd aa…",
+       "enSummary": "Shipping documents obtained by the Kyiv-based Ukrainian Security and Cooperation Center (USCC) and reviewed by Politico (with The Telegraph) show that China's state-owned Jilin Chemical Fiber Group shipped 46 metric tons of polyacrylonitrile (PAN) — a precursor for carbon fiber — to Alabuga-Volokno, a Rosatom subsidia…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/07/china-secretly-supplied-46-tons-of-drone-production-materials-to-russia",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260906-09",
        "title": "US Air Force seeks a gun-based air-defence system for overseas bases, citing Ukraine's drone-kill experience",
@@ -119,58 +168,6 @@
        "sourceCount": 3,
        "signals": [
         "loss",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260903-06",
-       "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
-       "titleNl": "Rakettekort raakt nu de hele Oekraïense jachtvloot: MiG-29's terug op R-60's uit de jaren zeventig, F-16's met boordkanon",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-02T22:26:44.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
-       "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
-       "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260903-01",
-       "title": "Ukraine downs Russian 'Banderol' (S8000) cruise missiles over the south — MiG-29 R-60 kill at very low altitude, plus a ground air-defence intercept",
-       "titleNl": "Oekraïne schiet Russische 'Banderol' (S8000)-kruisraketten neer boven het zuiden — MiG-29 met R-60 op zeer lage hoogte, plus een neerhaling door grondluchtverdediging",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-02T12:48:12.000Z",
-       "updatedAt": "2026-09-03T09:00:00.000Z",
-       "nlSummary": "In de nacht van 2 september 2026 meldden Oekraïense strijdkrachten dat zij Russische S8000-kruisraketten van het type «Banderol» hadden neergeschoten boven Zuid-Oekraïne, met beeldmateriaal van de neerhalingen. Een aan de Oekraïense luchtmacht gelieerd Telegram-kanaal zei dat een piloot in een gemoderniseerde MiG-29MU…",
-       "enSummary": "Overnight on 2 September 2026, Ukrainian forces reported shooting down Russian S8000 «Banderol» cruise missiles over southern Ukraine and published footage of the engagements. A Ukrainian Air Force-affiliated Telegram channel said a pilot in a modernised MiG-29MU1 destroyed a Banderol at extremely low altitude using a…",
-       "sourceUrl": "https://militarnyi.com/en/news/mig-29-shoots-down-russian-banderol-with-an-r-60-missile-at-extremely-low-altitude/",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "variant",
         "deploy",
         "perf"
        ]
@@ -334,9 +331,34 @@
     "lancet": {
      "name": "Lancet-1 / Lancet-3",
      "nameEn": "Lancet-1 / Lancet-3",
-     "total": 5,
-     "signalCount": 5,
+     "total": 6,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260908-09",
+       "title": "Russia markets 'combat-proven' weapons for export at Egypt's El Alamein Airshow, claims new Su-57E deals",
+       "titleNl": "Rusland vermarkt 'in de strijd bewezen' wapens voor export op de El Alamein-airshow in Egypte, claimt nieuwe Su-57E-deals",
+       "category": "org",
+       "topics": [
+        "airforce",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T09:45:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "In aanloop naar de El Alamein International Airshow (EIA 2026, Egypte, 8–10 september) zetten het Russische staatsexportbedrijf Rosoboronexport en de Verenigde Vliegtuigbouwcorporatie (OAK) een verkoopoffensief op rond wapensystemen die volgens Moskou \"in de strijd bewezen\" zijn in Oekraïne. Rosoboronexport-directeur…",
+       "enSummary": "Ahead of the El Alamein International Airshow (EIA 2026, Egypt, 8–10 September), Russia's state arms exporter Rosoboronexport and the United Aircraft Corporation (UAC) mounted a sales push built around systems Moscow calls \"combat-proven\" in Ukraine. Rosoboronexport CEO Alexander Mikheyev said on 7 September that Russ…",
+       "sourceUrl": "https://defence-blog.com/russia-claims-new-su-57-export-deals-ahead-of-egypt-airshow",
+       "sourceCount": 5,
+       "signals": [
+        "loss",
+        "variant",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260905-03",
        "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
@@ -785,9 +807,34 @@
     "zala-z16": {
      "name": "ZALA Z-16",
      "nameEn": "ZALA Z-16",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260908-09",
+       "title": "Russia markets 'combat-proven' weapons for export at Egypt's El Alamein Airshow, claims new Su-57E deals",
+       "titleNl": "Rusland vermarkt 'in de strijd bewezen' wapens voor export op de El Alamein-airshow in Egypte, claimt nieuwe Su-57E-deals",
+       "category": "org",
+       "topics": [
+        "airforce",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T09:45:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "In aanloop naar de El Alamein International Airshow (EIA 2026, Egypte, 8–10 september) zetten het Russische staatsexportbedrijf Rosoboronexport en de Verenigde Vliegtuigbouwcorporatie (OAK) een verkoopoffensief op rond wapensystemen die volgens Moskou \"in de strijd bewezen\" zijn in Oekraïne. Rosoboronexport-directeur…",
+       "enSummary": "Ahead of the El Alamein International Airshow (EIA 2026, Egypt, 8–10 September), Russia's state arms exporter Rosoboronexport and the United Aircraft Corporation (UAC) mounted a sales push built around systems Moscow calls \"combat-proven\" in Ukraine. Rosoboronexport CEO Alexander Mikheyev said on 7 September that Russ…",
+       "sourceUrl": "https://defence-blog.com/russia-claims-new-su-57-export-deals-ahead-of-egypt-airshow",
+       "sourceCount": 5,
+       "signals": [
+        "loss",
+        "variant",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260903-07",
        "title": "Ukraine destroys a Russian naval drone near Snake Island as Russian USV activity in the Black Sea grows",
@@ -843,9 +890,35 @@
     "orion": {
      "name": "Orion",
      "nameEn": "Orion",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260908-10",
+       "title": "Brave1 says a Ukrainian-built system is already shooting down Russia's S8000 'Banderol' missile-drones at below-target cost",
+       "titleNl": "Brave1: Oekraïens systeem haalt Russische S8000 'Banderol'-raketdrones al neer, goedkoper dan het doelwit",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "missiles",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T15:14:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "Op 7 september 2026 meldde Brave1, het door de Oekraïense staat gesteunde defensietechnologiecluster, dat een systeem van een van zijn deelnemende bedrijven al Russische S8000-raketdrones van het type «Banderol» (een kleine straalaangedreven kruisraket) neerhaalt. Brave1 noemt het systeem niet bij naam en maakt het we…",
+       "enSummary": "On 7 September 2026, Brave1, Ukraine's state-backed defence-technology cluster, said that a system developed by one of its member companies is already shooting down Russian S8000 «Banderol» missile-drones (a small turbojet-powered cruise missile). Brave1 did not name the system or disclose its operating principle or t…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/07/8052308",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260823-15",
        "title": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at Millerovo",
@@ -961,9 +1034,56 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 32,
-     "signalCount": 4,
+     "total": 34,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260908-03",
+       "title": "Shipping records tie a Chinese state firm to 46 tons of carbon-fiber precursor for Russian Geran drone production",
+       "titleNl": "Scheepvaartdocumenten koppelen Chinees staatsbedrijf aan 46 ton koolstofvezelgrondstof voor Russische Geran-droneproductie",
+       "category": "org",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T10:48:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "Scheepvaartdocumenten die zijn verzameld door het in Kyiv gevestigde Ukrainian Security and Cooperation Center (USCC) en onderzocht door Politico (samen met The Telegraph) tonen dat het Chinese staatsbedrijf Jilin Chemical Fiber Group 46 ton polyacrylonitril (PAN) — een grondstof voor koolstofvezel — heeft geleverd aa…",
+       "enSummary": "Shipping documents obtained by the Kyiv-based Ukrainian Security and Cooperation Center (USCC) and reviewed by Politico (with The Telegraph) show that China's state-owned Jilin Chemical Fiber Group shipped 46 metric tons of polyacrylonitrile (PAN) — a precursor for carbon fiber — to Alabuga-Volokno, a Rosatom subsidia…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/07/china-secretly-supplied-46-tons-of-drone-production-materials-to-russia",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260908-06",
+       "title": "Ukrainian unit says Russia flew 500+ air sorties to hunt ~10 of its naval drones; FPV drones now launch from the boats",
+       "titleNl": "Oekraïense eenheid: Rusland vloog 500+ luchtvluchten om ~10 zeedrones te jagen; FPV-drones vliegen nu op vanaf de boten",
+       "category": "ttp",
+       "topics": [
+        "naval-drones",
+        "navy",
+        "airforce",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T09:15:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "Euromaidan Press publiceerde op 7 september 2026 een analyse op basis van een ArmyInform-interview met de commandant van Group 13, een eenheid van de Oekraïense militaire inlichtingendienst (HUR) die Magura-onbemande oppervlaktevaartuigen (USV's) in de Zwarte Zee inzet. Volgens de commandant heeft Rusland meer dan 500…",
+       "enSummary": "On 7 September 2026 Euromaidan Press published an analysis based on an ArmyInform interview with the commander of Group 13, a Ukrainian military-intelligence (HUR) unit that operates Magura uncrewed surface vessels (USVs) in the Black Sea. The commander said Russia had flown more than 500 combat aircraft sorties again…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/07/some-ten-robot-boats-five-hundred-russian-air-sorties-one-very-lopsided-hunt/",
+       "sourceCount": 2,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260906-10",
        "title": "Russia's Rubicon drone centre claims it has used 1 million FPV drones in Ukraine",
@@ -1053,51 +1173,6 @@
        "enSummary": "SINGLE SOURCE — Ukrainian publication (Ministry of Defense, ArmyInform). Per the 58th Separate Motorized Infantry Brigade \"Hetman Ivan Vyhovsky,\" the unit destroyed a Russian drone while it was still on its catapult launcher, ready for take-off. The strike used a Lupinis-10-TFL-1: a Ukrainian FPV attack-drone system m…",
        "sourceUrl": "https://armyinform.com.ua/2026/09/04/shopyv-czil-i-dali-sam-yak-rozumnyj-dron-lupynis-10-roznis-vorozhu-katapultu-na-starti",
        "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260906-s01",
-       "title": "Перехват «Бабы Яги»: операторы БпЛА группировки войск «Север» перехватили украинский гексакоптер в полёте",
-       "titleNl": "Onderschepping van een 'Baba Jaga': UAV-operators van de groepering 'Sever' halen Oekraïense hexacopter neer tijdens de vlucht",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-09-04T10:56:02.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "Het Russische milbloggerkanaal WarGonzo (doorgestuurd van het Telegram-kanaal van het 44e Legerkorps) meldt dat UAV-operators van de Russische groepering strijdkrachten «Sever» (Noord) een zware Oekraïense multirotor-bommenwerper van het type «Baba Jaga» — een hexacopter — tijdens de vlucht hebben onderschept. Volgens…",
-       "enSummary": "The Russian milblogger channel WarGonzo (reposting the Telegram channel of the 44th Army Corps) reports that UAV operators of the Russian «Sever» (North) group of forces intercepted a Ukrainian «Baba Yaga» heavy multirotor bomber — a hexacopter — while it was in flight. Per the post, after «a precise hit» it lost cont…",
-       "sourceUrl": "https://t.me/wargonzo/36692",
-       "sourceCount": 1,
-       "signals": []
-      },
-      {
-       "id": "e-20260906-07",
-       "title": "Ukraine's military intelligence claims a strike on a Bastion-P coastal-defence missile launcher in occupied Crimea",
-       "titleNl": "Oekraïense militaire inlichtingendienst claimt aanval op Bastion-P-kustverdedigingslanceerder op bezet de Krim",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "navy",
-        "drones",
-        "naval-drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-04T08:46:44.000Z",
-       "updatedAt": "2026-09-07T09:00:00.000Z",
-       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) maakte op 4 september 2026 bekend dat haar speciale eenheid \"Group 13\" in de loop van augustus 2026 een Russisch Bastion-kustverdedigingsraketsysteem heeft geraakt op bezet de Krim. Volgens HUR werden bij dezelfde operatie ook twee brandstoftankwagens en een commando- e…",
-       "enSummary": "Ukraine's military intelligence directorate (HUR) announced on 4 September 2026 that its special unit \"Group 13\" struck a Russian Bastion coastal-defence missile system in occupied Crimea during operations in August 2026. HUR said the same operation destroyed or damaged two fuel tankers and a command-and-staff vehicle…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/04/ukraine-says-it-struck-a-bastion-in-crimea-the-launcher-russia-pairs-zircon-and-oniks-missiles-on/",
-       "sourceCount": 4,
        "signals": [
         "loss",
         "deploy"
@@ -2580,9 +2655,31 @@
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260908-07",
+       "title": "Two Russian Su-35S fighters reported lost in a mid-air collision over Kursk Oblast",
+       "titleNl": "Twee Russische Su-35S-jachtvliegtuigen verloren bij aanvaring in de lucht boven oblast Koersk",
+       "category": "org",
+       "topics": [
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-07T16:51:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "Op 7 september 2026 zijn boven de Russische oblast Koersk twee Su-35S-jachtvliegtuigen in de lucht op elkaar gebotst, volgens het Telegram-kanaal Fighterbomber, dat zegt banden te hebben met de Russische luchtstrijdkrachten. Eén piloot kwam om, een tweede schoot zich uit met zware verwondingen. Noch het Russische mini…",
+       "enSummary": "On 7 September 2026 two Russian Su-35S fighters collided in mid-air over Kursk Oblast, according to the Telegram channel Fighterbomber, which claims ties to the Russian Aerospace Forces. One pilot was killed and a second ejected with serious injuries. Neither the Russian Defence Ministry nor Ukrainian officials have c…",
+       "sourceUrl": "https://defence-blog.com/russian-su-35-fighter-jets-collide-over-kursk-killing-pilot",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260906-06",
        "title": "Ukraine confirms its Swedish ASC 890 radar aircraft has flown combat missions since March 2026",
@@ -2679,9 +2776,35 @@
     "su34": {
      "name": "Su-34",
      "nameEn": "Su-34",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260908-08",
+       "title": "Russia sustains Su-34 production at roughly 18 airframes a year despite wartime losses and sanctions",
+       "titleNl": "Rusland houdt Su-34-productie op circa 18 toestellen per jaar ondanks oorlogsverliezen en sancties",
+       "category": "weapon",
+       "topics": [
+        "airforce",
+        "glide-bombs"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-06T09:39:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "Foto's van het Viva Avia-festival op Mochisjtsje bij Novosibirsk (1–2 augustus 2026) toonden een pas gebouwde Su-34 nog in fabrieksprimer, aanleiding voor Defence Blog om de productie van het type tegen het licht te houden. Begin 2026 had de Russische luchtmacht in totaal 212 Su-34's afgenomen van de vliegtuigfabriek…",
+       "enSummary": "Photographs from the Viva Avia festival at Mochishche near Novosibirsk (1–2 August 2026) showed a freshly built Su-34 in factory primer, prompting Defence Blog to review the programme's output. By the start of 2026 the Russian air force had taken delivery of 212 Su-34s from the Novosibirsk Aviation Plant (NAZ/NAPO), t…",
+       "sourceUrl": "https://defence-blog.com/russia-keeps-building-su-34-fighter-bombers-despite-ukraine-war",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260826-01",
        "title": "Ukraine mapped Russia's Su-35 down to individual control units — and found 22 unsanctioned firms",
@@ -2792,9 +2915,35 @@
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 10,
+     "total": 11,
      "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260908-10",
+       "title": "Brave1 says a Ukrainian-built system is already shooting down Russia's S8000 'Banderol' missile-drones at below-target cost",
+       "titleNl": "Brave1: Oekraïens systeem haalt Russische S8000 'Banderol'-raketdrones al neer, goedkoper dan het doelwit",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "missiles",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T15:14:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "Op 7 september 2026 meldde Brave1, het door de Oekraïense staat gesteunde defensietechnologiecluster, dat een systeem van een van zijn deelnemende bedrijven al Russische S8000-raketdrones van het type «Banderol» (een kleine straalaangedreven kruisraket) neerhaalt. Brave1 noemt het systeem niet bij naam en maakt het we…",
+       "enSummary": "On 7 September 2026, Brave1, Ukraine's state-backed defence-technology cluster, said that a system developed by one of its member companies is already shooting down Russian S8000 «Banderol» missile-drones (a small turbojet-powered cruise missile). Brave1 did not name the system or disclose its operating principle or t…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/07/8052308",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260903-06",
        "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
@@ -2912,36 +3061,40 @@
        "sourceUrl": "https://armyinform.com.ua/2026/08/25/syly-oborony-urazyly-vynyshhuvach-mig-29-u-rostovskij-oblasti-kompleksy-reb-ta-sklady-okupantiv-genshtab",
        "sourceCount": 2,
        "signals": []
-      },
-      {
-       "id": "e-20260825-s03",
-       "title": "Polish Ministry of National Defense Admits Continued MiG-29 Operation Is Dangerous Amid Stalled Drone-Tech Exchange with Ukraine",
-       "titleNl": "Pools ministerie van Defensie erkent dat verder gebruik van MiG-29's gevaarlijk is, te midden van vastgelopen droneruil met Oekraïne",
-       "category": "weapon",
-       "topics": [
-        "airforce"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-08-22T17:01:33.000Z",
-       "updatedAt": "2026-08-25T05:13:20.000Z",
-       "nlSummary": "SINGLE SOURCE — Defense Express (Oekraïense defensiemedia). Het Poolse ministerie van Nationale Defensie heeft in een formele reactie erkend dat het in stand houden van zijn resterende MiG-29-jachtvliegtuigen risico's met zich meebrengt. Volgens de verklaring is het \"door de voortdurende ontwikkeling van operationele…",
-       "enSummary": "SINGLE SOURCE — Defense Express (Ukrainian defense media). Poland's Ministry of National Defense has acknowledged, in a formal response, that maintaining its remaining MiG-29 fighter jets carries risk. Per the statement, \"due to the constant development of target operational standards and the lack of a source of spare…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOb0hjRnZKSlhZdzd1WVBzaksyOV9ka3JHM3VreDMzQmVrclBTNkk4ZkVVU0l1VHlab0NWQV9oSlRuUlM1ZS1xSDJLX3lpLW5oSkpFSXBkMGk3ZnU4YTh1Q3FLajF0TFNwSk1WSkZEclRKR1dWTVhZbHF0RlRiZGJuWWRhZ0VhSjBkSWJESlhEMnViQ1E0VEw4aDJValRwM25fbWVLbndGNjRaclg2MkpITDZfLWFZZUpOaHZheWhmckJxQm5xd2VaMEZKcVo4T1prOVpoOXg3LWM1aHdhWmRnTmtYMnNpUU9GMjVpUHlfNnIzMUM2ckh3dGEwbmdSMlRQVllrU21jN0FlVlFWdWJn?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "deploy"
-       ]
       }
      ]
     },
     "su57": {
      "name": "Su-57",
      "nameEn": "Su-57",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260908-09",
+       "title": "Russia markets 'combat-proven' weapons for export at Egypt's El Alamein Airshow, claims new Su-57E deals",
+       "titleNl": "Rusland vermarkt 'in de strijd bewezen' wapens voor export op de El Alamein-airshow in Egypte, claimt nieuwe Su-57E-deals",
+       "category": "org",
+       "topics": [
+        "airforce",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T09:45:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "In aanloop naar de El Alamein International Airshow (EIA 2026, Egypte, 8–10 september) zetten het Russische staatsexportbedrijf Rosoboronexport en de Verenigde Vliegtuigbouwcorporatie (OAK) een verkoopoffensief op rond wapensystemen die volgens Moskou \"in de strijd bewezen\" zijn in Oekraïne. Rosoboronexport-directeur…",
+       "enSummary": "Ahead of the El Alamein International Airshow (EIA 2026, Egypt, 8–10 September), Russia's state arms exporter Rosoboronexport and the United Aircraft Corporation (UAC) mounted a sales push built around systems Moscow calls \"combat-proven\" in Ukraine. Rosoboronexport CEO Alexander Mikheyev said on 7 September that Russ…",
+       "sourceUrl": "https://defence-blog.com/russia-claims-new-su-57-export-deals-ahead-of-egypt-airshow",
+       "sourceCount": 5,
+       "signals": [
+        "loss",
+        "variant",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260901-03",
        "title": "Russia details two-seat Su-57D role: back-seater to control S-70 Okhotnik and drone groups",
@@ -3261,9 +3414,33 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 19,
+     "total": 20,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260908-04",
+       "title": "RUSI analysis argues Russia's most dangerous military adaptation is battlefield recovery, not any new weapon",
+       "titleNl": "RUSI-analyse: Ruslands gevaarlijkste militaire aanpassing is herstelvermogen op het slagveld, niet een nieuw wapen",
+       "category": "ttp",
+       "topics": [
+        "doctrine",
+        "logistics",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-07T10:32:00.000Z",
+       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "nlSummary": "In een commentaar voor RUSI betoogt Rusland-analist Roger N. McDermott dat de belangrijkste Russische militaire aanpassing sinds 2022 niet een nieuw wapen of platform is, maar het vermogen om aangetaste functies — commandovoering, doelbestrijding en logistiek — te herstellen terwijl de operatie doorloopt. In plaats va…",
+       "enSummary": "In a commentary for RUSI, Russia analyst Roger N. McDermott argues that Russia's most consequential military adaptation since 2022 is not a new weapon or platform but the ability to restore degraded functions — command, targeting and logistics — while operations continue. Rather than collapsing outright when disrupted…",
+       "sourceUrl": "https://www.rusi.org/explore-our-research/publications/commentary/russias-most-dangerous-military-adaptation-recovery",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260907-04",
        "title": "Ukraine's Unmanned Systems Forces claims 58,465 Russian targets hit in August, with three named campaigns doing the strategic damage",
@@ -3384,30 +3561,6 @@
        "sourceCount": 6,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260907-05",
-       "title": "OSINT: Russia builds 21 shore shelters for uncrewed attack boats at Lake Donuzlav, Crimea",
-       "titleNl": "OSINT: Rusland bouwt 21 oeverschuilplaatsen voor onbemande aanvalsboten bij het Donuzlav-meer op de Krim",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "navy",
-        "fortifications"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-01T00:00:00.000Z",
-       "updatedAt": "2026-09-07T09:00:00.000Z",
-       "nlSummary": "Rond 1 september 2026 publiceerde de Oekraïense OSINT-groep CyberBoroshno een analyse van satellietbeelden van het Donuzlav-meer in het westen van de Krim; het Russische medium Topwar nam die analyse op 7 september over. Op de zuidoever, bij Novoozjornoje en Mirny, zijn volgens de analyse 21 schuilplaatsen voor kleine…",
-       "enSummary": "Around 1 September 2026 the Ukrainian OSINT group CyberBoroshno published an analysis of satellite imagery of Lake Donuzlav in western Crimea; the Russian outlet Topwar relayed the analysis on 7 September. On the southern shore, near Novoozyornoye and Mirny, the analysis identifies 21 shelters for small craft — boat s…",
-       "sourceUrl": "https://topwar.ru/289197-donuzlav-21-ukrytie-dlja-katerov-prizrakov.html",
-       "sourceCount": 3,
-       "signals": [
-        "deploy",
-        "scale"
        ]
       }
      ]
