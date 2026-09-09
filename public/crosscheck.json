@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-08T04:50:19.041Z",
- "analysisUpdated": "2026-09-08T09:00:00.000Z",
+ "updated": "2026-09-09T06:09:11.578Z",
+ "analysisUpdated": "2026-09-09T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 220,
-  "cardsWithHits": 49,
-  "matches": 268
+  "entriesConsidered": 232,
+  "cardsWithHits": 51,
+  "matches": 280
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,33 +23,51 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 30,
-     "signalCount": 6,
+     "total": 32,
+     "signalCount": 5,
      "entries": [
       {
-       "id": "e-20260908-02",
-       "title": "Developer reveals upgraded specs for Ukraine's \"Bars\" jet strike drone (up to 1,000 km, 60 kg payload); production to move to Europe",
-       "titleNl": "Ontwikkelaar onthult verbeterde specs van Oekraïense \"Bars\" straaldrone (tot 1.000 km, lading 60 kg); productie verhuist naar Europa",
-       "category": "weapon",
+       "id": "e-20260909-03",
+       "title": "Suspected Russian Shahed-type drone violates Moldovan and Romanian airspace, crashes in Moldova",
+       "titleNl": "Vermoedelijke Russische Shahed-drone schendt Moldavisch en Roemeens luchtruim en stort neer in Moldavië",
+       "category": "ttp",
        "topics": [
         "drones",
-        "missiles",
-        "logistics"
+        "air-defense",
+        "airforce"
        ],
        "stream": "verified",
        "origin": null,
        "significance": 2,
-       "publishedAt": "2026-09-07T17:08:00.000Z",
-       "updatedAt": "2026-09-08T09:00:00.000Z",
-       "nlSummary": "De ontwikkelaar van de Oekraïense \"Bars\", een straalaangedreven langeafstands-aanvalsdrone (feitelijk een drone-raket voor diepe slagen in Rusland), heeft op 7 september 2026 bijgewerkte prestatiecijfers vrijgegeven. De nieuwste versie zou een bereik hebben tot 1.000 km en een lading dragen tot 60 kg, tegen eerder 700…",
-       "enSummary": "The developer of Ukraine's \"Bars\", a jet-powered long-range attack drone (effectively a drone-missile for deep strikes into Russia), released updated performance figures on 7 September 2026. The latest version is said to reach up to 1,000 km and carry a payload of up to 60 kg, against a previous 700 km and 22.5 kg, wi…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/07/8052331/",
+       "publishedAt": "2026-09-08T16:20:00.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Op 8 september 2026 schond een onbemand luchtvaartuig het luchtruim van zowel Moldavië als NAVO-lid Roemenië, om vervolgens neer te storten op Moldavisch grondgebied. Volgens het Moldavische ministerie van Defensie detecteerden de luchtbewakingssystemen de drone om 16.20 uur lokale tijd toen die vanuit de richting van…",
+       "enSummary": "On 8 September 2026 an uncrewed aerial vehicle violated the airspace of both Moldova and NATO member Romania before crashing on Moldovan soil. According to Moldova's Defence Ministry, air surveillance systems detected the drone at 4:20 p.m. local time as it entered the country from the direction of Ukraine. The milita…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/08/8052485/",
+       "sourceCount": 2,
+       "signals": []
+      },
+      {
+       "id": "e-20260909-09",
+       "title": "Russian Shahed drone strikes 'We Are Ukraine' TV newsroom in Kyiv in daylight, during a live United News broadcast",
+       "titleNl": "Russische Shahed-drone treft nieuwsredactie van tv-zender 'Мы — Украина' in Kyiv overdag, tijdens live Yedyni Novyny-uitzending",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "doctrine",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-08T11:32:47.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Op 8 september 2026 trof een Russische Shahed-drone rond het middaguur de kantoren in Kyiv van de tv-zenders Мы — Украина (My-Ukraina) en My-Ukraina+ in het district Solomjanskyj. De inslag raakte de nieuwsredactie en werkkamers terwijl de zender live in de ether was met de gezamenlijke nationale nieuwsuitzending Yedy…",
+       "enSummary": "On 8 September 2026, a Russian Shahed drone struck the Kyiv premises of the television channels Мы — Украина (My-Ukraina) and My-Ukraina+ around midday in the Solomianskyi district. The impact hit the newsroom and staff offices while the channel was live on air with Yedyni Novyny (United News), the joint national news…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/08/a-russian-drone-hit-a-kyiv-television-newsroom-while-the-channel-was-live-on-air-in-the-middle-of-the-day/",
        "sourceCount": 2,
        "signals": [
-        "variant",
-        "deploy",
-        "perf",
-        "scale"
+        "loss"
        ]
       },
       {
@@ -73,6 +91,32 @@
        "signals": [
         "deploy",
         "scale"
+       ]
+      },
+      {
+       "id": "e-20260909-s02",
+       "title": "Defense Express: how fast a cheap interceptor missile against jet drones can reach production — the Frankenburg case",
+       "titleNl": "Defense Express: hoe snel een goedkope interceptorraket tegen straaldrones in productie kan komen — de casus Frankenburg",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones",
+        "missiles",
+        "logistics"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-06T21:47:01.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Defense Express gebruikt de Estse defensiestartup Frankenburg Technologies (opgericht in 2024, gefinancierd met circa 40 miljoen euro na een Series A van 30 miljoen in februari 2026) als voorbeeld van hoe snel een goedkope interceptorraket tegen straalaangedreven aanvalsdrones van idee naar serieproductie kan gaan. He…",
+       "enSummary": "Defense Express uses the Estonian defense startup Frankenburg Technologies (founded 2024, backed by roughly €40 million after a €30 million Series A in February 2026) as a case study in how quickly a cheap interceptor missile against jet-powered attack drones can go from idea to serial production. The product is the M…",
+       "sourceUrl": "https://en.defence-ua.com/industries/how_fast_can_cheap_interceptor_missile_against_jet_powered_drones_go_from_idea_to_production_the_frankenburg_example-19699.html",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "scale",
+        "counter"
        ]
       },
       {
@@ -121,65 +165,64 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260904-s01",
-       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
-       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-04T01:28:25.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
-       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
-       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
-       "sourceCount": 2,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260904-06",
-       "title": "Russia uses long-range Gerans as motherships for two wing-mounted FPV drones released deep inside Ukraine; effectiveness disputed",
-       "titleNl": "Rusland gebruikt langeafstands-Gerans als moederschip voor twee vleugelgemonteerde FPV-drones die diep in Oekraïne worden losgelaten; effectiviteit betwist",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-03T14:26:47.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
-       "nlSummary": "Rusland bevestigt twee kleine FPV-aanvalsdrones aan de vleugels van zijn langeafstands-Geran-2 (de in eigen land gebouwde Shahed-136-loiteringmunitie) en laat ze los zodra het draagtoestel diep in Oekraïens gebied is, ver achter de frontlijn. Omdat een Geran honderden kilometers kan vliegen, fungeert hij als vliegend…",
-       "enSummary": "Russia has been fixing two small FPV attack drones to the wings of its long-range Geran-2 (the domestically built Shahed-136 loitering munition) and releasing them once the carrier is deep inside Ukrainian territory, far behind the front line. Because a Geran can fly hundreds of kilometres, it acts as an airborne 'mot…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/03/russia-straps-two-small-attack-drones-to-wings-of-its-long-range-gerans-and-releases-them-deep-inside-ukraine-it-rarely-works-flash-says",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 9,
+     "total": 11,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260909-02",
+       "title": "HUR: Russia failed to substitute Western chips in the Kinzhal missile and reverted to US-made processors",
+       "titleNl": "HUR: Rusland slaagde er niet in westerse chips in de Kinzjal-raket te vervangen en keerde terug naar Amerikaanse processoren",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-08T16:23:20.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Volgens Vladyslav Vlasjoek, de gevolmachtigde van de Oekraïense president voor sanctiebeleid, is de Russische poging om westerse microchips in de Kh-47M2 Kinzjal-raket te vervangen door binnenlandse alternatieven mislukt. In 2023 probeerde het Russische militair-industriële complex op grote schaal Amerikaanse processo…",
+       "enSummary": "According to Vladyslav Vlasiuk, the Ukrainian president's commissioner for sanctions policy, Russia's effort to substitute Western microelectronics in the Kh-47M2 Kinzhal missile with domestic chips has failed. In 2023 the Russian defence industry attempted a mass replacement of American Texas Instruments processors w…",
+       "sourceUrl": "https://militarnyi.com/en/news/russia-kinzhal-missiles-american-processors/",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260909-s02",
+       "title": "Defense Express: how fast a cheap interceptor missile against jet drones can reach production — the Frankenburg case",
+       "titleNl": "Defense Express: hoe snel een goedkope interceptorraket tegen straaldrones in productie kan komen — de casus Frankenburg",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones",
+        "missiles",
+        "logistics"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-06T21:47:01.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Defense Express gebruikt de Estse defensiestartup Frankenburg Technologies (opgericht in 2024, gefinancierd met circa 40 miljoen euro na een Series A van 30 miljoen in februari 2026) als voorbeeld van hoe snel een goedkope interceptorraket tegen straalaangedreven aanvalsdrones van idee naar serieproductie kan gaan. He…",
+       "enSummary": "Defense Express uses the Estonian defense startup Frankenburg Technologies (founded 2024, backed by roughly €40 million after a €30 million Series A in February 2026) as a case study in how quickly a cheap interceptor missile against jet-powered attack drones can go from idea to serial production. The product is the M…",
+       "sourceUrl": "https://en.defence-ua.com/industries/how_fast_can_cheap_interceptor_missile_against_jet_powered_drones_go_from_idea_to_production_the_frankenburg_example-19699.html",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260904-s01",
        "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
@@ -279,52 +322,6 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes climb further; Ukraine posts full August tally and reorganises Close Air Defence under a combat colonel",
-       "titleNl": "Straalaangedreven Shahed-aanvallen stijgen verder; Oekraïne publiceert volledige augustus-balans en reorganiseert de nabijluchtverdediging",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
-       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
-       "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 11,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260825-11",
-       "title": "Russian drone hits residential building in Chernihiv: 8 injured, fire being extinguished",
-       "titleNl": "Russische drone raakt woongebouw in Tsjernihiv: 8 gewonden, brand wordt geblust",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T09:29:00.000Z",
-       "updatedAt": "2026-08-25T07:00:00.000Z",
-       "nlSummary": "Op de middag van 24 augustus 2026 — de Oekraïense Onafhankelijkheidsdag — sloeg een Russische, straalgedreven (jet-aangedreven) drone in op een woongebouw met meerdere verdiepingen in Tsjernihiv. Volgens het eerste bericht van Ukrainska Pravda (Engelstalige editie, 09:29 UTC) raakten acht mensen gewond en blusten hulp…",
-       "enSummary": "On the afternoon of 24 August 2026 — Ukraine's Independence Day — a Russian jet-powered drone struck a multi-story residential building in Chernihiv. According to the initial report from Ukrainska Pravda's English edition (published 09:29 UTC), eight people were injured, and emergency services extinguished a fire that…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/24/8050036",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -342,21 +339,24 @@
        "topics": [
         "airforce",
         "drones",
-        "missiles"
+        "missiles",
+        "artillery"
        ],
        "stream": "verified",
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-09-07T09:45:00.000Z",
-       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
        "nlSummary": "In aanloop naar de El Alamein International Airshow (EIA 2026, Egypte, 8–10 september) zetten het Russische staatsexportbedrijf Rosoboronexport en de Verenigde Vliegtuigbouwcorporatie (OAK) een verkoopoffensief op rond wapensystemen die volgens Moskou \"in de strijd bewezen\" zijn in Oekraïne. Rosoboronexport-directeur…",
        "enSummary": "Ahead of the El Alamein International Airshow (EIA 2026, Egypt, 8–10 September), Russia's state arms exporter Rosoboronexport and the United Aircraft Corporation (UAC) mounted a sales push built around systems Moscow calls \"combat-proven\" in Ukraine. Rosoboronexport CEO Alexander Mikheyev said on 7 September that Russ…",
        "sourceUrl": "https://defence-blog.com/russia-claims-new-su-57-export-deals-ahead-of-egypt-airshow",
-       "sourceCount": 5,
+       "sourceCount": 7,
        "signals": [
         "loss",
         "variant",
-        "scale"
+        "perf",
+        "scale",
+        "counter"
        ]
       },
       {
@@ -818,21 +818,24 @@
        "topics": [
         "airforce",
         "drones",
-        "missiles"
+        "missiles",
+        "artillery"
        ],
        "stream": "verified",
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-09-07T09:45:00.000Z",
-       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
        "nlSummary": "In aanloop naar de El Alamein International Airshow (EIA 2026, Egypte, 8–10 september) zetten het Russische staatsexportbedrijf Rosoboronexport en de Verenigde Vliegtuigbouwcorporatie (OAK) een verkoopoffensief op rond wapensystemen die volgens Moskou \"in de strijd bewezen\" zijn in Oekraïne. Rosoboronexport-directeur…",
        "enSummary": "Ahead of the El Alamein International Airshow (EIA 2026, Egypt, 8–10 September), Russia's state arms exporter Rosoboronexport and the United Aircraft Corporation (UAC) mounted a sales push built around systems Moscow calls \"combat-proven\" in Ukraine. Rosoboronexport CEO Alexander Mikheyev said on 7 September that Russ…",
        "sourceUrl": "https://defence-blog.com/russia-claims-new-su-57-export-deals-ahead-of-egypt-airshow",
-       "sourceCount": 5,
+       "sourceCount": 7,
        "signals": [
         "loss",
         "variant",
-        "scale"
+        "perf",
+        "scale",
+        "counter"
        ]
       },
       {
@@ -1329,9 +1332,33 @@
     "ew-spoof": {
      "name": "EW / spoofing tegen UAS",
      "nameEn": "EW / spoofing tegen UAS",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260909-s01",
+       "title": "Defense Express: Germany only now seeks anti-satellite / GNSS-jamming capability, years into Russia's Kaliningrad spoofing",
+       "titleNl": "Defense Express: Duitsland zoekt pas nu naar anti-satelliet-/GNSS-stoorcapaciteit, jaren na Russische spoofing vanuit Kaliningrad",
+       "category": "ttp",
+       "topics": [
+        "ew",
+        "command",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-08T17:03:51.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Defense Express meldt dat de Bundeswehr het Duitse ruimteagentschap opdracht heeft gegeven marktonderzoek te doen naar elektronische-oorlogvoeringssystemen die satellietnavigatie- en communicatiesignalen kunnen onderdrukken. De eisen omvatten het storen van satellieten in lage, middelhoge en geostationaire banen, dekk…",
+       "enSummary": "Defense Express reports that the Bundeswehr has tasked the German Space Agency with conducting market research for electronic warfare systems able to suppress satellite navigation and communications signals. The stated requirements cover jamming satellites in low, medium and geostationary orbits, coverage for a brigad…",
+       "sourceUrl": "https://en.defence-ua.com/news/germany_only_now_seeks_anti_satellite_jamming_despite_russias_gps_spoofing_from_kaliningrad_for_years-19716.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260904-05",
        "title": "Ukrainian brigade trials 'Serval Cube' anti-drone EW dome, claims it suppressed every drone in a combat-like test",
@@ -1653,6 +1680,39 @@
       }
      ]
     },
+    "killchain": {
+     "name": "Kill chain",
+     "nameEn": "Kill chain",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260909-05",
+       "title": "Ukraine reveals RAM-2X loitering munition, credited with 450+ strikes — most against Russian air defenses",
+       "titleNl": "Oekraïne onthult RAM-2X-loitering munition, toegeschreven aan 450+ treffers — vooral op Russische luchtverdediging",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-08T17:08:26.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Oekraïne heeft de RAM-2X onthuld, een X-vormige loitering munition (rondzwevende aanvalsdrone) van fabrikant Ukrspecsystems, die tot nu toe grotendeels buiten de publiciteit werd gehouden. Het systeem werd op de MSPO-defensiebeurs in Polen (september 2026) publiek gepresenteerd. Volgens de fabrikant staan er ruim 450…",
+       "enSummary": "Ukraine has publicly revealed the RAM-2X, an X-winged loitering munition made by Ukrspecsystems that had until now been kept largely out of public view. The drone was unveiled at the MSPO defense expo in Poland in September 2026 after being treated as classified. Ukrspecsystems credits the broader RAM family with more…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/08/a-ukrainian-strike-drone-that-quietly-hit-450-plus-russian-targets-steps-out-of-the-shadows/",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      }
+     ]
+    },
     "geoscan701": {
      "name": "Geoscan 701",
      "nameEn": "Geoscan 701",
@@ -1866,6 +1926,38 @@
       }
      ]
     },
+    "sa20": {
+     "name": "S-300P (SA-20)",
+     "nameEn": "S-300P (SA-20)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260909-01",
+       "title": "Ukraine unveils home-built 'Koral' air-defense missile with claimed anti-ballistic role at MSPO 2026",
+       "titleNl": "Oekraïne toont eigen luchtverdedigingsraket 'Koral' met geclaimde anti-ballistische rol op MSPO 2026",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-08T13:27:43.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Op de defensiebeurs MSPO 2026 in het Poolse Kielce (8–11 september 2026) toonde Oekraïne voor het eerst publiekelijk zijn zelf ontwikkelde luchtverdedigingsraket \"Koral\" (ook geschreven als \"Coral\"; Oekraïens Корал), samen met een lanceerconcept. Het staatsdefensieconglomeraat Ukroboronprom publiceerde een beeld van e…",
+       "enSummary": "At Poland's MSPO 2026 defense exhibition in Kielce (8–11 September 2026), Ukraine publicly displayed its domestically developed \"Koral\" (also spelled \"Coral\"; Ukrainian Корал) surface-to-air missile for the first time, alongside a launcher concept. State defense conglomerate Ukroboronprom released an image showing a m…",
+       "sourceUrl": "https://militarnyi.com/en/news/ukraine-coral-air-defense-for-first-time/",
+       "sourceCount": 3,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      }
+     ]
+    },
     "sa23": {
      "name": "S-300V4 (SA-23)",
      "nameEn": "S-300V4 (SA-23)",
@@ -1944,9 +2036,34 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 13,
+     "total": 14,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260909-06",
+       "title": "Ukraine's Defence Intelligence discloses 155 Ruselectronics enterprises supplying components for Russian weapons",
+       "titleNl": "Oekraïense militaire inlichtingendienst onthult 155 Roselektronika-bedrijven die componenten voor Russische wapens leveren",
+       "category": "org",
+       "topics": [
+        "missiles",
+        "drones",
+        "ew",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-08T08:35:00.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) heeft gegevens gepubliceerd over 155 ondernemingen die deel uitmaken van of worden beheerd door de holding Roselektronika, een dochterbedrijf van het Russische staatsconcern Rostec. De informatie is toegevoegd aan de sectie \"militair-industrieel complex van de agressor\"…",
+       "enSummary": "Ukraine's Defence Intelligence (HUR) has published data on 155 enterprises that are part of, or managed by, the Ruselectronics (Roselektronika) holding, a subsidiary of Russia's state corporation Rostec. The information was added to the \"aggressor's military-industrial complex\" section of HUR's War&Sanctions portal. T…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/08/8052395/",
+       "sourceCount": 1,
+       "signals": [
+        "scale"
+       ]
+      },
       {
        "id": "e-20260907-01",
        "title": "Ukraine hits Ryazan refinery, Rostov airfield and air-defence radar in 5–6 September strike wave; satellite imagery confirms helicopter losses at Sochi",
@@ -2064,29 +2181,6 @@
        "signals": [
         "loss",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260901-06",
-       "title": "Ukraine's General Staff reports strikes on an S-400 command vehicle and radar in Bryansk Oblast, 30-31 August",
-       "titleNl": "Oekraïense generale staf meldt aanvallen op een S-400-commandovoertuig en radar in oblast Brjansk, 30-31 augustus",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-31T09:31:59.000Z",
-       "updatedAt": "2026-09-01T09:00:00.000Z",
-       "nlSummary": "De Oekraïense generale staf meldde op 31 augustus 2026 dat de Defensietroepen in het afgelopen etmaal en de nacht van 30 op 31 augustus een reeks Russische doelen troffen, met de nadruk op luchtverdediging. In de oblast Brjansk zou een radarstation bij Desnjansky zijn geraakt en, apart, een commando- en stafvoertuig (…",
-       "enSummary": "Ukraine's General Staff reported on 31 August 2026 that over the previous day and the night of 30-31 August its Defence Forces struck a series of Russian targets, with an emphasis on air defence. In Bryansk Oblast a radar station near Desnyansky was reportedly hit and, separately, a command-and-staff vehicle (KShM) fr…",
-       "sourceUrl": "https://armyinform.com.ua/2026/08/31/syly-oborony-urazyly-rls-systemu-ppo-ta-komandno-shtabnu-mashynu-okupantiv",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -2655,9 +2749,34 @@
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
-     "total": 5,
-     "signalCount": 5,
+     "total": 6,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260909-06",
+       "title": "Ukraine's Defence Intelligence discloses 155 Ruselectronics enterprises supplying components for Russian weapons",
+       "titleNl": "Oekraïense militaire inlichtingendienst onthult 155 Roselektronika-bedrijven die componenten voor Russische wapens leveren",
+       "category": "org",
+       "topics": [
+        "missiles",
+        "drones",
+        "ew",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-08T08:35:00.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) heeft gegevens gepubliceerd over 155 ondernemingen die deel uitmaken van of worden beheerd door de holding Roselektronika, een dochterbedrijf van het Russische staatsconcern Rostec. De informatie is toegevoegd aan de sectie \"militair-industrieel complex van de agressor\"…",
+       "enSummary": "Ukraine's Defence Intelligence (HUR) has published data on 155 enterprises that are part of, or managed by, the Ruselectronics (Roselektronika) holding, a subsidiary of Russia's state corporation Rostec. The information was added to the \"aggressor's military-industrial complex\" section of HUR's War&Sanctions portal. T…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/08/8052395/",
+       "sourceCount": 1,
+       "signals": [
+        "scale"
+       ]
+      },
       {
        "id": "e-20260908-07",
        "title": "Two Russian Su-35S fighters reported lost in a mid-air collision over Kursk Oblast",
@@ -3078,21 +3197,24 @@
        "topics": [
         "airforce",
         "drones",
-        "missiles"
+        "missiles",
+        "artillery"
        ],
        "stream": "verified",
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-09-07T09:45:00.000Z",
-       "updatedAt": "2026-09-08T09:00:00.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
        "nlSummary": "In aanloop naar de El Alamein International Airshow (EIA 2026, Egypte, 8–10 september) zetten het Russische staatsexportbedrijf Rosoboronexport en de Verenigde Vliegtuigbouwcorporatie (OAK) een verkoopoffensief op rond wapensystemen die volgens Moskou \"in de strijd bewezen\" zijn in Oekraïne. Rosoboronexport-directeur…",
        "enSummary": "Ahead of the El Alamein International Airshow (EIA 2026, Egypt, 8–10 September), Russia's state arms exporter Rosoboronexport and the United Aircraft Corporation (UAC) mounted a sales push built around systems Moscow calls \"combat-proven\" in Ukraine. Rosoboronexport CEO Alexander Mikheyev said on 7 September that Russ…",
        "sourceUrl": "https://defence-blog.com/russia-claims-new-su-57-export-deals-ahead-of-egypt-airshow",
-       "sourceCount": 5,
+       "sourceCount": 7,
        "signals": [
         "loss",
         "variant",
-        "scale"
+        "perf",
+        "scale",
+        "counter"
        ]
       },
       {
@@ -3414,9 +3536,58 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 20,
+     "total": 22,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260909-05",
+       "title": "Ukraine reveals RAM-2X loitering munition, credited with 450+ strikes — most against Russian air defenses",
+       "titleNl": "Oekraïne onthult RAM-2X-loitering munition, toegeschreven aan 450+ treffers — vooral op Russische luchtverdediging",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-08T17:08:26.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Oekraïne heeft de RAM-2X onthuld, een X-vormige loitering munition (rondzwevende aanvalsdrone) van fabrikant Ukrspecsystems, die tot nu toe grotendeels buiten de publiciteit werd gehouden. Het systeem werd op de MSPO-defensiebeurs in Polen (september 2026) publiek gepresenteerd. Volgens de fabrikant staan er ruim 450…",
+       "enSummary": "Ukraine has publicly revealed the RAM-2X, an X-winged loitering munition made by Ukrspecsystems that had until now been kept largely out of public view. The drone was unveiled at the MSPO defense expo in Poland in September 2026 after being treated as classified. Ukrspecsystems credits the broader RAM family with more…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/08/a-ukrainian-strike-drone-that-quietly-hit-450-plus-russian-targets-steps-out-of-the-shadows/",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260909-s01",
+       "title": "Defense Express: Germany only now seeks anti-satellite / GNSS-jamming capability, years into Russia's Kaliningrad spoofing",
+       "titleNl": "Defense Express: Duitsland zoekt pas nu naar anti-satelliet-/GNSS-stoorcapaciteit, jaren na Russische spoofing vanuit Kaliningrad",
+       "category": "ttp",
+       "topics": [
+        "ew",
+        "command",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-08T17:03:51.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Defense Express meldt dat de Bundeswehr het Duitse ruimteagentschap opdracht heeft gegeven marktonderzoek te doen naar elektronische-oorlogvoeringssystemen die satellietnavigatie- en communicatiesignalen kunnen onderdrukken. De eisen omvatten het storen van satellieten in lage, middelhoge en geostationaire banen, dekk…",
+       "enSummary": "Defense Express reports that the Bundeswehr has tasked the German Space Agency with conducting market research for electronic warfare systems able to suppress satellite navigation and communications signals. The stated requirements cover jamming satellites in low, medium and geostationary orbits, coverage for a brigad…",
+       "sourceUrl": "https://en.defence-ua.com/news/germany_only_now_seeks_anti_satellite_jamming_despite_russias_gps_spoofing_from_kaliningrad_for_years-19716.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260908-04",
        "title": "RUSI analysis argues Russia's most dangerous military adaptation is battlefield recovery, not any new weapon",
@@ -3514,63 +3685,39 @@
         "deploy",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260906-08",
-       "title": "Ukraine claims deep strikes on Russian EW and radar nodes in Bryansk Oblast; National Guard says drones destroyed a rare Zhitel jammer 55 km behind the front",
-       "titleNl": "Oekraïne claimt diepteslagen op Russische EOV- en radarsystemen in oblast Brjansk; Nationale Garde zegt zeldzame Zhitel-stoorzender op 55 km achter het front te hebben vernietigd",
-       "category": "ttp",
-       "topics": [
-        "ew",
-        "drones",
-        "command"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-05T08:24:00.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "Op 4 september 2026 meldde de Oekraïense generale staf dat Oekraïense strijdkrachten drie Russische systemen hebben getroffen in de oblast Brjansk, diep op Russisch grondgebied: een radarstation bij Kartoesjyne, een complex voor elektronische oorlogvoering (REB/EOV) bij Pogar en een signaalrelais (retranslator) voor e…",
-       "enSummary": "On 4 September 2026 Ukraine's General Staff said Ukrainian defence forces had struck three Russian assets in Bryansk Oblast, well inside Russian territory: a radar station near Kartushyne, an electronic-warfare complex near Pogar, and a signal repeater for a military MESH network at Zlynka. Ukrainian state outlet Army…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/05/8052017",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260905-12",
-       "title": "Ukrainian drones hit Sochi-area fuel depots and an air-defense position, grounding 100+ flights",
-       "titleNl": "Oekraïense drones treffen brandstofdepots en een luchtverdedigingsstelling bij Sotsji, 100+ vluchten getroffen",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-04T06:57:09.000Z",
-       "updatedAt": "2026-09-05T09:00:00.000Z",
-       "nlSummary": "Los van de USV-aanval op de Nefrit in de haven van Sochi op 3 september (zie aparte entry) troffen Oekraïense aanvalsdrones in de nacht van 3 op 4 september een reeks doelen rond Groot-Sotsji: onafhankelijke monitor Astra en OSINT-analisten (CyberBoroshno) meldden branden bij twee beschermde brandstofdepots — Rosneft-…",
-       "enSummary": "Separate from the USV strike on the Nefrit at Sochi port on 3 September (see separate entry), Ukrainian attack drones struck a cluster of targets around Greater Sochi overnight from 3 to 4 September: independent monitor Astra and OSINT analysts (CyberBoroshno) reported fires at two protected fuel depots — Rosneft-Kuba…",
-       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-drones-strike-russian-air-defense-position-in-sochi/",
-       "sourceCount": 6,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 5,
-     "signalCount": 5,
+     "total": 6,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260909-s01",
+       "title": "Defense Express: Germany only now seeks anti-satellite / GNSS-jamming capability, years into Russia's Kaliningrad spoofing",
+       "titleNl": "Defense Express: Duitsland zoekt pas nu naar anti-satelliet-/GNSS-stoorcapaciteit, jaren na Russische spoofing vanuit Kaliningrad",
+       "category": "ttp",
+       "topics": [
+        "ew",
+        "command",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-08T17:03:51.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Defense Express meldt dat de Bundeswehr het Duitse ruimteagentschap opdracht heeft gegeven marktonderzoek te doen naar elektronische-oorlogvoeringssystemen die satellietnavigatie- en communicatiesignalen kunnen onderdrukken. De eisen omvatten het storen van satellieten in lage, middelhoge en geostationaire banen, dekk…",
+       "enSummary": "Defense Express reports that the Bundeswehr has tasked the German Space Agency with conducting market research for electronic warfare systems able to suppress satellite navigation and communications signals. The stated requirements cover jamming satellites in low, medium and geostationary orbits, coverage for a brigad…",
+       "sourceUrl": "https://en.defence-ua.com/news/germany_only_now_seeks_anti_satellite_jamming_despite_russias_gps_spoofing_from_kaliningrad_for_years-19716.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260902-03",
        "title": "Ukraine's Kaban retrofit kit turns in-service vehicles — including an HMMWV — into uncrewed ground vehicles",
