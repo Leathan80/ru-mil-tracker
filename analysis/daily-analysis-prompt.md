@@ -128,9 +128,13 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
    - Caveat-zin nog terughoudender dan bij TASS/VM: benoem expliciet dat dit
      een persoonlijke/redactionele stem is, geen MoD-standpunt, en dat
      milbloggers onderling en met het MoD kunnen tegenspreken.
-   - Zolang deze bronnen op `enabled: false` staan in `sources.json` komen ze
-     niet vanzelf in feed/pretag — pas als ze op `enabled: true` gezet zijn
-     (na akkoord) hoort deze stap in de reguliere ronde mee.
+   - Deze vier bronnen staan sinds de pilot van augustus 2026 op
+     `enabled: true` in `sources.json` en lopen dus regulier mee in
+     feed/pretag; behandel ze elke ronde volgens de regels hierboven. Bij
+     het toevoegen van een nieuwe milblogger-bron: eerst `enabled: false`,
+     handmatig verifiëren op `t.me/s/<kanaal>`, en pas na akkoord aanzetten.
+     (`state: false` blijft staan — milbloggers zijn geen staatsmedia; dat
+     veld stuurt de routing naar de "Milbloggers"-tab.)
 
 5. **Cross-feed naar Adepti**: entries met `syndicate: true` verschijnen
    automatisch op adepti-academy.nl via de widget in `Adepti/current-intel.html`
