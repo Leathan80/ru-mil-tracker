@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-10T04:55:53.545Z",
- "analysisUpdated": "2026-09-10T09:00:00.000Z",
+ "updated": "2026-09-10T10:42:35.533Z",
+ "analysisUpdated": "2026-09-10T12:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 245,
+  "entriesConsidered": 251,
   "cardsWithHits": 51,
-  "matches": 302
+  "matches": 303
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -714,9 +714,31 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 4,
-     "signalCount": 3,
+     "total": 5,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260910-11",
+       "title": "Ukrainian EW monitor 'Flash' warns Russia is moving Molniya strike drones to digital video, blinding analog detectors",
+       "titleNl": "Oekraïense EW-monitor 'Flash' waarschuwt dat Rusland Molniya-aanvalsdrones op digitale video overzet en analoge detectoren blind maakt",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-09T21:49:36.000Z",
+       "updatedAt": "2026-09-10T12:00:00.000Z",
+       "nlSummary": "Volgens de Oekraïense EW-monitor Serhii \"Flash\" Beskrestnov (adviseur defensietechnologie van president Zelensky) rust Rusland zijn goedkope Molniya-aanvalsdrones steeds vaker uit met digitale videotransmissie in plaats van analoge. Wanneer die overgang voltooid is, worden de draagbare detectoren waarop Oekraïne nu le…",
+       "enSummary": "According to Ukrainian EW monitor Serhii \"Flash\" Beskrestnov (President Zelenskyy's defense-technology adviser), Russia is increasingly fitting its cheap Molniya strike drones with digital video transmission in place of analog. Once that transition is complete, the portable detectors Ukraine currently relies on for ea…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/10/russia-is-switching-its-cheap-molniya-strike-drones-to-digital-video-when-the-change-is-complete-ukraines-analog-detectors-go-blind-flash-warns",
+       "sourceCount": 1,
+       "signals": [
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260906-03",
        "title": "Ukraine fields \"Hrafit,\" a smartphone-based drone-warning system that pushes air-threat alerts to individual soldiers",
