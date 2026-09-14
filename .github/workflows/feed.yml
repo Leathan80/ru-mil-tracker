@@ -18,7 +18,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       # De dagelijkse analysetaak deployt vanaf de lokale machine, dus de live
       # site heeft altijd de nieuwste analysis.json/history.json. Die eerst
