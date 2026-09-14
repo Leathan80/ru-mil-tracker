@@ -104,19 +104,34 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
    (CyberLeninka bleef bij een check in 2026 steken op jaargang 2023) en zijn
    dus ook geen bruikbare live-bron.
 
-   Werkende aanpak: gebruik de Browser-tool (niet WebFetch — die weigert
-   web.archive.org en loopt vast op Google's consent-redirect) en zoek via
-   Google News RSS naar `"Военная мысль"` (evt. gecombineerd met een
-   verwacht onderwerp, bijv. een wapensysteem). VM zelf wordt zelden direct
-   geciteerd; nieuwe nummers duiken meestal een paar dagen later op via
-   Russische staatsmedia die er losse claims uit overnemen (Life.ru, TASS,
-   EADaily, NEWS.ru, Rambler e.d.) — zoek op zinsneden als `"Военная мысль"
-   номер` of citaten met een auteursnaam/functie. Navigeer met de Browser
-   naar de Google News RSS-link (`https://news.google.com/rss/search?q=...`);
-   bij een individueel artikel-item leidt `navigate` naar de item-URL vaak
-   via een korte JS-redirect alsnog naar het achterliggende artikel (even
-   `wait` en dan `javascript_tool` met `window.location.href` om de
-   uiteindelijke URL vast te leggen voor de sourceRef).
+   **Snelle peilbron: pressa-rf.ru.** De legale doorverkoper
+   `https://pressa-rf.ru/rucont/edition/317659/` (rucont-editie van VM) toont
+   een doorlopende lijst gekochte/beschikbare nummers per jaar (bijv. "2026:
+   №1 t/m №8"). Dit is WÉL bereikbaar via WebFetch (geen mil.ru-domein) en
+   geeft in één oogopslag het hoogste beschikbare nummer — dat is een
+   proxy voor "is de maand-X-editie al uit". Geen exacte publicatiedata,
+   dus dit vervangt de staatsmedia-check niet, maar is de snelste eerste
+   check: vraag via WebFetch simpelweg naar de hoogste vermelde 2026-
+   nummers, vóórdat je de tragere Google News/Browser-route induikt.
+
+   Werkende aanpak (als pressa-rf.ru een nieuw nummer suggereert, of om de
+   inhoud/claims te vinden): gebruik de Browser-tool (niet WebFetch — die
+   weigert web.archive.org en loopt vast op Google's consent-redirect) en
+   zoek via Google News RSS naar `"Военная мысль"` (evt. gecombineerd met
+   een verwacht onderwerp, bijv. een wapensysteem). VM zelf wordt zelden
+   direct geciteerd; nieuwe nummers duiken meestal een paar dagen later op
+   via Russische staatsmedia die er losse claims uit overnemen (Life.ru,
+   TASS, EADaily, NEWS.ru, Rambler e.d.) — zoek op zinsneden als
+   `"Военная мысль" номер` of citaten met een auteursnaam/functie. Let op:
+   losse hits op de generieke uitdrukking "военная мысль" (kleine letters,
+   "militaire gedachte") zijn vaak vals-positief — alleen `«Военная мысль»`
+   in aanhalingstekens of in combinatie met een tijdschrift-context telt.
+   Navigeer met de Browser naar de Google News RSS-link
+   (`https://news.google.com/rss/search?q=...`); bij een individueel
+   artikel-item leidt `navigate` naar de item-URL vaak via een korte
+   JS-redirect alsnog naar het achterliggende artikel (even `wait` en dan
+   `javascript_tool` met `window.location.href` om de uiteindelijke URL
+   vast te leggen voor de sourceRef).
 
    **Milblogger-bronnen** (Rybar, WarGonzo, Fighterbomber, Два майора — via
    `crawler/sources.json`-ids `tg-rybar`/`tg-wargonzo`/`tg-fighterbomber`/
