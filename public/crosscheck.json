@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-14T05:15:21.237Z",
- "analysisUpdated": "2026-09-14T07:00:00.000Z",
+ "updated": "2026-09-14T05:34:10.281Z",
+ "analysisUpdated": "2026-09-14T05:33:27.917Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 275,
+  "entriesConsidered": 284,
   "cardsWithHits": 51,
-  "matches": 326
+  "matches": 334
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -168,8 +168,8 @@
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 14,
-     "signalCount": 6,
+     "total": 15,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260914-s01",
@@ -192,6 +192,25 @@
         "deploy",
         "perf"
        ]
+      },
+      {
+       "id": "e-20260914-s03",
+       "title": "Rybar: 'Geran' drone campaign against Kyiv (20 Aug–10 Sep)",
+       "titleNl": "Rybar: Geran-dronecampagne tegen Kiev (20 aug–10 sep)",
+       "category": "ttp",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-12T10:59:44.000Z",
+       "updatedAt": "2026-09-14T13:00:00.000Z",
+       "nlSummary": "Rybar (pro-Russisch Telegram-milblogger-kanaal, geen officiële MoD-bron) claimt dat de 50e aparte brigade onbemande systemen 'Varyag' tussen 20 augustus en 10 september 2026 een systematische campagne voerde tegen Kiev en omgeving met Geran-4 'Siker' (reactieve/straalaangedreven variant) en Geran-5-drones, aangevoerd…",
+       "enSummary": "Rybar (a pro-Russian Telegram milblogger channel, not an official MoD source) claims that the 50th Separate Unmanned Systems Brigade 'Varyag' ran a systematic campaign against Kyiv and its surroundings between 20 August and 10 September 2026, using reactive/jet-powered Geran-4 'Siker' and Geran-5 drones flown along wh…",
+       "sourceUrl": "https://t.me/rybar/83094",
+       "sourceCount": 1,
+       "signals": []
       },
       {
        "id": "e-20260910-s02",
@@ -291,29 +310,6 @@
         "perf",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260914-s02",
-       "title": "WarGonzo cites FT: jet-powered 'Geran-4/5' drones reshape Russian air strikes",
-       "titleNl": "WarGonzo citeert FT: straalaangedreven 'Geran-4/5' veranderen karakter Russische luchtaanvallen",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-09-03T00:00:00.000Z",
-       "updatedAt": "2026-09-14T09:00:00.000Z",
-       "nlSummary": "Het Telegram-kanaal WarGonzo meldt dat de nieuwe straalaangedreven drones 'Geran-4' en 'Geran-5' het karakter van de Russische luchtaanvallen op Oekraïne merkbaar hebben veranderd. Het bericht is in feite een samenvatting van een artikel dat dezelfde dag (13 september 2026) door de Financial Times werd gepubliceerd. V…",
-       "enSummary": "The Telegram channel WarGonzo claims that the new jet-powered drones 'Geran-4' and 'Geran-5' have noticeably changed the character of Russia's air campaign against Ukraine. The post is effectively a summary of an article the Financial Times published the same day, 13 September 2026. According to that reporting, Ukrain…",
-       "sourceUrl": "https://t.me/wargonzo/36922",
-       "sourceCount": 3,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -1054,8 +1050,8 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 39,
-     "signalCount": 5,
+     "total": 41,
+     "signalCount": 6,
      "entries": [
       {
        "id": "e-20260914-06",
@@ -1078,6 +1074,56 @@
        "signals": [
         "variant",
         "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260914-s05",
+       "title": "Ukraine strikes two Pantsir-S1 systems, radar station, drone facilities and engine plant",
+       "titleNl": "Oekraïne raakt twee Pantsir-S1-systemen, radarstation, drone-faciliteiten en motorenfabriek",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-12T00:03:42.000Z",
+       "updatedAt": "2026-09-14T13:00:00.000Z",
+       "nlSummary": "Op 11 september 2026 meldde de Oekraïense generale staf een reeks gelijktijdige precisieaanvallen op meerdere Russische doelen. Twee Pantsir-S1 luchtverdedigingssystemen (kanon-raketcombinaties) werden uitgeschakeld bij Taganrog in de Russische regio Rostov, en een vijandelijk radarstation werd geraakt bij Berezki in…",
+       "enSummary": "On 11 September 2026, Ukraine's General Staff reported a series of simultaneous precision strikes on multiple Russian targets. Two Pantsir-S1 gun-missile air defense systems were knocked out near Taganrog in Russia's Rostov region, and an enemy radar station was hit near Berezki in Bryansk region; the specific radar t…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0tPWFd0WTJBWTREczR0LXVrVXctYlFhQ1RpbTUtYTJab2d3dXJJUXpDYXA2NnVabUVlTlV4QWstdXF0TmtyMGd4Uk9BaVNkMDhOTmMtLU1rTTdwX01pdGR0VU40SmI0a0Fqd04yc3dGQ1VqQlBONEdOX21hM2x0T1hqRzVLVGxEZU1JMm1DaWRKRi1KM3RhdmNqNGJGWklybjJVOXc4bHFYcTh6aFVUYkZBZE9hb3dyMmZDT1BMSldCOXNKSXVV?oc=5",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260914-12",
+       "title": "France Tests Tethered Balloon to Protect Nuclear Rafale Airbase From Drone Strikes",
+       "titleNl": "Frankrijk test verankerde ballon ter bescherming van nucleaire Rafale-luchtmachtbasis tegen dronedreiging",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-12T00:00:00.000Z",
+       "updatedAt": "2026-09-14T13:00:00.000Z",
+       "nlSummary": "De Franse luchtmacht heeft van 31 augustus tot 4 september 2026 op de 113e luchtmachtbasis Saint-Dizier-Robinson een verankerde ballon (aerostaat, 12 bij 7 meter) getest als sensorplatform tegen drones. De ballon hing op circa 200 meter hoogte en droeg een EO/IR-camera met een op AI gebaseerd dreigingsdetectie-algorit…",
+       "enSummary": "The French Air and Space Force trialled a tethered balloon (aerostat, 12 by 7 metres) as a drone-detection sensor platform at 113th Airbase Commandant Antoine de Saint-Exupéry in Saint-Dizier-Robinson from 31 August to 4 September 2026. Hovering at roughly 200 metres, the balloon carried an EO/IR camera paired with an…",
+       "sourceUrl": "https://www.opex360.com/2026/09/12/larmee-de-lair-de-lespace-envisage-dutiliser-des-ballons-captifs-pour-proteger-ses-bases-contre-les-drones/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
         "counter"
        ]
       },
@@ -1149,50 +1195,6 @@
        "sourceCount": 1,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260910-s01",
-       "title": "Ukrainian Abrams reportedly survives 20 FPV drone hits with improvised cage-and-hedgehog armour",
-       "titleNl": "Oekraïense Abrams overleeft naar verluidt 20 FPV-dronetreffers dankzij geïmproviseerd traliewerk en 'egel'-pantser",
-       "category": "ttp",
-       "topics": [
-        "armor",
-        "drones",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-09T08:43:22.000Z",
-       "updatedAt": "2026-09-10T09:00:00.000Z",
-       "nlSummary": "Defense Express meldt dat vrijwel gelijktijdig twee Oekraïense videofragmenten openbaar werden, beide over geïmproviseerde antidronebescherming op M1A1 Abrams-tanks in Oekraïense dienst. In een interview van het medium Hromadske met bemanningen van het 425e Zelfstandige Aanvalsregiment \"Skelia\" beschrijven de tankiste…",
-       "enSummary": "Defense Express reports that two Ukrainian video materials appeared in open access at roughly the same time, both dealing with improvised anti-drone protection fitted to M1A1 Abrams tanks in Ukrainian service. In an interview by the outlet Hromadske with crews of the 425th Separate Assault Regiment \"Skelia,\" the tanke…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukrainian_m1a1_abrams_survives_20_fpv_drone_hits_thanks_to_improvised_armor_hedgehog_steel_spikes_even_snap_fiber_optic_cables-19723.html",
-       "sourceCount": 1,
-       "signals": []
-      },
-      {
-       "id": "e-20260908-03",
-       "title": "Shipping records tie a Chinese state firm to 46 tons of carbon-fiber precursor for Russian Geran drone production",
-       "titleNl": "Scheepvaartdocumenten koppelen Chinees staatsbedrijf aan 46 ton koolstofvezelgrondstof voor Russische Geran-droneproductie",
-       "category": "org",
-       "topics": [
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-07T10:48:00.000Z",
-       "updatedAt": "2026-09-08T09:00:00.000Z",
-       "nlSummary": "Scheepvaartdocumenten die zijn verzameld door het in Kyiv gevestigde Ukrainian Security and Cooperation Center (USCC) en onderzocht door Politico (samen met The Telegraph) tonen dat het Chinese staatsbedrijf Jilin Chemical Fiber Group 46 ton polyacrylonitril (PAN) — een grondstof voor koolstofvezel — heeft geleverd aa…",
-       "enSummary": "Shipping documents obtained by the Kyiv-based Ukrainian Security and Cooperation Center (USCC) and reviewed by Politico (with The Telegraph) show that China's state-owned Jilin Chemical Fiber Group shipped 46 metric tons of polyacrylonitrile (PAN) — a precursor for carbon fiber — to Alabuga-Volokno, a Rosatom subsidia…",
-       "sourceUrl": "https://meduza.io/en/news/2026/09/07/china-secretly-supplied-46-tons-of-drone-production-materials-to-russia",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "scale"
        ]
       }
      ]
@@ -1346,9 +1348,33 @@
     "ew-spoof": {
      "name": "EW / spoofing tegen UAS",
      "nameEn": "EW / spoofing tegen UAS",
-     "total": 6,
+     "total": 7,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260914-10",
+       "title": "Ukraine combat experience shapes Redwire's new Penguin Mk3 drone",
+       "titleNl": "Oekraïense gevechtservaring vormt Redwires nieuwe Penguin Mk3-drone",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-12T12:33:32.000Z",
+       "updatedAt": "2026-09-14T13:00:00.000Z",
+       "nlSummary": "Het Amerikaanse defensiebedrijf Redwire heeft sinds 2022 meer dan 250 exemplaren van zijn Penguin-verkenningsdrone (een vastevleugel-UAS in Group 3, met circa 14 uur vliegduur en EO/IR-sensoren voor doelherkenning) aan Oekraïne geleverd, grotendeels via Amerikaanse steunpakketten. Die inzet leverde het bedrijf een sch…",
+       "enSummary": "US defense company Redwire has delivered more than 250 of its Penguin reconnaissance drones — a Group 3 fixed-wing UAS with roughly 14 hours of endurance and EO/IR sensors for target recognition — to Ukraine since 2022, largely through US aid packages. That deployment generated a large body of operational data, now fe…",
+       "sourceUrl": "https://defence-blog.com/ukraine-combat-experience-shapes-redwires-new-drone",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260910-08",
        "title": "Finland closes investigation into four armed Ukrainian strike drones that strayed into its territory in spring 2026",
@@ -1462,29 +1488,6 @@
        "sourceUrl": "https://defence-blog.com/danish-and-russian-drones-observe-each-other-in-baltic-sea",
        "sourceCount": 1,
        "signals": [
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260727-s04",
-       "title": "Important for Americans to Know: Russia Improved Accuracy of Shahed UAVs While Iranian Ballistic Missiles Have Become More Effective, Deadlier",
-       "titleNl": "Belangrijk voor Amerikanen om te weten: Rusland verbeterde nauwkeurigheid van Shahed-drones, terwijl Iraanse ballistische raketten effectiever en dodelijker zijn geworden",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "missiles"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "Defense Express stelt in een analyse-/opiniestuk (24 juli 2026, expliciet gericht aan een Amerikaans publiek) dat Iraanse Shahed-136-drones merkbaar effectiever zijn geworden: beter bestand tegen elektronische oorlogsvoering en zo nauwkeurig dat ze hetzelfde doelwit in het inslaggat van een vorige treffer kunnen raken…",
-       "enSummary": "In an analysis/opinion piece (24 July 2026, explicitly addressed to a U.S. audience), Defense Express argues that Iranian Shahed-136 drones have become markedly more effective: more resistant to electronic warfare and accurate enough to strike the same target directly in the impact hole left by a previous hit. The con…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZlFuTkZNWjZWX05YdGFibzl3RDJmTTY2bEd0UEN2QzRJOFNBUmZESUdIckQtNWdlSGtia253N0pvVWN5OU8zcXRETzFmVGFMeUg4OG9uU3lpTHhReU9WbFNQeDVfUG4wTHd1VlBTNTQ3a3Q0SVF3VmV2QllKdjdNWVhjemZZS1Y2UzFtRHM2U2dZcFdGQWlNOGJCZmZUdVMxbEZRNm03dEhEcl9BMS10TV9aSTZJX2pmWW9pWW93akhRQ2dZeHQ5UjQ4ajJvdHZnWVJpUXBNT1ZuSWVMdW1pZmRrZEVJWVptUmxUUXBXTl9CZE56OG00YmlTOU9KWnRhaUxkdjBFMUFSeWwzMkN3?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
         "counter"
        ]
       }
@@ -2097,9 +2100,33 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 15,
+     "total": 16,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260914-s05",
+       "title": "Ukraine strikes two Pantsir-S1 systems, radar station, drone facilities and engine plant",
+       "titleNl": "Oekraïne raakt twee Pantsir-S1-systemen, radarstation, drone-faciliteiten en motorenfabriek",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-12T00:03:42.000Z",
+       "updatedAt": "2026-09-14T13:00:00.000Z",
+       "nlSummary": "Op 11 september 2026 meldde de Oekraïense generale staf een reeks gelijktijdige precisieaanvallen op meerdere Russische doelen. Twee Pantsir-S1 luchtverdedigingssystemen (kanon-raketcombinaties) werden uitgeschakeld bij Taganrog in de Russische regio Rostov, en een vijandelijk radarstation werd geraakt bij Berezki in…",
+       "enSummary": "On 11 September 2026, Ukraine's General Staff reported a series of simultaneous precision strikes on multiple Russian targets. Two Pantsir-S1 gun-missile air defense systems were knocked out near Taganrog in Russia's Rostov region, and an enemy radar station was hit near Berezki in Bryansk region; the specific radar t…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0tPWFd0WTJBWTREczR0LXVrVXctYlFhQ1RpbTUtYTJab2d3dXJJUXpDYXA2NnVabUVlTlV4QWstdXF0TmtyMGd4Uk9BaVNkMDhOTmMtLU1rTTdwX01pdGR0VU40SmI0a0Fqd04yc3dGQ1VqQlBONEdOX21hM2x0T1hqRzVLVGxEZU1JMm1DaWRKRi1KM3RhdmNqNGJGWklybjJVOXc4bHFYcTh6aFVUYkZBZE9hb3dyMmZDT1BMSldCOXNKSXVV?oc=5",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260911-s01",
        "title": "Российский ОПК в Египте: барражирующие боеприпасы, истребители 5 поколения и ПВО нового поколения",
@@ -2218,31 +2245,6 @@
        "sourceCount": 6,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260904-02",
-       "title": "Ukrainian naval drones hit Sochi port for the first time, striking Russian support vessel Nefrit",
-       "titleNl": "Oekraïense zeedrones treffen voor het eerst de haven van Sochi en raken het Russische steunvaartuig Nefrit",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "drones",
-        "navy",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-09-03T07:24:18.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
-       "nlSummary": "In de ochtend van 3 september 2026 heeft een onbemand oppervlaktevaartuig (USV) van de Oekraïense marine de Nefrit getroffen, een multifunctioneel Russisch steunvaartuig, bij een steiger in de haven van Sochi. OSINT-kanalen (Exilenova+, Krymsky Veter) publiceerden video waarop een zeedrone vlak naast de steiger detone…",
-       "enSummary": "On the morning of 3 September 2026 a Ukrainian Navy uncrewed surface vessel (USV) struck the Nefrit, a Russian-flagged multipurpose offshore support ship, at a pier in the port of Sochi. OSINT channels (Exilenova+, Krymsky Veter) published video showing a sea drone detonating directly beside the pier and an explosion…",
-       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-naval-drone-strikes-nefrit-supply-vessel-in-sochi/",
-       "sourceCount": 5,
-       "signals": [
-        "loss",
-        "deploy"
        ]
       }
      ]
@@ -3143,9 +3145,28 @@
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 13,
-     "signalCount": 6,
+     "total": 14,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260914-s03",
+       "title": "Rybar: 'Geran' drone campaign against Kyiv (20 Aug–10 Sep)",
+       "titleNl": "Rybar: Geran-dronecampagne tegen Kiev (20 aug–10 sep)",
+       "category": "ttp",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-12T10:59:44.000Z",
+       "updatedAt": "2026-09-14T13:00:00.000Z",
+       "nlSummary": "Rybar (pro-Russisch Telegram-milblogger-kanaal, geen officiële MoD-bron) claimt dat de 50e aparte brigade onbemande systemen 'Varyag' tussen 20 augustus en 10 september 2026 een systematische campagne voerde tegen Kiev en omgeving met Geran-4 'Siker' (reactieve/straalaangedreven variant) en Geran-5-drones, aangevoerd…",
+       "enSummary": "Rybar (a pro-Russian Telegram milblogger channel, not an official MoD source) claims that the 50th Separate Unmanned Systems Brigade 'Varyag' ran a systematic campaign against Kyiv and its surroundings between 20 August and 10 September 2026, using reactive/jet-powered Geran-4 'Siker' and Geran-5 drones flown along wh…",
+       "sourceUrl": "https://t.me/rybar/83094",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260910-s02",
        "title": "Rybar: 'Hunter of litaky' — Geran drones used to ambush Ukrainian aircraft on the ground",
@@ -3269,32 +3290,6 @@
        "sourceCount": 3,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260903-01",
-       "title": "Ukraine downs Russian 'Banderol' (S8000) cruise missiles over the south — MiG-29 R-60 kill at very low altitude, plus a ground air-defence intercept",
-       "titleNl": "Oekraïne schiet Russische 'Banderol' (S8000)-kruisraketten neer boven het zuiden — MiG-29 met R-60 op zeer lage hoogte, plus een neerhaling door grondluchtverdediging",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-02T12:48:12.000Z",
-       "updatedAt": "2026-09-03T09:00:00.000Z",
-       "nlSummary": "In de nacht van 2 september 2026 meldden Oekraïense strijdkrachten dat zij Russische S8000-kruisraketten van het type «Banderol» hadden neergeschoten boven Zuid-Oekraïne, met beeldmateriaal van de neerhalingen. Een aan de Oekraïense luchtmacht gelieerd Telegram-kanaal zei dat een piloot in een gemoderniseerde MiG-29MU…",
-       "enSummary": "Overnight on 2 September 2026, Ukrainian forces reported shooting down Russian S8000 «Banderol» cruise missiles over southern Ukraine and published footage of the engagements. A Ukrainian Air Force-affiliated Telegram channel said a pilot in a modernised MiG-29MU1 destroyed a Banderol at extremely low altitude using a…",
-       "sourceUrl": "https://militarnyi.com/en/news/mig-29-shoots-down-russian-banderol-with-an-r-60-missile-at-extremely-low-altitude/",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf"
        ]
       }
      ]
@@ -3732,7 +3727,7 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 29,
+     "total": 30,
      "signalCount": 6,
      "entries": [
       {
@@ -3805,6 +3800,30 @@
        ]
       },
       {
+       "id": "e-20260914-10",
+       "title": "Ukraine combat experience shapes Redwire's new Penguin Mk3 drone",
+       "titleNl": "Oekraïense gevechtservaring vormt Redwires nieuwe Penguin Mk3-drone",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-12T12:33:32.000Z",
+       "updatedAt": "2026-09-14T13:00:00.000Z",
+       "nlSummary": "Het Amerikaanse defensiebedrijf Redwire heeft sinds 2022 meer dan 250 exemplaren van zijn Penguin-verkenningsdrone (een vastevleugel-UAS in Group 3, met circa 14 uur vliegduur en EO/IR-sensoren voor doelherkenning) aan Oekraïne geleverd, grotendeels via Amerikaanse steunpakketten. Die inzet leverde het bedrijf een sch…",
+       "enSummary": "US defense company Redwire has delivered more than 250 of its Penguin reconnaissance drones — a Group 3 fixed-wing UAS with roughly 14 hours of endurance and EO/IR sensors for target recognition — to Ukraine since 2022, largely through US aid packages. That deployment generated a large body of operational data, now fe…",
+       "sourceUrl": "https://defence-blog.com/ukraine-combat-experience-shapes-redwires-new-drone",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
+      {
        "id": "e-20260910-08",
        "title": "Finland closes investigation into four armed Ukrainian strike drones that strayed into its territory in spring 2026",
        "titleNl": "Finland sluit onderzoek naar vier bewapende Oekraïense aanvalsdrones die in het voorjaar van 2026 op Fins grondgebied belandden",
@@ -3855,38 +3874,39 @@
         "perf",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260910-06",
-       "title": "Ukraine's National Guard says fiber-optic drones rose from 20% to 70% of its drone war",
-       "titleNl": "Oekraïense Nationale Garde: aandeel fiberdrones gestegen van 20% naar 70% van haar dronegevecht",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-09T12:52:54.000Z",
-       "updatedAt": "2026-09-10T09:00:00.000Z",
-       "nlSummary": "De Oekraïense Nationale Garde heeft haar FPV-dronevloot in korte tijd omgebouwd rond glasvezelbesturing. Volgens Nationale Garde-commandant Oleksandr Pivnenko, die dit in een YouTube-interview op het kanaal LB Live (9 september 2026) verklaarde, is het aandeel fiber-optische (\"bekabelde\") drones in het dronegebruik va…",
-       "enSummary": "Ukraine's National Guard has rapidly rebuilt its FPV drone force around fiber-optic control. According to National Guard commander Oleksandr Pivnenko, speaking in a YouTube interview on the LB Live channel on 9 September 2026, the share of fiber-optic (\"wired\") drones in the Guard's drone employment has risen from rou…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/09/20-to-70-ukraines-national-guard-rewired-its-drone-war-around-cables",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 7,
+     "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260914-10",
+       "title": "Ukraine combat experience shapes Redwire's new Penguin Mk3 drone",
+       "titleNl": "Oekraïense gevechtservaring vormt Redwires nieuwe Penguin Mk3-drone",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-12T12:33:32.000Z",
+       "updatedAt": "2026-09-14T13:00:00.000Z",
+       "nlSummary": "Het Amerikaanse defensiebedrijf Redwire heeft sinds 2022 meer dan 250 exemplaren van zijn Penguin-verkenningsdrone (een vastevleugel-UAS in Group 3, met circa 14 uur vliegduur en EO/IR-sensoren voor doelherkenning) aan Oekraïne geleverd, grotendeels via Amerikaanse steunpakketten. Die inzet leverde het bedrijf een sch…",
+       "enSummary": "US defense company Redwire has delivered more than 250 of its Penguin reconnaissance drones — a Group 3 fixed-wing UAS with roughly 14 hours of endurance and EO/IR sensors for target recognition — to Ukraine since 2022, largely through US aid packages. That deployment generated a large body of operational data, now fe…",
+       "sourceUrl": "https://defence-blog.com/ukraine-combat-experience-shapes-redwires-new-drone",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260910-08",
        "title": "Finland closes investigation into four armed Ukrainian strike drones that strayed into its territory in spring 2026",
@@ -4002,29 +4022,6 @@
        "signals": [
         "loss",
         "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260824-13",
-       "title": "Danish and Russian Drones Observe Each Other in Close Encounter Over Baltic Sea",
-       "titleNl": "Deense en Russische drones observeren elkaar bij close encounter boven de Baltische Zee",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "naval-drones",
-        "navy"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T13:13:32.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Op 25 juni 2026 vond zo'n 30 kilometer ten zuidoosten van het Deense eiland Bornholm een opmerkelijke confrontatie plaats tussen Deense en Russische onbemande systemen. Het Deense zeedrone-startup Stormborn testte zijn onbemand oppervlaktevaartuig 'Stormborn X-Wave', uitgerust met radar- en sonarapparatuur van de Deen…",
-       "enSummary": "On 25 June 2026, roughly 30 kilometers southeast of the Danish island of Bornholm, a notable confrontation took place between Danish and Russian unmanned systems. Danish sea-drone startup Stormborn was testing its unmanned surface vessel 'Stormborn X-Wave', fitted with radar and sonar equipment from Danish defense man…",
-       "sourceUrl": "https://defence-blog.com/danish-and-russian-drones-observe-each-other-in-baltic-sea",
-       "sourceCount": 1,
-       "signals": [
         "counter"
        ]
       }
