@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-11T07:45:54.800Z",
- "analysisUpdated": "2026-09-11T09:00:00.000Z",
+ "updated": "2026-09-14T05:08:54.733Z",
+ "analysisUpdated": "2026-09-14T07:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 266,
+  "entriesConsidered": 275,
   "cardsWithHits": 51,
-  "matches": 313
+  "matches": 326
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,54 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 36,
-     "signalCount": 4,
+     "total": 39,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260914-s01",
+       "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
+       "titleNl": "FT: Iran heeft levering van Ruslands nieuwste straalaangedreven aanvalsdrones aangevraagd",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-13T13:32:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "Volgens de Britse krant Financial Times — geciteerd door de Russische staatsgezinde site topwar.ru op 13 september 2026 — heeft Iran bij Rusland een verzoek ingediend om de nieuwste generatie straalaangedreven Geran-aanvalsdrones te leveren, specifiek de Geran-4 en Geran-5, mogelijk voor gebruik in een conflict met Is…",
+       "enSummary": "According to the British newspaper Financial Times — as relayed by the Russian state-aligned outlet topwar.ru on 13 September 2026 — Iran has asked Russia to supply its newest generation of jet-powered Geran attack drones, specifically the Geran-4 and Geran-5, reportedly for potential use in a conflict with Israel and…",
+       "sourceUrl": "https://topwar.ru/289647-ft-iran-zaprosil-postavku-novejshih-rossijskih-reaktivnyh-dronov.html",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260914-02",
+       "title": "Russian drones strike Kyiv-Warsaw train and gas station near Polish border; Tusk warns of escalation",
+       "titleNl": "Russische drones treffen Kyiv-Warschau-trein en tankstation bij Poolse grens; Tusk waarschuwt voor escalatie",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-09-13T10:41:00.000Z",
+       "updatedAt": null,
+       "nlSummary": "In de nacht van 12 op 13 september 2026 en tot in de ochtend van 13 september sloegen Russische drones twee doelen in de Oekraïense Volyn-oblast, op enkele kilometers van de grensovergang met Polen bij Jahodyn. Eén drone raakte de locomotief van een passagierstrein op de route Kyiv-Warschau, ongeveer 2 km van de Pools…",
+       "enSummary": "On the night of 12-13 September 2026 and into the morning of 13 September, Russian drones struck two targets in Ukraine's Volyn Oblast, within a few kilometers of the border crossing with Poland at Yahodyn. One drone struck the locomotive of a Kyiv-Warsaw passenger train roughly 2 km from the Polish border; the crew r…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/13/8053202",
+       "sourceCount": 6,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260911-02",
        "title": "Canada Pledges Over $1 Billion for Ukraine's Air Defense Amid Intensifying Russian Attacks",
@@ -117,59 +162,37 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260909-03",
-       "title": "Suspected Russian Shahed-type drone violates Moldovan and Romanian airspace, crashes in Moldova",
-       "titleNl": "Vermoedelijke Russische Shahed-drone schendt Moldavisch en Roemeens luchtruim en stort neer in Moldavië",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-08T16:20:00.000Z",
-       "updatedAt": "2026-09-09T09:00:00.000Z",
-       "nlSummary": "Op 8 september 2026 schond een onbemand luchtvaartuig het luchtruim van zowel Moldavië als NAVO-lid Roemenië, om vervolgens neer te storten op Moldavisch grondgebied. Volgens het Moldavische ministerie van Defensie detecteerden de luchtbewakingssystemen de drone om 16.20 uur lokale tijd toen die vanuit de richting van…",
-       "enSummary": "On 8 September 2026 an uncrewed aerial vehicle violated the airspace of both Moldova and NATO member Romania before crashing on Moldovan soil. According to Moldova's Defence Ministry, air surveillance systems detected the drone at 4:20 p.m. local time as it entered the country from the direction of Ukraine. The milita…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/08/8052485/",
-       "sourceCount": 2,
-       "signals": []
-      },
-      {
-       "id": "e-20260909-09",
-       "title": "Russian Shahed drone strikes 'We Are Ukraine' TV newsroom in Kyiv in daylight, during a live United News broadcast",
-       "titleNl": "Russische Shahed-drone treft nieuwsredactie van tv-zender 'Мы — Украина' in Kyiv overdag, tijdens live Yedyni Novyny-uitzending",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "doctrine",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-08T11:32:47.000Z",
-       "updatedAt": "2026-09-09T09:00:00.000Z",
-       "nlSummary": "Op 8 september 2026 trof een Russische Shahed-drone rond het middaguur de kantoren in Kyiv van de tv-zenders Мы — Украина (My-Ukraina) en My-Ukraina+ in het district Solomjanskyj. De inslag raakte de nieuwsredactie en werkkamers terwijl de zender live in de ether was met de gezamenlijke nationale nieuwsuitzending Yedy…",
-       "enSummary": "On 8 September 2026, a Russian Shahed drone struck the Kyiv premises of the television channels Мы — Украина (My-Ukraina) and My-Ukraina+ around midday in the Solomianskyi district. The impact hit the newsroom and staff offices while the channel was live on air with Yedyni Novyny (United News), the joint national news…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/08/a-russian-drone-hit-a-kyiv-television-newsroom-while-the-channel-was-live-on-air-in-the-middle-of-the-day/",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 12,
+     "total": 14,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260914-s01",
+       "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
+       "titleNl": "FT: Iran heeft levering van Ruslands nieuwste straalaangedreven aanvalsdrones aangevraagd",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-13T13:32:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "Volgens de Britse krant Financial Times — geciteerd door de Russische staatsgezinde site topwar.ru op 13 september 2026 — heeft Iran bij Rusland een verzoek ingediend om de nieuwste generatie straalaangedreven Geran-aanvalsdrones te leveren, specifiek de Geran-4 en Geran-5, mogelijk voor gebruik in een conflict met Is…",
+       "enSummary": "According to the British newspaper Financial Times — as relayed by the Russian state-aligned outlet topwar.ru on 13 September 2026 — Iran has asked Russia to supply its newest generation of jet-powered Geran attack drones, specifically the Geran-4 and Geran-5, reportedly for potential use in a conflict with Israel and…",
+       "sourceUrl": "https://topwar.ru/289647-ft-iran-zaprosil-postavku-novejshih-rossijskih-reaktivnyh-dronov.html",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260910-s02",
        "title": "Rybar: 'Hunter of litaky' — Geran drones used to ambush Ukrainian aircraft on the ground",
@@ -271,52 +294,25 @@
        ]
       },
       {
-       "id": "e-20260903-06",
-       "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
-       "titleNl": "Rakettekort raakt nu de hele Oekraïense jachtvloot: MiG-29's terug op R-60's uit de jaren zeventig, F-16's met boordkanon",
+       "id": "e-20260914-s02",
+       "title": "WarGonzo cites FT: jet-powered 'Geran-4/5' drones reshape Russian air strikes",
+       "titleNl": "WarGonzo citeert FT: straalaangedreven 'Geran-4/5' veranderen karakter Russische luchtaanvallen",
        "category": "weapon",
        "topics": [
-        "missiles",
-        "air-defense",
-        "airforce"
+        "drones"
        ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-02T22:26:44.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
-       "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
-       "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-09-03T00:00:00.000Z",
+       "updatedAt": null,
+       "nlSummary": "Het Telegram-kanaal WarGonzo meldt dat de nieuwe straalaangedreven drones 'Geran-4' en 'Geran-5' het karakter van de Russische luchtaanvallen op Oekraïne merkbaar hebben veranderd. Het bericht is in feite een samenvatting van een artikel dat dezelfde dag (13 september 2026) door de Financial Times werd gepubliceerd. V…",
+       "enSummary": "The Telegram channel WarGonzo claims that the new jet-powered drones 'Geran-4' and 'Geran-5' have noticeably changed the character of Russia's air campaign against Ukraine. The post is effectively a summary of an article the Financial Times published the same day, 13 September 2026. According to that reporting, Ukrain…",
+       "sourceUrl": "https://t.me/wargonzo/36922",
        "sourceCount": 3,
        "signals": [
-        "loss",
-        "variant",
         "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260904-09",
-       "title": "Russia widens strikes on Ukrainian civilian logistics and consumer-goods facilities",
-       "titleNl": "Rusland breidt aanvallen uit naar Oekraïense civiele logistiek en consumentengoederen",
-       "category": "ttp",
-       "topics": [
-        "logistics",
-        "drones",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-02T15:05:08.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
-       "nlSummary": "Op 2-3 september 2026 troffen Russische drone- en raketaanvallen een reeks Oekraïense doelen in de civiele logistiek, opslag en consumentengoederen. In het district Borispil (oblast Kyiv) raakte op 3 september het farmaceutische logistiekcomplex Biocon (KhFK Biocon) beschadigd — volgens Tymur Tkatsjenko, hoofd van de…",
-       "enSummary": "Over 2-3 September 2026 a cluster of Russian drone and missile strikes hit Ukrainian civilian logistics, warehousing and consumer-goods sites. In Kyiv Oblast's Boryspil district the Biocon (KhFK Biocon) pharmaceutical logistics complex — described by Kyiv Oblast Military Administration head Tymur Tkachenko as one of U…",
-       "sourceUrl": "https://t.me/dva_majors/98410",
-       "sourceCount": 6,
-       "signals": [
-        "loss",
+        "perf",
         "scale"
        ]
       }
@@ -556,9 +552,32 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 11,
+     "total": 12,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260914-02",
+       "title": "Russian drones strike Kyiv-Warsaw train and gas station near Polish border; Tusk warns of escalation",
+       "titleNl": "Russische drones treffen Kyiv-Warschau-trein en tankstation bij Poolse grens; Tusk waarschuwt voor escalatie",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-09-13T10:41:00.000Z",
+       "updatedAt": null,
+       "nlSummary": "In de nacht van 12 op 13 september 2026 en tot in de ochtend van 13 september sloegen Russische drones twee doelen in de Oekraïense Volyn-oblast, op enkele kilometers van de grensovergang met Polen bij Jahodyn. Eén drone raakte de locomotief van een passagierstrein op de route Kyiv-Warschau, ongeveer 2 km van de Pools…",
+       "enSummary": "On the night of 12-13 September 2026 and into the morning of 13 September, Russian drones struck two targets in Ukraine's Volyn Oblast, within a few kilometers of the border crossing with Poland at Yahodyn. One drone struck the locomotive of a Kyiv-Warsaw passenger train roughly 2 km from the Polish border; the crew r…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/13/8053202",
+       "sourceCount": 6,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260911-12",
        "title": "Ukraine hits UAV ground control stations and other military targets in Russia and temporarily occupied territories",
@@ -677,29 +696,6 @@
         "deploy",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260831-05",
-       "title": "Russian strikes on Ukraine, 29–30 August 2026: overnight missile-and-drone salvo, daytime attacks on Kyiv, cross-border alerts in Poland and Romania",
-       "titleNl": "Russische aanvallen op Oekraïne, 29–30 augustus 2026: nachtelijk raket- en dronesalvo, aanvallen overdag op Kyiv, grensoverschrijdende waarschuwingen in Polen en Roemenië",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-29T16:05:00.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
-       "nlSummary": "In de nacht van 29 op 30 augustus 2026 viel Rusland Oekraïne aan met twee ballistische Iskander-M-raketten vanuit de oblast Koersk en ongeveer 130 drones — Shahed- en Gerbera-loiteringmunitie, S8000 Banderol-raketdrones en Parodiya-lokdrones, grotendeels straalaangedreven. Volgens de luchtmacht schoot of stoorde de lu…",
-       "enSummary": "On the night of 29–30 August 2026 Russia struck Ukraine with two Iskander-M ballistic missiles launched from Kursk Oblast and about 130 drones — Shahed and Gerbera loitering munitions, S8000 Banderol missile-drones and Parodiya decoys, most jet-powered. Ukraine's Air Force said air defences shot down or jammed 125 of…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/29/8050965",
-       "sourceCount": 6,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -1058,9 +1054,33 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 38,
+     "total": 39,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260914-06",
+       "title": "Russia's New T-90M and T-72B3M Tanks Arrive With Upgraded Anti-Drone Protection",
+       "titleNl": "Nieuwe Russische T-90M- en T-72B3M-tanks krijgen verbeterde anti-drone-bescherming",
+       "category": "weapon",
+       "topics": [
+        "armor",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-12T13:09:22.000Z",
+       "updatedAt": null,
+       "nlSummary": "Het Russische staatsbedrijf Uralvagonzavod (UVZ) — de gesanctioneerde tankfabriek in Nizjni Tagil — heeft volgens moederbedrijf Rostec een nieuwe partij T-90M \"Proryv\"- en T-72B3M-tanks aan het Russische leger geleverd. De levering werd gekoppeld aan de 80e viering van de Russische \"Tankbemanningsdag\". Zoals bij eerde…",
+       "enSummary": "Russian state manufacturer Uralvagonzavod (UVZ) — the sanctioned tank plant in Nizhny Tagil — has delivered a new batch of T-90M \"Proryv\" and T-72B3M tanks to Russian forces, according to parent company Rostec. The delivery was timed to coincide with the 80th observance of Russia's \"Tank Crew Day.\" As with previous ba…",
+       "sourceUrl": "https://defence-blog.com/new-russian-tanks-arrive-with-upgraded-protection",
+       "sourceCount": 3,
+       "signals": [
+        "variant",
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260911-08",
        "title": "Polish Lubawa Unveils Net Screen Against FPVs and Grenade Launchers",
@@ -1173,30 +1193,6 @@
        "signals": [
         "deploy",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260908-06",
-       "title": "Ukrainian unit says Russia flew 500+ air sorties to hunt ~10 of its naval drones; FPV drones now launch from the boats",
-       "titleNl": "Oekraïense eenheid: Rusland vloog 500+ luchtvluchten om ~10 zeedrones te jagen; FPV-drones vliegen nu op vanaf de boten",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "navy",
-        "airforce",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-07T09:15:00.000Z",
-       "updatedAt": "2026-09-08T09:00:00.000Z",
-       "nlSummary": "Euromaidan Press publiceerde op 7 september 2026 een analyse op basis van een ArmyInform-interview met de commandant van Group 13, een eenheid van de Oekraïense militaire inlichtingendienst (HUR) die Magura-onbemande oppervlaktevaartuigen (USV's) in de Zwarte Zee inzet. Volgens de commandant heeft Rusland meer dan 500…",
-       "enSummary": "On 7 September 2026 Euromaidan Press published an analysis based on an ArmyInform interview with the commander of Group 13, a Ukrainian military-intelligence (HUR) unit that operates Magura uncrewed surface vessels (USVs) in the Black Sea. The commander said Russia had flown more than 500 combat aircraft sorties again…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/07/some-ten-robot-boats-five-hundred-russian-air-sorties-one-very-lopsided-hunt/",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -3736,9 +3732,78 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 26,
+     "total": 29,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260914-s01",
+       "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
+       "titleNl": "FT: Iran heeft levering van Ruslands nieuwste straalaangedreven aanvalsdrones aangevraagd",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-13T13:32:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "Volgens de Britse krant Financial Times — geciteerd door de Russische staatsgezinde site topwar.ru op 13 september 2026 — heeft Iran bij Rusland een verzoek ingediend om de nieuwste generatie straalaangedreven Geran-aanvalsdrones te leveren, specifiek de Geran-4 en Geran-5, mogelijk voor gebruik in een conflict met Is…",
+       "enSummary": "According to the British newspaper Financial Times — as relayed by the Russian state-aligned outlet topwar.ru on 13 September 2026 — Iran has asked Russia to supply its newest generation of jet-powered Geran attack drones, specifically the Geran-4 and Geran-5, reportedly for potential use in a conflict with Israel and…",
+       "sourceUrl": "https://topwar.ru/289647-ft-iran-zaprosil-postavku-novejshih-rossijskih-reaktivnyh-dronov.html",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260914-02",
+       "title": "Russian drones strike Kyiv-Warsaw train and gas station near Polish border; Tusk warns of escalation",
+       "titleNl": "Russische drones treffen Kyiv-Warschau-trein en tankstation bij Poolse grens; Tusk waarschuwt voor escalatie",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-09-13T10:41:00.000Z",
+       "updatedAt": null,
+       "nlSummary": "In de nacht van 12 op 13 september 2026 en tot in de ochtend van 13 september sloegen Russische drones twee doelen in de Oekraïense Volyn-oblast, op enkele kilometers van de grensovergang met Polen bij Jahodyn. Eén drone raakte de locomotief van een passagierstrein op de route Kyiv-Warschau, ongeveer 2 km van de Pools…",
+       "enSummary": "On the night of 12-13 September 2026 and into the morning of 13 September, Russian drones struck two targets in Ukraine's Volyn Oblast, within a few kilometers of the border crossing with Poland at Yahodyn. One drone struck the locomotive of a Kyiv-Warsaw passenger train roughly 2 km from the Polish border; the crew r…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/13/8053202",
+       "sourceCount": 6,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260914-06",
+       "title": "Russia's New T-90M and T-72B3M Tanks Arrive With Upgraded Anti-Drone Protection",
+       "titleNl": "Nieuwe Russische T-90M- en T-72B3M-tanks krijgen verbeterde anti-drone-bescherming",
+       "category": "weapon",
+       "topics": [
+        "armor",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-12T13:09:22.000Z",
+       "updatedAt": null,
+       "nlSummary": "Het Russische staatsbedrijf Uralvagonzavod (UVZ) — de gesanctioneerde tankfabriek in Nizjni Tagil — heeft volgens moederbedrijf Rostec een nieuwe partij T-90M \"Proryv\"- en T-72B3M-tanks aan het Russische leger geleverd. De levering werd gekoppeld aan de 80e viering van de Russische \"Tankbemanningsdag\". Zoals bij eerde…",
+       "enSummary": "Russian state manufacturer Uralvagonzavod (UVZ) — the sanctioned tank plant in Nizhny Tagil — has delivered a new batch of T-90M \"Proryv\" and T-72B3M tanks to Russian forces, according to parent company Rostec. The delivery was timed to coincide with the 80th observance of Russia's \"Tank Crew Day.\" As with previous ba…",
+       "sourceUrl": "https://defence-blog.com/new-russian-tanks-arrive-with-upgraded-protection",
+       "sourceCount": 3,
+       "signals": [
+        "variant",
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260910-08",
        "title": "Finland closes investigation into four armed Ukrainian strike drones that strayed into its territory in spring 2026",
@@ -3812,78 +3877,6 @@
        "sourceCount": 1,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260911-04",
-       "title": "Russian marketplace sellers shift to own warehouses after drone strikes as trade ministry downplays damage",
-       "titleNl": "Russische marktplaats-verkopers wijken uit naar eigen opslag na droneaanvallen; ministerie relativeert schade",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-09T11:31:12.000Z",
-       "updatedAt": "2026-09-11T09:00:00.000Z",
-       "nlSummary": "Verkopers op de Russische online-marktplaatsen Wildberries en Ozon zijn massaal overgestapt op opslag en verzending vanuit eigen magazijnen (het zogeheten FBS-model) in plaats van via de distributiecentra van de platforms zelf. Bij Wildberries steeg het aandeel verkopers dat FBS gebruikt naar 97,4% eind augustus 2026…",
-       "enSummary": "Sellers on the Russian online marketplaces Wildberries and Ozon have shifted heavily toward storing and shipping goods from their own warehouses (the so-called FBS model) rather than relying on the platforms' own fulfillment centers. At Wildberries, the share of sellers using FBS rose to 97.4% by the end of August 202…",
-       "sourceUrl": "https://meduza.io/en/news/2026/09/09/russia-s-trade-ministry-says-not-all-marketplace-warehouses-damaged-in-ukrainian-drone-strikes-need-to-be-rebuilt",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260909-05",
-       "title": "Ukraine reveals RAM-2X loitering munition, credited with 450+ strikes — most against Russian air defenses",
-       "titleNl": "Oekraïne onthult RAM-2X-loitering munition, toegeschreven aan 450+ treffers — vooral op Russische luchtverdediging",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-08T17:08:26.000Z",
-       "updatedAt": "2026-09-09T09:00:00.000Z",
-       "nlSummary": "Oekraïne heeft de RAM-2X onthuld, een X-vormige loitering munition (rondzwevende aanvalsdrone) van fabrikant Ukrspecsystems, die tot nu toe grotendeels buiten de publiciteit werd gehouden. Het systeem werd op de MSPO-defensiebeurs in Polen (september 2026) publiek gepresenteerd. Volgens de fabrikant staan er ruim 450…",
-       "enSummary": "Ukraine has publicly revealed the RAM-2X, an X-winged loitering munition made by Ukrspecsystems that had until now been kept largely out of public view. The drone was unveiled at the MSPO defense expo in Poland in September 2026 after being treated as classified. Ukrspecsystems credits the broader RAM family with more…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/08/a-ukrainian-strike-drone-that-quietly-hit-450-plus-russian-targets-steps-out-of-the-shadows/",
-       "sourceCount": 1,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260909-s01",
-       "title": "Defense Express: Germany only now seeks anti-satellite / GNSS-jamming capability, years into Russia's Kaliningrad spoofing",
-       "titleNl": "Defense Express: Duitsland zoekt pas nu naar anti-satelliet-/GNSS-stoorcapaciteit, jaren na Russische spoofing vanuit Kaliningrad",
-       "category": "ttp",
-       "topics": [
-        "ew",
-        "command",
-        "doctrine"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-08T17:03:51.000Z",
-       "updatedAt": "2026-09-09T09:00:00.000Z",
-       "nlSummary": "Defense Express meldt dat de Bundeswehr het Duitse ruimteagentschap opdracht heeft gegeven marktonderzoek te doen naar elektronische-oorlogvoeringssystemen die satellietnavigatie- en communicatiesignalen kunnen onderdrukken. De eisen omvatten het storen van satellieten in lage, middelhoge en geostationaire banen, dekk…",
-       "enSummary": "Defense Express reports that the Bundeswehr has tasked the German Space Agency with conducting market research for electronic warfare systems able to suppress satellite navigation and communications signals. The stated requirements cover jamming satellites in low, medium and geostationary orbits, coverage for a brigad…",
-       "sourceUrl": "https://en.defence-ua.com/news/germany_only_now_seeks_anti_satellite_jamming_despite_russias_gps_spoofing_from_kaliningrad_for_years-19716.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "counter"
        ]
       }
      ]
@@ -4040,9 +4033,32 @@
     "decoys": {
      "name": "Decoys & chaff",
      "nameEn": "Decoys & chaff",
-     "total": 10,
+     "total": 11,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260914-02",
+       "title": "Russian drones strike Kyiv-Warsaw train and gas station near Polish border; Tusk warns of escalation",
+       "titleNl": "Russische drones treffen Kyiv-Warschau-trein en tankstation bij Poolse grens; Tusk waarschuwt voor escalatie",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-09-13T10:41:00.000Z",
+       "updatedAt": null,
+       "nlSummary": "In de nacht van 12 op 13 september 2026 en tot in de ochtend van 13 september sloegen Russische drones twee doelen in de Oekraïense Volyn-oblast, op enkele kilometers van de grensovergang met Polen bij Jahodyn. Eén drone raakte de locomotief van een passagierstrein op de route Kyiv-Warschau, ongeveer 2 km van de Pools…",
+       "enSummary": "On the night of 12-13 September 2026 and into the morning of 13 September, Russian drones struck two targets in Ukraine's Volyn Oblast, within a few kilometers of the border crossing with Poland at Yahodyn. One drone struck the locomotive of a Kyiv-Warsaw passenger train roughly 2 km from the Polish border; the crew r…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/13/8053202",
+       "sourceCount": 6,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260910-s03",
        "title": "Russia unveils 'Dan-T' loitering munition as export counterpart to the 'Banderol' (S8000) missile-drone",
@@ -4166,38 +4182,37 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260831-05",
-       "title": "Russian strikes on Ukraine, 29–30 August 2026: overnight missile-and-drone salvo, daytime attacks on Kyiv, cross-border alerts in Poland and Romania",
-       "titleNl": "Russische aanvallen op Oekraïne, 29–30 augustus 2026: nachtelijk raket- en dronesalvo, aanvallen overdag op Kyiv, grensoverschrijdende waarschuwingen in Polen en Roemenië",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-29T16:05:00.000Z",
-       "updatedAt": "2026-08-31T09:00:00.000Z",
-       "nlSummary": "In de nacht van 29 op 30 augustus 2026 viel Rusland Oekraïne aan met twee ballistische Iskander-M-raketten vanuit de oblast Koersk en ongeveer 130 drones — Shahed- en Gerbera-loiteringmunitie, S8000 Banderol-raketdrones en Parodiya-lokdrones, grotendeels straalaangedreven. Volgens de luchtmacht schoot of stoorde de lu…",
-       "enSummary": "On the night of 29–30 August 2026 Russia struck Ukraine with two Iskander-M ballistic missiles launched from Kursk Oblast and about 130 drones — Shahed and Gerbera loitering munitions, S8000 Banderol missile-drones and Parodiya decoys, most jet-powered. Ukraine's Air Force said air defences shot down or jammed 125 of…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/29/8050965",
-       "sourceCount": 6,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 16,
+     "total": 17,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260914-s01",
+       "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
+       "titleNl": "FT: Iran heeft levering van Ruslands nieuwste straalaangedreven aanvalsdrones aangevraagd",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-13T13:32:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "Volgens de Britse krant Financial Times — geciteerd door de Russische staatsgezinde site topwar.ru op 13 september 2026 — heeft Iran bij Rusland een verzoek ingediend om de nieuwste generatie straalaangedreven Geran-aanvalsdrones te leveren, specifiek de Geran-4 en Geran-5, mogelijk voor gebruik in een conflict met Is…",
+       "enSummary": "According to the British newspaper Financial Times — as relayed by the Russian state-aligned outlet topwar.ru on 13 September 2026 — Iran has asked Russia to supply its newest generation of jet-powered Geran attack drones, specifically the Geran-4 and Geran-5, reportedly for potential use in a conflict with Israel and…",
+       "sourceUrl": "https://topwar.ru/289647-ft-iran-zaprosil-postavku-novejshih-rossijskih-reaktivnyh-dronov.html",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260911-03",
        "title": "Poland Develops Gladius 2 Jet-Propelled Strike UAV With a 250 km Operational Range",
@@ -4323,28 +4338,6 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260902-03",
-       "title": "Ukraine's Kaban retrofit kit turns in-service vehicles — including an HMMWV — into uncrewed ground vehicles",
-       "titleNl": "Oekraïens Kaban-inbouwsysteem maakt van bestaande voertuigen — waaronder een HMMWV — onbemande grondvoertuigen",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "armor"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-31T13:59:56.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "De Oekraïense fabrikant Drone Fight Group heeft een HMMWV (\"Humvee\") omgebouwd tot een op afstand bestuurbaar, onbemand grondvoertuig met zijn Kaban-systeem — een inbouwkit die bestaande voertuigen in de vloot ombouwt zonder constructieve wijzigingen, in plaats van een speciaal ontworpen UGV te bouwen. De ontwikkeling…",
-       "enSummary": "Ukrainian manufacturer Drone Fight Group has converted an HMMWV (\"Humvee\") into a remote-controlled uncrewed ground vehicle using its Kaban system — a retrofit kit that turns vehicles already in service into remotely operated platforms without structural modification, rather than building a purpose-made UGV. The work…",
-       "sourceUrl": "https://defence-blog.com/ukraine-converts-iconic-hmmwv-into-robot-vehicle/",
-       "sourceCount": 3,
-       "signals": [
-        "deploy"
-       ]
       }
      ]
     },
@@ -4383,9 +4376,31 @@
     "epm": {
      "name": "Electronic protection",
      "nameEn": "Electronic protection",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260914-s01",
+       "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
+       "titleNl": "FT: Iran heeft levering van Ruslands nieuwste straalaangedreven aanvalsdrones aangevraagd",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-13T13:32:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "Volgens de Britse krant Financial Times — geciteerd door de Russische staatsgezinde site topwar.ru op 13 september 2026 — heeft Iran bij Rusland een verzoek ingediend om de nieuwste generatie straalaangedreven Geran-aanvalsdrones te leveren, specifiek de Geran-4 en Geran-5, mogelijk voor gebruik in een conflict met Is…",
+       "enSummary": "According to the British newspaper Financial Times — as relayed by the Russian state-aligned outlet topwar.ru on 13 September 2026 — Iran has asked Russia to supply its newest generation of jet-powered Geran attack drones, specifically the Geran-4 and Geran-5, reportedly for potential use in a conflict with Israel and…",
+       "sourceUrl": "https://topwar.ru/289647-ft-iran-zaprosil-postavku-novejshih-rossijskih-reaktivnyh-dronov.html",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260906-10",
        "title": "Russia's Rubicon drone centre claims it has used 1 million FPV drones in Ukraine",
