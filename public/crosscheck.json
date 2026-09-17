@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-14T05:34:10.281Z",
- "analysisUpdated": "2026-09-14T05:33:27.917Z",
+ "updated": "2026-09-17T07:29:13.571Z",
+ "analysisUpdated": "2026-09-17T07:26:56.809Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 284,
+  "entriesConsidered": 298,
   "cardsWithHits": 51,
-  "matches": 334
+  "matches": 347
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,78 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 39,
-     "signalCount": 5,
+     "total": 42,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260917-07",
+       "title": "Zelenskyy says new Ukrainian anti-drone interceptor is in testing, claims first Shahed kill",
+       "titleNl": "Zelensky: nieuwe Oekraïense anti-drone-onderschepper in test, claimt eerste Shahed-treffer",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-16T14:19:30.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "President Zelensky maakte op 16 september 2026 bekend dat Oekraïne een nieuw, binnenlands ontwikkeld wapen test dat drones moet onderscheppen. In zijn eigen woorden: \"Er wordt weer een ontwikkeling getest. Het is een Oekraïense ontwikkeling\", en hij stelde dat het systeem die nacht een Shahed-drone had vernietigd, al…",
+       "enSummary": "President Zelenskyy announced on 16 September 2026 that Ukraine is testing a new, domestically developed weapon designed to intercept drones. In his own words: \"Another development is undergoing testing. It's a Ukrainian development,\" adding that the system destroyed a Shahed drone overnight, though \"some technical th…",
+       "sourceUrl": "https://www.defensenews.com/global/2026/09/16/ukraines-zelenskyy-says-new-anti-drone-weapon-being-tested",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260917-14",
+       "title": "Ukraine's private air-defense program grows from 24 to 81 companies in five months",
+       "titleNl": "Oekraïens programma voor particuliere luchtverdediging groeit in vijf maanden van 24 naar 81 bedrijven",
+       "category": "org",
+       "topics": [
+        "air-defense",
+        "drones",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-16T09:03:08.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Het Oekraïense ministerie van Defensie meldt dat inmiddels 81 particuliere bedrijven zijn toegelaten tot een experimenteel programma waarbij fabrieken, magazijnen en energie-infrastructuur hun eigen luchtverdediging tegen Russische drones en raketten mogen voeren. Het pilotprogramma, eind 2025 gestart, groeide van 24…",
+       "enSummary": "Ukraine's Ministry of Defense reports that 81 private companies have now been authorized to run their own air defense against Russian drone and missile strikes, protecting factories, warehouses and energy infrastructure. The pilot program, launched in late 2025, grew from 24 participating firms in April 2026 to 30 in…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/16/in-april-24-ukrainian-companies-ran-their-own-air-defense-by-mid-september-81-do-about-one-new-firm-per-day",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260917-11",
+       "title": "Russia and Iran deepen weapons partnership: hypersonic missile program joins Shahed/Geran drone pipeline",
+       "titleNl": "Rusland en Iran verdiepen wapensamenwerking: hypersoon raketprogramma naast Shahed/Geran-drones",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-15T13:42:46.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Defense News beschrijft hoe de Russisch-Iraanse wapensamenwerking zich uitbreidt voorbij het bekende Shahed/Geran-dossier. Naast de reeds bekende licentieproductie in Alabuga (Tatarstan, $1,75 miljard, sinds oktober 2022) en de doorontwikkeling naar straalgedreven Geran-4/5-varianten — met een productiedoel van duizen…",
+       "enSummary": "Defense News details how the Russia-Iran arms partnership is expanding beyond the well-known Shahed/Geran drone story. Alongside the already-documented licensed production at Alabuga (Tatarstan, $1.75 billion, finalized around October 2022) and the evolution into jet-powered Geran-4/5 variants — with a production targ…",
+       "sourceUrl": "https://www.defensenews.com/news/your-military/2026/09/15/russia-and-iran-deepen-weapons-partnership-amid-wars-in-ukraine-middle-east",
+       "sourceCount": 1,
+       "signals": [
+        "variant"
+       ]
+      },
       {
        "id": "e-20260914-s01",
        "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
@@ -94,83 +163,37 @@
        "signals": [
         "deploy"
        ]
-      },
-      {
-       "id": "e-20260911-11",
-       "title": "Drone threat delays Zelensky's flight from Moldova; Norway says plane 'almost collided' with drone",
-       "titleNl": "Dronedreiging vertraagt vlucht Zelensky vanuit Moldavië; Noorwegen spreekt van 'bijna-botsing'",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-10T08:18:06.000Z",
-       "updatedAt": "2026-09-11T09:00:00.000Z",
-       "nlSummary": "Op 8 september 2026 werd het vertrek van president Zelensky vanaf de luchthaven van Chisinau (Moldavië) naar Oslo vertraagd nadat Moldavische autoriteiten rond 16:30 lokale tijd een drone in het luchtruim detecteerden en het luchtruim tijdelijk sloten. Ongeveer vijftig minuten later crashte en explodeerde een drone zo…",
-       "enSummary": "On September 8, 2026, President Zelensky's departure from Chisinau airport in Moldova en route to Oslo was delayed after Moldovan authorities detected a drone in the country's airspace around 4:30 p.m. local time and briefly closed the airspace. Roughly fifty minutes later, a drone crashed and exploded about 160 kilom…",
-       "sourceUrl": "https://meduza.io/en/news/2026/09/10/norway-s-prime-minister-says-zelensky-s-plane-nearly-collided-with-drone-en-route-from-moldova-to-oslo",
-       "sourceCount": 2,
-       "signals": []
-      },
-      {
-       "id": "e-20260910-s02",
-       "title": "Rybar: 'Hunter of litaky' — Geran drones used to ambush Ukrainian aircraft on the ground",
-       "titleNl": "Rybar: 'Jager op litaky' — Geran-drones ingezet om Oekraïense vliegtuigen op de grond te treffen",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "airforce",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-09T10:56:32.000Z",
-       "updatedAt": "2026-09-10T09:00:00.000Z",
-       "nlSummary": "De Russische milblogger Rybar betoogt dat Geran-drones (Shahed-type), en met name de variant \"Geran-4 Siker\", niet langer alleen worden ingezet tegen logistieke opslag en munitie- en wapendepots, maar ook steeds vaker gericht jacht maken op Oekraïense luchtvaartuigen. Rybar claimt dat in vijf dagen tijd twee toestelle…",
-       "enSummary": "The Russian milblogger Rybar argues that Geran drones (Shahed-type), specifically the \"Geran-4 Seeker\" variant, are no longer used only against logistics warehouses and ammunition and weapons storage, but increasingly to hunt Ukrainian aircraft. Rybar claims two airframes were hit in five days. On 4 September, on the…",
-       "sourceUrl": "https://t.me/rybar/83008",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260910-10",
-       "title": "Russia hammers Kyiv and other Ukrainian cities with drones, missiles and glide bombs, 8-10 September 2026",
-       "titleNl": "Rusland bestookt Kyiv en andere Oekraïense steden met drones, raketten en glijbommen, 8-10 september 2026",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "glide-bombs",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-09T07:15:44.000Z",
-       "updatedAt": "2026-09-11T09:00:00.000Z",
-       "nlSummary": "Rusland zette de intensieve bombardementen op Oekraïense steden een tweede nacht op rij voort en breidde het zware gecombineerde salvo van 8-9 september uit naar de nacht van 9-10 september. In de nacht van 8-9 september sloeg Rusland toe met Iskander-M-ballistische raketten, S8000 \"Banderol\"-raketten en circa 196 aan…",
-       "enSummary": "Russia continued its intensive bombardment of Ukrainian cities through a second consecutive night, extending the heavy combined salvo of 8-9 September into the night of 9-10 September. On 8-9 September, Russian forces struck with Iskander-M ballistic missiles, S8000 \"Banderol\" missiles and roughly 196 Shahed-type atta…",
-       "sourceUrl": "https://meduza.io/en/news/2026/09/09/russian-drone-strike-hits-ukrainian-checkpoint-on-border-with-moldova-killing-two",
-       "sourceCount": 11,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 15,
+     "total": 16,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260917-11",
+       "title": "Russia and Iran deepen weapons partnership: hypersonic missile program joins Shahed/Geran drone pipeline",
+       "titleNl": "Rusland en Iran verdiepen wapensamenwerking: hypersoon raketprogramma naast Shahed/Geran-drones",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-15T13:42:46.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Defense News beschrijft hoe de Russisch-Iraanse wapensamenwerking zich uitbreidt voorbij het bekende Shahed/Geran-dossier. Naast de reeds bekende licentieproductie in Alabuga (Tatarstan, $1,75 miljard, sinds oktober 2022) en de doorontwikkeling naar straalgedreven Geran-4/5-varianten — met een productiedoel van duizen…",
+       "enSummary": "Defense News details how the Russia-Iran arms partnership is expanding beyond the well-known Shahed/Geran drone story. Alongside the already-documented licensed production at Alabuga (Tatarstan, $1.75 billion, finalized around October 2022) and the evolution into jet-powered Geran-4/5 variants — with a production targ…",
+       "sourceUrl": "https://www.defensenews.com/news/your-military/2026/09/15/russia-and-iran-deepen-weapons-partnership-amid-wars-in-ukraine-middle-east",
+       "sourceCount": 1,
+       "signals": [
+        "variant"
+       ]
+      },
       {
        "id": "e-20260914-s01",
        "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
@@ -281,32 +304,6 @@
        "sourceUrl": "https://en.defence-ua.com/industries/how_fast_can_cheap_interceptor_missile_against_jet_powered_drones_go_from_idea_to_production_the_frankenburg_example-19699.html",
        "sourceCount": 1,
        "signals": [
-        "perf",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260904-s01",
-       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
-       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-04T01:28:25.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
-       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
-       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
-       "sourceCount": 2,
-       "signals": [
-        "variant",
-        "deploy",
         "perf",
         "scale",
         "counter"
@@ -548,9 +545,57 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 12,
+     "total": 14,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260917-09",
+       "title": "Armed Russian Gerbera-2 drone found on Polish Baltic beach carried live warhead, prosecutors confirm",
+       "titleNl": "Op Pools Oostzeestrand gevonden Russische Gerbera-2-drone bleek actieve strijdkop te dragen, bevestigen aanklagers",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-16T10:08:00.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Poolse militaire aanklagers hebben bevestigd dat een drone die op 14 september 2026 werd aangetroffen op het strand bij Rusinowo, aan de Oostzeekust in de provincie West-Pommeren, een actieve splinterstrijdkop met ontsteker aan boord had. Het gaat om een Gerbera-2, een Russisch ontwikkeld toesteltype. Kolonel Bartosz…",
+       "enSummary": "Polish military prosecutors have confirmed that a drone found on 14 September 2026 on a beach near Rusinowo, on the Baltic coast in West Pomeranian Voivodeship, was carrying a live fragmentation warhead fitted with a fuze/detonator. The aircraft was identified as a Gerbera-2, a Russian-made drone type. Colonel Bartosz…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/16/8053696",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260917-04",
+       "title": "Italian NATO jets shoot down explosive-laden drone over Lithuania; Lithuanian president says Ukrainian EW may have diverted it there",
+       "titleNl": "Italiaanse NAVO-toestellen schieten met explosieven beladen drone neer boven Litouwen; Litouwse president: mogelijk door Oekraïense EW afgedwaald",
+       "category": "org",
+       "topics": [
+        "drones",
+        "air-defense",
+        "airforce",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-09-15T15:35:13.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Italiaanse NAVO-jachtvliegtuigen, ingezet vanaf Šiauliai Air Base voor de Baltic Air Policing-missie, hebben in de nacht van dinsdag op woensdag (15-16 september 2026) een onbemand toestel neergeschoten boven Litouwen, nabij het dorp Pratkūnai in het district Kaišiadorys — ongeveer 100 km ten noordwesten van Vilnius e…",
+       "enSummary": "Italian NATO fighter jets, flying under the Baltic Air Policing mission out of Šiauliai Air Base, shot down an unmanned aerial vehicle over Lithuania overnight Tuesday into Wednesday (September 15-16, 2026), near the village of Pratkūnai in Kaišiadorys district — roughly 100 km northwest of Vilnius and not far from Ka…",
+       "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/15/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260914-02",
        "title": "Russian drones strike Kyiv-Warsaw train and gas station near Polish border; Tusk warns of escalation",
@@ -641,57 +686,6 @@
        "sourceCount": 2,
        "signals": [
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260904-s01",
-       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
-       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-04T01:28:25.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
-       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
-       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
-       "sourceCount": 2,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260831-01",
-       "title": "Jet-powered Shahed strikes climb further; Ukraine posts full August tally and reorganises Close Air Defence under a combat colonel",
-       "titleNl": "Straalaangedreven Shahed-aanvallen stijgen verder; Oekraïne publiceert volledige augustus-balans en reorganiseert de nabijluchtverdediging",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-30T05:48:15.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, is het aantal straalaangedreven Shahed-drones (de \"Geran\") dat Rusland op Oekraïne afvuurt in een maand tijd met minstens 67% toegenomen: van ongeveer 1.500 vorige maand naar meer dan 2.500 deze maand. Beskrestnov zei da…",
-       "enSummary": "According to Serhii \"Flash\" Beskrestnov, an adviser to the Ukrainian president on defence-technology development, the number of jet-powered Shahed drones (the \"Geran\") that Russia has launched at Ukraine rose by at least 67% within a month, from about 1,500 last month to more than 2,500 this month. Beskrestnov said th…",
-       "sourceUrl": "https://armyinform.com.ua/2026/08/30/vnochi-ppo-zneshkodyla-125-vorozhyh-droniv-bilshist-bula-reaktyvnoyu",
-       "sourceCount": 11,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale",
-        "counter"
        ]
       }
      ]
@@ -1050,9 +1044,79 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 41,
+     "total": 42,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260917-15",
+       "title": "Ukrainian radio relay survives 10 Russian strikes, keeps transmitting after building collapse",
+       "titleNl": "Oekraïense radiorelais overleeft tien Russische aanvallen en blijft zenden na instorting van gebouw",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "command",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-16T18:42:55.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "HIMERA B1 is een Oekraïens gemaakte, autonome radiorepeater die het bereik van mesh-radionetwerken op het slagveld verlengt. Het toestel gebruikt AES-256-versleuteling en pseudo-willekeurige frequentiehopping om onderschepping, peiling en jamming te bemoeilijken. Het bedrijf Himera is opgezet door een vrijwilliger van…",
+       "enSummary": "HIMERA B1 is a Ukrainian-made autonomous radio repeater that extends the range of battlefield mesh radio networks. It uses AES-256 encryption and pseudo-random frequency hopping to resist interception, direction-finding and jamming. The manufacturer, Himera, was founded by a volunteer from Kyiv Oblast's territorial de…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/16/ukrainian-border-units-himera-b1-relay-took-10-strikes-from-russias-fpv-drones-and-guided-bombs-last-one-leveled-building-and-tower-and-relay-kept-working",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260917-10",
+       "title": "For First Time, Foreign Government Directly Funds a Ukrainian Drone School: Canada Backs Prytula Foundation",
+       "titleNl": "Voor het eerst financiert een buitenlandse overheid direct een Oekraïense dronescholing: Canada steunt Prytula-stichting",
+       "category": "org",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-16T14:24:50.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Canada financiert via zijn Military Training and Cooperation Program (MTCP) een 24 maanden durende opleiding voor Oekraïense dronepiloten, uitgevoerd door de Serhii Prytula Foundation. Volgens de berichtgeving is dit de eerste keer dat een buitenlandse overheid rechtstreeks een Oekraïense dronescholingsschool financie…",
+       "enSummary": "Canada is funding a 24-month drone-operator training course in Ukraine through its Military Training and Cooperation Program (MTCP), delivered by the Serhii Prytula Foundation. According to the report, this marks the first time a foreign government has directly funded a Ukrainian drone-training school, rather than onl…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/16/for-first-time-foreign-government-is-funding-ukrainian-drone-school-canada-picks-foundation-that-has-already-bought-ukraine-nearly-50m-in-drones",
+       "sourceCount": 1,
+       "signals": [
+        "deploy"
+       ]
+      },
+      {
+       "id": "e-20260917-12",
+       "title": "Oklahoma National Guard Trials Ukraine-Style Cage Armor on Convoy Vehicles",
+       "titleNl": "Oklahoma National Guard test Oekraïens kooipantser tegen drone-aanvallen",
+       "category": "weapon",
+       "topics": [
+        "armor",
+        "drones",
+        "doctrine"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-15T11:54:39.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Tijdens Exercise Thunderstruck 3.0, gehouden op 12 september op Camp Gruber Training Center, zijn voertuigen van de Oklahoma National Guard gefotografeerd en gefilmd met gelaste kooien van staaldraadgaas tegen FPV-drones. Het gaat om exact hetzelfde principe als de geïmproviseerde 'cope cages' die Oekraïense en later…",
+       "enSummary": "During Exercise Thunderstruck 3.0, held September 12 at Camp Gruber Training Center, Oklahoma National Guard convoy vehicles were photographed and filmed fitted with welded wire-mesh cage screens against first-person-view (FPV) drones. This is the same basic principle behind the improvised 'cope cages' that Ukrainian…",
+       "sourceUrl": "https://defence-blog.com/oklahoma-troops-trial-cage-armor-against-drone-attacks",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260914-06",
        "title": "Russia's New T-90M and T-72B3M Tanks Arrive With Upgraded Anti-Drone Protection",
@@ -1126,83 +1190,13 @@
         "perf",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260911-08",
-       "title": "Polish Lubawa Unveils Net Screen Against FPVs and Grenade Launchers",
-       "titleNl": "Pools bedrijf Lubawa onthult netscherm tegen FPV-drones en granaatwerpers",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "armor"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 1,
-       "publishedAt": "2026-09-10T13:00:58.000Z",
-       "updatedAt": "2026-09-11T09:00:00.000Z",
-       "nlSummary": "De Poolse fabrikant Lubawa S.A. heeft op de defensiebeurs MSPO 2026 in Polen een lichtgewicht netscherm ('Lekka osłona siatkowa') onthuld dat voertuigen moet beschermen tegen zowel holle-ladingsgranaten uit RPG's (type PG-7V en PG-7VM) als tegen FPV-drones. Het scherm bestaat uit een frame van composietmateriaal of al…",
-       "enSummary": "Polish manufacturer Lubawa S.A. has unveiled a lightweight net screen ('Lekka osłona siatkowa') at the MSPO 2026 defense exhibition in Poland, designed to protect vehicles against both shaped-charge RPG rounds (PG-7V and PG-7VM type) and FPV drone strikes. The screen consists of a frame made from composite material or…",
-       "sourceUrl": "https://militarnyi.com/en/news/polish-lubawa-anti-fpv-and-grenade-screen/",
-       "sourceCount": 1,
-       "signals": [
-        "variant",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260910-05",
-       "title": "Moscow Military District to form reservist drone-interceptor units for capital air defense",
-       "titleNl": "Militair District Moskou vormt drone-onderscheppingseenheden met reservisten voor luchtverdediging hoofdstad",
-       "category": "org",
-       "topics": [
-        "mobilization",
-        "air-defense",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-09T13:27:31.000Z",
-       "updatedAt": "2026-09-10T09:00:00.000Z",
-       "nlSummary": "Het in ballingschap opererende Russische medium Meduza meldde op 9 september 2026, op basis van het staatspersbureau TASS, dat het Militair District Moskou aparte drone-onderscheppingseenheden gaat oprichten die bemand worden door reservisten, om de luchtverdediging van \"kritiek belangrijke objecten\" rond de hoofdstad…",
-       "enSummary": "On 9 September 2026 the exiled Russian outlet Meduza, citing the state news agency TASS, reported that the Moscow Military District will form dedicated drone-interceptor units manned by reservists to reinforce the air defense of \"critically important facilities\" around the capital. The units are to operate high-speed…",
-       "sourceUrl": "https://meduza.io/en/news/2026/09/09/moscow-to-deploy-reservists-to-intercept-drones",
-       "sourceCount": 3,
-       "signals": [
-        "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260910-06",
-       "title": "Ukraine's National Guard says fiber-optic drones rose from 20% to 70% of its drone war",
-       "titleNl": "Oekraïense Nationale Garde: aandeel fiberdrones gestegen van 20% naar 70% van haar dronegevecht",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-09T12:52:54.000Z",
-       "updatedAt": "2026-09-10T09:00:00.000Z",
-       "nlSummary": "De Oekraïense Nationale Garde heeft haar FPV-dronevloot in korte tijd omgebouwd rond glasvezelbesturing. Volgens Nationale Garde-commandant Oleksandr Pivnenko, die dit in een YouTube-interview op het kanaal LB Live (9 september 2026) verklaarde, is het aandeel fiber-optische (\"bekabelde\") drones in het dronegebruik va…",
-       "enSummary": "Ukraine's National Guard has rapidly rebuilt its FPV drone force around fiber-optic control. According to National Guard commander Oleksandr Pivnenko, speaking in a YouTube interview on the LB Live channel on 9 September 2026, the share of fiber-optic (\"wired\") drones in the Guard's drone employment has risen from rou…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/09/20-to-70-ukraines-national-guard-rewired-its-drone-war-around-cables",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "cots": {
      "name": "COTS-drones",
      "nameEn": "COTS-drones",
-     "total": 9,
+     "total": 8,
      "signalCount": 4,
      "entries": [
       {
@@ -1577,9 +1571,56 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 17,
+     "total": 19,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260917-07",
+       "title": "Zelenskyy says new Ukrainian anti-drone interceptor is in testing, claims first Shahed kill",
+       "titleNl": "Zelensky: nieuwe Oekraïense anti-drone-onderschepper in test, claimt eerste Shahed-treffer",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-16T14:19:30.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "President Zelensky maakte op 16 september 2026 bekend dat Oekraïne een nieuw, binnenlands ontwikkeld wapen test dat drones moet onderscheppen. In zijn eigen woorden: \"Er wordt weer een ontwikkeling getest. Het is een Oekraïense ontwikkeling\", en hij stelde dat het systeem die nacht een Shahed-drone had vernietigd, al…",
+       "enSummary": "President Zelenskyy announced on 16 September 2026 that Ukraine is testing a new, domestically developed weapon designed to intercept drones. In his own words: \"Another development is undergoing testing. It's a Ukrainian development,\" adding that the system destroyed a Shahed drone overnight, though \"some technical th…",
+       "sourceUrl": "https://www.defensenews.com/global/2026/09/16/ukraines-zelenskyy-says-new-anti-drone-weapon-being-tested",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260917-14",
+       "title": "Ukraine's private air-defense program grows from 24 to 81 companies in five months",
+       "titleNl": "Oekraïens programma voor particuliere luchtverdediging groeit in vijf maanden van 24 naar 81 bedrijven",
+       "category": "org",
+       "topics": [
+        "air-defense",
+        "drones",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-16T09:03:08.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Het Oekraïense ministerie van Defensie meldt dat inmiddels 81 particuliere bedrijven zijn toegelaten tot een experimenteel programma waarbij fabrieken, magazijnen en energie-infrastructuur hun eigen luchtverdediging tegen Russische drones en raketten mogen voeren. Het pilotprogramma, eind 2025 gestart, groeide van 24…",
+       "enSummary": "Ukraine's Ministry of Defense reports that 81 private companies have now been authorized to run their own air defense against Russian drone and missile strikes, protecting factories, warehouses and energy infrastructure. The pilot program, launched in late 2025, grew from 24 participating firms in April 2026 to 30 in…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/16/in-april-24-ukrainian-companies-ran-their-own-air-defense-by-mid-september-81-do-about-one-new-firm-per-day",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260911-s03",
        "title": "GUR's 'Katran' Uncrewed Boats Carried Interceptor Drones and Radars in Kyiv Air Defence",
@@ -1670,52 +1711,6 @@
        "sourceUrl": "https://t.me/wargonzo/36692",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20260904-05",
-       "title": "Ukrainian brigade trials 'Serval Cube' anti-drone EW dome, claims it suppressed every drone in a combat-like test",
-       "titleNl": "Oekraïense brigade test anti-drone-EW-koepel 'Serval Cube' en claimt dat elke drone in een gevechtsrealistische proef werd onderdrukt",
-       "category": "weapon",
-       "topics": [
-        "ew",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-03T05:46:30.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
-       "nlSummary": "Euromaidan Press meldt dat de Oekraïense 58e Zelfstandige Gemotoriseerde Infanteriebrigade een in eigen land ontwikkeld elektronisch-oorlogvoeringssysteem van het 'koepel'-type, aangeduid als Serval Cube, heeft beproefd. Het is geen kinetisch wapen: het systeem stoort de besturings-, navigatie- en videokanalen waarvan…",
-       "enSummary": "Euromaidan Press reports that Ukraine's 58th Separate Motorized Infantry Brigade has trialed a domestically developed 'dome'-type electronic-warfare system designated Serval Cube. It is not a kinetic weapon: rather than shooting drones down, it jams the control, navigation, and video-transmission channels a drone depe…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/03/ukrainian-brigade-trials-serval-cube-ew-dome-in-combat-like-conditions-suppresses-every-drone-launched-at-it",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260902-01",
-       "title": "Ukraine forms 446th Unmanned Systems Brigade — second new drone brigade in two months",
-       "titleNl": "Oekraïne formeert 446e Brigade Onbemande Systemen — tweede nieuwe dronebrigade in twee maanden",
-       "category": "org",
-       "topics": [
-        "drones",
-        "command",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-01T13:46:16.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "Oekraïne stelt de 446e Zelfstandige Brigade Onbemande Systemen op. De eenheid zit begin september 2026 in de wervings- en formatiefase en rekruteert zowel dronepersoneel (operators van grondrobots, FPV-, bommenwerper- en interceptordrones) als ondersteunende functies zoals analisten, psychologische-ondersteuningsoffic…",
-       "enSummary": "Ukraine's Armed Forces are establishing the 446th Separate Unmanned Systems Brigade. As of early September 2026 the unit is in the recruitment and formation phase, seeking both drone personnel (operators of ground robots, FPV, bomber and interceptor drones) and support roles such as analysts, psychological-support off…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/01/second-drone-brigade-in-two-months-ukraine-is-forming-the-446th-unmanned-systems-brigade/",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -2100,9 +2095,33 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 16,
+     "total": 17,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260917-08",
+       "title": "Partisans Claim Sabotage at Russian Missile-Component Plant in Voronezh",
+       "titleNl": "Partizanen claimen sabotage bij Russische fabriek voor raketonderdelen in Voronezj",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-16T11:11:25.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "De Oekraïense partizanengroep Atesh claimt op 16 september 2026 een onderstation te hebben gesaboteerd dat een fabriek in Voronezj bevoorraadt: VZPP-Sborka, dat halfgeleiders, geïntegreerde schakelingen en voedingsmodules produceert, ongeveer 250 km van de Oekraïense grens. Volgens Atesh infiltreerde een agent het ond…",
+       "enSummary": "Ukrainian partisan group Atesh claims it sabotaged an electrical substation feeding VZPP-Sborka, a semiconductor, integrated-circuit and power-module plant in Voronezh, roughly 250 km from the Ukrainian border, announcing the operation on Sept. 16, 2026. According to Atesh, an agent infiltrated the substation and dest…",
+       "sourceUrl": "https://kyivindependent.com/partisans-claim-sabotage-at-russian-plant-producing-missile-components/",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260914-s05",
        "title": "Ukraine strikes two Pantsir-S1 systems, radar station, drone facilities and engine plant",
@@ -2222,29 +2241,6 @@
        "signals": [
         "deploy",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260905-12",
-       "title": "Ukrainian drones hit Sochi-area fuel depots and an air-defense position, grounding 100+ flights",
-       "titleNl": "Oekraïense drones treffen brandstofdepots en een luchtverdedigingsstelling bij Sotsji, 100+ vluchten getroffen",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-04T06:57:09.000Z",
-       "updatedAt": "2026-09-05T09:00:00.000Z",
-       "nlSummary": "Los van de USV-aanval op de Nefrit in de haven van Sochi op 3 september (zie aparte entry) troffen Oekraïense aanvalsdrones in de nacht van 3 op 4 september een reeks doelen rond Groot-Sotsji: onafhankelijke monitor Astra en OSINT-analisten (CyberBoroshno) meldden branden bij twee beschermde brandstofdepots — Rosneft-…",
-       "enSummary": "Separate from the USV strike on the Nefrit at Sochi port on 3 September (see separate entry), Ukrainian attack drones struck a cluster of targets around Greater Sochi overnight from 3 to 4 September: independent monitor Astra and OSINT analysts (CyberBoroshno) reported fires at two protected fuel depots — Rosneft-Kuba…",
-       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-drones-strike-russian-air-defense-position-in-sochi/",
-       "sourceCount": 6,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -3297,9 +3293,31 @@
     "su57": {
      "name": "Su-57",
      "nameEn": "Su-57",
-     "total": 5,
-     "signalCount": 5,
+     "total": 6,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260917-s01",
+       "title": "Rostec touts 'exceptional' range of export Su-57E",
+       "titleNl": "Rostec prijst 'uitzonderlijke' actieradius van exportversie Su-57E",
+       "category": "weapon",
+       "topics": [
+        "airforce"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-09-17T05:33:26.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Russisch, niet-officieel medium (Topwar.ru); niet onafhankelijk geverifieerd. Staatsconcern Rostec claimt dat de exportversie van de Soechoj Su-57 stealth-jager, de Su-57E, over een 'uitzonderlijke' actieradius en vliegduur beschikt. Aanleiding is de vlucht van het toestel naar de El Alamein Internatio…",
+       "enSummary": "SINGLE SOURCE — Russian, non-official outlet (Topwar.ru); not independently verified. State conglomerate Rostec claims the export variant of the Sukhoi Su-57 stealth fighter, the Su-57E, has an 'exceptional' range and airtime. The claim follows the aircraft's flight to the El Alamein International Airshow in Egypt (Se…",
+       "sourceUrl": "https://topwar.ru/289885-rosteh-rasskazal-ob-iskljuchitelnoj-dalnosti-su-57je.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260911-s01",
        "title": "Российский ОПК в Египте: барражирующие боеприпасы, истребители 5 поколения и ПВО нового поколения",
@@ -3480,9 +3498,32 @@
     "tu95": {
      "name": "Tu-95",
      "nameEn": "Tu-95",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260917-05",
+       "title": "Russian Tu-95MS Bombers Carrying Kh-101 Missiles Flew Over Barents and Norwegian Seas",
+       "titleNl": "Russische Tu-95MS-bommenwerpers vlogen met Kh-101-raketten over de Barentszzee en Noorse Zee",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-15T15:47:34.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Op 15 september 2026 voerden meerdere Tu-95MS 'Bear'-strategische bommenwerpers van de Russische luchtmacht (VKS) een patrouille van ongeveer vijf uur uit boven de Barentszzee en de Noorse Zee, ten noorden van Scandinavië. De toestellen werden begeleid door Russische jachtvliegtuigen (bronnen noemen zowel Su-33 als Su…",
+       "enSummary": "On 15 September 2026, multiple Russian Aerospace Forces (VKS) Tu-95MS 'Bear' strategic bombers flew a roughly five-hour patrol over the Barents Sea and Norwegian Sea, north of Scandinavia. The bombers were escorted by Russian fighter jets (sources vary between Su-33 and Su-30SM). Norwegian F-35s, scrambled from Evenes…",
+       "sourceUrl": "https://militarnyi.com/en/news/russian-tu-95ms-bombers-carrying-kh-101-missiles-flew-over-barents-and-norwegian-seas/",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260904-07",
        "title": "Russian general linked to the Okhmatdyt children's hospital strike shot and gravely wounded near Engels",
@@ -3727,9 +3768,57 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 30,
+     "total": 31,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260917-16",
+       "title": "US Air Force Confirms New Orbital Weapon Targeting Russian, Chinese Satellites",
+       "titleNl": "Amerikaanse luchtmacht bevestigt nieuw ruimtewapen tegen Russische en Chinese satellieten",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "doctrine"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-17T00:24:44.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Bloomberg meldde op 16 september 2026 dat de Amerikaanse luchtmacht/Space Force voor het eerst over een ruimtegebaseerd (orbitaal) wapen beschikt als onderdeel van het arsenal tegen Russische en Chinese satellieten — een uitbreiding op de bestaande grondgebonden jamsystemen. Luchtmachtminister Troy Meink onthulde deze…",
+       "enSummary": "Bloomberg reported on September 16, 2026 that the US Air Force/Space Force now has an orbital (space-based) weapon as part of its arsenal against Russian and Chinese satellites, for the first time expanding beyond its known ground-based jamming systems. Air Force Secretary Troy Meink disclosed the capability this week.",
+       "sourceUrl": "https://tass.com/world/2188717",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260917-15",
+       "title": "Ukrainian radio relay survives 10 Russian strikes, keeps transmitting after building collapse",
+       "titleNl": "Oekraïense radiorelais overleeft tien Russische aanvallen en blijft zenden na instorting van gebouw",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "command",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-16T18:42:55.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "HIMERA B1 is een Oekraïens gemaakte, autonome radiorepeater die het bereik van mesh-radionetwerken op het slagveld verlengt. Het toestel gebruikt AES-256-versleuteling en pseudo-willekeurige frequentiehopping om onderschepping, peiling en jamming te bemoeilijken. Het bedrijf Himera is opgezet door een vrijwilliger van…",
+       "enSummary": "HIMERA B1 is a Ukrainian-made autonomous radio repeater that extends the range of battlefield mesh radio networks. It uses AES-256 encryption and pseudo-random frequency hopping to resist interception, direction-finding and jamming. The manufacturer, Himera, was founded by a volunteer from Kyiv Oblast's territorial de…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/16/ukrainian-border-units-himera-b1-relay-took-10-strikes-from-russias-fpv-drones-and-guided-bombs-last-one-leveled-building-and-tower-and-relay-kept-working",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260914-s01",
        "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
@@ -3818,58 +3907,6 @@
        "sourceUrl": "https://defence-blog.com/ukraine-combat-experience-shapes-redwires-new-drone",
        "sourceCount": 1,
        "signals": [
-        "deploy",
-        "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260910-08",
-       "title": "Finland closes investigation into four armed Ukrainian strike drones that strayed into its territory in spring 2026",
-       "titleNl": "Finland sluit onderzoek naar vier bewapende Oekraïense aanvalsdrones die in het voorjaar van 2026 op Fins grondgebied belandden",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-09T13:31:00.000Z",
-       "updatedAt": "2026-09-10T09:00:00.000Z",
-       "nlSummary": "De Finse Centrale Recherche (National Bureau of Investigation) en de Finse Grenswacht hebben hun onderzoek afgerond naar vier incidenten waarbij Oekraïense militaire drones in het voorjaar van 2026 het Finse grondgebied binnendrongen. Volgens de Finse autoriteiten waren alle vier de toestellen afkomstig uit Oekraïne,…",
-       "enSummary": "Finland's National Bureau of Investigation and the Finnish Border Guard have completed their inquiry into four incidents in spring 2026 in which Ukrainian military drones crossed into Finnish territory. According to the Finnish authorities, all four drones originated in Ukraine, were similar models manufactured for mi…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/09/8052625",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "variant",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260910-04",
-       "title": "Ukraine unveils indigenous Shershen SAM with R-120K missile and Ai-Petri anti-glide-bomb EW system at MSPO 2026",
-       "titleNl": "Oekraïne toont eigen Shershen-luchtdoelsysteem met R-120K-raket en Ai-Petri-EW tegen glijbommen op MSPO 2026",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "ew",
-        "glide-bombs",
-        "missiles",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-09T13:00:00.000Z",
-       "updatedAt": "2026-09-11T09:00:00.000Z",
-       "nlSummary": "Op de defensiebeurs MSPO 2026 in Kielce presenteerde het Oekraïense bedrijf Radionix het modulaire luchtdoelsysteem \"Shershen\" (Horzel), opgebouwd uit het commandovoertuig Perun, de surveillance-/volgradar Athena (detectiebereik tot circa 85 km) en vier Borei-lanceerinrichtingen per batterij. Een gedetailleerder artik…",
-       "enSummary": "At the MSPO 2026 defence exhibition in Kielce, Poland, Ukrainian company Radionix presented its modular \"Shershen\" (Hornet) air-defence system, built around the Perun command-and-control vehicle, the Athena surveillance/tracking radar (detection range roughly 85 km) and four Borei launchers per battery. A more detaile…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/09/8052621",
-       "sourceCount": 3,
-       "signals": [
-        "variant",
         "deploy",
         "perf",
         "counter"
@@ -4186,8 +4223,27 @@
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
      "total": 17,
-     "signalCount": 6,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260917-03",
+       "title": "Russian Warship Fires Flares at Danish Helicopter Near Denmark; Moscow Decorates Commander",
+       "titleNl": "Russisch marineschip vuurt lichtkogels af op Deense helikopter nabij Denemarken, Moskou onderscheidt commandant",
+       "category": "org",
+       "topics": [
+        "navy"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-15T09:06:58.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Op maandag 14 september 2026 vuurde een Russisch marinevaartuig — Deense media spreken van het fregat Admiral Kasatonov, Meduza noemt de korvet Soobrazitelny — twee lichtkogels af richting een Deense militaire Fennec-helikopter die het schip in internationale wateren nabij Gedser, het zuidelijkste punt van Denemarken,…",
+       "enSummary": "On Monday, September 14, 2026, a Russian warship — described by Danish outlets as the frigate Admiral Kasatonov and by Meduza as the corvette Soobrazitelny — fired two signal flares toward a Danish military Fennec helicopter that was photographing the vessel in international waters off Gedser, Denmark's southernmost p…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/16/denmark-says-a-signal-flare-from-a-russian-warship-passed-close-to-one-of-its-military-helicopters-over-the-baltic-sea-russia-decorated-the-ship-s-commander",
+       "sourceCount": 3,
+       "signals": []
+      },
       {
        "id": "e-20260914-s01",
        "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
@@ -4309,32 +4365,6 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260903-01",
-       "title": "Ukraine downs Russian 'Banderol' (S8000) cruise missiles over the south — MiG-29 R-60 kill at very low altitude, plus a ground air-defence intercept",
-       "titleNl": "Oekraïne schiet Russische 'Banderol' (S8000)-kruisraketten neer boven het zuiden — MiG-29 met R-60 op zeer lage hoogte, plus een neerhaling door grondluchtverdediging",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-02T12:48:12.000Z",
-       "updatedAt": "2026-09-03T09:00:00.000Z",
-       "nlSummary": "In de nacht van 2 september 2026 meldden Oekraïense strijdkrachten dat zij Russische S8000-kruisraketten van het type «Banderol» hadden neergeschoten boven Zuid-Oekraïne, met beeldmateriaal van de neerhalingen. Een aan de Oekraïense luchtmacht gelieerd Telegram-kanaal zei dat een piloot in een gemoderniseerde MiG-29MU…",
-       "enSummary": "Overnight on 2 September 2026, Ukrainian forces reported shooting down Russian S8000 «Banderol» cruise missiles over southern Ukraine and published footage of the engagements. A Ukrainian Air Force-affiliated Telegram channel said a pilot in a modernised MiG-29MU1 destroyed a Banderol at extremely low altitude using a…",
-       "sourceUrl": "https://militarnyi.com/en/news/mig-29-shoots-down-russian-banderol-with-an-r-60-missile-at-extremely-low-altitude/",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf"
-       ]
       }
      ]
     },
@@ -4373,9 +4403,34 @@
     "epm": {
      "name": "Electronic protection",
      "nameEn": "Electronic protection",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260917-15",
+       "title": "Ukrainian radio relay survives 10 Russian strikes, keeps transmitting after building collapse",
+       "titleNl": "Oekraïense radiorelais overleeft tien Russische aanvallen en blijft zenden na instorting van gebouw",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "command",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-16T18:42:55.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "HIMERA B1 is een Oekraïens gemaakte, autonome radiorepeater die het bereik van mesh-radionetwerken op het slagveld verlengt. Het toestel gebruikt AES-256-versleuteling en pseudo-willekeurige frequentiehopping om onderschepping, peiling en jamming te bemoeilijken. Het bedrijf Himera is opgezet door een vrijwilliger van…",
+       "enSummary": "HIMERA B1 is a Ukrainian-made autonomous radio repeater that extends the range of battlefield mesh radio networks. It uses AES-256 encryption and pseudo-random frequency hopping to resist interception, direction-finding and jamming. The manufacturer, Himera, was founded by a volunteer from Kyiv Oblast's territorial de…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/16/ukrainian-border-units-himera-b1-relay-took-10-strikes-from-russias-fpv-drones-and-guided-bombs-last-one-leveled-building-and-tower-and-relay-kept-working",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260914-s01",
        "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
