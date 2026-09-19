@@ -199,12 +199,25 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
 8. **Deployen**:
    ```powershell
    pwsh ./deploy.ps1
-   git add -A
+   git add public/analysis.json public/history.json public/crosscheck.json crawler/cardmap.json
    git commit -m "Daily analysis: <korte samenvatting>"
    git push
    ```
    `deploy.ps1` draait `crawler/crosscheck.js` zelf opnieuw vóór de deploy, zodat
    de leersites direct de nieuwste koppelingen zien.
+
+   **Commit bewust alleen de bestanden hierboven** — dat zijn de bestanden
+   die deze taak zelf voortbrengt. Een `git add -A` sleept ook werk mee dat
+   op dat moment toevallig openstaat in de map en van iemand anders is; dat
+   is een keer gebeurd, waarbij een half afgemaakte wijziging in een
+   "Daily analysis"-commit belandde en een afgeronde bewerking werd
+   teruggedraaid. Staat er iets klaar dat wél mee moet, voeg dat pad dan
+   expliciet toe.
+
+   `public/feed.json` en `public/pretag.json` blijven hier bewust buiten:
+   die zijn eigendom van de cloud-crawler, die ze zelf commit. `deploy.ps1`
+   haalt ze alleen lokaal op om ze mee te kunnen deployen, dus ze staan na
+   afloop gewijzigd in de werkkopie zonder dat ze gecommit horen te worden.
 
 9. **Rapporteer** aan het einde: aantal nieuwe entries, aantal updates, uitkomst
    van de Voyennaya Mysl-check, en — als stap 5b iets opleverde — de
