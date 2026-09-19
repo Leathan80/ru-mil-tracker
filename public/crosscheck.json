@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-17T07:29:13.571Z",
- "analysisUpdated": "2026-09-17T07:26:56.809Z",
+ "updated": "2026-09-19T06:42:20.568Z",
+ "analysisUpdated": "2026-09-19T06:40:31.834Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 298,
-  "cardsWithHits": 51,
-  "matches": 347
+  "entriesConsidered": 302,
+  "cardsWithHits": 49,
+  "matches": 352
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,35 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 42,
+     "total": 41,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260919-03",
+       "title": "Report: up to 25,000 North Koreans may be building military drones for Russia on student visas",
+       "titleNl": "Tot 25.000 Noord-Koreanen zouden op studentenvisa militaire drones bouwen voor Rusland",
+       "category": "org",
+       "topics": [
+        "drones",
+        "north-korea",
+        "logistics",
+        "mobilization"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-17T12:21:46.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Volgens een rapport van het Multilateral Sanctions Monitoring Team (MSMT), gepubliceerd op 16 september 2026, zetten Rusland en Noord-Korea een uitgebreid systeem op om VN-sancties tegen Noord-Koreaanse arbeidsmigratie te omzeilen. Schattingen in het rapport lopen uiteen van 15.000 tot 30.000 Noord-Koreaanse arbeiders…",
+       "enSummary": "According to a report by the Multilateral Sanctions Monitoring Team (MSMT), published on September 16, 2026, Russia and North Korea have built an extensive system to evade UN sanctions on North Korean labor migration. The report's estimates range from 15,000 to 30,000 North Korean workers employed illegally in Russia…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/17/up-to-25-000-north-koreans-may-be-making-military-drones-in-russia-sanctions-monitors-say-they-enter-on-student-visas",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260917-07",
        "title": "Zelenskyy says new Ukrainian anti-drone interceptor is in testing, claims first Shahed kill",
@@ -138,30 +164,6 @@
        "signals": [
         "loss",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260911-02",
-       "title": "Canada Pledges Over $1 Billion for Ukraine's Air Defense Amid Intensifying Russian Attacks",
-       "titleNl": "Canada belooft meer dan 1 miljard dollar voor Oekraïens luchtverdediging tegen toenemende Russische aanvallen",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "missiles",
-        "airforce",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-10T18:39:37.000Z",
-       "updatedAt": "2026-09-11T09:00:00.000Z",
-       "nlSummary": "Canada heeft tijdens een bezoek van president Zelensky aan Ottawa op 10 september 2026 een steunpakket van meer dan 1 miljard dollar aan defensiehulp aangekondigd voor Oekraïens luchtverdediging. Premier Mark Carney en Zelensky ondertekenden bij die gelegenheid een verklaring over een \"100-jarig partnerschap\" tussen b…",
-       "enSummary": "During a visit by President Zelenskyy to Ottawa on September 10, 2026, Canada announced more than $1 billion in government defense assistance for Ukraine's air defense. Prime Minister Mark Carney and Zelenskyy signed a declaration establishing a \"100-year partnership\" between the two countries; the total agreements re…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/10/canada-joins-ukraines-effort-to-counter-russias-ballistic-missile-threat",
-       "sourceCount": 1,
-       "signals": [
-        "deploy"
        ]
       }
      ]
@@ -314,8 +316,8 @@
     "lancet": {
      "name": "Lancet-1 / Lancet-3",
      "nameEn": "Lancet-1 / Lancet-3",
-     "total": 6,
-     "signalCount": 6,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260908-09",
@@ -438,30 +440,6 @@
         "loss",
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260721-s02",
-       "title": "Real Cost of Ukraine's Hornet Drone Revealed: Far Cheaper Than Russia's Lancet, Now Also Hitting Aircraft",
-       "titleNl": "Werkelijke kostprijs van Oekraïense Hornet-drone onthuld: veel goedkoper dan Russische Lancet, nu ook vliegtuigen geraakt",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-21T06:00:00.000Z",
-       "updatedAt": "2026-07-21T07:30:00.000Z",
-       "nlSummary": "Volgens het Oekraïense defensiemedium Defense Express is de werkelijke productie-/aanschafprijs van de Oekraïense Hornet-aanvalsdrone (ook bekend als \"Hornet One Way\") bekend geworden: 10.000 tot 11.000 dollar per stuk. Defense Express vergelijkt dit met de Russische Lancet-loitering munition: de Lancet X-52-variant z…",
-       "enSummary": "According to Ukrainian defense outlet Defense Express, the real production/purchase cost of Ukraine's Hornet strike drone (also known as \"Hornet One Way\") has become known: $10,000-$11,000 per unit. Defense Express compares this to the Russian Lancet loitering munition: the Lancet X-52 variant reportedly costs Russia…",
-       "sourceUrl": "https://en.defence-ua.com/analysis/real_cost_of_hornet_uav_with_which_ukrainians_burn_russian_fuel_tankers_and_now_aircraft_become_known_it_is_many_times_cheaper_than_enemy_lancet-19168.html",
-       "sourceCount": 1,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -1044,9 +1022,52 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 42,
-     "signalCount": 6,
+     "total": 44,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260919-01",
+       "title": "Ukraine's 3rd Army Corps Claims It Crippled Russia's Elite Rubicon Drone Unit",
+       "titleNl": "Oekraïens 3e Legerkorps claimt Russische elite-droneenheid Rubicon te hebben verlamd",
+       "category": "org",
+       "topics": [
+        "drones",
+        "ew",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-18T11:57:00.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Het Oekraïense 3e Legerkorps claimt de Russische elite-droneenheid Rubicon fors te hebben verzwakt als onderdeel van Operatie Vivaldi, het tegenoffensief van het korps ten noorden en oosten van Lyman in het noorden van de oblast Donetsk. Volgens het korps vernietigden Oekraïense troepen de commandostructuur, logistiek…",
+       "enSummary": "Ukraine's 3rd Army Corps claims to have significantly degraded Russia's elite Rubicon drone unit as part of Operation Vivaldi, the corps' counteroffensive north and east of Lyman in northern Donetsk Oblast. According to the corps, Ukrainian forces destroyed Rubicon's command infrastructure, logistics networks, ammunit…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/18/8054081",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
+      {
+       "id": "e-20260919-s04",
+       "title": "Aerial Helpers of the Storm Troopers",
+       "titleNl": "De luchtassistenten van de stormtroepen",
+       "category": "ttp",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-17T21:03:00.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Dit item is afkomstig van Krasnaya Zvezda (\"Rode Ster\"), de officiële krant van het Russische ministerie van Defensie, en is single-source: er is geen onafhankelijke bevestiging van de gestelde feiten. Als staatsmedium van het Russische MoD is de inhoud per definitie eenzijdig en propagandistisch van aard, bedoeld om…",
+       "enSummary": "This item comes from Krasnaya Zvezda (\"Red Star\"), the official newspaper of the Russian Ministry of Defence, and is single-source: none of its claims have independent confirmation. As a Russian MoD state outlet, the content is by definition one-sided and propagandistic, intended to portray Russian forces favourably —…",
+       "sourceUrl": "http://redstar.ru/vozdushnye-pomoshhniki-shturmovikov",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260917-15",
        "title": "Ukrainian radio relay survives 10 Russian strikes, keeps transmitting after building collapse",
@@ -1070,6 +1091,28 @@
         "loss",
         "perf",
         "counter"
+       ]
+      },
+      {
+       "id": "e-20260919-s02",
+       "title": "Ukrainian Drone Worth Hundreds of Dollars Destroys russian Air Defense System Worth $10 Million (Video)",
+       "titleNl": "Oekraïense drone van een paar honderd dollar vernietigt Russisch luchtverdedigingssysteem ter waarde van $10 miljoen (video)",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-16T15:41:44.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Volgens Defense Express vernietigde de Phoenix-eenheid van de Oekraïense Pomsta-brigade met een FPV-drone een Russisch 9K33 Osa-luchtverdedigingssysteem diep achter de Russische linies. De bron, die zich baseert op het Oekraïense ministerie van Binnenlandse Zaken, schat de drone op enkele honderden dollars en het vern…",
+       "enSummary": "According to Defense Express, the Phoenix unit of Ukraine's Pomsta Brigade destroyed a Russian 9K33 Osa air defense system deep behind Russian lines using an FPV drone. The source, citing Ukraine's Ministry of Internal Affairs, estimates the drone's cost at several hundred dollars and the destroyed Osa system's value…",
+       "sourceUrl": "https://en.defence-ua.com/news/ukrainian_drone_worth_hundreds_of_dollars_destroys_russian_air_defense_system_worth_10_million_video-19802.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
        ]
       },
       {
@@ -1116,89 +1159,34 @@
         "perf",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260914-06",
-       "title": "Russia's New T-90M and T-72B3M Tanks Arrive With Upgraded Anti-Drone Protection",
-       "titleNl": "Nieuwe Russische T-90M- en T-72B3M-tanks krijgen verbeterde anti-drone-bescherming",
-       "category": "weapon",
-       "topics": [
-        "armor",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-12T13:09:22.000Z",
-       "updatedAt": "2026-09-14T09:00:00.000Z",
-       "nlSummary": "Het Russische staatsbedrijf Uralvagonzavod (UVZ) — de gesanctioneerde tankfabriek in Nizjni Tagil — heeft volgens moederbedrijf Rostec een nieuwe partij T-90M \"Proryv\"- en T-72B3M-tanks aan het Russische leger geleverd. De levering werd gekoppeld aan de 80e viering van de Russische \"Tankbemanningsdag\". Zoals bij eerde…",
-       "enSummary": "Russian state manufacturer Uralvagonzavod (UVZ) — the sanctioned tank plant in Nizhny Tagil — has delivered a new batch of T-90M \"Proryv\" and T-72B3M tanks to Russian forces, according to parent company Rostec. The delivery was timed to coincide with the 80th observance of Russia's \"Tank Crew Day.\" As with previous ba…",
-       "sourceUrl": "https://defence-blog.com/new-russian-tanks-arrive-with-upgraded-protection",
-       "sourceCount": 3,
-       "signals": [
-        "variant",
-        "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260914-s05",
-       "title": "Ukraine strikes two Pantsir-S1 systems, radar station, drone facilities and engine plant",
-       "titleNl": "Oekraïne raakt twee Pantsir-S1-systemen, radarstation, drone-faciliteiten en motorenfabriek",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-12T00:03:42.000Z",
-       "updatedAt": "2026-09-14T13:00:00.000Z",
-       "nlSummary": "Op 11 september 2026 meldde de Oekraïense generale staf een reeks gelijktijdige precisieaanvallen op meerdere Russische doelen. Twee Pantsir-S1 luchtverdedigingssystemen (kanon-raketcombinaties) werden uitgeschakeld bij Taganrog in de Russische regio Rostov, en een vijandelijk radarstation werd geraakt bij Berezki in…",
-       "enSummary": "On 11 September 2026, Ukraine's General Staff reported a series of simultaneous precision strikes on multiple Russian targets. Two Pantsir-S1 gun-missile air defense systems were knocked out near Taganrog in Russia's Rostov region, and an enemy radar station was hit near Berezki in Bryansk region; the specific radar t…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0tPWFd0WTJBWTREczR0LXVrVXctYlFhQ1RpbTUtYTJab2d3dXJJUXpDYXA2NnVabUVlTlV4QWstdXF0TmtyMGd4Uk9BaVNkMDhOTmMtLU1rTTdwX01pdGR0VU40SmI0a0Fqd04yc3dGQ1VqQlBONEdOX21hM2x0T1hqRzVLVGxEZU1JMm1DaWRKRi1KM3RhdmNqNGJGWklybjJVOXc4bHFYcTh6aFVUYkZBZE9hb3dyMmZDT1BMSldCOXNKSXVV?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260914-12",
-       "title": "France Tests Tethered Balloon to Protect Nuclear Rafale Airbase From Drone Strikes",
-       "titleNl": "Frankrijk test verankerde ballon ter bescherming van nucleaire Rafale-luchtmachtbasis tegen dronedreiging",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-12T00:00:00.000Z",
-       "updatedAt": "2026-09-14T13:00:00.000Z",
-       "nlSummary": "De Franse luchtmacht heeft van 31 augustus tot 4 september 2026 op de 113e luchtmachtbasis Saint-Dizier-Robinson een verankerde ballon (aerostaat, 12 bij 7 meter) getest als sensorplatform tegen drones. De ballon hing op circa 200 meter hoogte en droeg een EO/IR-camera met een op AI gebaseerd dreigingsdetectie-algorit…",
-       "enSummary": "The French Air and Space Force trialled a tethered balloon (aerostat, 12 by 7 metres) as a drone-detection sensor platform at 113th Airbase Commandant Antoine de Saint-Exupéry in Saint-Dizier-Robinson from 31 August to 4 September 2026. Hovering at roughly 200 metres, the balloon carried an EO/IR camera paired with an…",
-       "sourceUrl": "https://www.opex360.com/2026/09/12/larmee-de-lair-de-lespace-envisage-dutiliser-des-ballons-captifs-pour-proteger-ses-bases-contre-les-drones/",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
-        "counter"
-       ]
       }
      ]
     },
     "cots": {
      "name": "COTS-drones",
      "nameEn": "COTS-drones",
-     "total": 8,
-     "signalCount": 4,
+     "total": 9,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260919-s04",
+       "title": "Aerial Helpers of the Storm Troopers",
+       "titleNl": "De luchtassistenten van de stormtroepen",
+       "category": "ttp",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-17T21:03:00.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Dit item is afkomstig van Krasnaya Zvezda (\"Rode Ster\"), de officiële krant van het Russische ministerie van Defensie, en is single-source: er is geen onafhankelijke bevestiging van de gestelde feiten. Als staatsmedium van het Russische MoD is de inhoud per definitie eenzijdig en propagandistisch van aard, bedoeld om…",
+       "enSummary": "This item comes from Krasnaya Zvezda (\"Red Star\"), the official newspaper of the Russian Ministry of Defence, and is single-source: none of its claims have independent confirmation. As a Russian MoD state outlet, the content is by definition one-sided and propagandistic, intended to portray Russian forces favourably —…",
+       "sourceUrl": "http://redstar.ru/vozdushnye-pomoshhniki-shturmovikov",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260906-09",
        "title": "US Air Force seeks a gun-based air-defence system for overseas bases, citing Ukraine's drone-kill experience",
@@ -1311,31 +1299,6 @@
        "sourceUrl": "https://meduza.io/en/news/2026/08/28/russians-bought-over-25-billion-rubles-290-million-in-body-armor-night-vision-gear-and-drone-parts-on-the-ozon-marketplace-in-a-year-verstka-finds",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20260827-04",
-       "title": "Germany formally accuses Russia of Leipzig airport drone attack, closes Bonn consulate and Russian House",
-       "titleNl": "Duitsland beschuldigt Rusland formeel van drone-aanval op luchthaven Leipzig en sluit consulaat Bonn en Russisch Huis",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "doctrine",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-26T23:35:24.000Z",
-       "updatedAt": "2026-09-07T09:00:00.000Z",
-       "nlSummary": "In de nacht van 4 op 5 augustus 2026 werd op de luchthaven Leipzig/Halle in Duitsland een gemodificeerde drone met explosieven van militaire kwaliteit en een ontsteker aangetroffen, vlak bij een Oekraïens Antonov-vrachtvliegtuig dat munitie geladen had. Het toestel ontplofte niet omdat het triggermechanisme was losgek…",
-       "enSummary": "Overnight on 4-5 August 2026, a modified drone fitted with military-grade explosives and a detonator was found at Leipzig/Halle Airport in Germany, close to a Ukrainian Antonov cargo aircraft loaded with ammunition. The device failed to detonate because its triggering mechanism was disconnected. The same night a secon…",
-       "sourceUrl": "https://kyivindependent.com/us-intel-links-explosive-drone-found-at-german-airport-to-russias-military-intelligence/",
-       "sourceCount": 17,
-       "signals": [
-        "deploy",
-        "perf",
-        "counter"
-       ]
       }
      ]
     },
@@ -1571,9 +1534,32 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 19,
-     "signalCount": 5,
+     "total": 20,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260919-07",
+       "title": "Battlegroup North claims over 150 Ukrainian drones downed near Kharkov since early September",
+       "titleNl": "Battlegroup North claimt ruim 150 Oekraïense drones neergehaald bij Kharkov sinds begin september",
+       "category": "ttp",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-18T08:35:34.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Dit is een niet-onafhankelijk geverifieerde claim van het Russische leger, verspreid via het Russische staatsmedium TASS: de exacte cijfers en werkmethode zijn niet te controleren. Volgens \"Karta\", hoofd van de afdeling Planning en Counter-UAV Operations van het 11e Legerkorps, heeft \"Battlegroup North\" — de Russische…",
+       "enSummary": "This is an unverified claim by Russian military sources, relayed through Russian state media outlet TASS — the exact figures and methodology cannot be independently confirmed. According to \"Karta,\" head of the Planning and Counter-UAV Operations Department of the 11th Army Corps, \"Battlegroup North\" — the Russian grou…",
+       "sourceUrl": "https://tass.com/defense/2189467",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260917-07",
        "title": "Zelenskyy says new Ukrainian anti-drone interceptor is in testing, claims first Shahed kill",
@@ -1691,26 +1677,6 @@
        "signals": [
         "counter"
        ]
-      },
-      {
-       "id": "e-20260906-s01",
-       "title": "Перехват «Бабы Яги»: операторы БпЛА группировки войск «Север» перехватили украинский гексакоптер в полёте",
-       "titleNl": "Onderschepping van een 'Baba Jaga': UAV-operators van de groepering 'Sever' halen Oekraïense hexacopter neer tijdens de vlucht",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-09-04T10:56:02.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "Het Russische milbloggerkanaal WarGonzo (doorgestuurd van het Telegram-kanaal van het 44e Legerkorps) meldt dat UAV-operators van de Russische groepering strijdkrachten «Sever» (Noord) een zware Oekraïense multirotor-bommenwerper van het type «Baba Jaga» — een hexacopter — tijdens de vlucht hebben onderschept. Volgens…",
-       "enSummary": "The Russian milblogger channel WarGonzo (reposting the Telegram channel of the 44th Army Corps) reports that UAV operators of the Russian «Sever» (North) group of forces intercepted a Ukrainian «Baba Yaga» heavy multirotor bomber — a hexacopter — while it was in flight. Per the post, after «a precise hit» it lost cont…",
-       "sourceUrl": "https://t.me/wargonzo/36692",
-       "sourceCount": 1,
-       "signals": []
       }
      ]
     },
@@ -1839,9 +1805,80 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 12,
+     "total": 15,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260919-02",
+       "title": "Russia ramps up ballistic strikes on Ukraine using converted S-400 missiles",
+       "titleNl": "Rusland zet omgebouwde S-400-raketten in voor ballistische aanvallen op Oekraïne",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-18T11:10:00.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Rusland heeft volgens een Reuters-exclusive, gebaseerd op officiële Oekraïense gegevens, zijn ballistische aanvallen op Oekraïne naar recordniveaus opgevoerd door massaal gebruik te maken van de RM48U — een omgebouwde trainings-/doelraket die oorspronkelijk gebaseerd is op afgedankte S-400-interceptorraketten (48N6DM-…",
+       "enSummary": "Russia has driven its ballistic missile campaign against Ukraine to record intensity through mass use of the RM48U — a converted training/target missile originally built on decommissioned S-400 interceptor missiles (48N6DM family) and used to train air-defence crews — according to a Reuters exclusive based on official…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/18/8054073",
+       "sourceCount": 1,
+       "signals": [
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260919-06",
+       "title": "Ukraine strikes 2 S-400 launchers in Russia's Bryansk Oblast, General Staff claims",
+       "titleNl": "Oekraïne claimt twee S-400-lanceerinstallaties geraakt te hebben in Russische oblast Brjansk",
+       "category": "ttp",
+       "topics": [
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-17T13:11:23.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Oekraïne's Generale Staf claimt in de nacht van 16 op 17 september 2026 twee S-400-lanceerinstallaties te hebben geraakt in het Vygonychi-district van de Russische oblast Brjansk. Deze claim is nog niet onafhankelijk bevestigd — er is geen satellietbeeld of andere externe verificatie beschikbaar — en de Generale Staf…",
+       "enSummary": "Ukraine's General Staff claims that overnight on Sept. 16-17, 2026, it struck two Russian S-400 launchers in the Vygonychi district of Bryansk Oblast. This claim has not been independently confirmed — no satellite imagery or other external verification is available — and the General Staff did not specify the extent of…",
+       "sourceUrl": "https://kyivindependent.com/ukraine-strikes-2-s-400-launchers-in-russias-bryansk-oblast-general-staff-claims/",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260919-05",
+       "title": "Ukraine's hidden RAM-2X strike drone: maker claims over 350 Russian systems destroyed",
+       "titleNl": "Oekraïne onthult geheime RAM-2X-aanvalsdrone: fabrikant claimt ruim 350 vernietigde Russische systemen",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-17T12:50:55.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "De Oekraïense fabrikant Ukrspecsystems, bekend van de SHARK-verkenningsdrones, heeft na twee jaar geheimhouding de RAM-2X onthuld: een loitering munition (aanvalsdrone met lange hangtijd) die specifiek is ingezet tegen Russische S-400- en S-300-luchtverdedigingssystemen en Iskander-ballistische-raketlanceerders. Het t…",
+       "enSummary": "Ukrainian manufacturer Ukrspecsystems, also known for its SHARK reconnaissance drones, has unveiled the RAM-2X after keeping it secret for two years: a loitering munition specifically employed against Russian S-400 and S-300 air defense systems and Iskander ballistic missile launchers. At its 2024 combat debut the dro…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/17/ukraine-kept-this-strike-drone-secret-for-two-years-its-maker-says-it-has-destroyed-more-than-350-russian-systems",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260910-01",
        "title": "Ukraine strikes Novorossiysk naval base; Navy claims Neptune hit on Kalibr frigate Admiral Essen",
@@ -1911,76 +1948,6 @@
        "sourceCount": 6,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260904-03",
-       "title": "Ukraine's General Staff confirms strike destroying Russian Kasta air-surveillance radar in Zaporizhzhia Oblast",
-       "titleNl": "Oekraïense generale staf bevestigt aanval die Russische Kasta-luchtwaarnemingsradar in oblast Zaporizja uitschakelde",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-03T12:25:14.000Z",
-       "updatedAt": "2026-09-04T06:30:00.000Z",
-       "nlSummary": "De Oekraïense generale staf heeft bevestigd dat aanvalsdrones op 1 september 2026 een Russische mobiele 3D-luchtwaarnemingsradar van het type Kasta-2E2 (39N6) hebben geraakt nabij Visjneve in de bezette oblast Zaporizja. Volgens de verklaring troffen de drones de radarantenne en het apparatuur-/zendontvangervoertuig v…",
-       "enSummary": "Ukraine's General Staff has confirmed that on 1 September 2026 strike drones hit a Russian Kasta-2E2 (39N6) mobile 3D air-surveillance radar near Vyshneve in occupied Zaporizhzhia Oblast. According to the statement, the drones struck the radar antenna and the equipment/transceiver vehicle of the radar unit, and the re…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/03/8051761",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260901-06",
-       "title": "Ukraine's General Staff reports strikes on an S-400 command vehicle and radar in Bryansk Oblast, 30-31 August",
-       "titleNl": "Oekraïense generale staf meldt aanvallen op een S-400-commandovoertuig en radar in oblast Brjansk, 30-31 augustus",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-31T09:31:59.000Z",
-       "updatedAt": "2026-09-01T09:00:00.000Z",
-       "nlSummary": "De Oekraïense generale staf meldde op 31 augustus 2026 dat de Defensietroepen in het afgelopen etmaal en de nacht van 30 op 31 augustus een reeks Russische doelen troffen, met de nadruk op luchtverdediging. In de oblast Brjansk zou een radarstation bij Desnjansky zijn geraakt en, apart, een commando- en stafvoertuig (…",
-       "enSummary": "Ukraine's General Staff reported on 31 August 2026 that over the previous day and the night of 30-31 August its Defence Forces struck a series of Russian targets, with an emphasis on air defence. In Bryansk Oblast a radar station near Desnyansky was reportedly hit and, separately, a command-and-staff vehicle (KShM) fr…",
-       "sourceUrl": "https://armyinform.com.ua/2026/08/31/syly-oborony-urazyly-rls-systemu-ppo-ta-komandno-shtabnu-mashynu-okupantiv",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260828-02",
-       "title": "Russia converts up to 17 S-400 launchers to fire RM-48U missiles in a surface-to-surface role against Ukraine — DIU",
-       "titleNl": "Rusland bouwt tot 17 S-400-lanceerinrichtingen om voor RM-48U-raketten in een grond-grondrol tegen Oekraïne — HUR",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-26T15:03:05.000Z",
-       "updatedAt": "2026-08-28T09:00:00.000Z",
-       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR/DIU) heeft voor het eerst als officiële instantie openlijk verklaard dat Rusland tot 17 lanceerinrichtingen van het S-400-luchtverdedigingssysteem (NAVO-aanduiding SA-21) heeft omgebouwd om de RM-48U-raket in een grond-grondrol tegen Oekraïense doelen af te vuren. Volgen…",
-       "enSummary": "Ukraine's Defence Intelligence (DIU/HUR) has stated publicly, for the first time as an official institution, that Russia has converted up to 17 launchers of the S-400 air-defence system (NATO reporting name SA-21) to fire the RM-48U missile in a surface-to-surface (ground-attack) role against Ukrainian targets. The la…",
-       "sourceUrl": "https://militarnyi.com/en/news/russia-converted-up-to-17-s-400-launchers-for-strikes-on-ukraine-diu/",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -2799,37 +2766,6 @@
       }
      ]
     },
-    "mig31": {
-     "name": "MiG-31",
-     "nameEn": "MiG-31",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20260721-s01",
-       "title": "Why Does Russia Need More Than 40 MiG-31 Kinzhal Carriers if It Has Only About 100 Missiles?",
-       "titleNl": "Waarom heeft Rusland meer dan 40 MiG-31 Kinzhal-dragers nodig als het maar zo'n 100 raketten heeft?",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "airforce"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-21T06:00:00.000Z",
-       "updatedAt": "2026-07-21T07:30:00.000Z",
-       "nlSummary": "Volgens een analyse van Defense Express (Ivan Kyrychevskiy, 20 juli 2026) heeft Rusland inmiddels meer dan 40 MiG-31K/I-jachtvliegtuigen omgebouwd tot drager van de Kh-47M2 Kinzhal-hypersonische raket, terwijl de voorraad van dat wapen volgens Oekraïense militaire inlichtingendienst HUR nog maar ongeveer 100 exemplare…",
-       "enSummary": "According to an analysis by Defense Express (Ivan Kyrychevskiy, July 20, 2026), Russia now operates more than 40 MiG-31K/I aircraft converted to carry the Kh-47M2 Kinzhal hypersonic missile, while the stockpile of that weapon stands at only around 100 units, according to Ukraine's Defense Intelligence directorate (HUR…",
-       "sourceUrl": "https://en.defence-ua.com/analysis/why_does_russia_need_more_than_40_mig_31_kinzhal_carriers_if_it_has_only_about_100_missiles-19190.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "scale"
-       ]
-      }
-     ]
-    },
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
@@ -3106,42 +3042,10 @@
       }
      ]
     },
-    "su25": {
-     "name": "Su-25",
-     "nameEn": "Su-25",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20260823-16",
-       "title": "New details emerge about Ukraine's homegrown Vyrivnyuvach ('Equalizer') glide bomb",
-       "titleNl": "Nieuwe details over Oekraïens eigen zweefbom Vyrivnyuvach ('Equalizer')",
-       "category": "weapon",
-       "topics": [
-        "glide-bombs",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-18T23:00:18.000Z",
-       "updatedAt": "2026-08-23T18:00:00.000Z",
-       "nlSummary": "Oekraïne heeft meer details vrijgegeven over de Vyrivnyuvach (Oekraïens voor 'Equalizer'), zijn eerste zelfontwikkelde precisiezweefbom. Het wapen bestaat uit een zweefbomkit — vleugels en een geleidingsmodule — gemonteerd op een 250 kg-kernlading, zonder eigen motor. Volgens functionarissen van het Brave1-platform ma…",
-       "enSummary": "Ukraine has released further details on the Vyrivnyuvach (Ukrainian for 'Equalizer'), its first domestically developed precision glide bomb. The weapon is a glide-bomb kit — pop-out wings plus a guidance module — fitted to a 250 kg warhead, with no engine of its own. Brave1 officials describe 'modern guidance algorith…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPLS1oZzU5MmxuUEU5UU5qa3V0X1VyVFc0OER0UG1DT3VKR25wOHlGcUg2SV9LMkQ1SGFtYUxtNmkxSXJRVmVxWVlBeU5yZDA3MzJYTktzOFpPeUJyenYyVUF3Qm1WT0tqdHF6WFBrWTFsYTZ3SmRJMHlJNmRaeVFPNzQ0cTFvZEl1UnFveEs1YnVfMWgyQmN3M3V2QTNJTGUwYTdVYWpTMGhkSlRMQ1NvQVBFTzVmNEhHakl1RmRsbVBtMXpUUk56VWl6c2VKckZsWm93aTEtenh2RlFVdnpEWjE2UDhyXzc0NXByb2JR?oc=5",
-       "sourceCount": 2,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf"
-       ]
-      }
-     ]
-    },
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 14,
+     "total": 13,
      "signalCount": 5,
      "entries": [
       {
@@ -3768,9 +3672,51 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 31,
-     "signalCount": 6,
+     "total": 32,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260919-s03",
+       "title": "Portable EW complex \"Chistyulya\" begins testing in the SVO zone",
+       "titleNl": "Draagbaar EW-systeem \"Chistyulya\" wordt getest in het SVO-gebied",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-18T04:38:01.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Het draagbare EW-systeem \"Chistyulya\" (Чистюля) wordt volgens de Russische bron Topwar sinds kort getest in het \"SVO-gebied\" (de Russische aanduiding voor het front in Oekraïne). Het systeem wordt beschreven als een radio-elektronisch stoorsysteem gericht tegen vijandelijke onbemande vliegtuigen (drones): het zou de d…",
+       "enSummary": "According to the Russian outlet Topwar, a portable electronic warfare (EW) system called \"Chistyulya\" (Чистюля) has reportedly begun testing in the \"SVO zone\" (Russia's designation for the front line in Ukraine). The system is described as a counter-drone jammer: according to the manufacturer it blocks the data link (…",
+       "sourceUrl": "https://topwar.ru/289958-portativnyj-kompleks-rjeb-chistjulja-nachali-testirovat-v-zone-svo.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260919-s04",
+       "title": "Aerial Helpers of the Storm Troopers",
+       "titleNl": "De luchtassistenten van de stormtroepen",
+       "category": "ttp",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-17T21:03:00.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Dit item is afkomstig van Krasnaya Zvezda (\"Rode Ster\"), de officiële krant van het Russische ministerie van Defensie, en is single-source: er is geen onafhankelijke bevestiging van de gestelde feiten. Als staatsmedium van het Russische MoD is de inhoud per definitie eenzijdig en propagandistisch van aard, bedoeld om…",
+       "enSummary": "This item comes from Krasnaya Zvezda (\"Red Star\"), the official newspaper of the Russian Ministry of Defence, and is single-source: none of its claims have independent confirmation. As a Russian MoD state outlet, the content is by definition one-sided and propagandistic, intended to portray Russian forces favourably —…",
+       "sourceUrl": "http://redstar.ru/vozdushnye-pomoshhniki-shturmovikov",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260917-16",
        "title": "US Air Force Confirms New Orbital Weapon Targeting Russian, Chinese Satellites",
@@ -3863,63 +3809,38 @@
         "loss",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260914-06",
-       "title": "Russia's New T-90M and T-72B3M Tanks Arrive With Upgraded Anti-Drone Protection",
-       "titleNl": "Nieuwe Russische T-90M- en T-72B3M-tanks krijgen verbeterde anti-drone-bescherming",
-       "category": "weapon",
-       "topics": [
-        "armor",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-12T13:09:22.000Z",
-       "updatedAt": "2026-09-14T09:00:00.000Z",
-       "nlSummary": "Het Russische staatsbedrijf Uralvagonzavod (UVZ) — de gesanctioneerde tankfabriek in Nizjni Tagil — heeft volgens moederbedrijf Rostec een nieuwe partij T-90M \"Proryv\"- en T-72B3M-tanks aan het Russische leger geleverd. De levering werd gekoppeld aan de 80e viering van de Russische \"Tankbemanningsdag\". Zoals bij eerde…",
-       "enSummary": "Russian state manufacturer Uralvagonzavod (UVZ) — the sanctioned tank plant in Nizhny Tagil — has delivered a new batch of T-90M \"Proryv\" and T-72B3M tanks to Russian forces, according to parent company Rostec. The delivery was timed to coincide with the 80th observance of Russia's \"Tank Crew Day.\" As with previous ba…",
-       "sourceUrl": "https://defence-blog.com/new-russian-tanks-arrive-with-upgraded-protection",
-       "sourceCount": 3,
-       "signals": [
-        "variant",
-        "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260914-10",
-       "title": "Ukraine combat experience shapes Redwire's new Penguin Mk3 drone",
-       "titleNl": "Oekraïense gevechtservaring vormt Redwires nieuwe Penguin Mk3-drone",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-12T12:33:32.000Z",
-       "updatedAt": "2026-09-14T13:00:00.000Z",
-       "nlSummary": "Het Amerikaanse defensiebedrijf Redwire heeft sinds 2022 meer dan 250 exemplaren van zijn Penguin-verkenningsdrone (een vastevleugel-UAS in Group 3, met circa 14 uur vliegduur en EO/IR-sensoren voor doelherkenning) aan Oekraïne geleverd, grotendeels via Amerikaanse steunpakketten. Die inzet leverde het bedrijf een sch…",
-       "enSummary": "US defense company Redwire has delivered more than 250 of its Penguin reconnaissance drones — a Group 3 fixed-wing UAS with roughly 14 hours of endurance and EO/IR sensors for target recognition — to Ukraine since 2022, largely through US aid packages. That deployment generated a large body of operational data, now fe…",
-       "sourceUrl": "https://defence-blog.com/ukraine-combat-experience-shapes-redwires-new-drone",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "counter"
-       ]
       }
      ]
     },
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 8,
+     "total": 9,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260919-s03",
+       "title": "Portable EW complex \"Chistyulya\" begins testing in the SVO zone",
+       "titleNl": "Draagbaar EW-systeem \"Chistyulya\" wordt getest in het SVO-gebied",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-18T04:38:01.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Het draagbare EW-systeem \"Chistyulya\" (Чистюля) wordt volgens de Russische bron Topwar sinds kort getest in het \"SVO-gebied\" (de Russische aanduiding voor het front in Oekraïne). Het systeem wordt beschreven als een radio-elektronisch stoorsysteem gericht tegen vijandelijke onbemande vliegtuigen (drones): het zou de d…",
+       "enSummary": "According to the Russian outlet Topwar, a portable electronic warfare (EW) system called \"Chistyulya\" (Чистюля) has reportedly begun testing in the \"SVO zone\" (Russia's designation for the front line in Ukraine). The system is described as a counter-drone jammer: according to the manufacturer it blocks the data link (…",
+       "sourceUrl": "https://topwar.ru/289958-portativnyj-kompleks-rjeb-chistjulja-nachali-testirovat-v-zone-svo.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260914-10",
        "title": "Ukraine combat experience shapes Redwire's new Penguin Mk3 drone",
@@ -4036,30 +3957,6 @@
        "sourceCount": 1,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260824-11",
-       "title": "Ukraine's GPS-Free Beacon Network Guides Drones Hunting Russian Spy Aircraft Over the Black Sea",
-       "titleNl": "Oekraïens GPS-vrij bakennetwerk begeleidt drones bij jacht op Russische spionagetoestellen boven de Zwarte Zee",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T00:00:00.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Oekraïense bemanningen van onderscheppingsdrones schieten Russische Orlan-verkenningsdrones neer ver op de Zwarte Zee, buiten het bereik van kustlandmarks. Euromaidan Press meldde op 24 augustus 2026 dat het 18e Luchtcommandantschap een Orlan-30 op recordafstand van 110 km uit de kust neerhaalde met een Wovkulaka Spit…",
-       "enSummary": "Ukrainian interceptor-drone crews are shooting down Russian Orlan-family reconnaissance drones far out over the Black Sea, well beyond the reach of coastal landmarks. On 24 August 2026, Euromaidan Press reported that the 18th Aviation Commandant's Office downed an Orlan-30 at a record 110 km from shore using a Wovkula…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/24/no-gps-no-landmarks-how-ukraines-drones-hunt-russian-spy-drones-far-out-over-the-black-sea",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "perf",
-        "counter"
        ]
       }
      ]
@@ -4222,9 +4119,33 @@
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 17,
+     "total": 18,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260919-s01",
+       "title": "Ukraine's 208th Brigade Intercepts Russian S8000 Banderol Missile-Drone over Odesa Region (Video)",
+       "titleNl": "Oekraïense 208e Brigade onderschept Russische S8000 Banderol-raketdrone boven oblast Odesa (video)",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-18T00:02:29.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "De Oekraïense 208e Luchtdoelraketbrigade schoot in de nacht van 18 september 2026 een Russische S8000 Banderol-raketdrone neer boven de oblast Odesa, meldt Defense Express (defence-ua.com). De brigade publiceerde beeldmateriaal waarop het doel door de nachtelijke hemel vliegt, gevolgd door een felle flits die de verni…",
+       "enSummary": "Ukraine's 208th Anti-Aircraft Missile Brigade shot down a Russian S8000 Banderol missile-drone over Odesa region during a nighttime engagement on 18 September 2026, according to Defense Express (defence-ua.com). The brigade released footage showing the target flying through the night sky before a bright flash marked i…",
+       "sourceUrl": "https://en.defence-ua.com/news/ukraines_208th_brigade_intercepts_russian_s8000_banderol_missile_drone_over_odesa_region_video-19816.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260917-03",
        "title": "Russian Warship Fires Flares at Danish Helicopter Near Denmark; Moscow Decorates Commander",
@@ -4338,32 +4259,6 @@
         "deploy",
         "perf",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260903-06",
-       "title": "Missile shortage now spans Ukraine's fighter fleet: MiG-29s fall back on 1970s R-60s, F-16s fly gun-only",
-       "titleNl": "Rakettekort raakt nu de hele Oekraïense jachtvloot: MiG-29's terug op R-60's uit de jaren zeventig, F-16's met boordkanon",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-02T22:26:44.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "The War Zone meldde op 2 september 2026 dat het tekort aan lucht-luchtraketten dat de Oekraïense grondgebonden luchtverdediging beperkt, nu ook de F-16-vloot van de luchtmacht raakt. Het gaat om de AIM-120 AMRAAM (middellange afstand) en de AIM-9 Sidewinder (korte afstand) — de wapens waarmee de F-16's Russische Shahe…",
-       "enSummary": "The War Zone reported on 2 September 2026 that the air-to-air missile shortage constraining Ukraine's ground-based air defences has now reached its F-16 fighter force. The weapons in question are the medium-range AIM-120 AMRAAM and the short-range AIM-9 Sidewinder — the missiles the F-16s use to intercept Russian Shah…",
-       "sourceUrl": "https://www.twz.com/air/missile-shortage-has-now-hit-ukrainian-f-16-force",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf"
        ]
       }
      ]
