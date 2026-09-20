@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-19T07:01:27.542Z",
- "analysisUpdated": "2026-09-19T07:01:01.364Z",
+ "updated": "2026-09-20T08:18:27.686Z",
+ "analysisUpdated": "2026-09-20T08:18:17.389Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 309,
-  "cardsWithHits": 49,
-  "matches": 359
+  "entriesConsidered": 300,
+  "cardsWithHits": 48,
+  "matches": 337
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -26,6 +26,53 @@
      "total": 42,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260920-05",
+       "title": "Russians building underground Shahed drone workshops at Alabuga",
+       "titleNl": "Russen bouwen ondergrondse werkplaatsen voor Shahed-productie in Alabuga",
+       "category": "org",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-19T11:05:00.000Z",
+       "updatedAt": "2026-09-20T08:18:17.389Z",
+       "nlSummary": "Op satellietbeelden van de Speciale Economische Zone Alabuga in Tatarstan is de bouw van ondergrondse werkplaatsen te zien waar Shahed-type aanvalsdrones geproduceerd zullen worden. Volgens de OSINT-analist Dnipro Osint (Harbuz), op wiens beelden Ukrainska Pravda zich baseert, is inmiddels circa 42.000 m² ondergrondse…",
+       "enSummary": "Satellite imagery of the Alabuga Special Economic Zone in Tatarstan shows construction of underground workshops intended for the manufacture of Shahed-type attack drones. According to OSINT analyst Dnipro Osint (Harbuz), whose imagery Ukrainska Pravda relies on, roughly 42,000 sq m of underground space for production…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/19/8054223",
+       "sourceCount": 1,
+       "signals": [
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260920-02",
+       "title": "Ukraine unveils SBU jet-powered interceptor drone and reports kills on jet-powered Geran drones; Russian jet drone crashes near Chisinau",
+       "titleNl": "Oekraïne toont straalaangedreven interceptor-drone van de SBU en meldt neerhalingen van straalaangedreven Geran-drones; Russische jetdrone stort neer bij Chisinau",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-18T19:11:27.000Z",
+       "updatedAt": "2026-09-20T08:18:17.389Z",
+       "nlSummary": "Op 19 september 2026 maakte president Zelensky bekend dat de Oekraïense veiligheidsdienst SBU een nieuwe interceptor-drone heeft ontwikkeld en al met succes heeft ingezet tegen straalaangedreven drones van het Shahed-type. Volgens Militarnyi, dat de melding oppakt, heeft het toestel deltavormige vleugels en wordt het…",
+       "enSummary": "On 19 September 2026 President Zelensky announced that Ukraine's Security Service (SBU) has developed a new interceptor drone, already successfully deployed against jet-powered Shahed-type drones. According to Militarnyi, which picked up the report, the aircraft has delta-shaped wings and is launched from the ground b…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TM25aS3V5T0lEclpIMnJCUExVSzZuRXZpTWc2R3hOWFh3Vkd4NkZGVTBDb0t2d2RoZ3JkNVdORnFweVZxdjdGU3NnS1dIZWVKLUZiVnhJOGxxekEtSWRZRWllQ2FUSmF1N1kzMFY5NVlKSUphb0t3MWVNcjVpdw?oc=5",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260919-13",
        "title": "Ukraine Receives Australian Slinger 30mm Anti-Drone Systems",
@@ -122,59 +169,40 @@
         "deploy",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260917-11",
-       "title": "Russia and Iran deepen weapons partnership: hypersonic missile program joins Shahed/Geran drone pipeline",
-       "titleNl": "Rusland en Iran verdiepen wapensamenwerking: hypersoon raketprogramma naast Shahed/Geran-drones",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-15T13:42:46.000Z",
-       "updatedAt": "2026-09-17T09:00:00.000Z",
-       "nlSummary": "Defense News beschrijft hoe de Russisch-Iraanse wapensamenwerking zich uitbreidt voorbij het bekende Shahed/Geran-dossier. Naast de reeds bekende licentieproductie in Alabuga (Tatarstan, $1,75 miljard, sinds oktober 2022) en de doorontwikkeling naar straalgedreven Geran-4/5-varianten — met een productiedoel van duizen…",
-       "enSummary": "Defense News details how the Russia-Iran arms partnership is expanding beyond the well-known Shahed/Geran drone story. Alongside the already-documented licensed production at Alabuga (Tatarstan, $1.75 billion, finalized around October 2022) and the evolution into jet-powered Geran-4/5 variants — with a production targ…",
-       "sourceUrl": "https://www.defensenews.com/news/your-military/2026/09/15/russia-and-iran-deepen-weapons-partnership-amid-wars-in-ukraine-middle-east",
-       "sourceCount": 1,
-       "signals": [
-        "variant"
-       ]
-      },
-      {
-       "id": "e-20260914-s01",
-       "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
-       "titleNl": "FT: Iran heeft levering van Ruslands nieuwste straalaangedreven aanvalsdrones aangevraagd",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-13T13:32:16.000Z",
-       "updatedAt": "2026-09-14T09:00:00.000Z",
-       "nlSummary": "Volgens de Britse krant Financial Times — geciteerd door de Russische staatsgezinde site topwar.ru op 13 september 2026 — heeft Iran bij Rusland een verzoek ingediend om de nieuwste generatie straalaangedreven Geran-aanvalsdrones te leveren, specifiek de Geran-4 en Geran-5, mogelijk voor gebruik in een conflict met Is…",
-       "enSummary": "According to the British newspaper Financial Times — as relayed by the Russian state-aligned outlet topwar.ru on 13 September 2026 — Iran has asked Russia to supply its newest generation of jet-powered Geran attack drones, specifically the Geran-4 and Geran-5, reportedly for potential use in a conflict with Israel and…",
-       "sourceUrl": "https://topwar.ru/289647-ft-iran-zaprosil-postavku-novejshih-rossijskih-reaktivnyh-dronov.html",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "perf"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 16,
+     "total": 17,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260920-02",
+       "title": "Ukraine unveils SBU jet-powered interceptor drone and reports kills on jet-powered Geran drones; Russian jet drone crashes near Chisinau",
+       "titleNl": "Oekraïne toont straalaangedreven interceptor-drone van de SBU en meldt neerhalingen van straalaangedreven Geran-drones; Russische jetdrone stort neer bij Chisinau",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-18T19:11:27.000Z",
+       "updatedAt": "2026-09-20T08:18:17.389Z",
+       "nlSummary": "Op 19 september 2026 maakte president Zelensky bekend dat de Oekraïense veiligheidsdienst SBU een nieuwe interceptor-drone heeft ontwikkeld en al met succes heeft ingezet tegen straalaangedreven drones van het Shahed-type. Volgens Militarnyi, dat de melding oppakt, heeft het toestel deltavormige vleugels en wordt het…",
+       "enSummary": "On 19 September 2026 President Zelensky announced that Ukraine's Security Service (SBU) has developed a new interceptor drone, already successfully deployed against jet-powered Shahed-type drones. According to Militarnyi, which picked up the report, the aircraft has delta-shaped wings and is launched from the ground b…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TM25aS3V5T0lEclpIMnJCUExVSzZuRXZpTWc2R3hOWFh3Vkd4NkZGVTBDb0t2d2RoZ3JkNVdORnFweVZxdjdGU3NnS1dIZWVKLUZiVnhJOGxxekEtSWRZRWllQ2FUSmF1N1kzMFY5NVlKSUphb0t3MWVNcjVpdw?oc=5",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260917-11",
        "title": "Russia and Iran deepen weapons partnership: hypersonic missile program joins Shahed/Geran drone pipeline",
@@ -284,32 +312,6 @@
        "signals": [
         "loss",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260909-s02",
-       "title": "Defense Express: how fast a cheap interceptor missile against jet drones can reach production — the Frankenburg case",
-       "titleNl": "Defense Express: hoe snel een goedkope interceptorraket tegen straaldrones in productie kan komen — de casus Frankenburg",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "drones",
-        "missiles",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-06T21:47:01.000Z",
-       "updatedAt": "2026-09-09T09:00:00.000Z",
-       "nlSummary": "Defense Express gebruikt de Estse defensiestartup Frankenburg Technologies (opgericht in 2024, gefinancierd met circa 40 miljoen euro na een Series A van 30 miljoen in februari 2026) als voorbeeld van hoe snel een goedkope interceptorraket tegen straalaangedreven aanvalsdrones van idee naar serieproductie kan gaan. He…",
-       "enSummary": "Defense Express uses the Estonian defense startup Frankenburg Technologies (founded 2024, backed by roughly €40 million after a €30 million Series A in February 2026) as a case study in how quickly a cheap interceptor missile against jet-powered attack drones can go from idea to serial production. The product is the M…",
-       "sourceUrl": "https://en.defence-ua.com/industries/how_fast_can_cheap_interceptor_missile_against_jet_powered_drones_go_from_idea_to_production_the_frankenburg_example-19699.html",
-       "sourceCount": 1,
-       "signals": [
-        "perf",
-        "scale",
-        "counter"
        ]
       }
      ]
@@ -904,8 +906,8 @@
     "orion": {
      "name": "Orion",
      "nameEn": "Orion",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20260908-10",
@@ -931,31 +933,6 @@
         "perf",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260823-15",
-       "title": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at Millerovo",
-       "titleNl": "Weeklange Oekraïense aanvalscampagne treft Russische luchtmachtbases en radarnetwerk van Krim tot Rostov, tweede MiG-29 bij Millerovo",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T17:50:32.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "Tussen 20 en 24 augustus voerden de Oekraïense Generale Staf en de Unmanned Systems Forces (USF/SBS, commandant Robert 'Madyar' Brovdi) een aanhoudende reeks dronaanvallen uit tegen Russische luchtmacht- en luchtverdedigingsinfrastructuur, verspreid van bezet Krim tot Rostov-oblast. Op vliegbasis Achtoebinsk (Astracha…",
-       "enSummary": "Between 20 and 24 August, Ukraine's General Staff and the Unmanned Systems Forces (USF/SBS, commander Robert 'Magyar' Brovdi) sustained a rolling series of drone strikes against Russian air force and air-defense infrastructure stretching from occupied Crimea to Rostov Oblast. At Akhtubinsk airbase (Astrakhan region, h…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcllqdnB1Z05PVnJIQmVka0JQcU9sMWlFLTJrTmx6X3N6OWR5d3ZmYm1FMnBONUY3NmU5ZGdIaWFQRG9BTGF6d2FEdTh0cTB1ajRaOVBzSnozdTE5TFJYUWltTklaVk9GS2Ryc1UwUUJMdDJwX2dqY0xWZDBLOFNyU2lwSGZlSWxKY1hGSGNVd25hemtOQ0xYZ092RTBoTWNOdzhGcTVRSjc3V3RKV3FSUXNUNA?oc=5",
-       "sourceCount": 7,
-       "signals": [
-        "loss",
-        "deploy"
        ]
       }
      ]
@@ -1048,7 +1025,7 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 45,
+     "total": 44,
      "signalCount": 5,
      "entries": [
       {
@@ -1191,7 +1168,7 @@
     "cots": {
      "name": "COTS-drones",
      "nameEn": "COTS-drones",
-     "total": 9,
+     "total": 8,
      "signalCount": 3,
      "entries": [
       {
@@ -1331,7 +1308,7 @@
     "ew-spoof": {
      "name": "EW / spoofing tegen UAS",
      "nameEn": "EW / spoofing tegen UAS",
-     "total": 7,
+     "total": 6,
      "signalCount": 6,
      "entries": [
       {
@@ -1452,25 +1429,25 @@
        ]
       },
       {
-       "id": "e-20260824-13",
-       "title": "Danish and Russian Drones Observe Each Other in Close Encounter Over Baltic Sea",
-       "titleNl": "Deense en Russische drones observeren elkaar bij close encounter boven de Baltische Zee",
-       "category": "ttp",
+       "id": "e-20260727-s04",
+       "title": "Important for Americans to Know: Russia Improved Accuracy of Shahed UAVs While Iranian Ballistic Missiles Have Become More Effective, Deadlier",
+       "titleNl": "Belangrijk voor Amerikanen om te weten: Rusland verbeterde nauwkeurigheid van Shahed-drones, terwijl Iraanse ballistische raketten effectiever en dodelijker zijn geworden",
+       "category": "weapon",
        "topics": [
         "drones",
-        "naval-drones",
-        "navy"
+        "missiles"
        ],
-       "stream": "verified",
-       "origin": null,
+       "stream": "single",
+       "origin": "ua",
        "significance": 2,
-       "publishedAt": "2026-08-20T13:13:32.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Op 25 juni 2026 vond zo'n 30 kilometer ten zuidoosten van het Deense eiland Bornholm een opmerkelijke confrontatie plaats tussen Deense en Russische onbemande systemen. Het Deense zeedrone-startup Stormborn testte zijn onbemand oppervlaktevaartuig 'Stormborn X-Wave', uitgerust met radar- en sonarapparatuur van de Deen…",
-       "enSummary": "On 25 June 2026, roughly 30 kilometers southeast of the Danish island of Bornholm, a notable confrontation took place between Danish and Russian unmanned systems. Danish sea-drone startup Stormborn was testing its unmanned surface vessel 'Stormborn X-Wave', fitted with radar and sonar equipment from Danish defense man…",
-       "sourceUrl": "https://defence-blog.com/danish-and-russian-drones-observe-each-other-in-baltic-sea",
+       "publishedAt": "2026-07-27T06:00:00.000Z",
+       "updatedAt": "2026-07-27T07:00:00.000Z",
+       "nlSummary": "Defense Express stelt in een analyse-/opiniestuk (24 juli 2026, expliciet gericht aan een Amerikaans publiek) dat Iraanse Shahed-136-drones merkbaar effectiever zijn geworden: beter bestand tegen elektronische oorlogsvoering en zo nauwkeurig dat ze hetzelfde doelwit in het inslaggat van een vorige treffer kunnen raken…",
+       "enSummary": "In an analysis/opinion piece (24 July 2026, explicitly addressed to a U.S. audience), Defense Express argues that Iranian Shahed-136 drones have become markedly more effective: more resistant to electronic warfare and accurate enough to strike the same target directly in the impact hole left by a previous hit. The con…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZlFuTkZNWjZWX05YdGFibzl3RDJmTTY2bEd0UEN2QzRJOFNBUmZESUdIckQtNWdlSGtia253N0pvVWN5OU8zcXRETzFmVGFMeUg4OG9uU3lpTHhReU9WbFNQeDVfUG4wTHd1VlBTNTQ3a3Q0SVF3VmV2QllKdjdNWVhjemZZS1Y2UzFtRHM2U2dZcFdGQWlNOGJCZmZUdVMxbEZRNm03dEhEcl9BMS10TV9aSTZJX2pmWW9pWW93akhRQ2dZeHQ5UjQ4ajJvdHZnWVJpUXBNT1ZuSWVMdW1pZmRrZEVJWVptUmxUUXBXTl9CZE56OG00YmlTOU9KWnRhaUxkdjBFMUFSeWwzMkN3?oc=5",
        "sourceCount": 1,
        "signals": [
+        "loss",
         "counter"
        ]
       }
@@ -1560,9 +1537,34 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 20,
+     "total": 21,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260920-02",
+       "title": "Ukraine unveils SBU jet-powered interceptor drone and reports kills on jet-powered Geran drones; Russian jet drone crashes near Chisinau",
+       "titleNl": "Oekraïne toont straalaangedreven interceptor-drone van de SBU en meldt neerhalingen van straalaangedreven Geran-drones; Russische jetdrone stort neer bij Chisinau",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-18T19:11:27.000Z",
+       "updatedAt": "2026-09-20T08:18:17.389Z",
+       "nlSummary": "Op 19 september 2026 maakte president Zelensky bekend dat de Oekraïense veiligheidsdienst SBU een nieuwe interceptor-drone heeft ontwikkeld en al met succes heeft ingezet tegen straalaangedreven drones van het Shahed-type. Volgens Militarnyi, dat de melding oppakt, heeft het toestel deltavormige vleugels en wordt het…",
+       "enSummary": "On 19 September 2026 President Zelensky announced that Ukraine's Security Service (SBU) has developed a new interceptor drone, already successfully deployed against jet-powered Shahed-type drones. According to Militarnyi, which picked up the report, the aircraft has delta-shaped wings and is launched from the ground b…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TM25aS3V5T0lEclpIMnJCUExVSzZuRXZpTWc2R3hOWFh3Vkd4NkZGVTBDb0t2d2RoZ3JkNVdORnFweVZxdjdGU3NnS1dIZWVKLUZiVnhJOGxxekEtSWRZRWllQ2FUSmF1N1kzMFY5NVlKSUphb0t3MWVNcjVpdw?oc=5",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260919-07",
        "title": "Battlegroup North claims over 150 Ukrainian drones downed near Kharkov since early September",
@@ -1677,30 +1679,6 @@
        "sourceCount": 3,
        "signals": [
         "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260906-09",
-       "title": "US Air Force seeks a gun-based air-defence system for overseas bases, citing Ukraine's drone-kill experience",
-       "titleNl": "Amerikaanse luchtmacht zoekt kanongebaseerd luchtverdedigingssysteem voor bases in het buitenland, met verwijzing naar Oekraïense drone-ervaring",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "artillery",
-        "drones",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-05T11:13:20.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "De Amerikaanse luchtmacht heeft op het federale aanbestedingsportaal een Request for Information (RFI) gepubliceerd voor een \"Ground-Based, Medium-Caliber Gun Weapon System\" om haar vliegbases in het buitenland te beschermen tegen lucht- en raketdreigingen, met als eerste prioriteit subsone kruisraketten en drones — v…",
-       "enSummary": "The U.S. Air Force has published a Request for Information on the federal procurement portal for a \"Ground-Based, Medium-Caliber Gun Weapon System\" to defend its overseas air bases against air and missile threats, with an initial focus on subsonic cruise missiles and unmanned aircraft ranging from small quadcopters to…",
-       "sourceUrl": "https://militarnyi.com/en/news/usa-new-air-defense-system-protect-air-base/",
-       "sourceCount": 2,
-       "signals": [
         "counter"
        ]
       }
@@ -1831,7 +1809,7 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 15,
+     "total": 13,
      "signalCount": 6,
      "entries": [
       {
@@ -2088,7 +2066,7 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 17,
+     "total": 14,
      "signalCount": 6,
      "entries": [
       {
@@ -2269,8 +2247,8 @@
     "sa15": {
      "name": "Tor-M2 (SA-15)",
      "nameEn": "Tor-M2 (SA-15)",
-     "total": 2,
-     "signalCount": 1,
+     "total": 1,
+     "signalCount": 0,
      "entries": [
       {
        "id": "e-20260731-s02",
@@ -2291,28 +2269,6 @@
        "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20260722-s02",
-       "title": "Ukraine Destroys Tor-M2 System, Hits Buk-M1 Units, and Five russian Radars in Coordinated Drone Strikes",
-       "titleNl": "Oekraïne vernietigt Tor-M2-systeem, raakt Buk-M1-eenheden en vijf Russische radars bij gecoördineerde drone-aanvallen",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Volgens Defense Express hebben operators van de Oekraïense Unmanned Systems Forces — specifiek het 1st Separate Center in samenwerking met het Deep Strike Center — in de nacht van 20 juli 2026 een gecoördineerde reeks drone-aanvallen uitgevoerd tegen Russische luchtverdedigings- en radarinfrastructuur. Daarbij zou bij…",
-       "enSummary": "According to Defense Express, operators from Ukraine's Unmanned Systems Forces — specifically the 1st Separate Center working with the Deep Strike Center — carried out a coordinated overnight drone-strike campaign on 20 July 2026 against Russian air-defense and radar infrastructure. The report claims a Tor-M2 short-ra…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk1UWXNJQl9LMmEzQURpUmxRckkyc3VCYk1QZnJyVHJ2TVJGM2JDZ0lyX1NNYndhbXJwZ3dDNzRSM1lhNEE0UkZ4XzRvNDBpWWduM0Rfc3hMYVd4RGVnS2xiTm9QZndtWDZVSFdrS0xubUYtQ3c3NHNnWl9OM1pZa0pjbFJPbmVMRWZRWWdCOERnZ1ZacjlKVlRjVWNlUW9zOE56djRIRUtMaDdURDRRb285U3F0LXhqUThqd1VfSWhreFg3UmZtbTZfOTYtM1Z0VWZKTE5mZzQwQVV2Ym5BQmZfQQ?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -2351,8 +2307,8 @@
     "sa11": {
      "name": "Buk-M1 (SA-11)",
      "nameEn": "Buk-M1 (SA-11)",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20260823-s02",
@@ -2378,28 +2334,6 @@
         "perf",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260722-s02",
-       "title": "Ukraine Destroys Tor-M2 System, Hits Buk-M1 Units, and Five russian Radars in Coordinated Drone Strikes",
-       "titleNl": "Oekraïne vernietigt Tor-M2-systeem, raakt Buk-M1-eenheden en vijf Russische radars bij gecoördineerde drone-aanvallen",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Volgens Defense Express hebben operators van de Oekraïense Unmanned Systems Forces — specifiek het 1st Separate Center in samenwerking met het Deep Strike Center — in de nacht van 20 juli 2026 een gecoördineerde reeks drone-aanvallen uitgevoerd tegen Russische luchtverdedigings- en radarinfrastructuur. Daarbij zou bij…",
-       "enSummary": "According to Defense Express, operators from Ukraine's Unmanned Systems Forces — specifically the 1st Separate Center working with the Deep Strike Center — carried out a coordinated overnight drone-strike campaign on 20 July 2026 against Russian air-defense and radar infrastructure. The report claims a Tor-M2 short-ra…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk1UWXNJQl9LMmEzQURpUmxRckkyc3VCYk1QZnJyVHJ2TVJGM2JDZ0lyX1NNYndhbXJwZ3dDNzRSM1lhNEE0UkZ4XzRvNDBpWWduM0Rfc3hMYVd4RGVnS2xiTm9QZndtWDZVSFdrS0xubUYtQ3c3NHNnWl9OM1pZa0pjbFJPbmVMRWZRWWdCOERnZ1ZacjlKVlRjVWNlUW9zOE56djRIRUtMaDdURDRRb285U3F0LXhqUThqd1VfSWhreFg3UmZtbTZfOTYtM1Z0VWZKTE5mZzQwQVV2Ym5BQmZfQQ?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -2541,36 +2475,6 @@
       }
      ]
     },
-    "gamma": {
-     "name": "Gamma-DE/S1",
-     "nameEn": "Gamma-DE/S1",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20260722-s02",
-       "title": "Ukraine Destroys Tor-M2 System, Hits Buk-M1 Units, and Five russian Radars in Coordinated Drone Strikes",
-       "titleNl": "Oekraïne vernietigt Tor-M2-systeem, raakt Buk-M1-eenheden en vijf Russische radars bij gecoördineerde drone-aanvallen",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Volgens Defense Express hebben operators van de Oekraïense Unmanned Systems Forces — specifiek het 1st Separate Center in samenwerking met het Deep Strike Center — in de nacht van 20 juli 2026 een gecoördineerde reeks drone-aanvallen uitgevoerd tegen Russische luchtverdedigings- en radarinfrastructuur. Daarbij zou bij…",
-       "enSummary": "According to Defense Express, operators from Ukraine's Unmanned Systems Forces — specifically the 1st Separate Center working with the Deep Strike Center — carried out a coordinated overnight drone-strike campaign on 20 July 2026 against Russian air-defense and radar infrastructure. The report claims a Tor-M2 short-ra…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk1UWXNJQl9LMmEzQURpUmxRckkyc3VCYk1QZnJyVHJ2TVJGM2JDZ0lyX1NNYndhbXJwZ3dDNzRSM1lhNEE0UkZ4XzRvNDBpWWduM0Rfc3hMYVd4RGVnS2xiTm9QZndtWDZVSFdrS0xubUYtQ3c3NHNnWl9OM1pZa0pjbFJPbmVMRWZRWWdCOERnZ1ZacjlKVlRjVWNlUW9zOE56djRIRUtMaDdURDRRb285U3F0LXhqUThqd1VfSWhreFg3UmZtbTZfOTYtM1Z0VWZKTE5mZzQwQVV2Ym5BQmZfQQ?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      }
-     ]
-    },
     "podlet": {
      "name": "Podlet-K1",
      "nameEn": "Podlet-K1",
@@ -2606,8 +2510,8 @@
     "kasta": {
      "name": "Kasta-2E2",
      "nameEn": "Kasta-2E2",
-     "total": 5,
-     "signalCount": 4,
+     "total": 3,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20260910-01",
@@ -2677,53 +2581,6 @@
        "sourceUrl": "https://armyinform.com.ua/2026/08/25/syly-oborony-urazyly-vynyshhuvach-mig-29-u-rostovskij-oblasti-kompleksy-reb-ta-sklady-okupantiv-genshtab",
        "sourceCount": 2,
        "signals": []
-      },
-      {
-       "id": "e-20260823-15",
-       "title": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at Millerovo",
-       "titleNl": "Weeklange Oekraïense aanvalscampagne treft Russische luchtmachtbases en radarnetwerk van Krim tot Rostov, tweede MiG-29 bij Millerovo",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T17:50:32.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "Tussen 20 en 24 augustus voerden de Oekraïense Generale Staf en de Unmanned Systems Forces (USF/SBS, commandant Robert 'Madyar' Brovdi) een aanhoudende reeks dronaanvallen uit tegen Russische luchtmacht- en luchtverdedigingsinfrastructuur, verspreid van bezet Krim tot Rostov-oblast. Op vliegbasis Achtoebinsk (Astracha…",
-       "enSummary": "Between 20 and 24 August, Ukraine's General Staff and the Unmanned Systems Forces (USF/SBS, commander Robert 'Magyar' Brovdi) sustained a rolling series of drone strikes against Russian air force and air-defense infrastructure stretching from occupied Crimea to Rostov Oblast. At Akhtubinsk airbase (Astrakhan region, h…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcllqdnB1Z05PVnJIQmVka0JQcU9sMWlFLTJrTmx6X3N6OWR5d3ZmYm1FMnBONUY3NmU5ZGdIaWFQRG9BTGF6d2FEdTh0cTB1ajRaOVBzSnozdTE5TFJYUWltTklaVk9GS2Ryc1UwUUJMdDJwX2dqY0xWZDBLOFNyU2lwSGZlSWxKY1hGSGNVd25hemtOQ0xYZ092RTBoTWNOdzhGcTVRSjc3V3RKV3FSUXNUNA?oc=5",
-       "sourceCount": 7,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260722-s02",
-       "title": "Ukraine Destroys Tor-M2 System, Hits Buk-M1 Units, and Five russian Radars in Coordinated Drone Strikes",
-       "titleNl": "Oekraïne vernietigt Tor-M2-systeem, raakt Buk-M1-eenheden en vijf Russische radars bij gecoördineerde drone-aanvallen",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Volgens Defense Express hebben operators van de Oekraïense Unmanned Systems Forces — specifiek het 1st Separate Center in samenwerking met het Deep Strike Center — in de nacht van 20 juli 2026 een gecoördineerde reeks drone-aanvallen uitgevoerd tegen Russische luchtverdedigings- en radarinfrastructuur. Daarbij zou bij…",
-       "enSummary": "According to Defense Express, operators from Ukraine's Unmanned Systems Forces — specifically the 1st Separate Center working with the Deep Strike Center — carried out a coordinated overnight drone-strike campaign on 20 July 2026 against Russian air-defense and radar infrastructure. The report claims a Tor-M2 short-ra…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk1UWXNJQl9LMmEzQURpUmxRckkyc3VCYk1QZnJyVHJ2TVJGM2JDZ0lyX1NNYndhbXJwZ3dDNzRSM1lhNEE0UkZ4XzRvNDBpWWduM0Rfc3hMYVd4RGVnS2xiTm9QZndtWDZVSFdrS0xubUYtQ3c3NHNnWl9OM1pZa0pjbFJPbmVMRWZRWWdCOERnZ1ZacjlKVlRjVWNlUW9zOE56djRIRUtMaDdURDRRb285U3F0LXhqUThqd1VfSWhreFg3UmZtbTZfOTYtM1Z0VWZKTE5mZzQwQVV2Ym5BQmZfQQ?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -2795,8 +2652,8 @@
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
-     "total": 6,
-     "signalCount": 6,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260909-06",
@@ -2913,36 +2770,14 @@
         "deploy",
         "scale"
        ]
-      },
-      {
-       "id": "e-20260722-s05",
-       "title": "Eurofighter Typhoon Tranche 4 Takes Flight, Giving Europe a Powerful New Rival to Russia's Su-35 and Su-57",
-       "titleNl": "Eurofighter Typhoon Tranche 4 maakt eerste vlucht, Europa krijgt volgens Defense Express een krachtige nieuwe rivaal voor Ruslands Su-35 en Su-57",
-       "category": "weapon",
-       "topics": [
-        "airforce"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Op 14 juli 2026 maakte het eerste Duitse Eurofighter Typhoon-toestel van de nieuwe Tranche 4-serie zijn eerste vlucht bij Airbus' Military Aircraft Centre in Manching, in het kader van het Duitse aanschafprogramma Quadriga. De belangrijkste vernieuwing is de ECRS Mk 1 AESA-radar, die volgens de fabrikant een groter de…",
-       "enSummary": "On 14 July 2026, the first German Eurofighter Typhoon Tranche 4 aircraft made its maiden flight at Airbus' Military Aircraft Centre in Manching, under Germany's Project Quadriga procurement. The headline upgrade is the ECRS Mk 1 AESA radar, which the manufacturer says delivers greater detection range, faster target ac…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTDZ2Q1FGQ1JBcU5JazBBeEVRNGkzQ1BjcmlUVGhMbS1kb19LeHpoS0FlTzJNcmJsZUR2bWpwTjBjY0FidFk2V3I5U0w2VE44Zkloekl3RnRXNVl4MUc2cmozZHNOTkhpYWkzMW9SYzJVV1lVd2gyLXNyWXloSERVZjBmX3hISTJMVU9CU0VKdE90RFpjdDBCRTVKNEkwMzgtamZGaUhRQ2lzd09QQURHRVMwUDZ4SFBrN0FYVVpHREtvVmthckhvRnAtWURQalNEeG9mS0VGajItNHdDSzR3UFFJR2MzT3lFZ3JhVlVB?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "variant",
-        "deploy"
-       ]
       }
      ]
     },
     "su34": {
      "name": "Su-34",
      "nameEn": "Su-34",
-     "total": 5,
-     "signalCount": 5,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
       {
        "id": "e-20260911-09",
@@ -3040,38 +2875,13 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260823-15",
-       "title": "Week-long Ukrainian strike campaign hits Russian airbases and radar network from Crimea to Rostov, downs second MiG-29 at Millerovo",
-       "titleNl": "Weeklange Oekraïense aanvalscampagne treft Russische luchtmachtbases en radarnetwerk van Krim tot Rostov, tweede MiG-29 bij Millerovo",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-20T17:50:32.000Z",
-       "updatedAt": "2026-08-25T09:00:00.000Z",
-       "nlSummary": "Tussen 20 en 24 augustus voerden de Oekraïense Generale Staf en de Unmanned Systems Forces (USF/SBS, commandant Robert 'Madyar' Brovdi) een aanhoudende reeks dronaanvallen uit tegen Russische luchtmacht- en luchtverdedigingsinfrastructuur, verspreid van bezet Krim tot Rostov-oblast. Op vliegbasis Achtoebinsk (Astracha…",
-       "enSummary": "Between 20 and 24 August, Ukraine's General Staff and the Unmanned Systems Forces (USF/SBS, commander Robert 'Magyar' Brovdi) sustained a rolling series of drone strikes against Russian air force and air-defense infrastructure stretching from occupied Crimea to Rostov Oblast. At Akhtubinsk airbase (Astrakhan region, h…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcllqdnB1Z05PVnJIQmVka0JQcU9sMWlFLTJrTmx6X3N6OWR5d3ZmYm1FMnBONUY3NmU5ZGdIaWFQRG9BTGF6d2FEdTh0cTB1ajRaOVBzSnozdTE5TFJYUWltTklaVk9GS2Ryc1UwUUJMdDJwX2dqY0xWZDBLOFNyU2lwSGZlSWxKY1hGSGNVd25hemtOQ0xYZ092RTBoTWNOdzhGcTVRSjc3V3RKV3FSUXNUNA?oc=5",
-       "sourceCount": 7,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
       }
      ]
     },
     "mig29": {
      "name": "MiG-29",
      "nameEn": "MiG-29",
-     "total": 13,
+     "total": 11,
      "signalCount": 5,
      "entries": [
       {
@@ -3223,8 +3033,8 @@
     "su57": {
      "name": "Su-57",
      "nameEn": "Su-57",
-     "total": 6,
-     "signalCount": 6,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260917-s01",
@@ -3344,28 +3154,6 @@
        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3hhTVlhN1ozUW1OY3RUSzlaQ0ktcnVyT0pmRGF4RU9aQUdYTGNHM3I3MHdPSGZsaGQxQURneDk4cjVSU2Q2MFc0eVJRbWJsd0lmMy1pekxyVlBQdEI5YlFPcFI3cnBUdHZ6M1VHek5FWS10dF9raV9ib2NsLUttUHFJTHJ0VUo3UExmVWdRcVVvajNQQlRnXw?oc=5",
        "sourceCount": 1,
        "signals": [
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260722-s05",
-       "title": "Eurofighter Typhoon Tranche 4 Takes Flight, Giving Europe a Powerful New Rival to Russia's Su-35 and Su-57",
-       "titleNl": "Eurofighter Typhoon Tranche 4 maakt eerste vlucht, Europa krijgt volgens Defense Express een krachtige nieuwe rivaal voor Ruslands Su-35 en Su-57",
-       "category": "weapon",
-       "topics": [
-        "airforce"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-07-22T06:00:00.000Z",
-       "updatedAt": "2026-07-22T07:30:00.000Z",
-       "nlSummary": "Op 14 juli 2026 maakte het eerste Duitse Eurofighter Typhoon-toestel van de nieuwe Tranche 4-serie zijn eerste vlucht bij Airbus' Military Aircraft Centre in Manching, in het kader van het Duitse aanschafprogramma Quadriga. De belangrijkste vernieuwing is de ECRS Mk 1 AESA-radar, die volgens de fabrikant een groter de…",
-       "enSummary": "On 14 July 2026, the first German Eurofighter Typhoon Tranche 4 aircraft made its maiden flight at Airbus' Military Aircraft Centre in Manching, under Germany's Project Quadriga procurement. The headline upgrade is the ECRS Mk 1 AESA radar, which the manufacturer says delivers greater detection range, faster target ac…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTDZ2Q1FGQ1JBcU5JazBBeEVRNGkzQ1BjcmlUVGhMbS1kb19LeHpoS0FlTzJNcmJsZUR2bWpwTjBjY0FidFk2V3I5U0w2VE44Zkloekl3RnRXNVl4MUc2cmozZHNOTkhpYWkzMW9SYzJVV1lVd2gyLXNyWXloSERVZjBmX3hISTJMVU9CU0VKdE90RFpjdDBCRTVKNEkwMzgtamZGaUhRQ2lzd09QQURHRVMwUDZ4SFBrN0FYVVpHREtvVmthckhvRnAtWURQalNEeG9mS0VGajItNHdDSzR3UFFJR2MzT3lFZ3JhVlVB?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "variant",
         "deploy"
        ]
       }
@@ -3698,7 +3486,7 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 33,
+     "total": 32,
      "signalCount": 5,
      "entries": [
       {
@@ -3840,7 +3628,7 @@
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 9,
+     "total": 8,
      "signalCount": 6,
      "entries": [
       {
@@ -3989,7 +3777,7 @@
     "decoys": {
      "name": "Decoys & chaff",
      "nameEn": "Decoys & chaff",
-     "total": 13,
+     "total": 11,
      "signalCount": 6,
      "entries": [
       {
@@ -4139,7 +3927,7 @@
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 18,
+     "total": 17,
      "signalCount": 5,
      "entries": [
       {
