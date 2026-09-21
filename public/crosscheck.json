@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-20T08:18:27.686Z",
- "analysisUpdated": "2026-09-20T08:18:17.389Z",
+ "updated": "2026-09-21T06:15:37.296Z",
+ "analysisUpdated": "2026-09-21T09:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 300,
+  "entriesConsidered": 294,
   "cardsWithHits": 48,
-  "matches": 337
+  "matches": 334
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,27 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 42,
-     "signalCount": 6,
+     "total": 41,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260921-04",
+       "title": "Shahed-136 clone (likely FLM-136 target drone) recovered by Florida fishing charter; Eglin AFB confirms lost test article",
+       "titleNl": "Shahed-136-kloon (waarschijnlijk FLM-136-doeldrone) opgepikt door Floridaanse visserssloep; Eglin AFB bevestigt verloren testtoestel",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-20T20:09:32.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "The War Zone meldt dat een visserscharter op zaterdag 20 september nabij Eglin Air Force Base in Florida een delta-vleugeldrone uit het water haalde die lijkt op de FLM-136, de Amerikaanse doelversie van de Iraanse Shahed-136. Een Eglin-woordvoerder bevestigde: 'we deden een test en het testtoestel is neergegaan', zon…",
+       "enSummary": "The War Zone reports that on Saturday 20 September a fishing charter near Eglin Air Force Base in Florida recovered a delta-wing drone from the water that resembles the FLM-136, the US target version of Iran's Shahed-136. An Eglin spokesperson confirmed 'we were doing a test and the test article went down' without spe…",
+       "sourceUrl": "https://www.twz.com/air/shahed-136-clone-found-by-florida-fisherman-eglin-afb-admits-it-lost-a-drone",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260920-05",
        "title": "Russians building underground Shahed drone workshops at Alabuga",
@@ -144,40 +162,38 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260917-14",
-       "title": "Ukraine's private air-defense program grows from 24 to 81 companies in five months",
-       "titleNl": "Oekraïens programma voor particuliere luchtverdediging groeit in vijf maanden van 24 naar 81 bedrijven",
-       "category": "org",
-       "topics": [
-        "air-defense",
-        "drones",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-16T09:03:08.000Z",
-       "updatedAt": "2026-09-17T09:00:00.000Z",
-       "nlSummary": "Het Oekraïense ministerie van Defensie meldt dat inmiddels 81 particuliere bedrijven zijn toegelaten tot een experimenteel programma waarbij fabrieken, magazijnen en energie-infrastructuur hun eigen luchtverdediging tegen Russische drones en raketten mogen voeren. Het pilotprogramma, eind 2025 gestart, groeide van 24…",
-       "enSummary": "Ukraine's Ministry of Defense reports that 81 private companies have now been authorized to run their own air defense against Russian drone and missile strikes, protecting factories, warehouses and energy infrastructure. The pilot program, launched in late 2025, grew from 24 participating firms in April 2026 to 30 in…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/16/in-april-24-ukrainian-companies-ran-their-own-air-defense-by-mid-september-81-do-about-one-new-firm-per-day",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "deploy",
-        "counter"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 17,
+     "total": 15,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260921-01",
+       "title": "STING S interceptor drone destroys Geran-5 small cruise missile; Geran-5 seen with internalised turbojet",
+       "titleNl": "STING S-interceptordrone vernietigt Geran-5 kleine kruisraket; Geran-5 met ingebouwde straalmotor gesignaleerd",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles"
+       ],
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-19T07:00:00.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "Een bemanning (call sign 'Rubin') van het 1020e luchtafweerraketregiment heeft volgens Militarnyi rond 19-20 september een Russische Geran-5 kleine kruisraket neergehaald met een nieuwe interceptordrone, de STING S, door een directe botsing. Beeldmateriaal werd gepubliceerd door Wild Hornets. Technische gegevens en ze…",
+       "enSummary": "According to Militarnyi, a crew (call sign 'Rubin') of the 1020th Anti-Aircraft Missile Regiment shot down a Russian Geran-5 small cruise missile around 19-20 September with a new interceptor drone, the STING S, by direct collision. Video was published by Wild Hornets. Technical details and even the appearance of the…",
+       "sourceUrl": "https://militarnyi.com/en/news/sting-s-interceptor-drone-destroys-geran-5-small-cruise-missile/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260920-02",
        "title": "Ukraine unveils SBU jet-powered interceptor drone and reports kills on jet-powered Geran drones; Russian jet drone crashes near Chisinau",
@@ -288,29 +304,6 @@
        "signals": [
         "loss",
         "deploy",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260909-02",
-       "title": "HUR: Russia failed to substitute Western chips in the Kinzhal missile and reverted to US-made processors",
-       "titleNl": "HUR: Rusland slaagde er niet in westerse chips in de Kinzjal-raket te vervangen en keerde terug naar Amerikaanse processoren",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-08T16:23:20.000Z",
-       "updatedAt": "2026-09-09T09:00:00.000Z",
-       "nlSummary": "Volgens Vladyslav Vlasjoek, de gevolmachtigde van de Oekraïense president voor sanctiebeleid, is de Russische poging om westerse microchips in de Kh-47M2 Kinzjal-raket te vervangen door binnenlandse alternatieven mislukt. In 2023 probeerde het Russische militair-industriële complex op grote schaal Amerikaanse processo…",
-       "enSummary": "According to Vladyslav Vlasiuk, the Ukrainian president's commissioner for sanctions policy, Russia's effort to substitute Western microelectronics in the Kh-47M2 Kinzhal missile with domestic chips has failed. In 2023 the Russian defence industry attempted a mass replacement of American Texas Instruments processors w…",
-       "sourceUrl": "https://militarnyi.com/en/news/russia-kinzhal-missiles-american-processors/",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
         "scale"
        ]
       }
@@ -450,9 +443,28 @@
     "orlan": {
      "name": "Orlan-10",
      "nameEn": "Orlan-10",
-     "total": 3,
+     "total": 4,
      "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260921-03",
+       "title": "Ukraine's 3rd Army Corps says its air defence forced Russian Rubicon unit to relocate",
+       "titleNl": "Oekraïens 3e Legerkorps: eigen luchtverdediging dwong Russische Rubicon-eenheid tot verplaatsing",
+       "category": "org",
+       "topics": [
+        "drones",
+        "command"
+       ],
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-20T12:12:06.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "Volgens Militarnyi zegt de commandant van de luchtverdediging van Oekraïens 3e Legerkorps dat de Russische onbemande-systemeneenheid Rubicon 'bijna volledig' naar een ander frontsector is verplaatst, omdat haar verkennings- en aanvalsdrones niet langer effectief waren. Rusland had extra verkennings- en aanvalsdronebem…",
+       "enSummary": "According to Militarnyi, the air-defence commander of Ukraine's 3rd Army Corps says the Russian unmanned-systems unit Rubicon has been 'almost entirely' redeployed to another front sector because its reconnaissance and strike drones ceased to be effective. Russia had sent additional reconnaissance and strike drone cre…",
+       "sourceUrl": "https://militarnyi.com/en/news/3rd-army-corps-air-defense-force-russia-s-rubicon-unit-to-redeploy-to-another-front-line-sector/",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260905-03",
        "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
@@ -674,9 +686,28 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 6,
-     "signalCount": 5,
+     "total": 7,
+     "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260921-03",
+       "title": "Ukraine's 3rd Army Corps says its air defence forced Russian Rubicon unit to relocate",
+       "titleNl": "Oekraïens 3e Legerkorps: eigen luchtverdediging dwong Russische Rubicon-eenheid tot verplaatsing",
+       "category": "org",
+       "topics": [
+        "drones",
+        "command"
+       ],
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-20T12:12:06.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "Volgens Militarnyi zegt de commandant van de luchtverdediging van Oekraïens 3e Legerkorps dat de Russische onbemande-systemeneenheid Rubicon 'bijna volledig' naar een ander frontsector is verplaatst, omdat haar verkennings- en aanvalsdrones niet langer effectief waren. Rusland had extra verkennings- en aanvalsdronebem…",
+       "enSummary": "According to Militarnyi, the air-defence commander of Ukraine's 3rd Army Corps says the Russian unmanned-systems unit Rubicon has been 'almost entirely' redeployed to another front sector because its reconnaissance and strike drones ceased to be effective. Russia had sent additional reconnaissance and strike drone cre…",
+       "sourceUrl": "https://militarnyi.com/en/news/3rd-army-corps-air-defense-force-russia-s-rubicon-unit-to-redeploy-to-another-front-line-sector/",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260919-11",
        "title": "Neptune Missile Strike Destroys Production Buildings at Russia's Atlant Aero Drone Plant in Taganrog",
@@ -791,38 +822,34 @@
         "loss",
         "deploy"
        ]
-      },
-      {
-       "id": "e-20260729-s04",
-       "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
-       "titleNl": "«Rubicon», «Lancets» en zwermen FPV's: hoe de Russen de richting Pokrovsk bestormen",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-29T06:41:06.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Sergeant Oleksiy Hodzenko, woordvoerder van het onbemande-systemenbataljon \"Korsar\" van de Oekraïense 38e Aparte Brigade Mariniers (vernoemd naar hetman Petro Sahaidatsjny), beschreef de gevechten in de richting Pokrovsk tijdens een uitzending van Armiya TV op 29 juli 2026. Volgens hem blijven Russische troepen aanval…",
-       "enSummary": "Sergeant Oleksiy Hodzenko, spokesman for the \"Korsar\" unmanned systems battalion of Ukraine's 38th Separate Marine Infantry Brigade (named after Hetman Petro Sahaidachny), described fighting in the Pokrovsk direction in a broadcast on Army TV on 29 July 2026. He said Russian forces continue attacking with small infant…",
-       "sourceUrl": "https://armyinform.com.ua/2026/07/29/%c2%abprosochuyutsya-i-perevazhno-vmyrayut%c2%bb-morpihy-rozpovily-yak-rosiyany-shturmuyut-pokrovskyj-napryamok",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
       }
      ]
     },
     "zala-z16": {
      "name": "ZALA Z-16",
      "nameEn": "ZALA Z-16",
-     "total": 3,
+     "total": 4,
      "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20260921-03",
+       "title": "Ukraine's 3rd Army Corps says its air defence forced Russian Rubicon unit to relocate",
+       "titleNl": "Oekraïens 3e Legerkorps: eigen luchtverdediging dwong Russische Rubicon-eenheid tot verplaatsing",
+       "category": "org",
+       "topics": [
+        "drones",
+        "command"
+       ],
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-20T12:12:06.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "Volgens Militarnyi zegt de commandant van de luchtverdediging van Oekraïens 3e Legerkorps dat de Russische onbemande-systemeneenheid Rubicon 'bijna volledig' naar een ander frontsector is verplaatst, omdat haar verkennings- en aanvalsdrones niet langer effectief waren. Rusland had extra verkennings- en aanvalsdronebem…",
+       "enSummary": "According to Militarnyi, the air-defence commander of Ukraine's 3rd Army Corps says the Russian unmanned-systems unit Rubicon has been 'almost entirely' redeployed to another front sector because its reconnaissance and strike drones ceased to be effective. Russia had sent additional reconnaissance and strike drone cre…",
+       "sourceUrl": "https://militarnyi.com/en/news/3rd-army-corps-air-defense-force-russia-s-rubicon-unit-to-redeploy-to-another-front-line-sector/",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260908-09",
        "title": "Russia markets 'combat-proven' weapons for export at Egypt's El Alamein Airshow, claims new Su-57E deals",
@@ -995,9 +1022,28 @@
     "supercam": {
      "name": "Supercam",
      "nameEn": "Supercam",
-     "total": 1,
+     "total": 2,
      "signalCount": 1,
      "entries": [
+      {
+       "id": "e-20260921-03",
+       "title": "Ukraine's 3rd Army Corps says its air defence forced Russian Rubicon unit to relocate",
+       "titleNl": "Oekraïens 3e Legerkorps: eigen luchtverdediging dwong Russische Rubicon-eenheid tot verplaatsing",
+       "category": "org",
+       "topics": [
+        "drones",
+        "command"
+       ],
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-20T12:12:06.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "Volgens Militarnyi zegt de commandant van de luchtverdediging van Oekraïens 3e Legerkorps dat de Russische onbemande-systemeneenheid Rubicon 'bijna volledig' naar een ander frontsector is verplaatst, omdat haar verkennings- en aanvalsdrones niet langer effectief waren. Rusland had extra verkennings- en aanvalsdronebem…",
+       "enSummary": "According to Militarnyi, the air-defence commander of Ukraine's 3rd Army Corps says the Russian unmanned-systems unit Rubicon has been 'almost entirely' redeployed to another front sector because its reconnaissance and strike drones ceased to be effective. Russia had sent additional reconnaissance and strike drone cre…",
+       "sourceUrl": "https://militarnyi.com/en/news/3rd-army-corps-air-defense-force-russia-s-rubicon-unit-to-redeploy-to-another-front-line-sector/",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260905-03",
        "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
@@ -1025,7 +1071,7 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 44,
+     "total": 43,
      "signalCount": 5,
      "entries": [
       {
@@ -1537,9 +1583,32 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 21,
+     "total": 20,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260921-01",
+       "title": "STING S interceptor drone destroys Geran-5 small cruise missile; Geran-5 seen with internalised turbojet",
+       "titleNl": "STING S-interceptordrone vernietigt Geran-5 kleine kruisraket; Geran-5 met ingebouwde straalmotor gesignaleerd",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles"
+       ],
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-19T07:00:00.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "Een bemanning (call sign 'Rubin') van het 1020e luchtafweerraketregiment heeft volgens Militarnyi rond 19-20 september een Russische Geran-5 kleine kruisraket neergehaald met een nieuwe interceptordrone, de STING S, door een directe botsing. Beeldmateriaal werd gepubliceerd door Wild Hornets. Technische gegevens en ze…",
+       "enSummary": "According to Militarnyi, a crew (call sign 'Rubin') of the 1020th Anti-Aircraft Missile Regiment shot down a Russian Geran-5 small cruise missile around 19-20 September with a new interceptor drone, the STING S, by direct collision. Video was published by Wild Hornets. Technical details and even the appearance of the…",
+       "sourceUrl": "https://militarnyi.com/en/news/sting-s-interceptor-drone-destroys-geran-5-small-cruise-missile/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260920-02",
        "title": "Ukraine unveils SBU jet-powered interceptor drone and reports kills on jet-powered Geran drones; Russian jet drone crashes near Chisinau",
@@ -1656,30 +1725,6 @@
        "sourceCount": 1,
        "signals": [
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260910-05",
-       "title": "Moscow Military District to form reservist drone-interceptor units for capital air defense",
-       "titleNl": "Militair District Moskou vormt drone-onderscheppingseenheden met reservisten voor luchtverdediging hoofdstad",
-       "category": "org",
-       "topics": [
-        "mobilization",
-        "air-defense",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-09T13:27:31.000Z",
-       "updatedAt": "2026-09-10T09:00:00.000Z",
-       "nlSummary": "Het in ballingschap opererende Russische medium Meduza meldde op 9 september 2026, op basis van het staatspersbureau TASS, dat het Militair District Moskou aparte drone-onderscheppingseenheden gaat oprichten die bemand worden door reservisten, om de luchtverdediging van \"kritiek belangrijke objecten\" rond de hoofdstad…",
-       "enSummary": "On 9 September 2026 the exiled Russian outlet Meduza, citing the state news agency TASS, reported that the Moscow Military District will form dedicated drone-interceptor units manned by reservists to reinforce the air defense of \"critically important facilities\" around the capital. The units are to operate high-speed…",
-       "sourceUrl": "https://meduza.io/en/news/2026/09/09/moscow-to-deploy-reservists-to-intercept-drones",
-       "sourceCount": 3,
-       "signals": [
-        "deploy",
-        "counter"
        ]
       }
      ]
@@ -1809,7 +1854,7 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 13,
+     "total": 12,
      "signalCount": 6,
      "entries": [
       {
@@ -2066,7 +2111,7 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 14,
+     "total": 13,
      "signalCount": 6,
      "entries": [
       {
@@ -2341,9 +2386,31 @@
     "sa27": {
      "name": "Buk-M3 (SA-27)",
      "nameEn": "Buk-M3 (SA-27)",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260921-s01",
+       "title": "Сили оборони уразили ЗРК «Бук-М3», РЛС «Небо-У», виробництво БПЛА та пункти управління зс рф",
+       "titleNl": "Oekraïense strijdkrachten treffen Buk-M3, Nebo-U-radar, dronefabricage en commandoposten (Generale Staf via ArmyInform)",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-20T09:15:07.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "ArmyInform (Oekraïens leger-medium) meldt namens de Generale Staf dat op 20 september een Buk-M3-luchtverdedigingssysteem bij Ukrainka (regio Zaporizja), een Nebo-U-radar bij Balka (Donetsk), een dronefabricage-locatie in Severodonetsk (Loehansk), een commandopost bij Zoriane en een UAV-controlecentrum bij Staromychaj…",
+       "enSummary": "ArmyInform (a Ukrainian military outlet) reports on behalf of the General Staff that on 20 September a Buk-M3 air-defence system near Ukrainka (Zaporizhzhia region), a Nebo-U radar near Balka (Donetsk), a drone-production site in Severodonetsk (Luhansk), a command post near Zoriane and a UAV control centre near Starom…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/20/syly-oborony-urazyly-zrk-%c2%abbuk-m3%c2%bb-rls-%c2%abnebo-u%c2%bb-vyrobnycztvo-bpla-ta-punkty-upravlinnya-zs-rf",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260905-05",
        "title": "Ukrainian SOF unit \"Balista\" destroys a Russian S-300 launcher and Buk-M3 vehicle in one strike operation",
@@ -3490,6 +3557,29 @@
      "signalCount": 5,
      "entries": [
       {
+       "id": "e-20260921-01",
+       "title": "STING S interceptor drone destroys Geran-5 small cruise missile; Geran-5 seen with internalised turbojet",
+       "titleNl": "STING S-interceptordrone vernietigt Geran-5 kleine kruisraket; Geran-5 met ingebouwde straalmotor gesignaleerd",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles"
+       ],
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-19T07:00:00.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "Een bemanning (call sign 'Rubin') van het 1020e luchtafweerraketregiment heeft volgens Militarnyi rond 19-20 september een Russische Geran-5 kleine kruisraket neergehaald met een nieuwe interceptordrone, de STING S, door een directe botsing. Beeldmateriaal werd gepubliceerd door Wild Hornets. Technische gegevens en ze…",
+       "enSummary": "According to Militarnyi, a crew (call sign 'Rubin') of the 1020th Anti-Aircraft Missile Regiment shot down a Russian Geran-5 small cruise missile around 19-20 September with a new interceptor drone, the STING S, by direct collision. Video was published by Wild Hornets. Technical details and even the appearance of the…",
+       "sourceUrl": "https://militarnyi.com/en/news/sting-s-interceptor-drone-destroys-geran-5-small-cruise-missile/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "perf",
+        "counter"
+       ]
+      },
+      {
        "id": "e-20260919-s03",
        "title": "Portable EW complex \"Chistyulya\" begins testing in the SVO zone",
        "titleNl": "Draagbaar EW-systeem \"Chistyulya\" wordt getest in het SVO-gebied",
@@ -3599,28 +3689,6 @@
         "loss",
         "perf",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260914-s01",
-       "title": "FT: Iran Requested Delivery of Russia's Newest Jet-Powered Attack Drones",
-       "titleNl": "FT: Iran heeft levering van Ruslands nieuwste straalaangedreven aanvalsdrones aangevraagd",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-13T13:32:16.000Z",
-       "updatedAt": "2026-09-14T09:00:00.000Z",
-       "nlSummary": "Volgens de Britse krant Financial Times — geciteerd door de Russische staatsgezinde site topwar.ru op 13 september 2026 — heeft Iran bij Rusland een verzoek ingediend om de nieuwste generatie straalaangedreven Geran-aanvalsdrones te leveren, specifiek de Geran-4 en Geran-5, mogelijk voor gebruik in een conflict met Is…",
-       "enSummary": "According to the British newspaper Financial Times — as relayed by the Russian state-aligned outlet topwar.ru on 13 September 2026 — Iran has asked Russia to supply its newest generation of jet-powered Geran attack drones, specifically the Geran-4 and Geran-5, reportedly for potential use in a conflict with Israel and…",
-       "sourceUrl": "https://topwar.ru/289647-ft-iran-zaprosil-postavku-novejshih-rossijskih-reaktivnyh-dronov.html",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "perf"
        ]
       }
      ]
@@ -3927,7 +3995,7 @@
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 17,
+     "total": 15,
      "signalCount": 5,
      "entries": [
       {
@@ -4106,9 +4174,32 @@
     "epm": {
      "name": "Electronic protection",
      "nameEn": "Electronic protection",
-     "total": 5,
-     "signalCount": 5,
+     "total": 6,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260921-01",
+       "title": "STING S interceptor drone destroys Geran-5 small cruise missile; Geran-5 seen with internalised turbojet",
+       "titleNl": "STING S-interceptordrone vernietigt Geran-5 kleine kruisraket; Geran-5 met ingebouwde straalmotor gesignaleerd",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles"
+       ],
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-19T07:00:00.000Z",
+       "updatedAt": "2026-09-21T09:00:00.000Z",
+       "nlSummary": "Een bemanning (call sign 'Rubin') van het 1020e luchtafweerraketregiment heeft volgens Militarnyi rond 19-20 september een Russische Geran-5 kleine kruisraket neergehaald met een nieuwe interceptordrone, de STING S, door een directe botsing. Beeldmateriaal werd gepubliceerd door Wild Hornets. Technische gegevens en ze…",
+       "enSummary": "According to Militarnyi, a crew (call sign 'Rubin') of the 1020th Anti-Aircraft Missile Regiment shot down a Russian Geran-5 small cruise missile around 19-20 September with a new interceptor drone, the STING S, by direct collision. Video was published by Wild Hornets. Technical details and even the appearance of the…",
+       "sourceUrl": "https://militarnyi.com/en/news/sting-s-interceptor-drone-destroys-geran-5-small-cruise-missile/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260917-15",
        "title": "Ukrainian radio relay survives 10 Russian strikes, keeps transmitting after building collapse",
