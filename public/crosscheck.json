@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-22T05:26:49.984Z",
+ "updated": "2026-09-22T05:35:05.439Z",
  "analysisUpdated": "2026-09-22T09:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 311,
   "cardsWithHits": 48,
-  "matches": 354
+  "matches": 350
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -3895,7 +3895,7 @@
     "decoys": {
      "name": "Decoys & chaff",
      "nameEn": "Decoys & chaff",
-     "total": 13,
+     "total": 10,
      "signalCount": 6,
      "entries": [
       {
@@ -3916,51 +3916,6 @@
        "enSummary": "Ukrainian company Vluchnyk (CEO Stepan Radiboh) has completed internal testing of the Zorelit v5 (also marketed as \"Starship\"), an interceptor drone purpose-built to down jet-powered Russian attack UAVs. Per Radiboh, the system \"has completed all testing and is ready for military use\"; Vluchnyk says it is open to dire…",
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054452/",
        "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260922-09",
-       "title": "US Army buys Ukrainian-made Raybird reconnaissance drone",
-       "titleNl": "Amerikaans leger koopt Oekraïense Raybird-verkenningsdrone",
-       "category": "org",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-19T11:38:14.000Z",
-       "updatedAt": "2026-09-22T09:00:00.000Z",
-       "nlSummary": "De Amerikaanse landmacht heeft een contract van 10,6 miljoen dollar toegekend aan Skyeton Inc., de Amerikaanse tak van het Oekraïense dronebedrijf Skyeton, voor de Raybird — een klein, vastvleugelig verkenningsvliegtuig gebouwd voor lange missies in plaats van snelheid of bewapening. Het toestel kan bijna 28 uur onafg…",
-       "enSummary": "The U.S. Army has awarded a $10.6 million contract to Skyeton Inc., the American subsidiary of Ukrainian drone maker Skyeton, for the Raybird — a small, fixed-wing surveillance aircraft built for long-endurance missions rather than speed or firepower. It can stay airborne for close to 28 hours, fly more than 2,500 km…",
-       "sourceUrl": "https://defence-blog.com/u-s-army-buys-ukrainian-raybird-unmanned-aircraft",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260919-17",
-       "title": "Latvia Chooses Czech Morana Over Swedish Archer Self-Propelled Howitzer",
-       "titleNl": "Letland kiest Tsjechische Morana boven Zweedse Archer zelfrijdende houwitser",
-       "category": "weapon",
-       "topics": [
-        "artillery"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 1,
-       "publishedAt": "2026-09-18T08:15:36.000Z",
-       "updatedAt": "2026-09-19T10:00:00.000Z",
-       "nlSummary": "Het Letse kabinet heeft besloten circa 18 zelfrijdende 155mm-houwitsers van het type Morana aan te schaffen bij de Tsjechische fabrikant Excalibur Army, en daarmee de eerder aangekondigde deal met Zweden voor het Archer-systeem van BAE Systems Bofors te laten vallen. Het selectietraject begon in mei 2024 met marktonde…",
-       "enSummary": "Latvia's Cabinet of Ministers has decided to procure approximately 18 Morana 155mm wheeled self-propelled howitzers from Czech manufacturer Excalibur Army, reversing its earlier plan to acquire Sweden's Archer system from BAE Systems Bofors. The selection process started with market research in May 2024, and Latvia ha…",
-       "sourceUrl": "https://militarnyi.com/en/news/latvia-morana-archer-howitzer/",
-       "sourceCount": 1,
        "signals": [
         "deploy",
         "perf"
@@ -4035,13 +3990,63 @@
         "perf",
         "scale"
        ]
+      },
+      {
+       "id": "e-20260910-10",
+       "title": "Russia hammers Kyiv and other Ukrainian cities with drones, missiles and glide bombs, 8-10 September 2026",
+       "titleNl": "Rusland bestookt Kyiv en andere Oekraïense steden met drones, raketten en glijbommen, 8-10 september 2026",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "glide-bombs",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-09T07:15:44.000Z",
+       "updatedAt": "2026-09-11T09:00:00.000Z",
+       "nlSummary": "Rusland zette de intensieve bombardementen op Oekraïense steden een tweede nacht op rij voort en breidde het zware gecombineerde salvo van 8-9 september uit naar de nacht van 9-10 september. In de nacht van 8-9 september sloeg Rusland toe met Iskander-M-ballistische raketten, S8000 \"Banderol\"-raketten en circa 196 aan…",
+       "enSummary": "Russia continued its intensive bombardment of Ukrainian cities through a second consecutive night, extending the heavy combined salvo of 8-9 September into the night of 9-10 September. On 8-9 September, Russian forces struck with Iskander-M ballistic missiles, S8000 \"Banderol\" missiles and roughly 196 Shahed-type atta…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/09/russian-drone-strike-hits-ukrainian-checkpoint-on-border-with-moldova-killing-two",
+       "sourceCount": 11,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260904-s01",
+       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
+       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-04T01:28:25.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
+       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
+       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
+       "sourceCount": 2,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
       }
      ]
     },
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 17,
+     "total": 16,
      "signalCount": 5,
      "entries": [
       {
@@ -4066,30 +4071,6 @@
         "variant",
         "deploy",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260922-03",
-       "title": "Norway's Nammo to develop engine for IRIS-T SLX air-defense missile",
-       "titleNl": "Noorse Nammo ontwikkelt motor voor luchtafweerraket IRIS-T SLX",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-20T13:22:29.000Z",
-       "updatedAt": "2026-09-22T09:00:00.000Z",
-       "nlSummary": "IRIS-T SLX is de langeafstandsvariant van het Duitse IRIS-T SLM-luchtafweersysteem van Diehl Defence, dat al bij Oekraïne in gebruik is. Het verdubbelt het onderscheppingsbereik ruwweg tot circa 80 km, gericht op gevechtsvliegtuigen, bommenwerpers en langeafstandsdrones/ondersteuningsvliegtuigen, en kan vanaf dezelfde…",
-       "enSummary": "IRIS-T SLX is the long-range variant of the German Diehl Defence IRIS-T SLM air-defense system already fielded by Ukraine. It roughly doubles the intercept range to about 80 km, targeting fighter jets, bombers, and long-endurance drones/support aircraft, and can be fired from the same launcher as SLM missiles for mixe…",
-       "sourceUrl": "https://militarnyi.com/en/news/norways-nammo-to-develop-engine-for-iris-t-slx-air-defense-missile/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale"
        ]
       },
       {
@@ -4178,6 +4159,32 @@
         "variant",
         "deploy",
         "perf"
+       ]
+      },
+      {
+       "id": "e-20260904-s01",
+       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
+       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-04T01:28:25.000Z",
+       "updatedAt": "2026-09-06T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
+       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
+       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
+       "sourceCount": 2,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
        ]
       }
      ]

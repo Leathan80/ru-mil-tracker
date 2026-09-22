@@ -331,11 +331,11 @@
         },
         "decoys": {
           "name": "Decoys & chaff",
-          "match": "\\bdecoy|chaff|lokdoel|towed decoy|expendable active"
+          "match": "\\bdecoy|\\bchaff\\b|lokdoel|towed decoy|expendable active"
         },
         "ir": {
           "name": "IR-dreiging & DIRCM",
-          "match": "infrared|ir.seeker|manpad|dircm|flare|thermal imaging|warmtebeeld",
+          "match": "infrared|ir.seeker|manpad|dircm|\\bflare\\b|thermal imaging|warmtebeeld",
           "nameEn": "IR threat & DIRCM"
         },
         "esm": {
