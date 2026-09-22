@@ -15,7 +15,7 @@
         },
         "lancet": {
           "name": "Lancet-1 / Lancet-3",
-          "match": "lancet|ланцет|izdeliye-?5[12]"
+          "match": "\\blancet\\b|\\bланцет\\b|izdeliye-?5[12]"
         },
         "orlan": {
           "name": "Orlan-10",
@@ -54,7 +54,7 @@
         },
         "fpv": {
           "name": "FPV-drones",
-          "match": "fpv|first.person view|fibre.optic|fiber.optic|glasvezel|оптоволок",
+          "match": "\\bfpv\\b|first.person view|fibre.optic|fiber.optic|glasvezel|оптоволок",
           "topics": [
             "drones",
             "ttp"
@@ -62,7 +62,7 @@
         },
         "cots": {
           "name": "COTS-drones",
-          "match": "mavic|dji|commercial off.the.shelf|\\bcots\\b|quadcopter",
+          "match": "mavic|\\bdji\\b|commercial off.the.shelf|\\bcots\\b|quadcopter",
           "topics": [
             "drones"
           ]
@@ -73,11 +73,11 @@
         },
         "dircm": {
           "name": "DIRCM",
-          "match": "dircm|directional infrared|infrared countermeasure"
+          "match": "\\bdircm\\b|directional infrared|infrared countermeasure"
         },
         "ew-spoof": {
           "name": "EW / spoofing tegen UAS",
-          "match": "spoofing|spoofed|gps.jamming|gnss.jamming|crpa|counter.uas jam|\\bserval\\b",
+          "match": "spoofing|spoofed|gps.jamming|gnss.jamming|\\bcrpa\\b|counter.uas jam|\\bserval\\b",
           "topics": [
             "drones",
             "ew"
@@ -175,15 +175,17 @@
         },
         "protivnik": {
           "name": "Protivnik-GE",
-          "match": "protivnik|противник"
+          "match": "\\bprotivnik\\b|\\bпротивник\\b",
+          "require": "radar|early.warning|vroegtijdige waarschuwing|waarschuwingssysteem|радиолокац|радар"
         },
         "gamma": {
           "name": "Gamma-DE/S1",
-          "match": "gamma-?(de|s1)|гамма-?"
+          "match": "\\bgamma-?(de|s1)\\b|\\bгамма-?(де|с1)\\b"
         },
         "podlet": {
           "name": "Podlet-K1",
-          "match": "podlet|подлёт|подлет"
+          "match": "\\bpodlet\\b|\\bподлёт\\b|\\bподлет\\b",
+          "require": "radar|early.warning|радиолокац|радар|low.altitude|laagvlieg|низковысот"
         },
         "kasta": {
           "name": "Kasta-2E2",
@@ -208,7 +210,7 @@
         },
         "krasukha4": {
           "name": "Krasukha-4",
-          "match": "krasukha|красуха"
+          "match": "krasukha(?!-?2)|красуха(?!-?2)"
         },
         "murmansk": {
           "name": "Murmansk-BN",
@@ -234,7 +236,8 @@
         },
         "zhitel": {
           "name": "R-330Zh Zhitel",
-          "match": "r-?330zh|zhitel|житель"
+          "match": "\\br-?330zh\\b|\\bzhitel\\b|\\bжитель\\b",
+          "require": "jamming|jammer|electronic warfare|\\bew\\b|РЭБ|глушени|подавлени|stoorzender"
         },
         "leer3": {
           "name": "Leer-3",
@@ -282,11 +285,11 @@
         },
         "r37m": {
           "name": "R-37M",
-          "match": "r-?37m"
+          "match": "r-?37m\\b"
         },
         "r77m": {
           "name": "R-77M",
-          "match": "r-?77m"
+          "match": "r-?77m\\b"
         },
         "r77": {
           "name": "R-77",
@@ -318,7 +321,7 @@
         },
         "gnss": {
           "name": "GNSS-denial & spoofing",
-          "match": "gnss|gps.denial|gps.jamming|spoofing|spoofed|crpa|navigation warfare|satellietnavigatie",
+          "match": "gnss|gps.denial|gps.jamming|spoofing|spoofed|\\bcrpa\\b|navigation warfare|satellietnavigatie",
           "topics": [
             "ew",
             "drones"
@@ -327,7 +330,7 @@
         },
         "drfm": {
           "name": "DRFM",
-          "match": "drfm|digital radio frequency memory"
+          "match": "\\bdrfm\\b|digital radio frequency memory"
         },
         "decoys": {
           "name": "Decoys & chaff",
@@ -335,7 +338,7 @@
         },
         "ir": {
           "name": "IR-dreiging & DIRCM",
-          "match": "infrared|ir.seeker|manpad|dircm|\\bflare\\b|thermal imaging|warmtebeeld",
+          "match": "infrared|ir.seeker|manpad|\\bdircm\\b|\\bflare\\b|thermal imaging|warmtebeeld",
           "nameEn": "IR threat & DIRCM"
         },
         "esm": {
