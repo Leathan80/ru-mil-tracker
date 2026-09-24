@@ -239,6 +239,11 @@
           "match": "\\br-?330zh\\b|\\bzhitel\\b|\\bжитель\\b",
           "require": "jamming|jammer|electronic warfare|\\bew\\b|РЭБ|глушени|подавлени|stoorzender"
         },
+        "peresvetm": {
+          "name": "Peresvet-M (Starlink-jammer)",
+          "match": "\\bperesvet-?m\\b|\\bпересвет-?м\\b",
+          "require": "starlink|jamming|jammer|stoorzender|РЭБ|глушени|подавлени"
+        },
         "leer3": {
           "name": "Leer-3",
           "match": "leer-?3|леер-?3"
