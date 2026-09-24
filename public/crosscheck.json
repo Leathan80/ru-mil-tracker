@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-23T06:56:43.440Z",
- "analysisUpdated": "2026-09-23T09:00:00.000Z",
+ "updated": "2026-09-24T05:26:39.119Z",
+ "analysisUpdated": "2026-09-24T07:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 317,
+  "entriesConsidered": 323,
   "cardsWithHits": 49,
-  "matches": 363
+  "matches": 360
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,7 +23,7 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 48,
+     "total": 46,
      "signalCount": 6,
      "entries": [
       {
@@ -450,8 +450,8 @@
     "orlan": {
      "name": "Orlan-10",
      "nameEn": "Orlan-10",
-     "total": 5,
-     "signalCount": 4,
+     "total": 4,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20260923-03",
@@ -537,30 +537,6 @@
        "sourceCount": 1,
        "signals": [
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260824-11",
-       "title": "Ukraine's GPS-Free Beacon Network Guides Drones Hunting Russian Spy Aircraft Over the Black Sea",
-       "titleNl": "Oekraïens GPS-vrij bakennetwerk begeleidt drones bij jacht op Russische spionagetoestellen boven de Zwarte Zee",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T00:00:00.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Oekraïense bemanningen van onderscheppingsdrones schieten Russische Orlan-verkenningsdrones neer ver op de Zwarte Zee, buiten het bereik van kustlandmarks. Euromaidan Press meldde op 24 augustus 2026 dat het 18e Luchtcommandantschap een Orlan-30 op recordafstand van 110 km uit de kust neerhaalde met een Wovkulaka Spit…",
-       "enSummary": "Ukrainian interceptor-drone crews are shooting down Russian Orlan-family reconnaissance drones far out over the Black Sea, well beyond the reach of coastal landmarks. On 24 August 2026, Euromaidan Press reported that the 18th Aviation Commandant's Office downed an Orlan-30 at a record 110 km from shore using a Wovkula…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/24/no-gps-no-landmarks-how-ukraines-drones-hunt-russian-spy-drones-far-out-over-the-black-sea",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "perf",
-        "counter"
        ]
       }
      ]
@@ -715,9 +691,36 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 8,
+     "total": 9,
      "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20260924-03",
+       "title": "Russia adapts to Ukraine's middle-strike drone campaign with mobile fire groups, Rubicon interceptors and Starlink jammers",
+       "titleNl": "Rusland past zich aan aan Oekraïense middle-strike-dronecampagne met mobiele vuurgroepen, Rubicon-interceptors en Starlink-stoorzenders",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew",
+        "logistics",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-23T09:21:39.000Z",
+       "updatedAt": "2026-09-24T07:00:00.000Z",
+       "nlSummary": "Volgens een veldreportage van de Kyiv Independent vanaf het zuidelijke front hebben Russische troepen zich aangepast aan de uitgebreide Oekraïense \"middle strike\"-campagne. Die campagne zet drones in tegen doelen van ongeveer 35 km (het einde van het FPV-bereik) tot ongeveer 300 km achter de linie. Binnen enkele weken…",
+       "enSummary": "According to a Kyiv Independent field report from the southern front, Russian forces have adapted to Ukraine's expanded \"middle strike\" campaign. That campaign uses drones against targets from roughly 35 km (the end of FPV range) out to about 300 km behind the line. Within weeks of the campaign being scaled up in the…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHRfRlYtd2lHWEFnbjlScDg2Ulg5cEg3VlVwZzFBRXdpem94eVdBVE1PdWhXX3MwY1I3LXZsLVJNMjVCaDR6WFdJeGloS3RWYTlfNF9GRHY1LWVucTJJam9ZdG96cWxVbjZaMzdGaGtxYVlJUlpDNWtBcHdaSHdMMDdkWWdtOXg3ZlVTdDZiMHo1UGs0bzR4c0RFbG0xb1VTWmtuYy1JaU1Gdw?oc=5",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260923-03",
        "title": "Africa Corps fielded a Ukraine-war Molniya kamikaze drone in Mali; it came down near JNIM fighters",
@@ -828,28 +831,6 @@
        "sourceUrl": "https://armyinform.com.ua/2026/09/05/nebo-v%c2%a0smartfoni-yak%c2%a0praczyuye-ukrayinska-systema-%c2%abgrafit%c2%bb-shho%c2%a0ryatuye-bijcziv-zsu-vid-vorozhyh-droniv",
        "sourceCount": 2,
        "signals": []
-      },
-      {
-       "id": "e-20260905-03",
-       "title": "Russia extends drone control range to 150-175 km via mesh-network relay chains",
-       "titleNl": "Rusland verlengt drone-besturingsbereik naar 150-175 km via mesh-netwerk relaisketens",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-04T11:02:23.000Z",
-       "updatedAt": "2026-09-05T09:00:00.000Z",
-       "nlSummary": "Het Kyiv-gevestigde analysecentrum KI Insights meldt dat Rusland het besturingsbereik van aanvalsdrones met mesh-netwerktechnologie heeft opgevoerd naar circa 150-175 km vanaf het verste grondstation — ongeveer een verdubbeling ten opzichte van 2025 (destijds ~75-100 km, volgens eerdere rapportage van Serhii \"Flash\" B…",
-       "enSummary": "Kyiv-based analytical center KI Insights reports that Russia has extended strike-drone control range using mesh-network technology to roughly 150-175 km from the farthest ground station — about double the ranges documented in 2025 (then ~75-100 km, per earlier reporting from Serhii \"Flash\" Beskrestnov). KI Insights tr…",
-       "sourceUrl": "https://militarnyi.com/en/news/ki-insights-russia-extends-drone-control-range-to-175-km-using-mesh-networks/",
-       "sourceCount": 2,
-       "signals": [
-        "deploy"
-       ]
       }
      ]
     },
@@ -1101,9 +1082,59 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 44,
+     "total": 45,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260924-s04",
+       "title": "Як працює 413-й полк «Рейд»: Євген Карась про знищення С-400 та діпстрайки по росії",
+       "titleNl": "Hoe het 413e regiment 'Raid' werkt: Jevhen Karas over de vernietiging van een S-400 en diepe aanvallen op Rusland",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-23T17:38:50.000Z",
+       "updatedAt": "2026-09-24T07:00:00.000Z",
+       "nlSummary": "In een radio-interview op Army FM op 23 september 2026 zei Jevhen Karas (roepnaam \"Vortex\"), commandant van het 413e Zelfstandige Regiment Onbemande Systemen \"Raid\" van de Oekraïense Onbemande Systeemtroepen, dat het regiment een Russisch S-400-luchtverdedigingssysteem heeft vernietigd, samen met vier raketten die teg…",
+       "enSummary": "In a radio interview on Army FM on 23 September 2026, Yevhen Karas (callsign \"Vortex\"), commander of the 413th Separate Unmanned Systems Regiment \"Raid\" of Ukraine's Unmanned Systems Forces, said the regiment destroyed a Russian S-400 air defence system together with four missiles that had been used against Kyiv, addi…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/23/yak-praczyuye-413-j-polk-rejd-yevgen-karas-pro-znyshhennya-s-400-ta-dipstrajky-po-rosiyi",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
+      {
+       "id": "e-20260924-03",
+       "title": "Russia adapts to Ukraine's middle-strike drone campaign with mobile fire groups, Rubicon interceptors and Starlink jammers",
+       "titleNl": "Rusland past zich aan aan Oekraïense middle-strike-dronecampagne met mobiele vuurgroepen, Rubicon-interceptors en Starlink-stoorzenders",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew",
+        "logistics",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-23T09:21:39.000Z",
+       "updatedAt": "2026-09-24T07:00:00.000Z",
+       "nlSummary": "Volgens een veldreportage van de Kyiv Independent vanaf het zuidelijke front hebben Russische troepen zich aangepast aan de uitgebreide Oekraïense \"middle strike\"-campagne. Die campagne zet drones in tegen doelen van ongeveer 35 km (het einde van het FPV-bereik) tot ongeveer 300 km achter de linie. Binnen enkele weken…",
+       "enSummary": "According to a Kyiv Independent field report from the southern front, Russian forces have adapted to Ukraine's expanded \"middle strike\" campaign. That campaign uses drones against targets from roughly 35 km (the end of FPV range) out to about 300 km behind the line. Within weeks of the campaign being scaled up in the…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHRfRlYtd2lHWEFnbjlScDg2Ulg5cEg3VlVwZzFBRXdpem94eVdBVE1PdWhXX3MwY1I3LXZsLVJNMjVCaDR6WFdJeGloS3RWYTlfNF9GRHY1LWVucTJJam9ZdG96cWxVbjZaMzdGaGtxYVlJUlpDNWtBcHdaSHdMMDdkWWdtOXg3ZlVTdDZiMHo1UGs0bzR4c0RFbG0xb1VTWmtuYy1JaU1Gdw?oc=5",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260923-s03",
        "title": "«Паук» слушает небо: акустическая система обнаружения БПЛА",
@@ -1190,55 +1221,6 @@
        "sourceUrl": "http://redstar.ru/vozdushnye-pomoshhniki-shturmovikov",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20260919-13",
-       "title": "Ukraine Receives Australian Slinger 30mm Anti-Drone Systems",
-       "titleNl": "Oekraïne ontvangt Australische Slinger 30mm-antidronesystemen",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-17T19:41:48.000Z",
-       "updatedAt": "2026-09-19T10:00:00.000Z",
-       "nlSummary": "De Oekraïense strijdkrachten hebben Australische Slinger-antidronemodules ontvangen, ontwikkeld en gebouwd door het bedrijf Electro Optic Systems (EOS) uit Canberra. Het systeem is een op afstand bediende wapenmodule rond het 30 mm Bushmaster M230LF-kanon, specifiek ontworpen om laagvliegende drones — van FPV's tot ve…",
-       "enSummary": "Ukraine's armed forces have received Slinger anti-drone modules from the Australian company Electro Optic Systems (EOS), based in Canberra. The system is a remotely operated weapon station built around the 30 mm Bushmaster M230LF cannon, purpose-built to detect and destroy low-flying drones ranging from FPV kamikaze d…",
-       "sourceUrl": "https://militarnyi.com/en/news/ukraine-australian-30-mm-slinger-anti-drone/",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260917-15",
-       "title": "Ukrainian radio relay survives 10 Russian strikes, keeps transmitting after building collapse",
-       "titleNl": "Oekraïense radiorelais overleeft tien Russische aanvallen en blijft zenden na instorting van gebouw",
-       "category": "weapon",
-       "topics": [
-        "ew",
-        "command",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 1,
-       "publishedAt": "2026-09-16T18:42:55.000Z",
-       "updatedAt": "2026-09-17T09:00:00.000Z",
-       "nlSummary": "HIMERA B1 is een Oekraïens gemaakte, autonome radiorepeater die het bereik van mesh-radionetwerken op het slagveld verlengt. Het toestel gebruikt AES-256-versleuteling en pseudo-willekeurige frequentiehopping om onderschepping, peiling en jamming te bemoeilijken. Het bedrijf Himera is opgezet door een vrijwilliger van…",
-       "enSummary": "HIMERA B1 is a Ukrainian-made autonomous radio repeater that extends the range of battlefield mesh radio networks. It uses AES-256 encryption and pseudo-random frequency hopping to resist interception, direction-finding and jamming. The manufacturer, Himera, was founded by a volunteer from Kyiv Oblast's territorial de…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/16/ukrainian-border-units-himera-b1-relay-took-10-strikes-from-russias-fpv-drones-and-guided-bombs-last-one-leveled-building-and-tower-and-relay-kept-working",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "perf",
-        "counter"
-       ]
       }
      ]
     },
@@ -1618,9 +1600,32 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 23,
+     "total": 22,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260924-s04",
+       "title": "Як працює 413-й полк «Рейд»: Євген Карась про знищення С-400 та діпстрайки по росії",
+       "titleNl": "Hoe het 413e regiment 'Raid' werkt: Jevhen Karas over de vernietiging van een S-400 en diepe aanvallen op Rusland",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-23T17:38:50.000Z",
+       "updatedAt": "2026-09-24T07:00:00.000Z",
+       "nlSummary": "In een radio-interview op Army FM op 23 september 2026 zei Jevhen Karas (roepnaam \"Vortex\"), commandant van het 413e Zelfstandige Regiment Onbemande Systemen \"Raid\" van de Oekraïense Onbemande Systeemtroepen, dat het regiment een Russisch S-400-luchtverdedigingssysteem heeft vernietigd, samen met vier raketten die teg…",
+       "enSummary": "In a radio interview on Army FM on 23 September 2026, Yevhen Karas (callsign \"Vortex\"), commander of the 413th Separate Unmanned Systems Regiment \"Raid\" of Ukraine's Unmanned Systems Forces, said the regiment destroyed a Russian S-400 air defence system together with four missiles that had been used against Kyiv, addi…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/23/yak-praczyuye-413-j-polk-rejd-yevgen-karas-pro-znyshhennya-s-400-ta-dipstrajky-po-rosiyi",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260923-s07",
        "title": "Українські захисники з початку року знешкодили понад 350 тисяч ворожих дронів",
@@ -1739,29 +1744,6 @@
         "loss",
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260919-07",
-       "title": "Battlegroup North claims over 150 Ukrainian drones downed near Kharkov since early September",
-       "titleNl": "Battlegroup North claimt ruim 150 Oekraïense drones neergehaald bij Kharkov sinds begin september",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 1,
-       "publishedAt": "2026-09-18T08:35:34.000Z",
-       "updatedAt": "2026-09-19T09:00:00.000Z",
-       "nlSummary": "Dit is een niet-onafhankelijk geverifieerde claim van het Russische leger, verspreid via het Russische staatsmedium TASS: de exacte cijfers en werkmethode zijn niet te controleren. Volgens \"Karta\", hoofd van de afdeling Planning en Counter-UAV Operations van het 11e Legerkorps, heeft \"Battlegroup North\" — de Russische…",
-       "enSummary": "This is an unverified claim by Russian military sources, relayed through Russian state media outlet TASS — the exact figures and methodology cannot be independently confirmed. According to \"Karta,\" head of the Planning and Counter-UAV Operations Department of the 11th Army Corps, \"Battlegroup North\" — the Russian grou…",
-       "sourceUrl": "https://tass.com/defense/2189467",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "counter"
        ]
       }
      ]
@@ -1891,9 +1873,32 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 12,
+     "total": 13,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260924-s04",
+       "title": "Як працює 413-й полк «Рейд»: Євген Карась про знищення С-400 та діпстрайки по росії",
+       "titleNl": "Hoe het 413e regiment 'Raid' werkt: Jevhen Karas over de vernietiging van een S-400 en diepe aanvallen op Rusland",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-23T17:38:50.000Z",
+       "updatedAt": "2026-09-24T07:00:00.000Z",
+       "nlSummary": "In een radio-interview op Army FM op 23 september 2026 zei Jevhen Karas (roepnaam \"Vortex\"), commandant van het 413e Zelfstandige Regiment Onbemande Systemen \"Raid\" van de Oekraïense Onbemande Systeemtroepen, dat het regiment een Russisch S-400-luchtverdedigingssysteem heeft vernietigd, samen met vier raketten die teg…",
+       "enSummary": "In a radio interview on Army FM on 23 September 2026, Yevhen Karas (callsign \"Vortex\"), commander of the 413th Separate Unmanned Systems Regiment \"Raid\" of Ukraine's Unmanned Systems Forces, said the regiment destroyed a Russian S-400 air defence system together with four missiles that had been used against Kyiv, addi…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/23/yak-praczyuye-413-j-polk-rejd-yevgen-karas-pro-znyshhennya-s-400-ta-dipstrajky-po-rosiyi",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260919-02",
        "title": "Russia ramps up ballistic strikes on Ukraine using converted S-400 missiles",
@@ -2011,29 +2016,6 @@
        "signals": [
         "deploy",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260905-12",
-       "title": "Ukrainian drones hit Sochi-area fuel depots and an air-defense position, grounding 100+ flights",
-       "titleNl": "Oekraïense drones treffen brandstofdepots en een luchtverdedigingsstelling bij Sotsji, 100+ vluchten getroffen",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-04T06:57:09.000Z",
-       "updatedAt": "2026-09-05T09:00:00.000Z",
-       "nlSummary": "Los van de USV-aanval op de Nefrit in de haven van Sochi op 3 september (zie aparte entry) troffen Oekraïense aanvalsdrones in de nacht van 3 op 4 september een reeks doelen rond Groot-Sotsji: onafhankelijke monitor Astra en OSINT-analisten (CyberBoroshno) meldden branden bij twee beschermde brandstofdepots — Rosneft-…",
-       "enSummary": "Separate from the USV strike on the Nefrit at Sochi port on 3 September (see separate entry), Ukrainian attack drones struck a cluster of targets around Greater Sochi overnight from 3 to 4 September: independent monitor Astra and OSINT analysts (CyberBoroshno) reported fires at two protected fuel depots — Rosneft-Kuba…",
-       "sourceUrl": "https://militarnyi.com/en/news/ukrainian-drones-strike-russian-air-defense-position-in-sochi/",
-       "sourceCount": 6,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -3809,6 +3791,33 @@
      "signalCount": 5,
      "entries": [
       {
+       "id": "e-20260924-03",
+       "title": "Russia adapts to Ukraine's middle-strike drone campaign with mobile fire groups, Rubicon interceptors and Starlink jammers",
+       "titleNl": "Rusland past zich aan aan Oekraïense middle-strike-dronecampagne met mobiele vuurgroepen, Rubicon-interceptors en Starlink-stoorzenders",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "ew",
+        "logistics",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-23T09:21:39.000Z",
+       "updatedAt": "2026-09-24T07:00:00.000Z",
+       "nlSummary": "Volgens een veldreportage van de Kyiv Independent vanaf het zuidelijke front hebben Russische troepen zich aangepast aan de uitgebreide Oekraïense \"middle strike\"-campagne. Die campagne zet drones in tegen doelen van ongeveer 35 km (het einde van het FPV-bereik) tot ongeveer 300 km achter de linie. Binnen enkele weken…",
+       "enSummary": "According to a Kyiv Independent field report from the southern front, Russian forces have adapted to Ukraine's expanded \"middle strike\" campaign. That campaign uses drones against targets from roughly 35 km (the end of FPV range) out to about 300 km behind the line. Within weeks of the campaign being scaled up in the…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHRfRlYtd2lHWEFnbjlScDg2Ulg5cEg3VlVwZzFBRXdpem94eVdBVE1PdWhXX3MwY1I3LXZsLVJNMjVCaDR6WFdJeGloS3RWYTlfNF9GRHY1LWVucTJJam9ZdG96cWxVbjZaMzdGaGtxYVlJUlpDNWtBcHdaSHdMMDdkWWdtOXg3ZlVTdDZiMHo1UGs0bzR4c0RFbG0xb1VTWmtuYy1JaU1Gdw?oc=5",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
+      {
        "id": "e-20260923-s01",
        "title": "Новинки ВКС: больше бомб и новинка навигации",
        "titleNl": "Nieuw bij de VKS: meer bommen en een navigatienoviteit",
@@ -3922,35 +3931,13 @@
         "deploy",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260919-14",
-       "title": "Drone Hits Cooling Tower at Russia's Kursk NPP-2 Unit 1; Rosatom Denies Disruption, IAEA Confirms Strike",
-       "titleNl": "Drone raakt koeltoren van Koersk NPP-2 Unit 1; Rosatom ontkent verstoring, IAEA bevestigt de aanval",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-17T00:00:00.000Z",
-       "updatedAt": "2026-09-19T10:00:00.000Z",
-       "nlSummary": "In de vroege ochtend van 17 september 2026 kwam een Oekraïense drone neer op de koeltoren van Unit 1 van de nieuwe kerncentrale Kursk NPP-2 bij Kurchatov, naast de oudere Kursk-centrale. Rosatom, de Russische staatsexploitant, meldt via TASS 'geringe schade', stelt dat de reactor ongestoord op 100% capaciteit is blijv…",
-       "enSummary": "In the early hours of 17 September 2026, a Ukrainian drone struck the cooling tower of Unit 1 at the new Kursk NPP-2 nuclear power plant near Kurchatov, adjacent to the older Kursk plant. Rosatom, Russia's state nuclear operator, told TASS the strike caused only 'minor damage,' that the reactor continued operating uni…",
-       "sourceUrl": "https://tass.com/economy/2190019",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
       }
      ]
     },
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 9,
+     "total": 8,
      "signalCount": 6,
      "entries": [
       {
@@ -4428,8 +4415,8 @@
     "epm": {
      "name": "Electronic protection",
      "nameEn": "Electronic protection",
-     "total": 6,
-     "signalCount": 6,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260921-01",
@@ -4526,30 +4513,6 @@
        "signals": [
         "loss",
         "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260824-11",
-       "title": "Ukraine's GPS-Free Beacon Network Guides Drones Hunting Russian Spy Aircraft Over the Black Sea",
-       "titleNl": "Oekraïens GPS-vrij bakennetwerk begeleidt drones bij jacht op Russische spionagetoestellen boven de Zwarte Zee",
-       "category": "ttp",
-       "topics": [
-        "naval-drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-24T00:00:00.000Z",
-       "updatedAt": "2026-08-24T17:56:34.000Z",
-       "nlSummary": "Oekraïense bemanningen van onderscheppingsdrones schieten Russische Orlan-verkenningsdrones neer ver op de Zwarte Zee, buiten het bereik van kustlandmarks. Euromaidan Press meldde op 24 augustus 2026 dat het 18e Luchtcommandantschap een Orlan-30 op recordafstand van 110 km uit de kust neerhaalde met een Wovkulaka Spit…",
-       "enSummary": "Ukrainian interceptor-drone crews are shooting down Russian Orlan-family reconnaissance drones far out over the Black Sea, well beyond the reach of coastal landmarks. On 24 August 2026, Euromaidan Press reported that the 18th Aviation Commandant's Office downed an Orlan-30 at a record 110 km from shore using a Wovkula…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/24/no-gps-no-landmarks-how-ukraines-drones-hunt-russian-spy-drones-far-out-over-the-black-sea",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "perf",
         "counter"
        ]
       },
