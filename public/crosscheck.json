@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-25T06:31:10.274Z",
+ "updated": "2026-09-25T06:34:41.613Z",
  "analysisUpdated": "2026-09-25T07:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 315,
-  "cardsWithHits": 57,
-  "matches": 394
+  "cardsWithHits": 58,
+  "matches": 395
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -4515,6 +4515,39 @@
         "loss",
         "variant",
         "perf",
+        "counter"
+       ]
+      }
+     ]
+    },
+    "kh59": {
+     "name": "Kh-59M / Kh-59MK2",
+     "nameEn": "Kh-59M / Kh-59MK2",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260925-s01",
+       "title": "russia May Have Moved 51P6A Launchers From Kapustin Yar Test Range to Launch RM-48U Missiles From S-400 Systems",
+       "titleNl": "Rusland heeft mogelijk 51P6A-lanceerinrichtingen van testterrein Kapustin Jar verplaatst om RM-48U-raketten vanaf S-400-systemen te lanceren",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-24T13:28:07.000Z",
+       "updatedAt": "2026-09-25T07:00:00.000Z",
+       "nlSummary": "Defense Express bespreekt een theorie van de OSINT-analist AS-22, die daarbij beeldmateriaal op X plaatste. Volgens die theorie heeft Rusland 51P6A-lanceerinrichtingen van testterrein Kapustin Jar weggehaald en gebruikt het die om vanaf S-400-systemen RM-48U-raketten op gronddoelen in Oekraïne af te vuren. De theorie…",
+       "enSummary": "Defense Express discusses a theory from the OSINT analyst AS-22, posted with imagery on X. The theory holds that Russia took 51P6A launchers from the Kapustin Yar test range and uses them to fire RM-48U missiles from S-400 systems against ground targets in Ukraine. It builds on a report from Ukrainian Defence Intellig…",
+       "sourceUrl": "https://en.defence-ua.com/news/russia_may_have_taken_51p6a_launchers_from_kapustin_yar_test_range_to_launch_rm_48u_missiles_from_s_400_systems-19885.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale",
         "counter"
        ]
       }
