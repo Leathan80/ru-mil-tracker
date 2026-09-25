@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-25T06:13:21.208Z",
+ "updated": "2026-09-25T06:18:45.289Z",
  "analysisUpdated": "2026-09-25T07:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 315,
-  "cardsWithHits": 53,
-  "matches": 364
+  "cardsWithHits": 54,
+  "matches": 369
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -4005,6 +4005,132 @@
        "sourceUrl": "https://en.defence-ua.com/news/after_almost_30_years_of_repairs_the_russians_hope_that_their_80_missile_cruiser_will_be_operational_soon-19622.html",
        "sourceCount": 1,
        "signals": [
+        "deploy"
+       ]
+      }
+     ]
+    },
+    "kh101": {
+     "name": "Kh-101",
+     "nameEn": "Kh-101",
+     "total": 5,
+     "signalCount": 5,
+     "entries": [
+      {
+       "id": "e-20260917-08",
+       "title": "Partisans Claim Sabotage at Russian Missile-Component Plant in Voronezh",
+       "titleNl": "Partizanen claimen sabotage bij Russische fabriek voor raketonderdelen in Voronezj",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-16T11:11:25.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "De Oekraïense partizanengroep Atesh claimt op 16 september 2026 een onderstation te hebben gesaboteerd dat een fabriek in Voronezj bevoorraadt: VZPP-Sborka, dat halfgeleiders, geïntegreerde schakelingen en voedingsmodules produceert, ongeveer 250 km van de Oekraïense grens. Volgens Atesh infiltreerde een agent het ond…",
+       "enSummary": "Ukrainian partisan group Atesh claims it sabotaged an electrical substation feeding VZPP-Sborka, a semiconductor, integrated-circuit and power-module plant in Voronezh, roughly 250 km from the Ukrainian border, announcing the operation on Sept. 16, 2026. According to Atesh, an agent infiltrated the substation and dest…",
+       "sourceUrl": "https://kyivindependent.com/partisans-claim-sabotage-at-russian-plant-producing-missile-components/",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260917-01",
+       "title": "NATO air commander details alliance's new air-defense plan against Russian drone and missile threats",
+       "titleNl": "NAVO-luchtcommandant licht nieuw luchtverdedigingsplan tegen Russische drones en raketten toe",
+       "category": "org",
+       "topics": [
+        "air-defense",
+        "doctrine",
+        "missiles",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-15T20:23:10.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Luitenant-generaal Jason T. Hinds, commandant van de Amerikaanse luchtmacht in Europa/Afrika (USAFE) en van het NAVO Allied Air Command, gaf in een interview met The War Zone (15 september 2026) inzicht in hoe de alliantie haar nieuwe luchtverdedigingsarchitectuur invoert. Hij zei van SACEUR generaal Alexus Grynkewich…",
+       "enSummary": "Lt. Gen. Jason T. Hinds, commander of U.S. Air Forces in Europe/Africa (USAFE) and NATO's Allied Air Command, described in an interview with The War Zone (September 15, 2026) how the alliance is implementing its new air defense architecture. He said he has been tasked by SACEUR Gen. Alexus Grynkewich to fully implemen…",
+       "sourceUrl": "https://www.twz.com/air/top-u-s-air-force-officer-in-europe-implementing-new-nato-air-defense-plans",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260917-05",
+       "title": "Russian Tu-95MS Bombers Carrying Kh-101 Missiles Flew Over Barents and Norwegian Seas",
+       "titleNl": "Russische Tu-95MS-bommenwerpers vlogen met Kh-101-raketten over de Barentszzee en Noorse Zee",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-15T15:47:34.000Z",
+       "updatedAt": "2026-09-17T09:00:00.000Z",
+       "nlSummary": "Op 15 september 2026 voerden meerdere Tu-95MS 'Bear'-strategische bommenwerpers van de Russische luchtmacht (VKS) een patrouille van ongeveer vijf uur uit boven de Barentszzee en de Noorse Zee, ten noorden van Scandinavië. De toestellen werden begeleid door Russische jachtvliegtuigen (bronnen noemen zowel Su-33 als Su…",
+       "enSummary": "On 15 September 2026, multiple Russian Aerospace Forces (VKS) Tu-95MS 'Bear' strategic bombers flew a roughly five-hour patrol over the Barents Sea and Norwegian Sea, north of Scandinavia. The bombers were escorted by Russian fighter jets (sources vary between Su-33 and Su-30SM). Norwegian F-35s, scrambled from Evenes…",
+       "sourceUrl": "https://militarnyi.com/en/news/russian-tu-95ms-bombers-carrying-kh-101-missiles-flew-over-barents-and-norwegian-seas/",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260904-07",
+       "title": "Russian general linked to the Okhmatdyt children's hospital strike shot and gravely wounded near Engels",
+       "titleNl": "Russische generaal die de aanval op kinderziekenhuis Ohmatdyt aanstuurde neergeschoten en zwaargewond bij Engels",
+       "category": "org",
+       "topics": [
+        "airforce",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-03T11:42:20.000Z",
+       "updatedAt": "2026-09-04T06:30:00.000Z",
+       "nlSummary": "In de ochtend van 3 september 2026, rond 07.00 uur, opende een schutter op een motor het vuur op een hoge Russische luchtmachtofficier voor een woning in het dorp Probuzjdenie in het district Engels, oblast Saratov — de regio waar de Russische strategische bommenwerpersbasis ligt. Volgens Russische Telegram-kanalen (M…",
+       "enSummary": "On the morning of 3 September 2026, around 07:00, a gunman on a motorcycle opened fire on a senior Russian air-force officer outside a private house in the village of Probuzhdenie in the Engels district of Saratov Oblast, the region that hosts Russia's strategic-bomber base. According to Russian Telegram channels (Mas…",
+       "sourceUrl": "https://militarnyi.com/en/news/commander-of-the-air-division-that-attacked-okhmatdyt-childrens-hospital-seriously-wounded/",
+       "sourceCount": 4,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260830-03",
+       "title": "Ukrainian deep strike hits Yaroslavl YANOS refinery and damages Tu-95MS bomber at Engels; satellite imagery confirms bomber damage",
+       "titleNl": "Oekraïense diepteaanval treft raffinaderij YANOS in Jaroslavl en beschadigt Tu-95MS-bommenwerper op Engels; satellietbeelden bevestigen schade",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-28T07:45:53.000Z",
+       "updatedAt": "2026-08-31T09:00:00.000Z",
+       "nlSummary": "In de nacht van 27 op 28 augustus 2026 voerde Oekraïne een gecombineerde diepteaanval uit op Russische energie- en luchtmachtdoelen. De Oekraïense generale staf bevestigde een aanval op de raffinaderij Slavneft-YANOS in Jaroslavl, ongeveer 250 km ten noordoosten van Moskou en met een verwerkingscapaciteit van circa 15…",
+       "enSummary": "On the night of 27-28 August 2026, Ukraine carried out a combined deep strike against Russian energy and air force targets. Ukraine's General Staff confirmed a strike on the Slavneft-YANOS refinery in Yaroslavl, roughly 250 km northeast of Moscow and, with a throughput of about 15 million tons of crude per year, one o…",
+       "sourceUrl": "https://kyivindependent.com/ukrainian-drones-target-moscow-one-of-russias-largest-oil-refineries-in-yaroslavl-sparking-fire-media-reports/",
+       "sourceCount": 5,
+       "signals": [
+        "loss",
         "deploy"
        ]
       }
