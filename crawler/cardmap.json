@@ -314,8 +314,12 @@
         },
         "m1991": {
           "name": "240 mm MRL (M-1991, DVK)",
-          "match": "\bm-?1991\b|\bm-?1985\b|240[ -]?(mm|мм)",
-          "require": "north korea|dprk|кндр|севернw* коре|пхеньян|північнw* коре|кндр|noord-korea"
+          "match": "\\bm-?1991\\b|\\bm-?1985\\b|\\b240[ -]?(mm|мм)",
+          "require": "north korea|\\bdprk\\b|кндр|северн\\w* коре|пхеньян|північн\\w* коре|noord-korea"
+        },
+        "zircon": {
+          "name": "3M22 Zircon",
+          "match": "zircon|zirkon|tsirkon|циркон|\\b3[mм]22\\b|ss-n-33"
         }
       }
     },

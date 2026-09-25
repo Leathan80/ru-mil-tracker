@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-25T05:52:18.503Z",
+ "updated": "2026-09-25T05:59:47.280Z",
  "analysisUpdated": "2026-09-25T07:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 319,
-  "cardsWithHits": 51,
-  "matches": 362
+  "cardsWithHits": 52,
+  "matches": 369
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -3822,6 +3822,159 @@
         "variant",
         "deploy",
         "perf"
+       ]
+      }
+     ]
+    },
+    "zircon": {
+     "name": "3M22 Zircon",
+     "nameEn": "3M22 Zircon",
+     "total": 7,
+     "signalCount": 6,
+     "entries": [
+      {
+       "id": "e-20260924-02",
+       "title": "Russia strikes Kyiv with drones by day, then Zircon and Iskander-M missiles overnight; Zelensky claims 60% of ballistic missiles intercepted",
+       "titleNl": "Rusland valt Kyiv overdag aan met drones en 's nachts met Zircon- en Iskander-M-raketten; Zelensky claimt 60% van de ballistische raketten onderschept",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-23T06:29:00.000Z",
+       "updatedAt": "2026-09-25T07:00:00.000Z",
+       "nlSummary": "Binnen ongeveer 24 uur op 23 en 24 september 2026 viel Rusland Kyiv eerst overdag met drones aan en daarna 's nachts met een gecombineerde aanval van raketten en drones. Op de ochtend van 23 september meldde burgemeester Vitali Klitschko droneinslagen op tankstations in de districten Holosiivskyi en Darnytskyi, op een…",
+       "enSummary": "Over roughly 24 hours on 23–24 September 2026, Russia struck Kyiv first with a daytime drone attack and then overnight with a combined missile and drone strike. On the morning of 23 September, Kyiv Mayor Vitali Klitschko reported drone hits on petrol stations in Holosiivskyi and Darnytskyi districts, a transport infra…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/23/8054692",
+       "sourceCount": 13,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260922-08",
+       "title": "Russia widens strike campaign on Ukrainian industry and logistics: steel mills halted, Interpipe plant hit in Dnipro, 2.1 million m² of warehouses destroyed",
+       "titleNl": "Rusland verbreedt aanvalscampagne tegen Oekraïense industrie en logistiek: staalfabrieken stil, Interpipe-fabriek in Dnipro geraakt, 2,1 miljoen m² aan magazijnen verwoest",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-21T07:44:46.000Z",
+       "updatedAt": "2026-09-23T09:00:00.000Z",
+       "nlSummary": "Russische ballistische raketaanvallen begin september 2026 hebben drie van de grootste staalfabrieken van Oekraïne buiten werking gesteld — twee van Metinvest in de regio's Zaporizhzhia en Dnipropetrovsk en één van ArcelorMittal — die samen goed zijn voor ongeveer 90% van de Oekraïense staalproductie. Volgens Meduza's…",
+       "enSummary": "Russian ballistic missile strikes in early September 2026 knocked out three of Ukraine's largest steel plants — two operated by Metinvest in the Zaporizhzhia and Dnipropetrovsk regions and one operated by ArcelorMittal — which together account for roughly 90% of Ukraine's steel output. According to Meduza's summary of…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/21/russian-strikes-knock-out-three-of-ukraine-s-largest-steel-plants",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260919-02",
+       "title": "Russia ramps up ballistic strikes on Ukraine using converted S-400 missiles",
+       "titleNl": "Rusland zet omgebouwde S-400-raketten in voor ballistische aanvallen op Oekraïne",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-18T11:10:00.000Z",
+       "updatedAt": "2026-09-19T09:00:00.000Z",
+       "nlSummary": "Rusland heeft volgens een Reuters-exclusive, gebaseerd op officiële Oekraïense gegevens, zijn ballistische aanvallen op Oekraïne naar recordniveaus opgevoerd door massaal gebruik te maken van de RM48U — een omgebouwde trainings-/doelraket die oorspronkelijk gebaseerd is op afgedankte S-400-interceptorraketten (48N6DM-…",
+       "enSummary": "Russia has driven its ballistic missile campaign against Ukraine to record intensity through mass use of the RM48U — a converted training/target missile originally built on decommissioned S-400 interceptor missiles (48N6DM family) and used to train air-defence crews — according to a Reuters exclusive based on official…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/18/8054073",
+       "sourceCount": 1,
+       "signals": [
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260909-06",
+       "title": "Ukraine's Defence Intelligence discloses 155 Ruselectronics enterprises supplying components for Russian weapons",
+       "titleNl": "Oekraïense militaire inlichtingendienst onthult 155 Roselektronika-bedrijven die componenten voor Russische wapens leveren",
+       "category": "org",
+       "topics": [
+        "missiles",
+        "drones",
+        "ew",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-08T08:35:00.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) heeft gegevens gepubliceerd over 155 ondernemingen die deel uitmaken van of worden beheerd door de holding Roselektronika, een dochterbedrijf van het Russische staatsconcern Rostec. De informatie is toegevoegd aan de sectie \"militair-industrieel complex van de agressor\"…",
+       "enSummary": "Ukraine's Defence Intelligence (HUR) has published data on 155 enterprises that are part of, or managed by, the Ruselectronics (Roselektronika) holding, a subsidiary of Russia's state corporation Rostec. The information was added to the \"aggressor's military-industrial complex\" section of HUR's War&Sanctions portal. T…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/08/8052395/",
+       "sourceCount": 1,
+       "signals": [
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260906-07",
+       "title": "Ukraine's military intelligence claims a strike on a Bastion-P coastal-defence missile launcher in occupied Crimea",
+       "titleNl": "Oekraïense militaire inlichtingendienst claimt aanval op Bastion-P-kustverdedigingslanceerder op bezet de Krim",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "navy",
+        "drones",
+        "naval-drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T08:46:44.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) maakte op 4 september 2026 bekend dat haar speciale eenheid \"Group 13\" in de loop van augustus 2026 een Russisch Bastion-kustverdedigingsraketsysteem heeft geraakt op bezet de Krim. Volgens HUR werden bij dezelfde operatie ook twee brandstoftankwagens en een commando- e…",
+       "enSummary": "Ukraine's military intelligence directorate (HUR) announced on 4 September 2026 that its special unit \"Group 13\" struck a Russian Bastion coastal-defence missile system in occupied Crimea during operations in August 2026. HUR said the same operation destroyed or damaged two fuel tankers and a command-and-staff vehicle…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/04/ukraine-says-it-struck-a-bastion-in-crimea-the-launcher-russia-pairs-zircon-and-oniks-missiles-on/",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
+      {
+       "id": "e-20260901-01",
+       "title": "Ukrainian intelligence reclassifies Russia's 3M22 Zircon as a quasi-ballistic missile, disputing hypersonic-cruise and speed claims",
+       "titleNl": "Oekraïense inlichtingendienst herclassificeert de Russische 3M22 Zircon als quasi-ballistische raket en betwist claims over hypersone kruisvlucht en snelheid",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "navy",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-31T07:22:00.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Op 31 augustus 2026 publiceerde de Oekraïense militaire inlichtingendienst (HUR/DIU) via het portaal War & Sanctions een interactief 3D-model en een gedetailleerde componentanalyse van de Russische 3M22 Zircon. De kernbewering is een herclassificatie: DIU omschrijft de Zircon als een tweetraps raket met vaste stuwstof…",
+       "enSummary": "On 31 August 2026 Ukraine's Defence Intelligence (HUR/DIU), through its War & Sanctions portal, published an interactive 3D model and a detailed component breakdown of Russia's 3M22 Zircon. The central claim is a reclassification: DIU describes the Zircon as a two-stage, solid-propellant missile flying a quasi-ballist…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/31/8051114",
+       "sourceCount": 8,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
        ]
       }
      ]
