@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-25T06:28:22.897Z",
+ "updated": "2026-09-25T06:31:10.274Z",
  "analysisUpdated": "2026-09-25T07:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 315,
-  "cardsWithHits": 56,
-  "matches": 390
+  "cardsWithHits": 57,
+  "matches": 394
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -4408,6 +4408,112 @@
        "sourceCount": 8,
        "signals": [
         "deploy",
+        "perf",
+        "counter"
+       ]
+      }
+     ]
+    },
+    "oniks": {
+     "name": "P-800 Oniks",
+     "nameEn": "P-800 Oniks",
+     "total": 4,
+     "signalCount": 4,
+     "entries": [
+      {
+       "id": "e-20260906-07",
+       "title": "Ukraine's military intelligence claims a strike on a Bastion-P coastal-defence missile launcher in occupied Crimea",
+       "titleNl": "Oekraïense militaire inlichtingendienst claimt aanval op Bastion-P-kustverdedigingslanceerder op bezet de Krim",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "navy",
+        "drones",
+        "naval-drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-04T08:46:44.000Z",
+       "updatedAt": "2026-09-07T09:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR) maakte op 4 september 2026 bekend dat haar speciale eenheid \"Group 13\" in de loop van augustus 2026 een Russisch Bastion-kustverdedigingsraketsysteem heeft geraakt op bezet de Krim. Volgens HUR werden bij dezelfde operatie ook twee brandstoftankwagens en een commando- e…",
+       "enSummary": "Ukraine's military intelligence directorate (HUR) announced on 4 September 2026 that its special unit \"Group 13\" struck a Russian Bastion coastal-defence missile system in occupied Crimea during operations in August 2026. HUR said the same operation destroyed or damaged two fuel tankers and a command-and-staff vehicle…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/04/ukraine-says-it-struck-a-bastion-in-crimea-the-launcher-russia-pairs-zircon-and-oniks-missiles-on/",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
+      {
+       "id": "e-20260901-01",
+       "title": "Ukrainian intelligence reclassifies Russia's 3M22 Zircon as a quasi-ballistic missile, disputing hypersonic-cruise and speed claims",
+       "titleNl": "Oekraïense inlichtingendienst herclassificeert de Russische 3M22 Zircon als quasi-ballistische raket en betwist claims over hypersone kruisvlucht en snelheid",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "navy",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-31T07:22:00.000Z",
+       "updatedAt": "2026-09-02T09:00:00.000Z",
+       "nlSummary": "Op 31 augustus 2026 publiceerde de Oekraïense militaire inlichtingendienst (HUR/DIU) via het portaal War & Sanctions een interactief 3D-model en een gedetailleerde componentanalyse van de Russische 3M22 Zircon. De kernbewering is een herclassificatie: DIU omschrijft de Zircon als een tweetraps raket met vaste stuwstof…",
+       "enSummary": "On 31 August 2026 Ukraine's Defence Intelligence (HUR/DIU), through its War & Sanctions portal, published an interactive 3D model and a detailed component breakdown of Russia's 3M22 Zircon. The central claim is a reclassification: DIU describes the Zircon as a two-stage, solid-propellant missile flying a quasi-ballist…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/08/31/8051114",
+       "sourceCount": 8,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260831-s01",
+       "title": "Russia hopes its 80-missile cruiser Admiral Nakhimov will return to service after nearly 30 years of repairs",
+       "titleNl": "Rusland hoopt 80-raketkruiser Admiraal Nachimov na bijna 30 jaar reparatie weer in dienst te nemen",
+       "category": "weapon",
+       "topics": [
+        "navy",
+        "missiles"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-08-30T15:40:44.000Z",
+       "updatedAt": "2026-08-31T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Oekraïense defensiemedia (Defense Express), niet onafhankelijk geverifieerd. Volgens het bericht verspreidt Russische staatsmedia het nieuws dat de zware kernaangedreven slagkruiser Admiraal Nachimov (Project 1144 Orlan, NAVO-aanduiding Kirov-klasse) na bijna drie decennia reparatie en modernisering te…",
+       "enSummary": "SINGLE SOURCE — Ukrainian defence media (Defense Express), not independently verified. The report says Russian state media are circulating claims that the heavy nuclear-powered battlecruiser Admiral Nakhimov (Project 1144 Orlan, NATO reporting name Kirov-class) will return to the Russian Navy's combat composition afte…",
+       "sourceUrl": "https://en.defence-ua.com/news/after_almost_30_years_of_repairs_the_russians_hope_that_their_80_missile_cruiser_will_be_operational_soon-19622.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy"
+       ]
+      },
+      {
+       "id": "e-20260828-01",
+       "title": "Russia fields longer-range \"Iskander-1000\" ballistic missile; Ukraine resumes intercept counts after new Patriots arrive",
+       "titleNl": "Rusland zet langeafstands-\"Iskander-1000\" ballistische raket in; Oekraïne hervat onderscheppingscijfers na komst nieuwe Patriots",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "north-korea"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-08-27T12:32:00.000Z",
+       "updatedAt": "2026-08-28T09:00:00.000Z",
+       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR/DIU) maakte deze week bekend dat Rusland deze zomer voor het eerst een verbeterde Iskander-M ballistische raket op Kyiv heeft afgevuurd. Volgens HUR gaat het om de aanduiding 9M723-2, door Oekraïense bronnen \"Iskander-1000\" genoemd. De variant zou een bereik hebben van o…",
+       "enSummary": "Ukraine's military intelligence directorate (HUR/DIU) announced this week that Russia used an upgraded Iskander-M ballistic missile against Kyiv for the first time this summer. HUR identifies it as the 9M723-2, nicknamed \"Iskander-1000\" by Ukrainian sources. According to HUR the variant has a range of roughly 550 km,…",
+       "sourceUrl": "https://militarnyi.com/en/news/ukraine-intercepts-russian-iskander-m-kn-23/",
+       "sourceCount": 6,
+       "signals": [
+        "loss",
+        "variant",
         "perf",
         "counter"
        ]
