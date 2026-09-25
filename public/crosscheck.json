@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-25T05:43:23.594Z",
+ "updated": "2026-09-25T05:52:18.503Z",
  "analysisUpdated": "2026-09-25T07:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 319,
-  "cardsWithHits": 50,
-  "matches": 361
+  "cardsWithHits": 51,
+  "matches": 362
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -3788,6 +3788,39 @@
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/09/8052557",
        "sourceCount": 2,
        "signals": [
+        "perf"
+       ]
+      }
+     ]
+    },
+    "m1991": {
+     "name": "240 mm MRL (M-1991, DVK)",
+     "nameEn": "240 mm MRL (M-1991, DVK)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260925-s02",
+       "title": "В КНДР испытали новый управляемый снаряд 240-мм РСЗО",
+       "titleNl": "Noord-Korea test nieuwe geleide raket voor 240mm-meervoudige raketwerper",
+       "category": "weapon",
+       "topics": [
+        "north-korea",
+        "artillery",
+        "missiles"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-24T14:09:01.000Z",
+       "updatedAt": "2026-09-25T07:00:00.000Z",
+       "nlSummary": "Het Russische milblogger-kanaal WarGonzo meldt, op basis van het Noord-Koreaanse staatspersbureau KCNA, dat de DVK een geleide raket heeft getest voor een gemoderniseerde 240mm-meervoudige raketwerper. Volgens het kanaal heeft de raket een zelfsturend precisiegeleidingssysteem. Het bereik zou 100 km zijn bij een balli…",
+       "enSummary": "Citing North Korea's state news agency KCNA, the Russian milblogger channel WarGonzo reports that the DPRK has tested a guided rocket for an upgraded 240mm multiple rocket launcher. The channel says the rocket has a self-guided precision system. It gives the range as 100 km on a ballistic trajectory and up to 115 km o…",
+       "sourceUrl": "https://t.me/wargonzo/37169",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
+        "deploy",
         "perf"
        ]
       }

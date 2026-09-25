@@ -311,6 +311,11 @@
         "kn23": {
           "name": "KN-23 (Hwasong-11A)",
           "match": "\\bkn-?23\\b|hwasong-?11|хвасон-?11|кн-?23"
+        },
+        "m1991": {
+          "name": "240 mm MRL (M-1991, DVK)",
+          "match": "\bm-?1991\b|\bm-?1985\b|240[ -]?(mm|мм)",
+          "require": "north korea|dprk|кндр|севернw* коре|пхеньян|північнw* коре|кндр|noord-korea"
         }
       }
     },
