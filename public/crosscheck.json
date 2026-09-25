@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-25T05:59:47.280Z",
+ "updated": "2026-09-25T06:13:21.208Z",
  "analysisUpdated": "2026-09-25T07:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 319,
-  "cardsWithHits": 52,
-  "matches": 369
+  "entriesConsidered": 315,
+  "cardsWithHits": 53,
+  "matches": 364
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,7 +23,7 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 45,
+     "total": 44,
      "signalCount": 6,
      "entries": [
       {
@@ -1080,7 +1080,7 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 46,
+     "total": 45,
      "signalCount": 6,
      "entries": [
       {
@@ -1375,7 +1375,7 @@
     "ew-spoof": {
      "name": "EW / spoofing tegen UAS",
      "nameEn": "EW / spoofing tegen UAS",
-     "total": 7,
+     "total": 6,
      "signalCount": 6,
      "entries": [
       {
@@ -3160,8 +3160,8 @@
     "su57": {
      "name": "Su-57",
      "nameEn": "Su-57",
-     "total": 6,
-     "signalCount": 6,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20260925-02",
@@ -3281,29 +3281,6 @@
        "signals": [
         "loss",
         "variant"
-       ]
-      },
-      {
-       "id": "e-20260727-s01",
-       "title": "InformNapalm claims Ukrainian hack caused Russian air defence to shoot down its own Su-57 near Moscow",
-       "titleNl": "InformNapalm claimt dat Oekraïense hack Russische luchtafweer eigen Su-57 bij Moskou liet neerschieten",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "air-defense",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T06:00:00.000Z",
-       "updatedAt": "2026-07-27T07:00:00.000Z",
-       "nlSummary": "De Oekraïense OSINT/inlichtingengroep InformNapalm claimt, gemeld door Censor.net op 23 juli 2026, dat Oekraïense diensten een gecombineerde HUMINT- en CYBINT-operatie uitvoerden tegen de Russische luchtafweer-eenheid 'BARS Moskva', die de hoofdstadregio moet beschermen tegen Oekraïense langeafstandsdrones — dezelfde…",
-       "enSummary": "The Ukrainian OSINT/intelligence-affiliated group InformNapalm claims, as reported by Censor.net on 23 July 2026, that Ukrainian intelligence services carried out a combined HUMINT and CYBINT operation against Russia's 'BARS Moscow' air-defence formation, tasked with protecting the capital region from Ukrainian long-r…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3hhTVlhN1ozUW1OY3RUSzlaQ0ktcnVyT0pmRGF4RU9aQUdYTGNHM3I3MHdPSGZsaGQxQURneDk4cjVSU2Q2MFc0eVJRbWJsd0lmMy1pekxyVlBQdEI5YlFPcFI3cnBUdHZ6M1VHek5FWS10dF9raV9ib2NsLUttUHFJTHJ0VUo3UExmVWdRcVVvajNQQlRnXw?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "deploy"
        ]
       }
      ]
@@ -3978,6 +3955,60 @@
        ]
       }
      ]
+    },
+    "kalibr": {
+     "name": "3M14 Kalibr",
+     "nameEn": "3M14 Kalibr",
+     "total": 2,
+     "signalCount": 2,
+     "entries": [
+      {
+       "id": "e-20260910-01",
+       "title": "Ukraine strikes Novorossiysk naval base; Navy claims Neptune hit on Kalibr frigate Admiral Essen",
+       "titleNl": "Oekraïne treft marinebasis Novorossiejsk; marine claimt Neptune-treffer op Kalibr-fregat Admiral Essen",
+       "category": "ttp",
+       "topics": [
+        "navy",
+        "missiles",
+        "drones",
+        "airforce"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-09-09T06:52:00.000Z",
+       "updatedAt": "2026-09-11T09:00:00.000Z",
+       "nlSummary": "In de nacht van 8 op 9 september 2026 voerde Oekraïne een grote gecombineerde diepteslag uit tegen de Russische marinebasis en handelshaven van Novorossiejsk (kraj Krasnodar) en tegen doelen bij Anapa en Gelendzjik. Aan de operatie namen de Unmanned Systems Forces (USF), de militaire inlichtingendienst (HUR), de veili…",
+       "enSummary": "On the night of 8–9 September 2026, Ukraine carried out a large combined deep-strike against Russia's naval base and commercial port at Novorossiysk (Krasnodar Krai) and against targets near Anapa and Gelendzhik. The Unmanned Systems Forces (USF), Defence Intelligence (HUR/DIU), the Security Service (SSU) and the Navy…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/09/8052553/",
+       "sourceCount": 7,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260831-s01",
+       "title": "Russia hopes its 80-missile cruiser Admiral Nakhimov will return to service after nearly 30 years of repairs",
+       "titleNl": "Rusland hoopt 80-raketkruiser Admiraal Nachimov na bijna 30 jaar reparatie weer in dienst te nemen",
+       "category": "weapon",
+       "topics": [
+        "navy",
+        "missiles"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-08-30T15:40:44.000Z",
+       "updatedAt": "2026-08-31T09:00:00.000Z",
+       "nlSummary": "SINGLE SOURCE — Oekraïense defensiemedia (Defense Express), niet onafhankelijk geverifieerd. Volgens het bericht verspreidt Russische staatsmedia het nieuws dat de zware kernaangedreven slagkruiser Admiraal Nachimov (Project 1144 Orlan, NAVO-aanduiding Kirov-klasse) na bijna drie decennia reparatie en modernisering te…",
+       "enSummary": "SINGLE SOURCE — Ukrainian defence media (Defense Express), not independently verified. The report says Russian state media are circulating claims that the heavy nuclear-powered battlecruiser Admiral Nakhimov (Project 1144 Orlan, NATO reporting name Kirov-class) will return to the Russian Navy's combat composition afte…",
+       "sourceUrl": "https://en.defence-ua.com/news/after_almost_30_years_of_repairs_the_russians_hope_that_their_80_missile_cruiser_will_be_operational_soon-19622.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy"
+       ]
+      }
+     ]
     }
    }
   },
@@ -3988,7 +4019,7 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 32,
+     "total": 30,
      "signalCount": 5,
      "entries": [
       {
@@ -4138,7 +4169,7 @@
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 8,
+     "total": 7,
      "signalCount": 6,
      "entries": [
       {
