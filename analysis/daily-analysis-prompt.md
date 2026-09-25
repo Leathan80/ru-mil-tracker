@@ -198,7 +198,7 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
 
 8. **Deployen**:
    ```powershell
-   pwsh ./deploy.ps1
+   powershell -ExecutionPolicy Bypass -File ./deploy.ps1   # pwsh (PS 7) is niet geïnstalleerd
    git add public/analysis.json public/history.json public/crosscheck.json crawler/cardmap.json
    git commit -m "Daily analysis: <korte samenvatting>"
    git push
