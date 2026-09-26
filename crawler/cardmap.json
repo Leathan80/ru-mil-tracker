@@ -214,7 +214,7 @@
         },
         "murmansk": {
           "name": "Murmansk-BN",
-          "match": "murmansk-?bn|мурманск-?бн|\\bmurmansk\\b",
+          "match": "murmansk-?bn|мурманск-?бн|\\bmurmansk\\b(?!\\s+(oblast|region|область))",
           "require": "jamming|jammer|electronic warfare|\\bew\\b|hf |shortwave|radio|РЭБ|stoorzender"
         },
         "moskva1": {

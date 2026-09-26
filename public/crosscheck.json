@@ -1,10 +1,10 @@
 {
- "updated": "2026-09-25T06:42:27.478Z",
- "analysisUpdated": "2026-09-25T07:00:00.000Z",
+ "updated": "2026-09-26T07:07:02.147Z",
+ "analysisUpdated": "2026-09-26T07:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 315,
-  "cardsWithHits": 57,
+  "entriesConsidered": 320,
+  "cardsWithHits": 54,
   "matches": 394
  },
  "signalLabels": {
@@ -23,9 +23,32 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 44,
+     "total": 46,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260926-01",
+       "title": "Russia strikes Kyiv in overnight, daytime and evening drone waves on 25 September; 173 drones, over 50 of them jet-powered, launched the following night",
+       "titleNl": "Rusland valt Kyiv op 25 september aan met dronegolven 's nachts, overdag en 's avonds; de nacht erna volgen 173 drones, waarvan ruim 50 met straalmotor",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-25T07:02:54.000Z",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Rusland viel Kyiv op 25 september niet in één nachtelijke aanval aan, maar in meerdere afzonderlijke dronegolven. In de nacht en de ochtend troffen drones hoge woongebouwen in de districten Solomjanski en Petsjerski (één op hoogte van de vierde verdieping, een ander tussen de zevende en tiende verdieping); daarbij kwa…",
+       "enSummary": "Russia struck Kyiv in several separate drone waves on 25 September rather than in a single night-time raid. Overnight and into the morning, drones hit high-rise residential buildings in the Solomianskyi and Pecherskyi districts (one at fourth-floor level, another between the seventh and tenth floors), killing a 14-yea…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/25/russian-drones-hit-residential-buildings-in-kyiv-killing-teenager-hospital-damaged-in-zaporizhzhia",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260925-05",
        "title": "Danish-Ukrainian startup BlueShadow plans armed sea-drone swarms to shoot down Russian attack drones over Odesa",
@@ -75,6 +98,29 @@
        ]
       },
       {
+       "id": "e-20260926-s05",
+       "title": "RUSI Reports That Ukraine Uses PC-9 Aircraft Armed with Miniguns to Shoot Down Shahed Drones",
+       "titleNl": "RUSI meldt dat Oekraïne met miniguns bewapende PC-9-vliegtuigen inzet om Shahed-drones neer te schieten",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-23",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Defense Express meldt, op basis van een RUSI-commentaar van senior research fellow Justin Bronk, dat een Oekraïense vrijwilligersgroep ten minste één Pilatus PC-9-turbopropopleidingsvliegtuig inzet, uitgerust met pods met 7,62mm-Minigun-machinegeweren, om Russische one-way-attack-drones te onderscheppen. Volgens RUSI…",
+       "enSummary": "Defense Express, citing a RUSI commentary by senior research fellow Justin Bronk, reports that a Ukrainian volunteer group operates at least one Pilatus PC-9 turboprop trainer fitted with pods carrying 7.62mm Minigun machine guns to intercept Russian one-way attack drones. According to RUSI the aircraft has shot down…",
+       "sourceUrl": "https://en.defence-ua.com/news/rusi_reports_that_ukraine_uses_pc_9_aircraft_armed_with_miniguns_to_shoot_down_shahed_drones-19894.html",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
+      {
        "id": "e-20260923-s07",
        "title": "Українські захисники з початку року знешкодили понад 350 тисяч ворожих дронів",
        "titleNl": "Oekraïense verdedigers hebben sinds begin dit jaar meer dan 350.000 vijandelijke drones uitgeschakeld",
@@ -117,62 +163,38 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260922-12",
-       "title": "Russia's real threat isn't a better missile — it's 14,000 cheap Dan-T cruise missiles built from a 1990s target drone",
-       "titleNl": "Ruslands echte dreiging is geen betere raket — het zijn 14.000 goedkope Dan-T-kruisraketten, gebouwd op een doeldrone uit de jaren negentig",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-21T19:42:39.000Z",
-       "updatedAt": "2026-09-22T09:00:00.000Z",
-       "nlSummary": "Rusland heeft een decennia-oude, op vliegtuigen gelanceerde doeldrone omgebouwd tot een massaal te produceren kruisraket, de Dan-T. Volgens RBC-Ukraine (aangehaald door Euromaidan Press) is de Dan-T ontstaan uit de Dan-M, een straalaangedreven doeldrone die het Russische ontwerpbureau Sokol begin jaren negentig bouwde…",
-       "enSummary": "Russia has adapted a decades-old aircraft-launched target drone into a mass-producible cruise missile called the Dan-T. According to RBC-Ukraine (cited by Euromaidan Press), the Dan-T began life as the Dan-M, a jet-powered target drone built by Russia's Sokol design bureau in the early 1990s to mimic US Tomahawk cruis…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/21/russias-threat-isnt-better-missile-its-14000-cheap-ones-its-new-deadly-weapon-was-built-in-early-1990s-experts-say",
-       "sourceCount": 1,
-       "signals": [
-        "perf",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260922-06",
-       "title": "Satellite imagery shows Ukrainian drone strike damaged Shahed storage bunkers at Tsymbulovo drone base",
-       "titleNl": "Satellietbeelden tonen schade door Oekraïense droneaanval aan Shahed-opslagbunkers bij dronebasis Tsymboelovo",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-21T16:13:00.000Z",
-       "updatedAt": "2026-09-23T09:00:00.000Z",
-       "nlSummary": "De dronebasis Tsymboelovo, bij het gelijknamige dorp in de Russische oblast Orjol, wordt gebruikt om Russische aanvalsdrones uit de Geran-familie op te slaan, gereed te maken en te lanceren — zowel varianten gebaseerd op de Iraanse Shahed als nieuwere straalaangedreven types. Volgens Militarnyi begon de bouw in august…",
-       "enSummary": "The Tsymbulovo drone base near the village of the same name in Russia's Oryol Oblast is used to store, prepare and launch Russian strike drones of the Geran family — both Iranian Shahed-derived variants and newer jet-powered types. According to Militarnyi, construction began in August 2024 and investigators believe th…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054488",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "scale"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 19,
+     "total": 21,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260926-01",
+       "title": "Russia strikes Kyiv in overnight, daytime and evening drone waves on 25 September; 173 drones, over 50 of them jet-powered, launched the following night",
+       "titleNl": "Rusland valt Kyiv op 25 september aan met dronegolven 's nachts, overdag en 's avonds; de nacht erna volgen 173 drones, waarvan ruim 50 met straalmotor",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-25T07:02:54.000Z",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Rusland viel Kyiv op 25 september niet in één nachtelijke aanval aan, maar in meerdere afzonderlijke dronegolven. In de nacht en de ochtend troffen drones hoge woongebouwen in de districten Solomjanski en Petsjerski (één op hoogte van de vierde verdieping, een ander tussen de zevende en tiende verdieping); daarbij kwa…",
+       "enSummary": "Russia struck Kyiv in several separate drone waves on 25 September rather than in a single night-time raid. Overnight and into the morning, drones hit high-rise residential buildings in the Solomianskyi and Pecherskyi districts (one at fourth-floor level, another between the seventh and tenth floors), killing a 14-yea…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/25/russian-drones-hit-residential-buildings-in-kyiv-killing-teenager-hospital-damaged-in-zaporizhzhia",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260925-01",
        "title": "Report: CIA warned Spain, France and Italy of possible Russian drone attacks launched from ships in the Mediterranean; Italy disputes it",
@@ -192,6 +214,29 @@
        "sourceCount": 3,
        "signals": [
         "perf"
+       ]
+      },
+      {
+       "id": "e-20260926-s05",
+       "title": "RUSI Reports That Ukraine Uses PC-9 Aircraft Armed with Miniguns to Shoot Down Shahed Drones",
+       "titleNl": "RUSI meldt dat Oekraïne met miniguns bewapende PC-9-vliegtuigen inzet om Shahed-drones neer te schieten",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-23",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Defense Express meldt, op basis van een RUSI-commentaar van senior research fellow Justin Bronk, dat een Oekraïense vrijwilligersgroep ten minste één Pilatus PC-9-turbopropopleidingsvliegtuig inzet, uitgerust met pods met 7,62mm-Minigun-machinegeweren, om Russische one-way-attack-drones te onderscheppen. Volgens RUSI…",
+       "enSummary": "Defense Express, citing a RUSI commentary by senior research fellow Justin Bronk, reports that a Ukrainian volunteer group operates at least one Pilatus PC-9 turboprop trainer fitted with pods carrying 7.62mm Minigun machine guns to intercept Russian one-way attack drones. According to RUSI the aircraft has shot down…",
+       "sourceUrl": "https://en.defence-ua.com/news/rusi_reports_that_ukraine_uses_pc_9_aircraft_armed_with_miniguns_to_shoot_down_shahed_drones-19894.html",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "counter"
        ]
       },
       {
@@ -261,56 +306,6 @@
        "signals": [
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260922-08",
-       "title": "Russia widens strike campaign on Ukrainian industry and logistics: steel mills halted, Interpipe plant hit in Dnipro, 2.1 million m² of warehouses destroyed",
-       "titleNl": "Rusland verbreedt aanvalscampagne tegen Oekraïense industrie en logistiek: staalfabrieken stil, Interpipe-fabriek in Dnipro geraakt, 2,1 miljoen m² aan magazijnen verwoest",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-21T07:44:46.000Z",
-       "updatedAt": "2026-09-23T09:00:00.000Z",
-       "nlSummary": "Russische ballistische raketaanvallen begin september 2026 hebben drie van de grootste staalfabrieken van Oekraïne buiten werking gesteld — twee van Metinvest in de regio's Zaporizhzhia en Dnipropetrovsk en één van ArcelorMittal — die samen goed zijn voor ongeveer 90% van de Oekraïense staalproductie. Volgens Meduza's…",
-       "enSummary": "Russian ballistic missile strikes in early September 2026 knocked out three of Ukraine's largest steel plants — two operated by Metinvest in the Zaporizhzhia and Dnipropetrovsk regions and one operated by ArcelorMittal — which together account for roughly 90% of Ukraine's steel output. According to Meduza's summary of…",
-       "sourceUrl": "https://meduza.io/en/news/2026/09/21/russian-strikes-knock-out-three-of-ukraine-s-largest-steel-plants",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260921-01",
-       "title": "Wild Hornets' STING S interceptor claims ~10 Geran-4 and several Geran-5 kills and heads for mass production; Geran-5 seen with internalised turbojet",
-       "titleNl": "STING S-interceptor van Wild Hornets claimt circa tien Geran-4- en enkele Geran-5-treffers en gaat richting massaproductie; Geran-5 met ingebouwde straalmotor gesignaleerd",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-19T07:00:00.000Z",
-       "updatedAt": "2026-09-23T09:00:00.000Z",
-       "nlSummary": "Volgens Militarnyi heeft een bemanning (call sign 'Rubin') van het 1020e luchtafweerraketregiment rond 19-20 september een Russische Geran-5 kleine kruisraket neergehaald met een nieuwe interceptordrone, de STING S, door een directe botsing; de beelden werden gepubliceerd door fabrikant Wild Hornets. Euromaidan Press…",
-       "enSummary": "According to Militarnyi, a crew (call sign 'Rubin') of the 1020th Anti-Aircraft Missile Regiment shot down a Russian Geran-5 small cruise missile around 19-20 September with a new interceptor drone, the STING S, by direct collision; the video was published by manufacturer Wild Hornets. Euromaidan Press, citing a Wild…",
-       "sourceUrl": "https://militarnyi.com/en/news/sting-s-interceptor-drone-destroys-geran-5-small-cruise-missile/",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
-        "counter"
        ]
       }
      ]
@@ -543,9 +538,55 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 16,
+     "total": 18,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260926-01",
+       "title": "Russia strikes Kyiv in overnight, daytime and evening drone waves on 25 September; 173 drones, over 50 of them jet-powered, launched the following night",
+       "titleNl": "Rusland valt Kyiv op 25 september aan met dronegolven 's nachts, overdag en 's avonds; de nacht erna volgen 173 drones, waarvan ruim 50 met straalmotor",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-25T07:02:54.000Z",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Rusland viel Kyiv op 25 september niet in één nachtelijke aanval aan, maar in meerdere afzonderlijke dronegolven. In de nacht en de ochtend troffen drones hoge woongebouwen in de districten Solomjanski en Petsjerski (één op hoogte van de vierde verdieping, een ander tussen de zevende en tiende verdieping); daarbij kwa…",
+       "enSummary": "Russia struck Kyiv in several separate drone waves on 25 September rather than in a single night-time raid. Overnight and into the morning, drones hit high-rise residential buildings in the Solomianskyi and Pecherskyi districts (one at fourth-floor level, another between the seventh and tenth floors), killing a 14-yea…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/25/russian-drones-hit-residential-buildings-in-kyiv-killing-teenager-hospital-damaged-in-zaporizhzhia",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260926-06",
+       "title": "Russian Gerbera drones crash in Moldova and Romania; ISW links incursions, Polish Starlink sabotage and Berlin airport halt to one pattern",
+       "titleNl": "Russische Gerbera-drones neergestort in Moldavië en Roemenië; ISW verbindt incursies, Starlink-sabotage in Polen en stillegging Berlijnse luchthaven tot één patroon",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-24T16:40:43.000Z",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Tijdens een Russische aanval op Oekraïne in de nacht naar 24 september 2026 (volgens de Oekraïense luchtmacht 282 drones plus ballistische en andere raketten) kwamen drones terecht in Moldavië en Roemenië. Het Moldavische ministerie van Defensie meldde vier drone-incursies en sloot het noordelijke luchtruim gedeelteli…",
+       "enSummary": "During a Russian attack on Ukraine overnight into 24 September 2026 (Ukraine's Air Force reported 282 drones plus ballistic and other missiles), drones strayed into Moldova and Romania. Moldova's Defence Ministry reported four drone incursions and partially closed its northern airspace. Near Cernița (Florești district…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/24/drones-moldova-romania-poland-jets-russian-attack",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260925-01",
        "title": "Report: CIA warned Spain, France and Italy of possible Russian drone attacks launched from ships in the Mediterranean; Italy disputes it",
@@ -636,62 +677,38 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260919-12",
-       "title": "Russian Gerbera-2 Drone Found on Polish Beach Confirmed to Carry Live Warhead",
-       "titleNl": "Russische Gerbera-2-drone op Pools strand bleek bewapende gevechtskop te dragen",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-09-16T00:00:00.000Z",
-       "updatedAt": "2026-09-19T10:00:00.000Z",
-       "nlSummary": "Poolse militaire justitie heeft op woensdag 16 september 2026 bevestigd dat een Russische Gerbera-2-drone, die maandag 14 september werd aangetroffen op het strand bij Rusinowo aan de Baltische kust (West-Pommeren), een operationele gevechtskop bij zich droeg. Volgens plaatsvervangend militair officier van justitie Ba…",
-       "enSummary": "Polish military prosecutors confirmed on Wednesday, 16 September 2026, that a Russian Gerbera-2 drone recovered on Monday 14 September from the beach near Rusinowo on Poland's Baltic coast (West Pomeranian Voivodeship) was carrying a live warhead. Deputy Military District Prosecutor Bartosz Okoniewski stated the drone…",
-       "sourceUrl": "https://militarnyi.com/en/news/russian-drone-poland-equipped-with-warhead/",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260917-04",
-       "title": "Italian NATO jets shoot down explosive-laden drone over Lithuania; Lithuanian president says Ukrainian EW may have diverted it there",
-       "titleNl": "Italiaanse NAVO-toestellen schieten met explosieven beladen drone neer boven Litouwen; Litouwse president: mogelijk door Oekraïense EW afgedwaald",
-       "category": "org",
-       "topics": [
-        "drones",
-        "air-defense",
-        "airforce",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-09-15T15:35:13.000Z",
-       "updatedAt": "2026-09-17T09:00:00.000Z",
-       "nlSummary": "Italiaanse NAVO-jachtvliegtuigen, ingezet vanaf Šiauliai Air Base voor de Baltic Air Policing-missie, hebben in de nacht van dinsdag op woensdag (15-16 september 2026) een onbemand toestel neergeschoten boven Litouwen, nabij het dorp Pratkūnai in het district Kaišiadorys — ongeveer 100 km ten noordwesten van Vilnius e…",
-       "enSummary": "Italian NATO fighter jets, flying under the Baltic Air Policing mission out of Šiauliai Air Base, shot down an unmanned aerial vehicle over Lithuania overnight Tuesday into Wednesday (September 15-16, 2026), near the village of Pratkūnai in Kaišiadorys district — roughly 100 km northwest of Vilnius and not far from Ka…",
-       "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/15/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
       }
      ]
     },
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 9,
-     "signalCount": 4,
+     "total": 10,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260926-02",
+       "title": "Most firms in Russia's Molniya drone supply chain are unsanctioned, Ukrainian research finds",
+       "titleNl": "Meeste bedrijven in de productieketen van de Russische Molniya-drone vallen niet onder sancties, blijkt uit Oekraïens onderzoek",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-25T13:57:54.000Z",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Onderzoek van de Oekraïense denktank Center for Defense Reforms, exclusief gedeeld met de Kyiv Independent (25 september 2026), concludeert dat de meeste bedrijven die betrokken zijn bij de productie van de Russische Molniya-aanvalsdrone niet onder westerse sancties vallen. De Molniya wordt gemaakt door Atlant Aero LL…",
+       "enSummary": "Research by the Ukrainian think tank Center for Defense Reforms, shared exclusively with the Kyiv Independent (25 September 2026), finds that most companies involved in producing Russia's Molniya strike drones are not under Western sanctions. The Molniya is made by Atlant Aero LLC; according to Serhii Beskrestnov, a f…",
+       "sourceUrl": "https://kyivindependent.com/exclusive-majority-of-companies-involved-in-russian-molniya-drone-production-unsanctioned-research-shows/",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260924-03",
        "title": "Russia adapts to Ukraine's middle-strike drone campaign with mobile fire groups, Rubicon interceptors and Starlink jammers",
@@ -807,28 +824,6 @@
        "signals": [
         "deploy"
        ]
-      },
-      {
-       "id": "e-20260906-03",
-       "title": "Ukraine fields \"Hrafit,\" a smartphone-based drone-warning system that pushes air-threat alerts to individual soldiers",
-       "titleNl": "Oekraïne voert 'Hrafit' in: een smartphone-dronewaarschuwingssysteem dat luchtdreigingsmeldingen tot bij de individuele militair brengt",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "command",
-        "ew",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-05T03:19:35.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "Hrafit (Графіт, \"grafiet\") is een Oekraïens digitaal systeem voor luchtruim- en EW-situatiebewustzijn dat volgens de berichtgeving één centrale vraag voor de frontsoldaat beantwoordt: \"is het luchtruim vrij?\" Het systeem voegt data samen van beschikbare radiotechnische verkenning en waarnemingsmiddelen tot een gemeens…",
-       "enSummary": "Hrafit (Графіт, \"graphite\") is a Ukrainian digital system for airspace and electronic-warfare situational awareness that, according to the reporting, answers the one question that matters most to a frontline soldier: \"is the sky clear?\" It aggregates data from available radio-technical reconnaissance and surveillance…",
-       "sourceUrl": "https://armyinform.com.ua/2026/09/05/nebo-v%c2%a0smartfoni-yak%c2%a0praczyuye-ukrayinska-systema-%c2%abgrafit%c2%bb-shho%c2%a0ryatuye-bijcziv-zsu-vid-vorozhyh-droniv",
-       "sourceCount": 2,
-       "signals": []
       }
      ]
     },
@@ -975,8 +970,8 @@
     "forpost": {
      "name": "Forpost",
      "nameEn": "Forpost",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20260824-s04",
@@ -999,30 +994,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260801-s03",
-       "title": "'Birds of Magyar' shoot down rare Russian Forpost-R UAV with Chaklun-KM interceptor over Kursk region",
-       "titleNl": "'Vogels van Magyar' schieten zeldzame Russische Forpost-R neer met Chaklun-KM-onderscheppingsdrone boven Koersk",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T18:54:00.000Z",
-       "updatedAt": "2026-08-01T21:00:00.000Z",
-       "nlSummary": "Volgens Censor.NET, gebaseerd op videomateriaal dat commandant Robert Brovdi ('Madyar') op 27 juli 2026 via Telegram publiceerde, heeft het 7e Bataljon Topota van de 414e Afzonderlijke Brigade Onbemande Systemen ('Vogels van Magyar') een Russische Forpost-R verkennings- en aanvalsdrone neergeschoten boven de Koersk-re…",
-       "enSummary": "According to Censor.NET, based on video footage released by commander Robert Brovdi ('Madyar') via Telegram on 27 July 2026, the 7th Topota Battalion of the 414th Separate Unmanned Systems Brigade ('Birds of Magyar') shot down a Russian Forpost-R reconnaissance-and-strike UAV over the Kursk region at an altitude of ro…",
-       "sourceUrl": "https://censor.net/en/videonews/4015623/birds-of-magyar-down-rare-forpost-r-drone-over-kursk-region",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
        ]
       }
      ]
@@ -1605,7 +1576,7 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 20,
+     "total": 19,
      "signalCount": 6,
      "entries": [
       {
@@ -1878,7 +1849,7 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 15,
+     "total": 13,
      "signalCount": 6,
      "entries": [
       {
@@ -2061,8 +2032,8 @@
     "sa23": {
      "name": "S-300V4 (SA-23)",
      "nameEn": "S-300V4 (SA-23)",
-     "total": 3,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20260906-06",
@@ -2088,55 +2059,13 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260729-s01",
-       "title": "Turkiye Eyes Egypt as S-400 Buyer to Fix F-35 Program Problem, Cairo Already Operates russian S-300VM Claiming 40km Ballistic Intercept",
-       "titleNl": "Turkije ziet Egypte als koper voor S-400 om F-35-programmaprobleem op te lossen; Caïro heeft al Russische S-300VM met beweerd onderscheppingsbereik van 40 km tegen ballistische doelen",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-07-27T08:47:54.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense uitgave Defense Express (die de Arabischtalige site Defence Arabic aanhaalt) verkent Turkije de mogelijkheid om zijn Russische S-400-luchtafweersystemen door te verkopen, waarbij Egypte wordt genoemd als een van de \"waarschijnlijke kopers.\" Turkije kocht de S-400 in 2017 van Rusland, een aankoop…",
-       "enSummary": "According to Ukrainian outlet Defense Express (citing the Arabic-language outlet Defence Arabic), Turkey is looking at selling its Russian-made S-400 air defense systems onward, with Egypt named among the \"probable buyers.\" Turkey acquired the S-400 from Russia in 2017, a purchase that led to Ankara's expulsion from t…",
-       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260731-s02",
-       "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
-       "titleNl": "Turkije zou Egypte als koper van S-400's overwegen om F-35-impasse op te lossen; Caïro heeft al Russische S-300VM",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T08:47:54.000Z",
-       "updatedAt": "2026-07-31T21:00:00.000Z",
-       "nlSummary": "Volgens Defense Express (Ivan Kyrychevskiy) zoekt Turkije nog steeds naar een koper voor zijn Russische S-400-luchtverdedigingssystemen, die het land onder een contract uit 2017 van Moskou kocht en die de directe aanleiding vormden voor Turkijes uitsluiting van het Amerikaanse F-35-programma. Egypte zou nu naar voren…",
-       "enSummary": "Defense Express (author Ivan Kyrychevskiy) reports that Turkey is still seeking a buyer for its Russian S-400 air defense systems, acquired under a 2017 contract with Moscow and the direct cause of Turkey's exclusion from the US F-35 program. Egypt has reportedly emerged as a probable buyer, with talks said to have ta…",
-       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
-       "sourceCount": 1,
-       "signals": []
       }
      ]
     },
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 13,
+     "total": 12,
      "signalCount": 6,
      "entries": [
       {
@@ -2286,62 +2215,6 @@
       }
      ]
     },
-    "sa17": {
-     "name": "Buk-M2 (SA-17)",
-     "nameEn": "Buk-M2 (SA-17)",
-     "total": 1,
-     "signalCount": 0,
-     "entries": [
-      {
-       "id": "e-20260731-s02",
-       "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
-       "titleNl": "Turkije zou Egypte als koper van S-400's overwegen om F-35-impasse op te lossen; Caïro heeft al Russische S-300VM",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T08:47:54.000Z",
-       "updatedAt": "2026-07-31T21:00:00.000Z",
-       "nlSummary": "Volgens Defense Express (Ivan Kyrychevskiy) zoekt Turkije nog steeds naar een koper voor zijn Russische S-400-luchtverdedigingssystemen, die het land onder een contract uit 2017 van Moskou kocht en die de directe aanleiding vormden voor Turkijes uitsluiting van het Amerikaanse F-35-programma. Egypte zou nu naar voren…",
-       "enSummary": "Defense Express (author Ivan Kyrychevskiy) reports that Turkey is still seeking a buyer for its Russian S-400 air defense systems, acquired under a 2017 contract with Moscow and the direct cause of Turkey's exclusion from the US F-35 program. Egypt has reportedly emerged as a probable buyer, with talks said to have ta…",
-       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
-       "sourceCount": 1,
-       "signals": []
-      }
-     ]
-    },
-    "sa15": {
-     "name": "Tor-M2 (SA-15)",
-     "nameEn": "Tor-M2 (SA-15)",
-     "total": 1,
-     "signalCount": 0,
-     "entries": [
-      {
-       "id": "e-20260731-s02",
-       "title": "Turkey Reportedly Eyes Egypt as S-400 Buyer to Resolve F-35 Impasse; Cairo Already Fields Russian S-300VM",
-       "titleNl": "Turkije zou Egypte als koper van S-400's overwegen om F-35-impasse op te lossen; Caïro heeft al Russische S-300VM",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T08:47:54.000Z",
-       "updatedAt": "2026-07-31T21:00:00.000Z",
-       "nlSummary": "Volgens Defense Express (Ivan Kyrychevskiy) zoekt Turkije nog steeds naar een koper voor zijn Russische S-400-luchtverdedigingssystemen, die het land onder een contract uit 2017 van Moskou kocht en die de directe aanleiding vormden voor Turkijes uitsluiting van het Amerikaanse F-35-programma. Egypte zou nu naar voren…",
-       "enSummary": "Defense Express (author Ivan Kyrychevskiy) reports that Turkey is still seeking a buyer for its Russian S-400 air defense systems, acquired under a 2017 contract with Moscow and the direct cause of Turkey's exclusion from the US F-35 program. Egypt has reportedly emerged as a probable buyer, with talks said to have ta…",
-       "sourceUrl": "https://en.defence-ua.com/industries/turkiye_eyes_egypt_as_s_400_buyer_to_fix_f_35_program_problem_cairo_already_operates_russian_s_300vm_claiming_40km_ballistic_intercept-19267.html",
-       "sourceCount": 1,
-       "signals": []
-      }
-     ]
-    },
     "sa19": {
      "name": "Tunguska (SA-19)",
      "nameEn": "Tunguska (SA-19)",
@@ -2411,8 +2284,8 @@
     "sa27": {
      "name": "Buk-M3 (SA-27)",
      "nameEn": "Buk-M3 (SA-27)",
-     "total": 5,
-     "signalCount": 5,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
       {
        "id": "e-20260921-s01",
@@ -2507,28 +2380,6 @@
         "deploy",
         "perf",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260801-s02",
-       "title": "Ukrainian Drone Units Destroy russian P-18 Radar and Strike Buk-M3/S-300 Air Defenses Near Kostiantynivka",
-       "titleNl": "Oekraïense drone-eenheden schakelen Russische P-18-radar en Buk-M3/S-300-luchtafweer uit bij Kostiantynivka",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-27T15:43:09.000Z",
-       "updatedAt": "2026-08-01T21:00:00.000Z",
-       "nlSummary": "Defense Express meldt twee afzonderlijke Oekraïense drone-operaties tegen Russische grondgebonden luchtafweer- en radarcapaciteit. Op 27 juli publiceerde de 15e Brigade van de Oekraïense Landstrijdkrachten beeldmateriaal van de vernietiging van een gecamoufleerde Russische P-18 Terek-radar, een uit de Sovjettijd stamm…",
-       "enSummary": "Defense Express reports two separate Ukrainian drone operations against Russian ground-based air-defense and radar assets. On July 27, Ukraine's 15th Brigade released footage of the destruction of a concealed Russian P-18 Terek radar, a Soviet-era early-warning system that, despite its age, remains in service detectin…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukrainian_drone_operators_destroy_russian_p_18_terek_radar_easing_pressure_on_combat_aviation_video-19270.html",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -3288,8 +3139,8 @@
     "tu160": {
      "name": "Tu-160",
      "nameEn": "Tu-160",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20260830-03",
@@ -3313,28 +3164,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20260728-s01",
-       "title": "Sanctions Push Russia's Aviation Industry Into Crisis, Forcing Rostec Restructuring",
-       "titleNl": "Sancties drijven Russische luchtvaartindustrie in crisis, Rostec dwingt tot herstructurering",
-       "category": "org",
-       "topics": [
-        "airforce",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "De Oekraïense defensienieuwssite Defense Express meldt, onder verwijzing naar de Oekraïense buitenlandse inlichtingendienst SZRU, dat westerse sancties de Russische luchtvaartindustrie in een structurele crisis hebben gedreven. Sinds 2022 sluiten de sancties Rusland af van motoren, avionica, precisieonderdelen en onde…",
-       "enSummary": "Ukrainian defense-news outlet Defense Express reports, citing Ukraine's Foreign Intelligence Service (SZRU), that Western sanctions have pushed Russia's aviation industry into a structural crisis. Since 2022, sanctions have cut Russia off from Western engines, avionics, precision components and maintenance support, dr…",
-       "sourceUrl": "https://en.defence-ua.com/industries/sanctions_are_driving_russias_aviation_industry_into_crisis_forcing_rostec_into_a_major_restructuring-19265.html",
-       "sourceCount": 1,
-       "signals": [
-        "scale"
        ]
       }
      ]
@@ -3412,36 +3241,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      }
-     ]
-    },
-    "tu22m3": {
-     "name": "Tu-22M3",
-     "nameEn": "Tu-22M3",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20260728-s01",
-       "title": "Sanctions Push Russia's Aviation Industry Into Crisis, Forcing Rostec Restructuring",
-       "titleNl": "Sancties drijven Russische luchtvaartindustrie in crisis, Rostec dwingt tot herstructurering",
-       "category": "org",
-       "topics": [
-        "airforce",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-28T06:00:00.000Z",
-       "updatedAt": "2026-07-28T07:00:00.000Z",
-       "nlSummary": "De Oekraïense defensienieuwssite Defense Express meldt, onder verwijzing naar de Oekraïense buitenlandse inlichtingendienst SZRU, dat westerse sancties de Russische luchtvaartindustrie in een structurele crisis hebben gedreven. Sinds 2022 sluiten de sancties Rusland af van motoren, avionica, precisieonderdelen en onde…",
-       "enSummary": "Ukrainian defense-news outlet Defense Express reports, citing Ukraine's Foreign Intelligence Service (SZRU), that Western sanctions have pushed Russia's aviation industry into a structural crisis. Since 2022, sanctions have cut Russia off from Western engines, avionics, precision components and maintenance support, dr…",
-       "sourceUrl": "https://en.defence-ua.com/industries/sanctions_are_driving_russias_aviation_industry_into_crisis_forcing_rostec_into_a_major_restructuring-19265.html",
-       "sourceCount": 1,
-       "signals": [
-        "scale"
        ]
       }
      ]
@@ -4529,9 +4328,56 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 30,
-     "signalCount": 5,
+     "total": 33,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260926-01",
+       "title": "Russia strikes Kyiv in overnight, daytime and evening drone waves on 25 September; 173 drones, over 50 of them jet-powered, launched the following night",
+       "titleNl": "Rusland valt Kyiv op 25 september aan met dronegolven 's nachts, overdag en 's avonds; de nacht erna volgen 173 drones, waarvan ruim 50 met straalmotor",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-25T07:02:54.000Z",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Rusland viel Kyiv op 25 september niet in één nachtelijke aanval aan, maar in meerdere afzonderlijke dronegolven. In de nacht en de ochtend troffen drones hoge woongebouwen in de districten Solomjanski en Petsjerski (één op hoogte van de vierde verdieping, een ander tussen de zevende en tiende verdieping); daarbij kwa…",
+       "enSummary": "Russia struck Kyiv in several separate drone waves on 25 September rather than in a single night-time raid. Overnight and into the morning, drones hit high-rise residential buildings in the Solomianskyi and Pecherskyi districts (one at fourth-floor level, another between the seventh and tenth floors), killing a 14-yea…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/25/russian-drones-hit-residential-buildings-in-kyiv-killing-teenager-hospital-damaged-in-zaporizhzhia",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260926-s01",
+       "title": "Русская армия ударила по предприятию с двигателями для ракет «Фламинго» в Борисполе",
+       "titleNl": "Russisch leger trof bedrijf met motoren voor 'Flamingo'-raketten in Boryspil",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "logistics"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-24T09:01:01.000Z",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "WarGonzo meldt, onder verwijzing naar het Russische ministerie van Defensie, dat Russische troepen in de nacht voor 24 september een massale aanval uitvoerden op Oekraïense droneproductie, telecommunicatie en logistiek. Volgens het bericht werd in Kyiv een bedrijf getroffen dat onderdelen maakte voor drones met lange…",
+       "enSummary": "WarGonzo reports, citing the Russian Ministry of Defence, that on the night before 24 September Russian forces carried out a massive strike on Ukrainian drone production, telecommunications and logistics. According to the post, a Kyiv enterprise making components for long- and medium-range drones was hit, as were the…",
+       "sourceUrl": "https://t.me/wargonzo/37161",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
       {
        "id": "e-20260924-03",
        "title": "Russia adapts to Ukraine's middle-strike drone campaign with mobile fire groups, Rubicon interceptors and Starlink jammers",
@@ -4556,6 +4402,29 @@
         "loss",
         "deploy",
         "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260926-s05",
+       "title": "RUSI Reports That Ukraine Uses PC-9 Aircraft Armed with Miniguns to Shoot Down Shahed Drones",
+       "titleNl": "RUSI meldt dat Oekraïne met miniguns bewapende PC-9-vliegtuigen inzet om Shahed-drones neer te schieten",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-23",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Defense Express meldt, op basis van een RUSI-commentaar van senior research fellow Justin Bronk, dat een Oekraïense vrijwilligersgroep ten minste één Pilatus PC-9-turbopropopleidingsvliegtuig inzet, uitgerust met pods met 7,62mm-Minigun-machinegeweren, om Russische one-way-attack-drones te onderscheppen. Volgens RUSI…",
+       "enSummary": "Defense Express, citing a RUSI commentary by senior research fellow Justin Bronk, reports that a Ukrainian volunteer group operates at least one Pilatus PC-9 turboprop trainer fitted with pods carrying 7.62mm Minigun machine guns to intercept Russian one-way attack drones. According to RUSI the aircraft has shot down…",
+       "sourceUrl": "https://en.defence-ua.com/news/rusi_reports_that_ukraine_uses_pc_9_aircraft_armed_with_miniguns_to_shoot_down_shahed_drones-19894.html",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
         "counter"
        ]
       },
@@ -4608,80 +4477,38 @@
         "perf",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260919-s03",
-       "title": "Portable EW complex \"Chistyulya\" begins testing in the SVO zone",
-       "titleNl": "Draagbaar EW-systeem \"Chistyulya\" wordt getest in het SVO-gebied",
-       "category": "weapon",
-       "topics": [
-        "ew",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-18T04:38:01.000Z",
-       "updatedAt": "2026-09-19T09:00:00.000Z",
-       "nlSummary": "Het draagbare EW-systeem \"Chistyulya\" (Чистюля) wordt volgens de Russische bron Topwar sinds kort getest in het \"SVO-gebied\" (de Russische aanduiding voor het front in Oekraïne). Het systeem wordt beschreven als een radio-elektronisch stoorsysteem gericht tegen vijandelijke onbemande vliegtuigen (drones): het zou de d…",
-       "enSummary": "According to the Russian outlet Topwar, a portable electronic warfare (EW) system called \"Chistyulya\" (Чистюля) has reportedly begun testing in the \"SVO zone\" (Russia's designation for the front line in Ukraine). The system is described as a counter-drone jammer: according to the manufacturer it blocks the data link (…",
-       "sourceUrl": "https://topwar.ru/289958-portativnyj-kompleks-rjeb-chistjulja-nachali-testirovat-v-zone-svo.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260919-s04",
-       "title": "Aerial Helpers of the Storm Troopers",
-       "titleNl": "De luchtassistenten van de stormtroepen",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-17T21:03:00.000Z",
-       "updatedAt": "2026-09-19T09:00:00.000Z",
-       "nlSummary": "Dit item is afkomstig van Krasnaya Zvezda (\"Rode Ster\"), de officiële krant van het Russische ministerie van Defensie, en is single-source: er is geen onafhankelijke bevestiging van de gestelde feiten. Als staatsmedium van het Russische MoD is de inhoud per definitie eenzijdig en propagandistisch van aard, bedoeld om…",
-       "enSummary": "This item comes from Krasnaya Zvezda (\"Red Star\"), the official newspaper of the Russian Ministry of Defence, and is single-source: none of its claims have independent confirmation. As a Russian MoD state outlet, the content is by definition one-sided and propagandistic, intended to portray Russian forces favourably —…",
-       "sourceUrl": "http://redstar.ru/vozdushnye-pomoshhniki-shturmovikov",
-       "sourceCount": 1,
-       "signals": []
-      },
-      {
-       "id": "e-20260917-16",
-       "title": "US Air Force Confirms New Orbital Weapon Targeting Russian, Chinese Satellites",
-       "titleNl": "Amerikaanse luchtmacht bevestigt nieuw ruimtewapen tegen Russische en Chinese satellieten",
-       "category": "weapon",
-       "topics": [
-        "ew",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-17T00:24:44.000Z",
-       "updatedAt": "2026-09-17T09:00:00.000Z",
-       "nlSummary": "Bloomberg meldde op 16 september 2026 dat de Amerikaanse luchtmacht/Space Force voor het eerst over een ruimtegebaseerd (orbitaal) wapen beschikt als onderdeel van het arsenal tegen Russische en Chinese satellieten — een uitbreiding op de bestaande grondgebonden jamsystemen. Luchtmachtminister Troy Meink onthulde deze…",
-       "enSummary": "Bloomberg reported on September 16, 2026 that the US Air Force/Space Force now has an orbital (space-based) weapon as part of its arsenal against Russian and Chinese satellites, for the first time expanding beyond its known ground-based jamming systems. Air Force Secretary Troy Meink disclosed the capability this week.",
-       "sourceUrl": "https://tass.com/world/2188717",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "counter"
-       ]
       }
      ]
     },
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 7,
+     "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260926-s05",
+       "title": "RUSI Reports That Ukraine Uses PC-9 Aircraft Armed with Miniguns to Shoot Down Shahed Drones",
+       "titleNl": "RUSI meldt dat Oekraïne met miniguns bewapende PC-9-vliegtuigen inzet om Shahed-drones neer te schieten",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-23",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Defense Express meldt, op basis van een RUSI-commentaar van senior research fellow Justin Bronk, dat een Oekraïense vrijwilligersgroep ten minste één Pilatus PC-9-turbopropopleidingsvliegtuig inzet, uitgerust met pods met 7,62mm-Minigun-machinegeweren, om Russische one-way-attack-drones te onderscheppen. Volgens RUSI…",
+       "enSummary": "Defense Express, citing a RUSI commentary by senior research fellow Justin Bronk, reports that a Ukrainian volunteer group operates at least one Pilatus PC-9 turboprop trainer fitted with pods carrying 7.62mm Minigun machine guns to intercept Russian one-way attack drones. According to RUSI the aircraft has shot down…",
+       "sourceUrl": "https://en.defence-ua.com/news/rusi_reports_that_ukraine_uses_pc_9_aircraft_armed_with_miniguns_to_shoot_down_shahed_drones-19894.html",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260923-s01",
        "title": "Новинки ВКС: больше бомб и новинка навигации",
@@ -4800,37 +4627,38 @@
         "deploy",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260902-03",
-       "title": "Ukraine's Kaban retrofit kit turns in-service vehicles — including an HMMWV — into uncrewed ground vehicles",
-       "titleNl": "Oekraïens Kaban-inbouwsysteem maakt van bestaande voertuigen — waaronder een HMMWV — onbemande grondvoertuigen",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "armor"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-31T13:59:56.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "De Oekraïense fabrikant Drone Fight Group heeft een HMMWV (\"Humvee\") omgebouwd tot een op afstand bestuurbaar, onbemand grondvoertuig met zijn Kaban-systeem — een inbouwkit die bestaande voertuigen in de vloot ombouwt zonder constructieve wijzigingen, in plaats van een speciaal ontworpen UGV te bouwen. De ontwikkeling…",
-       "enSummary": "Ukrainian manufacturer Drone Fight Group has converted an HMMWV (\"Humvee\") into a remote-controlled uncrewed ground vehicle using its Kaban system — a retrofit kit that turns vehicles already in service into remotely operated platforms without structural modification, rather than building a purpose-made UGV. The work…",
-       "sourceUrl": "https://defence-blog.com/ukraine-converts-iconic-hmmwv-into-robot-vehicle/",
-       "sourceCount": 3,
-       "signals": [
-        "deploy"
-       ]
       }
      ]
     },
     "decoys": {
      "name": "Decoys & chaff",
      "nameEn": "Decoys & chaff",
-     "total": 10,
+     "total": 11,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260926-01",
+       "title": "Russia strikes Kyiv in overnight, daytime and evening drone waves on 25 September; 173 drones, over 50 of them jet-powered, launched the following night",
+       "titleNl": "Rusland valt Kyiv op 25 september aan met dronegolven 's nachts, overdag en 's avonds; de nacht erna volgen 173 drones, waarvan ruim 50 met straalmotor",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-25T07:02:54.000Z",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Rusland viel Kyiv op 25 september niet in één nachtelijke aanval aan, maar in meerdere afzonderlijke dronegolven. In de nacht en de ochtend troffen drones hoge woongebouwen in de districten Solomjanski en Petsjerski (één op hoogte van de vierde verdieping, een ander tussen de zevende en tiende verdieping); daarbij kwa…",
+       "enSummary": "Russia struck Kyiv in several separate drone waves on 25 September rather than in a single night-time raid. Overnight and into the morning, drones hit high-rise residential buildings in the Solomianskyi and Pecherskyi districts (one at fourth-floor level, another between the seventh and tenth floors), killing a 14-yea…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/25/russian-drones-hit-residential-buildings-in-kyiv-killing-teenager-hospital-damaged-in-zaporizhzhia",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260924-02",
        "title": "Russia strikes Kyiv with drones by day, then Zircon and Iskander-M missiles overnight; Zelensky claims 60% of ballistic missiles intercepted",
@@ -4946,30 +4774,6 @@
         "deploy",
         "perf",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260910-10",
-       "title": "Russia hammers Kyiv and other Ukrainian cities with drones, missiles and glide bombs, 8-10 September 2026",
-       "titleNl": "Rusland bestookt Kyiv en andere Oekraïense steden met drones, raketten en glijbommen, 8-10 september 2026",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "glide-bombs",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-09T07:15:44.000Z",
-       "updatedAt": "2026-09-11T09:00:00.000Z",
-       "nlSummary": "Rusland zette de intensieve bombardementen op Oekraïense steden een tweede nacht op rij voort en breidde het zware gecombineerde salvo van 8-9 september uit naar de nacht van 9-10 september. In de nacht van 8-9 september sloeg Rusland toe met Iskander-M-ballistische raketten, S8000 \"Banderol\"-raketten en circa 196 aan…",
-       "enSummary": "Russia continued its intensive bombardment of Ukrainian cities through a second consecutive night, extending the heavy combined salvo of 8-9 September into the night of 9-10 September. On 8-9 September, Russian forces struck with Iskander-M ballistic missiles, S8000 \"Banderol\" missiles and roughly 196 Shahed-type atta…",
-       "sourceUrl": "https://meduza.io/en/news/2026/09/09/russian-drone-strike-hits-ukrainian-checkpoint-on-border-with-moldova-killing-two",
-       "sourceCount": 11,
-       "signals": [
-        "loss"
        ]
       }
      ]
