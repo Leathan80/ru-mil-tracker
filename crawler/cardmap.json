@@ -11,7 +11,11 @@
         },
         "geran3": {
           "name": "Geran-3",
-          "match": "geran-?3|geran-?4|geran-?5|герань-?3"
+          "match": "geran-?3|geran-?4|герань-?3|герань-?4"
+        },
+        "geran5": {
+          "name": "Geran-5",
+          "match": "geran-?5|герань-?5"
         },
         "lancet": {
           "name": "Lancet-1 / Lancet-3",
@@ -172,6 +176,11 @@
         "nebosvu": {
           "name": "Nebo-SVU",
           "match": "nebo-?svu"
+        },
+        "p18": {
+          "name": "P-18 Terek",
+          "match": "\\bp-?18\\b|(^|[^а-яё])п-?18\\b|\\bterek\\b|\\bтерек\\b|spoon rest",
+          "require": "radar|early.warning|vroegtijdige waarschuwing|радиолокац|радар|рлс"
         },
         "protivnik": {
           "name": "Protivnik-GE",

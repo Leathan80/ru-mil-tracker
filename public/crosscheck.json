@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-27T05:18:49.479Z",
+ "updated": "2026-09-27T07:59:10.016Z",
  "analysisUpdated": "2026-09-27T07:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 317,
-  "cardsWithHits": 57,
-  "matches": 403
+  "entriesConsidered": 316,
+  "cardsWithHits": 59,
+  "matches": 409
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -171,7 +171,7 @@
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 22,
+     "total": 20,
      "signalCount": 6,
      "entries": [
       {
@@ -221,27 +221,6 @@
        ]
       },
       {
-       "id": "e-20260925-01",
-       "title": "Report: CIA warned Spain, France and Italy of possible Russian drone attacks launched from ships in the Mediterranean; Italy disputes it",
-       "titleNl": "Bericht: CIA waarschuwde Spanje, Frankrijk en Italië voor mogelijke Russische droneaanvallen vanaf schepen in de Middellandse Zee; Italië spreekt dit tegen",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-24T07:27:00.000Z",
-       "updatedAt": "2026-09-25T07:00:00.000Z",
-       "nlSummary": "Het Spaanse dagblad El Mundo meldde laat op 23 september dat de CIA Europese regeringen heeft gewaarschuwd voor een mogelijke Russische droneoperatie tegen Spanje, Frankrijk of Italië. De drones zouden vanaf schepen in de Middellandse Zee worden gelanceerd. Volgens El Mundo, zoals doorgegeven door Ukrainska Pravda, De…",
-       "enSummary": "The Spanish daily El Mundo reported late on 23 September that the CIA has warned European governments of a possible Russian drone operation against Spain, France or Italy. The drones would be launched from ships in the Mediterranean. According to El Mundo, as relayed by Ukrainska Pravda, Defense News and Meduza, Europ…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/24/8054857",
-       "sourceCount": 3,
-       "signals": [
-        "perf"
-       ]
-      },
-      {
        "id": "e-20260926-s05",
        "title": "RUSI Reports That Ukraine Uses PC-9 Aircraft Armed with Miniguns to Shoot Down Shahed Drones",
        "titleNl": "RUSI meldt dat Oekraïne met miniguns bewapende PC-9-vliegtuigen inzet om Shahed-drones neer te schieten",
@@ -262,6 +241,128 @@
        "signals": [
         "loss",
         "counter"
+       ]
+      },
+      {
+       "id": "e-20260922-06",
+       "title": "Satellite imagery shows Ukrainian drone strike damaged Shahed storage bunkers at Tsymbulovo drone base",
+       "titleNl": "Satellietbeelden tonen schade door Oekraïense droneaanval aan Shahed-opslagbunkers bij dronebasis Tsymboelovo",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-21T16:13:00.000Z",
+       "updatedAt": "2026-09-23T09:00:00.000Z",
+       "nlSummary": "De dronebasis Tsymboelovo, bij het gelijknamige dorp in de Russische oblast Orjol, wordt gebruikt om Russische aanvalsdrones uit de Geran-familie op te slaan, gereed te maken en te lanceren — zowel varianten gebaseerd op de Iraanse Shahed als nieuwere straalaangedreven types. Volgens Militarnyi begon de bouw in august…",
+       "enSummary": "The Tsymbulovo drone base near the village of the same name in Russia's Oryol Oblast is used to store, prepare and launch Russian strike drones of the Geran family — both Iranian Shahed-derived variants and newer jet-powered types. According to Militarnyi, construction began in August 2024 and investigators believe th…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054488",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260922-02",
+       "title": "Vluchnyk unveils Zorelit v5 interceptor drone, claims 416 km/h against jet-powered Gerans",
+       "titleNl": "Vluchnyk onthult Zorelit v5-interceptordrone, claimt 416 km/u tegen straalgedreven Gerans",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-21T12:10:00.000Z",
+       "updatedAt": "2026-09-22T09:00:00.000Z",
+       "nlSummary": "Het Oekraïense bedrijf Vluchnyk (CEO Stepan Radiboh) heeft de interne testfase van de Zorelit v5 (ook verkocht als \"Starship\") afgerond, een interceptordrone die specifiek is ontworpen om straalgedreven Russische aanvalsdrones neer te halen. Volgens Radiboh is het systeem \"klaar voor militair gebruik\"; Vluchnyk zegt o…",
+       "enSummary": "Ukrainian company Vluchnyk (CEO Stepan Radiboh) has completed internal testing of the Zorelit v5 (also marketed as \"Starship\"), an interceptor drone purpose-built to down jet-powered Russian attack UAVs. Per Radiboh, the system \"has completed all testing and is ready for military use\"; Vluchnyk says it is open to dire…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054452/",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260922-08",
+       "title": "Russia widens strike campaign on Ukrainian industry and logistics: steel mills halted, Interpipe plant hit in Dnipro, 2.1 million m² of warehouses destroyed",
+       "titleNl": "Rusland verbreedt aanvalscampagne tegen Oekraïense industrie en logistiek: staalfabrieken stil, Interpipe-fabriek in Dnipro geraakt, 2,1 miljoen m² aan magazijnen verwoest",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-21T07:44:46.000Z",
+       "updatedAt": "2026-09-23T09:00:00.000Z",
+       "nlSummary": "Russische ballistische raketaanvallen begin september 2026 hebben drie van de grootste staalfabrieken van Oekraïne buiten werking gesteld — twee van Metinvest in de regio's Zaporizhzhia en Dnipropetrovsk en één van ArcelorMittal — die samen goed zijn voor ongeveer 90% van de Oekraïense staalproductie. Volgens Meduza's…",
+       "enSummary": "Russian ballistic missile strikes in early September 2026 knocked out three of Ukraine's largest steel plants — two operated by Metinvest in the Zaporizhzhia and Dnipropetrovsk regions and one operated by ArcelorMittal — which together account for roughly 90% of Ukraine's steel output. According to Meduza's summary of…",
+       "sourceUrl": "https://meduza.io/en/news/2026/09/21/russian-strikes-knock-out-three-of-ukraine-s-largest-steel-plants",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      }
+     ]
+    },
+    "geran5": {
+     "name": "Geran-5",
+     "nameEn": "Geran-5",
+     "total": 11,
+     "signalCount": 6,
+     "entries": [
+      {
+       "id": "e-20260927-s02",
+       "title": "Ракета или дрон: в польской прессе оценили «Герань-5»",
+       "titleNl": "Raket of drone: Poolse pers beoordeelt de 'Geran-5'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-26T01:21:50.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Voennoye Obozreniye (topwar.ru) geeft een beoordeling door van het Poolse medium Defence24 over de Russische straalaangedreven Geran-5, met de vraag of het een drone of een kruisraket is. Volgens Defence24 is de Geran-5 geen afgeleide van de Shahed-136/238, maar gebaseerd op de Iraanse straaldrone Karrar, aangedreven…",
+       "enSummary": "Voennoye Obozreniye (topwar.ru) relays an assessment by the Polish outlet Defence24 of Russia's jet-powered Geran-5, asking whether it is a drone or a cruise missile. According to Defence24, the Geran-5 is not a Shahed-136/238 derivative but is based on the Iranian Karrar jet drone, powered by a commercial Chinese Tel…",
+       "sourceUrl": "https://topwar.ru/290438-kak-dron-dogonjaet-reaktivnuju-geran.html",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260925-01",
+       "title": "Report: CIA warned Spain, France and Italy of possible Russian drone attacks launched from ships in the Mediterranean; Italy disputes it",
+       "titleNl": "Bericht: CIA waarschuwde Spanje, Frankrijk en Italië voor mogelijke Russische droneaanvallen vanaf schepen in de Middellandse Zee; Italië spreekt dit tegen",
+       "category": "ttp",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-24T07:27:00.000Z",
+       "updatedAt": "2026-09-25T07:00:00.000Z",
+       "nlSummary": "Het Spaanse dagblad El Mundo meldde laat op 23 september dat de CIA Europese regeringen heeft gewaarschuwd voor een mogelijke Russische droneoperatie tegen Spanje, Frankrijk of Italië. De drones zouden vanaf schepen in de Middellandse Zee worden gelanceerd. Volgens El Mundo, zoals doorgegeven door Ukrainska Pravda, De…",
+       "enSummary": "The Spanish daily El Mundo reported late on 23 September that the CIA has warned European governments of a possible Russian drone operation against Spain, France or Italy. The drones would be launched from ships in the Mediterranean. According to El Mundo, as relayed by Ukrainska Pravda, Defense News and Meduza, Europ…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/24/8054857",
+       "sourceCount": 3,
+       "signals": [
+        "perf"
        ]
       },
       {
@@ -309,14 +410,65 @@
         "loss",
         "scale"
        ]
+      },
+      {
+       "id": "e-20260921-01",
+       "title": "Wild Hornets' STING S interceptor claims ~10 Geran-4 and several Geran-5 kills and heads for mass production; Geran-5 seen with internalised turbojet",
+       "titleNl": "STING S-interceptor van Wild Hornets claimt circa tien Geran-4- en enkele Geran-5-treffers en gaat richting massaproductie; Geran-5 met ingebouwde straalmotor gesignaleerd",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-19T07:00:00.000Z",
+       "updatedAt": "2026-09-23T09:00:00.000Z",
+       "nlSummary": "Volgens Militarnyi heeft een bemanning (call sign 'Rubin') van het 1020e luchtafweerraketregiment rond 19-20 september een Russische Geran-5 kleine kruisraket neergehaald met een nieuwe interceptordrone, de STING S, door een directe botsing; de beelden werden gepubliceerd door fabrikant Wild Hornets. Euromaidan Press…",
+       "enSummary": "According to Militarnyi, a crew (call sign 'Rubin') of the 1020th Anti-Aircraft Missile Regiment shot down a Russian Geran-5 small cruise missile around 19-20 September with a new interceptor drone, the STING S, by direct collision; the video was published by manufacturer Wild Hornets. Euromaidan Press, citing a Wild…",
+       "sourceUrl": "https://militarnyi.com/en/news/sting-s-interceptor-drone-destroys-geran-5-small-cruise-missile/",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260920-02",
+       "title": "Ukraine unveils SBU jet-powered interceptor drone and reports kills on jet-powered Geran drones; Russian jet drone crashes near Chisinau",
+       "titleNl": "Oekraïne toont straalaangedreven interceptor-drone van de SBU en meldt neerhalingen van straalaangedreven Geran-drones; Russische jetdrone stort neer bij Chisinau",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-18T19:11:27.000Z",
+       "updatedAt": "2026-09-20T08:18:17.389Z",
+       "nlSummary": "Op 19 september 2026 maakte president Zelensky bekend dat de Oekraïense veiligheidsdienst SBU een nieuwe interceptor-drone heeft ontwikkeld en al met succes heeft ingezet tegen straalaangedreven drones van het Shahed-type. Volgens Militarnyi, dat de melding oppakt, heeft het toestel deltavormige vleugels en wordt het…",
+       "enSummary": "On 19 September 2026 President Zelensky announced that Ukraine's Security Service (SBU) has developed a new interceptor drone, already successfully deployed against jet-powered Shahed-type drones. According to Militarnyi, which picked up the report, the aircraft has delta-shaped wings and is launched from the ground b…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TM25aS3V5T0lEclpIMnJCUExVSzZuRXZpTWc2R3hOWFh3Vkd4NkZGVTBDb0t2d2RoZ3JkNVdORnFweVZxdjdGU3NnS1dIZWVKLUZiVnhJOGxxekEtSWRZRWllQ2FUSmF1N1kzMFY5NVlKSUphb0t3MWVNcjVpdw?oc=5",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
       }
      ]
     },
     "lancet": {
      "name": "Lancet-1 / Lancet-3",
      "nameEn": "Lancet-1 / Lancet-3",
-     "total": 5,
-     "signalCount": 5,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
       {
        "id": "e-20260908-09",
@@ -411,29 +563,6 @@
        "nlSummary": "Het Russische Telegram-kanaal \"Два майора\" (Dva Majora) plaatste op 1 september 2026 een bericht — doorgestuurd van fabrikant ZALA — met de kop \"een Oekraïense IRIS-T vernietigd door een ploeg van het ZALA-«Lancet»-verkennings-/aanvalscomplex vanaf bijna 200 km\". Volgens de post viel een ploeg van dat complex, toegesc…",
        "enSummary": "On 1 September 2026 the Russian Telegram channel \"Два майора\" (Dva Majora) published a post — forwarded from the manufacturer ZALA — headlined \"a Ukrainian IRIS-T destroyed by a ZALA «Lancet» reconnaissance-strike-complex crew from a range of almost 200 km\". The post states that a crew of that complex, attributed to t…",
        "sourceUrl": "https://t.me/dva_majors/98357",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260729-s04",
-       "title": "«Рубікон», «Ланцети» і рої FPV: як росіяни штурмують Покровський напрямок",
-       "titleNl": "«Rubicon», «Lancets» en zwermen FPV's: hoe de Russen de richting Pokrovsk bestormen",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-07-29T06:41:06.000Z",
-       "updatedAt": "2026-07-29T07:00:00.000Z",
-       "nlSummary": "Sergeant Oleksiy Hodzenko, woordvoerder van het onbemande-systemenbataljon \"Korsar\" van de Oekraïense 38e Aparte Brigade Mariniers (vernoemd naar hetman Petro Sahaidatsjny), beschreef de gevechten in de richting Pokrovsk tijdens een uitzending van Armiya TV op 29 juli 2026. Volgens hem blijven Russische troepen aanval…",
-       "enSummary": "Sergeant Oleksiy Hodzenko, spokesman for the \"Korsar\" unmanned systems battalion of Ukraine's 38th Separate Marine Infantry Brigade (named after Hetman Petro Sahaidachny), described fighting in the Pokrovsk direction in a broadcast on Army TV on 29 July 2026. He said Russian forces continue attacking with small infant…",
-       "sourceUrl": "https://armyinform.com.ua/2026/07/29/%c2%abprosochuyutsya-i-perevazhno-vmyrayut%c2%bb-morpihy-rozpovily-yak-rosiyany-shturmuyut-pokrovskyj-napryamok",
        "sourceCount": 1,
        "signals": [
         "loss",
@@ -540,7 +669,7 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 18,
+     "total": 17,
      "signalCount": 6,
      "entries": [
       {
@@ -685,7 +814,7 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 9,
+     "total": 8,
      "signalCount": 5,
      "entries": [
       {
@@ -1053,7 +1182,7 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 46,
+     "total": 45,
      "signalCount": 6,
      "entries": [
       {
@@ -1201,7 +1330,7 @@
     "cots": {
      "name": "COTS-drones",
      "nameEn": "COTS-drones",
-     "total": 8,
+     "total": 7,
      "signalCount": 4,
      "entries": [
       {
@@ -2488,6 +2617,62 @@
      "total": 1,
      "signalCount": 1,
      "entries": [
+      {
+       "id": "e-20260731-s01",
+       "title": "Ukraine Hits russian Buk-M3 System, Nebo-SVU Radar, Drone Base, and 205th Vessel",
+       "titleNl": "Oekraïne raakt Russisch Buk-M3-systeem, Nebo-SVU-radar, dronebasis en 205e vaartuig",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones",
+        "naval-drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-07-31T04:07:01.000Z",
+       "updatedAt": "2026-07-31T21:00:00.000Z",
+       "nlSummary": "Volgens Oekraïense bronnen (Defense Express, op basis van verklaringen van de Oekraïense Unmanned Systems Forces / \"Madyar's Birds\") voerden Oekraïense eenheden een gecoördineerde multi-domein aanvalsoperatie uit, gemeld op 31 juli 2026. In de regio Donetsk (Snizhne) sloegen operators van de grenseenheid \"Phoenix\" een…",
+       "enSummary": "According to Ukrainian sources (Defense Express, citing statements from Ukraine's Unmanned Systems Forces / \"Madyar's Birds\"), Ukrainian units carried out a coordinated multi-domain strike operation reported on 31 July 2026. In Donetsk region (Snizhne), operators from the \"Phoenix\" border-guard unit struck a Buk-M3 su…",
+       "sourceUrl": "https://en.defence-ua.com/news/ukraine_hits_russian_buk_m3_system_nebo_svu_radar_drone_base_and_205th_vessel_video-19308.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      }
+     ]
+    },
+    "p18": {
+     "name": "P-18 Terek",
+     "nameEn": "P-18 Terek",
+     "total": 2,
+     "signalCount": 2,
+     "entries": [
+      {
+       "id": "e-20260927-06",
+       "title": "Ukraine's General Staff says it struck a Russian P-18 'Terek' early-warning radar in occupied Donetsk Oblast and an ammunition depot in Sievierodonetsk",
+       "titleNl": "Oekraïense Generale Staf meldt treffer op Russische P-18 'Terek'-radar in bezet Donetsk Oblast en munitiedepot in Sjevjerodonetsk",
+       "category": "weapon",
+       "topics": [
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-26T09:32:00.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "De Oekraïense Generale Staf meldt dat Oekraïense eenheden een Russisch P-18 'Terek'-radarstation hebben geraakt bij Semenivske in bezet Donetsk Oblast, als onderdeel van een reeks aanvallen op Russische militaire doelen op 25 september en in de nacht van 25 op 26 september 2026, zo bericht Ukrainska Pravda. In dezelfd…",
+       "enSummary": "Ukraine's General Staff says Ukrainian forces struck a Russian P-18 'Terek' radar station near the settlement of Semenivske in Russian-occupied Donetsk Oblast, as part of a series of strikes on Russian military targets on 25 September and during the night of 25–26 September 2026, Ukrainska Pravda reports. In the same…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/26/8055141",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260731-s01",
        "title": "Ukraine Hits russian Buk-M3 System, Nebo-SVU Radar, Drone Base, and 205th Vessel",
