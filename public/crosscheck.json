@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-26T07:07:02.147Z",
- "analysisUpdated": "2026-09-26T07:00:00.000Z",
+ "updated": "2026-09-27T05:18:49.479Z",
+ "analysisUpdated": "2026-09-27T07:00:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 320,
-  "cardsWithHits": 54,
-  "matches": 394
+  "entriesConsidered": 317,
+  "cardsWithHits": 57,
+  "matches": 403
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,55 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 46,
+     "total": 47,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260927-03",
+       "title": "Zelensky: Ukraine intercepts 55% of jet-powered Shaheds versus over 90% of propeller Shaheds; claims Russia plans $12bn for jet drones and loitering munitions in 2027",
+       "titleNl": "Zelensky: Oekraïne onderschept 55% van de straalaangedreven Shaheds tegen ruim 90% van de propellerversie; Rusland zou in 2027 $12 miljard aan straaldrones en loitering munitions besteden",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-26T18:00:00.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "President Volodymyr Zelensky zei in zijn avondtoespraak van 26 september dat Oekraïne momenteel 55% van de Russische straalaangedreven Shahed-drones onderschept, tegenover ruim 90% van de conventionele Shaheds met propeller, meldt Ukrainska Pravda. Volgens Zelensky lanceerde Rusland in september meer dan 2.730 straala…",
+       "enSummary": "President Volodymyr Zelensky said in his evening address on 26 September that Ukraine currently intercepts 55% of Russia's jet-powered Shahed drones, against more than 90% of conventional propeller-driven Shaheds, Ukrainska Pravda reports. According to Zelensky, Russia launched more than 2,730 jet-powered Shaheds in S…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/26/8055188",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260927-s02",
+       "title": "Ракета или дрон: в польской прессе оценили «Герань-5»",
+       "titleNl": "Raket of drone: Poolse pers beoordeelt de 'Geran-5'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-26T01:21:50.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Voennoye Obozreniye (topwar.ru) geeft een beoordeling door van het Poolse medium Defence24 over de Russische straalaangedreven Geran-5, met de vraag of het een drone of een kruisraket is. Volgens Defence24 is de Geran-5 geen afgeleide van de Shahed-136/238, maar gebaseerd op de Iraanse straaldrone Karrar, aangedreven…",
+       "enSummary": "Voennoye Obozreniye (topwar.ru) relays an assessment by the Polish outlet Defence24 of Russia's jet-powered Geran-5, asking whether it is a drone or a cruise missile. According to Defence24, the Geran-5 is not a Shahed-136/238 derivative but is based on the Iranian Karrar jet drone, powered by a commercial Chinese Tel…",
+       "sourceUrl": "https://topwar.ru/290438-kak-dron-dogonjaet-reaktivnuju-geran.html",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
       {
        "id": "e-20260926-01",
        "title": "Russia strikes Kyiv in overnight, daytime and evening drone waves on 25 September; 173 drones, over 50 of them jet-powered, launched the following night",
@@ -119,59 +165,38 @@
         "loss",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260923-s07",
-       "title": "Українські захисники з початку року знешкодили понад 350 тисяч ворожих дронів",
-       "titleNl": "Oekraïense verdedigers hebben sinds begin dit jaar meer dan 350.000 vijandelijke drones uitgeschakeld",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-22T08:37:42.000Z",
-       "updatedAt": "2026-09-23T09:00:00.000Z",
-       "nlSummary": "ArmyInform meldt op gezag van het Oekraïense ministerie van Defensie dat eenheden van de Oekraïense strijdkrachten sinds begin 2026 meer dan 350.000 Russische drones hebben uitgeschakeld. Volgens het ministerie werden daarvan ruim 320.000 drones van het vliegtuig- en coptertype neergehaald door de eenheden onbemande s…",
-       "enSummary": "ArmyInform, citing Ukraine's Ministry of Defence, reports that units of the Ukrainian Defence Forces have neutralised more than 350,000 Russian drones since the start of 2026. According to the ministry, more than 320,000 of them were fixed-wing and multicopter drones downed by the Defence Forces' unmanned systems unit…",
-       "sourceUrl": "https://armyinform.com.ua/2026/09/22/ukrayinski-zahysnyky-z-pochatku-roku-zneshkodyly-ponad-350-tysyach-vorozhyh-droniv",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20260923-02",
-       "title": "Moldova logged 39 Russian drone incursions in eight months of 2026, versus 17 in all of 2025; Lithuania hardens new substation near Kaliningrad against Shahed strikes",
-       "titleNl": "Moldavië telde 39 Russische drone-schendingen in acht maanden van 2026, tegen 17 in heel 2025; Litouwen wapent nieuw onderstation bij Kaliningrad tegen Shahed-aanvallen",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-22T06:54:00.000Z",
-       "updatedAt": "2026-09-23T09:00:00.000Z",
-       "nlSummary": "Na een vergadering van de Nationale Veiligheidsraad van Moldavië op 21 september 2026 maakte president Maia Sandu bekend dat het land in de eerste acht maanden van 2026 39 Russische drone-schendingen van het luchtruim heeft geregistreerd, tegen 17 in heel 2025. Euromaidan Press noemt recente gevallen: op 8 september h…",
-       "enSummary": "After a meeting of Moldova's National Security Council on 21 September 2026, President Maia Sandu said the country had recorded 39 Russian drone incursions into its airspace in the first eight months of 2026, against 17 in the whole of 2025. Euromaidan Press lists recent cases: on 8 September a drone tracked over Mold…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/22/moldova-counted-39-russian-drone-incursions-in-eight-months-against-17-in-all-of-2025",
-       "sourceCount": 2,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
     "geran3": {
      "name": "Geran-3",
      "nameEn": "Geran-3",
-     "total": 21,
+     "total": 22,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260927-s02",
+       "title": "Ракета или дрон: в польской прессе оценили «Герань-5»",
+       "titleNl": "Raket of drone: Poolse pers beoordeelt de 'Geran-5'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-26T01:21:50.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Voennoye Obozreniye (topwar.ru) geeft een beoordeling door van het Poolse medium Defence24 over de Russische straalaangedreven Geran-5, met de vraag of het een drone of een kruisraket is. Volgens Defence24 is de Geran-5 geen afgeleide van de Shahed-136/238, maar gebaseerd op de Iraanse straaldrone Karrar, aangedreven…",
+       "enSummary": "Voennoye Obozreniye (topwar.ru) relays an assessment by the Polish outlet Defence24 of Russia's jet-powered Geran-5, asking whether it is a drone or a cruise missile. According to Defence24, the Geran-5 is not a Shahed-136/238 derivative but is based on the Iranian Karrar jet drone, powered by a commercial Chinese Tel…",
+       "sourceUrl": "https://topwar.ru/290438-kak-dron-dogonjaet-reaktivnuju-geran.html",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
       {
        "id": "e-20260926-01",
        "title": "Russia strikes Kyiv in overnight, daytime and evening drone waves on 25 September; 173 drones, over 50 of them jet-powered, launched the following night",
@@ -283,29 +308,6 @@
        "signals": [
         "loss",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20260922-02",
-       "title": "Vluchnyk unveils Zorelit v5 interceptor drone, claims 416 km/h against jet-powered Gerans",
-       "titleNl": "Vluchnyk onthult Zorelit v5-interceptordrone, claimt 416 km/u tegen straalgedreven Gerans",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-21T12:10:00.000Z",
-       "updatedAt": "2026-09-22T09:00:00.000Z",
-       "nlSummary": "Het Oekraïense bedrijf Vluchnyk (CEO Stepan Radiboh) heeft de interne testfase van de Zorelit v5 (ook verkocht als \"Starship\") afgerond, een interceptordrone die specifiek is ontworpen om straalgedreven Russische aanvalsdrones neer te halen. Volgens Radiboh is het systeem \"klaar voor militair gebruik\"; Vluchnyk zegt o…",
-       "enSummary": "Ukrainian company Vluchnyk (CEO Stepan Radiboh) has completed internal testing of the Zorelit v5 (also marketed as \"Starship\"), an interceptor drone purpose-built to down jet-powered Russian attack UAVs. Per Radiboh, the system \"has completed all testing and is ready for military use\"; Vluchnyk says it is open to dire…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054452/",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "perf"
        ]
       }
      ]
@@ -683,7 +685,7 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 10,
+     "total": 9,
      "signalCount": 5,
      "entries": [
       {
@@ -1051,9 +1053,32 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 45,
+     "total": 46,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260927-s03",
+       "title": "Когда дронов слишком много",
+       "titleNl": "Wanneer er te veel drones zijn",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-09-26T07:51:01.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Het Russische milbloggerkanaal Rybar stelt dat een nieuwe compilatie van oorlogscorrespondent Aleksandr Kots \"opnieuw een systemisch probleem\" voor de Russische strijdkrachten laat zien: het aantal drones van de tegenstander blijft groeien, en ook het scala aan ingezette UAV-typen.",
+       "enSummary": "The Russian milblogger channel Rybar says a new compilation by war correspondent Alexander Kots illustrates \"another systemic problem\" for the Russian armed forces: the number of drones fielded by the opponent keeps growing, and so does the range of UAV types in use.",
+       "sourceUrl": "https://t.me/rybar/83491",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20260925-s04",
        "title": "«Гость» и «Грош» оберегают пехоту",
@@ -1170,40 +1195,13 @@
        "signals": [
         "deploy"
        ]
-      },
-      {
-       "id": "e-20260924-03",
-       "title": "Russia adapts to Ukraine's middle-strike drone campaign with mobile fire groups, Rubicon interceptors and Starlink jammers",
-       "titleNl": "Rusland past zich aan aan Oekraïense middle-strike-dronecampagne met mobiele vuurgroepen, Rubicon-interceptors en Starlink-stoorzenders",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew",
-        "logistics",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-23T09:21:39.000Z",
-       "updatedAt": "2026-09-24T07:00:00.000Z",
-       "nlSummary": "Volgens een veldreportage van de Kyiv Independent vanaf het zuidelijke front hebben Russische troepen zich aangepast aan de uitgebreide Oekraïense \"middle strike\"-campagne. Die campagne zet drones in tegen doelen van ongeveer 35 km (het einde van het FPV-bereik) tot ongeveer 300 km achter de linie. Binnen enkele weken…",
-       "enSummary": "According to a Kyiv Independent field report from the southern front, Russian forces have adapted to Ukraine's expanded \"middle strike\" campaign. That campaign uses drones against targets from roughly 35 km (the end of FPV range) out to about 300 km behind the line. Within weeks of the campaign being scaled up in the…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHRfRlYtd2lHWEFnbjlScDg2Ulg5cEg3VlVwZzFBRXdpem94eVdBVE1PdWhXX3MwY1I3LXZsLVJNMjVCaDR6WFdJeGloS3RWYTlfNF9GRHY1LWVucTJJam9ZdG96cWxVbjZaMzdGaGtxYVlJUlpDNWtBcHdaSHdMMDdkWWdtOXg3ZlVTdDZiMHo1UGs0bzR4c0RFbG0xb1VTWmtuYy1JaU1Gdw?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale",
-        "counter"
-       ]
       }
      ]
     },
     "cots": {
      "name": "COTS-drones",
      "nameEn": "COTS-drones",
-     "total": 9,
+     "total": 8,
      "signalCount": 4,
      "entries": [
       {
@@ -1576,9 +1574,55 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 19,
+     "total": 21,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260927-s03",
+       "title": "Когда дронов слишком много",
+       "titleNl": "Wanneer er te veel drones zijn",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-09-26T07:51:01.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Het Russische milbloggerkanaal Rybar stelt dat een nieuwe compilatie van oorlogscorrespondent Aleksandr Kots \"opnieuw een systemisch probleem\" voor de Russische strijdkrachten laat zien: het aantal drones van de tegenstander blijft groeien, en ook het scala aan ingezette UAV-typen.",
+       "enSummary": "The Russian milblogger channel Rybar says a new compilation by war correspondent Alexander Kots illustrates \"another systemic problem\" for the Russian armed forces: the number of drones fielded by the opponent keeps growing, and so does the range of UAV types in use.",
+       "sourceUrl": "https://t.me/rybar/83491",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260927-s02",
+       "title": "Ракета или дрон: в польской прессе оценили «Герань-5»",
+       "titleNl": "Raket of drone: Poolse pers beoordeelt de 'Geran-5'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-26T01:21:50.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Voennoye Obozreniye (topwar.ru) geeft een beoordeling door van het Poolse medium Defence24 over de Russische straalaangedreven Geran-5, met de vraag of het een drone of een kruisraket is. Volgens Defence24 is de Geran-5 geen afgeleide van de Shahed-136/238, maar gebaseerd op de Iraanse straaldrone Karrar, aangedreven…",
+       "enSummary": "Voennoye Obozreniye (topwar.ru) relays an assessment by the Polish outlet Defence24 of Russia's jet-powered Geran-5, asking whether it is a drone or a cruise missile. According to Defence24, the Geran-5 is not a Shahed-136/238 derivative but is based on the Iranian Karrar jet drone, powered by a commercial Chinese Tel…",
+       "sourceUrl": "https://topwar.ru/290438-kak-dron-dogonjaet-reaktivnuju-geran.html",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
       {
        "id": "e-20260924-s04",
        "title": "Як працює 413-й полк «Рейд»: Євген Карась про знищення С-400 та діпстрайки по росії",
@@ -1669,57 +1713,6 @@
         "variant",
         "deploy",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260921-01",
-       "title": "Wild Hornets' STING S interceptor claims ~10 Geran-4 and several Geran-5 kills and heads for mass production; Geran-5 seen with internalised turbojet",
-       "titleNl": "STING S-interceptor van Wild Hornets claimt circa tien Geran-4- en enkele Geran-5-treffers en gaat richting massaproductie; Geran-5 met ingebouwde straalmotor gesignaleerd",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-19T07:00:00.000Z",
-       "updatedAt": "2026-09-23T09:00:00.000Z",
-       "nlSummary": "Volgens Militarnyi heeft een bemanning (call sign 'Rubin') van het 1020e luchtafweerraketregiment rond 19-20 september een Russische Geran-5 kleine kruisraket neergehaald met een nieuwe interceptordrone, de STING S, door een directe botsing; de beelden werden gepubliceerd door fabrikant Wild Hornets. Euromaidan Press…",
-       "enSummary": "According to Militarnyi, a crew (call sign 'Rubin') of the 1020th Anti-Aircraft Missile Regiment shot down a Russian Geran-5 small cruise missile around 19-20 September with a new interceptor drone, the STING S, by direct collision; the video was published by manufacturer Wild Hornets. Euromaidan Press, citing a Wild…",
-       "sourceUrl": "https://militarnyi.com/en/news/sting-s-interceptor-drone-destroys-geran-5-small-cruise-missile/",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260920-02",
-       "title": "Ukraine unveils SBU jet-powered interceptor drone and reports kills on jet-powered Geran drones; Russian jet drone crashes near Chisinau",
-       "titleNl": "Oekraïne toont straalaangedreven interceptor-drone van de SBU en meldt neerhalingen van straalaangedreven Geran-drones; Russische jetdrone stort neer bij Chisinau",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-18T19:11:27.000Z",
-       "updatedAt": "2026-09-20T08:18:17.389Z",
-       "nlSummary": "Op 19 september 2026 maakte president Zelensky bekend dat de Oekraïense veiligheidsdienst SBU een nieuwe interceptor-drone heeft ontwikkeld en al met succes heeft ingezet tegen straalaangedreven drones van het Shahed-type. Volgens Militarnyi, dat de melding oppakt, heeft het toestel deltavormige vleugels en wordt het…",
-       "enSummary": "On 19 September 2026 President Zelensky announced that Ukraine's Security Service (SBU) has developed a new interceptor drone, already successfully deployed against jet-powered Shahed-type drones. According to Militarnyi, which picked up the report, the aircraft has delta-shaped wings and is launched from the ground b…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TM25aS3V5T0lEclpIMnJCUExVSzZuRXZpTWc2R3hOWFh3Vkd4NkZGVTBDb0t2d2RoZ3JkNVdORnFweVZxdjdGU3NnS1dIZWVKLUZiVnhJOGxxekEtSWRZRWllQ2FUSmF1N1kzMFY5NVlKSUphb0t3MWVNcjVpdw?oc=5",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
        ]
       }
      ]
@@ -1853,6 +1846,29 @@
      "signalCount": 6,
      "entries": [
       {
+       "id": "e-20260927-07",
+       "title": "Chinese Tor-M1 derivative HQ-17 spotted in Algerian camouflage colours",
+       "titleNl": "Chinese Tor-M1-afgeleide HQ-17 gespot in Algerijnse camouflagekleuren",
+       "category": "weapon",
+       "topics": [
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-25T07:02:06.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Foto's op Chinese sociale media (Weibo) tonen een Chinees HQ-17-kortedrachtsluchtverdedigingssysteem in een camouflagepatroon dat overeenkomt met Chinese voertuigen die al in Algerijnse dienst zijn, meldt Defence Blog. Chinese bronnen stellen dat het systeem naar Algerije gaat; een OSINT-account dat de foto's signalee…",
+       "enSummary": "Photos circulating on Chinese social media (Weibo) show a Chinese HQ-17 short-range air defence system painted in a camouflage pattern matching Chinese-made vehicles already in Algerian service, Defence Blog reports. Chinese sources claim the system is headed to Algeria; an OSINT account that flagged the photos noted…",
+       "sourceUrl": "https://defence-blog.com/chinese-copy-of-russias-tor-air-defense-system-seen-in-algerian-colors",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
+      {
        "id": "e-20260925-s01",
        "title": "russia May Have Moved 51P6A Launchers From Kapustin Yar Test Range to Launch RM-48U Missiles From S-400 Systems",
        "titleNl": "Rusland heeft mogelijk 51P6A-lanceerinrichtingen van testterrein Kapustin Jar verplaatst om RM-48U-raketten vanaf S-400-systemen te lanceren",
@@ -1967,42 +1983,38 @@
         "loss",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260919-05",
-       "title": "Ukraine's hidden RAM-2X strike drone: maker claims over 350 Russian systems destroyed",
-       "titleNl": "Oekraïne onthult geheime RAM-2X-aanvalsdrone: fabrikant claimt ruim 350 vernietigde Russische systemen",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-17T12:50:55.000Z",
-       "updatedAt": "2026-09-19T09:00:00.000Z",
-       "nlSummary": "De Oekraïense fabrikant Ukrspecsystems, bekend van de SHARK-verkenningsdrones, heeft na twee jaar geheimhouding de RAM-2X onthuld: een loitering munition (aanvalsdrone met lange hangtijd) die specifiek is ingezet tegen Russische S-400- en S-300-luchtverdedigingssystemen en Iskander-ballistische-raketlanceerders. Het t…",
-       "enSummary": "Ukrainian manufacturer Ukrspecsystems, also known for its SHARK reconnaissance drones, has unveiled the RAM-2X after keeping it secret for two years: a loitering munition specifically employed against Russian S-400 and S-300 air defense systems and Iskander ballistic missile launchers. At its 2024 combat debut the dro…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/17/ukraine-kept-this-strike-drone-secret-for-two-years-its-maker-says-it-has-destroyed-more-than-350-russian-systems",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf",
-        "scale"
-       ]
       }
      ]
     },
     "sa20": {
      "name": "S-300P (SA-20)",
      "nameEn": "S-300P (SA-20)",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260927-07",
+       "title": "Chinese Tor-M1 derivative HQ-17 spotted in Algerian camouflage colours",
+       "titleNl": "Chinese Tor-M1-afgeleide HQ-17 gespot in Algerijnse camouflagekleuren",
+       "category": "weapon",
+       "topics": [
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-25T07:02:06.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Foto's op Chinese sociale media (Weibo) tonen een Chinees HQ-17-kortedrachtsluchtverdedigingssysteem in een camouflagepatroon dat overeenkomt met Chinese voertuigen die al in Algerijnse dienst zijn, meldt Defence Blog. Chinese bronnen stellen dat het systeem naar Algerije gaat; een OSINT-account dat de foto's signalee…",
+       "enSummary": "Photos circulating on Chinese social media (Weibo) show a Chinese HQ-17 short-range air defence system painted in a camouflage pattern matching Chinese-made vehicles already in Algerian service, Defence Blog reports. Chinese sources claim the system is headed to Algeria; an OSINT account that flagged the photos noted…",
+       "sourceUrl": "https://defence-blog.com/chinese-copy-of-russias-tor-air-defense-system-seen-in-algerian-colors",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260909-01",
        "title": "Ukraine unveils home-built 'Koral' air-defense missile with claimed anti-ballistic role at MSPO 2026",
@@ -2032,9 +2044,33 @@
     "sa23": {
      "name": "S-300V4 (SA-23)",
      "nameEn": "S-300V4 (SA-23)",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20260927-01",
+       "title": "Ukraine hits two Russian missile-component plants in two nights: Almaz-Antey's Iskra in Ulyanovsk (Kh-59, Pantsir parts) and the Azov Optical-Mechanical Plant in Rostov Oblast",
+       "titleNl": "Oekraïne treft in twee nachten twee Russische fabrieken van raketcomponenten: Iskra van Almaz-Antej in Oeljanovsk (onderdelen Kh-59, Pantsir) en de Optisch-Mechanische Fabriek Azov in Rostov Oblast",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-25",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Oekraïense langeafstandsdrones troffen in de nacht van 24 op 25 september 2026 de fabriek JSC NPP 'Iskra' in Oeljanovsk, als onderdeel van een bredere dronegolf op Rusland. De fabriek hoort bij defensieconcern Almaz-Antej en maakt halfgeleiders, microgolfcomponenten en elektronica; volgens Militarnyi en een identifica…",
+       "enSummary": "Ukrainian long-range drones struck JSC NPP 'Iskra Plant' in Ulyanovsk overnight on 24–25 September 2026, as part of a wider drone barrage on Russia. The plant belongs to the Almaz-Antey defence conglomerate and makes semiconductor devices, microwave components and electronics; according to Militarnyi and an identifica…",
+       "sourceUrl": "https://militarnyi.com/en/news/drones-attack-iskra-plant-involved-in-kh-59-missile-production/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260906-06",
        "title": "Ukraine confirms its Swedish ASC 890 radar aircraft has flown combat missions since March 2026",
@@ -2065,9 +2101,33 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 12,
+     "total": 13,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260927-01",
+       "title": "Ukraine hits two Russian missile-component plants in two nights: Almaz-Antey's Iskra in Ulyanovsk (Kh-59, Pantsir parts) and the Azov Optical-Mechanical Plant in Rostov Oblast",
+       "titleNl": "Oekraïne treft in twee nachten twee Russische fabrieken van raketcomponenten: Iskra van Almaz-Antej in Oeljanovsk (onderdelen Kh-59, Pantsir) en de Optisch-Mechanische Fabriek Azov in Rostov Oblast",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-25",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Oekraïense langeafstandsdrones troffen in de nacht van 24 op 25 september 2026 de fabriek JSC NPP 'Iskra' in Oeljanovsk, als onderdeel van een bredere dronegolf op Rusland. De fabriek hoort bij defensieconcern Almaz-Antej en maakt halfgeleiders, microgolfcomponenten en elektronica; volgens Militarnyi en een identifica…",
+       "enSummary": "Ukrainian long-range drones struck JSC NPP 'Iskra Plant' in Ulyanovsk overnight on 24–25 September 2026, as part of a wider drone barrage on Russia. The plant belongs to the Almaz-Antey defence conglomerate and makes semiconductor devices, microwave components and electronics; according to Militarnyi and an identifica…",
+       "sourceUrl": "https://militarnyi.com/en/news/drones-attack-iskra-plant-involved-in-kh-59-missile-production/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260917-08",
        "title": "Partisans Claim Sabotage at Russian Missile-Component Plant in Voronezh",
@@ -2188,29 +2248,67 @@
        "signals": [
         "loss"
        ]
-      },
+      }
+     ]
+    },
+    "sa17": {
+     "name": "Buk-M2 (SA-17)",
+     "nameEn": "Buk-M2 (SA-17)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
       {
-       "id": "e-20260907-04",
-       "title": "Ukraine's Unmanned Systems Forces claims 58,465 Russian targets hit in August, with three named campaigns doing the strategic damage",
-       "titleNl": "Oekraïense Onbemande Systeemtroepen claimen 58.465 geraakte Russische doelen in augustus, met drie campagnes voor de strategische schade",
-       "category": "ttp",
+       "id": "e-20260927-07",
+       "title": "Chinese Tor-M1 derivative HQ-17 spotted in Algerian camouflage colours",
+       "titleNl": "Chinese Tor-M1-afgeleide HQ-17 gespot in Algerijnse camouflagekleuren",
+       "category": "weapon",
        "topics": [
-        "drones",
-        "doctrine",
-        "logistics"
+        "air-defense"
        ],
        "stream": "verified",
        "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-06T05:31:45.000Z",
-       "updatedAt": "2026-09-07T09:00:00.000Z",
-       "nlSummary": "Euromaidan Press bracht op 6 september 2026 de maandbalans die Robert “Madyar” Brovdi, commandant van de Oekraïense Onbemande Systeemtroepen (USF), op zijn Telegram-kanaal plaatste. De USF claimt in augustus 2026 58.465 Russische doelen te hebben geraakt, gemiddeld bijna 1.900 per dag — ongeveer 9% meer dan in juli en…",
-       "enSummary": "On 6 September 2026 Euromaidan Press reported the monthly operational summary posted to Telegram by Robert “Madyar” Brovdi, commander of Ukraine's Unmanned Systems Forces (USF). The USF claimed its drones hit 58,465 Russian targets in August 2026, an average of nearly 1,900 a day — roughly 9% more than July and more t…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/06/ukraines-drone-forces-say-they-hit-58465-russian-targets-in-august-nearly-1900-a-day-three-named-campaigns-did-the-strategic-damage",
+       "significance": 1,
+       "publishedAt": "2026-09-25T07:02:06.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Foto's op Chinese sociale media (Weibo) tonen een Chinees HQ-17-kortedrachtsluchtverdedigingssysteem in een camouflagepatroon dat overeenkomt met Chinese voertuigen die al in Algerijnse dienst zijn, meldt Defence Blog. Chinese bronnen stellen dat het systeem naar Algerije gaat; een OSINT-account dat de foto's signalee…",
+       "enSummary": "Photos circulating on Chinese social media (Weibo) show a Chinese HQ-17 short-range air defence system painted in a camouflage pattern matching Chinese-made vehicles already in Algerian service, Defence Blog reports. Chinese sources claim the system is headed to Algeria; an OSINT account that flagged the photos noted…",
+       "sourceUrl": "https://defence-blog.com/chinese-copy-of-russias-tor-air-defense-system-seen-in-algerian-colors",
        "sourceCount": 1,
        "signals": [
         "deploy",
-        "scale"
+        "perf",
+        "counter"
+       ]
+      }
+     ]
+    },
+    "sa15": {
+     "name": "Tor-M2 (SA-15)",
+     "nameEn": "Tor-M2 (SA-15)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20260927-07",
+       "title": "Chinese Tor-M1 derivative HQ-17 spotted in Algerian camouflage colours",
+       "titleNl": "Chinese Tor-M1-afgeleide HQ-17 gespot in Algerijnse camouflagekleuren",
+       "category": "weapon",
+       "topics": [
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-25T07:02:06.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Foto's op Chinese sociale media (Weibo) tonen een Chinees HQ-17-kortedrachtsluchtverdedigingssysteem in een camouflagepatroon dat overeenkomt met Chinese voertuigen die al in Algerijnse dienst zijn, meldt Defence Blog. Chinese bronnen stellen dat het systeem naar Algerije gaat; een OSINT-account dat de foto's signalee…",
+       "enSummary": "Photos circulating on Chinese social media (Weibo) show a Chinese HQ-17 short-range air defence system painted in a camouflage pattern matching Chinese-made vehicles already in Algerian service, Defence Blog reports. Chinese sources claim the system is headed to Algeria; an OSINT account that flagged the photos noted…",
+       "sourceUrl": "https://defence-blog.com/chinese-copy-of-russias-tor-air-defense-system-seen-in-algerian-colors",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
        ]
       }
      ]
@@ -2652,8 +2750,8 @@
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
-     "total": 4,
-     "signalCount": 4,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20260909-06",
@@ -2725,27 +2823,6 @@
         "loss",
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260827-08",
-       "title": "Ukraine names 100+ Russian ballistic-missile producers, seeks blanket allied sanctions after Iskander teardown finds 62 US parts",
-       "titleNl": "Oekraïne noemt 100+ Russische ballistische-raketproducenten en wil sancties tegen allen, na Iskander-teardown met 62 Amerikaanse onderdelen",
-       "category": "weapon",
-       "topics": [
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-08-26T22:02:31.000Z",
-       "updatedAt": "2026-08-27T09:00:00.000Z",
-       "nlSummary": "Presidentieel sanctiecommissaris Vladyslav Vlasjoek maakte bekend dat een Iskander die Rusland op 10 juli 2026 op oblast Kyiv afvuurde meer dan 140 buitenlandse componenten bevatte, waarvan 62 van Amerikaanse oorsprong. De rest kwam onder meer uit Zwitserland, Duitsland, Taiwan, China en Japan, naast Russische en Wit-…",
-       "enSummary": "Presidential sanctions commissioner Vladyslav Vlasiuk disclosed that an Iskander Russia fired at Kyiv Oblast on 10 July 2026 contained more than 140 foreign components, 62 of them US-origin, with the remainder traced to Switzerland, Germany, Taiwan, China and Japan alongside Russian- and Belarusian-made parts. The com…",
-       "sourceUrl": "https://euromaidanpress.com/2026/08/27/iskander-russia-fired-at-kyiv-oblast-in-july-held-62-american-parts-ukraine-has-now-named-more-than-100-russian-ballistics-producers-and-wants-its-allies-to-sanction-all-of-them",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -3427,7 +3504,7 @@
     "kn23": {
      "name": "KN-23 (Hwasong-11A)",
      "nameEn": "KN-23 (Hwasong-11A)",
-     "total": 7,
+     "total": 6,
      "signalCount": 5,
      "entries": [
       {
@@ -3938,7 +4015,7 @@
     "iskander": {
      "name": "Iskander-M (9K720)",
      "nameEn": "Iskander-M (9K720)",
-     "total": 16,
+     "total": 13,
      "signalCount": 6,
      "entries": [
       {
@@ -4216,8 +4293,8 @@
     "oniks": {
      "name": "P-800 Oniks",
      "nameEn": "P-800 Oniks",
-     "total": 4,
-     "signalCount": 4,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20260906-07",
@@ -4290,31 +4367,37 @@
        "signals": [
         "deploy"
        ]
-      },
+      }
+     ]
+    },
+    "kh59": {
+     "name": "Kh-59M / Kh-59MK2",
+     "nameEn": "Kh-59M / Kh-59MK2",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
       {
-       "id": "e-20260828-01",
-       "title": "Russia fields longer-range \"Iskander-1000\" ballistic missile; Ukraine resumes intercept counts after new Patriots arrive",
-       "titleNl": "Rusland zet langeafstands-\"Iskander-1000\" ballistische raket in; Oekraïne hervat onderscheppingscijfers na komst nieuwe Patriots",
+       "id": "e-20260927-01",
+       "title": "Ukraine hits two Russian missile-component plants in two nights: Almaz-Antey's Iskra in Ulyanovsk (Kh-59, Pantsir parts) and the Azov Optical-Mechanical Plant in Rostov Oblast",
+       "titleNl": "Oekraïne treft in twee nachten twee Russische fabrieken van raketcomponenten: Iskra van Almaz-Antej in Oeljanovsk (onderdelen Kh-59, Pantsir) en de Optisch-Mechanische Fabriek Azov in Rostov Oblast",
        "category": "weapon",
        "topics": [
+        "drones",
         "missiles",
-        "air-defense",
-        "north-korea"
+        "air-defense"
        ],
        "stream": "verified",
        "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-08-27T12:32:00.000Z",
-       "updatedAt": "2026-08-28T09:00:00.000Z",
-       "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR/DIU) maakte deze week bekend dat Rusland deze zomer voor het eerst een verbeterde Iskander-M ballistische raket op Kyiv heeft afgevuurd. Volgens HUR gaat het om de aanduiding 9M723-2, door Oekraïense bronnen \"Iskander-1000\" genoemd. De variant zou een bereik hebben van o…",
-       "enSummary": "Ukraine's military intelligence directorate (HUR/DIU) announced this week that Russia used an upgraded Iskander-M ballistic missile against Kyiv for the first time this summer. HUR identifies it as the 9M723-2, nicknamed \"Iskander-1000\" by Ukrainian sources. According to HUR the variant has a range of roughly 550 km,…",
-       "sourceUrl": "https://militarnyi.com/en/news/ukraine-intercepts-russian-iskander-m-kn-23/",
-       "sourceCount": 6,
+       "significance": 2,
+       "publishedAt": "2026-09-25",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Oekraïense langeafstandsdrones troffen in de nacht van 24 op 25 september 2026 de fabriek JSC NPP 'Iskra' in Oeljanovsk, als onderdeel van een bredere dronegolf op Rusland. De fabriek hoort bij defensieconcern Almaz-Antej en maakt halfgeleiders, microgolfcomponenten en elektronica; volgens Militarnyi en een identifica…",
+       "enSummary": "Ukrainian long-range drones struck JSC NPP 'Iskra Plant' in Ulyanovsk overnight on 24–25 September 2026, as part of a wider drone barrage on Russia. The plant belongs to the Almaz-Antey defence conglomerate and makes semiconductor devices, microwave components and electronics; according to Militarnyi and an identifica…",
+       "sourceUrl": "https://militarnyi.com/en/news/drones-attack-iskra-plant-involved-in-kh-59-missile-production/",
+       "sourceCount": 3,
        "signals": [
         "loss",
-        "variant",
-        "perf",
-        "counter"
+        "scale"
        ]
       }
      ]
@@ -4328,9 +4411,54 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 33,
-     "signalCount": 6,
+     "total": 37,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260927-03",
+       "title": "Zelensky: Ukraine intercepts 55% of jet-powered Shaheds versus over 90% of propeller Shaheds; claims Russia plans $12bn for jet drones and loitering munitions in 2027",
+       "titleNl": "Zelensky: Oekraïne onderschept 55% van de straalaangedreven Shaheds tegen ruim 90% van de propellerversie; Rusland zou in 2027 $12 miljard aan straaldrones en loitering munitions besteden",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-26T18:00:00.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "President Volodymyr Zelensky zei in zijn avondtoespraak van 26 september dat Oekraïne momenteel 55% van de Russische straalaangedreven Shahed-drones onderschept, tegenover ruim 90% van de conventionele Shaheds met propeller, meldt Ukrainska Pravda. Volgens Zelensky lanceerde Rusland in september meer dan 2.730 straala…",
+       "enSummary": "President Volodymyr Zelensky said in his evening address on 26 September that Ukraine currently intercepts 55% of Russia's jet-powered Shahed drones, against more than 90% of conventional propeller-driven Shaheds, Ukrainska Pravda reports. According to Zelensky, Russia launched more than 2,730 jet-powered Shaheds in S…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/26/8055188",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260927-04",
+       "title": "Russia hits Kyiv's Cosmonova data centre twice, knocking TV channels off air, as a weeks-long campaign against Ukrainian data centres continues; MoD also claims strikes on Odesa logistics hubs and a bulk carrier",
+       "titleNl": "Rusland treft datacentrum Cosmonova in Kyiv tweemaal en legt tv-zenders plat in een wekenlange campagne tegen Oekraïense datacentra; MoD claimt ook aanvallen op logistieke centra bij Odesa en een bulkcarrier",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-26T05:57:23.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Russische droneaanvallen en neervallende brokstukken troffen op 26 september minstens drie districten van Kyiv (Sjevtsjenkivski, Solomjanski, Svjatosjynski), waarbij een kantoorgebouw, het terrein van een kleuterschool en andere niet-residentiële gebouwen schade opliepen; burgemeester Vitali Klitsjko meldde zeven gewo…",
+       "enSummary": "Russian drone strikes and falling debris hit at least three Kyiv districts (Shevchenkivskyi, Solomianskyi, Sviatoshynskyi) on 26 September, damaging an office building, preschool grounds and other non-residential buildings; Mayor Vitali Klitschko reported seven injured. Russia's Defence Ministry (via TASS) and the Dva…",
+       "sourceUrl": "https://tass.com/defense/2193227",
+       "sourceCount": 6,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260926-01",
        "title": "Russia strikes Kyiv in overnight, daytime and evening drone waves on 25 September; 173 drones, over 50 of them jet-powered, launched the following night",
@@ -4352,6 +4480,30 @@
        "signals": [
         "loss",
         "perf"
+       ]
+      },
+      {
+       "id": "e-20260927-01",
+       "title": "Ukraine hits two Russian missile-component plants in two nights: Almaz-Antey's Iskra in Ulyanovsk (Kh-59, Pantsir parts) and the Azov Optical-Mechanical Plant in Rostov Oblast",
+       "titleNl": "Oekraïne treft in twee nachten twee Russische fabrieken van raketcomponenten: Iskra van Almaz-Antej in Oeljanovsk (onderdelen Kh-59, Pantsir) en de Optisch-Mechanische Fabriek Azov in Rostov Oblast",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-25",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Oekraïense langeafstandsdrones troffen in de nacht van 24 op 25 september 2026 de fabriek JSC NPP 'Iskra' in Oeljanovsk, als onderdeel van een bredere dronegolf op Rusland. De fabriek hoort bij defensieconcern Almaz-Antej en maakt halfgeleiders, microgolfcomponenten en elektronica; volgens Militarnyi en een identifica…",
+       "enSummary": "Ukrainian long-range drones struck JSC NPP 'Iskra Plant' in Ulyanovsk overnight on 24–25 September 2026, as part of a wider drone barrage on Russia. The plant belongs to the Almaz-Antey defence conglomerate and makes semiconductor devices, microwave components and electronics; according to Militarnyi and an identifica…",
+       "sourceUrl": "https://militarnyi.com/en/news/drones-attack-iskra-plant-involved-in-kh-59-missile-production/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "scale"
        ]
       },
       {
@@ -4379,113 +4531,57 @@
        ]
       },
       {
-       "id": "e-20260924-03",
-       "title": "Russia adapts to Ukraine's middle-strike drone campaign with mobile fire groups, Rubicon interceptors and Starlink jammers",
-       "titleNl": "Rusland past zich aan aan Oekraïense middle-strike-dronecampagne met mobiele vuurgroepen, Rubicon-interceptors en Starlink-stoorzenders",
+       "id": "e-20260927-05",
+       "title": "Danish intelligence (DDIS) sees 'low but growing risk' of a limited Russian military attack on a NATO border state in the coming months, alongside escalating hybrid warfare",
+       "titleNl": "Deense inlichtingendienst (DDIS) ziet 'laag maar groeiend risico' op een beperkte Russische militaire aanval op een NAVO-grensstaat in de komende maanden, naast escalerende hybride oorlogvoering",
        "category": "ttp",
        "topics": [
         "drones",
-        "ew",
-        "logistics",
-        "air-defense"
+        "missiles",
+        "navy"
        ],
        "stream": "verified",
        "origin": null,
        "significance": 2,
-       "publishedAt": "2026-09-23T09:21:39.000Z",
-       "updatedAt": "2026-09-24T07:00:00.000Z",
-       "nlSummary": "Volgens een veldreportage van de Kyiv Independent vanaf het zuidelijke front hebben Russische troepen zich aangepast aan de uitgebreide Oekraïense \"middle strike\"-campagne. Die campagne zet drones in tegen doelen van ongeveer 35 km (het einde van het FPV-bereik) tot ongeveer 300 km achter de linie. Binnen enkele weken…",
-       "enSummary": "According to a Kyiv Independent field report from the southern front, Russian forces have adapted to Ukraine's expanded \"middle strike\" campaign. That campaign uses drones against targets from roughly 35 km (the end of FPV range) out to about 300 km behind the line. Within weeks of the campaign being scaled up in the…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHRfRlYtd2lHWEFnbjlScDg2Ulg5cEg3VlVwZzFBRXdpem94eVdBVE1PdWhXX3MwY1I3LXZsLVJNMjVCaDR6WFdJeGloS3RWYTlfNF9GRHY1LWVucTJJam9ZdG96cWxVbjZaMzdGaGtxYVlJUlpDNWtBcHdaSHdMMDdkWWdtOXg3ZlVTdDZiMHo1UGs0bzR4c0RFbG0xb1VTWmtuYy1JaU1Gdw?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260926-s05",
-       "title": "RUSI Reports That Ukraine Uses PC-9 Aircraft Armed with Miniguns to Shoot Down Shahed Drones",
-       "titleNl": "RUSI meldt dat Oekraïne met miniguns bewapende PC-9-vliegtuigen inzet om Shahed-drones neer te schieten",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-09-23",
-       "updatedAt": "2026-09-26T07:00:00.000Z",
-       "nlSummary": "Defense Express meldt, op basis van een RUSI-commentaar van senior research fellow Justin Bronk, dat een Oekraïense vrijwilligersgroep ten minste één Pilatus PC-9-turbopropopleidingsvliegtuig inzet, uitgerust met pods met 7,62mm-Minigun-machinegeweren, om Russische one-way-attack-drones te onderscheppen. Volgens RUSI…",
-       "enSummary": "Defense Express, citing a RUSI commentary by senior research fellow Justin Bronk, reports that a Ukrainian volunteer group operates at least one Pilatus PC-9 turboprop trainer fitted with pods carrying 7.62mm Minigun machine guns to intercept Russian one-way attack drones. According to RUSI the aircraft has shot down…",
-       "sourceUrl": "https://en.defence-ua.com/news/rusi_reports_that_ukraine_uses_pc_9_aircraft_armed_with_miniguns_to_shoot_down_shahed_drones-19894.html",
+       "publishedAt": "2026-09-24",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "De Deense militaire inlichtingendienst DDIS (FE) publiceerde op 24 september 2026 een ongerubriceerde update, 'Assessment of the Threat from Russia', als aanvulling op de beoordeling van februari 2025. Volgens de dienst zal Rusland zijn hybride oorlog tegen de NAVO en het Westen de komende maanden verder opvoeren, met…",
+       "enSummary": "Denmark's Defence Intelligence Service (DDIS/FE) published an unclassified update, 'Assessment of the Threat from Russia', on 24 September 2026, supplementing its February 2025 assessment. It states that Russia will further escalate its hybrid war against NATO and the West in the coming months, citing intensified sabo…",
+       "sourceUrl": "https://euromaidanpress.com/2026/09/24/russia-may-launch-limited-attacks-on-nato-denmark-warns",
        "sourceCount": 2,
-       "signals": [
-        "loss",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260923-s01",
-       "title": "Новинки ВКС: больше бомб и новинка навигации",
-       "titleNl": "Nieuw bij de VKS: meer bommen en een navigatienoviteit",
-       "category": "weapon",
-       "topics": [
-        "glide-bombs",
-        "airforce",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-21T11:50:10.000Z",
-       "updatedAt": "2026-09-23T09:00:00.000Z",
-       "nlSummary": "Het Russische milbloggerkanaal Dva Majora geeft uitspraken door van Kirill Fedorov, gedaan tijdens een uitzending een dag eerder, dat de Su-34 frontbommenwerper nu tot zeven glijbommen kan meenemen. Fedorov wordt geciteerd over een stapsgewijze toename: het toestel begon met één bom, daarna twee, daarna vier, vloog 'v…",
-       "enSummary": "The Russian milblogger channel Dva Majora relays statements by Kirill Fedorov, made during a broadcast the previous day, that the Su-34 frontline bomber can now carry up to seven glide bombs. Fedorov is quoted describing a step-by-step increase: the aircraft started with one bomb, then two, then four, flew with four '…",
-       "sourceUrl": "https://t.me/dva_majors/99330",
-       "sourceCount": 1,
-       "signals": [
-        "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260921-01",
-       "title": "Wild Hornets' STING S interceptor claims ~10 Geran-4 and several Geran-5 kills and heads for mass production; Geran-5 seen with internalised turbojet",
-       "titleNl": "STING S-interceptor van Wild Hornets claimt circa tien Geran-4- en enkele Geran-5-treffers en gaat richting massaproductie; Geran-5 met ingebouwde straalmotor gesignaleerd",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-19T07:00:00.000Z",
-       "updatedAt": "2026-09-23T09:00:00.000Z",
-       "nlSummary": "Volgens Militarnyi heeft een bemanning (call sign 'Rubin') van het 1020e luchtafweerraketregiment rond 19-20 september een Russische Geran-5 kleine kruisraket neergehaald met een nieuwe interceptordrone, de STING S, door een directe botsing; de beelden werden gepubliceerd door fabrikant Wild Hornets. Euromaidan Press…",
-       "enSummary": "According to Militarnyi, a crew (call sign 'Rubin') of the 1020th Anti-Aircraft Missile Regiment shot down a Russian Geran-5 small cruise missile around 19-20 September with a new interceptor drone, the STING S, by direct collision; the video was published by manufacturer Wild Hornets. Euromaidan Press, citing a Wild…",
-       "sourceUrl": "https://militarnyi.com/en/news/sting-s-interceptor-drone-destroys-geran-5-small-cruise-missile/",
-       "sourceCount": 4,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
-        "counter"
-       ]
+       "signals": []
       }
      ]
     },
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 8,
+     "total": 9,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260927-s02",
+       "title": "Ракета или дрон: в польской прессе оценили «Герань-5»",
+       "titleNl": "Raket of drone: Poolse pers beoordeelt de 'Geran-5'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-26T01:21:50.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Voennoye Obozreniye (topwar.ru) geeft een beoordeling door van het Poolse medium Defence24 over de Russische straalaangedreven Geran-5, met de vraag of het een drone of een kruisraket is. Volgens Defence24 is de Geran-5 geen afgeleide van de Shahed-136/238, maar gebaseerd op de Iraanse straaldrone Karrar, aangedreven…",
+       "enSummary": "Voennoye Obozreniye (topwar.ru) relays an assessment by the Polish outlet Defence24 of Russia's jet-powered Geran-5, asking whether it is a drone or a cruise missile. According to Defence24, the Geran-5 is not a Shahed-136/238 derivative but is based on the Iranian Karrar jet drone, powered by a commercial Chinese Tel…",
+       "sourceUrl": "https://topwar.ru/290438-kak-dron-dogonjaet-reaktivnuju-geran.html",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
       {
        "id": "e-20260926-s05",
        "title": "RUSI Reports That Ukraine Uses PC-9 Aircraft Armed with Miniguns to Shoot Down Shahed Drones",
@@ -4603,37 +4699,13 @@
         "variant",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260909-s01",
-       "title": "Defense Express: Germany only now seeks anti-satellite / GNSS-jamming capability, years into Russia's Kaliningrad spoofing",
-       "titleNl": "Defense Express: Duitsland zoekt pas nu naar anti-satelliet-/GNSS-stoorcapaciteit, jaren na Russische spoofing vanuit Kaliningrad",
-       "category": "ttp",
-       "topics": [
-        "ew",
-        "command",
-        "doctrine"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-08T17:03:51.000Z",
-       "updatedAt": "2026-09-09T09:00:00.000Z",
-       "nlSummary": "Defense Express meldt dat de Bundeswehr het Duitse ruimteagentschap opdracht heeft gegeven marktonderzoek te doen naar elektronische-oorlogvoeringssystemen die satellietnavigatie- en communicatiesignalen kunnen onderdrukken. De eisen omvatten het storen van satellieten in lage, middelhoge en geostationaire banen, dekk…",
-       "enSummary": "Defense Express reports that the Bundeswehr has tasked the German Space Agency with conducting market research for electronic warfare systems able to suppress satellite navigation and communications signals. The stated requirements cover jamming satellites in low, medium and geostationary orbits, coverage for a brigad…",
-       "sourceUrl": "https://en.defence-ua.com/news/germany_only_now_seeks_anti_satellite_jamming_despite_russias_gps_spoofing_from_kaliningrad_for_years-19716.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "counter"
-       ]
       }
      ]
     },
     "decoys": {
      "name": "Decoys & chaff",
      "nameEn": "Decoys & chaff",
-     "total": 11,
+     "total": 10,
      "signalCount": 6,
      "entries": [
       {
@@ -4781,9 +4853,32 @@
     "ir": {
      "name": "IR-dreiging & DIRCM",
      "nameEn": "IR threat & DIRCM",
-     "total": 15,
+     "total": 16,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20260927-s02",
+       "title": "Ракета или дрон: в польской прессе оценили «Герань-5»",
+       "titleNl": "Raket of drone: Poolse pers beoordeelt de 'Geran-5'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-26T01:21:50.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Voennoye Obozreniye (topwar.ru) geeft een beoordeling door van het Poolse medium Defence24 over de Russische straalaangedreven Geran-5, met de vraag of het een drone of een kruisraket is. Volgens Defence24 is de Geran-5 geen afgeleide van de Shahed-136/238, maar gebaseerd op de Iraanse straaldrone Karrar, aangedreven…",
+       "enSummary": "Voennoye Obozreniye (topwar.ru) relays an assessment by the Polish outlet Defence24 of Russia's jet-powered Geran-5, asking whether it is a drone or a cruise missile. According to Defence24, the Geran-5 is not a Shahed-136/238 derivative but is based on the Iranian Karrar jet drone, powered by a commercial Chinese Tel…",
+       "sourceUrl": "https://topwar.ru/290438-kak-dron-dogonjaet-reaktivnuju-geran.html",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
       {
        "id": "e-20260922-s05",
        "title": "Kalashnikov Unveils 'Zveroboy' Drone-Interceptor Air Defense Complex",
@@ -4895,32 +4990,6 @@
         "deploy",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260904-s01",
-       "title": "Russian analysis: 'The Evolution of the Geran Drones — Speed versus Range'",
-       "titleNl": "Russische analyse: 'De evolutie van de Geran-drones — snelheid versus dracht'",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-04T01:28:25.000Z",
-       "updatedAt": "2026-09-06T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Russische staatsgezinde publicatie (topwar.ru, auteur Kirill Rjabov). Het artikel is een analytisch overzicht van de ontwikkeling van de Russische 'Geran'-familie barragerende munitie over vier jaar inzet, van trage zuigermotortoestellen naar snelle straalaangedreven varianten. De kern is een technisch…",
-       "enSummary": "SINGLE SOURCE — Russian state-aligned outlet (topwar.ru, author Kirill Ryabov). The piece is an analytical overview of how Russia's 'Geran' family of loitering munitions has evolved over four years of use, from slow piston-engine aircraft to fast jet-powered variants. Its central claim is an engineering trade-off: gai…",
-       "sourceUrl": "https://topwar.ru/289097-jevoljucija-geranej-skorost-protiv-dalnosti.html",
-       "sourceCount": 2,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf",
-        "scale",
-        "counter"
-       ]
       }
      ]
     },
@@ -4959,9 +5028,32 @@
     "epm": {
      "name": "Electronic protection",
      "nameEn": "Electronic protection",
-     "total": 5,
-     "signalCount": 5,
+     "total": 6,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20260927-07",
+       "title": "Chinese Tor-M1 derivative HQ-17 spotted in Algerian camouflage colours",
+       "titleNl": "Chinese Tor-M1-afgeleide HQ-17 gespot in Algerijnse camouflagekleuren",
+       "category": "weapon",
+       "topics": [
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-09-25T07:02:06.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Foto's op Chinese sociale media (Weibo) tonen een Chinees HQ-17-kortedrachtsluchtverdedigingssysteem in een camouflagepatroon dat overeenkomt met Chinese voertuigen die al in Algerijnse dienst zijn, meldt Defence Blog. Chinese bronnen stellen dat het systeem naar Algerije gaat; een OSINT-account dat de foto's signalee…",
+       "enSummary": "Photos circulating on Chinese social media (Weibo) show a Chinese HQ-17 short-range air defence system painted in a camouflage pattern matching Chinese-made vehicles already in Algerian service, Defence Blog reports. Chinese sources claim the system is headed to Algeria; an OSINT account that flagged the photos noted…",
+       "sourceUrl": "https://defence-blog.com/chinese-copy-of-russias-tor-air-defense-system-seen-in-algerian-colors",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260921-01",
        "title": "Wild Hornets' STING S interceptor claims ~10 Geran-4 and several Geran-5 kills and heads for mass production; Geran-5 seen with internalised turbojet",
