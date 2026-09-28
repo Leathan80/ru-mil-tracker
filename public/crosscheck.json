@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-28T05:17:13.493Z",
+ "updated": "2026-09-28T06:05:21.820Z",
  "analysisUpdated": "2026-09-28T07:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 334,
-  "cardsWithHits": 61,
-  "matches": 449
+  "cardsWithHits": 62,
+  "matches": 452
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -1970,6 +1970,88 @@
        "signals": [
         "loss",
         "deploy"
+       ]
+      }
+     ]
+    },
+    "alexa-spatium": {
+     "name": "Alexa Spatium",
+     "nameEn": "Alexa Spatium",
+     "total": 3,
+     "signalCount": 3,
+     "entries": [
+      {
+       "id": "e-20260928-s06",
+       "title": "Ukraine Intercepts 55% of russia's Jet-Powered Shahed Drones as New Countermeasures Enter Combat",
+       "titleNl": "Oekraïne onderschept 55% van Ruslands straalaangedreven Shahed-drones nu nieuwe tegenmaatregelen in gevecht worden ingezet",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-27T02:05:33.000Z",
+       "updatedAt": "2026-09-28T07:00:00.000Z",
+       "nlSummary": "Volgens Defense Express zette Rusland alleen al in september meer dan 2.730 straalaangedreven drones van het Shahed-type in tegen Oekraïne. Oekraïense eenheden vernietigden of onderdrukten er ruim 1.500, een effectiviteit van ongeveer 55%. Dat cijfer omvat zowel drones die fysiek zijn neergehaald als drones waarvan de…",
+       "enSummary": "According to Defense Express, Russia launched more than 2,730 jet-powered Shahed-type drones against Ukraine in September alone. Ukrainian forces destroyed or suppressed more than 1,500 of them, an effectiveness of roughly 55%; that figure counts both drones that were physically shot down and those whose attacks were…",
+       "sourceUrl": "https://en.defence-ua.com/weapon_and_tech/ukraine_intercepts_55_of_russias_jet_powered_shahed_drones_as_new_countermeasures_enter_combat-19905.html",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260927-s02",
+       "title": "Ракета или дрон: в польской прессе оценили «Герань-5»",
+       "titleNl": "Raket of drone: Poolse pers beoordeelt de 'Geran-5'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-26T01:21:50.000Z",
+       "updatedAt": "2026-09-27T07:00:00.000Z",
+       "nlSummary": "Voennoye Obozreniye (topwar.ru) geeft een beoordeling door van het Poolse medium Defence24 over de Russische straalaangedreven Geran-5, met de vraag of het een drone of een kruisraket is. Volgens Defence24 is de Geran-5 geen afgeleide van de Shahed-136/238, maar gebaseerd op de Iraanse straaldrone Karrar, aangedreven…",
+       "enSummary": "Voennoye Obozreniye (topwar.ru) relays an assessment by the Polish outlet Defence24 of Russia's jet-powered Geran-5, asking whether it is a drone or a cruise missile. According to Defence24, the Geran-5 is not a Shahed-136/238 derivative but is based on the Iranian Karrar jet drone, powered by a commercial Chinese Tel…",
+       "sourceUrl": "https://topwar.ru/290438-kak-dron-dogonjaet-reaktivnuju-geran.html",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260920-02",
+       "title": "Ukraine unveils SBU jet-powered interceptor drone and reports kills on jet-powered Geran drones; Russian jet drone crashes near Chisinau",
+       "titleNl": "Oekraïne toont straalaangedreven interceptor-drone van de SBU en meldt neerhalingen van straalaangedreven Geran-drones; Russische jetdrone stort neer bij Chisinau",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-18T19:11:27.000Z",
+       "updatedAt": "2026-09-20T08:18:17.389Z",
+       "nlSummary": "Op 19 september 2026 maakte president Zelensky bekend dat de Oekraïense veiligheidsdienst SBU een nieuwe interceptor-drone heeft ontwikkeld en al met succes heeft ingezet tegen straalaangedreven drones van het Shahed-type. Volgens Militarnyi, dat de melding oppakt, heeft het toestel deltavormige vleugels en wordt het…",
+       "enSummary": "On 19 September 2026 President Zelensky announced that Ukraine's Security Service (SBU) has developed a new interceptor drone, already successfully deployed against jet-powered Shahed-type drones. According to Militarnyi, which picked up the report, the aircraft has delta-shaped wings and is launched from the ground b…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TM25aS3V5T0lEclpIMnJCUExVSzZuRXZpTWc2R3hOWFh3Vkd4NkZGVTBDb0t2d2RoZ3JkNVdORnFweVZxdjdGU3NnS1dIZWVKLUZiVnhJOGxxekEtSWRZRWllQ2FUSmF1N1kzMFY5NVlKSUphb0t3MWVNcjVpdw?oc=5",
+       "sourceCount": 4,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
        ]
       }
      ]
