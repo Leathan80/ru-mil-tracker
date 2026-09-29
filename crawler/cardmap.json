@@ -167,8 +167,14 @@
         },
         "iva": {
           "name": "\"Iva\" (onbekende MANPADS)",
+          "nameEn": "\"Iva\" (unidentified MANPADS)",
           "match": "\\bqw-?1[89]a?\\b|\\bmisagh-?3\\b|[\"«“']iva[\"»”']|«ива»",
           "require": "manpads|shoulder-fired|schouder|пзрк|luchtdoelraket|surface-to-air"
+        },
+        "qw18": {
+          "name": "QW-18 / QW-18A",
+          "match": "\\bqw-?1[89]a?\\b|qianwei-?1[89]|цяньвэй",
+          "require": "manpads|shoulder-fired|schouder|пзрк|luchtdoelraket|surface-to-air|air.defen[cs]e"
         },
         "sa11": {
           "name": "Buk-M1 (SA-11)",
