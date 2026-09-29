@@ -212,6 +212,8 @@
 
     el.footUpdated.textContent = ui("updatedLabel") + " " + (state.analysis ? fmtTime(state.analysis.updated) : "—") +
       "  ·  " + ui("feedUpdatedLabel") + " " + (state.feed ? fmtTime(state.feed.updated) : "—");
+    var foSrc = document.getElementById("footSources");
+    if (foSrc) foSrc.textContent = ui("sourcesLink");
 
     document.querySelectorAll(".lang-btn").forEach(function (b) {
       b.classList.toggle("active", b.getAttribute("data-lang") === state.lang);

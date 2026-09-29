@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sources & method — Russian Military Tracker</title>
+<meta name="description" content="Which open sources the Russian Military Tracker follows, how items are selected and verified, and how to read them.">
+<meta name="theme-color" content="#0b0d10">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  /* GEGENEREERD door scripts/bronnen.mjs uit crawler/sources.json — niet met de hand wijzigen. */
+  .bw { max-width: 980px; margin: 0 auto; padding: 28px var(--gutter) 60px; }
+  .bw h1 { font-size: 30px; color: var(--text-strong); margin: 6px 0 6px; font-weight: 600; }
+  .bw h2 { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin: 38px 0 12px; }
+  .bw p, .bw li { line-height: 1.65; font-size: 15px; }
+  .bw .sub { color: var(--text-dim); margin: 0 0 8px; }
+  .bw a { color: var(--accent); }
+  .bw table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 6px 0 10px; }
+  .bw th { text-align: left; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--text-dim); border-bottom: 1px solid var(--hairline-strong); padding: 8px 10px 8px 0; }
+  .bw td { border-bottom: 1px solid var(--hairline); padding: 8px 10px 8px 0; vertical-align: top; }
+  .bw td.n { font-family: var(--mono); color: var(--text-strong); text-align: right; }
+  .bw .tag { display: inline-block; font-family: var(--mono); font-size: 11px; padding: 1px 7px; border: 1px solid var(--border); border-radius: 4px; margin: 0 4px 2px 0; color: var(--text-dim); white-space: nowrap; }
+  .bw .tag.staat { color: #e7a35b; border-color: rgba(231,163,91,.45); }
+  .bw .tag.ua { color: #6fb3e8; border-color: rgba(111,179,232,.45); }
+  .bw .tag.ru { color: #d16a72; border-color: rgba(209,106,114,.45); }
+  .bw .tag.uit { opacity: .6; }
+  .bw .note { border-left: 2px solid var(--accent-line); background: var(--accent-soft); padding: 12px 16px; margin: 18px 0; }
+  .bw .terug { font-family: var(--mono); font-size: 12px; text-decoration: none; }
+  .bw .scroll { overflow-x: auto; }
+  .bw ol { padding-left: 20px; }
+  .lang-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  @media (max-width: 640px) { .bw { padding: 20px 16px 48px; } .bw h1 { font-size: 24px; } .bw .opt { display: none; } }
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<main class="bw">
+  <div class="lang-row">
+    <a class="terug" href="./" data-t="terug"></a>
+    <div class="lang-switch"><button class="lang-btn" data-lang="nl">NL</button><button class="lang-btn" data-lang="en">EN</button></div>
+  </div>
+  <h1 data-t="titel"></h1>
+  <p class="sub" data-t="sub"></p>
+
+  <h2 data-t="h_werk"></h2>
+  <ol>
+    <li data-t="w1"></li><li data-t="w2"></li><li data-t="w3"></li><li data-t="w4"></li><li data-t="w5"></li>
+  </ol>
+
+  <h2 data-t="h_lezen"></h2>
+  <table>
+    <tr><th data-t="kol_kenmerk"></th><th data-t="kol_betekenis"></th></tr>
+    <tr><td><span class="tag" data-t="tag_verified"></span></td><td data-t="lees_verified"></td></tr>
+    <tr><td><span class="tag" data-t="tag_single"></span></td><td data-t="lees_single"></td></tr>
+    <tr><td><span class="tag staat" data-t="tag_staat"></span></td><td data-t="lees_staat"></td></tr>
+    <tr><td><span class="tag ru">RU</span><span class="tag ua">UA</span></td><td data-t="lees_herkomst"></td></tr>
+    <tr><td><span class="tag">Telegram</span></td><td data-t="lees_telegram"></td></tr>
+    <tr><td><span class="tag">1–3</span></td><td data-t="lees_sig"></td></tr>
+  </table>
+
+  <h2 data-t="h_register"></h2>
+  <p data-t="register_intro"></p>
+  <div class="scroll"><table id="register"></table></div>
+
+  <h2 data-t="h_overig"></h2>
+  <p data-t="overig_intro"></p>
+  <div class="scroll"><table id="overig"></table></div>
+
+  <div class="note" data-t="let_op"></div>
+</main>
+<footer class="site-foot"><span id="foot"></span></footer>
+<script>
+var BRONNEN = [{"id":"isw","naam":"ISW","url":"https://understandingwar.org/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":3},{"id":"oryx","naam":"Oryx","url":"https://www.oryxspioenkop.com/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":3},{"id":"militarnyi","naam":"Militarnyi","url":"https://militarnyi.com/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":3},{"id":"twz","naam":"The War Zone","url":"https://www.twz.com/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"defensenews","naam":"Defense News","url":"https://www.defensenews.com/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"pravda-en","naam":"Ukrainska Pravda (EN)","url":"https://www.pravda.com.ua/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"kyivindep","naam":"Kyiv Independent","url":"https://kyivindependent.com/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"euromaidan","naam":"Euromaidan Press","url":"https://euromaidanpress.com/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":1},{"id":"meduza-en","naam":"Meduza (EN)","url":"https://meduza.io/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"wotr","naam":"War on the Rocks","url":"https://warontherocks.com/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"breakingdef","naam":"Breaking Defense","url":"https://breakingdefense.com/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":1},{"id":"defenceblog","naam":"Defence Blog","url":"https://defence-blog.com/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":1},{"id":"tass","naam":"TASS","url":"https://tass.com/","stroom":"verified","herkomst":null,"staat":true,"telegram":false,"actief":true,"gewicht":1},{"id":"rusi","naam":"RUSI","url":"https://rusi.org/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"hcss","naam":"HCSS","url":"https://hcss.nl/","stroom":"verified","herkomst":null,"staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"milru","naam":"Russisch MoD","url":"https://function.mil.ru/","stroom":"verified","herkomst":null,"staat":true,"telegram":false,"actief":false,"gewicht":1},{"id":"vm","naam":"Voyennaya Mysl","url":"https://vm.ric.mil.ru/","stroom":"single","herkomst":"ru","staat":true,"telegram":false,"actief":true,"gewicht":3},{"id":"redstar","naam":"Krasnaya Zvezda","url":"http://redstar.ru/","stroom":"single","herkomst":"ru","staat":true,"telegram":false,"actief":true,"gewicht":2},{"id":"vpk","naam":"Voyenno-promyshlenny Kuryer","url":"https://vpk-news.ru/","stroom":"single","herkomst":"ru","staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"topwar","naam":"Topwar","url":"https://topwar.ru/","stroom":"single","herkomst":"ru","staat":false,"telegram":false,"actief":true,"gewicht":1},{"id":"nvo","naam":"Nezavisimoye Voyennoye Obozreniye","url":"https://nvo.ng.ru/","stroom":"single","herkomst":"ru","staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"armeisky","naam":"Armeisky Sbornik","url":"https://army.ric.mil.ru/","stroom":"single","herkomst":"ru","staat":true,"telegram":false,"actief":false,"gewicht":2},{"id":"defexpress","naam":"Defense Express","url":"https://en.defence-ua.com/","stroom":"single","herkomst":"ua","staat":false,"telegram":false,"actief":true,"gewicht":2},{"id":"censor","naam":"Censor.NET (EN)","url":"https://censor.net/","stroom":"single","herkomst":"ua","staat":false,"telegram":false,"actief":true,"gewicht":1},{"id":"armyinform","naam":"ArmyInform","url":"https://armyinform.com.ua/","stroom":"single","herkomst":"ua","staat":true,"telegram":false,"actief":true,"gewicht":1},{"id":"deepstate","naam":"DeepState","url":"https://news.google.com/","stroom":"single","herkomst":"ua","staat":false,"telegram":false,"actief":false,"gewicht":1},{"id":"tg-rybar","naam":"Rybar (Telegram)","url":"https://t.me/rybar","stroom":"single","herkomst":"ru","staat":false,"telegram":true,"actief":true,"gewicht":2},{"id":"tg-wargonzo","naam":"WarGonzo (Telegram)","url":"https://t.me/wargonzo","stroom":"single","herkomst":"ru","staat":false,"telegram":true,"actief":true,"gewicht":2},{"id":"tg-fighterbomber","naam":"Fighterbomber (Telegram)","url":"https://t.me/bomber_fighter","stroom":"single","herkomst":"ru","staat":false,"telegram":true,"actief":true,"gewicht":2},{"id":"tg-dvamajors","naam":"Два майора (Telegram)","url":"https://t.me/dva_majors","stroom":"single","herkomst":"ru","staat":false,"telegram":true,"actief":true,"gewicht":2}];
+var T = {
+  nl: {
+    terug: "← Terug naar de tracker", titel: "Bronnen & werkwijze",
+    sub: "Welke open bronnen de tracker volgt, hoe berichten worden geselecteerd en gecontroleerd, en hoe je ze moet lezen.",
+    h_werk: "Werkwijze",
+    w1: "<strong>Verzamelen.</strong> Een crawler haalt elke vier uur nieuwe berichten op uit de bronnen hieronder (rechtstreekse feeds, en voor sites zonder feed via Google News op het domein).",
+    w2: "<strong>Voorselectie.</strong> Een filter scoort elk bericht op relevantie voor Russische militaire ontwikkelingen (TTP's, wapensystemen, organisatie). Bij de brede nieuwsbronnen tellen alleen berichten die dat filter raken.",
+    w3: "<strong>Analyse.</strong> Eén keer per dag worden de sterkste kandidaten gelezen in de volledige brontekst. Berichten over dezelfde ontwikkeling worden samengevoegd tot één item met al hun bronnen, met een samenvatting in het Nederlands en Engels en een inschatting van het belang (1–3).",
+    w4: "<strong>Scheiding van stromen.</strong> Berichten uit de hoofdstroom staan in de tabbladen TTP's, Wapens en Organisatie. Losse publicaties van één partij (Russische of Oekraïense tijdschriften, persbureaus en milbloggers) staan apart, met een vaste waarschuwing wie de bron is.",
+    w5: "<strong>Doorwerking.</strong> Relevante items worden gekoppeld aan de kaarten van de Adepti-academies, waar ze als <em>Geanalyseerde ontwikkelingen</em> verschijnen. Daar staat de oorspronkelijke bron bij.",
+    h_lezen: "Zo lees je de labels", kol_kenmerk: "Label", kol_betekenis: "Betekenis",
+    tag_verified: "hoofdstroom", tag_single: "single source", tag_staat: "staatsbron",
+    lees_verified: "Gevestigde OSINT, denktanks en vakpers. Waar mogelijk gedekt door meer dan één bron; het aantal bronnen staat bij het item.",
+    lees_single: "Eén publicatie van één partij. De tracker geeft weer wát er beweerd wordt, niet dat het klopt.",
+    lees_staat: "Russische of Oekraïense staats- of overheidsmedia. Behandel cijfers en prestaties als claim.",
+    lees_herkomst: "Herkomst van een single-source-bron: Russisch of Oekraïens. Beide zijn partij in de oorlog.",
+    lees_telegram: "Milbloggers: persoonlijke of redactionele kanalen, geen officieel standpunt. Eigen tabblad, extra terughoudend samengevat.",
+    lees_sig: "Belang: 1 routine, 2 relevant, 3 majeure ontwikkeling.",
+    h_register: "Bronregister", register_intro: "De bronnen die de crawler volgt. De laatste kolom telt hoe vaak de bron voorkomt in de items die nu op de tracker staan (ongeveer de laatste dertig dagen).",
+    k_bron: "Bron", k_labels: "Labels", k_link: "Link", k_nu: "In items nu",
+    uit: "gepauzeerd",
+    h_overig: "Overige bronnen in de analyses", overig_intro: "Bij het lezen van een bericht worden soms ook de bronnen gevolgd waarnaar het verwijst. Die staan hieronder, met hoe vaak ze nu voorkomen.",
+    k_domein: "Domein", geen: "Geen overige bronnen in de huidige items.", laden: "Laden…", fout: "De huidige items konden niet worden geladen; de tellingen ontbreken.",
+    let_op: "De tracker is een open-bronhulpmiddel voor onderwijs en oriëntatie, geen inlichtingenproduct. Samenvattingen zijn zorgvuldig gemaakt maar kunnen fouten bevatten. <strong>Controleer altijd de oorspronkelijke bron.</strong>",
+    foot: "Russian Military Tracker · onderdeel van Adepti"
+  },
+  en: {
+    terug: "← Back to the tracker", titel: "Sources & method",
+    sub: "Which open sources the tracker follows, how items are selected and checked, and how to read them.",
+    h_werk: "Method",
+    w1: "<strong>Collection.</strong> Every four hours a crawler fetches new items from the sources below (direct feeds, and for sites without a feed via Google News on the domain).",
+    w2: "<strong>Pre-selection.</strong> A filter scores each item for relevance to Russian military developments (TTPs, weapon systems, organisation). For the broad news sources only items that hit this filter count.",
+    w3: "<strong>Analysis.</strong> Once a day the strongest candidates are read in the full source text. Reports on the same development are merged into one item with all their sources, with a summary in Dutch and English and an assessment of significance (1–3).",
+    w4: "<strong>Separate streams.</strong> Items from the main stream appear in the TTPs, Weapons and Organisation tabs. Single publications from one party (Russian or Ukrainian journals, news agencies and milbloggers) are kept apart, with a fixed note on who the source is.",
+    w5: "<strong>Onward use.</strong> Relevant items are linked to the cards of the Adepti academies, where they appear as <em>Analysed developments</em>, with the original source.",
+    h_lezen: "How to read the labels", kol_kenmerk: "Label", kol_betekenis: "Meaning",
+    tag_verified: "main stream", tag_single: "single source", tag_staat: "state source",
+    lees_verified: "Established OSINT, think tanks and trade press. Where possible covered by more than one source; the number of sources is shown on the item.",
+    lees_single: "One publication from one party. The tracker reports what is claimed, not that it is true.",
+    lees_staat: "Russian or Ukrainian state or government media. Treat figures and performance as claims.",
+    lees_herkomst: "Origin of a single-source outlet: Russian or Ukrainian. Both are parties to the war.",
+    lees_telegram: "Milbloggers: personal or editorial channels, not an official position. Own tab, summarised with extra caution.",
+    lees_sig: "Significance: 1 routine, 2 relevant, 3 major development.",
+    h_register: "Source register", register_intro: "The sources the crawler follows. The last column counts how often the source appears in the items currently on the tracker (roughly the last thirty days).",
+    k_bron: "Source", k_labels: "Labels", k_link: "Link", k_nu: "In items now",
+    uit: "paused",
+    h_overig: "Other sources in the analyses", overig_intro: "When an item is read, the sources it refers to are sometimes followed as well. They are listed below with how often they appear now.",
+    k_domein: "Domain", geen: "No other sources in the current items.", laden: "Loading…", fout: "The current items could not be loaded; counts are missing.",
+    let_op: "The tracker is an open-source tool for education and orientation, not an intelligence product. Summaries are made with care but may contain errors. <strong>Always check the original source.</strong>",
+    foot: "Russian Military Tracker · part of Adepti"
+  }
+};
+var taal = "en";
+try { taal = localStorage.getItem("rumil_lang") || "en"; } catch (e) {}
+var tellingen = null, overig = null, laadfout = false;
+
+function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+function domein(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return u; } }
+
+function render() {
+  var t = T[taal] || T.en;
+  document.documentElement.lang = taal;
+  document.title = t.titel + " — Russian Military Tracker";
+  document.querySelectorAll("[data-t]").forEach(function (el) { el.innerHTML = t[el.getAttribute("data-t")] || ""; });
+  document.querySelectorAll(".lang-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-lang") === taal); });
+  document.getElementById("foot").textContent = t.foot;
+  var rij = BRONNEN.slice().sort(function (a, b) {
+    return (a.stroom === b.stroom ? 0 : a.stroom === "verified" ? -1 : 1) || (b.gewicht - a.gewicht) || a.naam.localeCompare(b.naam);
+  }).map(function (b) {
+    var tags = '<span class="tag">' + (b.stroom === "verified" ? t.tag_verified : t.tag_single) + "</span>" +
+      (b.staat ? '<span class="tag staat">' + t.tag_staat + "</span>" : "") +
+      (b.herkomst ? '<span class="tag ' + b.herkomst + '">' + b.herkomst.toUpperCase() + "</span>" : "") +
+      (b.telegram ? '<span class="tag">Telegram</span>' : "") + (b.actief ? "" : '<span class="tag uit">' + t.uit + "</span>");
+    var n = tellingen ? (tellingen[b.id] || 0) : (laadfout ? "–" : "…");
+    return "<tr><td>" + esc(b.naam) + "</td><td>" + tags + '</td><td class="opt">' + (b.url ? '<a href="' + esc(b.url) + '" target="_blank" rel="noopener">' + esc(domein(b.url)) + "</a>" : "–") + '</td><td class="n">' + n + "</td></tr>";
+  }).join("");
+  document.getElementById("register").innerHTML = "<tr><th>" + t.k_bron + "</th><th>" + t.k_labels + '</th><th class="opt">' + t.k_link + '</th><th style="text-align:right">' + t.k_nu + "</th></tr>" + rij;
+  var ov = document.getElementById("overig");
+  if (laadfout) ov.innerHTML = "<tr><td>" + t.fout + "</td></tr>";
+  else if (!overig) ov.innerHTML = "<tr><td>" + t.laden + "</td></tr>";
+  else if (!overig.length) ov.innerHTML = "<tr><td>" + t.geen + "</td></tr>";
+  else ov.innerHTML = "<tr><th>" + t.k_domein + '</th><th style="text-align:right">' + t.k_nu + "</th></tr>" +
+    overig.map(function (o) { return "<tr><td>" + esc(o[0]) + '</td><td class="n">' + o[1] + "</td></tr>"; }).join("");
+}
+
+document.querySelectorAll(".lang-btn").forEach(function (b) {
+  b.addEventListener("click", function () { taal = b.getAttribute("data-lang"); try { localStorage.setItem("rumil_lang", taal); } catch (e) {} render(); });
+});
+render();
+
+fetch("analysis.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (a) {
+  // Koppel een verwijzing aan een bron via het bron-id, anders via het domein van de URL
+  // (bij zelf gevolgde verwijzingen staat vaak alleen de URL).
+  var bekend = {}, perDomein = {};
+  var kern = function (h) { return h.replace(/^(www|en|eng|m)\./, ""); };
+  // Telegram: koppelen op kanaal (t.me/<kanaal>), niet op domein.
+  var kanaal = function (u) { var m = String(u || "").match(/t\.me\/(?:s\/)?([A-Za-z0-9_]+)/); return m ? "t.me/" + m[1].toLowerCase() : null; };
+  BRONNEN.forEach(function (b) {
+    bekend[b.id] = true;
+    if (b.url) perDomein[b.telegram ? kanaal(b.url) : kern(domein(b.url))] = b.id;
+  });
+  var t = {}, o = {};
+  (a.entries || []).forEach(function (e) {
+    var gezien = {};
+    (e.sourceRefs || []).forEach(function (s) {
+      var d = kanaal(s.url) || kern(domein(s.url || ""));
+      var sleutel = s.source && bekend[s.source] ? s.source : perDomein[d] || "~" + d;
+      if (gezien[sleutel]) return; gezien[sleutel] = true;
+      if (sleutel.charAt(0) === "~") { if (sleutel.length > 1) o[sleutel.slice(1)] = (o[sleutel.slice(1)] || 0) + 1; }
+      else t[sleutel] = (t[sleutel] || 0) + 1;
+    });
+  });
+  tellingen = t;
+  overig = Object.keys(o).map(function (k) { return [k, o[k]]; }).sort(function (x, y) { return y[1] - x[1] || x[0].localeCompare(y[0]); });
+  render();
+}).catch(function () { laadfout = true; render(); });
+</script>
+</body>
+</html>
