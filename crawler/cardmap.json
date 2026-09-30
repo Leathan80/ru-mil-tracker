@@ -11,7 +11,11 @@
         },
         "geran3": {
           "name": "Geran-3",
-          "match": "geran-?3|geran-?4|герань-?3|герань-?4"
+          "match": "geran-?3|герань-?3"
+        },
+        "geran4": {
+          "name": "Geran-4",
+          "match": "geran-?4|герань-?4"
         },
         "geran5": {
           "name": "Geran-5",
@@ -24,6 +28,10 @@
         "orlan": {
           "name": "Orlan-10",
           "match": "\\b(orlan|орлан)"
+        },
+        "parodiya": {
+          "name": "Parodiya",
+          "match": "\\bparodiya\\b|\\bparody decoy|«пароди[яюи]»|пароди[яюи].{0,40}(дрон|бпла|беспилот)"
         },
         "gerbera": {
           "name": "Gerbera",
