@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-02T05:11:47.165Z",
+ "updated": "2026-10-02T05:24:17.968Z",
  "analysisUpdated": "2026-10-02T07:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 392,
   "cardsWithHits": 70,
-  "matches": 570
+  "matches": 567
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -2807,100 +2807,9 @@
     "sa23": {
      "name": "S-300V4 (SA-23)",
      "nameEn": "S-300V4 (SA-23)",
-     "total": 5,
-     "signalCount": 4,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
-      {
-       "id": "e-20261002-05",
-       "title": "OSINT analysts geolocate the final assembly shop of the Russian Garpiya-A1 attack drone at the Kupol plant in Izhevsk",
-       "titleNl": "OSINT-analisten geolokaliseren de eindassemblagehal van de Russische Garpiya-A1-aanvalsdrone bij de Koepol-fabriek in Izjevsk",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-01T08:54:00.000Z",
-       "updatedAt": "2026-10-02T07:00:00.000Z",
-       "nlSummary": "De Oekraïense OSINT-analist Dnipro Osint (Harbuz) meldt op Telegram dat hij de productielocatie heeft gevonden van de Russische Garpiya-A1-aanvalsdrone (Harpij-A1), een eenrichtingsaanvalsdrone gebaseerd op het concept van de Shahed-136. Aanleiding was een recente promotievideo van het Russische staatswapenconcern Alm…",
-       "enSummary": "Ukrainian OSINT analyst Dnipro Osint (Harbuz) says on Telegram that he has located the production facilities of the Russian Garpiya-A1 (Harpy-A1) attack drone, a one-way attack UAV built on the Shahed-136 concept. The starting point was a recent promotional video from the Russian state arms concern Almaz-Antey showing…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/01/8055938",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260930-s02",
-       "title": "Россия впервые представит экспортную версию БПЛА «Гарпия-А1» в КНР и Вьетнаме",
-       "titleNl": "Rusland toont exportversie van langeafstandsaanvalsdrone Garpija-A1 voor het eerst in China en Vietnam",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-29T10:16:54.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "Topwar (Vojennoje Obozrenieje, 29 sep 2026) meldt dat het lucht- en ruimteverdedigingsconcern Almaz-Antej de exportversie van zijn onbemande langeafstandsaanvalssysteem 'Garpija-A1 (E)' (Harpij-A1) voor het eerst wil tonen op de Vietnam Defence Show in Vietnam en op Airshow China. De drone is een eigen ontwikkeling va…",
-       "enSummary": "Topwar (Voennoye Obozreniye, 29 Sep 2026) reports that the Almaz-Antey air and space defence concern plans to show the export version of its long-range 'Garpiya-A1 (E)' (Harpy-A1) unmanned strike system for the first time at the Vietnam Defence Show in Vietnam and at Airshow China. The drone is Almaz-Antey's own devel…",
-       "sourceUrl": "https://topwar.ru/290694-rossija-vpervye-predstavit-jeksportnuju-versiju-bpla-garpija-a1-v-knr-i-vetname.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20260930-s06",
-       "title": "Ukraine Strikes russian Missile Fuel Plants, Drone Launch Sites, and Air Defense Radars in One Week",
-       "titleNl": "Oekraïne treft in één week Russische raketbrandstoffabrieken, drone-lanceerplaatsen en luchtverdedigingsradars",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-29T02:07:31.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "Defense Express vat een overzicht van de Oekraïense generale staf samen van aanvallen die op 21–27 september 2026 zijn uitgevoerd. Aan de defensie-industriële kant staan op de lijst het onderzoeks- en productiebedrijf Zavod Iskra in Oeljanovsk (onderdeel van het concern Almaz-Antej, maakt elektronica en wapencomponent…",
-       "enSummary": "Defense Express summarises a General Staff of the Armed Forces of Ukraine overview of strikes carried out on 21–27 September 2026. On the defence-industrial side, the list includes the Zavod Iskra research and production enterprise in Ulyanovsk (part of the Almaz-Antey concern, making electronic equipment and weapon c…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukraine_strikes_russian_missile_fuel_plants_drone_launch_sites_and_air_defense_radars_in_one_week-19933.html",
-       "sourceCount": 1,
-       "signals": []
-      },
-      {
-       "id": "e-20260927-01",
-       "title": "Ukraine hits two Russian missile-component plants in two nights: Almaz-Antey's Iskra in Ulyanovsk (Kh-59, Pantsir parts) and the Azov Optical-Mechanical Plant, which leaked files tie to at least seven missile programs including Kh-101 and Oreshnik",
-       "titleNl": "Oekraïne treft in twee nachten twee Russische fabrieken van raketcomponenten: Iskra van Almaz-Antej in Oeljanovsk (onderdelen Kh-59, Pantsir) en de Optisch-Mechanische Fabriek Azov, die volgens gelekte documenten aan minstens zeven raketprogramma's levert, waaronder Kh-101 en Oresjnik",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-25",
-       "updatedAt": "2026-09-28T07:00:00.000Z",
-       "nlSummary": "Oekraïense langeafstandsdrones troffen in de nacht van 24 op 25 september 2026 de fabriek JSC NPP 'Iskra' in Oeljanovsk, als onderdeel van een bredere dronegolf op Rusland. De fabriek hoort bij defensieconcern Almaz-Antej en maakt halfgeleiders, microgolfcomponenten en elektronica. Volgens Militarnyi en een identifica…",
-       "enSummary": "Ukrainian long-range drones struck JSC NPP 'Iskra Plant' in Ulyanovsk overnight on 24–25 September 2026, as part of a wider drone barrage on Russia. The plant belongs to the Almaz-Antey defence conglomerate and makes semiconductor devices, microwave components and electronics. According to Militarnyi and an identifica…",
-       "sourceUrl": "https://militarnyi.com/en/news/drones-attack-iskra-plant-involved-in-kh-59-missile-production/",
-       "sourceCount": 7,
-       "signals": [
-        "loss",
-        "scale"
-       ]
-      },
       {
        "id": "e-20260906-06",
        "title": "Ukraine confirms its Swedish ASC 890 radar aircraft has flown combat missions since March 2026",
@@ -5657,7 +5566,7 @@
     "dant": {
      "name": "Dan-T / S8000 Banderol",
      "nameEn": "Dan-T / S8000 Banderol",
-     "total": 16,
+     "total": 17,
      "signalCount": 6,
      "entries": [
       {

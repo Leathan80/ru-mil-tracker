@@ -147,7 +147,7 @@
         },
         "sa23": {
           "name": "S-300V4 (SA-23)",
-          "match": "s-?300v|sa-?23|antey|антей"
+          "match": "s-?300v|sa-?23|antey-?2500|антей-?2500"
         },
         "sa22": {
           "name": "Pantsir (SA-22)",
@@ -387,7 +387,7 @@
         },
         "dant": {
           "name": "Dan-T / S8000 Banderol",
-          "match": "\\bdan-?t\\b|дань-?т|\\bbanderol\\b|бандерол|\\bs-?8000\\b"
+          "match": "\\bdan-?t\\b|дань-?т|\\bbanderol\\b|бандерол|\\bs-?8000\\b|\\bs-?71[km]?\\b|с-?71[км]?"
         }
       }
     },
