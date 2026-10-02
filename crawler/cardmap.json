@@ -101,7 +101,7 @@
         },
         "hardkill": {
           "name": "Hard-kill counter-UAS",
-          "match": "interceptor drone|hard.kill|gun.based|c.uas missile|counter.drone missile|interceptie.drone",
+          "match": "interceptor drone|hard.kill|gun.based|c.uas missile|counter.drone missile|interceptie.drone|jet.?killer|\\bp1-?sun\\b",
           "topics": [
             "drones",
             "air-defense"
@@ -384,6 +384,10 @@
         "kh69": {
           "name": "Kh-69",
           "match": "\\bkh-?69\\b|(^|[^а-яё])х-?69\\b|\\bkh-?59\\/69\\b|х-?59\\/69\\b|kh-59mk2"
+        },
+        "dant": {
+          "name": "Dan-T / S8000 Banderol",
+          "match": "\\bdan-?t\\b|дань-?т|\\bbanderol\\b|бандерол|\\bs-?8000\\b"
         }
       }
     },

@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-01T05:15:26.999Z",
+ "updated": "2026-10-02T04:55:35.300Z",
  "analysisUpdated": "2026-10-01T07:00:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 372,
-  "cardsWithHits": 69,
-  "matches": 518
+  "cardsWithHits": 70,
+  "matches": 534
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -5445,6 +5445,156 @@
        "signals": [
         "loss",
         "scale"
+       ]
+      }
+     ]
+    },
+    "dant": {
+     "name": "Dan-T / S8000 Banderol",
+     "nameEn": "Dan-T / S8000 Banderol",
+     "total": 16,
+     "signalCount": 6,
+     "entries": [
+      {
+       "id": "e-20261001-07",
+       "title": "Russia's Dan-T munition blurs line between UAVs, cruise missiles — Rostec",
+       "titleNl": "Russische Dan-T-munitie doet grens tussen UAV's en kruisraketten vervagen — Rostec",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-30T13:28:15.000Z",
+       "updatedAt": "2026-10-01T07:00:00.000Z",
+       "nlSummary": "Staatsconcern Rostec vertelde aan TASS dat de Dan-T-zwerfmunitie (loitering munition) het onderscheid tussen UAV's en kruisraketten doet vervagen. Redenering van Rostec: een klassieke kruisraket is al een UAV met vaste vleugels, maar niet elke UAV met vaste vleugels is een kruisraket.",
+       "enSummary": "State corporation Rostec told TASS that the Dan-T loitering munition blurs the distinction between UAVs and cruise missiles. Rostec's reasoning: a classic cruise missile is already a fixed-wing UAV, but not every fixed-wing UAV is a cruise missile.",
+       "sourceUrl": "https://tass.com/defense/2195149",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20261001-s02",
+       "title": "Сили ППО знешкодили 146 реактивних дронів за день",
+       "titleNl": "Oekraïense luchtverdediging: 146 straaldrones op één dag uitgeschakeld (285 drones overdag gelanceerd, 174 met straalmotor)",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-30T04:03:03.000Z",
+       "updatedAt": "2026-10-01T07:00:00.000Z",
+       "nlSummary": "ArmyInform (het mediakanaal van de Oekraïense strijdkrachten) meldt dat Rusland op 30 september tussen 06:30 en 18:30 uur 285 aanvalsdrones lanceerde, waarvan 174 straalaangedreven (\"reactieve\") drones van het type Geran, en dat de Oekraïense luchtverdediging 254 drones uitschakelde, waarvan 146 straaldrones. Voor de…",
+       "enSummary": "ArmyInform (the Ukrainian armed forces' media outlet) reports that between 06:30 and 18:30 on 30 September Russia launched 285 attack drones, 174 of them jet-powered (\"reactive\") Geran-type drones, and that Ukrainian air defences neutralised 254 drones, of which 146 were jet-powered. For the preceding night (29-30 Sep…",
+       "sourceUrl": "https://en.defence-ua.com/news/ukrainian_air_defense_shows_interceptions_of_jet_powered_russian_drones_near_front_line_video-19945.html",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260930-s09",
+       "title": "Зенітники «Аквіли» знищують реактивні БПЛА ще в першому ешелоні ППО",
+       "titleNl": "Luchtdoelschutters van 'Akvila' schieten Russische straalaangedreven drones al in de eerste echelon van de luchtverdediging neer",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-29T17:24:38.000Z",
+       "updatedAt": "2026-09-30T07:00:00.000Z",
+       "nlSummary": "ArmyInform meldde op 29 september 2026, op basis van het Telegramkanaal van het Oekraïense 1030e Luchtdoelraket- en Artillerieregiment 'Akvila' (Aquila), dat het regiment Russische straalaangedreven aanvalsdrones neerschiet die op aanzienlijke hoogte vliegen. Op de gepubliceerde beelden is volgens het bericht de verni…",
+       "enSummary": "ArmyInform, citing the Telegram channel of the Ukrainian 1030th Anti-Aircraft Missile and Artillery Regiment 'Akvila' (Aquila), reported on 29 September 2026 that the regiment is shooting down Russian jet-powered strike drones that fly at considerable altitudes. Published footage reportedly shows the destruction of je…",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/29/zenitnyky-%c2%abakvily%c2%bb-znyshhuyut-reaktyvni-bpla-shhe-v-pershomu-esheloni-ppo",
+       "sourceCount": 1,
+       "signals": [
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260929-01",
+       "title": "Russian jet-powered drone hits Kyiv's Academy of Sciences; Kremlin says Ukraine must \"pay a price\" as strikes also hit Kharkiv, Dnipro and Kyiv Oblast",
+       "titleNl": "Russische straaldrone treft Academie van Wetenschappen in Kyiv; Kremlin: Oekraïne moet \"een prijs betalen\", ook aanvallen op Kharkiv, Dnipro en oblast Kyiv",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-28T10:52:00.000Z",
+       "updatedAt": "2026-09-29T07:00:00.000Z",
+       "nlSummary": "Op 28 september 2026 trof Rusland overdag het centrum van Kyiv. Een straalaangedreven drone raakte het hoofdgebouw van de Nationale Academie van Wetenschappen van Oekraïne in het district Sjevtsjenkivskyi en veroorzaakte brand. Burgemeester Vitali Klitsjko meldde één gedode vrouw en vier gewonden, van wie drie in het…",
+       "enSummary": "On 28 September 2026 Russia struck central Kyiv in daylight. A jet-powered drone hit the main building of the National Academy of Sciences of Ukraine in the Shevchenkivskyi district and set it on fire. Mayor Vitali Klitschko reported one woman killed and four injured, three of them hospitalised; Euromaidan Press says…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/28/8055386",
+       "sourceCount": 6,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20260928-01",
+       "title": "Russia reportedly fields Geran-5 'K5' variant with autonomous optical (scene-matching) navigation and redesigned fuselage",
+       "titleNl": "Rusland zet naar verluidt Geran-5-variant 'K5' in met autonome optische (beeldvergelijkings)navigatie en aangepaste romp",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "missiles",
+        "ew",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-27",
+       "updatedAt": "2026-09-29T07:00:00.000Z",
+       "nlSummary": "Russische troepen gebruiken naar verluidt een nieuwe versie van de straalaangedreven Geran-5-aanvalsdrone met een autonoom optisch navigatiesysteem en een aangepaste romp. Het bericht komt van het monitoring-Telegramkanaal Colonel GSh (\"Polkovnik GSh\"). Dat noemt de variant Geran-5 K5 en publiceerde een foto die het o…",
+       "enSummary": "Russian forces have reportedly begun using a new modification of the jet-powered Geran-5 strike UAV with an autonomous optical navigation system and a modified fuselage. The report comes from the monitoring Telegram channel Colonel GSh (\"Polkovnik GSh\"), which calls the variant the Geran-5 K5 and published a photo com…",
+       "sourceUrl": "https://militarnyi.com/en/news/russian-forces-begin-using-new-geran-5-version-with-autonomous-optical-navigation/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260924-02",
+       "title": "Russia strikes Kyiv with drones by day, then Zircon and Iskander-M missiles overnight; Zelensky claims 60% of ballistic missiles intercepted",
+       "titleNl": "Rusland valt Kyiv overdag aan met drones en 's nachts met Zircon- en Iskander-M-raketten; Zelensky claimt 60% van de ballistische raketten onderschept",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-23T06:29:00.000Z",
+       "updatedAt": "2026-09-25T07:00:00.000Z",
+       "nlSummary": "Binnen ongeveer 24 uur op 23 en 24 september 2026 viel Rusland Kyiv eerst overdag met drones aan en daarna 's nachts met een gecombineerde aanval van raketten en drones. Op de ochtend van 23 september meldde burgemeester Vitali Klitschko droneinslagen op tankstations in de districten Holosiivskyi en Darnytskyi, op een…",
+       "enSummary": "Over roughly 24 hours on 23–24 September 2026, Russia struck Kyiv first with a daytime drone attack and then overnight with a combined missile and drone strike. On the morning of 23 September, Kyiv Mayor Vitali Klitschko reported drone hits on petrol stations in Holosiivskyi and Darnytskyi districts, a transport infra…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/23/8054692",
+       "sourceCount": 13,
+       "signals": [
+        "loss",
+        "counter"
        ]
       }
      ]
