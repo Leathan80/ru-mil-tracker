@@ -126,6 +126,16 @@
         "alexa-spatium": {
           "name": "Alexa Spatium",
           "match": "\\balexa.?spatium\\b|алекса.?спатиум"
+        },
+        "shturm": {
+          "name": "Shturm (UGV)",
+          "nameEn": "Shturm (UGV)",
+          "match": "\\bshturm\\b|«штурм»",
+          "require": "robot|ugv|onbemand|uncrewed|unmanned|uralvagon|уралвагон|робот|безэкипаж"
+        },
+        "arena-m": {
+          "name": "Arena-M (APS)",
+          "match": "\\barena-?m\\b|арена-?м"
         }
       }
     },
@@ -388,6 +398,10 @@
         "dant": {
           "name": "Dan-T / S8000 Banderol",
           "match": "\\bdan-?t\\b|дань-?т|\\bbanderol\\b|бандерол|\\bs-?8000\\b|\\bs-?71[km]?\\b|с-?71[км]?"
+        },
+        "lmur": {
+          "name": "LMUR / Izdeliye 347",
+          "match": "\\blmur\\b|(^|[^а-яё])лмур|izdeliye[- ]?(305|347)|изделие[- ]?(305|347)|\\bkh-39\\b|(^|[^а-яё])х-39\\b"
         }
       }
     },

@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-04T17:04:03.235Z",
+ "updated": "2026-10-04T17:44:23.293Z",
  "analysisUpdated": "2026-10-04T17:02:52.331Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 381,
-  "cardsWithHits": 70,
-  "matches": 547
+  "cardsWithHits": 73,
+  "matches": 552
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -2463,6 +2463,117 @@
         "loss",
         "deploy",
         "perf"
+       ]
+      }
+     ]
+    },
+    "shturm": {
+     "name": "Shturm (UGV)",
+     "nameEn": "Shturm (UGV)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261004-07",
+       "title": "Tsentr-2026: Shturm robotic tank debut falters in the mud while T-90M's Arena-M downs drones in staged attack",
+       "titleNl": "Tsentr-2026: debuut robottank Shturm strandt in de modder, Arena-M van T-90M schiet drones neer in geënsceneerde aanval",
+       "category": "weapon",
+       "topics": [
+        "armor",
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-03T07:02:41.000Z",
+       "updatedAt": "2026-10-04T17:02:52.331Z",
+       "nlSummary": "Tijdens de strategische oefening Tsentr-2026 (28 september – 3 oktober, volgens het Russische ministerie van Defensie meer dan 47.000 militairen) zette Rusland voor het eerst onbemande tanks in van Shturm, het zware robotische aanvalssysteem van Uralvagonzavod. Het ministerie meldde op 2 oktober dat president Poetin d…",
+       "enSummary": "During the Tsentr-2026 strategic exercise (28 September – 3 October, more than 47,000 troops according to the Russian Defence Ministry), Russia used uncrewed tanks from Uralvagonzavod's Shturm heavy robotic assault system in drills for the first time. The ministry said on 2 October that President Putin was shown the v…",
+       "sourceUrl": "https://defence-blog.com/russia-shows-shturm-robotic-tank-system-in-big-exercise",
+       "sourceCount": 3,
+       "signals": [
+        "deploy"
+       ]
+      }
+     ]
+    },
+    "arena-m": {
+     "name": "Arena-M (APS)",
+     "nameEn": "Arena-M (APS)",
+     "total": 3,
+     "signalCount": 3,
+     "entries": [
+      {
+       "id": "e-20261004-07",
+       "title": "Tsentr-2026: Shturm robotic tank debut falters in the mud while T-90M's Arena-M downs drones in staged attack",
+       "titleNl": "Tsentr-2026: debuut robottank Shturm strandt in de modder, Arena-M van T-90M schiet drones neer in geënsceneerde aanval",
+       "category": "weapon",
+       "topics": [
+        "armor",
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-03T07:02:41.000Z",
+       "updatedAt": "2026-10-04T17:02:52.331Z",
+       "nlSummary": "Tijdens de strategische oefening Tsentr-2026 (28 september – 3 oktober, volgens het Russische ministerie van Defensie meer dan 47.000 militairen) zette Rusland voor het eerst onbemande tanks in van Shturm, het zware robotische aanvalssysteem van Uralvagonzavod. Het ministerie meldde op 2 oktober dat president Poetin d…",
+       "enSummary": "During the Tsentr-2026 strategic exercise (28 September – 3 October, more than 47,000 troops according to the Russian Defence Ministry), Russia used uncrewed tanks from Uralvagonzavod's Shturm heavy robotic assault system in drills for the first time. The ministry said on 2 October that President Putin was shown the v…",
+       "sourceUrl": "https://defence-blog.com/russia-shows-shturm-robotic-tank-system-in-big-exercise",
+       "sourceCount": 3,
+       "signals": [
+        "deploy"
+       ]
+      },
+      {
+       "id": "e-20260928-07",
+       "title": "Syrskyi: Ukrainian active protection systems for armoured vehicles intercept 60–80% of FPV drones in testing",
+       "titleNl": "Syrskyi: Oekraïense actieve beschermingssystemen voor pantservoertuigen onderscheppen in tests 60–80% van de FPV-drones",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "armor"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-27T08:58:03.000Z",
+       "updatedAt": "2026-09-28T07:00:00.000Z",
+       "nlSummary": "Oleksandr Syrskyi, door Militarnyi omschreven als voormalig opperbevelhebber van de Oekraïense strijdkrachten, zei in een interview met LB.ua dat Oekraïense actieve beschermingssystemen (APS) voor pantservoertuigen al 60 tot 80% van de FPV-drones kunnen onderscheppen. Volgens hem ontwikkelen Oekraïne en Rusland allebe…",
+       "enSummary": "Oleksandr Syrskyi, whom Militarnyi describes as the former Commander-in-Chief of the Armed Forces of Ukraine, told LB.ua in an interview that Ukrainian active protection systems (APS) for armoured vehicles can already intercept between 60% and 80% of FPV drones. He said Ukraine and Russia are both developing systems t…",
+       "sourceUrl": "https://militarnyi.com/en/news/ukraine-tests-active-protection-systems-intercepting-up-to-80-of-fpv-drones-syrskyi/",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260914-06",
+       "title": "Russia's New T-90M and T-72B3M Tanks Arrive With Upgraded Anti-Drone Protection",
+       "titleNl": "Nieuwe Russische T-90M- en T-72B3M-tanks krijgen verbeterde anti-drone-bescherming",
+       "category": "weapon",
+       "topics": [
+        "armor",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-09-12T13:09:22.000Z",
+       "updatedAt": "2026-09-14T09:00:00.000Z",
+       "nlSummary": "Het Russische staatsbedrijf Uralvagonzavod (UVZ) — de gesanctioneerde tankfabriek in Nizjni Tagil — heeft volgens moederbedrijf Rostec een nieuwe partij T-90M \"Proryv\"- en T-72B3M-tanks aan het Russische leger geleverd. De levering werd gekoppeld aan de 80e viering van de Russische \"Tankbemanningsdag\". Zoals bij eerde…",
+       "enSummary": "Russian state manufacturer Uralvagonzavod (UVZ) — the sanctioned tank plant in Nizhny Tagil — has delivered a new batch of T-90M \"Proryv\" and T-72B3M tanks to Russian forces, according to parent company Rostec. The delivery was timed to coincide with the 80th observance of Russia's \"Tank Crew Day.\" As with previous ba…",
+       "sourceUrl": "https://defence-blog.com/new-russian-tanks-arrive-with-upgraded-protection",
+       "sourceCount": 3,
+       "signals": [
+        "variant",
+        "deploy",
+        "counter"
        ]
       }
      ]
@@ -5673,6 +5784,37 @@
        "sourceCount": 6,
        "signals": [
         "loss"
+       ]
+      }
+     ]
+    },
+    "lmur": {
+     "name": "LMUR / Izdeliye 347",
+     "nameEn": "LMUR / Izdeliye 347",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261004-06",
+       "title": "Russia unveils Izdeliye 347, a truck-mounted ground launcher for a modified LMUR (Izdeliye 305) helicopter missile, at Tsentr-2026",
+       "titleNl": "Rusland onthult Izdeliye 347, een lanceerinrichting op een vrachtwagen voor een aangepaste LMUR-helikopterraket (Izdeliye 305), tijdens Tsentr-2026",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "artillery"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-03T06:55:14.000Z",
+       "updatedAt": "2026-10-04T17:02:52.331Z",
+       "nlSummary": "Tijdens de strategische oefening Tsentr-2026 heeft Rusland een nieuw grondgebonden raketsysteem gepresenteerd, Izdeliye 347 (\"Product 347\"). Het vuurt een aangepaste LMUR af, een lichte geleide multifunctionele raket die normaal door gevechtshelikopters wordt gedragen. Volgens het Russische ministerie van Defensie (vi…",
+       "enSummary": "At the strategic exercise Tsentr-2026, Russia presented a new ground-based missile system, Izdeliye 347 (\"Product 347\"). It fires a modified LMUR light multipurpose guided missile, which is normally carried by attack helicopters. According to the Russian Ministry of Defence (via RIA Novosti and TASS), the system can s…",
+       "sourceUrl": "https://defence-blog.com/russia-turns-helicopter-missile-into-truck-mounted-weapon",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "perf"
        ]
       }
      ]
