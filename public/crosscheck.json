@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-04T17:46:03.710Z",
- "analysisUpdated": "2026-10-04T17:02:52.331Z",
+ "updated": "2026-10-05T05:14:38.847Z",
+ "analysisUpdated": "2026-10-05T05:13:54.750Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 381,
+  "entriesConsidered": 388,
   "cardsWithHits": 73,
-  "matches": 552
+  "matches": 559
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,58 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 62,
+     "total": 64,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261005-04",
+       "title": "Ukraine's Bars missile-drone likely adapted as a jet-powered interceptor against Russian drones",
+       "titleNl": "Oekraïense Bars-raketdrone waarschijnlijk omgebouwd tot straalaangedreven interceptor tegen Russische drones",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-04T17:22:55.000Z",
+       "updatedAt": "2026-10-05T05:13:54.750Z",
+       "nlSummary": "Oekraïne lijkt een interceptorversie van zijn eigen straalaangedreven Bars-raketdrone in te zetten tegen Russische drones. Op 4 oktober 2026 hield president Zelensky in Kyiv een gezamenlijke persconferentie met de Duitse bondskanselier Friedrich Merz. Over interceptordrones zei hij dat de Bars 'positieve resultaten' h…",
+       "enSummary": "Ukraine appears to be using an interceptor version of its own jet-powered Bars missile-drone against Russian drones. On 4 October 2026 President Zelensky held a joint press conference in Kyiv with German Chancellor Friedrich Merz. Speaking about interceptor drones, he said that \"the Bars have shown positive results\" a…",
+       "sourceUrl": "https://militarnyi.com/en/news/jet-powered-interceptor-likely-developed-based-on-bars-missile-drone/",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261005-03",
+       "title": "Ukraine scales up counter-measures against jet-powered Shaheds: small air defence missiles due in October, Spys interceptor test and German funding for tens of thousands of interceptor drones",
+       "titleNl": "Oekraïne schaalt op tegen straalaangedreven Shaheds: kleine luchtafweerraketten in oktober, test van Spys-interceptor en Duitse financiering voor tienduizenden interceptordrones",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-04T13:18:47.000Z",
+       "updatedAt": "2026-10-05T05:13:54.750Z",
+       "nlSummary": "Tijdens het bezoek van de Duitse bondskanselier Friedrich Merz aan Kyiv op 4 oktober zei president Zelensky dat Oekraïne in de tweede helft van oktober kleine luchtafweerraketten gaat inzetten tegen Russische straalaangedreven drones. Volgens Militarnyi zei hij dat het om meerdere typen gaat, dat ze nog niet worden ge…",
+       "enSummary": "During German Chancellor Friedrich Merz's visit to Kyiv on 4 October, President Zelensky said Ukraine will start using small air defence missiles against Russian jet-powered drones in the second half of October. According to Militarnyi, he said there are several types, that they are not yet in use, and that production…",
+       "sourceUrl": "https://militarnyi.com/en/news/small-air-defense-missiles-to-begin-use-against-drones-in-october-zelensky/",
+       "sourceCount": 4,
+       "signals": [
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20261004-04",
        "title": "Russia develops jet-powered versions of the Garpiya strike drone; NTV footage also shows a KamAZ-based mobile launcher",
@@ -118,52 +167,6 @@
        "signals": [
         "deploy",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20261002-01",
-       "title": "Russian drones strike Kyiv's Pivdennyi (Southern) Bridge three times in one day, the first attack on a Kyiv bridge since 2022, and hit the Institute for Nuclear Research and a school with sheltering children; 107 drones launched nationwide, 63 jet-powered",
-       "titleNl": "Russische drones treffen de Pivdenny-brug (Zuidelijke brug) in Kyiv drie keer op één dag, de eerste aanval op een brug in Kyiv sinds 2022, en raken het Instituut voor Kernonderzoek en een school met schuilende kinderen; landelijk 107 drones, waarvan 63 straalaangedreven",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-01T05:11:00.000Z",
-       "updatedAt": "2026-10-02T07:00:00.000Z",
-       "nlSummary": "Rusland heeft volgens Meduza voor het eerst sinds de grootschalige invasie een brug in Kyiv aangevallen, als onderdeel van een reeks droneaanvallen op de hoofdstad tussen de avond van 30 september en 1 oktober 2026. Volgens het stadsbestuur van Kyiv sloegen rond 11.30 uur op 1 oktober twee drones in bij een pijler van…",
-       "enSummary": "Russia struck a bridge in Kyiv for the first time since the full-scale invasion, Meduza reports, as part of a run of drone attacks on the capital between the evening of 30 September and 1 October 2026. According to the Kyiv City State Administration, two drones hit near a support of the Pivdennyi (Southern) Bridge, wh…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/01/8055909",
-       "sourceCount": 8,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20261002-s03",
-       "title": "Противник заявил о первом применении ВС РФ ракеты «Искандера» с проникающей БЧ",
-       "titleNl": "Vijand meldt eerste inzet door de Russische strijdkrachten van een Iskander-raket met penetrerende gevechtskop",
-       "category": "weapon",
-       "topics": [
-        "missiles"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-09-30T17:49:31.000Z",
-       "updatedAt": "2026-10-02T07:00:00.000Z",
-       "nlSummary": "Topwar (Voennoe Obozrenie) meldt in een kort nieuwsbericht van Aleksej Volodin van 30 september dat Oekraïense bronnen beweren dat Rusland tijdens de raketaanval van die dag voor het eerst een nieuwe modificatie van de raket van het operationeel-tactische raketsysteem Iskander heeft ingezet. Volgens de aangehaalde Oek…",
-       "enSummary": "Topwar (Voennoe Obozrenie) reports, in a short news item by Aleksei Volodin of 30 September, that Ukrainian sources claim Russia used a new modification of the Iskander operational-tactical missile system's missile for the first time during that day's missile strike. According to the Ukrainian statements cited, this v…",
-       "sourceUrl": "https://topwar.ru/290796-protivnik-zajavil-o-pervom-primenenii-vs-rf-rakety-iskandera-s-pronikajuschej-bch.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf"
        ]
       }
      ]
@@ -2141,9 +2144,58 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 28,
+     "total": 30,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261005-04",
+       "title": "Ukraine's Bars missile-drone likely adapted as a jet-powered interceptor against Russian drones",
+       "titleNl": "Oekraïense Bars-raketdrone waarschijnlijk omgebouwd tot straalaangedreven interceptor tegen Russische drones",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-04T17:22:55.000Z",
+       "updatedAt": "2026-10-05T05:13:54.750Z",
+       "nlSummary": "Oekraïne lijkt een interceptorversie van zijn eigen straalaangedreven Bars-raketdrone in te zetten tegen Russische drones. Op 4 oktober 2026 hield president Zelensky in Kyiv een gezamenlijke persconferentie met de Duitse bondskanselier Friedrich Merz. Over interceptordrones zei hij dat de Bars 'positieve resultaten' h…",
+       "enSummary": "Ukraine appears to be using an interceptor version of its own jet-powered Bars missile-drone against Russian drones. On 4 October 2026 President Zelensky held a joint press conference in Kyiv with German Chancellor Friedrich Merz. Speaking about interceptor drones, he said that \"the Bars have shown positive results\" a…",
+       "sourceUrl": "https://militarnyi.com/en/news/jet-powered-interceptor-likely-developed-based-on-bars-missile-drone/",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261005-03",
+       "title": "Ukraine scales up counter-measures against jet-powered Shaheds: small air defence missiles due in October, Spys interceptor test and German funding for tens of thousands of interceptor drones",
+       "titleNl": "Oekraïne schaalt op tegen straalaangedreven Shaheds: kleine luchtafweerraketten in oktober, test van Spys-interceptor en Duitse financiering voor tienduizenden interceptordrones",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-04T13:18:47.000Z",
+       "updatedAt": "2026-10-05T05:13:54.750Z",
+       "nlSummary": "Tijdens het bezoek van de Duitse bondskanselier Friedrich Merz aan Kyiv op 4 oktober zei president Zelensky dat Oekraïne in de tweede helft van oktober kleine luchtafweerraketten gaat inzetten tegen Russische straalaangedreven drones. Volgens Militarnyi zei hij dat het om meerdere typen gaat, dat ze nog niet worden ge…",
+       "enSummary": "During German Chancellor Friedrich Merz's visit to Kyiv on 4 October, President Zelensky said Ukraine will start using small air defence missiles against Russian jet-powered drones in the second half of October. According to Militarnyi, he said there are several types, that they are not yet in use, and that production…",
+       "sourceUrl": "https://militarnyi.com/en/news/small-air-defense-missiles-to-begin-use-against-drones-in-october-zelensky/",
+       "sourceCount": 4,
+       "signals": [
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20261002-s09",
        "title": "«Тунгуска», дрони-перехоплювачі й автоматичні турелі: як сьогодні працює «мале ППО»",
@@ -2239,53 +2291,6 @@
         "perf",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260930-s01",
-       "title": "Российские дроны Supercam S350 и S180 впервые представят на оборонной выставке ADEX-2026 в Баку",
-       "titleNl": "Russische Supercam S350- en S180-drones voor het eerst getoond op defensiebeurs ADEX-2026 in Bakoe",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-09-29T05:26:32.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "WarGonzo (Telegram, 29 sep 2026) geeft een aankondiging door van de bedrijvengroep Onbemande Systemen (Bespilotnye Sistemy, maker van de Supercam-lijn): de nieuwste versie van het snelle verkenningsdronesysteem Supercam S180 wordt voor het eerst getoond op de internationale defensie-industriebeurs ADEX-2026 in Bakoe,…",
-       "enSummary": "WarGonzo (Telegram, 29 Sep 2026) relays an announcement by the Unmanned Systems group of companies (Bespilotnye Sistemy, maker of the Supercam line) that it will show the newest version of its high-speed reconnaissance UAS Supercam S180 for the first time at the ADEX-2026 international defence industry exhibition in B…",
-       "sourceUrl": "https://t.me/wargonzo/37264",
-       "sourceCount": 1,
-       "signals": [
-        "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260929-13",
-       "title": "ISW assesses Russia's mass drone strikes aim to force Ukraine's capitulation by spring 2027",
-       "titleNl": "ISW: Russlands massale droneaanvallen zijn erop gericht Oekraïne tegen voorjaar 2027 te laten capituleren",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense",
-        "doctrine",
-        "mobilization"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-28T18:40:00.000Z",
-       "updatedAt": "2026-09-29T07:00:00.000Z",
-       "nlSummary": "Het Institute for the Study of War (ISW) schat in dat Rusland een grootschalige langeafstandscampagne voert met straalaangedreven drones en ballistische raketten, met als doel Oekraïne tegen voorjaar 2027 te dwingen tot capitulatie. Dat meldt Euromaidan Press. ISW noemt dit Poetins overwinningstheorie: goedkope Geran-…",
-       "enSummary": "The Institute for the Study of War (ISW) assesses that Russia is running a large-scale long-range strike campaign, built on jet-powered drones and ballistic missiles, with the aim of forcing Ukraine to capitulate by spring 2027, as reported by Euromaidan Press. ISW calls this Putin's theory of victory: launching cheap…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/28/russias-mass-drone-attacks-on-ukraine-have-a-goal-likely-ukraines-capitulation-by-spring-2027-isw-says",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "scale"
        ]
       }
      ]
@@ -4593,9 +4598,34 @@
     "r73": {
      "name": "R-73",
      "nameEn": "R-73",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20261005-03",
+       "title": "Ukraine scales up counter-measures against jet-powered Shaheds: small air defence missiles due in October, Spys interceptor test and German funding for tens of thousands of interceptor drones",
+       "titleNl": "Oekraïne schaalt op tegen straalaangedreven Shaheds: kleine luchtafweerraketten in oktober, test van Spys-interceptor en Duitse financiering voor tienduizenden interceptordrones",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-04T13:18:47.000Z",
+       "updatedAt": "2026-10-05T05:13:54.750Z",
+       "nlSummary": "Tijdens het bezoek van de Duitse bondskanselier Friedrich Merz aan Kyiv op 4 oktober zei president Zelensky dat Oekraïne in de tweede helft van oktober kleine luchtafweerraketten gaat inzetten tegen Russische straalaangedreven drones. Volgens Militarnyi zei hij dat het om meerdere typen gaat, dat ze nog niet worden ge…",
+       "enSummary": "During German Chancellor Friedrich Merz's visit to Kyiv on 4 October, President Zelensky said Ukraine will start using small air defence missiles against Russian jet-powered drones in the second half of October. According to Militarnyi, he said there are several types, that they are not yet in use, and that production…",
+       "sourceUrl": "https://militarnyi.com/en/news/small-air-defense-missiles-to-begin-use-against-drones-in-october-zelensky/",
+       "sourceCount": 4,
+       "signals": [
+        "deploy",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20260910-04",
        "title": "Ukraine unveils indigenous Shershen SAM with R-120K missile and Ai-Petri anti-glide-bomb EW system at MSPO 2026",
@@ -5072,9 +5102,33 @@
     "kh101": {
      "name": "Kh-101",
      "nameEn": "Kh-101",
-     "total": 7,
+     "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261005-01",
+       "title": "Strike reported on Kaluga Radio Tube Plant (Voskhod), supplier of electronics for Kh-101 and Iskander missiles",
+       "titleNl": "Aanval gemeld op Radiobuizenfabriek Kaloega (Voschod), leverancier van elektronica voor Kh-101- en Iskander-raketten",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-03T07:00:00.000Z",
+       "updatedAt": "2026-10-05T05:13:54.750Z",
+       "nlSummary": "Oekraïense strijdkrachten zouden op 3 oktober 2026 Voschod-KRLZ hebben getroffen, de Radiobuizenfabriek van Kaloega in het westen van Rusland. Het Oekraïense OSINT-project Supernova+ meldde de treffer die avond op basis van lokale bewoners. Op video's van bewoners is vóór de explosie het geluid van een straalmotor te…",
+       "enSummary": "Ukrainian forces reportedly struck Voskhod-KRLZ, the Kaluga Radio Tube Plant in western Russia, on 3 October 2026. The Ukrainian OSINT project Supernova+ reported the hit that evening, citing local residents. Residents' videos carry a jet-engine sound before the explosion, which suggests cruise missiles or jet-powered…",
+       "sourceUrl": "https://militarnyi.com/en/news/defense-forces-hit-kaluga-radio-tube-plant-producing-components-for-kh-101-and-iskander-m/",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20260930-01",
        "title": "Russian Tu-95MS strategic bomber crashes on training flight in Amur Oblast near Ukrainka air base; six of seven crew killed",
@@ -5196,40 +5250,39 @@
         "loss",
         "scale"
        ]
-      },
-      {
-       "id": "e-20260917-01",
-       "title": "NATO air commander details alliance's new air-defense plan against Russian drone and missile threats",
-       "titleNl": "NAVO-luchtcommandant licht nieuw luchtverdedigingsplan tegen Russische drones en raketten toe",
-       "category": "org",
-       "topics": [
-        "air-defense",
-        "doctrine",
-        "missiles",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-15T20:23:10.000Z",
-       "updatedAt": "2026-09-17T09:00:00.000Z",
-       "nlSummary": "Luitenant-generaal Jason T. Hinds, commandant van de Amerikaanse luchtmacht in Europa/Afrika (USAFE) en van het NAVO Allied Air Command, gaf in een interview met The War Zone (15 september 2026) inzicht in hoe de alliantie haar nieuwe luchtverdedigingsarchitectuur invoert. Hij zei van SACEUR generaal Alexus Grynkewich…",
-       "enSummary": "Lt. Gen. Jason T. Hinds, commander of U.S. Air Forces in Europe/Africa (USAFE) and NATO's Allied Air Command, described in an interview with The War Zone (September 15, 2026) how the alliance is implementing its new air defense architecture. He said he has been tasked by SACEUR Gen. Alexus Grynkewich to fully implemen…",
-       "sourceUrl": "https://www.twz.com/air/top-u-s-air-force-officer-in-europe-implementing-new-nato-air-defense-plans",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "counter"
-       ]
       }
      ]
     },
     "iskander": {
      "name": "Iskander-M (9K720)",
      "nameEn": "Iskander-M (9K720)",
-     "total": 19,
+     "total": 20,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261005-01",
+       "title": "Strike reported on Kaluga Radio Tube Plant (Voskhod), supplier of electronics for Kh-101 and Iskander missiles",
+       "titleNl": "Aanval gemeld op Radiobuizenfabriek Kaloega (Voschod), leverancier van elektronica voor Kh-101- en Iskander-raketten",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-03T07:00:00.000Z",
+       "updatedAt": "2026-10-05T05:13:54.750Z",
+       "nlSummary": "Oekraïense strijdkrachten zouden op 3 oktober 2026 Voschod-KRLZ hebben getroffen, de Radiobuizenfabriek van Kaloega in het westen van Rusland. Het Oekraïense OSINT-project Supernova+ meldde de treffer die avond op basis van lokale bewoners. Op video's van bewoners is vóór de explosie het geluid van een straalmotor te…",
+       "enSummary": "Ukrainian forces reportedly struck Voskhod-KRLZ, the Kaluga Radio Tube Plant in western Russia, on 3 October 2026. The Ukrainian OSINT project Supernova+ reported the hit that evening, citing local residents. Residents' videos carry a jet-engine sound before the explosion, which suggests cruise missiles or jet-powered…",
+       "sourceUrl": "https://militarnyi.com/en/news/defense-forces-hit-kaluga-radio-tube-plant-producing-components-for-kh-101-and-iskander-m/",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261004-05",
        "title": "Russia shows Pantsir-S1M on Belarusian MZKT-7930-312 chassis at Tsentr-2026, first official confirmation of the configuration",
@@ -5346,30 +5399,6 @@
        "sourceUrl": "https://en.defence-ua.com/news/ukraine_strikes_russian_missile_fuel_plants_drone_launch_sites_and_air_defense_radars_in_one_week-19933.html",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20260930-02",
-       "title": "Night of 28-29 Sep: Russia strikes Ukraine with a Zircon, two ballistic missiles and 152 drones; Air Force claims 109 downed, two unexploded ballistic warheads defused in Kyiv",
-       "titleNl": "Nacht van 28 op 29 sep: Rusland valt Oekraïne aan met een Zircon, twee ballistische raketten en 152 drones; luchtmacht claimt 109 neergehaald, twee niet-ontplofte ballistische gevechtskoppen in Kyiv onschadelijk gemaakt",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-28T22:18:00.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "Rusland viel Oekraïne in de nacht van 28 op 29 september 2026 aan met één Zircon/Oniks-antischeepsraket, twee ballistische raketten van het type Iskander-M of S-400 (gelanceerd vanuit de oblast Koersk) en 152 drones, volgens de Oekraïense luchtmacht. Het ging om Shahed-drones (waarvan 82 straalaangedreven), Gerbera-aa…",
-       "enSummary": "Russia attacked Ukraine overnight on 28-29 September 2026 with one Zircon/Oniks anti-ship missile, two Iskander-M or S-400 ballistic missiles (launched from Kursk Oblast) and 152 drones, according to Ukraine's Air Force. The drones were Shahed types (82 of them jet-powered), Gerbera attack drones and Parodiya decoys,…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/29/8055510",
-       "sourceCount": 6,
-       "signals": [
-        "loss",
-        "perf"
-       ]
       }
      ]
     },
