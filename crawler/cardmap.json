@@ -25,6 +25,10 @@
           "name": "Lancet-1 / Lancet-3",
           "match": "\\blancet\\b|\\bланцет\\b|izdeliye-?5[12]"
         },
+        "kub": {
+          "name": "KUB-BLA / KUB-2",
+          "match": "\\bkub-?(bla|2|10)\\b|zala kub|куб-(бла|2|10)|«куб»"
+        },
         "orlan": {
           "name": "Orlan-10",
           "match": "\\b(orlan|орлан)"
@@ -174,6 +178,10 @@
         "sa19": {
           "name": "Tunguska (SA-19)",
           "match": "tunguska|тунгуска|sa-?19"
+        },
+        "derivatsiya": {
+          "name": "Derivatsiya-PVO (2S38)",
+          "match": "derivats?iy?a|деривация-пво|«деривация»|\\b2s38\\b|2с38"
         },
         "sa13": {
           "name": "Strela-10 (SA-13)",

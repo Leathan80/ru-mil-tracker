@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-06T05:19:35.404Z",
+ "updated": "2026-10-06T05:42:34.700Z",
  "analysisUpdated": "2026-10-06T07:30:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 391,
-  "cardsWithHits": 70,
-  "matches": 563
+  "cardsWithHits": 72,
+  "matches": 565
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -729,6 +729,42 @@
         "loss",
         "deploy",
         "perf"
+       ]
+      }
+     ]
+    },
+    "kub": {
+     "name": "KUB-BLA / KUB-2",
+     "nameEn": "KUB-BLA / KUB-2",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261006-s04",
+       "title": "«От тактики роевого применения дронов до атак безэкипажных танков» (Krasnaya Zvezda: From swarm drone tactics to uncrewed tank attacks — Tsentr-2026 wrap-up)",
+       "titleNl": "Van zwermtactiek met drones tot aanvallen met onbemande tanks — Krasnaja Zvezda over de hoofdfase van Tsentr-2026",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "armor",
+        "ew",
+        "air-defense",
+        "logistics",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-10-04T21:04:00.000Z",
+       "updatedAt": "2026-10-06T07:30:00.000Z",
+       "nlSummary": "Krasnaja Zvezda, de krant van het Russische ministerie van Defensie, publiceerde een overzicht van de hoofdfase van de strategische staf- en commando-oefening Tsentr-2026. Die fase eindigde op 2 oktober op het 255e oefenterrein Tsjebarkoel van het Centrale Militaire District, met president Poetin als toeschouwer en mi…",
+       "enSummary": "Krasnaya Zvezda, the Russian Defence Ministry's newspaper, published an overview of the main phase of the strategic command-staff exercise Tsentr-2026, which ended on 2 October at the Central Military District's 255th Chebarkul range, watched by President Putin and with Defence Minister Belousov reporting. According t…",
+       "sourceUrl": "http://redstar.ru/ot-taktiki-roevogo-primeneniya-dronov-do-atak-bezekipazhnyh-tankov",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
+        "deploy",
+        "counter"
        ]
       }
      ]
@@ -3061,6 +3097,42 @@
        "sourceCount": 1,
        "signals": [
         "loss",
+        "deploy",
+        "counter"
+       ]
+      }
+     ]
+    },
+    "derivatsiya": {
+     "name": "Derivatsiya-PVO (2S38)",
+     "nameEn": "Derivatsiya-PVO (2S38)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261006-s04",
+       "title": "«От тактики роевого применения дронов до атак безэкипажных танков» (Krasnaya Zvezda: From swarm drone tactics to uncrewed tank attacks — Tsentr-2026 wrap-up)",
+       "titleNl": "Van zwermtactiek met drones tot aanvallen met onbemande tanks — Krasnaja Zvezda over de hoofdfase van Tsentr-2026",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "armor",
+        "ew",
+        "air-defense",
+        "logistics",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-10-04T21:04:00.000Z",
+       "updatedAt": "2026-10-06T07:30:00.000Z",
+       "nlSummary": "Krasnaja Zvezda, de krant van het Russische ministerie van Defensie, publiceerde een overzicht van de hoofdfase van de strategische staf- en commando-oefening Tsentr-2026. Die fase eindigde op 2 oktober op het 255e oefenterrein Tsjebarkoel van het Centrale Militaire District, met president Poetin als toeschouwer en mi…",
+       "enSummary": "Krasnaya Zvezda, the Russian Defence Ministry's newspaper, published an overview of the main phase of the strategic command-staff exercise Tsentr-2026, which ended on 2 October at the Central Military District's 255th Chebarkul range, watched by President Putin and with Defence Minister Belousov reporting. According t…",
+       "sourceUrl": "http://redstar.ru/ot-taktiki-roevogo-primeneniya-dronov-do-atak-bezekipazhnyh-tankov",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
         "deploy",
         "counter"
        ]
