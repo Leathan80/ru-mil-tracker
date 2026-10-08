@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-08T05:10:58.855Z",
- "analysisUpdated": "2026-10-08T07:30:00.000Z",
+ "updated": "2026-10-08T05:12:25.029Z",
+ "analysisUpdated": "2026-10-08T07:45:00.000Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 407,
+  "entriesConsidered": 411,
   "cardsWithHits": 73,
-  "matches": 575
+  "matches": 579
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,8 +23,8 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 68,
-     "signalCount": 6,
+     "total": 69,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20261008-11",
@@ -51,6 +51,26 @@
         "deploy",
         "counter"
        ]
+      },
+      {
+       "id": "e-20261008-13",
+       "title": "Russian jet drones near 600 km/h; Ukraine orders simulators for 800–900 km/h successors",
+       "titleNl": "Russische straaldrones vliegen bijna 600 km/u; Oekraïne laat simulatoren bouwen voor opvolgers van 800–900 km/u",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-07T11:46:03.000Z",
+       "updatedAt": "2026-10-08T07:45:00.000Z",
+       "nlSummary": "Kolonel Joerij Tsjerevasjenko, plaatsvervangend commandant van de Oekraïense luchtmacht, vertelde op 6 oktober aan een parlementaire commissie dat Russische straalaangedreven aanvalsdrones inmiddels ongeveer 600 km/u vliegen. Volgens hem kunnen ze uiteindelijk 800–900 km/u halen, snelheden die in de strijd nog niet zi…",
+       "enSummary": "Colonel Yurii Cherevashenko, deputy commander of Ukraine's Air Force, told a parliamentary commission on 6 October that Russia's jet-powered attack drones now fly at around 600 km/h. He said they could eventually reach 800–900 km/h, speeds not yet seen in combat. The article names the jet-powered Shahed/Geran family,…",
+       "sourceUrl": "https://euromaidanpress.com/2026/10/07/russias-jet-drones-fly-near-600-km-h-now-ukraine-is-building-simulators-for-the-900-km-h-ones-it-expects-next",
+       "sourceCount": 1,
+       "signals": []
       },
       {
        "id": "e-20261006-s01",
@@ -147,31 +167,6 @@
         "scale",
         "counter"
        ]
-      },
-      {
-       "id": "e-20261005-03",
-       "title": "Ukraine scales up counter-measures against jet-powered Shaheds: small air defence missiles due in October, a new Nika missile heading into testing, Spys interceptor test and German funding for tens of thousands of interceptor drones",
-       "titleNl": "Oekraïne schaalt op tegen straalaangedreven Shaheds: kleine luchtafweerraketten in oktober, nieuwe Nika-raket gaat testen in, test van Spys-interceptor en Duitse financiering voor tienduizenden interceptordrones",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-04T13:18:47.000Z",
-       "updatedAt": "2026-10-06T07:30:00.000Z",
-       "nlSummary": "Tijdens het bezoek van de Duitse bondskanselier Friedrich Merz aan Kyiv op 4 oktober zei president Zelensky dat Oekraïne in de tweede helft van oktober kleine luchtafweerraketten gaat inzetten tegen Russische straalaangedreven drones. Volgens Militarnyi zei hij dat het om meerdere typen gaat, dat ze nog niet worden ge…",
-       "enSummary": "During German Chancellor Friedrich Merz's visit to Kyiv on 4 October, President Zelensky said Ukraine will start using small air defence missiles against Russian jet-powered drones in the second half of October. According to Militarnyi, he said there are several types, that they are not yet in use, and that production…",
-       "sourceUrl": "https://militarnyi.com/en/news/small-air-defense-missiles-to-begin-use-against-drones-in-october-zelensky/",
-       "sourceCount": 5,
-       "signals": [
-        "deploy",
-        "scale",
-        "counter"
-       ]
       }
      ]
     },
@@ -221,7 +216,7 @@
        "nlSummary": "Volgens Serhii \"Flash\" Beskrestnov, adviseur van de Oekraïense president voor defensietechnologie, zette Rusland op 30 september voor het eerst een speciale cumulatief-snijdende lading (KRSN) in op een straalaangedreven aanvalsdrone, bedoeld om hoogspanningsmasten en stalen brugconstructies te vernietigen. Militarnyi…",
        "enSummary": "According to Serhii \"Flash\" Beskrestnov, adviser to the Ukrainian President on defence technology, Russia on 30 September used for the first time a special shaped-charge cutting payload (KRSN) on a jet-powered strike drone, designed to destroy high-voltage transmission towers and steel bridge structures. Militarnyi, c…",
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/30/8055840",
-       "sourceCount": 4,
+       "sourceCount": 5,
        "signals": [
         "variant",
         "perf"
@@ -478,8 +473,8 @@
     "geran5": {
      "name": "Geran-5",
      "nameEn": "Geran-5",
-     "total": 27,
-     "signalCount": 5,
+     "total": 28,
+     "signalCount": 4,
      "entries": [
       {
        "id": "e-20261008-01",
@@ -500,6 +495,26 @@
        "enSummary": "Colonel Yurii Cherevashenko, Deputy Air Force Commander for Air Defense, told Ukrinform (as relayed by Euromaidan Press and Interfax-Ukraine) that Russian forces appear to use artificial intelligence to plan air attacks and to recognize targets. He linked this to recent air raids on Odesa that came in waves with very…",
        "sourceUrl": "https://euromaidanpress.com/2026/10/08/ai-is-changing-russias-drone-war-on-ukrainian-cities-deputy-air-defense-commander-says",
        "sourceCount": 2,
+       "signals": []
+      },
+      {
+       "id": "e-20261008-13",
+       "title": "Russian jet drones near 600 km/h; Ukraine orders simulators for 800–900 km/h successors",
+       "titleNl": "Russische straaldrones vliegen bijna 600 km/u; Oekraïne laat simulatoren bouwen voor opvolgers van 800–900 km/u",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-07T11:46:03.000Z",
+       "updatedAt": "2026-10-08T07:45:00.000Z",
+       "nlSummary": "Kolonel Joerij Tsjerevasjenko, plaatsvervangend commandant van de Oekraïense luchtmacht, vertelde op 6 oktober aan een parlementaire commissie dat Russische straalaangedreven aanvalsdrones inmiddels ongeveer 600 km/u vliegen. Volgens hem kunnen ze uiteindelijk 800–900 km/u halen, snelheden die in de strijd nog niet zi…",
+       "enSummary": "Colonel Yurii Cherevashenko, deputy commander of Ukraine's Air Force, told a parliamentary commission on 6 October that Russia's jet-powered attack drones now fly at around 600 km/h. He said they could eventually reach 800–900 km/h, speeds not yet seen in combat. The article names the jet-powered Shahed/Geran family,…",
+       "sourceUrl": "https://euromaidanpress.com/2026/10/07/russias-jet-drones-fly-near-600-km-h-now-ukraine-is-building-simulators-for-the-900-km-h-ones-it-expects-next",
+       "sourceCount": 1,
        "signals": []
       },
       {
@@ -593,29 +608,6 @@
        "signals": [
         "loss",
         "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20261001-03",
-       "title": "P1-SUN JetKiller interceptor drone destroys a second Geran-5 jet-powered drone, this time in a head-on attack",
-       "titleNl": "P1-SUN JetKiller-interceptordrone schakelt tweede straalaangedreven Geran-5 uit, ditmaal in een frontale aanval",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-30T18:26:34.000Z",
-       "updatedAt": "2026-10-04T17:02:52.331Z",
-       "nlSummary": "Volgens Militarnyi heeft de Oekraïense P1-SUN JetKiller-interceptordrone van SkyFall in september 2026 een Russische straalaangedreven Geran-5-aanvalsdrone uitgeschakeld. De onderschepping werd uitgevoerd door operators van Lasar's Group, een eenheid voor onbemande systemen van de Oekraïense Nationale Garde, met het a…",
-       "enSummary": "According to Militarnyi, the Ukrainian P1-SUN JetKiller interceptor drone, made by SkyFall, destroyed a Russian Geran-5 jet-powered strike drone in September 2026. The interception was carried out by operators of Lasar's Group, an unmanned-systems unit of Ukraine's National Guard, using SkyFall's remote-control system…",
-       "sourceUrl": "https://militarnyi.com/en/news/p1-sun-jetkiller-destroys-geran-5-jet-powered-drone/",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
         "perf"
        ]
       }
@@ -1723,9 +1715,33 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 51,
+     "total": 52,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261008-14",
+       "title": "Russian firm DOFA-Tek unveils DF-1 'Roscherk' jet-powered drone interceptor (claimed 500 km/h)",
+       "titleNl": "Russisch bedrijf DOFA-Tek presenteert straalaangedreven drone-interceptor DF-1 'Rosjtsjerk' (geclaimd 500 km/u)",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-10-07T11:45:46.000Z",
+       "updatedAt": "2026-10-08T07:45:00.000Z",
+       "nlSummary": "Volgens het Russische staatspersbureau TASS heeft het Russische bedrijf DOFA-Tek op het Al-Russische Dronecongres 2026 in Sint-Petersburg (7–9 oktober) een straalaangedreven drone-interceptor gepresenteerd: de DF-1 \"Rosjtsjerk\". Het bedrijf claimt een topsnelheid van 500 km/u, een bereik van ongeveer 250 km en een vli…",
+       "enSummary": "According to the Russian state news agency TASS, the Russian company DOFA-Tek presented a jet-powered drone interceptor, the DF-1 \"Roscherk\", at the All-Russian Drone Congress 2026 in St Petersburg (7–9 October). The company claims a top speed of 500 km/h, a range of about 250 km and an endurance of up to 50 minutes.…",
+       "sourceUrl": "https://tass.com/defense/2198771",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261008-s05",
        "title": "Прокладывая маршруты «птицам» (Krasnaya Zvezda: Plotting routes for the 'birds')",
@@ -1843,29 +1859,6 @@
         "loss",
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20261004-07",
-       "title": "Tsentr-2026: Shturm robotic tank debut falters in the mud while T-90M's Arena-M downs drones in staged attack",
-       "titleNl": "Tsentr-2026: debuut robottank Shturm strandt in de modder, Arena-M van T-90M schiet drones neer in geënsceneerde aanval",
-       "category": "weapon",
-       "topics": [
-        "armor",
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-03T07:02:41.000Z",
-       "updatedAt": "2026-10-04T17:02:52.331Z",
-       "nlSummary": "Tijdens de strategische oefening Tsentr-2026 (28 september – 3 oktober, volgens het Russische ministerie van Defensie meer dan 47.000 militairen) zette Rusland voor het eerst onbemande tanks in van Shturm, het zware robotische aanvalssysteem van Uralvagonzavod. Het ministerie meldde op 2 oktober dat president Poetin d…",
-       "enSummary": "During the Tsentr-2026 strategic exercise (28 September – 3 October, more than 47,000 troops according to the Russian Defence Ministry), Russia used uncrewed tanks from Uralvagonzavod's Shturm heavy robotic assault system in drills for the first time. The ministry said on 2 October that President Putin was shown the v…",
-       "sourceUrl": "https://defence-blog.com/russia-shows-shturm-robotic-tank-system-in-big-exercise",
-       "sourceCount": 3,
-       "signals": [
-        "deploy"
        ]
       }
      ]
@@ -4057,9 +4050,34 @@
     "su34": {
      "name": "Su-34",
      "nameEn": "Su-34",
-     "total": 7,
+     "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261008-15",
+       "title": "UAC delivers second 2026 batch of Su-34 fighter-bombers; number of aircraft not disclosed",
+       "titleNl": "UAC levert tweede partij Su-34-jachtbommenwerpers van 2026; aantal toestellen niet bekendgemaakt",
+       "category": "weapon",
+       "topics": [
+        "airforce",
+        "glide-bombs"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-10-07T08:19:57.000Z",
+       "updatedAt": "2026-10-08T07:45:00.000Z",
+       "nlSummary": "Rostec maakte op 7 oktober bekend dat dochterbedrijf United Aircraft Corporation (UAC) in het kader van de staatsdefensieorder een nieuwe partij Su-34-jachtbommenwerpers (NAVO: Fullback) aan het Russische ministerie van Defensie heeft overgedragen. Volgens Defence Blog is dit de tweede partij Su-34's die in 2026 is ge…",
+       "enSummary": "Rostec announced on 7 October that its subsidiary United Aircraft Corporation (UAC) has handed a new batch of Su-34 fighter-bombers (NATO: Fullback) to the Russian Ministry of Defence under the state defence order. According to Defence Blog, it is the second Su-34 batch delivered in 2026. Rostec says the aircraft comp…",
+       "sourceUrl": "https://tass.com/defense/2198609",
+       "sourceCount": 2,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261006-s04",
        "title": "«От тактики роевого применения дронов до атак безэкипажных танков» (Krasnaya Zvezda: From swarm drone tactics to uncrewed tank attacks — Tsentr-2026 wrap-up)",
@@ -4180,32 +4198,6 @@
        "signals": [
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260908-08",
-       "title": "Russia sustains Su-34 production at roughly 18 airframes a year despite wartime losses and sanctions",
-       "titleNl": "Rusland houdt Su-34-productie op circa 18 toestellen per jaar ondanks oorlogsverliezen en sancties",
-       "category": "weapon",
-       "topics": [
-        "airforce",
-        "glide-bombs"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-06T09:39:00.000Z",
-       "updatedAt": "2026-09-08T09:00:00.000Z",
-       "nlSummary": "Foto's van het Viva Avia-festival op Mochisjtsje bij Novosibirsk (1–2 augustus 2026) toonden een pas gebouwde Su-34 nog in fabrieksprimer, aanleiding voor Defence Blog om de productie van het type tegen het licht te houden. Begin 2026 had de Russische luchtmacht in totaal 212 Su-34's afgenomen van de vliegtuigfabriek…",
-       "enSummary": "Photographs from the Viva Avia festival at Mochishche near Novosibirsk (1–2 August 2026) showed a freshly built Su-34 in factory primer, prompting Defence Blog to review the programme's output. By the start of 2026 the Russian air force had taken delivery of 212 Su-34s from the Novosibirsk Aviation Plant (NAZ/NAPO), t…",
-       "sourceUrl": "https://defence-blog.com/russia-keeps-building-su-34-fighter-bombers-despite-ukraine-war",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf",
-        "scale"
        ]
       }
      ]
