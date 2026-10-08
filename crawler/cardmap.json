@@ -289,6 +289,11 @@
           "match": "\\br-?330zh\\b|\\bzhitel\\b|\\bжитель\\b",
           "require": "jamming|jammer|electronic warfare|\\bew\\b|РЭБ|глушени|подавлени|stoorzender"
         },
+        "pole21": {
+          "name": "Pole-21 (R-340RP)",
+          "match": "\\bpole[- ]?21[me]?\\b|поле-21|\\br-?340rp\\b|р-340рп",
+          "require": "jamming|jammer|electronic warfare|\\bew\\b|РЭБ|РЕБ|gnss|gps|глушени|подавлени|stoorzender"
+        },
         "peresvetm": {
           "name": "Peresvet-M (Starlink-jammer)",
           "match": "\\bperesvet-?m\\b|\\bпересвет-?м\\b",
