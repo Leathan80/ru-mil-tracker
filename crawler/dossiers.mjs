@@ -189,6 +189,12 @@ ${bronnen ? `    <p class="bronnen">${esc(ui.sources || 'Bronnen')}: ${bronnen}<
 // dus de dossiers zijn genummerd in plaats van onbegrensd.
 const PER_PAGINA = 40;
 
+// Onder deze grens geen eigen dossier. Een pagina met één of twee items is
+// dun: weinig waard voor een lezer, en voor een zoekmachine eerder ballast dan
+// inhoud. Het onderwerp blijft gewoon als filter in de app bestaan en krijgt
+// vanzelf een dossier zodra het archief genoeg items heeft.
+const MINIMAAL = 5;
+
 const dossierPad = (topic, n) => (n === 1 ? `/d/${topic}/` : `/d/${topic}/p${n}/`);
 
 function dossierPagina({ topic, label, entries, taal, ui, k, nr, vanTotaal, totaal }) {
@@ -289,10 +295,15 @@ const rijen = { nl: [], en: [] };
 // gebruikt dit om genummerde pagina's weg te halen die door een krimpend
 // dossier niet meer nodig zijn.
 const paginasPer = new Map();
+const tedun = [];
 
 for (const [topic, entries] of [...perTopic.entries()].sort((a, b) => b[1].length - a[1].length)) {
   const label = labels[topic];
   if (!label) continue; // zonder label van de site zelf geen pagina
+  if (entries.length < MINIMAAL) {
+    tedun.push(`${label.nl || topic} (${entries.length})`);
+    continue;
+  }
   const vanTotaal = Math.max(1, Math.ceil(entries.length / PER_PAGINA));
   paginasPer.set(topic, vanTotaal);
 
@@ -350,7 +361,8 @@ const veranderd = Object.entries(uit).filter(
   ([pad, inhoud]) => !existsSync(pad) || readFileSync(pad, 'utf8') !== inhoud
 );
 
-console.log(`archief: ${totaal} entries (${nieuw} nieuw), ${perTopic.size} topics`);
+console.log(`archief: ${totaal} entries (${nieuw} nieuw), ${perTopic.size} topics, ${paginasPer.size} dossiers`);
+if (tedun.length) console.log(`  nog te dun voor een dossier (< ${MINIMAAL}): ${tedun.join(', ')}`);
 for (const [pad] of veranderd) console.log(`${alleenControle ? 'ZOU  ' : 'SCHRIJF'} ${pad.replace(WORTEL + '\\', '').split('\\').join('/')}`);
 for (const pad of weg) console.log(`${alleenControle ? 'ZOU  ' : 'WEG  '} ${pad.replace(WORTEL + '\\', '').split('\\').join('/')}`);
 
