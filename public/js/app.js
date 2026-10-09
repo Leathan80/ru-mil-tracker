@@ -16,6 +16,7 @@
     digestList: document.getElementById("digestList"),
     topicBlock: document.getElementById("topicBlock"),
     topicsLabel: document.getElementById("topicsLabel"),
+    dossierLink: document.getElementById("dossierLink"),
     topicChips: document.getElementById("topicChips"),
     impactBlock: document.getElementById("impactBlock"),
     impactLabel: document.getElementById("impactLabel"),
@@ -205,6 +206,10 @@
     el.searchInput.placeholder = ui("search");
     el.digestLabel.textContent = ui("digest");
     el.topicsLabel.textContent = ui("topicsLabel");
+    if (el.dossierLink) {
+      el.dossierLink.textContent = ui("dossierLink");
+      el.dossierLink.href = state.lang === "en" ? "/en/d/" : "/d/";
+    }
     el.impactLabel.textContent = ui("impactTitle");
     el.impactSub.textContent = ui("impactSub");
     el.rawDisclaimer.textContent = ui("rawFeedDisclaimer");
