@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-09T05:17:30.165Z",
+ "updated": "2026-10-09T05:28:44.359Z",
  "analysisUpdated": "2026-10-09T07:30:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 438,
-  "cardsWithHits": 74,
-  "matches": 605
+  "cardsWithHits": 76,
+  "matches": 608
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -2611,6 +2611,62 @@
        ]
       }
      ]
+    },
+    "alazan": {
+     "name": "Alazan-interceptor",
+     "nameEn": "Alazan-interceptor",
+     "total": 2,
+     "signalCount": 2,
+     "entries": [
+      {
+       "id": "e-20261009-12",
+       "title": "Russia shows drone interceptor derived from Alazan anti-hail rocket at Chebarkul exhibition toured by Putin",
+       "titleNl": "Rusland toont drone-interceptor afgeleid van Alazan-antihagelraket op Tsjebarkoel-expositie die Poetin bezocht",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-08T07:31:58.000Z",
+       "updatedAt": "2026-10-09T07:30:00.000Z",
+       "nlSummary": "Een geleide interceptor op basis van de civiele Alazan-antihagelraket werd op 2 oktober 2026 getoond op een wapenexpositie op het oefenterrein Tsjebarkoel in de Oeral, die Vladimir Poetin bezocht, meldt Euromaidan Press op basis van een oorspronkelijk bericht en analyse van het Oekraïense medium Militarnyi. De geleide…",
+       "enSummary": "A guided interceptor based on the civilian Alazan anti-hail rocket was displayed at a weapons exhibition at the Chebarkul training range in the Urals on 2 October 2026, which Vladimir Putin toured, Euromaidan Press reports, drawing on an original report and analysis by the Ukrainian outlet Militarnyi. The guided versi…",
+       "sourceUrl": "https://euromaidanpress.com/2026/10/08/it-was-built-to-shield-russian-crops-from-hail-now-its-being-pitched-as-a-drone-interceptor",
+       "sourceCount": 1,
+       "signals": [
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20261009-s06",
+       "title": "russia Developing New $12,000 Surface-to-Air Missile to Counter Drones: What Is Known, What Could Its Specifications Be? (Defense Express)",
+       "titleNl": "Rusland ontwikkelt nieuwe luchtdoelraket van $12.000 tegen drones: wat bekend is en wat de specificaties kunnen zijn (Defense Express)",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones",
+        "missiles"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-10-07T17:12:02.000Z",
+       "updatedAt": "2026-10-09T07:30:00.000Z",
+       "nlSummary": "Defense Express meldt dat Rusland een luchtdoelraket tegen drones ontwikkelt op basis van de ongeleide 82,5 mm-antihagelraket Alazan-6. De raket werd aan Poetin getoond op een wapenexpositie bij de oefening Tsentr-2026 (Center-2026), gepresenteerd als bedoeld voor het onderscheppen van UAV's. De gemelde kosten zijn ci…",
+       "enSummary": "Defense Express reports that Russia is developing a surface-to-air missile to intercept drones based on the unguided 82.5 mm Alazan-6 anti-hail rocket. The missile was shown to Putin at an arms exhibition held alongside the Center-2026 exercise, presented as designed to intercept UAVs. Its reported cost is about 1 mil…",
+       "sourceUrl": "https://en.defence-ua.com/weapon_and_tech/russia_developing_new_12000_surface_to_air_missile_to_counter_drones_what_is_known_what_could_its_specifications_be-20027.html",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "scale",
+        "counter"
+       ]
+      }
+     ]
     }
    }
   },
@@ -3949,6 +4005,36 @@
         "loss",
         "deploy",
         "scale",
+        "counter"
+       ]
+      }
+     ]
+    },
+    "yastreb": {
+     "name": "Jastreb 1.0 / Jastreb-S (EW)",
+     "nameEn": "Jastreb 1.0 / Jastreb-S (EW)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261009-s16",
+       "title": "«Ястреб-С» против спутниковой связи (Topwar: \"Yastreb-S\" against satellite communications)",
+       "titleNl": "Russisch EW-systeem Jastreb-S moet ook satellietverbindingen zoals Starlink storen",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-10-08T01:32:52.000Z",
+       "updatedAt": "2026-10-09T07:30:00.000Z",
+       "nlSummary": "Topwar (auteur Kirill Rjabov) beschrijft de Jastreb-familie (\"Havik\") van elektronische-oorlogvoeringssystemen. Ze worden ontwikkeld door AO NPP met steun van het Russische Fonds voor Geavanceerd Onderzoek (FPI). De basisversie Jastreb 1.0 werd eind januari 2026 aangekondigd. Volgens TASS (26 september) zit die in de…",
+       "enSummary": "Topwar (author Kirill Ryabov) describes the Yastreb (\"Hawk\") family of electronic warfare systems, developed by JSC NPP with backing from Russia's Foundation for Advanced Studies (FPI). The base Yastreb 1.0 was announced in late January 2026; according to TASS (26 September) it is in its final test phase and is to be…",
+       "sourceUrl": "https://topwar.ru/291197-jastreb-s-protiv-sputnikovoj-svjazi.html",
+       "sourceCount": 1,
+       "signals": [
         "counter"
        ]
       }

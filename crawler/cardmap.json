@@ -140,6 +140,11 @@
         "arena-m": {
           "name": "Arena-M (APS)",
           "match": "\\barena-?m\\b|арена-?м"
+        },
+        "alazan": {
+          "name": "Alazan-interceptor",
+          "match": "\\balazan\\b|алазань",
+          "require": "drone|дрон|бпла|uav|interceptor|intercept|перехват|зенитн|surface-to-air|anti-drone|onderschep"
         }
       }
     },
@@ -298,6 +303,11 @@
           "name": "Peresvet-M (Starlink-jammer)",
           "match": "\\bperesvet-?m\\b|\\bпересвет-?м\\b",
           "require": "starlink|jamming|jammer|stoorzender|РЭБ|глушени|подавлени"
+        },
+        "yastreb": {
+          "name": "Jastreb 1.0 / Jastreb-S (EW)",
+          "match": "\\by[ae]streb(?:[- ]?(?:s|1\\.0))?\\b|\\bjastreb(?:-s)?\\b|ястреб(?:-с| 1\\.0)",
+          "require": "jamming|jammer|electronic warfare|\\bew\\b|РЭБ|РЕБ|starlink|старлинк|глушени|подавлени|stoorzender"
         },
         "leer3": {
           "name": "Leer-3",
