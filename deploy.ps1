@@ -23,5 +23,12 @@ curl.exe -s "https://ru-mil-tracker.web.app/pretag.json" -o "public/pretag.json"
 Write-Host "Cross-check opnieuw opbouwen uit de lokale analysis.json..."
 node crawler/crosscheck.js
 
+# Dossierpagina's per onderwerp: statische HTML met de analyse erin, zodat een
+# zoekmachine meer ziet dan de lege app-schil. Het script houdt zelf een
+# append-only archief bij (analysis/dossier-archief.json), omdat analysis.json
+# maar ~90 dagen terugloopt en een dossier juist moet aangroeien.
+Write-Host "Dossierpagina's bijwerken..."
+node crawler/dossiers.mjs
+
 Write-Host "Deployen naar Firebase Hosting..."
 firebase deploy --only hosting
