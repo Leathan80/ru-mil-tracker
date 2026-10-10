@@ -148,6 +148,55 @@ function main() {
   fs.writeFileSync(path.join(PUBLIC_DIR, "crosscheck.json"), JSON.stringify(out, null, 1));
   const perSite = Object.keys(outSites).map(s => s + "=" + Object.keys(outSites[s].cards).length).join(" ");
   console.log(`crosscheck.json: ${cardsWithHits} kaarten met treffers (${perSite}), ${totalMatches} matches uit ${entries.length} entries`);
+
+  // Archief + verse analyse: analysis.json is een rollend venster (~90 dagen), het
+  // append-only dossierarchief bewaart de rest. Bij dubbele id's wint de verse versie.
+  let archief = [];
+  try { archief = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "analysis", "dossier-archief.json"), "utf8")).entries || []; }
+  catch { console.error("dossier-archief.json ontbreekt — kaartnieuws alleen uit analysis.json"); }
+  if (!Array.isArray(archief)) archief = Object.values(archief);
+  const perId = new Map(archief.map(e => [e.id, e]));
+  for (const e of analysis.entries || []) perId.set(e.id, e);
+  schrijfKaartnieuws([...perId.values()], cardmap);
+}
+
+// Volledig nieuwsarchief per kaart voor de Threat Library (adepti-academy.nl/threats/):
+// zonder venster en zonder maximum, één bestand per kaart plus een index met tellingen.
+// Staat los van crosscheck.json, dat ongewijzigd blijft voor de academies en de dagelijkse taak.
+function schrijfKaartnieuws(alle, cardmap) {
+  const dir = path.join(PUBLIC_DIR, "cardnews");
+  fs.mkdirSync(dir, { recursive: true });
+  const sinds30 = Date.now() - 30 * 86400000;
+  const index = {};
+  for (const siteId of Object.keys(cardmap.sites || {})) {
+    for (const [cardId, card] of Object.entries(cardmap.sites[siteId].cards || {})) {
+      const re = new RegExp(card.match, "i");
+      const requireRe = card.require ? new RegExp(card.require, "i") : null;
+      const topicGate = card.topics && card.topics.length ? new Set(card.topics) : null;
+      const items = [];
+      for (const e of alle) {
+        if (topicGate && !((e.topics || []).some(t => topicGate.has(t)) || topicGate.has(e.category))) continue;
+        const hooi = [e.title, e.titleNl, e.nlSummary, e.enSummary].filter(Boolean).join(" \n ");
+        if (!re.test(hooi) || (requireRe && !requireRe.test(hooi))) continue;
+        items.push({
+          id: e.id,
+          datum: String(e.publishedAt || e.updatedAt || "").slice(0, 10),
+          en: e.title, nl: e.titleNl || e.title,
+          sEn: firstParagraph(e.enSummary), sNl: firstParagraph(e.nlSummary || e.enSummary),
+          sig: classify(hooi),
+          url: (e.sourceRefs && e.sourceRefs[0] && e.sourceRefs[0].url) || null,
+          n: (e.sourceRefs || []).length,
+        });
+      }
+      items.sort((a, b) => b.datum.localeCompare(a.datum));
+      const sleutel = siteId + "-" + cardId;
+      fs.writeFileSync(path.join(dir, sleutel + ".json"), JSON.stringify({ updated: new Date().toISOString(), site: siteId, id: cardId, total: items.length, items }));
+      index[sleutel] = { total: items.length, laatst: items[0] ? items[0].datum : null,
+        n30: items.filter(i => Date.parse(i.datum) >= sinds30).length };
+    }
+  }
+  fs.writeFileSync(path.join(dir, "index.json"), JSON.stringify({ updated: new Date().toISOString(), cards: index }));
+  console.log(`cardnews: ${Object.keys(index).length} kaarten, ${Object.values(index).reduce((s, c) => s + c.total, 0)} koppelingen`);
 }
 
 main();
