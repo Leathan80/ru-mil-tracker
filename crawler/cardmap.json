@@ -207,6 +207,52 @@
           "match": "\\bqw-?1[89]a?\\b|qianwei-?1[89]|цяньвэй",
           "require": "manpads|shoulder-fired|schouder|пзрк|luchtdoelraket|surface-to-air|air.defen[cs]e"
         },
+        "sa7": {
+          "name": "Strela-2 (SA-7)",
+          "match": "strela-?2(?!\\d)|стрела-?2(?!\\d)|\\bsa-?7\\b"
+        },
+        "sa14": {
+          "name": "Strela-3 (SA-14)",
+          "match": "strela-?3(?!\\d)|стрела-?3(?!\\d)|\\bsa-?14\\b"
+        },
+        "sa16": {
+          "name": "Igla-1 (SA-16)",
+          "match": "\\bigla-?1\\b|игла-?1(?!\\d)|\\bsa-?16\\b"
+        },
+        "sa18": {
+          "name": "Igla (SA-18)",
+          "match": "\\bigla\\b(?![-\\s]?(s|super|1)\\b)|игла(?![-\\s]?(с|1))|\\bsa-?18\\b"
+        },
+        "sa24": {
+          "name": "Igla-S (SA-24)",
+          "match": "\\bigla-?s\\b|игла-?с|\\bsa-?24\\b"
+        },
+        "misagh": {
+          "name": "Misagh-familie",
+          "nameEn": "Misagh family",
+          "match": "misagh|mithaq|мисаг"
+        },
+        "hn5": {
+          "name": "HN-5-familie",
+          "nameEn": "HN-5 family",
+          "match": "\\bhn-?5|hongying|хунъин"
+        },
+        "qw1": {
+          "name": "QW-1-familie",
+          "nameEn": "QW-1 family",
+          "match": "\\bqw-?1[1mg]?\\b|qianwei-?1\\b",
+          "require": "manpads|shoulder-fired|schouder|пзрк|luchtdoelraket|surface-to-air|air.defen[cs]e"
+        },
+        "qw2": {
+          "name": "QW-2 / QW-12",
+          "match": "\\bqw-?(2|12)\\b|qianwei-?(2|12)\\b",
+          "require": "manpads|shoulder-fired|schouder|пзрк|luchtdoelraket|surface-to-air|air.defen[cs]e"
+        },
+        "qw3": {
+          "name": "QW-3",
+          "match": "\\bqw-?3\\b|qianwei-?3\\b",
+          "require": "manpads|shoulder-fired|schouder|пзрк|luchtdoelraket|surface-to-air|air.defen[cs]e"
+        },
         "sa11": {
           "name": "Buk-M1 (SA-11)",
           "match": "buk-?m1|sa-?11"
