@@ -270,6 +270,156 @@
           "name": "ZU-23-2",
           "match": "\\bzu-?23|зу-?23"
         },
+        "s350": {
+          "name": "S-350 Vityaz",
+          "match": "vityaz|витязь|\\bs-?350\\b|50r6"
+        },
+        "sa6": {
+          "name": "2K12 Kub (SA-6)",
+          "match": "2k12|kvadrat|квадрат|\\bsa-?6\\b|kub-?m[1-4]"
+        },
+        "raad": {
+          "name": "Ra'ad (Iran)",
+          "match": "\\bra'?ad\\b",
+          "require": "air.defen[cs]e|missile|\bsam\b|luchtverdediging|пво|surface-to-air"
+        },
+        "khordad3": {
+          "name": "3rd Khordad (Iran)",
+          "match": "(3rd|sevom|third)[ -]?khordad|khordad-?3"
+        },
+        "tabas": {
+          "name": "Tabas (Iran)",
+          "match": "\\btabas\\b",
+          "require": "air.defen[cs]e|missile|\bsam\b|luchtverdediging|пво|surface-to-air"
+        },
+        "khordad15": {
+          "name": "15th Khordad (Iran)",
+          "match": "15(th)?[ -]?khordad|khordad[ -]?15"
+        },
+        "sa8": {
+          "name": "9K33 Osa (SA-8)",
+          "match": "9k33|osa-?ak|\\bsa-?8\\b|оса-?ак"
+        },
+        "majid": {
+          "name": "Majid AD-08 (Iran)",
+          "match": "\\bmajid\\b|ad-?08",
+          "require": "air.defen[cs]e|missile|\bsam\b|luchtverdediging|пво|surface-to-air"
+        },
+        "su30sm2": {
+          "name": "Su-30SM / SM2",
+          "match": "su-?30|су-?30"
+        },
+        "ka52": {
+          "name": "Ka-52",
+          "match": "ka-?52|ка-?52"
+        },
+        "mi28": {
+          "name": "Mi-28",
+          "match": "mi-?28|ми-?28"
+        },
+        "mi24": {
+          "name": "Mi-24 / Mi-35",
+          "match": "mi-?24|mi-?35|ми-?24|ми-?35"
+        },
+        "mi8": {
+          "name": "Mi-8-familie",
+          "nameEn": "Mi-8 family",
+          "match": "\\bmi-?8(?!\\d)|\\bmi-?17(1)?\\b|ми-?8(?!\\d)"
+        },
+        "a50": {
+          "name": "A-50 (Mainstay)",
+          "match": "\\ba-?50u?\\b|\\bа-?50|mainstay"
+        },
+        "il22": {
+          "name": "Il-22",
+          "match": "il-?22|ил-?22|porubshchik"
+        },
+        "oreshnik": {
+          "name": "Oreshnik",
+          "match": "oreshnik|орешник"
+        },
+        "umpk": {
+          "name": "KAB / UMPK-glijbommen",
+          "nameEn": "KAB / UMPK glide bombs",
+          "match": "umpk|умпк|umpb|glide bombs?|glijbom|\\bkab-?\\d|\\bfab-?\\d{3,4}"
+        },
+        "kh31p": {
+          "name": "Kh-31",
+          "match": "kh-?31|х-?31"
+        },
+        "bm21": {
+          "name": "BM-21 Grad",
+          "match": "bm-?21|\\bgrad\\b|«град»"
+        },
+        "bm27": {
+          "name": "BM-27 Uragan",
+          "match": "bm-?27|uragan|ураган"
+        },
+        "bm30": {
+          "name": "BM-30 Smerch / Tornado-S",
+          "match": "bm-?30|smerch|смерч|tornado-?s\\b|торнадо-?с"
+        },
+        "tos1": {
+          "name": "TOS-1A / TOS-2",
+          "match": "tos-?[12]\\b|тос-?[12]|solntsepe?k|солнцепек"
+        },
+        "64n6": {
+          "name": "64N6 Big Bird",
+          "match": "64n6|big bird|91n6"
+        },
+        "76n6": {
+          "name": "76N6 Clam Shell",
+          "match": "76n6|clam shell"
+        },
+        "9s18": {
+          "name": "9S18 Snow Drift",
+          "match": "9s18|snow drift"
+        },
+        "9s19": {
+          "name": "9S19 High Screen",
+          "match": "9s19|high screen|imbir"
+        },
+        "spoonrest": {
+          "name": "P-12 Spoon Rest",
+          "match": "\\bp-?12\\b|spoon rest",
+          "require": "radar|радар|рлс"
+        },
+        "flatface": {
+          "name": "P-15 / P-19 Flat Face",
+          "match": "\\bp-?1[59]\\b|flat face",
+          "require": "radar|радар|рлс"
+        },
+        "92n6": {
+          "name": "92N6 Grave Stone",
+          "match": "92n6|grave ?stone"
+        },
+        "30n6": {
+          "name": "30N6 Flap Lid",
+          "match": "30n6|flap lid|tomb ?stone"
+        },
+        "9s35": {
+          "name": "9S35 Fire Dome",
+          "match": "9s35|fire dome"
+        },
+        "1s91": {
+          "name": "1S91 Straight Flush",
+          "match": "1s91|straight flush"
+        },
+        "landroll": {
+          "name": "Land Roll (SA-8-radar)",
+          "nameEn": "Land Roll (SA-8 radar)",
+          "match": "land roll"
+        },
+        "scrumhalf": {
+          "name": "Scrum Half (Tor-radar)",
+          "nameEn": "Scrum Half (Tor radar)",
+          "match": "scrum half"
+        },
+        "1rs2": {
+          "name": "1RS2 (Pantsir-radar)",
+          "nameEn": "1RS2 (Pantsir radar)",
+          "match": "1rs2|pantsir.{0,40}radar|радар.{0,40}панцир"
+        },
         "sa11": {
           "name": "Buk-M1 (SA-11)",
           "match": "buk-?m1|sa-?11"
