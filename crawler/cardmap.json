@@ -382,6 +382,10 @@
           "match": "\\bm-?1991\\b|\\bm-?1985\\b|\\b240[ -]?(mm|мм)",
           "require": "north korea|\\bdprk\\b|кндр|северн\\w* коре|пхеньян|північн\\w* коре|noord-korea"
         },
+        "kozerog": {
+          "name": "Kozerog (122 mm)",
+          "match": "\\bkozerog\\b|козерог|kozerih|козеріг"
+        },
         "zircon": {
           "name": "3M22 Zircon",
           "match": "zircon|zirkon|tsirkon|циркон|\\b3[mм]22\\b|ss-n-33"
