@@ -190,7 +190,7 @@ function schrijfKaartnieuws(alle, cardmap) {
       }
       items.sort((a, b) => b.datum.localeCompare(a.datum));
       const sleutel = siteId + "-" + cardId;
-      fs.writeFileSync(path.join(dir, sleutel + ".json"), JSON.stringify({ updated: new Date().toISOString(), site: siteId, id: cardId, total: items.length, items }));
+      fs.writeFileSync(path.join(dir, sleutel + ".json"), JSON.stringify({ site: siteId, id: cardId, total: items.length, items }));
       index[sleutel] = { total: items.length, laatst: items[0] ? items[0].datum : null,
         n30: items.filter(i => Date.parse(i.datum) >= sinds30).length };
     }
