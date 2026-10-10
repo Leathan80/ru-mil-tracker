@@ -145,6 +145,10 @@
           "name": "Alazan-interceptor",
           "match": "\\balazan\\b|алазань",
           "require": "drone|дрон|бпла|uav|interceptor|intercept|перехват|зенитн|surface-to-air|anti-drone|onderschep"
+        },
+        "tak": {
+          "name": "TAK / ATAK",
+          "match": "\\batak\\b|team awareness kit"
         }
       }
     },
@@ -573,6 +577,14 @@
         "r77m": {
           "name": "R-77M",
           "match": "r-?77m\\b"
+        },
+        "r33": {
+          "name": "R-33 (AA-9)",
+          "match": "\\br-?33\\b|\\baa-?9\\b|р-?33\\b"
+        },
+        "r74": {
+          "name": "R-74M2",
+          "match": "\\br-?74|р-?74"
         },
         "r77": {
           "name": "R-77",
