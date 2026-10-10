@@ -253,6 +253,23 @@
           "match": "\\bqw-?3\\b|qianwei-?3\\b",
           "require": "manpads|shoulder-fired|schouder|пзрк|luchtdoelraket|surface-to-air|air.defen[cs]e"
         },
+        "9s36": {
+          "name": "9S36 / 9S36M (Buk-radar)",
+          "match": "9s36|9с36"
+        },
+        "zsu234": {
+          "name": "ZSU-23-4 Shilka",
+          "match": "shilka|шилка|zsu-?23-?4|зсу-?23-?4"
+        },
+        "zpu": {
+          "name": "ZPU-familie (14,5 mm)",
+          "nameEn": "ZPU family (14.5 mm)",
+          "match": "\\bzpu-?[124]\\b|зпу-?[124]"
+        },
+        "zu232": {
+          "name": "ZU-23-2",
+          "match": "\\bzu-?23|зу-?23"
+        },
         "sa11": {
           "name": "Buk-M1 (SA-11)",
           "match": "buk-?m1|sa-?11"
