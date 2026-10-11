@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-11T05:18:16.325Z",
+ "updated": "2026-10-11T07:48:42.257Z",
  "analysisUpdated": "2026-10-11T07:45:00.000Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 444,
-  "cardsWithHits": 95,
-  "matches": 679
+  "cardsWithHits": 96,
+  "matches": 681
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -5074,6 +5074,60 @@
        "signals": [
         "loss",
         "perf"
+       ]
+      }
+     ]
+    },
+    "irbis": {
+     "name": "Irbis (contrabatterijradar)",
+     "nameEn": "Irbis (contrabatterijradar)",
+     "total": 2,
+     "signalCount": 2,
+     "entries": [
+      {
+       "id": "e-20261011-s05",
+       "title": "Ukrainian Reconnaissance Drone Detects russian Irbis Counter-Battery Radar (Video) (Defense Express)",
+       "titleNl": "Oekraïense verkenningsdrone ontdekt Russische Irbis-contrabatterijradar (video) (Defense Express)",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "artillery"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-09T02:02:57.000Z",
+       "updatedAt": "2026-10-11T07:45:00.000Z",
+       "nlSummary": "Volgens Defense Express heeft de Oekraïense 43e Brigade met een verkenningsdrone een Russische Irbis-contrabatterijradar ontdekt en de coördinaten doorgegeven aan aangrenzende Oekraïense eenheden voor verdere actie. De brigade bracht beelden naar buiten waarop de drone het radarsysteem volgt nadat het was opgemerkt. V…",
+       "enSummary": "According to Defense Express, Ukraine's 43rd Brigade detected a Russian Irbis counter-battery radar with a reconnaissance drone and passed its coordinates to neighbouring Ukrainian units for further action. The brigade released footage of the drone tracking the radar system after it had been spotted. The brigade says…",
+       "sourceUrl": "https://en.defence-ua.com/news/ukrainian_reconnaissance_drone_detects_russian_irbis_counter_battery_radar_video-20040.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261009-s09",
+       "title": "«Ірбіс» відчув, що пахне смаженим: російська РЛС спробувала втекти, але дрон уже передав координати (ArmyInform: 'Irbis' smelled trouble: Russian radar tried to flee, but the drone had already passed on its coordinates)",
+       "titleNl": "Oekraïense verkenningsdrone spoort Russische Irbis-tegenbatterijradar op en geeft coördinaten door",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "artillery"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-08T11:11:10.000Z",
+       "updatedAt": "2026-10-09T07:30:00.000Z",
+       "nlSummary": "Volgens ArmyInform hebben luchtverkenningsteams van de Oekraïense 43e Zelfstandige Artilleriebrigade met een verkenningsdrone een Russische 'Irbis'-radar opgespoord en onder observatie gehouden. Toen de radar de drone opmerkte, begon die te manoeuvreren en van positie te wisselen, maar de teams hadden de coördinaten a…",
+       "enSummary": "According to ArmyInform, aerial-reconnaissance crews of Ukraine's 43rd Separate Artillery Brigade spotted a Russian 'Irbis' radar with a reconnaissance drone and kept it under observation. When the radar detected the drone it began manoeuvring and changing position, but the crews had already passed its coordinates to…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/08/irbis-vidchuv-shho-pahne-smazhenym-rosijska-rls-sprobuvala-vtekty-ale-dron-uzhe-peredav-koordynaty",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "counter"
        ]
       }
      ]
