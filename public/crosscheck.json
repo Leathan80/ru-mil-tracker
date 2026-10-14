@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-12T05:18:22.464Z",
- "analysisUpdated": "2026-10-12T07:30:00.000Z",
+ "updated": "2026-10-14T09:18:37.688Z",
+ "analysisUpdated": "2026-10-14T09:17:34.506Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 451,
-  "cardsWithHits": 97,
-  "matches": 709
+  "entriesConsidered": 463,
+  "cardsWithHits": 99,
+  "matches": 744
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,105 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 75,
+     "total": 78,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-s03",
+       "title": "«1307 «Молній» за тиждень: на Півдні знищили понад півтори тисячі російських дронів» (ArmyInform: 1,307 Molniyas in a week – over 1,500 Russian drones destroyed in the South)",
+       "titleNl": "Oekraïense Verdedigingsmacht Zuid meldt 1.528 Russische drones neergehaald in een week, waaronder 1.307 Molnija's",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-10-13T18:15:44.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Het Oekraïense staatsmedium ArmyInform meldt, op basis van het weekoverzicht van de Oekraïense Verdedigingsmacht Zuid, dat in de zuidelijke sector in één week 1.528 Russische onbemande luchtvaartuigen zijn vernietigd. Het overgrote deel, 1.307 stuks, waren Molnija-drones. Daarnaast ging het om 116 aanvalsdrones van he…",
+       "enSummary": "Ukrainian state outlet ArmyInform, citing the weekly results of Ukraine's Southern Defence Forces, reports that 1,528 Russian unmanned aerial vehicles were destroyed in the southern sector in one week. The large majority, 1,307, were Molniya drones. The rest were 116 Shahed-type long-range strike drones, 75 reconnaiss…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/13/1307-molnij-za-tyzhden-na-pivdni-znyshhyly-ponad-pivtory-tysyachi-rosijskyh-droniv",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20261014-04",
+       "title": "Ukraine fields a new fast interceptor drone against Russia's jet-powered Geran-5, claiming two kills over Kyiv in its first week",
+       "titleNl": "Oekraïne zet nieuwe snelle interceptordrone in tegen de Russische Geran-5 met straalmotor en claimt twee neerschietingen boven Kyiv in de eerste week",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-12T16:02:34.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "De Russische Geran-5 met straalmotor is uitgegroeid tot een van de lastigste doelen voor de Oekraïense luchtverdediging. Volgens de Kyiv Independent vliegt het toestel aanzienlijk hoger en sneller dan eerdere Shahed/Geran-typen, met een topsnelheid van ongeveer 600 km/u; Fabian Hoffmann van het Noorse Instituut voor D…",
+       "enSummary": "Russia's jet-powered Geran-5 has become one of the hardest targets for Ukrainian air defence. According to the Kyiv Independent it flies considerably higher and faster than earlier Shahed/Geran types, with a maximum speed of about 600 km/h; Fabian Hoffmann of the Norwegian Institute for Defence Studies described it as…",
+       "sourceUrl": "https://kyivindependent.com/new-interceptor-drone-destroys-two-russian-geran-5-drones-in-first-week-fedorov-says/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261014-s07",
+       "title": "«Турель под ударом» (Rybar: Turret under attack – FPV drone versus an air-defence system)",
+       "titleNl": "Rybar: Russisch FPV-drone treft Oekraïense Sky Sentinel-luchtafweerkoepel aan de ringweg van Charkiv",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-10-12T12:31:02.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Dit is de persoonlijke en redactionele stem van het Russische pro-oorlog-Telegramkanaal Rybar, geen standpunt van het Russische ministerie van Defensie. Milbloggers kunnen elkaar en het ministerie tegenspreken, en de inhoud is niet onafhankelijk bevestigd. Rybar beweert dat Russische eenheden opnieuw met een FPV-drone…",
+       "enSummary": "This is the personal and editorial voice of the Russian pro-war Telegram channel Rybar, not a position of the Russian Ministry of Defence. Milbloggers can contradict each other and the MoD, and the content has not been independently verified. Rybar claims that Russian units carried out another FPV drone strike on the…",
+       "sourceUrl": "https://t.me/rybar/83889",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20261012-05",
        "title": "Ukraine says Russia is developing 800 km/h jet drones, as jet-powered Gerans are already shot down at only about 55 percent versus over 90 percent for propeller Shaheds",
@@ -66,100 +162,6 @@
        "nlSummary": "In de ochtend van 11 oktober hebben Oekraïense luchtverdedigers in de oblast Rivne (noordwest-Oekraïne) een Russische straalaangedreven Geran-4-drone vernietigd, meldt ArmyInform. Volgens een video die Luchtcommando West publiceerde, werd de drone neergehaald door sergeant der tweede klasse Vasyl Rezanovych van het be…",
        "enSummary": "On the morning of 11 October, Ukrainian air defenders in Rivne region (north-western Ukraine) destroyed a Russian jet-powered Geran-4 drone, ArmyInform reports. According to a video released by Air Command West, the drone was shot down by Junior Sergeant Vasyl Rezanovych of the command's security battalion using an Ig…",
        "sourceUrl": "https://armyinform.com.ua/2026/10/11/igla-proty-reaktyvnogo-drona-na-rivnenshhyni-geran-4-znyshhyly-iz-pzrk",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20261012-07",
-       "title": "Russia keeps striking Ukraine's energy grid with Shaheds, glide bombs and missiles as Trump announces an \"energy ceasefire\"",
-       "titleNl": "Rusland blijft het Oekraïense energienet treffen met Shaheds, glijbommen en raketten terwijl Trump een \"energiebestand\" aankondigt",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "glide-bombs"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-11T06:33:00.000Z",
-       "updatedAt": "2026-10-12T07:30:00.000Z",
-       "nlSummary": "Op 11 oktober, de dag waarop de Amerikaanse president Donald Trump beweerde dat Oekraïne en Rusland een onmiddellijk energiebestand waren overeengekomen, gingen de Russische aanvallen op de Oekraïense energie-infrastructuur door. In zijn avondtoespraak zei president Zelensky dat Oekraïne bereid is te stoppen met aanva…",
-       "enSummary": "On 11 October, the day US President Donald Trump claimed Ukraine and Russia had agreed to an immediate energy ceasefire, Russian strikes on Ukrainian energy infrastructure continued. In his evening address President Zelenskyy said Ukraine was ready to stop striking Russian energy facilities if Russia did the same, but…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/11/8057422",
-       "sourceCount": 6,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20261011-s01",
-       "title": "«Понад 52 тисячі цілей за місяць: Повітряні Сили оприлюднили результати роботи у вересні» (ArmyInform: More than 52,000 targets in a month: the Air Force publishes its September results)",
-       "titleNl": "Meer dan 52.000 doelen in één maand: de Luchtmacht publiceert haar resultaten over september (ArmyInform)",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones",
-        "missiles",
-        "airforce"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-10-10T10:08:32.000Z",
-       "updatedAt": "2026-10-11T07:45:00.000Z",
-       "nlSummary": "ArmyInform, het persbureau van het Oekraïense ministerie van Defensie, meldt de resultaten van de Oekraïense Luchtmacht over september 2026, die op 10 oktober zijn gepubliceerd. Volgens de Luchtmacht hebben de Oekraïense strijdkrachten in die maand meer dan 4.700 luchtdoelen vernietigd en daarnaast meer dan 48.000 dro…",
-       "enSummary": "ArmyInform, the news agency of the Ukrainian Ministry of Defence, reports the Ukrainian Air Force's results for September 2026, published on 10 October. According to the Air Force, Ukraine's Defence Forces destroyed more than 4,700 aerial targets during the month and also neutralised more than 48,000 tactical-level UA…",
-       "sourceUrl": "https://armyinform.com.ua/2026/10/10/ponad-52-tysyachi-czilej-za-misyacz-povitryani-syly-oprylyudnyly-rezultaty-roboty-u-veresni",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20261012-04",
-       "title": "Downed Geran-4 drones carry a 32-element, likely Alabuga-made anti-jam GNSS antenna, while Geran-4 and Geran-5 also get camera-based terrain navigation",
-       "titleNl": "Neergehaalde Geran-4's dragen een waarschijnlijk in Alabuga gemaakte anti-jamantenne met 32 elementen; Geran-4 en Geran-5 krijgen ook navigatie op camerabeelden",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-10T09:19:57.000Z",
-       "updatedAt": "2026-10-12T07:30:00.000Z",
-       "nlSummary": "In een boven Oekraïne neergeschoten Geran-4-aanvalsdrone is een CRPA-antenne (Controlled Radiation Pattern Antenna) met 32 elementen aangetroffen, meldt Militarnyi op basis van een analyse door The Insider van foto's en video's van wrakstukken; de foto's, gemaakt in september 2026, komen van Serhii 'Flash' Beskrestnov…",
-       "enSummary": "A 32-element CRPA (Controlled Radiation Pattern Antenna) has been found in a Geran-4 strike drone shot down over Ukraine, Militarnyi reports, citing an analysis by The Insider of photos and videos of wreckage; the photos, taken in September 2026, are credited to Serhii \"Flash\" Beskrestnov. The unit is effectively two…",
-       "sourceUrl": "https://militarnyi.com/en/news/32-element-crpa-antenna-alabuga-geran-4-uav/",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20261012-s02",
-       "title": "Ukraine’s 92nd Brigade Shoots Down Jet-Powered Shahed Drone with Stinger MANPADS (Video) (Defense Express)",
-       "titleNl": "Oekraïense 92e Brigade schiet straalaangedreven Shahed-drone neer met Stinger-MANPADS (video)",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-10-10T08:44:33.000Z",
-       "updatedAt": "2026-10-12T07:30:00.000Z",
-       "nlSummary": "Luchtverdedigers van de Oekraïense 92e Brigade hebben met een Stinger, een schoudergelanceerd luchtverdedigingssysteem (MANPADS), een Russische straalaangedreven Shahed-aanvalsdrone neergeschoten, zo meldde de brigade, die beelden van de onderschepping publiceerde. De drone werd ontdekt in het verantwoordelijkheidsgeb…",
-       "enSummary": "Air defenders of Ukraine's 92nd Brigade have shot down a Russian jet-powered Shahed attack drone with a Stinger man-portable air-defence system (MANPADS), the brigade reported, publishing video of the engagement. The drone was detected in the area of responsibility of the brigade's anti-aircraft missile and artillery…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukraines_92nd_brigade_shoots_down_jet_powered_shahed_drone_with_stinger_manpads_video-20052.html",
        "sourceCount": 1,
        "signals": [
         "loss"
@@ -322,9 +324,34 @@
     "geran4": {
      "name": "Geran-4",
      "nameEn": "Geran-4",
-     "total": 33,
+     "total": 34,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261012-s04",
        "title": "«Ігла» проти реактивного дрона: на Рівненщині «Герань-4» знищили із ПЗРК (ArmyInform: Igla versus a jet drone: Geran-4 destroyed with a MANPADS in Rivne region)",
@@ -437,40 +464,66 @@
         "loss",
         "counter"
        ]
-      },
-      {
-       "id": "e-20261005-03",
-       "title": "Ukraine scales up counter-measures against jet-powered Shaheds: small air defence missiles due in October, a new Nika missile heading into testing, Spys interceptor test and German funding for tens of thousands of interceptor drones",
-       "titleNl": "Oekraïne schaalt op tegen straalaangedreven Shaheds: kleine luchtafweerraketten in oktober, nieuwe Nika-raket gaat testen in, test van Spys-interceptor en Duitse financiering voor tienduizenden interceptordrones",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-04T13:18:47.000Z",
-       "updatedAt": "2026-10-06T07:30:00.000Z",
-       "nlSummary": "Tijdens het bezoek van de Duitse bondskanselier Friedrich Merz aan Kyiv op 4 oktober zei president Zelensky dat Oekraïne in de tweede helft van oktober kleine luchtafweerraketten gaat inzetten tegen Russische straalaangedreven drones. Volgens Militarnyi zei hij dat het om meerdere typen gaat, dat ze nog niet worden ge…",
-       "enSummary": "During German Chancellor Friedrich Merz's visit to Kyiv on 4 October, President Zelensky said Ukraine will start using small air defence missiles against Russian jet-powered drones in the second half of October. According to Militarnyi, he said there are several types, that they are not yet in use, and that production…",
-       "sourceUrl": "https://militarnyi.com/en/news/small-air-defense-missiles-to-begin-use-against-drones-in-october-zelensky/",
-       "sourceCount": 5,
-       "signals": [
-        "deploy",
-        "scale",
-        "counter"
-       ]
       }
      ]
     },
     "geran5": {
      "name": "Geran-5",
      "nameEn": "Geran-5",
-     "total": 33,
-     "signalCount": 3,
+     "total": 35,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20261014-04",
+       "title": "Ukraine fields a new fast interceptor drone against Russia's jet-powered Geran-5, claiming two kills over Kyiv in its first week",
+       "titleNl": "Oekraïne zet nieuwe snelle interceptordrone in tegen de Russische Geran-5 met straalmotor en claimt twee neerschietingen boven Kyiv in de eerste week",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-12T16:02:34.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "De Russische Geran-5 met straalmotor is uitgegroeid tot een van de lastigste doelen voor de Oekraïense luchtverdediging. Volgens de Kyiv Independent vliegt het toestel aanzienlijk hoger en sneller dan eerdere Shahed/Geran-typen, met een topsnelheid van ongeveer 600 km/u; Fabian Hoffmann van het Noorse Instituut voor D…",
+       "enSummary": "Russia's jet-powered Geran-5 has become one of the hardest targets for Ukrainian air defence. According to the Kyiv Independent it flies considerably higher and faster than earlier Shahed/Geran types, with a maximum speed of about 600 km/h; Fabian Hoffmann of the Norwegian Institute for Defence Studies described it as…",
+       "sourceUrl": "https://kyivindependent.com/new-interceptor-drone-destroys-two-russian-geran-5-drones-in-first-week-fedorov-says/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20261012-04",
        "title": "Downed Geran-4 drones carry a 32-element, likely Alabuga-made anti-jam GNSS antenna, while Geran-4 and Geran-5 also get camera-based terrain navigation",
@@ -558,56 +611,60 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20261008-01",
-       "title": "Ukrainian deputy air defense commander says Russia appears to use AI to plan wave attacks on Odesa and for target recognition in Geran-4 drones",
-       "titleNl": "Oekraïense plaatsvervangend commandant luchtverdediging: Rusland lijkt AI te gebruiken voor het plannen van golfaanvallen op Odesa en voor doelherkenning in Geran-4-drones",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-07T22:46:21.000Z",
-       "updatedAt": "2026-10-08T07:30:00.000Z",
-       "nlSummary": "Kolonel Yurii Cherevashenko, plaatsvervangend commandant van de luchtmacht voor luchtverdediging, vertelde Ukrinform (zoals overgenomen door Euromaidan Press en Interfax-Ukraine) dat Russische strijdkrachten kunstmatige intelligentie lijken te gebruiken om luchtaanvallen te plannen en doelen te herkennen. Hij koppelde…",
-       "enSummary": "Colonel Yurii Cherevashenko, Deputy Air Force Commander for Air Defense, told Ukrinform (as relayed by Euromaidan Press and Interfax-Ukraine) that Russian forces appear to use artificial intelligence to plan air attacks and to recognize targets. He linked this to recent air raids on Odesa that came in waves with very…",
-       "sourceUrl": "https://euromaidanpress.com/2026/10/08/ai-is-changing-russias-drone-war-on-ukrainian-cities-deputy-air-defense-commander-says",
-       "sourceCount": 2,
-       "signals": []
-      },
-      {
-       "id": "e-20261008-13",
-       "title": "Russian jet drones near 600 km/h; Ukraine orders simulators for 800–900 km/h successors",
-       "titleNl": "Russische straaldrones vliegen bijna 600 km/u; Oekraïne laat simulatoren bouwen voor opvolgers van 800–900 km/u",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-07T11:46:03.000Z",
-       "updatedAt": "2026-10-08T07:45:00.000Z",
-       "nlSummary": "Kolonel Joerij Tsjerevasjenko, plaatsvervangend commandant van de Oekraïense luchtmacht, vertelde op 6 oktober aan een parlementaire commissie dat Russische straalaangedreven aanvalsdrones inmiddels ongeveer 600 km/u vliegen. Volgens hem kunnen ze uiteindelijk 800–900 km/u halen, snelheden die in de strijd nog niet zi…",
-       "enSummary": "Colonel Yurii Cherevashenko, deputy commander of Ukraine's Air Force, told a parliamentary commission on 6 October that Russia's jet-powered attack drones now fly at around 600 km/h. He said they could eventually reach 800–900 km/h, speeds not yet seen in combat. The article names the jet-powered Shahed/Geran family,…",
-       "sourceUrl": "https://euromaidanpress.com/2026/10/07/russias-jet-drones-fly-near-600-km-h-now-ukraine-is-building-simulators-for-the-900-km-h-ones-it-expects-next",
-       "sourceCount": 1,
-       "signals": []
       }
      ]
     },
     "lancet": {
      "name": "Lancet-1 / Lancet-3",
      "nameEn": "Lancet-1 / Lancet-3",
-     "total": 6,
+     "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-s03",
+       "title": "«1307 «Молній» за тиждень: на Півдні знищили понад півтори тисячі російських дронів» (ArmyInform: 1,307 Molniyas in a week – over 1,500 Russian drones destroyed in the South)",
+       "titleNl": "Oekraïense Verdedigingsmacht Zuid meldt 1.528 Russische drones neergehaald in een week, waaronder 1.307 Molnija's",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-10-13T18:15:44.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Het Oekraïense staatsmedium ArmyInform meldt, op basis van het weekoverzicht van de Oekraïense Verdedigingsmacht Zuid, dat in de zuidelijke sector in één week 1.528 Russische onbemande luchtvaartuigen zijn vernietigd. Het overgrote deel, 1.307 stuks, waren Molnija-drones. Daarnaast ging het om 116 aanvalsdrones van he…",
+       "enSummary": "Ukrainian state outlet ArmyInform, citing the weekly results of Ukraine's Southern Defence Forces, reports that 1,528 Russian unmanned aerial vehicles were destroyed in the southern sector in one week. The large majority, 1,307, were Molniya drones. The rest were 116 Shahed-type long-range strike drones, 75 reconnaiss…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/13/1307-molnij-za-tyzhden-na-pivdni-znyshhyly-ponad-pivtory-tysyachi-rosijskyh-droniv",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20261014-s04",
+       "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
+       "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-12T17:50:07.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens het Oekraïense staatsmedium ArmyInform hebben dronepiloten van de eenheid Signum van de 57e Zelfstandige Gemotoriseerde Infanteriebrigade tijdens één nacht 'luchtpatrouille' boven Oekraïens grondgebied 25 Russische drones van verschillende typen neergehaald. De eenheid verspreidde er beelden van. De opgegeven…",
+       "enSummary": "Ukrainian state outlet ArmyInform reports that drone pilots of the Signum unit of the 57th Separate Motorised Infantry Brigade shot down 25 Russian UAVs of various types during one night of 'air patrol' over Ukrainian territory, and released video of the engagements. The list given is eight Zala, four Lancet, five Sup…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/12/lanczety-orlany-i-knyaz-piloty-signum-za-nich-znyshhyly-25-rosijskyh-bezpilotnykiv-riznyh-typiv",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261011-s01",
        "title": "«Понад 52 тисячі цілей за місяць: Повітряні Сили оприлюднили результати роботи у вересні» (ArmyInform: More than 52,000 targets in a month: the Air Force publishes its September results)",
@@ -703,54 +760,6 @@
         "loss",
         "counter"
        ]
-      },
-      {
-       "id": "e-20261002-s07",
-       "title": "«Про це знає їхнє вище командування»: що стоїть за тактикою інфільтрації росіян між позиціями",
-       "titleNl": "'Hun hogere commando weet hiervan': wat er achter de Russische tactiek van infiltratie tussen posities zit",
-       "category": "ttp",
-       "topics": [
-        "command",
-        "drones",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-10-01T04:43:10.000Z",
-       "updatedAt": "2026-10-02T07:00:00.000Z",
-       "nlSummary": "ArmyInform geeft uitspraken weer van Roeslana Bohdan, communicatieofficier van de Oekraïense 57e Zelfstandige Gemotoriseerde Infanteriebrigade (vernoemd naar Kost Hordijenko), gedaan op Army TV over de Zuid-Slobozjanska richting (zuidelijk Charkiv). Volgens Bohdan proberen Russische militairen voortdurend tussen de Oe…",
-       "enSummary": "ArmyInform reports remarks by Ruslana Bohdan, communications officer of Ukraine's 57th Separate Motorised Infantry Brigade (named after Kost Hordiienko), made on Army TV about the South-Slobozhanskyi (south Kharkiv) direction. According to Bohdan, Russian troops keep trying to slip through the gaps between Ukrainian p…",
-       "sourceUrl": "https://armyinform.com.ua/2026/10/01/57-ma-brygada-polyuye-na-rosiyan-yaki-prosochuyutsya-mizh-pozycziyamy-na-pivdenno-slobozhanskogo-napryamku",
-       "sourceCount": 1,
-       "signals": [
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20260902-s02",
-       "title": "IRIS-T ВСУ уничтожен расчетом РУК ZALA «Ланцет» с расстояния почти 200 км",
-       "titleNl": "Oekraïense IRIS-T uitgeschakeld door 'Lancet'-ploeg van ZALA-verkennings-/aanvalscomplex vanaf bijna 200 km (milblogger-claim)",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-01T11:46:54.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "Het Russische Telegram-kanaal \"Два майора\" (Dva Majora) plaatste op 1 september 2026 een bericht — doorgestuurd van fabrikant ZALA — met de kop \"een Oekraïense IRIS-T vernietigd door een ploeg van het ZALA-«Lancet»-verkennings-/aanvalscomplex vanaf bijna 200 km\". Volgens de post viel een ploeg van dat complex, toegesc…",
-       "enSummary": "On 1 September 2026 the Russian Telegram channel \"Два майора\" (Dva Majora) published a post — forwarded from the manufacturer ZALA — headlined \"a Ukrainian IRIS-T destroyed by a ZALA «Lancet» reconnaissance-strike-complex crew from a range of almost 200 km\". The post states that a crew of that complex, attributed to t…",
-       "sourceUrl": "https://t.me/dva_majors/98357",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
       }
      ]
     },
@@ -793,9 +802,32 @@
     "orlan": {
      "name": "Orlan-10",
      "nameEn": "Orlan-10",
-     "total": 5,
-     "signalCount": 4,
+     "total": 6,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-s04",
+       "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
+       "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-12T17:50:07.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens het Oekraïense staatsmedium ArmyInform hebben dronepiloten van de eenheid Signum van de 57e Zelfstandige Gemotoriseerde Infanteriebrigade tijdens één nacht 'luchtpatrouille' boven Oekraïens grondgebied 25 Russische drones van verschillende typen neergehaald. De eenheid verspreidde er beelden van. De opgegeven…",
+       "enSummary": "Ukrainian state outlet ArmyInform reports that drone pilots of the Signum unit of the 57th Separate Motorised Infantry Brigade shot down 25 Russian UAVs of various types during one night of 'air patrol' over Ukrainian territory, and released video of the engagements. The list given is eight Zala, four Lancet, five Sup…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/12/lanczety-orlany-i-knyaz-piloty-signum-za-nich-znyshhyly-25-rosijskyh-bezpilotnykiv-riznyh-typiv",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261009-11",
        "title": "China's military is preparing for Ukraine-style drone war",
@@ -911,9 +943,34 @@
     "parodiya": {
      "name": "Parodiya",
      "nameEn": "Parodiya",
-     "total": 8,
+     "total": 9,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261010-s04",
        "title": "«Сили ППО вночі знешкодили 114 ворожих БПЛА, більшість — реактивні» (ArmyInform: Air defence forces neutralised 114 enemy UAVs overnight, most of them jet-powered)",
@@ -1031,27 +1088,6 @@
         "loss",
         "perf"
        ]
-      },
-      {
-       "id": "e-20260928-03",
-       "title": "Russia's 26–27 September drone strikes hit Kyivstar's head office, Kyiv data centres and foreign-owned warehouses as the campaign against Ukraine's communications and logistics continues",
-       "titleNl": "Russische droneaanvallen van 26–27 september treffen hoofdkantoor Kyivstar, Kyivse datacenters en magazijnen van buitenlandse bedrijven in voortgaande campagne tegen Oekraïense communicatie en logistiek",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-27T04:43:00.000Z",
-       "updatedAt": "2026-09-28T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense luchtmacht lanceerde Rusland in de nacht van 26 op 27 september 170 aanvalsdrones, vanaf 18:00 uur op 26 september: Shahed-type drones (waarvan 76 met straalmotor), Gerbera-drones en Parodiya-lokdrones, vanuit de omgeving van Orjol, Koersk, Primorsko-Achtarsk en Sjatalovo, het bezette Donetsk en…",
-       "enSummary": "According to Ukraine's Air Force, Russia launched 170 strike UAVs overnight on 26–27 September, starting at 18:00 on 26 September: Shahed-type drones (76 of them jet-powered), Gerbera drones and Parodiya-type decoys, from the areas of Oryol, Kursk, Primorsko-Akhtarsk and Shatalovo, occupied Donetsk and occupied Crimea…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/27/8055211",
-       "sourceCount": 8,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -1061,6 +1097,31 @@
      "total": 22,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261011-01",
        "title": "Russia launched 160 drones at Ukraine overnight on 9-10 October, and 110 of them were jet-powered Shaheds; one reached Lviv's airspace for the first time, and a daytime missile strike hit Kyiv.",
@@ -1170,40 +1231,37 @@
        "sourceUrl": "https://topwar.ru/291237-v-polshe-zasekretili-proishozhdenie-sim-kart-najdennyh-v-rossijskih-bpla.html",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20261002-04",
-       "title": "\"Droneports\": Ukrainska Pravda and OSINT group CyberBoroshno map Russia's purpose-built Shahed/Geran launch bases, such as Tsimbulova, and explain why hardened, dispersed layouts make them so hard to destroy",
-       "titleNl": "\"Droneports\": Ukrainska Pravda en OSINT-groep CyberBoroshno brengen de speciaal gebouwde Russische Shahed/Geran-lanceerbases zoals Tsimbulova in kaart en leggen uit waarom de geharde, gespreide opzet ze zo moeilijk te vernietigen maakt",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "logistics",
-        "fortifications"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-01T09:38:00.000Z",
-       "updatedAt": "2026-10-02T07:00:00.000Z",
-       "nlSummary": "In een onderzoek samen met de Oekraïense OSINT-gemeenschap CyberBoroshno beschrijft Ukrainska Pravda hoe Rusland overstapte van het lanceren van door Iran geleverde Shaheds vanaf bestaande militaire vliegvelden (vanaf najaar 2022, op de Krim en in de oblasten Brjansk en Koersk; bekende plekken waren Kaap Tsjaoeda, Jej…",
-       "enSummary": "In an investigation with the Ukrainian OSINT community CyberBoroshno, Ukrainska Pravda describes how Russia moved from launching Iranian-supplied Shaheds off existing military airfields (from autumn 2022, in Crimea and Bryansk and Kursk oblasts; known sites included Cape Chauda, Yeysk, Primorsko-Akhtarsk, Kursk, Seshc…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/01/8055945",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "scale",
-        "counter"
-       ]
       }
      ]
     },
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 12,
+     "total": 13,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-s03",
+       "title": "«1307 «Молній» за тиждень: на Півдні знищили понад півтори тисячі російських дронів» (ArmyInform: 1,307 Molniyas in a week – over 1,500 Russian drones destroyed in the South)",
+       "titleNl": "Oekraïense Verdedigingsmacht Zuid meldt 1.528 Russische drones neergehaald in een week, waaronder 1.307 Molnija's",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-10-13T18:15:44.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Het Oekraïense staatsmedium ArmyInform meldt, op basis van het weekoverzicht van de Oekraïense Verdedigingsmacht Zuid, dat in de zuidelijke sector in één week 1.528 Russische onbemande luchtvaartuigen zijn vernietigd. Het overgrote deel, 1.307 stuks, waren Molnija-drones. Daarnaast ging het om 116 aanvalsdrones van he…",
+       "enSummary": "Ukrainian state outlet ArmyInform, citing the weekly results of Ukraine's Southern Defence Forces, reports that 1,528 Russian unmanned aerial vehicles were destroyed in the southern sector in one week. The large majority, 1,307, were Molniya drones. The rest were 116 Shahed-type long-range strike drones, 75 reconnaiss…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/13/1307-molnij-za-tyzhden-na-pivdni-znyshhyly-ponad-pivtory-tysyachi-rosijskyh-droniv",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20261012-04",
        "title": "Downed Geran-4 drones carry a 32-element, likely Alabuga-made anti-jam GNSS antenna, while Geran-4 and Geran-5 also get camera-based terrain navigation",
@@ -1315,28 +1373,6 @@
        "signals": [
         "deploy"
        ]
-      },
-      {
-       "id": "e-20260929-s06",
-       "title": "«Усі їхні тактики вже вивчені»: у 115-й бригаді розповіли про полювання на ворожі БПЛА",
-       "titleNl": "\"Al hun tactieken zijn al bestudeerd\": 115e brigade over de jacht op vijandelijke drones",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-09-28T04:51:56.000Z",
-       "updatedAt": "2026-09-29T07:00:00.000Z",
-       "nlSummary": "ArmyInform geeft een interview weer dat hoofdsergeant \"Hector\" van een drone-onderscheppingsbatterij van Oekraïnes 115e brigade aan Suspilne gaf. De eenheid bestrijdt Russische verkenningsdrones (Zala, Orlan, Supercam) en aanvalsdrones (Shaheds, Gerbers, Molniya).",
-       "enSummary": "ArmyInform relays an interview given to Suspilne by Chief Sergeant \"Hector\" of a drone-interception battery in Ukraine's 115th Brigade. The unit counters Russian reconnaissance drones (Zala, Orlan, Supercam) and attack drones (Shaheds, Gerbers, Molniya).",
-       "sourceUrl": "https://armyinform.com.ua/2026/09/28/usi-yihni-taktyky-vzhe-vyvcheni-u-115-j-brygadi-rozpovily-pro-polyuvannya-na-vorozhi-bpla",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -1417,9 +1453,55 @@
     "zala-z16": {
      "name": "ZALA Z-16",
      "nameEn": "ZALA Z-16",
-     "total": 5,
-     "signalCount": 4,
+     "total": 7,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-s10",
+       "title": "«„Мста-С“ против „Богданы“» (Krasnaya Zvezda: 'Msta-S versus Bogdana')",
+       "titleNl": "Krasnaja Zvezda: Msta-S-houwitser zou met dronecorrectie Oekraïense Bogdana bij Koepjansk hebben vernietigd",
+       "category": "ttp",
+       "topics": [
+        "artillery",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-10-12T21:03:00.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Krasnaja Zvezda, de krant van het Russische ministerie van Defensie, meldt dat de bemanning van een 152mm-pantserhouwitser 2S19 Msta-S op de as Koepjansk een Oekraïens wielvoertuig met kanon, de Bogdana, heeft uitgeschakeld. De bemanning hoort bij de 236e Garde-Artilleriebrigade van het 20e Garde-Gecombineerde Leger (…",
+       "enSummary": "Krasnaya Zvezda, the newspaper of the Russian Ministry of Defence, reports that a 152 mm 2S19 Msta-S self-propelled howitzer crew destroyed a Ukrainian Bogdana wheeled self-propelled gun on the Kupiansk axis. The crew belongs to the 236th Guards Artillery Brigade of the 20th Guards Combined Arms Army (Group of Forces…",
+       "sourceUrl": "http://redstar.ru/msta-s-protiv-bogdany",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261014-s04",
+       "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
+       "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-12T17:50:07.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens het Oekraïense staatsmedium ArmyInform hebben dronepiloten van de eenheid Signum van de 57e Zelfstandige Gemotoriseerde Infanteriebrigade tijdens één nacht 'luchtpatrouille' boven Oekraïens grondgebied 25 Russische drones van verschillende typen neergehaald. De eenheid verspreidde er beelden van. De opgegeven…",
+       "enSummary": "Ukrainian state outlet ArmyInform reports that drone pilots of the Signum unit of the 57th Separate Motorised Infantry Brigade shot down 25 Russian UAVs of various types during one night of 'air patrol' over Ukrainian territory, and released video of the engagements. The list given is eight Zala, four Lancet, five Sup…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/12/lanczety-orlany-i-knyaz-piloty-signum-za-nich-znyshhyly-25-rosijskyh-bezpilotnykiv-riznyh-typiv",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261010-s03",
        "title": "«На висоті 5500 метрів: «Маямі» з 92-ї бригади збив російський Supercam» (ArmyInform: At an altitude of 5,500 metres: 'Miami' of the 92nd Brigade shoots down a Russian Supercam)",
@@ -1510,31 +1592,6 @@
        "sourceUrl": "https://militarnyi.com/en/news/3rd-army-corps-air-defense-force-russia-s-rubicon-unit-to-redeploy-to-another-front-line-sector/",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20260902-s02",
-       "title": "IRIS-T ВСУ уничтожен расчетом РУК ZALA «Ланцет» с расстояния почти 200 км",
-       "titleNl": "Oekraïense IRIS-T uitgeschakeld door 'Lancet'-ploeg van ZALA-verkennings-/aanvalscomplex vanaf bijna 200 km (milblogger-claim)",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 2,
-       "publishedAt": "2026-09-01T11:46:54.000Z",
-       "updatedAt": "2026-09-02T09:00:00.000Z",
-       "nlSummary": "Het Russische Telegram-kanaal \"Два майора\" (Dva Majora) plaatste op 1 september 2026 een bericht — doorgestuurd van fabrikant ZALA — met de kop \"een Oekraïense IRIS-T vernietigd door een ploeg van het ZALA-«Lancet»-verkennings-/aanvalscomplex vanaf bijna 200 km\". Volgens de post viel een ploeg van dat complex, toegesc…",
-       "enSummary": "On 1 September 2026 the Russian Telegram channel \"Два майора\" (Dva Majora) published a post — forwarded from the manufacturer ZALA — headlined \"a Ukrainian IRIS-T destroyed by a ZALA «Lancet» reconnaissance-strike-complex crew from a range of almost 200 km\". The post states that a crew of that complex, attributed to t…",
-       "sourceUrl": "https://t.me/dva_majors/98357",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
       }
      ]
     },
@@ -1631,9 +1688,32 @@
     "supercam": {
      "name": "Supercam",
      "nameEn": "Supercam",
-     "total": 5,
-     "signalCount": 4,
+     "total": 6,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-s04",
+       "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
+       "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-12T17:50:07.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens het Oekraïense staatsmedium ArmyInform hebben dronepiloten van de eenheid Signum van de 57e Zelfstandige Gemotoriseerde Infanteriebrigade tijdens één nacht 'luchtpatrouille' boven Oekraïens grondgebied 25 Russische drones van verschillende typen neergehaald. De eenheid verspreidde er beelden van. De opgegeven…",
+       "enSummary": "Ukrainian state outlet ArmyInform reports that drone pilots of the Signum unit of the 57th Separate Motorised Infantry Brigade shot down 25 Russian UAVs of various types during one night of 'air patrol' over Ukrainian territory, and released video of the engagements. The list given is eight Zala, four Lancet, five Sup…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/12/lanczety-orlany-i-knyaz-piloty-signum-za-nich-znyshhyly-25-rosijskyh-bezpilotnykiv-riznyh-typiv",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261010-s03",
        "title": "«На висоті 5500 метрів: «Маямі» з 92-ї бригади збив російський Supercam» (ArmyInform: At an altitude of 5,500 metres: 'Miami' of the 92nd Brigade shoots down a Russian Supercam)",
@@ -1755,9 +1835,78 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 59,
+     "total": 60,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-s04",
+       "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
+       "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-12T17:50:07.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens het Oekraïense staatsmedium ArmyInform hebben dronepiloten van de eenheid Signum van de 57e Zelfstandige Gemotoriseerde Infanteriebrigade tijdens één nacht 'luchtpatrouille' boven Oekraïens grondgebied 25 Russische drones van verschillende typen neergehaald. De eenheid verspreidde er beelden van. De opgegeven…",
+       "enSummary": "Ukrainian state outlet ArmyInform reports that drone pilots of the Signum unit of the 57th Separate Motorised Infantry Brigade shot down 25 Russian UAVs of various types during one night of 'air patrol' over Ukrainian territory, and released video of the engagements. The list given is eight Zala, four Lancet, five Sup…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/12/lanczety-orlany-i-knyaz-piloty-signum-za-nich-znyshhyly-25-rosijskyh-bezpilotnykiv-riznyh-typiv",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20261014-s07",
+       "title": "«Турель под ударом» (Rybar: Turret under attack – FPV drone versus an air-defence system)",
+       "titleNl": "Rybar: Russisch FPV-drone treft Oekraïense Sky Sentinel-luchtafweerkoepel aan de ringweg van Charkiv",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-10-12T12:31:02.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Dit is de persoonlijke en redactionele stem van het Russische pro-oorlog-Telegramkanaal Rybar, geen standpunt van het Russische ministerie van Defensie. Milbloggers kunnen elkaar en het ministerie tegenspreken, en de inhoud is niet onafhankelijk bevestigd. Rybar beweert dat Russische eenheden opnieuw met een FPV-drone…",
+       "enSummary": "This is the personal and editorial voice of the Russian pro-war Telegram channel Rybar, not a position of the Russian Ministry of Defence. Milbloggers can contradict each other and the MoD, and the content has not been independently verified. Rybar claims that Russian units carried out another FPV drone strike on the…",
+       "sourceUrl": "https://t.me/rybar/83889",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261014-s06",
+       "title": "«Минобороны России создана платформа для обучения нейросетей военного назначения» (Dva Majors / WarGonzo: Russian MoD creates a platform for training military neural networks)",
+       "titleNl": "Russisch ministerie van Defensie opent platform dat ruim 40 drone-ontwikkelaars toegang geeft tot gevechtsbeelden om militaire neurale netwerken te trainen (Dva Majors, WarGonzo)",
+       "category": "org",
+       "topics": [
+        "drones",
+        "air-defense",
+        "command"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-10-12T08:08:55.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Deze melding geeft de persoonlijke en redactionele stem weer van de Russische pro-oorlog-Telegramkanalen Dva Majors (Два майора) en WarGonzo, niet op zichzelf een standpunt van het Russische ministerie van Defensie. Milbloggers kunnen elkaar en het ministerie tegenspreken, en de inhoud is niet onafhankelijk bevestigd.…",
+       "enSummary": "This entry reflects the personal and editorial voice of the Russian pro-war Telegram channels Dva Majors and WarGonzo, not a Russian MoD position in itself. Milbloggers can contradict each other and the MoD, and the content is not independently verified. Both channels relay an announcement by the Russian Ministry of D…",
+       "sourceUrl": "https://t.me/dva_majors/100369",
+       "sourceCount": 2,
+       "signals": [
+        "scale"
+       ]
+      },
       {
        "id": "e-20261012-03",
        "title": "Ukraine's drone force claims it has killed or wounded more than 100,000 Russian troops this year, as drones account for an estimated 96% of Russian battlefield losses and Kyiv's FPV orders already exceed all of 2025 by 54%.",
@@ -1826,73 +1975,6 @@
         "loss",
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20261010-08",
-       "title": "Analyst Clément Molin counts 770 confirmed Ukrainian drone strikes on Russian supply trucks in September and warns that winter will make supplying Crimea even harder",
-       "titleNl": "Analist Clément Molin telt in september 770 bevestigde Oekraïense droneaanvallen op Russische bevoorradingstrucks en waarschuwt dat de winter de bevoorrading van de Krim nog moeilijker maakt",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "logistics",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-09T16:13:48.000Z",
-       "updatedAt": "2026-10-10T08:30:00.000Z",
-       "nlSummary": "De Franse open-source-kaartmaker Clément Molin, die de Oekraïense campagne tegen de Russische logistiek nauwgezet volgt, telde in september 770 bevestigde Oekraïense droneaanvallen op Russische vrachtwagens in de logistieke zone achter het front. Hij telt alleen treffers die met video of foto's zijn bevestigd, dus het…",
-       "enSummary": "French open-source mapper Clément Molin, who follows Ukraine's counter-logistics campaign closely, counted 770 confirmed Ukrainian drone strikes on Russian trucks in September in the logistics zone behind the front line. His count includes only hits confirmed by video or photographs, so the real number is likely highe…",
-       "sourceUrl": "https://euromaidanpress.com/2026/10/09/counterlogistics-continues",
-       "sourceCount": 1,
-       "signals": [
-        "scale",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20261009-s14",
-       "title": "В режиме свободной охоты (Krasnaya Zvezda: In free-hunt mode)",
-       "titleNl": "FPV-groep van 58e Garde-specnazbataljon bij Droezjkivka: vrije jacht, hinderlagen en glasvezeldrones",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-10-08T21:03:00.000Z",
-       "updatedAt": "2026-10-09T07:30:00.000Z",
-       "nlSummary": "Krasnaya Zvezda portretteert 'Altaj', plaatsvervangend commandant van de FPV-dronegroep van het 58e Afzonderlijke Garde-bataljon voor speciale doeleinden, dat nu op de as Droezjkivka vecht. Het artikel opent met de stelling dat het zwaartepunt van de gevechten is verschoven van de voorste rand naar het nabije achterla…",
-       "enSummary": "Krasnaya Zvezda profiles 'Altai', deputy commander of the FPV drone group of the 58th Separate Guards Special Purpose Battalion, which now fights on the Druzhkivka axis. The article opens by saying that the main weight of the fighting has shifted from the front edge to the near rear, where drones dominate and target t…",
-       "sourceUrl": "http://redstar.ru/v-rezhime-svobodnoj-ohoty-8",
-       "sourceCount": 1,
-       "signals": [
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20261009-s08",
-       "title": "«Ходунки, які лізуть у щілину як таргани»: у 58-й бригаді розкрили тактику російських інфільтраційних груп (ArmyInform: 'Walkers that crawl into cracks like cockroaches': 58th Brigade describes Russian infiltration-group tactics)",
-       "titleNl": "Oekraïense 58e brigade beschrijft Russische infiltratietactiek rond Kozatsja Lopan",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-10-08T17:54:21.000Z",
-       "updatedAt": "2026-10-09T07:30:00.000Z",
-       "nlSummary": "Vasyl Lesjtsjenko, commandant van een aanvalscompagnie van het onbemande-systemenbataljon van de Oekraïense 58e Zelfstandige Gemotoriseerde Infanteriebrigade, vertelde in de nationale telethon dat Russische troepen op de zuidelijke Slobozjanski-richting rond Kozatsja Lopan (oblast Charkiv) Oekraïense flanken proberen…",
-       "enSummary": "Vasyl Leshchenko, commander of an assault company of the unmanned-systems battalion of Ukraine's 58th Separate Motorised Infantry Brigade, told the national telethon that on the southern Slobozhanskyi direction around Kozacha Lopan (Kharkiv region) Russian forces are trying to bypass Ukrainian flanks with small infilt…",
-       "sourceUrl": "https://armyinform.com.ua/2026/10/08/hodunky-yaki-lizut-u-shhilynu-yak-targany-u-58-j-brygadi-rozkryly-taktyku-rosijskyh-infiltraczijnyh-grup",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -2056,6 +2138,29 @@
      "signalCount": 5,
      "entries": [
       {
+       "id": "e-20261014-s04",
+       "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
+       "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-12T17:50:07.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens het Oekraïense staatsmedium ArmyInform hebben dronepiloten van de eenheid Signum van de 57e Zelfstandige Gemotoriseerde Infanteriebrigade tijdens één nacht 'luchtpatrouille' boven Oekraïens grondgebied 25 Russische drones van verschillende typen neergehaald. De eenheid verspreidde er beelden van. De opgegeven…",
+       "enSummary": "Ukrainian state outlet ArmyInform reports that drone pilots of the Signum unit of the 57th Separate Motorised Infantry Brigade shot down 25 Russian UAVs of various types during one night of 'air patrol' over Ukrainian territory, and released video of the engagements. The list given is eight Zala, four Lancet, five Sup…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/12/lanczety-orlany-i-knyaz-piloty-signum-za-nich-znyshhyly-25-rosijskyh-bezpilotnykiv-riznyh-typiv",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
+      {
        "id": "e-20261012-04",
        "title": "Downed Geran-4 drones carry a 32-element, likely Alabuga-made anti-jam GNSS antenna, while Geran-4 and Geran-5 also get camera-based terrain navigation",
        "titleNl": "Neergehaalde Geran-4's dragen een waarschijnlijk in Alabuga gemaakte anti-jamantenne met 32 elementen; Geran-4 en Geran-5 krijgen ook navigatie op camerabeelden",
@@ -2131,30 +2236,6 @@
        ]
       },
       {
-       "id": "e-20260914-10",
-       "title": "Ukraine combat experience shapes Redwire's new Penguin Mk3 drone",
-       "titleNl": "Oekraïense gevechtservaring vormt Redwires nieuwe Penguin Mk3-drone",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-12T12:33:32.000Z",
-       "updatedAt": "2026-09-14T13:00:00.000Z",
-       "nlSummary": "Het Amerikaanse defensiebedrijf Redwire heeft sinds 2022 meer dan 250 exemplaren van zijn Penguin-verkenningsdrone (een vastevleugel-UAS in Group 3, met circa 14 uur vliegduur en EO/IR-sensoren voor doelherkenning) aan Oekraïne geleverd, grotendeels via Amerikaanse steunpakketten. Die inzet leverde het bedrijf een sch…",
-       "enSummary": "US defense company Redwire has delivered more than 250 of its Penguin reconnaissance drones — a Group 3 fixed-wing UAS with roughly 14 hours of endurance and EO/IR sensors for target recognition — to Ukraine since 2022, largely through US aid packages. That deployment generated a large body of operational data, now fe…",
-       "sourceUrl": "https://defence-blog.com/ukraine-combat-experience-shapes-redwires-new-drone",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "counter"
-       ]
-      },
-      {
        "id": "e-20260909-s01",
        "title": "Defense Express: Germany only now seeks anti-satellite / GNSS-jamming capability, years into Russia's Kaliningrad spoofing",
        "titleNl": "Defense Express: Duitsland zoekt pas nu naar anti-satelliet-/GNSS-stoorcapaciteit, jaren na Russische spoofing vanuit Kaliningrad",
@@ -2183,9 +2264,105 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 39,
+     "total": 43,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-s08",
+       "title": "«Мобильные огневые группы ПВО: угрозы, концепция и решения» (Topwar: Mobile air-defence fire groups — threats, concept and solutions)",
+       "titleNl": "Topwar: Russische mobiele vuurgroepen tegen drones — pick-ups met mitrailleurs, stoorzenders en Jolka-onderscheppers",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-10-14T00:57:28.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Kirill Rjabov van Topwar beschrijft de Russische mobiele luchtverdedigingsvuurgroepen (MOG PVO) als het belangrijkste antwoord op kleine drones en op massale Oekraïense droneaanvallen diep in Rusland. Hun hoofdtaak is het bestrijden van lichte drones die in grote aantallen worden ingezet; grotere doelen zijn bijzaak.…",
+       "enSummary": "Topwar author Kirill Ryabov describes Russia's mobile air-defence fire groups (MOG PVO) as its main answer to small drones and to mass long-range Ukrainian drone raids. Their job is to fight light, numerous UAVs; larger targets are a secondary task. According to the article, the first Russian groups appeared in 2023.…",
+       "sourceUrl": "https://topwar.ru/291564-mobilnye-ognevye-gruppy-pvo-ugrozy-koncepcija-i-reshenija.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20261014-s03",
+       "title": "«1307 «Молній» за тиждень: на Півдні знищили понад півтори тисячі російських дронів» (ArmyInform: 1,307 Molniyas in a week – over 1,500 Russian drones destroyed in the South)",
+       "titleNl": "Oekraïense Verdedigingsmacht Zuid meldt 1.528 Russische drones neergehaald in een week, waaronder 1.307 Molnija's",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-10-13T18:15:44.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Het Oekraïense staatsmedium ArmyInform meldt, op basis van het weekoverzicht van de Oekraïense Verdedigingsmacht Zuid, dat in de zuidelijke sector in één week 1.528 Russische onbemande luchtvaartuigen zijn vernietigd. Het overgrote deel, 1.307 stuks, waren Molnija-drones. Daarnaast ging het om 116 aanvalsdrones van he…",
+       "enSummary": "Ukrainian state outlet ArmyInform, citing the weekly results of Ukraine's Southern Defence Forces, reports that 1,528 Russian unmanned aerial vehicles were destroyed in the southern sector in one week. The large majority, 1,307, were Molniya drones. The rest were 116 Shahed-type long-range strike drones, 75 reconnaiss…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/13/1307-molnij-za-tyzhden-na-pivdni-znyshhyly-ponad-pivtory-tysyachi-rosijskyh-droniv",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20261014-s11",
+       "title": "«На Украине заявляют, что ПВО ВСУ якобы сбивает до 85% реактивных дронов» (Topwar: Ukraine claims its air defence shoots down up to 85% of jet drones)",
+       "titleNl": "Topwar: Oekraïne claimt tot 85% van de Russische straaldrones neer te halen, tegen 40% in juli — Topwar spreekt van overdrijving",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-10-13T11:41:41.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Topwar meldt dat de woordvoerder van de Oekraïense luchtmacht, Ihnat (Joerij Ihnat), heeft gezegd dat Oekraïne veel beter is geworden in het bestrijden van Russische aanvalsdrones met straalmotor. Volgens Ihnat, zoals Topwar hem citeert, wordt op sommige dagen inmiddels tot 85% van de Russische straaldrones neergehaal…",
+       "enSummary": "Topwar reports that Ukrainian Air Force spokesperson Ihnat (Yurii Ihnat) has said that Ukraine has greatly improved its defence against Russian jet-powered attack drones. According to Ihnat as quoted by Topwar, on some days up to 85% of Russian jet drones are now shot down, compared with no more than 40% in July. He a…",
+       "sourceUrl": "https://topwar.ru/291559-na-ukraine-zajavljajut-chto-pvo-vsu-jakoby-sbivaet-do-85-reaktivnyh-dronov.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261014-04",
+       "title": "Ukraine fields a new fast interceptor drone against Russia's jet-powered Geran-5, claiming two kills over Kyiv in its first week",
+       "titleNl": "Oekraïne zet nieuwe snelle interceptordrone in tegen de Russische Geran-5 met straalmotor en claimt twee neerschietingen boven Kyiv in de eerste week",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-12T16:02:34.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "De Russische Geran-5 met straalmotor is uitgegroeid tot een van de lastigste doelen voor de Oekraïense luchtverdediging. Volgens de Kyiv Independent vliegt het toestel aanzienlijk hoger en sneller dan eerdere Shahed/Geran-typen, met een topsnelheid van ongeveer 600 km/u; Fabian Hoffmann van het Noorse Instituut voor D…",
+       "enSummary": "Russia's jet-powered Geran-5 has become one of the hardest targets for Ukrainian air defence. According to the Kyiv Independent it flies considerably higher and faster than earlier Shahed/Geran types, with a maximum speed of about 600 km/h; Fabian Hoffmann of the Norwegian Institute for Defence Studies described it as…",
+       "sourceUrl": "https://kyivindependent.com/new-interceptor-drone-destroys-two-russian-geran-5-drones-in-first-week-fedorov-says/",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf",
+        "scale",
+        "counter"
+       ]
+      },
       {
        "id": "e-20261012-05",
        "title": "Ukraine says Russia is developing 800 km/h jet drones, as jet-powered Gerans are already shot down at only about 55 percent versus over 90 percent for propeller Shaheds",
@@ -2230,99 +2407,6 @@
        "signals": [
         "deploy",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20261011-s04",
-       "title": "«Подборка поражений пулеметным огнем вражеских БПЛА подразделениями \"Восьмерка\" и \"Ирландцы\"» (Dva Majora: Compilation of enemy UAVs downed by machine-gun fire from the \"Vosmerka\" and \"Irlandtsy\" units)",
-       "titleNl": "Compilatie van vijandelijke UAV's neergeschoten met mitrailleurvuur door de eenheden \"Vosmerka\" en \"Irlandtsy\" (Dva Majora)",
-       "category": "ttp",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-10-10T08:22:12.000Z",
-       "updatedAt": "2026-10-11T07:45:00.000Z",
-       "nlSummary": "Let op: dit is een bericht van Dva Majora, een Russisch pro-oorlogs Telegramkanaal (milblogger). Het is een persoonlijke/redactionele stem, geen standpunt van het Russische ministerie van Defensie; milbloggers kunnen elkaar en het ministerie tegenspreken, en de onderstaande beweringen zijn niet onafhankelijk bevestigd.",
-       "enSummary": "Caveat: this is a post by Dva Majora, a Russian pro-war Telegram channel (milblogger). It is a personal/editorial voice, not a position of the Russian Ministry of Defence; milbloggers can contradict each other and the MoD, and the claims below have not been independently verified.",
-       "sourceUrl": "https://t.me/dva_majors/100276",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20261010-s03",
-       "title": "«На висоті 5500 метрів: «Маямі» з 92-ї бригади збив російський Supercam» (ArmyInform: At an altitude of 5,500 metres: 'Miami' of the 92nd Brigade shoots down a Russian Supercam)",
-       "titleNl": "Op 5.500 meter hoogte: 'Miami' van de 92e Brigade schiet een Russische Supercam neer (ArmyInform)",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-10-09T16:29:33.000Z",
-       "updatedAt": "2026-10-10T08:30:00.000Z",
-       "nlSummary": "Volgens de 92e Afzonderlijke Aanvalsbrigade 'Kosjovi Otaman Ivan Sirko' heeft een militair met de roepnaam 'Miami' van de interceptordronebatterij 'Stervjatnyky' ('Gieren') van de brigade een Russische Supercam-verkenningsdrone neergeschoten op een hoogte van 5,5 km. De onderschepping gebeurde met een Oekraïense inter…",
-       "enSummary": "According to the 92nd Separate Assault Brigade named after Koshovyi Otaman Ivan Sirko, a soldier with the call sign 'Miami' from the brigade's interceptor-drone battery 'Stervyatnyky' ('Vultures') shot down a Russian Supercam reconnaissance UAV at an altitude of 5.5 km. The interception was made with a Ukrainian inter…",
-       "sourceUrl": "https://armyinform.com.ua/2026/10/09/na-vysoti-5500-metriv-mayami-z-92-yi-brygady-zbyv-rosijskyj-supercam",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf"
-       ]
-      },
-      {
-       "id": "e-20261010-s04",
-       "title": "«Сили ППО вночі знешкодили 114 ворожих БПЛА, більшість — реактивні» (ArmyInform: Air defence forces neutralised 114 enemy UAVs overnight, most of them jet-powered)",
-       "titleNl": "Luchtverdediging schakelt 's nachts 114 vijandelijke drones uit, de meeste straalaangedreven (ArmyInform)",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-10-09T05:11:21.000Z",
-       "updatedAt": "2026-10-10T08:30:00.000Z",
-       "nlSummary": "Volgens de Oekraïense luchtmacht, geciteerd door ArmyInform, viel Rusland Oekraïne in de nacht van 9 oktober (vanaf 18:00 uur op 8 oktober) aan met in totaal 136 drones: aanvalsdrones van het type Shahed, Gerbera-drones en lokdrones van het type Parodija. 93 van de 136 drones in totaal waren straalaangedreven Shaheds…",
-       "enSummary": "According to the Ukrainian Air Force, as relayed by ArmyInform, Russia attacked Ukraine overnight on 9 October (from 18:00 on 8 October) with a total of 136 drones: Shahed-type strike drones, Gerbera drones and Parodiya-type decoy drones. 93 of the 136 drones in total were jet-powered Shaheds (just over two-thirds). T…",
-       "sourceUrl": "https://armyinform.com.ua/2026/10/09/syly-ppo-vnochi-zneshkodyly-114-vorozhyh-bpla-bilshist-reaktyvni",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20261009-04",
-       "title": "Ukrainian firm Phantom Defense says its counter-drone EW systems were tested at Fort Carson in the Pentagon's Drone Dominance programme",
-       "titleNl": "Oekraïens bedrijf Phantom Defense: eigen anti-drone-EW-systemen getest op Fort Carson binnen het Drone Dominance-programma van het Pentagon",
-       "category": "weapon",
-       "topics": [
-        "ew",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 1,
-       "publishedAt": "2026-10-08T17:06:00.000Z",
-       "updatedAt": "2026-10-10T08:30:00.000Z",
-       "nlSummary": "Het Oekraïense defensietechbedrijf Phantom Defense zegt dat zijn systemen voor elektronische oorlogvoering (EW) in de Verenigde Staten zijn getest tijdens de tweede fase (\"Gauntlet II\") van het Drone Dominance-programma van het Pentagon, op de militaire basis Fort Carson in Colorado. Volgens de persdienst van het bedr…",
-       "enSummary": "Ukrainian defence tech company Phantom Defense says its electronic warfare (EW) systems were tested in the United States during the second stage (\"Gauntlet II\") of the Pentagon's Drone Dominance programme, at Fort Carson in Colorado. According to the company's press service, speaking to Ukrainska Pravda, Phantom Defen…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/08/8057112",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "deploy",
-        "counter"
        ]
       }
      ]
@@ -2473,8 +2557,8 @@
     "arena-m": {
      "name": "Arena-M (APS)",
      "nameEn": "Arena-M (APS)",
-     "total": 4,
-     "signalCount": 4,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20261009-10",
@@ -2547,30 +2631,6 @@
         "scale",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260914-06",
-       "title": "Russia's New T-90M and T-72B3M Tanks Arrive With Upgraded Anti-Drone Protection",
-       "titleNl": "Nieuwe Russische T-90M- en T-72B3M-tanks krijgen verbeterde anti-drone-bescherming",
-       "category": "weapon",
-       "topics": [
-        "armor",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-12T13:09:22.000Z",
-       "updatedAt": "2026-09-14T09:00:00.000Z",
-       "nlSummary": "Het Russische staatsbedrijf Uralvagonzavod (UVZ) — de gesanctioneerde tankfabriek in Nizjni Tagil — heeft volgens moederbedrijf Rostec een nieuwe partij T-90M \"Proryv\"- en T-72B3M-tanks aan het Russische leger geleverd. De levering werd gekoppeld aan de 80e viering van de Russische \"Tankbemanningsdag\". Zoals bij eerde…",
-       "enSummary": "Russian state manufacturer Uralvagonzavod (UVZ) — the sanctioned tank plant in Nizhny Tagil — has delivered a new batch of T-90M \"Proryv\" and T-72B3M tanks to Russian forces, according to parent company Rostec. The delivery was timed to coincide with the 80th observance of Russia's \"Tank Crew Day.\" As with previous ba…",
-       "sourceUrl": "https://defence-blog.com/new-russian-tanks-arrive-with-upgraded-protection",
-       "sourceCount": 3,
-       "signals": [
-        "variant",
-        "deploy",
-        "counter"
-       ]
       }
      ]
     },
@@ -2639,9 +2699,58 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 16,
-     "signalCount": 5,
+     "total": 18,
+     "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20261014-01",
+       "title": "Russian ballistic missiles hit Kyiv before sirens on 12 and 13 October; Zelensky says partners gave no launch warning twice, while Trump says US intelligence sharing continues",
+       "titleNl": "Russische ballistische raketten treffen Kyiv op 12 en 13 oktober vóór het luchtalarm; Zelensky: partners gaven twee keer geen lanceerwaarschuwing, Trump: VS blijven inlichtingen delen",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-12T22:43:45.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Rusland trof Kyiv op de avond van 12 oktober 2026 met ballistische raketten, en het luchtalarm in de stad ging pas af toen de aanval al bezig was. Volgens voorlopige gegevens van de Oekraïense luchtmacht ging het om zes ballistische raketten. Latere berichtgeving van Meduza en Euromaidan Press, op basis van POLITICO,…",
+       "enSummary": "Russia hit Kyiv with ballistic missiles on the evening of 12 October 2026, and the city's air-raid alert sounded only after the attack had begun. Preliminary Ukrainian Air Force data put the salvo at six ballistic missiles. Later reporting by Meduza and Euromaidan Press, citing POLITICO, gives five ballistic missiles…",
+       "sourceUrl": "https://euromaidanpress.com/2026/10/13/russian-ballistic-missiles-hit-kyiv-before-sirens-gap-that-lands-hard-amid-fears-that-washington-could-cut-data-that-warns-of-launches",
+       "sourceCount": 8,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261012-02",
        "title": "Ukraine says it has hit eight Russian Iskander and S-400 launchers used for ballistic strikes since September, destroying three",
@@ -2740,50 +2849,6 @@
         "perf",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20261001-08",
-       "title": "Relocation of S-400 systems from Turkey on agenda — Kremlin spokesman",
-       "titleNl": "Verplaatsing van S-400-systemen uit Turkije op de agenda — Kremlinwoordvoerder",
-       "category": "weapon",
-       "topics": [
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-30T10:36:15.000Z",
-       "updatedAt": "2026-10-01T07:00:00.000Z",
-       "nlSummary": "Kremlinwoordvoerder Dmitri Peskov zei, geciteerd door TASS, dat de verplaatsing van Russische S-400-luchtverdedigingssystemen uit Turkije op de agenda staat: 'Het onderwerp staat op de agenda, er wordt aan gewerkt en er vindt passende communicatie plaats.' Veel verdere details gaf hij niet.",
-       "enSummary": "Kremlin spokesman Dmitry Peskov, quoted by TASS, said the relocation of Russian-made S-400 air defence systems from Turkey is on the agenda: \"The topic is on the agenda, relevant work is being conducted, and appropriate communication is in progress.\" He gave little further detail.",
-       "sourceUrl": "https://tass.com/politics/2195035",
-       "sourceCount": 1,
-       "signals": []
-      },
-      {
-       "id": "e-20261001-01",
-       "title": "Russian combined strike on Kyiv and Kyiv Oblast, 29-30 Sep: Zircon/Oniks, Iskander and 188 drones, energy infrastructure the main target",
-       "titleNl": "Russische gecombineerde aanval op Kyiv en oblast Kyiv, 29-30 sep: Zircon/Oniks, Iskander en 188 drones, energie-infrastructuur hoofddoel",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "missiles",
-        "air-defense",
-        "doctrine"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-30T02:04:00.000Z",
-       "updatedAt": "2026-10-01T07:00:00.000Z",
-       "nlSummary": "Volgens de Oekraïense luchtmacht viel Rusland Oekraïne in de nacht van 29 op 30 september (vanaf 18:00 uur op 29 september) aan met Zircon/Oniks-antischeepsraketten, gelanceerd vanuit oblast Koersk, ballistische Iskander-M/S-400-raketten, gelanceerd vanuit de oblasten Voronezj en Brjansk, en 188 drones: Shaheds (86 da…",
-       "enSummary": "According to Ukraine's Air Force, Russia attacked Ukraine on the night of 29-30 September (from 18:00 on 29 September) with Zircon/Oniks anti-ship missiles launched from Kursk Oblast, Iskander-M/S-400 ballistic missiles launched from Voronezh and Bryansk oblasts, and 188 drones: Shahed (86 of them jet-powered), Gerber…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/30/8055698",
-       "sourceCount": 6,
-       "signals": [
-        "loss",
-        "deploy"
        ]
       }
      ]
@@ -3685,9 +3750,30 @@
     "raad": {
      "name": "Ra'ad (Iran)",
      "nameEn": "Ra'ad (Iran)",
-     "total": 1,
+     "total": 2,
      "signalCount": 1,
      "entries": [
+      {
+       "id": "e-20261014-11",
+       "title": "EU blacklists 1,569 Russian arms suppliers and executives in its largest-ever sanctions listing, most of them tied to the ballistic-missile supply chain",
+       "titleNl": "EU zet 1.569 Russische wapenleveranciers en hun bestuurders op de sanctielijst in grootste sanctieronde ooit, vooral rond de toeleveringsketen voor ballistische raketten",
+       "category": "org",
+       "topics": [
+        "missiles",
+        "drones",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-12T14:58:45.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "De EU heeft op 12 oktober volgens de Raad van de EU haar grootste sanctieronde ooit aangenomen. Volgens Euromaidan Press gaat het om 1.569 vermeldingen in de Russische oorlogsindustrie: 826 Russische bedrijven en 743 personen. Het persbericht van de Raad zelf spreekt van \"bijna 1.600\". Het zijn vooral middelgrote bedr…",
+       "enSummary": "On 12 October the EU adopted what the Council of the EU calls its largest-ever round of sanctions listings. Euromaidan Press reports that it targets 1,569 entries in Russia's war industry: 826 Russian companies and 743 individuals. The Council's own press release speaks of \"almost 1,600\". The targets are mostly mid-le…",
+       "sourceUrl": "https://euromaidanpress.com/2026/10/12/eu-blacklists-1569-russian-arms-suppliers-and-their-bosses-in-its-biggest-sanctions-round-ever-as-trump-eases-up-on-moscow",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20260930-10",
        "title": "Ukraine's F-16s credited with 3,150+ Russian aerial targets, incl. 666 cruise missiles and ~2,500 drones; partners add Belgian F-16s, NASAMS and interceptor missiles",
@@ -4211,6 +4297,30 @@
      "signalCount": 3,
      "entries": [
       {
+       "id": "e-20261014-09",
+       "title": "Russian-led CSTO drills with 1,500 troops, riot police and about 80 drones in Belarus's Vitsebsk Oblast, which borders Latvia and Lithuania",
+       "titleNl": "CSTO oefent met vredeshandhavers, ME en dronebemanningen in Wit-Russische oblast aan de grens met Letland en Litouwen",
+       "category": "org",
+       "topics": [
+        "drones",
+        "ew",
+        "command"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-12T13:22:47.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "De door Rusland geleide Collectieve Veiligheidsverdragsorganisatie (CSTO) is begonnen aan een vijfdaagse oefening in de Wit-Russische oblast Vitebsk, die grenst aan Letland en Litouwen, meldt Euromaidan Press. Volgens de tags bij het artikel heten de oefeningen 'Onverwoestbare Broederschap-2026' en 'Barrière-2026'. Ze…",
+       "enSummary": "The Russian-led Collective Security Treaty Organization (CSTO) has begun five-day drills in Belarus's Vitsebsk Oblast, which borders Latvia and Lithuania, Euromaidan Press reports. According to tags on the article, the exercises are named \"Indestructible Brotherhood-2026\" and \"Barrier-2026\". They began on 12 October;…",
+       "sourceUrl": "https://euromaidanpress.com/2026/10/12/peacekeepers-riot-police-and-drone-crews-russias-bloc-rehearses-an-operation-in-a-belarusian-oblast-bordering-two-nato-states",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
+       ]
+      },
+      {
        "id": "e-20260930-s07",
        "title": "russia Restricts Airspace Over Kapustin Yar Test Range, Potentially Ahead of Ballistic Missile Tests",
        "titleNl": "Rusland sluit luchtruim boven testterrein Kapoestin Jar, mogelijk voorafgaand aan ballistische rakettests",
@@ -4254,28 +4364,6 @@
        "signals": [
         "loss",
         "variant",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260914-09",
-       "title": "Duma lawmaker threatens fourth Oreshnik strike, claims three prior launches carried six warheads each",
-       "titleNl": "Doema-lid dreigt met vierde Oreshnik-lancering, claimt drie eerdere inzetten met zes gevechtskoppen",
-       "category": "weapon",
-       "topics": [
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-11T00:00:00.000Z",
-       "updatedAt": "2026-09-14T13:00:00.000Z",
-       "nlSummary": "Andrei Kolesnik, lid van het defensiecomité van de Russische Staatsdoema, verklaarde op 11 september 2026 dat Rusland zijn Oreshnik-raket al drie keer tegen Oekraïne heeft ingezet — telkens met zes lostkoppen — en dreigde met een vierde lancering: \"het uur is niet ver weg waarop de Oekraïense kant zal voelen wat Oresh…",
-       "enSummary": "Andrei Kolesnik, a member of the Russian State Duma's defense committee, stated on 11 September 2026 that Russia has already fired its Oreshnik missile at Ukraine three times — each time with six warheads — and threatened a fourth launch, saying \"the hour is not far when the Ukrainian side will feel what Oreshnik is.\"…",
-       "sourceUrl": "https://euromaidanpress.com/2026/09/11/russia-has-fired-its-oreshnik-with-six-warheads-at-ukraine-three-times-state-duma-defense-committee-member-says-hour-is-not-far-before-fourth-one",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
         "scale"
        ]
       }
@@ -4729,9 +4817,33 @@
     "sa27": {
      "name": "Buk-M3 (SA-27)",
      "nameEn": "Buk-M3 (SA-27)",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-s01",
+       "title": "«Удар по ЗРК за $45 млн: «Чорний ліс» уразив російський «Бук-М3»» (ArmyInform: A $45 million strike on a SAM system: 'Chorny Lis' hits a Russian Buk-M3)",
+       "titleNl": "Oekraïense eenheid 'Tsjornyj Lis' meldt treffer op Russisch Boek-M3-luchtverdedigingssysteem van naar schatting $45 miljoen",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones",
+        "artillery"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-10-13T12:11:19.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Het Oekraïense staatsmedium ArmyInform meldt dat militairen van de eenheid 'Tsjornyj Lis' ('Zwart Woud') van de 15e Artillerieverkenningsbrigade op 13 oktober 2026 een Russisch Boek-M3-luchtafweersysteem hebben opgespoord en getroffen. De brigade schat de waarde van het systeem op ongeveer 45 miljoen dollar en verspre…",
+       "enSummary": "According to Ukrainian state outlet ArmyInform, soldiers of the 'Chorny Lis' ('Black Forest') unit of the 15th Artillery Reconnaissance Brigade located and struck a Russian Buk-M3 surface-to-air missile system on 13 October 2026. The brigade put the value of the system at around $45 million and released video of the s…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/13/udar-po-zrk-za-45-mln-chornyj-lis-urazyv-rosijskyj-buk-m3",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261010-s06",
        "title": "Су-24, два катери, 40 пунктів управління та десятки засобів ППО, РЛС і РЕБ — результати middle strike за вересень (ArmyInform: Su-24, two boats, 40 command posts and dozens of air-defence, radar and EW assets: results of middle strike for September)",
@@ -5452,6 +5564,37 @@
       }
      ]
     },
+    "mig31": {
+     "name": "MiG-31",
+     "nameEn": "MiG-31",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261014-03",
+       "title": "Ukrainian intelligence: Kh-47M2 Kinzhal shares ~90% of its components with the Iskander-M's 9M723, and 58 Russian firms make it",
+       "titleNl": "Oekraïense inlichtingendienst: Kh-47M2 Kinzjal is voor ~90% opgebouwd uit Iskander-M-onderdelen (9M723), en 58 Russische bedrijven maken hem",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-12T19:19:48.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens Militarnyi en Euromaidan Press publiceerde de Oekraïense militaire inlichtingendienst (HUR/DIU) op 12 oktober een analyse van de Kh-47M2 Kinzjal en de productieketen erachter. Daarbij hoort een interactief 3D-model op het portaal War&Sanctions. HUR noemt de Russische industriële aanduiding 9-S-7760 en beschrij…",
+       "enSummary": "On 12 October Ukraine's Defence Intelligence (HUR/DIU) published a breakdown of the Kh-47M2 Kinzhal and its production chain, including an interactive 3D model on its War&Sanctions portal, as reported by Militarnyi and Euromaidan Press. HUR gives the missile the Russian industrial designation 9-S-7760 and describes it…",
+       "sourceUrl": "https://militarnyi.com/en/news/kinzhal-missile-90-iskander-m-components/",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      }
+     ]
+    },
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
@@ -5961,12 +6104,66 @@
       }
      ]
     },
+    "tu160": {
+     "name": "Tu-160",
+     "nameEn": "Tu-160",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261014-07",
+       "title": "Russia builds the first three of 16 large bomber shelters, each about 63 x 63 m, at Engels-2 after repeated Ukrainian drone strikes (Defence Blog)",
+       "titleNl": "Rusland bouwt de eerste drie van zestien grote bommenwerpershelters, elk circa 63 x 63 m, op Engels-2 na herhaalde Oekraïense droneaanvallen (Defence Blog)",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "fortifications",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-13T14:32:25.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Rusland heeft de stalen frames van de eerste drie van zestien geplande grote vliegtuigshelters op Engels-2 bijna af. Engels-2, in de oblast Saratov, is de hoofdbasis van de strategische bommenwerpervloot. Defence Blog meldt dit op basis van satellietbeelden die de open-bronnenanalysegroep AviVector publiceerde. Een op…",
+       "enSummary": "Russia has nearly finished the steel frames of the first three of 16 planned large aircraft shelters at Engels-2 in Saratov Oblast, the main base of its strategic bomber fleet. Defence Blog reports this based on satellite imagery published by the open-source analysis group AviVector. An Airbus Defence and Space image…",
+       "sourceUrl": "https://defence-blog.com/russia-builds-giant-bomber-shelters-at-engels-air-base",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      }
+     ]
+    },
     "tu95": {
      "name": "Tu-95",
      "nameEn": "Tu-95",
-     "total": 2,
-     "signalCount": 2,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
+      {
+       "id": "e-20261014-07",
+       "title": "Russia builds the first three of 16 large bomber shelters, each about 63 x 63 m, at Engels-2 after repeated Ukrainian drone strikes (Defence Blog)",
+       "titleNl": "Rusland bouwt de eerste drie van zestien grote bommenwerpershelters, elk circa 63 x 63 m, op Engels-2 na herhaalde Oekraïense droneaanvallen (Defence Blog)",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "fortifications",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-13T14:32:25.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Rusland heeft de stalen frames van de eerste drie van zestien geplande grote vliegtuigshelters op Engels-2 bijna af. Engels-2, in de oblast Saratov, is de hoofdbasis van de strategische bommenwerpervloot. Defence Blog meldt dit op basis van satellietbeelden die de open-bronnenanalysegroep AviVector publiceerde. Een op…",
+       "enSummary": "Russia has nearly finished the steel frames of the first three of 16 planned large aircraft shelters at Engels-2 in Saratov Oblast, the main base of its strategic bomber fleet. Defence Blog reports this based on satellite imagery published by the open-source analysis group AviVector. An Airbus Defence and Space image…",
+       "sourceUrl": "https://defence-blog.com/russia-builds-giant-bomber-shelters-at-engels-air-base",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20260930-01",
        "title": "Tu-95MS crash in Amur Oblast killed eight strategic aviation personnel, including officers linked to missile strikes on Ukraine",
@@ -6175,9 +6372,34 @@
     "kn23": {
      "name": "KN-23 (Hwasong-11A)",
      "nameEn": "KN-23 (Hwasong-11A)",
-     "total": 7,
+     "total": 8,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261011-s01",
        "title": "«Понад 52 тисячі цілей за місяць: Повітряні Сили оприлюднили результати роботи у вересні» (ArmyInform: More than 52,000 targets in a month: the Air Force publishes its September results)",
@@ -6292,28 +6514,6 @@
        "sourceUrl": "https://euromaidanpress.com/2026/09/19/north-korea-has-fired-around-150-ballistic-missiles-at-ukraine-learning-from-each-one-same-missiles-threaten-japan-and-kyiv-just-shows-its-speaker-what-is-inside-them",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20260919-02",
-       "title": "Russia ramps up ballistic strikes on Ukraine using converted S-400 missiles",
-       "titleNl": "Rusland zet omgebouwde S-400-raketten in voor ballistische aanvallen op Oekraïne",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-18T11:10:00.000Z",
-       "updatedAt": "2026-09-19T09:00:00.000Z",
-       "nlSummary": "Rusland heeft volgens een Reuters-exclusive, gebaseerd op officiële Oekraïense gegevens, zijn ballistische aanvallen op Oekraïne naar recordniveaus opgevoerd door massaal gebruik te maken van de RM48U — een omgebouwde trainings-/doelraket die oorspronkelijk gebaseerd is op afgedankte S-400-interceptorraketten (48N6DM-…",
-       "enSummary": "Russia has driven its ballistic missile campaign against Ukraine to record intensity through mass use of the RM48U — a converted training/target missile originally built on decommissioned S-400 interceptor missiles (48N6DM family) and used to train air-defence crews — according to a Reuters exclusive based on official…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/18/8054073",
-       "sourceCount": 1,
-       "signals": [
-        "scale"
-       ]
       }
      ]
     },
@@ -6384,9 +6584,34 @@
     "zircon": {
      "name": "3M22 Zircon",
      "nameEn": "3M22 Zircon",
-     "total": 7,
+     "total": 8,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261011-s01",
        "title": "«Понад 52 тисячі цілей за місяць: Повітряні Сили оприлюднили результати роботи у вересні» (ArmyInform: More than 52,000 targets in a month: the Air Force publishes its September results)",
@@ -6505,28 +6730,6 @@
        "sourceCount": 4,
        "signals": [
         "loss",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20260919-02",
-       "title": "Russia ramps up ballistic strikes on Ukraine using converted S-400 missiles",
-       "titleNl": "Rusland zet omgebouwde S-400-raketten in voor ballistische aanvallen op Oekraïne",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-18T11:10:00.000Z",
-       "updatedAt": "2026-09-19T09:00:00.000Z",
-       "nlSummary": "Rusland heeft volgens een Reuters-exclusive, gebaseerd op officiële Oekraïense gegevens, zijn ballistische aanvallen op Oekraïne naar recordniveaus opgevoerd door massaal gebruik te maken van de RM48U — een omgebouwde trainings-/doelraket die oorspronkelijk gebaseerd is op afgedankte S-400-interceptorraketten (48N6DM-…",
-       "enSummary": "Russia has driven its ballistic missile campaign against Ukraine to record intensity through mass use of the RM48U — a converted training/target missile originally built on decommissioned S-400 interceptor missiles (48N6DM family) and used to train air-defence crews — according to a Reuters exclusive based on official…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/18/8054073",
-       "sourceCount": 1,
-       "signals": [
         "scale"
        ]
       }
@@ -6789,9 +6992,80 @@
     "iskander": {
      "name": "Iskander-M (9K720)",
      "nameEn": "Iskander-M (9K720)",
-     "total": 17,
+     "total": 20,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-05",
+       "title": "Ukraine says it hit an Iskander-M repair base in Kursk Oblast and a radar station in Bryansk Oblast, plus fuel and ammunition depots in occupied Luhansk Oblast",
+       "titleNl": "Oekraïne meldt treffers op een Iskander-M-herstelbasis in de oblast Koersk en een radarstation in de oblast Brjansk, plus brandstof- en munitiedepots in bezet Loehansk",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-13T08:52:00.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Generale Staf van de Oekraïense strijdkrachten hebben Oekraïense eenheden op 12 oktober en in de nacht van 12 op 13 oktober meerdere Russische militaire doelen aangevallen, zo meldt Ukrainska Pravda. Het belangrijkste doel was een herstelbasis bij Kondrinka in de Russische oblast Koersk. Volgens de Generale…",
+       "enSummary": "The General Staff of the Armed Forces of Ukraine says its forces struck several Russian military facilities on 12 October and during the night of 12-13 October, Ukrainska Pravda reports. The most notable target was a repair base near Kondrinka in Russia's Kursk Oblast. According to the General Staff, the base serviced…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/13/8057766",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20261014-03",
+       "title": "Ukrainian intelligence: Kh-47M2 Kinzhal shares ~90% of its components with the Iskander-M's 9M723, and 58 Russian firms make it",
+       "titleNl": "Oekraïense inlichtingendienst: Kh-47M2 Kinzjal is voor ~90% opgebouwd uit Iskander-M-onderdelen (9M723), en 58 Russische bedrijven maken hem",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-12T19:19:48.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens Militarnyi en Euromaidan Press publiceerde de Oekraïense militaire inlichtingendienst (HUR/DIU) op 12 oktober een analyse van de Kh-47M2 Kinzjal en de productieketen erachter. Daarbij hoort een interactief 3D-model op het portaal War&Sanctions. HUR noemt de Russische industriële aanduiding 9-S-7760 en beschrij…",
+       "enSummary": "On 12 October Ukraine's Defence Intelligence (HUR/DIU) published a breakdown of the Kh-47M2 Kinzhal and its production chain, including an interactive 3D model on its War&Sanctions portal, as reported by Militarnyi and Euromaidan Press. HUR gives the missile the Russian industrial designation 9-S-7760 and describes it…",
+       "sourceUrl": "https://militarnyi.com/en/news/kinzhal-missile-90-iskander-m-components/",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
       {
        "id": "e-20261012-02",
        "title": "Ukraine says it has hit eight Russian Iskander and S-400 launchers used for ballistic strikes since September, destroying three",
@@ -6861,83 +7135,38 @@
        "sourceUrl": "https://euromaidanpress.com/2026/10/09/russia-has-a-plan-for-ukraine-this-winter-ukraine-says-intercepted-document-reportedly-outlines-up-to-1000-missiles-drones-and-bombs-targeting-60-critical-infrastructure-sites/",
        "sourceCount": 2,
        "signals": []
-      },
-      {
-       "id": "e-20261009-02",
-       "title": "Drone strike shuts down Yandex data center on grounds of sanctioned Sasta machine-tool plant in Sasovo (Ryazan region)",
-       "titleNl": "Droneaanval legt Yandex-datacenter plat op terrein van gesanctioneerde werktuigmachinefabriek Sasta in Sasovo (oblast Rjazan)",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-08T08:12:00.000Z",
-       "updatedAt": "2026-10-09T07:30:00.000Z",
-       "nlSummary": "In de nacht van 8 oktober 2026 veroorzaakte een droneaanval brand in Sasovo, oblast Rjazan (circa 580 km van Oekraïne), op het terrein van werktuigmachinefabriek Sasta, waar Yandex sinds 2014 een deel van de voormalige panden gebruikt. Yandex meldde dat het datacenter in Sasovo volledig is stilgevallen; er vielen geen…",
-       "enSummary": "Overnight on 8 October 2026 a drone attack caused a fire in Sasovo, Ryazan region (about 580 km from Ukraine), hitting the grounds of the Sasta machine-tool plant, where Yandex has occupied part of the former premises since 2014. Yandex said the Sasovo data center had completely stopped operating; there were no casual…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/08/8057012",
-       "sourceCount": 5,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20261005-01",
-       "title": "Strike reported on Kaluga Radio Tube Plant (Voskhod), supplier of electronics for Kh-101 and Iskander missiles",
-       "titleNl": "Aanval gemeld op Radiobuizenfabriek Kaloega (Voschod), leverancier van elektronica voor Kh-101- en Iskander-raketten",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-03T07:00:00.000Z",
-       "updatedAt": "2026-10-05T05:13:54.750Z",
-       "nlSummary": "Oekraïense strijdkrachten zouden op 3 oktober 2026 Voschod-KRLZ hebben getroffen, de Radiobuizenfabriek van Kaloega in het westen van Rusland. Het Oekraïense OSINT-project Supernova+ meldde de treffer die avond op basis van lokale bewoners. Op video's van bewoners is vóór de explosie het geluid van een straalmotor te…",
-       "enSummary": "Ukrainian forces reportedly struck Voskhod-KRLZ, the Kaluga Radio Tube Plant in western Russia, on 3 October 2026. The Ukrainian OSINT project Supernova+ reported the hit that evening, citing local residents. Residents' videos carry a jet-engine sound before the explosion, which suggests cruise missiles or jet-powered…",
-       "sourceUrl": "https://militarnyi.com/en/news/defense-forces-hit-kaluga-radio-tube-plant-producing-components-for-kh-101-and-iskander-m/",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20261004-05",
-       "title": "Russia shows Pantsir-S1M on Belarusian MZKT-7930-312 chassis at Tsentr-2026, first official confirmation of the configuration",
-       "titleNl": "Rusland toont Pantsir-S1M op Wit-Russisch MZKT-7930-312-chassis tijdens Tsentr-2026: eerste officiële bevestiging van de configuratie",
-       "category": "weapon",
-       "topics": [
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-03T06:46:38.000Z",
-       "updatedAt": "2026-10-04T17:02:52.331Z",
-       "nlSummary": "Tijdens de strategische oefening Tsentr-2026 heeft Rusland een gemoderniseerd Pantsir-S1M-luchtverdedigingssysteem (kanonnen en raketten) getoond op een Wit-Russisch MZKT-7930-312-chassis, meldt Defence Blog. Het is de eerste officiële bevestiging van deze configuratie, die tot nu toe alleen bekend was uit een uitgele…",
-       "enSummary": "During the strategic exercise Tsentr-2026, Russia showed an upgraded Pantsir-S1M gun-and-missile air defence system mounted on a Belarusian MZKT-7930-312 chassis, Defence Blog reports. It is the first official confirmation of this configuration, which until now was known only from a leaked supply contract and from one…",
-       "sourceUrl": "https://defence-blog.com/russia-shows-pantsir-air-defense-on-belarus-built-chassis",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy"
-       ]
       }
      ]
     },
     "kinzhal": {
      "name": "Kh-47M2 Kinzhal",
      "nameEn": "Kh-47M2 Kinzhal",
-     "total": 1,
-     "signalCount": 0,
+     "total": 2,
+     "signalCount": 1,
      "entries": [
+      {
+       "id": "e-20261014-03",
+       "title": "Ukrainian intelligence: Kh-47M2 Kinzhal shares ~90% of its components with the Iskander-M's 9M723, and 58 Russian firms make it",
+       "titleNl": "Oekraïense inlichtingendienst: Kh-47M2 Kinzjal is voor ~90% opgebouwd uit Iskander-M-onderdelen (9M723), en 58 Russische bedrijven maken hem",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-12T19:19:48.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens Militarnyi en Euromaidan Press publiceerde de Oekraïense militaire inlichtingendienst (HUR/DIU) op 12 oktober een analyse van de Kh-47M2 Kinzjal en de productieketen erachter. Daarbij hoort een interactief 3D-model op het portaal War&Sanctions. HUR noemt de Russische industriële aanduiding 9-S-7760 en beschrij…",
+       "enSummary": "On 12 October Ukraine's Defence Intelligence (HUR/DIU) published a breakdown of the Kh-47M2 Kinzhal and its production chain, including an interactive 3D model on its War&Sanctions portal, as reported by Militarnyi and Euromaidan Press. HUR gives the missile the Russian industrial designation 9-S-7760 and describes it…",
+       "sourceUrl": "https://militarnyi.com/en/news/kinzhal-missile-90-iskander-m-components/",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
       {
        "id": "e-20261010-06",
        "title": "Ukraine says an intercepted Russian document plans up to 1,000 missiles, drones and bombs against 60 Ukrainian infrastructure targets this winter",
@@ -6964,9 +7193,34 @@
     "oniks": {
      "name": "P-800 Oniks",
      "nameEn": "P-800 Oniks",
-     "total": 4,
-     "signalCount": 4,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261004-05",
        "title": "Russia shows Pantsir-S1M on Belarusian MZKT-7930-312 chassis at Tsentr-2026, first official confirmation of the configuration",
@@ -7180,9 +7434,58 @@
     "dant": {
      "name": "Dan-T / S8000 Banderol",
      "nameEn": "Dan-T / S8000 Banderol",
-     "total": 14,
+     "total": 16,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20261014-01",
+       "title": "Russian ballistic missiles hit Kyiv before sirens on 12 and 13 October; Zelensky says partners gave no launch warning twice, while Trump says US intelligence sharing continues",
+       "titleNl": "Russische ballistische raketten treffen Kyiv op 12 en 13 oktober vóór het luchtalarm; Zelensky: partners gaven twee keer geen lanceerwaarschuwing, Trump: VS blijven inlichtingen delen",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-12T22:43:45.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Rusland trof Kyiv op de avond van 12 oktober 2026 met ballistische raketten, en het luchtalarm in de stad ging pas af toen de aanval al bezig was. Volgens voorlopige gegevens van de Oekraïense luchtmacht ging het om zes ballistische raketten. Latere berichtgeving van Meduza en Euromaidan Press, op basis van POLITICO,…",
+       "enSummary": "Russia hit Kyiv with ballistic missiles on the evening of 12 October 2026, and the city's air-raid alert sounded only after the attack had begun. Preliminary Ukrainian Air Force data put the salvo at six ballistic missiles. Later reporting by Meduza and Euromaidan Press, citing POLITICO, gives five ballistic missiles…",
+       "sourceUrl": "https://euromaidanpress.com/2026/10/13/russian-ballistic-missiles-hit-kyiv-before-sirens-gap-that-lands-hard-amid-fears-that-washington-could-cut-data-that-warns-of-launches",
+       "sourceCount": 8,
+       "signals": [
+        "loss",
+        "deploy",
+        "scale"
+       ]
+      },
       {
        "id": "e-20261011-s01",
        "title": "«Понад 52 тисячі цілей за місяць: Повітряні Сили оприлюднили результати роботи у вересні» (ArmyInform: More than 52,000 targets in a month: the Air Force publishes its September results)",
@@ -7274,54 +7577,6 @@
         "perf",
         "scale"
        ]
-      },
-      {
-       "id": "e-20261001-07",
-       "title": "Russia's Dan-T munition blurs line between UAVs, cruise missiles — Rostec claims S-71M, S-71K and Dan-T jet drones form a new drone-missile class",
-       "titleNl": "Russische Dan-T-munitie doet grens tussen UAV's en kruisraketten vervagen — Rostec presenteert S-71M, S-71K en Dan-T als nieuwe klasse tussen drone en raket",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "missiles",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-30T13:28:15.000Z",
-       "updatedAt": "2026-10-02T07:00:00.000Z",
-       "nlSummary": "Het Russische staatsconcern Rostec stelt in reacties aan de krant van het ministerie van Defensie Krasnaja Zvezda (30 september) en aan TASS dat drie van zijn nieuwste straalaangedreven aanvalsdrones — de S-71M, S-71K en Dan-T — een nieuwe categorie vormen tussen aanvalsdrones en kruisraketten. Redenering van Rostec:…",
-       "enSummary": "Russian state corporation Rostec, in comments to the Defence Ministry newspaper Krasnaya Zvezda (30 September) and to TASS, claims that three of its newest jet-powered strike drones — the S-71M, S-71K and Dan-T — form a new category between attack drones and cruise missiles. Rostec's reasoning: a classic cruise missil…",
-       "sourceUrl": "https://tass.com/defense/2195149",
-       "sourceCount": 2,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20261001-s02",
-       "title": "Сили ППО знешкодили 146 реактивних дронів за день",
-       "titleNl": "Oekraïense luchtverdediging: 146 straaldrones op één dag uitgeschakeld (285 drones overdag gelanceerd, 174 met straalmotor)",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-30T04:03:03.000Z",
-       "updatedAt": "2026-10-01T07:00:00.000Z",
-       "nlSummary": "ArmyInform (het mediakanaal van de Oekraïense strijdkrachten) meldt dat Rusland op 30 september tussen 06:30 en 18:30 uur 285 aanvalsdrones lanceerde, waarvan 174 straalaangedreven (\"reactieve\") drones van het type Geran, en dat de Oekraïense luchtverdediging 254 drones uitschakelde, waarvan 146 straaldrones. Voor de…",
-       "enSummary": "ArmyInform (the Ukrainian armed forces' media outlet) reports that between 06:30 and 18:30 on 30 September Russia launched 285 attack drones, 174 of them jet-powered (\"reactive\") Geran-type drones, and that Ukrainian air defences neutralised 254 drones, of which 146 were jet-powered. For the preceding night (29-30 Sep…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukrainian_air_defense_shows_interceptions_of_jet_powered_russian_drones_near_front_line_video-19945.html",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "counter"
-       ]
       }
      ]
     },
@@ -7387,9 +7642,33 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 55,
+     "total": 53,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261014-s08",
+       "title": "«Мобильные огневые группы ПВО: угрозы, концепция и решения» (Topwar: Mobile air-defence fire groups — threats, concept and solutions)",
+       "titleNl": "Topwar: Russische mobiele vuurgroepen tegen drones — pick-ups met mitrailleurs, stoorzenders en Jolka-onderscheppers",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-10-14T00:57:28.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Kirill Rjabov van Topwar beschrijft de Russische mobiele luchtverdedigingsvuurgroepen (MOG PVO) als het belangrijkste antwoord op kleine drones en op massale Oekraïense droneaanvallen diep in Rusland. Hun hoofdtaak is het bestrijden van lichte drones die in grote aantallen worden ingezet; grotere doelen zijn bijzaak.…",
+       "enSummary": "Topwar author Kirill Ryabov describes Russia's mobile air-defence fire groups (MOG PVO) as its main answer to small drones and to mass long-range Ukrainian drone raids. Their job is to fight light, numerous UAVs; larger targets are a secondary task. According to the article, the first Russian groups appeared in 2023.…",
+       "sourceUrl": "https://topwar.ru/291564-mobilnye-ognevye-gruppy-pvo-ugrozy-koncepcija-i-reshenija.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261012-04",
        "title": "Downed Geran-4 drones carry a 32-element, likely Alabuga-made anti-jam GNSS antenna, while Geran-4 and Geran-5 also get camera-based terrain navigation",
@@ -7503,28 +7782,6 @@
        "sourceUrl": "https://euromaidanpress.com/2026/10/09/russia-has-a-plan-for-ukraine-this-winter-ukraine-says-intercepted-document-reportedly-outlines-up-to-1000-missiles-drones-and-bombs-targeting-60-critical-infrastructure-sites/",
        "sourceCount": 2,
        "signals": []
-      },
-      {
-       "id": "e-20261010-02",
-       "title": "Drones shut down a third Yandex data centre, in Vladimir, after Sasovo and Kaluga, and a Russian opposition outlet reports that all three of Yandex's supercomputers are now offline.",
-       "titleNl": "Drones leggen na Sasovo en Kaloega een derde Yandex-datacenter stil, in Vladimir, en volgens een Russisch oppositiemedium liggen nu alle drie de supercomputers van Yandex plat.",
-       "category": "ttp",
-       "topics": [
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-09T07:01:46.000Z",
-       "updatedAt": "2026-10-12T07:30:00.000Z",
-       "nlSummary": "Binnen vier nachten hebben drones drie datacenters van Yandex getroffen. In de nacht van 7 op 8 oktober veroorzaakte een droneaanval brand in het datacenter in Sasovo, in de oblast Rjazan, dat stilgelegd moest worden; die uitval trof ook klanten op de Yandex-infrastructuur, zoals de websites van de Russische Spoorwege…",
-       "enSummary": "Within four nights, drones have hit three Yandex data centres. On 7-8 October a drone attack set fire to the data centre in Sasovo, Ryazan Oblast, which had to be shut down; the outage also hit clients running on Yandex infrastructure, such as Russian Railways' websites, MegaFon and several media outlets. On 8-9 Octob…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/09/8057180",
-       "sourceCount": 6,
-       "signals": [
-        "loss",
-        "perf"
-       ]
       }
      ]
     },
@@ -7534,6 +7791,29 @@
      "total": 14,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-s04",
+       "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
+       "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-12T17:50:07.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens het Oekraïense staatsmedium ArmyInform hebben dronepiloten van de eenheid Signum van de 57e Zelfstandige Gemotoriseerde Infanteriebrigade tijdens één nacht 'luchtpatrouille' boven Oekraïens grondgebied 25 Russische drones van verschillende typen neergehaald. De eenheid verspreidde er beelden van. De opgegeven…",
+       "enSummary": "Ukrainian state outlet ArmyInform reports that drone pilots of the Signum unit of the 57th Separate Motorised Infantry Brigade shot down 25 Russian UAVs of various types during one night of 'air patrol' over Ukrainian territory, and released video of the engagements. The list given is eight Zala, four Lancet, five Sup…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/12/lanczety-orlany-i-knyaz-piloty-signum-za-nich-znyshhyly-25-rosijskyh-bezpilotnykiv-riznyh-typiv",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261012-04",
        "title": "Downed Geran-4 drones carry a 32-element, likely Alabuga-made anti-jam GNSS antenna, while Geran-4 and Geran-5 also get camera-based terrain navigation",
@@ -7654,43 +7934,86 @@
         "scale",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260928-01",
-       "title": "Russia reportedly fields Geran-5 'K5' variant with autonomous optical (scene-matching) navigation and redesigned fuselage",
-       "titleNl": "Rusland zet naar verluidt Geran-5-variant 'K5' in met autonome optische (beeldvergelijkings)navigatie en aangepaste romp",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "missiles",
-        "ew",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-27",
-       "updatedAt": "2026-09-29T07:00:00.000Z",
-       "nlSummary": "Russische troepen gebruiken naar verluidt een nieuwe versie van de straalaangedreven Geran-5-aanvalsdrone met een autonoom optisch navigatiesysteem en een aangepaste romp. Het bericht komt van het monitoring-Telegramkanaal Colonel GSh (\"Polkovnik GSh\"). Dat noemt de variant Geran-5 K5 en publiceerde een foto die het o…",
-       "enSummary": "Russian forces have reportedly begun using a new modification of the jet-powered Geran-5 strike UAV with an autonomous optical navigation system and a modified fuselage. The report comes from the monitoring Telegram channel Colonel GSh (\"Polkovnik GSh\"), which calls the variant the Geran-5 K5 and published a photo com…",
-       "sourceUrl": "https://militarnyi.com/en/news/russian-forces-begin-using-new-geran-5-version-with-autonomous-optical-navigation/",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf",
-        "counter"
-       ]
       }
      ]
     },
     "decoys": {
      "name": "Decoys & chaff",
      "nameEn": "Decoys & chaff",
-     "total": 20,
+     "total": 22,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-07",
+       "title": "Russia builds the first three of 16 large bomber shelters, each about 63 x 63 m, at Engels-2 after repeated Ukrainian drone strikes (Defence Blog)",
+       "titleNl": "Rusland bouwt de eerste drie van zestien grote bommenwerpershelters, elk circa 63 x 63 m, op Engels-2 na herhaalde Oekraïense droneaanvallen (Defence Blog)",
+       "category": "ttp",
+       "topics": [
+        "airforce",
+        "fortifications",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-13T14:32:25.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Rusland heeft de stalen frames van de eerste drie van zestien geplande grote vliegtuigshelters op Engels-2 bijna af. Engels-2, in de oblast Saratov, is de hoofdbasis van de strategische bommenwerpervloot. Defence Blog meldt dit op basis van satellietbeelden die de open-bronnenanalysegroep AviVector publiceerde. Een op…",
+       "enSummary": "Russia has nearly finished the steel frames of the first three of 16 planned large aircraft shelters at Engels-2 in Saratov Oblast, the main base of its strategic bomber fleet. Defence Blog reports this based on satellite imagery published by the open-source analysis group AviVector. An Airbus Defence and Space image…",
+       "sourceUrl": "https://defence-blog.com/russia-builds-giant-bomber-shelters-at-engels-air-base",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20261014-03",
+       "title": "Ukrainian intelligence: Kh-47M2 Kinzhal shares ~90% of its components with the Iskander-M's 9M723, and 58 Russian firms make it",
+       "titleNl": "Oekraïense inlichtingendienst: Kh-47M2 Kinzjal is voor ~90% opgebouwd uit Iskander-M-onderdelen (9M723), en 58 Russische bedrijven maken hem",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "airforce",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-12T19:19:48.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens Militarnyi en Euromaidan Press publiceerde de Oekraïense militaire inlichtingendienst (HUR/DIU) op 12 oktober een analyse van de Kh-47M2 Kinzjal en de productieketen erachter. Daarbij hoort een interactief 3D-model op het portaal War&Sanctions. HUR noemt de Russische industriële aanduiding 9-S-7760 en beschrij…",
+       "enSummary": "On 12 October Ukraine's Defence Intelligence (HUR/DIU) published a breakdown of the Kh-47M2 Kinzhal and its production chain, including an interactive 3D model on its War&Sanctions portal, as reported by Militarnyi and Euromaidan Press. HUR gives the missile the Russian industrial designation 9-S-7760 and describes it…",
+       "sourceUrl": "https://militarnyi.com/en/news/kinzhal-missile-90-iskander-m-components/",
+       "sourceCount": 2,
+       "signals": [
+        "perf"
+       ]
+      },
       {
        "id": "e-20261011-s01",
        "title": "«Понад 52 тисячі цілей за місяць: Повітряні Сили оприлюднили результати роботи у вересні» (ArmyInform: More than 52,000 targets in a month: the Air Force publishes its September results)",
@@ -7762,73 +8085,6 @@
         "perf",
         "scale",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20261010-s04",
-       "title": "«Сили ППО вночі знешкодили 114 ворожих БПЛА, більшість — реактивні» (ArmyInform: Air defence forces neutralised 114 enemy UAVs overnight, most of them jet-powered)",
-       "titleNl": "Luchtverdediging schakelt 's nachts 114 vijandelijke drones uit, de meeste straalaangedreven (ArmyInform)",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-10-09T05:11:21.000Z",
-       "updatedAt": "2026-10-10T08:30:00.000Z",
-       "nlSummary": "Volgens de Oekraïense luchtmacht, geciteerd door ArmyInform, viel Rusland Oekraïne in de nacht van 9 oktober (vanaf 18:00 uur op 8 oktober) aan met in totaal 136 drones: aanvalsdrones van het type Shahed, Gerbera-drones en lokdrones van het type Parodija. 93 van de 136 drones in totaal waren straalaangedreven Shaheds…",
-       "enSummary": "According to the Ukrainian Air Force, as relayed by ArmyInform, Russia attacked Ukraine overnight on 9 October (from 18:00 on 8 October) with a total of 136 drones: Shahed-type strike drones, Gerbera drones and Parodiya-type decoy drones. 93 of the 136 drones in total were jet-powered Shaheds (just over two-thirds). T…",
-       "sourceUrl": "https://armyinform.com.ua/2026/10/09/syly-ppo-vnochi-zneshkodyly-114-vorozhyh-bpla-bilshist-reaktyvni",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20261009-s20",
-       "title": "Дело закрыто: Польша прекратила расследование дронового налёта на свою территорию (WarGonzo: 'Case closed' — Poland ends its investigation into the drone incursion on its territory)",
-       "titleNl": "WarGonzo: 'Zaak gesloten' — Polen beëindigt onderzoek naar de drone-inval op zijn grondgebied",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-10-08T15:13:01.000Z",
-       "updatedAt": "2026-10-09T07:30:00.000Z",
-       "nlSummary": "WarGonzo meldt dat het Poolse Openbaar Ministerie het onderzoek heeft gesloten naar de massale inval van Russische drones in het Poolse luchtruim in de nacht van 10 september 2025. Volgens het kanaal vonden de onderzoekers meer dan 30 drones en fragmenten in 27 plaatsen, reconstrueerden ze de vliegroutes en stelden ze…",
-       "enSummary": "WarGonzo reports that Polish prosecutors have closed their investigation into the mass incursion of Russian drones into Polish airspace on the night of 10 September 2025. According to the channel, investigators found more than 30 drones and fragments in 27 localities, reconstructed the flight routes and established th…",
-       "sourceUrl": "https://t.me/wargonzo/37477",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20261008-s06",
-       "title": "«Каракурт» бьёт врага наверняка (Krasnaya Zvezda: \"Karakurt hits the enemy for certain\")",
-       "titleNl": "Krasnaja Zvezda: \"Karakoert\" raakt de vijand gegarandeerd — portret van een Molnija-dronebemanning bij Koepjansk",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-10-05T21:01:00.000Z",
-       "updatedAt": "2026-10-08T07:30:00.000Z",
-       "nlSummary": "Krasnaya Zvezda, de krant van het Russische ministerie van Defensie, portretteert een bemanning van een aanvals-UAV van het 375e afzonderlijke antitank-artilleriebataljon (1e Gardetankleger, groepering \"Zapad\") dat de aanvalsdrone \"Molnija\" inzet op de Koepjansk-as. \"Karakoert\" is hier geen wapensysteem maar de roepna…",
-       "enSummary": "Krasnaya Zvezda, the Russian Ministry of Defence newspaper, profiles a strike-UAV crew of the 375th Separate Anti-Tank Artillery Battalion (1st Guards Tank Army, \"Zapad\" group of forces) operating the \"Molniya\" strike drone on the Kupiansk axis. \"Karakurt\" is not a weapon system here but the callsign of the crew comma…",
-       "sourceUrl": "http://redstar.ru/karakurt-byot-vraga-navernyaka",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "perf"
        ]
       }
      ]
@@ -8011,9 +8267,32 @@
     "epm": {
      "name": "Electronic protection",
      "nameEn": "Electronic protection",
-     "total": 10,
+     "total": 11,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261014-s04",
+       "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
+       "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-12T17:50:07.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens het Oekraïense staatsmedium ArmyInform hebben dronepiloten van de eenheid Signum van de 57e Zelfstandige Gemotoriseerde Infanteriebrigade tijdens één nacht 'luchtpatrouille' boven Oekraïens grondgebied 25 Russische drones van verschillende typen neergehaald. De eenheid verspreidde er beelden van. De opgegeven…",
+       "enSummary": "Ukrainian state outlet ArmyInform reports that drone pilots of the Signum unit of the 57th Separate Motorised Infantry Brigade shot down 25 Russian UAVs of various types during one night of 'air patrol' over Ukrainian territory, and released video of the engagements. The list given is eight Zala, four Lancet, five Sup…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/12/lanczety-orlany-i-knyaz-piloty-signum-za-nich-znyshhyly-25-rosijskyh-bezpilotnykiv-riznyh-typiv",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261012-02",
        "title": "Ukraine says it has hit eight Russian Iskander and S-400 launchers used for ballistic strikes since September, destroying three",
@@ -8133,34 +8412,6 @@
        "signals": [
         "variant",
         "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260928-01",
-       "title": "Russia reportedly fields Geran-5 'K5' variant with autonomous optical (scene-matching) navigation and redesigned fuselage",
-       "titleNl": "Rusland zet naar verluidt Geran-5-variant 'K5' in met autonome optische (beeldvergelijkings)navigatie en aangepaste romp",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "missiles",
-        "ew",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-09-27",
-       "updatedAt": "2026-09-29T07:00:00.000Z",
-       "nlSummary": "Russische troepen gebruiken naar verluidt een nieuwe versie van de straalaangedreven Geran-5-aanvalsdrone met een autonoom optisch navigatiesysteem en een aangepaste romp. Het bericht komt van het monitoring-Telegramkanaal Colonel GSh (\"Polkovnik GSh\"). Dat noemt de variant Geran-5 K5 en publiceerde een foto die het o…",
-       "enSummary": "Russian forces have reportedly begun using a new modification of the jet-powered Geran-5 strike UAV with an autonomous optical navigation system and a modified fuselage. The report comes from the monitoring Telegram channel Colonel GSh (\"Polkovnik GSh\"), which calls the variant the Geran-5 K5 and published a photo com…",
-       "sourceUrl": "https://militarnyi.com/en/news/russian-forces-begin-using-new-geran-5-version-with-autonomous-optical-navigation/",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "variant",
-        "deploy",
-        "perf",
         "counter"
        ]
       }
