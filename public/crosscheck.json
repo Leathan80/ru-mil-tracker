@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-14T10:47:57.200Z",
+ "updated": "2026-10-14T10:59:49.110Z",
  "analysisUpdated": "2026-10-14T09:17:34.506Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 463,
-  "cardsWithHits": 101,
-  "matches": 750
+  "cardsWithHits": 103,
+  "matches": 752
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -2741,6 +2741,69 @@
         "deploy",
         "perf",
         "scale"
+       ]
+      }
+     ]
+    },
+    "kvo": {
+     "name": "Knyaz Veshchiy Oleg (KVO)",
+     "nameEn": "Knyaz Veshchiy Oleg (KVO)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261014-s04",
+       "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
+       "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-12T17:50:07.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens het Oekraïense staatsmedium ArmyInform hebben dronepiloten van de eenheid Signum van de 57e Zelfstandige Gemotoriseerde Infanteriebrigade tijdens één nacht 'luchtpatrouille' boven Oekraïens grondgebied 25 Russische drones van verschillende typen neergehaald. De eenheid verspreidde er beelden van. De opgegeven…",
+       "enSummary": "Ukrainian state outlet ArmyInform reports that drone pilots of the Signum unit of the 57th Separate Motorised Infantry Brigade shot down 25 Russian UAVs of various types during one night of 'air patrol' over Ukrainian territory, and released video of the engagements. The list given is eight Zala, four Lancet, five Sup…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/12/lanczety-orlany-i-knyaz-piloty-signum-za-nich-znyshhyly-25-rosijskyh-bezpilotnykiv-riznyh-typiv",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      }
+     ]
+    },
+    "yolka": {
+     "name": "Yolka interceptor",
+     "nameEn": "Yolka interceptor",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261014-s08",
+       "title": "«Мобильные огневые группы ПВО: угрозы, концепция и решения» (Topwar: Mobile air-defence fire groups — threats, concept and solutions)",
+       "titleNl": "Topwar: Russische mobiele vuurgroepen tegen drones — pick-ups met mitrailleurs, stoorzenders en Jolka-onderscheppers",
+       "category": "ttp",
+       "topics": [
+        "air-defense",
+        "drones",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-10-14T00:57:28.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Kirill Rjabov van Topwar beschrijft de Russische mobiele luchtverdedigingsvuurgroepen (MOG PVO) als het belangrijkste antwoord op kleine drones en op massale Oekraïense droneaanvallen diep in Rusland. Hun hoofdtaak is het bestrijden van lichte drones die in grote aantallen worden ingezet; grotere doelen zijn bijzaak.…",
+       "enSummary": "Topwar author Kirill Ryabov describes Russia's mobile air-defence fire groups (MOG PVO) as its main answer to small drones and to mass long-range Ukrainian drone raids. Their job is to fight light, numerous UAVs; larger targets are a secondary task. According to the article, the first Russian groups appeared in 2023.…",
+       "sourceUrl": "https://topwar.ru/291564-mobilnye-ognevye-gruppy-pvo-ugrozy-koncepcija-i-reshenija.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf"
        ]
       }
      ]

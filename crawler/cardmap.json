@@ -154,6 +154,16 @@
           "name": "DOFA-Tek DF-1 / DF-3",
           "match": "\\bdofa\\b|дофа|roscherk|ro[sš]tsjerk|росчерк|gadyuka|gadjoeka|гадюка|\\bdf-?3\\b",
           "require": "drone|дрон|бпла|uav|interceptor|intercept|перехват|onderschep"
+        },
+        "kvo": {
+          "name": "Knyaz Veshchiy Oleg (KVO)",
+          "match": "knyaz\\W+vesh?ch?iy|knjaz\\W+vesjtsji|князь\\W+вещий|\\bkvo\\b",
+          "require": "drone|дрон|бпла|бпла|uav|безпілот|беспилот|розвід|разведчик|reconnaissance|verkenning"
+        },
+        "yolka": {
+          "name": "Yolka interceptor",
+          "match": "[«\"']?(ёлка|елка|yolka|jolka)[»\"']?",
+          "require": "перехват|interceptor|onderschep|бпла|drone|дрон"
         }
       }
     },
