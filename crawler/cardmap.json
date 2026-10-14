@@ -149,6 +149,11 @@
         "tak": {
           "name": "TAK / ATAK",
           "match": "\\batak\\b|team awareness kit"
+        },
+        "dofa-df": {
+          "name": "DOFA-Tek DF-1 / DF-3",
+          "match": "\\bdofa\\b|дофа|roscherk|ro[sš]tsjerk|росчерк|gadyuka|gadjoeka|гадюка|\\bdf-?3\\b",
+          "require": "drone|дрон|бпла|uav|interceptor|intercept|перехват|onderschep"
         }
       }
     },
@@ -659,6 +664,10 @@
         "lmur": {
           "name": "LMUR / Izdeliye 347",
           "match": "\\blmur\\b|(^|[^а-яё])лмур|izdeliye[- ]?(305|347)|изделие[- ]?(305|347)|\\bkh-39\\b|(^|[^а-яё])х-39\\b"
+        },
+        "yak130": {
+          "name": "Yak-130M",
+          "match": "\\byak-?130|\\bяк-?130"
         }
       }
     },

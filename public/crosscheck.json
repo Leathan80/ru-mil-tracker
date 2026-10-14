@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-14T09:20:50.866Z",
+ "updated": "2026-10-14T10:47:57.200Z",
  "analysisUpdated": "2026-10-14T09:17:34.506Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 463,
-  "cardsWithHits": 99,
-  "matches": 744
+  "cardsWithHits": 101,
+  "matches": 750
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -2686,6 +2686,61 @@
         "perf",
         "scale",
         "counter"
+       ]
+      }
+     ]
+    },
+    "dofa-df": {
+     "name": "DOFA-Tek DF-1 / DF-3",
+     "nameEn": "DOFA-Tek DF-1 / DF-3",
+     "total": 2,
+     "signalCount": 2,
+     "entries": [
+      {
+       "id": "e-20261012-s03",
+       "title": "Why Does russia Need DF-3 Gadyuka Jet-Powered Interceptor Drone With 800 km Range, How Could It Actually Be Used? (Defense Express)",
+       "titleNl": "Waarom wil Rusland de straalaangedreven interceptordrone DF-3 Gadjoeka met 800 km bereik, en hoe zou die ingezet kunnen worden?",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-10-11T00:04:56.000Z",
+       "updatedAt": "2026-10-12T07:30:00.000Z",
+       "nlSummary": "De DF-3 Viper (Russisch: Gadjoeka, 'adder') is een concept voor een straalaangedreven interceptordrone met een opgegeven bereik van 800 km en een totale massa van 240 kg, gepresenteerd door het Russische bedrijf DOFA-Tek naast zijn andere straalaangedreven drones. Daartoe behoren de interceptor DF-1 Rosjtsjerk (bereik…",
+       "enSummary": "The DF-3 Viper (Russian: Gadyuka) is a concept for a jet-powered interceptor drone with a stated range of 800 km and a total mass of 240 kg, presented by the Russian company DOFA-Tek alongside its other jet-powered drones. These include the DF-1 Roscherk interceptor (250 km range, up to 500 km/h, 15 kg total mass incl…",
+       "sourceUrl": "https://en.defence-ua.com/weapon_and_tech/why_does_russia_need_df_3_viper_jet_powered_interceptor_drone_with_800_km_range_how_could_it_actually_be_used-20058.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20261008-14",
+       "title": "Russian firm DOFA-Tek unveils DF-1 'Roscherk' jet-powered drone interceptor (claimed 500 km/h)",
+       "titleNl": "Russisch bedrijf DOFA-Tek presenteert straalaangedreven drone-interceptor DF-1 'Rosjtsjerk' (geclaimd 500 km/u)",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-10-07T11:45:46.000Z",
+       "updatedAt": "2026-10-08T07:45:00.000Z",
+       "nlSummary": "Volgens het Russische staatspersbureau TASS heeft het Russische bedrijf DOFA-Tek op het Al-Russische Dronecongres 2026 in Sint-Petersburg (7–9 oktober) een straalaangedreven drone-interceptor gepresenteerd: de DF-1 \"Rosjtsjerk\". Het bedrijf claimt een topsnelheid van 500 km/u, een bereik van ongeveer 250 km en een vli…",
+       "enSummary": "According to the Russian state news agency TASS, the Russian company DOFA-Tek presented a jet-powered drone interceptor, the DF-1 \"Roscherk\", at the All-Russian Drone Congress 2026 in St Petersburg (7–9 October). The company claims a top speed of 500 km/h, a range of about 250 km and an endurance of up to 50 minutes.…",
+       "sourceUrl": "https://tass.com/defense/2198771",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale"
        ]
       }
      ]
@@ -7629,6 +7684,107 @@
        "signals": [
         "deploy",
         "perf"
+       ]
+      }
+     ]
+    },
+    "yak130": {
+     "name": "Yak-130M",
+     "nameEn": "Yak-130M",
+     "total": 4,
+     "signalCount": 4,
+     "entries": [
+      {
+       "id": "e-20261012-06",
+       "title": "Third Yak-130M prototype flies as Russia turns its jet trainer into a radar-equipped light combat aircraft",
+       "titleNl": "Derde prototype van de Yak-130M vliegt: Rusland bouwt zijn straaltrainer om tot licht gevechtsvliegtuig met radar",
+       "category": "weapon",
+       "topics": [
+        "airforce",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-10-11T08:04:28.000Z",
+       "updatedAt": "2026-10-12T07:30:00.000Z",
+       "nlSummary": "Het derde prototype van de Yak-130M, een opgewaardeerde versie van de Yak-130-straaltrainer die is omgebouwd om radar en geleide wapens te dragen, heeft zijn eerste vlucht gemaakt vanaf de vliegtuigfabriek in Irkoetsk, aldus de Russische United Aircraft Corporation (UAC). Het toestel, met staartnummer 137, werd gevlog…",
+       "enSummary": "The third prototype of the Yak-130M, an upgraded version of the Yak-130 jet trainer reworked to carry radar and guided weapons, has made its first flight from the Irkutsk Aviation Plant, according to Russia's United Aircraft Corporation (UAC). The aircraft, side number 137, was flown by Yakovlev test pilots Oleg Mutov…",
+       "sourceUrl": "https://defence-blog.com/third-prototype-of-russias-armed-yak-130-jet-takes-flight",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20261006-s03",
+       "title": "russia Purchased T-34-85 Tanks in Exchange for T-72s and Yak-130s From Laos, Whose Pilots Will Now Be Trained by China",
+       "titleNl": "Rusland kocht T-34-85-tanks van Laos in ruil voor T-72's en Jak-130's, en nu gaat China de Laotiaanse piloten opleiden",
+       "category": "weapon",
+       "topics": [
+        "airforce"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-04T02:04:56.000Z",
+       "updatedAt": "2026-10-06T07:30:00.000Z",
+       "nlSummary": "Defense Express herinnert eraan dat Rusland T-34-85-tanks van Laos verwierf in ruil voor T-72's en Jak-130's; de T-34's rijden sinds 2019 mee in militaire parades in Moskou. Op basis van Janes meldt het medium dat Laos en China op 29 september 2026 een gezamenlijk opleidingscentrum voor piloten op het vliegveld Ban Ke…",
+       "enSummary": "Defense Express recalls that Russia acquired T-34-85 tanks from Laos in exchange for T-72s and Yak-130s; the T-34s have appeared in Moscow military parades since 2019. Citing Janes, the outlet reports that on 29 September 2026 Laos and China announced a joint pilot training centre at Ban Keun Airport. Officially the t…",
+       "sourceUrl": "https://en.defence-ua.com/news/russia_purchased_t_34_85_tanks_in_exchange_for_t_72s_and_yak_130s_from_laos_whose_pilots_will_now_be_trained_by_china-19988.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy"
+       ]
+      },
+      {
+       "id": "e-20260911-s01",
+       "title": "Российский ОПК в Египте: барражирующие боеприпасы, истребители 5 поколения и ПВО нового поколения",
+       "titleNl": "Russische defensie-industrie in Egypte: loitering munitions, 5e-generatiejagers en luchtverdediging van nieuwe generatie",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-11T01:41:10.000Z",
+       "updatedAt": "2026-09-11T09:00:00.000Z",
+       "nlSummary": "Op de El Alamein International Airshow 2026 in Egypte presenteerde de Russische defensie-industrie (ОПК) volgens Topwar een breed pakket exportgerichte wapensystemen aan potentiële afnemers in Noord-Afrika en het Midden-Oosten. Onder de luchtvaartuigen bevonden zich de Su-57Ė — de exportversie van de vijfde-generatiej…",
+       "enSummary": "At the El Alamein International Airshow 2026 in Egypt, Russia's defense industry showcased a broad range of export-oriented weapon systems to potential buyers across North Africa and the Middle East, according to Topwar. Among the aircraft on display were the Su-57Ė — the export version of Russia's fifth-generation fi…",
+       "sourceUrl": "https://topwar.ru/289486-rossijskij-opk-v-egipte-barrazhirujuschie-boepripasy-istrebiteli-5-pokolenija-i-pvo-novogo-pokolenija.html",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20260910-s03",
+       "title": "Russia unveils 'Dan-T' loitering munition as export counterpart to the 'Banderol' (S8000) missile-drone",
+       "titleNl": "Rusland onthult zwerfmunitie 'Dan-T' als exportvariant van de 'Banderol' (S8000)-raketdrone",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-09-09T09:03:07.000Z",
+       "updatedAt": "2026-09-10T09:00:00.000Z",
+       "nlSummary": "Op de internationale lucht- en ruimtevaartbeurs El Alamein in Egypte (8-10 september 2026) toonde het Russische staatsconcern Rostec voor het eerst openlijk een schaalmodel op ware grootte van de zwerfmunitie \"Dan-T\" (Дань-Т). Volgens Rostec bouwt het wapen voort op ontwikkelwerk aan zowel kruisraketten als onbemande…",
+       "enSummary": "At the El Alamein International Airshow in Egypt (8-10 September 2026), Russia's state corporation Rostec publicly displayed for the first time a full-scale mockup of the \"Dan-T\" (Дань-Т) loitering munition. Rostec says the weapon draws on design work in both cruise missiles and unmanned aviation, has completed all de…",
+       "sourceUrl": "https://tass.com/defense/2184675",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "perf",
+        "scale"
        ]
       }
      ]
