@@ -160,6 +160,11 @@
           "match": "knyaz\\W+vesh?ch?iy|knjaz\\W+vesjtsji|князь\\W+вещий|\\bkvo\\b",
           "require": "drone|дрон|бпла|бпла|uav|безпілот|беспилот|розвід|разведчик|reconnaissance|verkenning"
         },
+        "klin": {
+          "name": "Klin (Roboavia)",
+          "match": "\\broboavia\\b|роб[оа]авиа|робоавіа|\\bklin\\b.{0,60}(kamikaze|loitering|drone|uav)|«клин»",
+          "require": "roboavia|робоавиа|робоавіа|kamikaze|камикадзе|камікадзе|loitering|барраж"
+        },
         "yolka": {
           "name": "Yolka interceptor",
           "match": "[«\"']?(ёлка|елка|yolka|jolka)[»\"']?",

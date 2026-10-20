@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-19T18:49:03.000Z",
+ "updated": "2026-10-20T06:59:11.278Z",
  "analysisUpdated": "2026-10-19T18:47:46.409Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 522,
-  "cardsWithHits": 109,
-  "matches": 866
+  "cardsWithHits": 110,
+  "matches": 867
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -2767,6 +2767,38 @@
        "signals": [
         "loss",
         "perf"
+       ]
+      }
+     ]
+    },
+    "klin": {
+     "name": "Klin (Roboavia)",
+     "nameEn": "Klin (Roboavia)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261018-08",
+       "title": "Ukraine says it hit Roboavia drone plant in Rostov Oblast; Ryazan refinery halts main unit after drone attack",
+       "titleNl": "Oekraïne meldt treffer op dronefabriek Roboavia in oblast Rostov; raffinaderij Rjazan legt hoofdinstallatie stil na droneaanval",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "industry"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-17T10:18:00.000Z",
+       "updatedAt": "2026-10-19T18:47:46.409Z",
+       "nlSummary": "De Oekraïense Generale Staf meldt dat Oekraïense eenheden op vrijdag 16 oktober de fabriek van Roboavia bij de nederzetting Choetor Lenina in de Russische oblast Rostov hebben getroffen. Daarbij zou een productie- en opslaggebouw zijn geraakt en de infrastructuur van het bedrijf zijn beschadigd. Volgens de Generale St…",
+       "enSummary": "Ukraine's General Staff says Ukrainian forces struck the Roboavia plant near the settlement of Khutor Lenina in Russia's Rostov Oblast on Friday 16 October, hitting a production and storage building and damaging the company's infrastructure. According to the General Staff, Roboavia develops and manufactures UAVs for t…",
+       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/17/8058516",
+       "sourceCount": 3,
+       "signals": [
+        "loss",
+        "perf",
+        "scale"
        ]
       }
      ]
