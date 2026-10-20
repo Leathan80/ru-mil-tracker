@@ -165,6 +165,11 @@
           "match": "\\broboavia\\b|роб[оа]авиа|робоавіа|\\bklin\\b.{0,60}(kamikaze|loitering|drone|uav)|«клин»",
           "require": "roboavia|робоавиа|робоавіа|kamikaze|камикадзе|камікадзе|loitering|барраж"
         },
+        "italmas": {
+          "name": "Italmas (BM-35)",
+          "match": "\\bitalmas\\b|италмас|італмас|\\bbm-35\\b|изделие\\W+54|виріб\\W+54",
+          "require": "drone|дрон|бпла|uav|kamikaze|камикадзе|камікадзе|loitering|zala|зала|безпілот|беспилот"
+        },
         "yolka": {
           "name": "Yolka interceptor",
           "match": "[«\"']?(ёлка|елка|yolka|jolka)[»\"']?",

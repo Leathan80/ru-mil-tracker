@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-20T07:10:44.701Z",
+ "updated": "2026-10-20T07:23:54.795Z",
  "analysisUpdated": "2026-10-20T07:09:44.889Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 526,
-  "cardsWithHits": 110,
-  "matches": 892
+  "cardsWithHits": 111,
+  "matches": 895
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -2785,6 +2785,85 @@
         "loss",
         "perf",
         "scale"
+       ]
+      }
+     ]
+    },
+    "italmas": {
+     "name": "Italmas (BM-35)",
+     "nameEn": "Italmas (BM-35)",
+     "total": 3,
+     "signalCount": 3,
+     "entries": [
+      {
+       "id": "e-20261020-s02",
+       "title": "«Поранений, вбитий: російський реактивний дрон збили з другого разу» (ArmyInform: 'Wounded, then killed: Russian jet drone shot down at the second attempt')",
+       "titleNl": "ArmyInform: Russische straaldrone pas bij tweede poging neergehaald",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-19T09:09:52.000Z",
+       "updatedAt": "2026-10-20T07:09:44.889Z",
+       "nlSummary": "ArmyInform bericht over een gevechtsvideo die de Oekraïense 78e Luchtaanvalsbrigade op 19 oktober publiceerde. Daarin halen operators van de eenheid \"Redneck\" van de brigade een Russische BM-35 (\"Italmas\") neer, een kamikazedrone met deltavleugel. Het artikel noemt die drone straalaangedreven en zegt dat Rusland hem i…",
+       "enSummary": "ArmyInform reports on a combat video posted on 19 October by Ukraine's 78th Air Assault Brigade. In it, operators of the brigade's \"Redneck\" unit shoot down a Russian BM-35 (\"Italmas\") delta-wing kamikaze drone, which the article calls jet-powered and says Russia uses against frontline and rear-area cities. A first FP…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/19/poranenyj-vbytyj-rosijskyj-reaktyvnyj-dron-zbyly-z-drugogo-razu",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
+       "id": "e-20261014-02",
+       "title": "Russia fires 39 ballistic-trajectory missiles and 128 drones, 77 of them jet-powered, at Ukraine overnight on 13-14 October: three killed in Kyiv, power cut in five districts",
+       "titleNl": "Rusland vuurt in de nacht van 13 op 14 oktober 39 raketten met ballistische baan en 128 drones (waarvan 77 straalaangedreven) af op Oekraïne: drie doden in Kyiv, stroom uitgevallen in vijf districten",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "drones",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-10-13T07:53:37.000Z",
+       "updatedAt": "2026-10-14T09:17:34.506Z",
+       "nlSummary": "Volgens de Oekraïense luchtmacht voerde Rusland tussen 18.00 uur op 13 oktober en de ochtend van 14 oktober een massale gecombineerde aanval uit op Oekraïne. De radiotechnische troepen van de luchtmacht registreerden 167 aanvalsmiddelen. Daarvan waren 39 raketten met een ballistische baan, opgegeven als Iskander-M, KN…",
+       "enSummary": "Russia carried out a massed combined strike on Ukraine between 18:00 on 13 October and the morning of 14 October, according to the Ukrainian Air Force. It says its radio-technical troops tracked 167 air-attack assets. These were 39 missiles flying ballistic trajectories, listed as Iskander-M, KN-23, S-400, Zircon and…",
+       "sourceUrl": "https://meduza.io/en/feature/2026/10/13/kyiv-has-learned-to-live-between-air-raid-alerts-after-two-months-of-relentless-russian-attacks-there-s-barely-any-time-between-them",
+       "sourceCount": 7,
+       "signals": [
+        "loss",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20261010-s03",
+       "title": "«На висоті 5500 метрів: «Маямі» з 92-ї бригади збив російський Supercam» (ArmyInform: At an altitude of 5,500 metres: 'Miami' of the 92nd Brigade shoots down a Russian Supercam)",
+       "titleNl": "Op 5.500 meter hoogte: 'Miami' van de 92e Brigade schiet een Russische Supercam neer (ArmyInform)",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-10-09T16:29:33.000Z",
+       "updatedAt": "2026-10-10T08:30:00.000Z",
+       "nlSummary": "Volgens de 92e Afzonderlijke Aanvalsbrigade 'Kosjovi Otaman Ivan Sirko' heeft een militair met de roepnaam 'Miami' van de interceptordronebatterij 'Stervjatnyky' ('Gieren') van de brigade een Russische Supercam-verkenningsdrone neergeschoten op een hoogte van 5,5 km. De onderschepping gebeurde met een Oekraïense inter…",
+       "enSummary": "According to the 92nd Separate Assault Brigade named after Koshovyi Otaman Ivan Sirko, a soldier with the call sign 'Miami' from the brigade's interceptor-drone battery 'Stervyatnyky' ('Vultures') shot down a Russian Supercam reconnaissance UAV at an altitude of 5.5 km. The interception was made with a Ukrainian inter…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/09/na-vysoti-5500-metriv-mayami-z-92-yi-brygady-zbyv-rosijskyj-supercam",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
        ]
       }
      ]
