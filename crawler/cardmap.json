@@ -708,6 +708,11 @@
           "name": "Dan-T / S8000 Banderol",
           "match": "\\bdan-?t\\b|дань-?т|\\bbanderol\\b|бандерол|\\bs-?8000\\b|\\bs-?71[km]?\\b|с-?71[км]?"
         },
+        "filin": {
+          "name": "Filin",
+          "match": "\\bfilin\\b|филин",
+          "require": "missile|raket|ракет|cruise|kruis|крылат|\\bhur\\b|molniya|молния"
+        },
         "lmur": {
           "name": "LMUR / Izdeliye 347",
           "match": "\\blmur\\b|(^|[^а-яё])лмур|izdeliye[- ]?(305|347)|изделие[- ]?(305|347)|\\bkh-39\\b|(^|[^а-яё])х-39\\b"
