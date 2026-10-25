@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-25T09:53:01.346Z",
+ "updated": "2026-10-25T10:02:39.881Z",
  "analysisUpdated": "2026-10-25T09:52:01.444Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 594,
-  "cardsWithHits": 118,
-  "matches": 1057
+  "cardsWithHits": 119,
+  "matches": 1058
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -1681,6 +1681,37 @@
         "loss",
         "deploy",
         "perf"
+       ]
+      }
+     ]
+    },
+    "albatros-m5": {
+     "name": "Albatros-M5",
+     "nameEn": "Albatros-M5",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261025-s10",
+       "title": "«Штучний інтелект не врятував»: біля Запоріжжя збили два російські «Альбатроси-М5» (ArmyInform: ''Artificial intelligence did not save them': two Russian Albatros-M5 drones shot down near Zaporizhzhia')",
+       "titleNl": "Twee Russische Albatros-M5-verkenningsdrones met neuraal netwerk neergehaald bij Zaporizja",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-24T16:57:51.000Z",
+       "updatedAt": "2026-10-25T09:52:01.444Z",
+       "nlSummary": "Dronepiloten van de 23e brigade voor bescherming van de openbare orde \"Chortytsja\" van de Oekraïense Nationale Garde hebben twee Russische Albatros-M5-verkenningsdrones onderschept die richting de stad Zaporizja vlogen, meldt ArmyInform op basis van een gevechtsvideo die de brigade heeft vrijgegeven. Beide drones werd…",
+       "enSummary": "Drone pilots of the 23rd Public Order Protection Brigade \"Khortytsia\" of Ukraine's National Guard intercepted two Russian Albatros-M5 reconnaissance UAVs that were flying towards the city of Zaporizhzhia, ArmyInform reports, citing a combat video released by the brigade. Both drones were detected and destroyed while s…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/24/shtuchnyj-intelekt-ne-vryatuvav-bilya-zaporizhzhya-zbyly-dva-rosijski-albatrosy-m5",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy"
        ]
       }
      ]

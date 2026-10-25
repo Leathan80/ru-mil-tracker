@@ -57,6 +57,10 @@
           "name": "ZALA Z-16",
           "match": "\\b(zala|z-?16)\\b"
         },
+        "albatros-m5": {
+          "name": "Albatros-M5",
+          "match": "albatros\\W?m-?5\\b|альбатрос[а-яіїє]{0,3}\\W?м-?5"
+        },
         "orion": {
           "name": "Orion",
           "match": "\\b(orion|иноходец|inokhodets)\\b",
