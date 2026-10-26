@@ -1,5 +1,5 @@
 {
-  "_comment": "Kaartmap voor cross-check naar de zustersites. De ids MOETEN exact overeenkomen met de kaart-ids op de betreffende site (drone-academy/js/data-cards.js, VKS-leeromgeving/js/data-threats.js). Voor ew-leeromgeving bestaan geen per-systeem kaarten (hoofdstukstructuur), daar zijn de ids thematisch. 'match' is een case-insensitive regex over titel + samenvattingen van een analysis-entry. 'topics' (optioneel) beperkt de match tot entries met minstens één van die topic-ids. 'require' (optioneel) is een tweede regex die óók moet matchen — nodig bij systeemnamen die samenvallen met plaatsnamen (Voronezh, Murmansk, Borisoglebsk). Let op: gebruik \\b-grenzen bij korte namen, anders matcht bijv. 'verba' binnen het Nederlandse woord 'verband'.",
+  "_comment": "Kaartmap voor cross-check naar de zustersites. De ids MOETEN exact overeenkomen met de kaart-ids op de betreffende site (drone-academy/js/data-cards.js, VKS-leeromgeving/js/data-threats.js, space-academy/js/data-cards.js). Voor ew-leeromgeving bestaan geen per-systeem kaarten (hoofdstukstructuur), daar zijn de ids thematisch. 'match' is een case-insensitive regex over titel + samenvattingen van een analysis-entry. 'topics' (optioneel) beperkt de match tot entries met minstens één van die topic-ids. 'require' (optioneel) is een tweede regex die óók moet matchen — nodig bij systeemnamen die samenvallen met plaatsnamen (Voronezh, Murmansk, Borisoglebsk). Let op: gebruik \\b-grenzen bij korte namen, anders matcht bijv. 'verba' binnen het Nederlandse woord 'verband'.",
   "sites": {
     "drone": {
       "name": "Drone Academy",
@@ -778,6 +778,65 @@
         "epm": {
           "name": "Electronic protection",
           "match": "frequency hopping|anti.jam|electronic protection|\\bepm\\b|hardened against jamming|jam.resistant"
+        }
+      }
+    },
+    "space": {
+      "name": "Space Academy",
+      "url": "https://adepti-space-academy.web.app",
+      "cards": {
+        "nudol": {
+          "name": "Nudol (A-235 / PL-19)",
+          "match": "nudol|нудоль|\\ba-?235\\b|(^|[^а-яё])а-?235|\\bpl-?19\\b"
+        },
+        "inspecteurs": {
+          "name": "Russische inspecteur-satellieten",
+          "match": "kosmos[- ]?25(42|43|58|76|88)|cosmos[- ]?25(42|43|58|76|88)|космос-?25(42|43|58|76|88)|nivelir|нивелир|inspector satellite|inspecteur-satelliet|co-orbital|co-orbitaal"
+        },
+        "peresvet": {
+          "name": "Peresvet",
+          "match": "peresvet(?!-?m)|пересвет(?!-?м)",
+          "require": "laser|лазер|dazzl|verblind"
+        },
+        "glonass": {
+          "name": "GLONASS",
+          "match": "glonass|глонасс"
+        },
+        "kupol": {
+          "name": "EKS 'Kupol'",
+          "match": "единая космическая система|\\beks\\b.{0,40}(satellit|early warning|missile warning|raketwaarschuwing)|\\bkupol\\b.{0,30}(satellit|early warning|missile warning)|tundra.{0,20}satellit"
+        },
+        "liana": {
+          "name": "Liana (Lotos-S, Pion-NKS)",
+          "match": "\\bliana\\b.{0,40}(satellit|sigint|elint)|лиана|lotos-?s|лотос-?с|pion-?nks|пион-?нкс"
+        },
+        "sc19": {
+          "name": "SC-19 / DN",
+          "match": "\\bsc-?19\\b|dong ?neng-?[23]|\\bdn-?[23]\\b.{0,40}(asat|anti-satellite|satellit)"
+        },
+        "sj21": {
+          "name": "Shijian-21",
+          "match": "\\bsj-?21\\b|shijian-?21"
+        },
+        "beidou": {
+          "name": "BeiDou",
+          "match": "beidou|бэйдоу|бейдоу"
+        },
+        "yaogan": {
+          "name": "Yaogan",
+          "match": "yaogan|яогань"
+        },
+        "guowang": {
+          "name": "Guowang / Qianfan",
+          "match": "guowang|qianfan|spacesail"
+        },
+        "gssap": {
+          "name": "GSSAP",
+          "match": "\\bgssap\\b"
+        },
+        "space-fence": {
+          "name": "Space Fence",
+          "match": "space fence"
         }
       }
     }

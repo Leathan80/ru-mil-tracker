@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-26T06:54:08.109Z",
+ "updated": "2026-10-26T06:59:18.822Z",
  "analysisUpdated": "2026-10-26T06:52:42.245Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 623,
-  "cardsWithHits": 121,
-  "matches": 1149
+  "cardsWithHits": 122,
+  "matches": 1152
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -10588,6 +10588,90 @@
        "signals": [
         "deploy",
         "scale",
+        "counter"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "space": {
+   "name": "Space Academy",
+   "url": "https://adepti-space-academy.web.app",
+   "cards": {
+    "glonass": {
+     "name": "GLONASS",
+     "nameEn": "GLONASS",
+     "total": 3,
+     "signalCount": 3,
+     "entries": [
+      {
+       "id": "e-20261021-07",
+       "title": "Ukraine's ANT upgrades Mercury VTOL reconnaissance UAS: up to 300 km range, 4-5 h endurance and FHSS backup link against Russian EW",
+       "titleNl": "Oekraïense ANT moderniseert Mercury VTOL-verkenningsdrone: tot 300 km bereik, 4-5 uur vliegduur en FHSS-reserveverbinding tegen Russische EW",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-10-20T12:05:34.000Z",
+       "updatedAt": "2026-10-21T05:15:42.624Z",
+       "nlSummary": "Het Oekraïense bedrijf ANT (Aviation New Technologies) heeft een gemoderniseerde versie van zijn Mercury-verkenningsdrone gepresenteerd, meldt Militarnyi. Volgens de ontwikkelaar stijgt de maximale vlieghoogte van 3.000 naar 4.000 m, de nominale vliegduur van 2,5 naar 4 uur (in de praktijk tot vijf uur) en het maximal…",
+       "enSummary": "Ukrainian company ANT (Aviation New Technologies) has unveiled an upgraded version of its Mercury reconnaissance UAS, Militarnyi reports. According to the developer, maximum altitude rises from 3,000 to 4,000 m, rated endurance from 2.5 to 4 hours (up to five in practice), and maximum range from 170 to 250 km, reachin…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeTVab2tITldsU29wZ1QxTHV6OVozUDF2YVE5VExZWm92N2lQaVlLMVVuVGFMOGt3MF9TYTRNZG9kV0xTMkp1ZXd4UjVGcFFDOEtTM0JxSjlHdWU3LXVNeVd0ZkNKWGZIMnhSRjkyaHJzMnl5T0kxaEVCcURUZ3F5cnJ1VTM1aVpuZXp6dkJFZ2hsZEVuLTZMc2paR1FKWGZEcXdCUUE0ZVBGRTBZeENj?oc=5",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf"
+       ]
+      },
+      {
+       "id": "e-20261009-s16",
+       "title": "«Ястреб-С» против спутниковой связи (Topwar: \"Yastreb-S\" against satellite communications)",
+       "titleNl": "Russisch EW-systeem Jastreb-S moet ook satellietverbindingen zoals Starlink storen",
+       "category": "weapon",
+       "topics": [
+        "ew",
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-10-08T01:32:52.000Z",
+       "updatedAt": "2026-10-09T07:30:00.000Z",
+       "nlSummary": "Topwar (auteur Kirill Rjabov) beschrijft de Jastreb-familie (\"Havik\") van elektronische-oorlogvoeringssystemen. Ze worden ontwikkeld door AO NPP met steun van het Russische Fonds voor Geavanceerd Onderzoek (FPI). De basisversie Jastreb 1.0 werd eind januari 2026 aangekondigd. Volgens TASS (26 september) zit die in de…",
+       "enSummary": "Topwar (author Kirill Ryabov) describes the Yastreb (\"Hawk\") family of electronic warfare systems, developed by JSC NPP with backing from Russia's Foundation for Advanced Studies (FPI). The base Yastreb 1.0 was announced in late January 2026; according to TASS (26 September) it is in its final test phase and is to be…",
+       "sourceUrl": "https://topwar.ru/291197-jastreb-s-protiv-sputnikovoj-svjazi.html",
+       "sourceCount": 1,
+       "signals": [
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260909-s01",
+       "title": "Defense Express: Germany only now seeks anti-satellite / GNSS-jamming capability, years into Russia's Kaliningrad spoofing",
+       "titleNl": "Defense Express: Duitsland zoekt pas nu naar anti-satelliet-/GNSS-stoorcapaciteit, jaren na Russische spoofing vanuit Kaliningrad",
+       "category": "ttp",
+       "topics": [
+        "ew",
+        "command",
+        "doctrine"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 2,
+       "publishedAt": "2026-09-08T17:03:51.000Z",
+       "updatedAt": "2026-09-09T09:00:00.000Z",
+       "nlSummary": "Defense Express meldt dat de Bundeswehr het Duitse ruimteagentschap opdracht heeft gegeven marktonderzoek te doen naar elektronische-oorlogvoeringssystemen die satellietnavigatie- en communicatiesignalen kunnen onderdrukken. De eisen omvatten het storen van satellieten in lage, middelhoge en geostationaire banen, dekk…",
+       "enSummary": "Defense Express reports that the Bundeswehr has tasked the German Space Agency with conducting market research for electronic warfare systems able to suppress satellite navigation and communications signals. The stated requirements cover jamming satellites in low, medium and geostationary orbits, coverage for a brigad…",
+       "sourceUrl": "https://en.defence-ua.com/news/germany_only_now_seeks_anti_satellite_jamming_despite_russias_gps_spoofing_from_kaliningrad_for_years-19716.html",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
         "counter"
        ]
       }
