@@ -35,7 +35,7 @@
         },
         "orlan": {
           "name": "Orlan-10",
-          "match": "\\b(orlan|орлан)"
+          "match": "(?<!1144\\W{0,3})(\\borlan\\b|орлан(?![а-я]))(?![^.]{0,40}(cruiser|kirov|kruiser|крейсер))"
         },
         "parodiya": {
           "name": "Parodiya",

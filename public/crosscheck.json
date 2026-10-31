@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-31T06:34:26.238Z",
+ "updated": "2026-10-31T08:19:35.911Z",
  "analysisUpdated": "2026-10-31T06:33:40.285Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 678,
   "cardsWithHits": 119,
-  "matches": 1235
+  "matches": 1233
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -841,30 +841,9 @@
     "orlan": {
      "name": "Orlan-10",
      "nameEn": "Orlan-10",
-     "total": 7,
-     "signalCount": 6,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
-      {
-       "id": "e-20261031-03",
-       "title": "Special commission preliminarily rules Russia's nuclear-powered cruiser Pyotr Veliky too worn out to repair or modernise, TASS reports",
-       "titleNl": "Speciale commissie acht Russische nucleair aangedreven kruiser Pjotr Veliki voorlopig te versleten voor reparatie of modernisering, meldt TASS",
-       "category": "weapon",
-       "topics": [
-        "navy"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-30T11:18:18.000Z",
-       "updatedAt": "2026-10-31T06:33:40.285Z",
-       "nlSummary": "Een speciale commissie heeft voorlopig geconcludeerd dat reparatie en modernisering van de zware nucleair aangedreven raketkruiser Pjotr Veliki, het vlaggenschip van de Noordelijke Vloot, niet zinvol zijn. De uitspraak werd als eerste gemeld door het Russische staatspersbureau TASS. Dat citeerde Vladimir Maltsev, hoof…",
-       "enSummary": "A special commission has preliminarily concluded that repairing and modernising the heavy nuclear-powered missile cruiser Pyotr Veliky, flagship of the Northern Fleet, is not worthwhile. The statement was first reported by the Russian state news agency TASS, which quoted Vladimir Maltsev, head of the All-Russian Navy…",
-       "sourceUrl": "https://meduza.io/en/news/2026/10/30/russia-s-most-powerful-warship-the-nuclear-powered-battlecruiser-pyotr-veliky-deemed-too-worn-out-to-repair",
-       "sourceCount": 2,
-       "signals": [
-        "deploy"
-       ]
-      },
       {
        "id": "e-20261026-02",
        "title": "Russia launches Project 20380 corvette Grozny for the Pacific Fleet",
@@ -913,30 +892,6 @@
        ]
       },
       {
-       "id": "e-20261019-09",
-       "title": "Ukraine still waiting almost a month for Hegseth's sign-off on allied-funded Patriot and NASAMS interceptors, now the last remaining US hold, as Kyiv also presses Lockheed Martin for PAC-3 MSE and F-16 repairs",
-       "titleNl": "Oekraïne wacht al bijna een maand op Hegseths handtekening voor door bondgenoten betaalde Patriot- en NASAMS-onderscheppers, inmiddels de laatste Amerikaanse blokkade; Kyiv vraagt Lockheed Martin ook om PAC-3 MSE en F-16-onderhoud",
-       "category": "org",
-       "topics": [
-        "air-defense",
-        "missiles",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-18T20:50:00.000Z",
-       "updatedAt": "2026-10-27T06:15:21.558Z",
-       "nlSummary": "President Zelensky zei op 26 oktober dat Oekraïne al 'bijna een maand' wacht op de handtekening van de Amerikaanse minister van Defensie Pete Hegseth onder raketten voor zijn Patriot- en NASAMS-systemen, en dat hij zijn team heeft opgedragen de kwestie opnieuw bij Washington aan te kaarten, melden Ukrainska Pravda en…",
-       "enSummary": "On 26 October President Zelensky said Ukraine has been waiting 'almost a month' for US Defence Secretary Pete Hegseth to sign off on missiles for its Patriot and NASAMS systems, and that he had instructed his team to raise the matter with Washington once again, Ukrainska Pravda and Euromaidan Press report. He spoke af…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058658",
-       "sourceCount": 9,
-       "signals": [
-        "perf",
-        "scale"
-       ]
-      },
-      {
        "id": "e-20261014-s04",
        "title": "«Ланцети», «Орлани» і «Князь»: Пілоти Signum за ніч знищили 25 російських безпілотників різних типів (ArmyInform: Lancets, Orlans and 'Knyaz' – Signum pilots destroyed 25 Russian drones of various types overnight)",
        "titleNl": "Oekraïense drone-eenheid Signum meldt 25 Russische drones in één nacht neergehaald, onder meer Zala, Lancet en de nieuwe verkenner 'Knjaz Vesjtsji Oleg'",
@@ -981,6 +936,28 @@
        "signals": [
         "loss",
         "counter"
+       ]
+      },
+      {
+       "id": "e-20260929-s06",
+       "title": "«Усі їхні тактики вже вивчені»: у 115-й бригаді розповіли про полювання на ворожі БПЛА",
+       "titleNl": "\"Al hun tactieken zijn al bestudeerd\": 115e brigade over de jacht op vijandelijke drones",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-28T04:51:56.000Z",
+       "updatedAt": "2026-09-29T07:00:00.000Z",
+       "nlSummary": "ArmyInform geeft een interview weer dat hoofdsergeant \"Hector\" van een drone-onderscheppingsbatterij van Oekraïnes 115e brigade aan Suspilne gaf. De eenheid bestrijdt Russische verkenningsdrones (Zala, Orlan, Supercam) en aanvalsdrones (Shaheds, Gerbers, Molniya).",
+       "enSummary": "ArmyInform relays an interview given to Suspilne by Chief Sergeant \"Hector\" of a drone-interception battery in Ukraine's 115th Brigade. The unit counters Russian reconnaissance drones (Zala, Orlan, Supercam) and attack drones (Shaheds, Gerbers, Molniya).",
+       "sourceUrl": "https://armyinform.com.ua/2026/09/28/usi-yihni-taktyky-vzhe-vyvcheni-u-115-j-brygadi-rozpovily-pro-polyuvannya-na-vorozhi-bpla",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
        ]
       }
      ]
