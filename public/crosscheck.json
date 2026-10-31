@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-31T08:19:35.911Z",
+ "updated": "2026-10-31T08:30:41.266Z",
  "analysisUpdated": "2026-10-31T06:33:40.285Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 678,
-  "cardsWithHits": 119,
+  "entriesConsidered": 677,
+  "cardsWithHits": 121,
   "matches": 1233
  },
  "signalLabels": {
@@ -23,7 +23,7 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 131,
+     "total": 130,
      "signalCount": 6,
      "entries": [
       {
@@ -2869,7 +2869,7 @@
     "starlink": {
      "name": "Starlink / Starshield",
      "nameEn": "Starlink / Starshield",
-     "total": 39,
+     "total": 38,
      "signalCount": 6,
      "entries": [
       {
@@ -10028,6 +10028,66 @@
         "deploy",
         "perf",
         "scale"
+       ]
+      }
+     ]
+    },
+    "bulava": {
+     "name": "Bulava (SS-N-32)",
+     "nameEn": "Bulava (SS-N-32)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261030-07",
+       "title": "Russia's Borei-A submarine Generalissimus Suvorov test-fires a Bulava SLBM from the Sea of Okhotsk at the Chizha range",
+       "titleNl": "Russische Borei-A-onderzeeboot Generalissimus Suvorov test-vuurt Bulava-raket af vanuit de Zee van Ochotsk naar testterrein Chizha",
+       "category": "weapon",
+       "topics": [
+        "missiles",
+        "navy"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-10-28",
+       "updatedAt": "2026-10-30T09:03:38.334Z",
+       "nlSummary": "Het Russische ministerie van Defensie en de Pacifische Vloot maakten op 28 oktober 2026 bekend dat de nucleair aangedreven ballistische-raketonderzeeboot Generalissimus Suvorov (K-553) onder water vanuit de Zee van Ochotsk een Bulava heeft afgevuurd, een onderzeebootgelanceerde ballistische raket met intercontinentaal…",
+       "enSummary": "The Russian Ministry of Defence and the Pacific Fleet announced on 28 October 2026 that the nuclear-powered ballistic missile submarine Generalissimus Suvorov (K-553) had fired a Bulava intercontinental-range submarine-launched ballistic missile from a submerged position in the Sea of Okhotsk. According to the ministr…",
+       "sourceUrl": "https://defence-blog.com/russia-test-fires-bulava-from-one-of-its-newest-missile-submarines",
+       "sourceCount": 3,
+       "signals": [
+        "variant",
+        "deploy"
+       ]
+      }
+     ]
+    },
+    "murom": {
+     "name": "Murom-M (observatiecomplex)",
+     "nameEn": "Murom-M (surveillance complex)",
+     "total": 1,
+     "signalCount": 1,
+     "entries": [
+      {
+       "id": "e-20261030-s16",
+       "title": "«Прикордонники FPV-дронами знищили „Муром-М“, транспорт і особовий склад противника» (ArmyInform: 'Border guards destroy a Murom-M, vehicles and personnel with FPV drones')",
+       "titleNl": "ArmyInform: 'Grenswachten vernietigen met FPV-drones een Moerom-M, voertuigen en personeel'",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-10-29T11:26:22.000Z",
+       "updatedAt": "2026-10-30T09:03:38.334Z",
+       "nlSummary": "ArmyInform meldt dat Oekraïense grenswachten op de Prydniprovske-as (langs de Dnipro) Russische posities blijven aanvallen met FPV-drones. De Staatsgrensdienst publiceerde beelden van de aanvallen. Volgens de melding troffen de droneoperators vijandelijke posities en vernietigden ze voertuigen, personeel en een Moerom…",
+       "enSummary": "ArmyInform reports that Ukrainian border guards on the Prydniprovske (Dnipro) axis keep hitting Russian positions with FPV drones. The State Border Guard Service published strike video. According to the report, drone operators hit enemy positions and destroyed vehicles, personnel and a Murom-M long-range electro-optic…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/29/prykordonnyky-fpv-dronamy-znyshhyly-%c2%abmurom-m%c2%bb-transport-i-osobovyj-sklad-protyvnyka",
+       "sourceCount": 1,
+       "signals": [
+        "loss"
        ]
       }
      ]

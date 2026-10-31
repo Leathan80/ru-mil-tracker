@@ -732,6 +732,16 @@
         "yak130": {
           "name": "Yak-130M",
           "match": "\\byak-?130|\\bяк-?130"
+        },
+        "bulava": {
+          "name": "Bulava (SS-N-32)",
+          "match": "\\bbulava\\b|булав[аыу]|ss-n-32",
+          "require": "missile|raket|ракет|ракет|submarine|onderzee|подлод|launch|lancer|пуск|запуск"
+        },
+        "murom": {
+          "name": "Murom-M (observatiecomplex)",
+          "nameEn": "Murom-M (surveillance complex)",
+          "match": "\\bmurom-?[mp]\\b|муром-?[мп]"
         }
       }
     },
