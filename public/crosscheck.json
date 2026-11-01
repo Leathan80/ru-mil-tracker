@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-01T06:17:24.597Z",
- "analysisUpdated": "2026-11-01T06:16:31.797Z",
+ "updated": "2026-11-01T08:37:41.606Z",
+ "analysisUpdated": "2026-11-01T08:37:30.948Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 686,
+  "entriesConsidered": 687,
   "cardsWithHits": 121,
-  "matches": 1217
+  "matches": 1218
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -2360,8 +2360,8 @@
     "skyranger": {
      "name": "Skyranger 35",
      "nameEn": "Skyranger 35",
-     "total": 3,
-     "signalCount": 3,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
       {
        "id": "e-20261101-s07",
@@ -2376,13 +2376,35 @@
        "origin": "ru",
        "significance": 1,
        "publishedAt": "2026-10-31T10:49:12.000Z",
-       "updatedAt": "2026-11-01T06:16:31.797Z",
+       "updatedAt": "2026-11-01T08:37:30.948Z",
        "nlSummary": "Topwar meldt, op basis van de Duitse krant Welt am Sonntag, dat Rheinmetall de resultaten van tests met zijn Skyranger-antidroneluchtverdedigingssysteem in Zweden onvoldoende noemt. Bij die tests vlogen Oekraïense droneoperators tegen het systeem. Een niet bij naam genoemde vertegenwoordiger van Rheinmetall wordt geci…",
        "enSummary": "Citing the German newspaper Welt am Sonntag, Topwar reports that Rheinmetall has called the results of tests of its Skyranger counter-drone air-defence system in Sweden unsatisfactory. In the tests, Ukrainian drone operators flew against the system. An unnamed Rheinmetall representative is quoted as saying the company…",
        "sourceUrl": "https://topwar.ru/292702-dronovodov-vsu-privlekli-dlja-testirovanija-skyranger-v-shvecii.html",
        "sourceCount": 1,
        "signals": [
         "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261101-15",
+       "title": "Rheinmetall calls a live test of the Bundeswehr's Skyranger in Sweden against Ukrainian drone pilots unsatisfactory; proof firing set for April and serial vehicles on the new B0 drive module for Q3 2027",
+       "titleNl": "Rheinmetall noemt live-test van de Skyranger voor de Bundeswehr in Zweden tegen Oekraïense dronepiloten onbevredigend; bewijsschieten gepland voor april, seriële voertuigen op de nieuwe B0-rijmodule in het derde kwartaal van 2027",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-10-31T06:20:00.000Z",
+       "updatedAt": "2026-11-01T08:37:30.948Z",
+       "nlSummary": "Een woordvoerder van Rheinmetall heeft het Duitse weekblad Welt am Sonntag gezegd dat een live-test van het anti-dronesysteem Skyranger in Zweden, waarbij Oekraïense dronepiloten tegen het systeem vlogen, een onbevredigend resultaat opleverde, meldt het Duitse persbureau dts op 31 oktober. Volgens het bedrijf is het s…",
+       "enSummary": "A Rheinmetall spokesperson told the German weekly Welt am Sonntag that a live test of the Skyranger counter-drone system in Sweden, flown against Ukrainian drone pilots, produced an unsatisfactory result, according to a report by the German news agency dts published on 31 October. The company said the system is not ye…",
+       "sourceUrl": "https://www.ad-hoc-news.de/wirtschaft/rheinmetall-nennt-kundenentscheidung-als-skyranger-verzoegerung/70437668",
+       "sourceCount": 2,
+       "signals": [
         "counter"
        ]
       },
