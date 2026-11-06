@@ -78,7 +78,7 @@
         },
         "fpv": {
           "name": "FPV-drones",
-          "match": "\\bfpv\\b|first.person view|fibre.optic|fiber.optic|glasvezel|оптоволок",
+          "match": "\\bfpv\\b|first.person view|fibre.optic|fiber.optic|glasvezel(?!composiet|frame)|оптоволок",
           "topics": [
             "drones",
             "ttp"
@@ -348,8 +348,8 @@
         },
         "raad": {
           "name": "Ra'ad (Iran)",
-          "match": "\\bra'?ad\\b",
-          "require": "air.defen[cs]e|missile|\bsam\b|luchtverdediging|пво|surface-to-air"
+          "match": "\\bra['’]ad\\b|\\braad(?:-[12]| (?:sam|air.defen[cs]e|missile system))",
+          "require": "air.defen[cs]e|missile|\\bsam\\b|luchtverdediging|пво|surface-to-air"
         },
         "khordad3": {
           "name": "3rd Khordad (Iran)",
@@ -358,7 +358,7 @@
         "tabas": {
           "name": "Tabas (Iran)",
           "match": "\\btabas\\b",
-          "require": "air.defen[cs]e|missile|\bsam\b|luchtverdediging|пво|surface-to-air"
+          "require": "air.defen[cs]e|missile|\\bsam\\b|luchtverdediging|пво|surface-to-air"
         },
         "khordad15": {
           "name": "15th Khordad (Iran)",
@@ -371,7 +371,7 @@
         "majid": {
           "name": "Majid AD-08 (Iran)",
           "match": "\\bmajid\\b|ad-?08",
-          "require": "air.defen[cs]e|missile|\bsam\b|luchtverdediging|пво|surface-to-air"
+          "require": "air.defen[cs]e|missile|\\bsam\\b|luchtverdediging|пво|surface-to-air"
         },
         "su30sm2": {
           "name": "Su-30SM / SM2",
@@ -783,7 +783,7 @@
         },
         "ir": {
           "name": "IR-dreiging & DIRCM",
-          "match": "infrared|ir.seeker|manpad|\\bdircm\\b|\\bflare\\b|thermal imaging|warmtebeeld",
+          "match": "infrared|ir.seeker|manpad|\\bdircm\\b|\\bflare\\b|thermal.imaging seeker|thermal seeker|heat.seeking|warmtebeeldzoekkop|infraroodzoekkop|ir-zoekkop",
           "nameEn": "IR threat & DIRCM"
         },
         "esm": {
