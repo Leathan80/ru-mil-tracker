@@ -571,6 +571,11 @@
           "match": "borisoglebsk-?2|борисоглебск-?2|\\bborisoglebsk\\b",
           "require": "jamming|jammer|electronic warfare|\\bew\\b|РЭБ|stoorzender"
         },
+        "infauna": {
+          "name": "Infauna (RB-531B)",
+          "match": "\\binfauna\\b|инфаун|\\b(rb|рб)-?531",
+          "require": "jamming|jammer|electronic warfare|\\bew\\b|РЭБ|stoor|\\b(rb|рб)-?531|rosoboronexport"
+        },
         "palantin": {
           "name": "Palantin",
           "match": "\\b(palantin|палантин)\\b"

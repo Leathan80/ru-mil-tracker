@@ -104,18 +104,14 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
    (CyberLeninka bleef bij een check in 2026 steken op jaargang 2023) en zijn
    dus ook geen bruikbare live-bron.
 
-   **Snelle peilbron: pressa-rf.ru.** De legale doorverkoper
-   `https://pressa-rf.ru/rucont/edition/317659/` (rucont-editie van VM) toont
-   een doorlopende lijst gekochte/beschikbare nummers per jaar (bijv. "2026:
-   №1 t/m №8"). Dit is WÉL bereikbaar via WebFetch (geen mil.ru-domein) en
-   geeft in één oogopslag het hoogste beschikbare nummer — dat is een
-   proxy voor "is de maand-X-editie al uit". Geen exacte publicatiedata,
-   dus dit vervangt de staatsmedia-check niet, maar is de snelste eerste
-   check: vraag via WebFetch simpelweg naar de hoogste vermelde 2026-
-   nummers, vóórdat je de tragere Google News/Browser-route induikt.
+   **pressa-rf.ru is geen bruikbare peilbron meer.** De doorverkoper
+   `https://pressa-rf.ru/rucont/edition/317659/` (rucont-editie van VM) toonde
+   eerder alleen de al verschenen nummers per jaar, maar is sinds november 2026
+   een abonnementsoverzicht: het noemt 2026 №1–№12 én 2027 №1–№12, zonder
+   verschijningsdata. Het hoogste vermelde nummer zegt dus niets meer over wat
+   er al uit is. Niet meer als eerste check gebruiken.
 
-   Werkende aanpak (als pressa-rf.ru een nieuw nummer suggereert, of om de
-   inhoud/claims te vinden): gebruik de Browser-tool (niet WebFetch — die
+   Werkende aanpak: gebruik de Browser-tool (niet WebFetch — die
    weigert web.archive.org en loopt vast op Google's consent-redirect) en
    zoek via Google News RSS naar `"Военная мысль"` (evt. gecombineerd met
    een verwacht onderwerp, bijv. een wapensysteem). VM zelf wordt zelden
