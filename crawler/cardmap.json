@@ -86,7 +86,7 @@
         },
         "cots": {
           "name": "COTS-drones",
-          "match": "mavic|\\bdji\\b|commercial off.the.shelf|\\bcots\\b|quadcopter",
+          "match": "mavic|\\bdji\\b|\\bautel\\b|commercial off.the.shelf|\\bcots\\b|commercial (?:drone|quadcopter)s?",
           "topics": [
             "drones"
           ]
@@ -779,11 +779,11 @@
         },
         "decoys": {
           "name": "Decoys & chaff",
-          "match": "\\bdecoy|\\bchaff\\b|lokdoel|towed decoy|expendable active"
+          "match": "(?<!(?:parodiya|gerbera|parody)s?[-\\s'\"”’)]{0,4}(?:type |attack |drones? )?)\\bdecoy(?!s?[\\s-]+(?:drones?|uavs?|targets?)\\b)|\\bchaff\\b|lokdoel(?!drone)|towed decoy|expendable active"
         },
         "ir": {
           "name": "IR-dreiging & DIRCM",
-          "match": "infrared|ir.seeker|manpad|\\bdircm\\b|\\bflare\\b|thermal.imaging seeker|thermal seeker|heat.seeking|warmtebeeldzoekkop|infraroodzoekkop|ir-zoekkop",
+          "match": "infrared.(?:guid|homing|signature|countermeasure|missile|decoy)|infrared[^.]{0,40}seeker|seeker[^.]{0,30}infrared|imaging infrared|\\bir.seeker|\\bir.guided|manpad|\\bdircm\\b|\\bflare\\b|thermal.imaging seeker|thermal seeker|heat.seeking|warmtebeeldzoekkop|infraroodzoekkop|ir-zoekkop",
           "nameEn": "IR threat & DIRCM"
         },
         "esm": {
