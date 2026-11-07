@@ -18,6 +18,12 @@ Write-Host "Actuele crawler-bestanden van de site halen (crawler-eigendom)..."
 curl.exe -s "https://ru-mil-tracker.web.app/feed.json" -o "public/feed.json"
 curl.exe -s "https://ru-mil-tracker.web.app/pretag.json" -o "public/pretag.json"
 
+# Vorm van de gestructureerde velden (countries, milestones) controleren. Bij een fout
+# stoppen: die velden voeden de trend- en cyclusanalyse en zijn achteraf lastig te herstellen.
+Write-Host "Gestructureerde velden in analysis.json controleren..."
+node crawler/valideer.mjs
+if ($LASTEXITCODE -ne 0) { throw "crawler/valideer.mjs vond fouten in analysis.json; niet gedeployd." }
+
 # crosscheck.json wordt lokaal opnieuw gegenereerd uit de verse analysis.json,
 # zodat de zustersites direct de nieuwste analyse-koppelingen zien.
 Write-Host "Cross-check opnieuw opbouwen uit de lokale analysis.json..."

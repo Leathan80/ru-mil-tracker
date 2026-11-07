@@ -43,6 +43,7 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
      inhoudelijk weergeven (geen teaser), met staatsbron-caveat waar relevant;
    - de instructie om een compact resultaat terug te geven: voorgestelde
      `title`/`titleNl`, `category`, `topics`, `significance`, `syndicate`,
+     `countries`, eventueel `milestones` (regels hieronder meegeven),
      `sourceRefs` (itemId/title/url/source/**date**), de afgeleide
      `publishedAt` (vroegste sourceRef-datum) en de twee samenvattingen.
 
@@ -80,6 +81,39 @@ Deze procedure wordt gevolgd door de dagelijkse geplande Claude-taak
      Adepti-publiek (cross-feed naar adepti-academy.nl, zie §5); anders
      `false`. Vuistregel: significance ≥ 2 én breed begrijpelijk zonder
      RU-mil-vakkennis.
+   - `firstSeen`: altijd zetten bij een nieuwe entry (ISO 8601, het moment
+     van deze run). Bij een update niet wijzigen.
+   - **`countries`** (verplicht voor nieuwe entries sinds 8 nov 2026): de
+     landen waar de ontwikkeling *over gaat* — wie handelt, waar het gebeurt
+     en wie het doelwit is. Niet: landen die alleen terloops genoemd worden,
+     en niet het land van het medium. Spelling exact zoals in
+     `crawler/landen.json` (bijv. "United States of America", "United
+     Kingdom", "North Korea"). Een Russisch wapen dat in Oekraïne wordt
+     ingezet: `["Russia", "Ukraine"]`; Russische drones boven Polen:
+     `["Russia", "Poland"]`; een Russische industriemelding zonder
+     buitenland: `["Russia"]`. Gebruik dezelfde landnamen in elke entry: de
+     kruisverbanden met het Intel Briefing Dashboard lopen via deze namen.
+   - **`milestones`** (optioneel, sinds 8 nov 2026): alleen als de entry een
+     *nieuw* feit bevat over een van de vijf kernsystemen. Hiermee wordt
+     gemeten hoe snel aanpassing en tegenmaatregel elkaar opvolgen; vul het
+     dus alleen in bij iets dat echt nieuw is, niet bij elke vermelding van
+     het systeem. Vorm:
+     `[{ "system": "geran", "type": "variant", "claimant": "ua", "note": "<wat er nieuw is, in één zin>" }]`
+     - `system`: `geran` (Geran-2/3/4/5 en Shahed-varianten), `gerbera`
+       (incl. andere lokdrones van die familie), `kn-23` (KN-23/24,
+       Hwasong-11), `umpk` (glijbomkits UMPK/UMPB), `lancet` (Lancet en
+       opvolgers als Izdeliye-53/Scalpel).
+     - `type`: `variant` (nieuwe versie of upgrade voor het eerst gemeld),
+       `adaptation` (aanpassing van het systeem als antwoord op een
+       tegenmaatregel), `countermeasure` (nieuwe tegenmaatregel tegen het
+       systeem), `scale` (nieuw cijfer over productie of inzetvolume),
+       `first-use` (eerste gemelde inzet in een nieuw gebied of nieuwe rol).
+     - `claimant`: wie het feit claimt — `ua`, `ru`, `west`,
+       `independent` (bijv. onderzoeksgroepen) of `other`. Dat is de partij
+       die de bewering doet, niet het medium dat haar doorgeeft.
+     - `note`: één zin met wat er precies nieuw is.
+   - `node crawler/valideer.mjs` controleert de vorm van `countries` en
+     `milestones`; `deploy.ps1` draait het mee en stopt bij fouten.
 
 4. **Single-source-stroom apart behandelen** (items met `stream: "single"` uit
    feed/pretag, bijv. Voyennaya Mysl, Krasnaya Zvezda, Defense Express,
