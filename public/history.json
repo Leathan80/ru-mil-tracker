@@ -1,6 +1,851 @@
 {
-  "updated": "2026-11-09T06:17:54.038Z",
+  "updated": "2026-11-11T10:31:00.884Z",
   "events": [
+    {
+      "date": "2026-11-11",
+      "category": "ttp",
+      "topics": [
+        "drones",
+        "logistics"
+      ],
+      "significance": 3,
+      "titleNl": "Reuters: Oekraïense droneaanvallen hebben raffinaderijen met ongeveer 30% van de Russische raffinagecapaciteit ontregeld",
+      "titleEn": "Reuters: Ukrainian drone strikes have disrupted refineries holding about 30% of Russia's oil refining capacity",
+      "summaryNl": "Volgens Reuters, dat zich baseert op twee bronnen uit de sector en wordt aangehaald door Euromaidan Press, hebben Oekraïense droneaanvallen sinds eind oktober negen van de 35 grote Russische raffinaderijen ontregeld.",
+      "summaryEn": "According to Reuters, citing two industry sources and as relayed by Euromaidan Press, Ukrainian drone attacks since late October have disrupted nine of Russia's 35 major refineries.",
+      "sourceRefs": [
+        {
+          "itemId": "f785ac77e2c0",
+          "title": "Reuters: Ukrainian drone strikes disrupt 30% of Russia’s oil refining capacity, deepening fuel crisis as Moscow keeps exporting diesel",
+          "url": "https://euromaidanpress.com/2026/11/10/reuters-ukrainian-drone-strikes-disrupt-30-of-russias-oil-refining-capacity",
+          "source": "Euromaidan Press",
+          "date": "2026-11-10T19:58:02.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ttp",
+      "topics": [
+        "drones",
+        "air-defense",
+        "logistics"
+      ],
+      "significance": 2,
+      "titleNl": "Nachtelijke Oekraïense droneaanval zet Russische Oostzeehaven Ust-Luga in brand en doodt twee mensen in oblast Smolensk",
+      "titleEn": "Overnight Ukrainian drone attack sets Russia's Baltic port of Ust-Luga on fire and kills two in Smolensk region",
+      "summaryNl": "Een grote nachtelijke droneaanval op 10–11 november zette het havengebied van Ust-Luga in de oblast Leningrad in brand; de gouverneur claimde zo’n 150 neergehaalde drones, en TASS meldt twee doden in de oblast Smolensk.",
+      "summaryEn": "A large overnight drone attack on 10–11 November set fire to the Ust-Luga port area in Leningrad Oblast; the governor claimed around 150 drones downed, and TASS reports two dead in Smolensk Oblast.",
+      "sourceRefs": [
+        {
+          "itemId": "e9bf38b13f69",
+          "title": "Port strategic to Russia's defence industry on fire after drone attack in Leningrad Oblast – photo, videos",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062242",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-10T22:58:00.000Z"
+        },
+        {
+          "itemId": "b39c81b201c5",
+          "title": "Two killed in massive drone attack on Russia’s Smolensk Region",
+          "url": "https://tass.com/politics/2215839",
+          "source": "TASS",
+          "date": "2026-11-11T05:33:58.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ttp",
+      "topics": [
+        "drones"
+      ],
+      "significance": 2,
+      "titleNl": "Russische bedrijven reserveren datacentercapaciteit in het buitenland na Oekraïense droneaanvallen op Yandex en andere datacenters",
+      "titleEn": "Russian companies reserve data-centre capacity abroad after Ukrainian drone strikes on Yandex and other data centres",
+      "summaryNl": "Russische bedrijven zijn begonnen capaciteit te reserveren in buitenlandse datacenters na Oekraïense droneaanvallen op datacenters in Rusland in oktober, meldt Ukrainska Pravda op basis van The Moscow Times en de Russische krant Kommersant.",
+      "summaryEn": "Russian companies have begun reserving capacity in foreign data centres after Ukrainian drone strikes on data centres inside Russia in October, Ukrainska Pravda reports, citing The Moscow Times and the Russian newspaper Kommersant.",
+      "sourceRefs": [
+        {
+          "itemId": "b09d129c6390",
+          "title": "Russian businesses reserve foreign data centre capacities following drone strikes",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062159",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-10T13:38:00.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "weapon",
+      "topics": [
+        "drones",
+        "ew",
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "Oekraïens detectiesysteem Pluton kan nu de mesh-netwerkmodems van Russische Geran-, Gerbera- en Molniya-drones detecteren",
+      "titleEn": "Ukraine's Pluton detection system upgraded to detect the mesh-network modems of Russian Geran, Gerbera and Molniya drones",
+      "summaryNl": "Het Oekraïense bedrijf INFOZAHYST heeft aan Militarnyi laten weten dat zijn ESM-detectiesysteem Pluton is opgewaardeerd en nu de mesh-modems kan detecteren die in Russische drones van het type Geran, Gerbera en Molniya worden gebruikt.",
+      "summaryEn": "The Ukrainian company INFOZAHYST told Militarnyi that its Pluton drone-detection ESM system has been upgraded to detect the mesh modems used in Russian Geran-, Gerbera- and Molniya-type drones.",
+      "sourceRefs": [
+        {
+          "itemId": "67b38fded46a",
+          "title": "Pluton System Now Can Detect Mesh Networks of Russian Geran and Gerbera UAVs",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDZSZEJ0bUE1SVEta1NqVlA2cDBHZVJnYk1CUml1LXVOb2VYV3dHQ29pM3d4T29GTGNRODlYYjZ1TVJNQjFIM096X2FjVWJDSjB2VnBvQkhhX3JrMmRwTm03ZGUzQU5LWGJRTWpPd0RubzRHaWc3d0RzY2xoTk51ejdYUU1MS0lDTER4ZmFVb0xHX1JGYWhaQVc1QUJ1VWdJcU45bXVRVGY2aDBs?oc=5",
+          "source": "Militarnyi",
+          "date": "2026-11-10T09:50:10.000Z"
+        },
+        {
+          "itemId": "7c2ef8ca7ade",
+          "title": "Ukraine’s drone detector Pluton can now hear the mesh links that make Russian drones harder to jam, developer says",
+          "url": "https://euromaidanpress.com/2026/11/10/ukraines-drone-detector-pluton-can-now-hear-the-mesh-links-that-make-russian-drones-harder-to-jam-developer-says",
+          "source": "Euromaidan Press",
+          "date": "2026-11-10T13:28:55.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ttp",
+      "topics": [
+        "airforce",
+        "logistics"
+      ],
+      "significance": 2,
+      "titleNl": "Oekraïne meldt aanval op vliegtuigreparatiefabriek in Staraja Roessa die Russische A-50-radarvliegtuigen onderhoudt",
+      "titleEn": "Ukraine says it struck the Staraya Russa aircraft repair plant that services Russia's A-50 radar aircraft",
+      "summaryNl": "De Oekraïense strijdkrachten hebben in de nacht van 9 op 10 november de 123e Vliegtuigreparatiefabriek in Staraja Roessa (oblast Novgorod) aangevallen, aldus de Oekraïense Generale Staf volgens Ukrainska Pravda.",
+      "summaryEn": "Ukraine's defence forces struck the 123rd Aircraft Repair Plant in Staraya Russa, Novgorod Oblast, on the night of 9-10 November, according to Ukraine's General Staff as reported by Ukrainska Pravda.",
+      "sourceRefs": [
+        {
+          "itemId": "fd6dd42798e9",
+          "title": "Ukrainian forces strike Russian plant that repairs US$350m A-50 aircraft",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062148",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-10T12:40:00.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "weapon",
+      "topics": [
+        "missiles",
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "Russisch ministerie van Defensie claimt eerste onderschepping van Amerikaanse AGM-188 ERAM-raketten en verwijdert de verklaring daarna",
+      "titleEn": "Russian MoD claims first shootdown of US-made AGM-188 ERAM missiles, then deletes the statement",
+      "summaryNl": "Het Russische ministerie van Defensie heeft voor het eerst geclaimd dat zijn luchtverdediging AGM-188A \"Rusty Dagger\"-kruisvluchtwapens heeft neergeschoten, het Amerikaanse wapen dat beter bekend is als ERAM (Extended Range Attack Munition), meldt Defence Blog.",
+      "summaryEn": "Russia's Defence Ministry claimed for the first time that its air defences shot down AGM-188A \"Rusty Dagger\" cruise missiles, the US-made weapon better known as ERAM (Extended Range Attack Munition), Defence Blog reports.",
+      "sourceRefs": [
+        {
+          "itemId": "f066e9e3b8fa",
+          "title": "Russia claims first AGM-188 missile intercept, then deletes statement",
+          "url": "https://defence-blog.com/russia-claims-first-agm-188-missile-intercept-then-deletes-statement",
+          "source": "Defence Blog",
+          "date": "2026-11-10T11:04:47.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ttp",
+      "topics": [
+        "glide-bombs",
+        "logistics"
+      ],
+      "significance": 2,
+      "titleNl": "Oekraïense korpscommandant: Rusland bestookt bruggen en dammen met geleide bommen om de logistiek van Zaporizja af te snijden",
+      "titleEn": "Ukrainian corps commander says Russia is hitting bridges and dams with guided bombs to cut off Zaporizhzhia's logistics",
+      "summaryNl": "Russische troepen bestoken bruggen en dammen met geleide vliegtuigbommen om een logistieke blokkade rond de stad Zaporizja op te leggen.",
+      "summaryEn": "Russian forces are striking bridges and dams with guided aerial bombs to impose a logistical blockade on the city of Zaporizhzhia, according to Yevhen Lasiychuk, commander of Ukraine's 7th Air Assault Corps, in an interview with Ukrainska Pravda published on 10 November and reported by the Kyiv Independent.",
+      "sourceRefs": [
+        {
+          "itemId": "8d8bf6e7ebb1",
+          "title": "Russian forces seek to isolate Zaporizhzhia by striking bridges, dams, Ukrainian commander says",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdURQUmdaUFp0ZmdPbTh1VVRMdjJRU3BKNmlWTko1Z1IwUzByUy1xc25VbUNTWGFCSEhNdlZtbmtGejYteC1mNFNsN2JxMlBjcnhVSS1FeVB5TVY3Qll3Tm5kNlZPM182SGRkWGFDSV9pVVJvZ19udFhuMlJOSnZOX1BrbnkwQ3NwMzJNbDhGYktRcjVrVGxqdmxxUjIzZ3BUNnZ4STBEdXBQMnpkTUhYR3VvOE5sWjlGdTB5R0FnYw?oc=5",
+          "source": "Kyiv Independent",
+          "date": "2026-11-10T14:42:39.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ttp",
+      "topics": [
+        "drones"
+      ],
+      "significance": 2,
+      "titleNl": "Drone doodt elektricien van de bezette kerncentrale van Zaporizja; door Rusland aangestelde leiding wijst naar Oekraïne, IAEA noemt geen dader",
+      "titleEn": "Drone kills an electrician of the occupied Zaporizhzhia nuclear plant; Russian-installed management blames Ukraine, IAEA names no attacker",
+      "summaryNl": "Een medewerker van de door Rusland bezette kerncentrale van Zaporizja (ZNPP) in Enerhodar is op 9 november door een drone gedood, maakte het IAEA dezelfde dag bekend.",
+      "summaryEn": "An employee of the Russian-occupied Zaporizhzhia Nuclear Power Plant (ZNPP) in Enerhodar was killed by a drone on 9 November, the IAEA announced the same day.",
+      "sourceRefs": [
+        {
+          "itemId": "b6f934224ac8",
+          "title": "Drone strike kills worker at Zaporizhzhia Nuclear Power Plant, IAEA says",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOE4yRFY2YjlVUTl5aGFwVUpRTlhEeWVXUTF3QklVT2VqQzRkWHlRZXNWTGNoaWRVOHVaRVVXYk9VSEd3V3FKbnItTlRvZXF1TGYxSnFRc2FvaDhoUlFzcVNlOGV6QzRsZzJybFZ5bUtvblBhcWNUUWQ5VGpEMU1PN1BaZGJ6RXU3LW5JY3ZrUjdtS3lWLWNzNmk4T3JINUY4Unc?oc=5",
+          "source": "Kyiv Independent",
+          "date": "2026-11-09T21:58:37.000Z"
+        },
+        {
+          "itemId": "528401665bbc",
+          "title": "Drone kills Russian-occupied Zaporizhzhia nuclear plant electrician on his way to work, but the IAEA names no attacker",
+          "url": "https://euromaidanpress.com/2026/11/10/drone-kills-russian-occupied-zaporizhzhia-nuclear-plant-electrician-on-his-way-to-work-but-the-iaea-names-no-attacker",
+          "source": "Euromaidan Press",
+          "date": "2026-11-10T18:38:41.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "org",
+      "topics": [
+        "logistics",
+        "missiles",
+        "airforce"
+      ],
+      "significance": 2,
+      "titleNl": "Onderzoek RFE/RL: Servisch bedrijf Grindex exporteerde voor circa €27,5 mln aan werktuigmachines naar Rusland, deels bij makers van Iskander en militaire vliegtuigen",
+      "titleEn": "RFE/RL investigation: Serbian firm Grindex exported about €27.5m in machine tools to Russia, some reaching Iskander and military aircraft producers",
+      "summaryNl": "Uit een gezamenlijk onderzoek van de Balkan- en Oekraïense redacties van Radio Liberty (RFE/RL), waarover Oekraïnska Pravda bericht, blijkt dat de Servische fabrikant van metaalbewerkingsapparatuur Grindex uit Kikinda na het begin van de grootschalige invasie voor ongeveer €27,5 miljoen aan werktuigmachines naar Rusland exporteerde.",
+      "summaryEn": "A joint investigation by Radio Liberty's (RFE/RL) Balkan and Ukrainian services, reported by Ukrainska Pravda, found that the Serbian metalworking-equipment maker Grindex, based in Kikinda, exported roughly €27.5 million in machine tools to Russia after the start of the full-scale invasion.",
+      "sourceRefs": [
+        {
+          "itemId": "16f30264532f",
+          "title": "Serbian company supplied Russia with €27m worth of machine tools for ballistic missiles and aircraft – investigation",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062201",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-10T16:58:00.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ttp",
+      "topics": [
+        "navy",
+        "logistics"
+      ],
+      "significance": 2,
+      "titleNl": "Russisch Baltische Vloot-korvet Stoikiy begeleidt opeenvolgende vrachtschipkonvooien vanuit Baltiysk door de Deense Straten",
+      "titleEn": "Russian Baltic Fleet corvette Stoykiy escorts consecutive cargo-ship convoys from Baltiysk through the Danish straits",
+      "summaryNl": "Het Project 20380-korvet Stoikiy (rompnummer 545) van de Russische Baltische Vloot heeft meerdere opeenvolgende konvooien van Russische vrachtschepen de Oostzee uit begeleid, meldt Militarnyi op basis van de OSINT-analisten Russian Forces Spotter en Massimo Frantarelli.",
+      "summaryEn": "The Project 20380 corvette Stoykiy (hull number 545) of Russia's Baltic Fleet has escorted several consecutive convoys of Russian cargo ships out of the Baltic Sea, Militarnyi reports, citing the OSINT analysts Russian Forces Spotter and Massimo Frantarelli.",
+      "sourceRefs": [
+        {
+          "itemId": "cb315fef28ee",
+          "title": "Russian Corvette Stoykiy Began Escorting Shadow Fleet Convoys from the Baltic Sea",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNjk2WnRaUC02ODd6N0VRbUVVV1RlTjRWNHJYTVo4cUloQjdRaTNOOWlrLWFkLUJpNTdKWjdpOEM0RjI0Um5ZMVFrZzYyTFhXSlp0N1NkWHN4eDlHc1FFQlZLLXFUNGx1dWJTNHgtd3FHOE12N3pRMm9WYl9SbVFqcG9UV1U4SDk2MGlZOTYtRWZwYnhQ?oc=5",
+          "source": "Militarnyi",
+          "date": "2026-11-09T14:55:02.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "org",
+      "topics": [
+        "missiles",
+        "doctrine"
+      ],
+      "significance": 2,
+      "titleNl": "FT: Europese landen bereid met Rusland te praten over herstel van conflictpreventiemechanismen uit de Koude Oorlog, inclusief beperkingen op raketopstellingen",
+      "titleEn": "FT: European countries ready to discuss reviving Cold War-era conflict-prevention mechanisms with Russia, including missile-deployment limits",
+      "summaryNl": "Europese landen zijn bereid met Rusland te praten over het nieuw leven inblazen van mechanismen ter voorkoming van militaire conflicten die na de Koude Oorlog zijn bevroren, zeiden Europese diplomaten tegen de Financial Times, zoals doorgegeven door Meduza.",
+      "summaryEn": "European countries are prepared to talk with Russia about reviving military conflict-prevention mechanisms that were frozen after the Cold War, European diplomats told the Financial Times, as relayed by Meduza.",
+      "sourceRefs": [
+        {
+          "itemId": "41fc82d4445e",
+          "title": "Europe ready to discuss conflict-prevention mechanisms with Russia, including limits on missile deployments, FT reports",
+          "url": "https://meduza.io/en/news/2026/11/10/europe-ready-to-discuss-conflict-prevention-mechanisms-with-russia-including-limits-on-missile-deployments-ft-reports",
+          "source": "Meduza (EN)",
+          "date": "2026-11-10T18:12:28.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "org",
+      "topics": [
+        "drones",
+        "doctrine",
+        "command"
+      ],
+      "significance": 2,
+      "titleNl": "War on the Rocks-analyse van oud-premier Hontsjaroek: Oekraïense Unmanned Systems Forces strijden in een 'tijdsdomein' van aanpassingssnelheid, een model dat Rusland heeft gekopieerd",
+      "titleEn": "War on the Rocks analysis by ex-PM Honcharuk: Ukraine's Unmanned Systems Forces compete in a 'Time Domain' of adaptation speed, a model Russia has copied",
+      "summaryNl": "In een opiniërende analyse voor War on the Rocks betoogt Oleksiy Hontsjaroek (premier van Oekraïne in 2019-2020, oud-adviseur van de eerste commandant van de Unmanned Systems Forces, voorzitter van de raad van toezicht van Aerorozvidka en sinds 2025 bestuursvoorzitter van defensietechbedrijf UFORCE) dat de beslissende dimensie van de oorlog is hoe snel elke partij zich aanpast.",
+      "summaryEn": "In an opinion-driven analysis for War on the Rocks, Oleksiy Honcharuk (Ukraine's prime minister in 2019-2020, former adviser to the first commander of the Unmanned Systems Forces, chair of the Aerorozvidka supervisory board and, since 2025, chairman of the defence-tech firm UFORCE) argues that the decisive dimension of the war is how fast each side adapts.",
+      "sourceRefs": [
+        {
+          "itemId": "b8b2b0dec3aa",
+          "title": "Winning Time: Ukraine’s Unmanned Systems Forces and the New Dimension of War",
+          "url": "https://warontherocks.com/winning-time-ukraines-unmanned-systems-forces-and-the-new-dimension-of-war",
+          "source": "War on the Rocks",
+          "date": "2026-11-10T08:30:35.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "weapon",
+      "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "ArmyInform: 72 van de 130 's nachts onderschepte drones hadden straalaandrijving; 91 van de 163 aanvallende Shahed-drones waren straalaangedreven",
+      "titleEn": "ArmyInform: 72 of 130 drones intercepted overnight were jet-powered; 91 of 163 attacking Shahed-type drones had jet engines",
+      "summaryNl": "Volgens de Oekraïense luchtmacht, geciteerd door ArmyInform, viel Rusland Oekraïne in de nacht van 11 november aan met één geleide Ch-59/69-luchtraket, afgevuurd vanuit het gebied van de Zwarte Zee, en 163 aanvalsdrones van het type Shahed, waarvan 91 met straalaandrijving.",
+      "summaryEn": "According to the Ukrainian Air Force, as relayed by ArmyInform, Russia attacked Ukraine during the night of 11 November with one Kh-59/69 guided air-launched missile fired from the Black Sea area and 163 Shahed-type strike drones, 91 of which were jet-powered.",
+      "sourceRefs": [
+        {
+          "itemId": "b3c15d6ddc2a",
+          "title": "Сили ППО перехопили за ніч 130 ворожих БПЛА, 72 з яких — реактивні",
+          "url": "https://armyinform.com.ua/2026/11/11/syly-ppo-perehopyly-za-nich-130-vorozhyh-bpla-72-z-yakyh-reaktyvni",
+          "source": "ArmyInform",
+          "date": "2026-11-11T06:20:12.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "org",
+      "topics": [
+        "mobilization",
+        "vdv"
+      ],
+      "significance": 2,
+      "titleNl": "ArmyInform: inlichtingenofficier van de Azov-groepering zegt dat Rusland na recordverliezen in oktober geen operationele reserves heeft en leunt op toegevoegde eenheden zoals de 76e Luchtlanding-aanvalsdivisie",
+      "titleEn": "ArmyInform: Azov group intelligence officer says Russia lacks operational reserves after record October losses and leans on attached units such as the 76th Air Assault Division",
+      "summaryNl": "Volgens een inlichtingenofficier van de Oekraïense groepering 'Azov', die exclusief met ArmyInform sprak, proberen Russische troepen in de oblast Donetsk hun gevechtskracht op peil te houden door eenheden tussen sectoren te verschuiven en militairen van achterhoedeposten over te plaatsen naar de stormtroepen-infanterie.",
+      "summaryEn": "According to an intelligence officer of Ukraine's 'Azov' group of forces, speaking exclusively to ArmyInform, Russian forces in Donetsk region are trying to sustain their combat power by shuffling units between sectors and transferring servicemen from rear posts into assault infantry.",
+      "sourceRefs": [
+        {
+          "itemId": "8f479db534a4",
+          "title": "«Переводять із тилових посад у піхоту»: на Донеччині росіяни компенсують втрати штурмовиків тиловиками",
+          "url": "https://armyinform.com.ua/2026/11/11/%c2%abperevodyat-iz%c2%a0tylovyh-posad-u%c2%a0pihotu%c2%bb-na%c2%a0donechchyni-rosiyany-kompensuyut-vtraty-shturmovykiv-tylovykamy",
+          "source": "ArmyInform",
+          "date": "2026-11-11T06:04:41.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "org",
+      "topics": [
+        "airforce",
+        "logistics"
+      ],
+      "significance": 2,
+      "titleNl": "Defense Express: Oekraïense analyse: vliegtuigfabriek Kazan leverde sinds 2022 één Tu-22M3M, tot vijf Tu-160M2's en drie Tu-214's, ver onder de Russische doelen",
+      "titleEn": "Defense Express: Ukrainian analysis says Kazan Aircraft Plant has delivered one Tu-22M3M, up to five Tu-160M2s and three Tu-214s since 2022, far below Russian targets",
+      "summaryNl": "Defense Express (auteur Ivan Kyrychevskiy, militair bij het 413e Raid-regiment van de Oekraïense Onbemande Systeemtroepen) bekijkt de productie van de vliegtuigfabriek in Kazan (KAPO), de Russische fabriek die bekendstaat om de strategische bommenwerpers Tu-22M3 en Tu-160 en om de Tu-214, inclusief militaire varianten.",
+      "summaryEn": "Defense Express (author Ivan Kyrychevskiy, a serviceman of the 413th Raid Regiment of Ukraine's Unmanned Systems Forces) examines the output of the Kazan Aircraft Plant (KAPO), the Russian plant known for the Tu-22M3 and Tu-160 strategic bombers and the Tu-214, including military variants.",
+      "sourceRefs": [
+        {
+          "itemId": "15885cdc25a1",
+          "title": "New Tu-22M3s, Tu-160s Are Not Really Being Built, Tu-214 Deliveries Average Just One Year: So What Is Kazan Aircraft Plant Doing?",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQS1lJNk1wRUJCa1NNTE9QVl9TeDVOLXRpdmJwZGZBekJlOTVpNmlxR1BnTjlpRG9TbGY1SDVUSkU1YzlkWkI2NV96R2dhQ3NPcE9jYWVqSVAyRzl3cWJVaTR5eXBZb3NseWxvV1M4WlVIZzQ3bWFlUVZRWkFESW5rODYwRnlQWVJkREtZYWxROWE0VEpCQlFGZG80bG56bHF2aFktTU8zOVpReWRwUHdBZmJ6cGI1VEVteV9CVUpJY2wyNUg1RElpSmRJMENhaVBhc2lzNU5WdzY5NmNyRGJpXzBITTdUUjZVc25FalpsYm5Jd3pKTkk2NmZoR1FlOEd1OWpZ?oc=5",
+          "source": "Defense Express",
+          "date": "2026-11-09T20:28:39.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "category": "org",
+      "topics": [
+        "navy"
+      ],
+      "significance": 2,
+      "titleNl": "Rybar/WarGonzo: Russische milbloggers zien het Britse Northern Navies Initiative en Atlantic Net als een Brits streven naar leiding over de noordflank van de NAVO op zee",
+      "titleEn": "Rybar/WarGonzo: Russian milbloggers frame the UK-led Northern Navies Initiative and Atlantic Net as a British bid to lead NATO's northern flank at sea",
+      "summaryNl": "Twee Russische milblogger-kanalen reageerden op 10 november op een door het Verenigd Koninkrijk geleid marine-initiatief voor Noord-Europa.",
+      "summaryEn": "Two Russian milblogger channels commented on 10 November on a British-led naval initiative for Northern Europe.",
+      "sourceRefs": [
+        {
+          "itemId": "2564b839e02e",
+          "title": "📝 Один флот на всех 📝 Британцы усиливают позиции на северном фланге НАТО Одного НАТО бри…",
+          "url": "https://t.me/rybar/84601",
+          "source": "Rybar (Telegram)",
+          "date": "2026-11-10T18:40:39.000Z"
+        },
+        {
+          "itemId": "22f842de298d",
+          "title": "Британия собирает передовой военно-морской эшелон против России Сегодня на борту британско…",
+          "url": "https://t.me/wargonzo/38293",
+          "source": "WarGonzo (Telegram)",
+          "date": "2026-11-10T11:03:01.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "weapon",
+      "topics": [
+        "naval-drones",
+        "navy"
+      ],
+      "significance": 2,
+      "titleNl": "Kongsberg presenteert Arctic Hunter: onbemand onderzeebootjachtschip op basis van een treilerontwerp, gericht op Russische onderzeeërs",
+      "titleEn": "Kongsberg unveils Arctic Hunter, an uncrewed sub-hunting ship on a trawler design aimed at Russian submarines",
+      "summaryNl": "Het Noorse Kongsberg Maritime presenteert de Arctic Hunter voor het Britse Type 92-programma, te bouwen in Birkenhead. Er is nog geen fysiek schip; indienststelling is gepland voor het eind van het decennium.",
+      "summaryEn": "Norway's Kongsberg Maritime presents Arctic Hunter for the UK's Type 92 programme, to be built in Birkenhead. No physical ship exists yet; service entry is planned for the end of the decade.",
+      "sourceRefs": [
+        {
+          "itemId": "4e3b7235bbc0",
+          "title": "Fishing Trawler Adapted Into Arctic Hunter Drone Ship Aims To Scour For Russian Submarines",
+          "url": "https://www.twz.com/sea/fishing-trawler-adapted-into-arctic-hunter-drone-ship-aims-to-scour-for-russian-submarines",
+          "source": "The War Zone",
+          "date": "2026-11-09T18:21:20.000Z"
+        },
+        {
+          "itemId": "ff98fefd6b5c",
+          "title": "Arctic Hunter Uncrewed Anti-Submarine Vessel Launched in Norway",
+          "url": "https://militarnyi.com/en/news/arctic-hunter-uncrewed-anti-submarine-vessel-launched-in-norway/",
+          "source": "Militarnyi",
+          "date": "2026-11-09T13:32:46.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ttp",
+      "topics": [
+        "missiles",
+        "ew"
+      ],
+      "significance": 2,
+      "titleNl": "Oekraïense expert: Iskander-M-zoekkoppen laten Rusland bruggen in Kyiv raken ondanks GNSS-jamming",
+      "titleEn": "Ukrainian expert: Iskander-M seekers let Russia hit Kyiv bridges despite GNSS jamming",
+      "summaryNl": "Volgens Serhii Beskrestnov verklaren de optische correlatie- en actieve radarzoekkop van de 9M723 de treffers op de Zuid- en Noordbrug. Het is de uitleg van één expert, geen officiële bevestiging.",
+      "summaryEn": "According to Serhii Beskrestnov, the 9M723's optical-correlation and active radar seekers explain the hits on the Southern and Northern bridges. This is one expert's explanation, not official confirmation.",
+      "sourceRefs": [
+        {
+          "itemId": "e08b85195b9a",
+          "title": "Jamming doesn’t stop Russia hitting bridges. A Ukrainian expert points to the Iskander’s last-second radar scan",
+          "url": "https://euromaidanpress.com/2026/11/09/jamming-doesnt-stop-russia-hitting-bridges-a-ukrainian-expert-points-to-the-iskanders-last-second-radar-scan",
+          "source": "Euromaidan Press",
+          "date": "2026-11-09T14:05:39.000Z"
+        },
+        {
+          "itemId": "418533911a77",
+          "title": "Presidential adviser explains how Russians accurately hit Ukrainian bridges with missiles",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061900",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-09T08:41:00.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "weapon",
+      "topics": [
+        "missiles",
+        "logistics"
+      ],
+      "significance": 2,
+      "titleNl": "Generale Staf: Oekraïne trof de Morozov-fabriek bij Sint-Petersburg, producent van vaste brandstof voor Iskander-M",
+      "titleEn": "General Staff: Ukraine hit the Morozov plant near St Petersburg, which makes solid fuel for Iskander-M",
+      "summaryNl": "Volgens de Oekraïense Generale Staf maakt de fabriek vastebrandstofladingen voor Iskander-M en explosieven. Welk wapen werd ingezet is niet gemeld; de claim is niet onafhankelijk bevestigd.",
+      "summaryEn": "According to Ukraine's General Staff, the plant makes solid-fuel charges for Iskander-M and explosives. The weapon used was not stated; the claim is not independently confirmed.",
+      "sourceRefs": [
+        {
+          "itemId": "7499a463a0d3",
+          "title": "Ukraine strikes St. Petersburg plant producing missile fuel, General Staff says",
+          "url": "https://kyivindependent.com/ukraine-strikes-st-petersburg-plant-producing-missile-fuel-general-staff-says/",
+          "source": "Kyiv Independent",
+          "date": "2026-11-09T13:21:02.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "org",
+      "topics": [
+        "mobilization",
+        "drones"
+      ],
+      "significance": 2,
+      "titleNl": "Oekraïne claimt 2.980 Russische verliezen op 8 november, het hoogste dagtotaal van de oorlog volgens Kyiv",
+      "titleEn": "Ukraine claims 2,980 Russian casualties on 8 November, the war's highest daily total by Kyiv's count",
+      "summaryNl": "Het is het derde dagrecord in minder dan drie weken volgens de Generale Staf. Het cijfer is niet onafhankelijk verifieerbaar.",
+      "summaryEn": "It is the third daily record in under three weeks, according to the General Staff. The figure cannot be independently verified.",
+      "sourceRefs": [
+        {
+          "itemId": "402386890d1e",
+          "title": "Russia loses 2,980 soldiers over past day",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061871",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-09T04:45:00.000Z"
+        },
+        {
+          "itemId": "509d790e95ef",
+          "title": "2 soldiers a minute — Russia suffers record losses on Nov. 8, General Staff says",
+          "url": "https://kyivindependent.com/2-soldiers-a-minute-russia-suffers-record-losses-on-nov-8-general-staff-says/",
+          "source": "Kyiv Independent",
+          "date": "2026-11-09T10:04:48.000Z"
+        },
+        {
+          "itemId": "37f7650178d4",
+          "title": "Russian forces suffered its highest daily losses on 8 November – Ukraine's General Staff",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061968",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-09T13:54:00.000Z"
+        },
+        {
+          "itemId": "f3d74c89b09f",
+          "title": "One Russian soldier every 29 seconds—Russia’s costliest day of the war, by Ukraine’s count",
+          "url": "https://euromaidanpress.com/2026/11/09/one-russian-soldier-every-29-seconds-russias-costliest-day-of-the-war-by-ukraines-count",
+          "source": "Euromaidan Press",
+          "date": "2026-11-09T14:18:35.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "weapon",
+      "topics": [
+        "missiles",
+        "drones"
+      ],
+      "significance": 2,
+      "titleNl": "HUR vindt 93 buitenlandse onderdelen, waarvan 52 Amerikaanse, in de Geran-5 K5-K",
+      "titleEn": "HUR finds 93 foreign components, 52 of them American, in the Geran-5 K5-K",
+      "summaryNl": "De Oekraïense inlichtingendienst onderzocht een vrijwel intacte K5-K, een kleinere, snellere straaldrone die als kleine kruisraket wordt aangemerkt, met onder meer Texas Instruments-processors en een TRD-200-turbojet.",
+      "summaryEn": "Ukrainian intelligence examined a nearly intact K5-K, a smaller, faster jet drone described as a small cruise missile, containing Texas Instruments processors and a TRD-200 turbojet among other parts.",
+      "sourceRefs": [
+        {
+          "itemId": "e244b9819b4f",
+          "title": "Russia’s new mini cruise missile is packed with American technology — Ukraine finds 52 US components among 93 foreign parts",
+          "url": "https://euromaidanpress.com/2026/11/09/russias-new-mini-cruise-missile-is-packed-with-american-technology-ukraine-finds-52-us-components-among-93-foreign-parts",
+          "source": "Euromaidan Press",
+          "date": "2026-11-09T15:34:05.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "weapon",
+      "topics": [
+        "missiles",
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "Oekraïens parlementslid: Kyiv heeft exo-atmosferische interceptors gedemonstreerd tegen dreigingen als Oresjnik en wil productie",
+      "titleEn": "Ukrainian lawmaker: Kyiv has demonstrated exo-atmospheric interceptors against threats like Oreshnik and wants production",
+      "summaryNl": "Volgens Fedir Venislavskyi, geciteerd door The Guardian, zijn lanceringen gedemonstreerd; wanneer en hoe vaak is niet bekendgemaakt. De claim is niet onafhankelijk bevestigd.",
+      "summaryEn": "According to Fedir Venislavskyi, quoted by The Guardian, launches have been demonstrated; when and how often was not disclosed. The claim is not independently confirmed.",
+      "sourceRefs": [
+        {
+          "itemId": "f702404329b5",
+          "title": "Ukraine has tested near-space kill systems at least three times. A lawmaker wants them in production",
+          "url": "https://euromaidanpress.com/2026/11/09/ukraine-has-tested-near-space-kill-systems-at-least-three-times-a-lawmaker-wants-them-in-production",
+          "source": "Euromaidan Press",
+          "date": "2026-11-09T12:56:57.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "org",
+      "topics": [
+        "command",
+        "missiles"
+      ],
+      "significance": 2,
+      "titleNl": "Verchovna Rada keurt in eerste lezing de oprichting van Ruimtestrijdkrachten als nieuw krijgsmachtonderdeel goed",
+      "titleEn": "Verkhovna Rada approves in first reading the creation of Space Forces as a new branch of Ukraine's armed forces",
+      "summaryNl": "Het wetsvoorstel maakt de Ruimtestrijdkrachten een apart onderdeel van de Oekraïense krijgsmacht. Voor definitieve invoering is nog een tweede lezing nodig.",
+      "summaryEn": "The bill makes the Space Forces a separate branch of Ukraine's armed forces. A second reading is still required before it becomes law.",
+      "sourceRefs": [
+        {
+          "itemId": "391d946568aa",
+          "title": "Ukraine moves to create its own Space Force",
+          "url": "https://defence-blog.com/ukraine-moves-to-create-its-own-space-force",
+          "source": "Defence Blog",
+          "date": "2026-11-09T12:06:17.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ttp",
+      "topics": [
+        "doctrine"
+      ],
+      "significance": 2,
+      "titleNl": "7e Luchtaanvalskorps: Russische aanvallen bij Huliaipole verdrievoudigd, infiltratie steeds vaker door enkelingen",
+      "titleEn": "7th Air Assault Corps: Russian assaults near Huliaipole tripled, infiltration increasingly by single soldiers",
+      "summaryNl": "Volgens het Oekraïense korps verdrievoudigde het aantal Russische aanvallen in oktober en proberen Russische militairen steeds vaker alleen door te dringen om detectie te ontlopen.",
+      "summaryEn": "According to the Ukrainian corps, Russian assaults tripled in October and Russian soldiers increasingly try to infiltrate alone to avoid detection.",
+      "sourceRefs": [
+        {
+          "itemId": "aa2a5cccd9fe",
+          "title": "Russians have tripled assaults on Huliaipole front and are increasingly advancing singly, Air Assault Forces say",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062003",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-09T15:39:00.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ttp",
+      "topics": [
+        "drones"
+      ],
+      "significance": 2,
+      "titleNl": "Russische drone-aanvallen van 8–9 november treffen voedselmagazijn in Odesa, revalidatiecentrum in Kremenchuk en burgers in Charkiv",
+      "titleEn": "Russian drone strikes of 8–9 November hit an Odesa food warehouse, a Kremenchuk rehabilitation centre and civilians in Kharkiv",
+      "summaryNl": "De Oekraïense luchtmacht telde 317 drones, waaronder 105 straal-Shaheds, waarvan 271 neergeschoten of geneutraliseerd. In Odesa vielen drie doden.",
+      "summaryEn": "Ukraine's Air Force counted 317 drones, including 105 jet-powered Shaheds, of which 271 were downed or neutralised. Three people were killed in Odesa.",
+      "sourceRefs": [
+        {
+          "itemId": "b523f9cd0f73",
+          "title": "Russia hits food warehouse in Odesa: three killed, three injured",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061916",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-09T11:55:00.000Z"
+        },
+        {
+          "itemId": "a8aaa0b14e10",
+          "title": "Russian attack kills three in Odesa and sets a warehouse of food for schools ablaze, a day before Abu Dhabi peace talks",
+          "url": "https://euromaidanpress.com/2026/11/09/russian-attack-kills-three-in-odesa-and-sets-a-warehouse-of-food-for-schools-ablaze-a-day-before-abu-dhabi-peace-talks",
+          "source": "Euromaidan Press",
+          "date": "2026-11-09T17:06:38.000Z"
+        },
+        {
+          "itemId": "2e4363bf2087",
+          "title": "Russia destroys rehabilitation centre for children with disabilities in Kremenchuk – photos",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061903",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-09T09:04:00.000Z"
+        },
+        {
+          "itemId": "9337101f1d5a",
+          "title": "Russians attack Kharkiv with drone: five injured, child in intensive care",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061958",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-09T15:12:00.000Z"
+        },
+        {
+          "itemId": "58734e4779bf",
+          "title": "Russian drone debris falls near school in Kyiv – photos",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061941",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-09T11:44:00.000Z"
+        },
+        {
+          "itemId": "13bb48d88888",
+          "title": "Russian drone attacks car in Kharkiv: one injured",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062024",
+          "source": "Ukrainska Pravda (EN)",
+          "date": "2026-11-09T17:48:00.000Z"
+        },
+        {
+          "title": "ЗБИТО/ПОДАВЛЕНО 276 ВОРОЖИХ ЦІЛЕЙ (Shot down/suppressed 276 enemy targets)",
+          "url": "https://t.me/kpszsu/94425",
+          "source": "Ukrainian Air Force (Telegram)",
+          "date": "2026-11-09T06:00:29.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "org",
+      "topics": [
+        "drones",
+        "mobilization"
+      ],
+      "significance": 2,
+      "titleNl": "Rusland bouwt dronepilotenopleiding in het jeugdbeleid van bezet Loehansk in, met een kampioenschap voor kinderen vanaf 7 jaar",
+      "titleEn": "Russia builds drone-pilot training into youth policy in occupied Luhansk, with a championship for children from age 7",
+      "summaryNl": "Euromaidan Press beschrijft subsidies, schoolboeken en het kampioenschap 'Pilots of the Future', waarmee kinderen van 7 tot 18 jaar dronevliegen leren.",
+      "summaryEn": "Euromaidan Press describes grants, textbooks and the 'Pilots of the Future' championship that teach children aged 7 to 18 to fly drones.",
+      "sourceRefs": [
+        {
+          "itemId": "f645a41a2ca2",
+          "title": "Russia turns drone flying into a sport for kids and young people in occupied Luhansk Oblast. Its Putin-backed championship takes children from age 7",
+          "url": "https://euromaidanpress.com/2026/11/09/russia-involves-children-from-occupied-ukraine-in-drone-competitions",
+          "source": "Euromaidan Press",
+          "date": "2026-11-09T20:28:18.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ttp",
+      "topics": [
+        "drones",
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "Rybar: raffinaderij Kirishi getroffen bij een van de grootste drone-aanvallen op de oblast Leningrad",
+      "titleEn": "Rybar: Kirishi refinery hit in one of the largest drone raids on Leningrad Oblast",
+      "summaryNl": "De milblogger noemt het de achtste raffinaderij onder vuur in de novembercampagne en wijst op een nieuwe aanvliegroute ten zuiden van Sint-Petersburg. Single source, persoonlijke stem.",
+      "summaryEn": "The milblogger calls it the eighth refinery hit in the November campaign and points to a new approach route south of St Petersburg. Single source, personal voice.",
+      "sourceRefs": [
+        {
+          "itemId": "c75368bbd703",
+          "title": "📝 8-й НПЗ под ударом 📝 Ноябрьская кампания украинских формирований против НПЗ в России п…",
+          "url": "https://t.me/rybar/84559",
+          "source": "Rybar (Telegram)",
+          "date": "2026-11-09T07:13:05.000Z"
+        }
+      ],
+      "single": true
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ttp",
+      "topics": [
+        "drones",
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "Dva Mayora reageert op berichten over Russische lokposities met paspoppen en geeft tips voor geloofwaardigere decoys",
+      "titleEn": "Dva Mayora responds to reports of Russian mannequin decoy positions with advice on making decoys more convincing",
+      "summaryNl": "De Russische milblogger erkent dat de nep-vuurgroepen zijn opgemerkt en haalt voorbeelden van misleiding uit de vorige eeuw aan. Single source, persoonlijke stem.",
+      "summaryEn": "The Russian milblogger acknowledges the fake fire teams were spotted and cites deception examples from the last century. Single source, personal voice.",
+      "sourceRefs": [
+        {
+          "itemId": "52b5145f3906",
+          "title": "Противник заметил ложные цели-МОГи Фотографии таковых ложных целей стали гулять по всему и…",
+          "url": "https://t.me/dva_majors/101775",
+          "source": "Два майора (Telegram)",
+          "date": "2026-11-09T18:00:55.000Z"
+        },
+        {
+          "itemId": "c16fe7981d5e",
+          "title": "Интересный пример ложных целей из прошлого века \"Мы в своё время предлагали такое некоторы…",
+          "url": "https://t.me/dva_majors/101776",
+          "source": "Два майора (Telegram)",
+          "date": "2026-11-09T18:43:10.000Z"
+        }
+      ],
+      "single": true
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ttp",
+      "topics": [
+        "drones",
+        "armor"
+      ],
+      "significance": 2,
+      "titleNl": "Topwar: Russische troepen sloegen de grootste aanval met grondrobots tot nu toe af, met minstens 28 UGV's",
+      "titleEn": "Topwar: Russian forces repelled the largest ground-robot attack so far, involving at least 28 UGVs",
+      "summaryNl": "Topwar, met een beroep op Westerse media, meldt dat het Oekraïense 3e Legerkorps bij Droezjeljoebivka (Charkiv) de UGV's inzette en dat ze vooral met FPV-drones werden gestopt. Single source.",
+      "summaryEn": "Topwar, citing Western media, says Ukraine's 3rd Army Corps used the UGVs near Druzhelyubivka (Kharkiv) and that they were stopped mainly by FPV drones. Single source.",
+      "sourceRefs": [
+        {
+          "itemId": "69f14e87da12",
+          "title": "«Прорваться не смогли»: ВС РФ отразили самую крупную атаку наземных дронов",
+          "url": "https://topwar.ru/293191-prorvatsja-ne-smogli-vs-rf-otrazili-samuju-krupnuju-ataku-nazemnyh-dronov.html",
+          "source": "Topwar",
+          "date": "2026-11-09T06:41:22.000Z"
+        }
+      ],
+      "single": true
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ttp",
+      "topics": [
+        "drones",
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "Krasnaya Zvezda: Russische interceptordrone-batterijen van groep Vostok claimen honderden Oekraïense drones bij Zaporizja",
+      "titleEn": "Krasnaya Zvezda: Russian interceptor-drone batteries of group Vostok claim hundreds of Ukrainian drones near Zaporizhzhia",
+      "summaryNl": "Het MoD-dagblad noemt Malysj, Molnija-PVO en Roj-F1 als interceptors tegen onder meer Hornet, Shark-M en Leleka. Single source, Russisch MoD.",
+      "summaryEn": "The MoD daily names Malysh, Molniya-PVO and Roy-F1 as interceptors against targets including Hornet, Shark-M and Leleka. Single source, Russian MoD.",
+      "sourceRefs": [
+        {
+          "itemId": "298dc1289c95",
+          "title": "В воздухе – перехватчики «Востока»",
+          "url": "http://redstar.ru/v-vozduhe-perehvatchiki-vostoka",
+          "source": "Krasnaya Zvezda",
+          "date": "2026-11-08T21:00:00.000Z"
+        }
+      ],
+      "single": true
+    },
+    {
+      "date": "2026-11-10",
+      "category": "org",
+      "topics": [
+        "logistics",
+        "drones",
+        "ew",
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "Krasnaya Zvezda: chef achterhoede Solodtsjoek beschrijft bevoorrading met drones, beschermde depots en 'veiligheidscorridors'",
+      "titleEn": "Krasnaya Zvezda: rear-services chief Solodchuk describes drone resupply, protected depots and 'security corridors'",
+      "summaryNl": "Het artikel schetst hoe het Russische leger de frontbevoorrading aanpast aan de dronedreiging. Single source, Russisch MoD.",
+      "summaryEn": "The article outlines how the Russian army is adapting front-line supply to the drone threat. Single source, Russian MoD.",
+      "sourceRefs": [
+        {
+          "itemId": "6a66780808cc",
+          "title": "Новации в стратегии снабжения войск",
+          "url": "http://redstar.ru/novatsii-v-strategii-snabzheniya-vojsk",
+          "source": "Krasnaya Zvezda",
+          "date": "2026-11-08T21:01:00.000Z"
+        }
+      ],
+      "single": true
+    },
+    {
+      "date": "2026-11-10",
+      "category": "weapon",
+      "topics": [
+        "drones",
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "ArmyInform: 317 drones op Oekraïne in de nacht van 9 november, waaronder 105 straal-Shaheds",
+      "titleEn": "ArmyInform: 317 drones at Ukraine on the night of 9 November, including 105 jet-powered Shaheds",
+      "summaryNl": "Volgens de luchtmachtcijfers op het MoD-platform werden 81 van de straaldrones neergeschoten of onderdrukt. Single source, Oekraïens MoD.",
+      "summaryEn": "According to Air Force figures on the MoD platform, 81 of the jet drones were downed or suppressed. Single source, Ukrainian MoD.",
+      "sourceRefs": [
+        {
+          "itemId": "e5639dc1fa65",
+          "title": "Понад 300 БПЛА атакували Україну, сили ППО збили більшість реактивних дронів",
+          "url": "https://armyinform.com.ua/2026/11/09/ponad-300-bpla-atakuvaly-ukrayinu-syly-ppo-zbyly-bilshist-reaktyvnyh-droniv",
+          "source": "ArmyInform",
+          "date": "2026-11-09T06:05:50.000Z"
+        }
+      ],
+      "single": true
+    },
+    {
+      "date": "2026-11-10",
+      "category": "weapon",
+      "topics": [
+        "air-defense"
+      ],
+      "significance": 2,
+      "titleNl": "Defense Express: waarom Rusland geen S-400 aan Iran levert",
+      "titleEn": "Defense Express: why Russia is not supplying the S-400 to Iran",
+      "summaryNl": "De Oekraïense site betoogt dat Rusland de S-400-systemen niet kan missen door eigen tekorten en de oorlog. Single source, Oekraïense analyse.",
+      "summaryEn": "The Ukrainian site argues Russia cannot spare S-400 systems because of its own shortages and the war. Single source, Ukrainian analysis.",
+      "sourceRefs": [
+        {
+          "itemId": "b2e7437fdcb2",
+          "title": "What Lies Behind russia's Decision Not to Supply Iran with the S-400 Air Defense System?",
+          "url": "https://en.defence-ua.com/news/what_lies_behind_russias_decision_not_to_supply_iran_with_the_s_400_air_defense_system-20360.html",
+          "source": "Defense Express",
+          "date": "2026-11-08T18:08:15.000Z"
+        }
+      ],
+      "single": true
+    },
     {
       "date": "2026-11-09",
       "category": "ttp",
