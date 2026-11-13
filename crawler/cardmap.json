@@ -196,6 +196,10 @@
           "match": "\\bhellhound\\b|cummings aerospace",
           "require": "drone|дрон|uav|бпла|jet|interceptor|loitering|cummings"
         },
+        "l39ng": {
+          "name": "Aero L-39NG Skyfox — Drone Hunter",
+          "match": "\\bl-?39\\s?ng\\b|\\bskyfox\\b|\\bl-39\\b[^.]{0,80}(drone|дрон|бпла|беспилот)|(drone|дрон|бпла|беспилот)[^.]{0,80}\\bl-39\\b"
+        },
         "hx2": {
           "name": "Helsing HX-2",
           "match": "\\bhx-2\\b|\\bhx2\\b|хх-2|нх-2|\\bhelsing\\b"

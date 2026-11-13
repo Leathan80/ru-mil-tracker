@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T06:20:59.474Z",
+ "updated": "2026-11-13T08:12:27.800Z",
  "analysisUpdated": "2026-11-13T06:18:22.959Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 809,
-  "cardsWithHits": 122,
-  "matches": 1267
+  "cardsWithHits": 123,
+  "matches": 1270
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -3340,6 +3340,87 @@
        "sourceCount": 1,
        "signals": [
         "scale",
+        "counter"
+       ]
+      }
+     ]
+    },
+    "l39ng": {
+     "name": "Aero L-39NG Skyfox — Drone Hunter",
+     "nameEn": "Aero L-39NG Skyfox — Drone Hunter",
+     "total": 3,
+     "signalCount": 3,
+     "entries": [
+      {
+       "id": "e-20261113-05",
+       "title": "Czechia discusses up to 16 L-39NG Skyfox jets for Ukraine as low-cost hunters of Russian drones",
+       "titleNl": "Tsjechië bespreekt levering van tot 16 L-39NG Skyfox-toestellen aan Oekraïne als goedkope jagers op Russische drones",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "airforce",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-12T19:13:31.000Z",
+       "updatedAt": null,
+       "nlSummary": "Tsjechië kan Oekraïne tot 16 lichte straaltoestellen van het type Aero L-39NG Skyfox leveren, meldt The War Zone. Over vier toestellen was al eerder overeenstemming, over twaalf extra wordt nog gesproken. De Tsjechische vicepremier en minister van Industrie en Handel Karel Havlíček bracht de uitgebreide deal op 11 nov…",
+       "enSummary": "Czechia could supply Ukraine with up to 16 Aero L-39NG Skyfox light jets, The War Zone reports. Four were previously agreed for transfer and twelve more are under discussion. Czech Deputy Prime Minister and Industry and Trade Minister Karel Havlíček raised the expanded deal on a visit to Kyiv on 11 November, where he…",
+       "sourceUrl": "https://www.twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
+        "deploy",
+        "perf",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20260928-s07",
+       "title": "L-39NG Skyfox Could Be Effective Shahed Interceptor, Including Against Jet-Powered Drones, but There Are Some Limitations",
+       "titleNl": "L-39NG Skyfox kan effectieve Shahed-onderschepper zijn, ook tegen straalaangedreven drones, maar er zijn beperkingen",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense",
+        "airforce"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-26T21:45:29.000Z",
+       "updatedAt": "2026-09-28T07:00:00.000Z",
+       "nlSummary": "Op NATO Days 2026 op Leoš Janáček Airport in Ostrava (Tsjechië) toonde de Tsjechische fabrikant Aero Vodochody de L-39NG Skyfox-straaltrainer in een 'Drone Hunter'-configuratie. Volgens Janes en de bijbehorende foto draagt het toestel een Phoenix 10-targetingpod van defensiebedrijf Sinab en twee LAU-32-raketpods met e…",
+       "enSummary": "At NATO Days 2026 at Leoš Janáček Airport in Ostrava (Czechia), the Czech manufacturer Aero Vodochody showed the L-39NG Skyfox jet trainer in a 'Drone Hunter' configuration. According to Janes and the accompanying photograph, the aircraft carries a Phoenix 10 targeting pod from the defence company Sinab and two LAU-32…",
+       "sourceUrl": "https://en.defence-ua.com/weapon_and_tech/l_39ng_skyfox_could_be_effective_shahed_interceptor_including_against_jet_powered_drones_but_there_are_some_limitations-19911.html",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20260926-s05",
+       "title": "RUSI Reports That Ukraine Uses PC-9 Aircraft Armed with Miniguns to Shoot Down Shahed Drones",
+       "titleNl": "RUSI meldt dat Oekraïne met miniguns bewapende PC-9-vliegtuigen inzet om Shahed-drones neer te schieten",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-09-23",
+       "updatedAt": "2026-09-26T07:00:00.000Z",
+       "nlSummary": "Defense Express meldt, op basis van een RUSI-commentaar van senior research fellow Justin Bronk, dat een Oekraïense vrijwilligersgroep ten minste één Pilatus PC-9-turbopropopleidingsvliegtuig inzet, uitgerust met pods met 7,62mm-Minigun-machinegeweren, om Russische one-way-attack-drones te onderscheppen. Volgens RUSI…",
+       "enSummary": "Defense Express, citing a RUSI commentary by senior research fellow Justin Bronk, reports that a Ukrainian volunteer group operates at least one Pilatus PC-9 turboprop trainer fitted with pods carrying 7.62mm Minigun machine guns to intercept Russian one-way attack drones. According to RUSI the aircraft has shot down…",
+       "sourceUrl": "https://en.defence-ua.com/news/rusi_reports_that_ukraine_uses_pc_9_aircraft_armed_with_miniguns_to_shoot_down_shahed_drones-19894.html",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
         "counter"
        ]
       }
