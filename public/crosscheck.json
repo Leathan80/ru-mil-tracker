@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-14T06:32:38.818Z",
- "analysisUpdated": "2026-11-14T06:21:24.308Z",
+ "updated": "2026-11-16T18:09:09.652Z",
+ "analysisUpdated": "2026-11-16T18:08:32.357Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 824,
-  "cardsWithHits": 124,
-  "matches": 1279
+  "entriesConsidered": 798,
+  "cardsWithHits": 122,
+  "matches": 1225
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,9 +23,33 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 147,
+     "total": 141,
      "signalCount": 4,
      "entries": [
+      {
+       "id": "e-20261116-01",
+       "title": "Russia claims to have downed a record 2,049 Ukrainian drones in one day, including about 600 heading for the Moscow region",
+       "titleNl": "Rusland claimt recordaantal van 2.049 Oekraïense drones in één dag te hebben neergehaald, waarvan zo'n 600 op weg naar de regio Moskou",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-16T05:45:01.000Z",
+       "updatedAt": null,
+       "nlSummary": "Het Russische ministerie van Defensie claimde op 16 november 2026 dat zijn luchtverdediging in de voorgaande 24 uur 2.049 Oekraïense drones, vier Flamingo-kruisraketten en zeven geleide vliegtuigbommen heeft neergehaald. De verklaring werd verspreid door Zvezda, de eigen tv-zender van het ministerie, en is een claim v…",
+       "enSummary": "The Russian Ministry of Defence claimed on 16 November 2026 that its air defences shot down 2,049 Ukrainian drones, four Flamingo cruise missiles and seven guided aerial bombs in the preceding 24 hours. The statement was relayed by Zvezda, the ministry's own TV channel, and is a state-source claim. According to Defenc…",
+       "sourceUrl": "https://tass.com/emergencies/2218457",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261114-s09",
        "title": "«Ай, гарно»: військовий збив «Шахед» з ПЗРК «Стінгер» (ArmyInform: '\"Nice one\": a serviceman shoots down a Shahed with a Stinger MANPADS') — Ukrainian mobile fire groups down strike drones with Stinger and Strela-2M",
@@ -130,30 +154,6 @@
        "sourceCount": 1,
        "signals": [
         "counter"
-       ]
-      },
-      {
-       "id": "e-20261113-s05",
-       "title": "«Сили оборони перехопили за ніч 89 ворожих БПЛА, 51 з яких — реактивні» / «Тисячі шахедів не долетіли» (ArmyInform: '89 enemy UAVs intercepted overnight, 51 of them jet-powered' / 'Thousands of Shaheds did not get through') — jet drones now almost half of Russia's Shahed-type launches",
-       "titleNl": "«Сили оборони перехопили за ніч 89 ворожих БПЛА, 51 з яких — реактивні» / «Тисячі шахедів не долетіли» (ArmyInform: '89 vijandelijke UAV's 's nachts onderschept, waarvan 51 met straalmotor' / 'Duizenden Shaheds kwamen niet aan') — straaldrones nu bijna de helft van de Russische Shahed-lanceringen",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense",
-        "missiles"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-11-11T14:24:10.000Z",
-       "updatedAt": null,
-       "nlSummary": "Volgens cijfers van de Oekraïense Generale Staf, gepubliceerd door ArmyInform, lanceerde Rusland tussen 1 en 10 november 2026 3.519 aanvalsdrones van de typen Shahed, Gerbera en Parodiya op Oekraïne, waarvan de Oekraïense strijdkrachten er 3.068 uitschakelden (ongeveer 87%). Bijna elke tweede drone had een straalmotor…",
-       "enSummary": "According to figures from Ukraine's General Staff published by ArmyInform, Russia launched 3,519 strike drones of the Shahed, Gerbera and Parodiya types at Ukraine between 1 and 10 November 2026, of which Ukrainian forces neutralised 3,068 (about 87%). Almost every second drone was jet-powered: 1,695 jet drones were l…",
-       "sourceUrl": "https://armyinform.com.ua/2026/11/11/tysyachi-shahediv-ne-doletily-generalnyj-shtab-zsu-oprylyudnyv-statystystyku-roboty-ppo-za-10-dniv-lystopada",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "scale"
        ]
       }
      ]
@@ -315,7 +315,7 @@
     "geran4": {
      "name": "Geran-4",
      "nameEn": "Geran-4",
-     "total": 38,
+     "total": 35,
      "signalCount": 6,
      "entries": [
       {
@@ -497,7 +497,7 @@
     "geran5": {
      "name": "Geran-5",
      "nameEn": "Geran-5",
-     "total": 42,
+     "total": 39,
      "signalCount": 6,
      "entries": [
       {
@@ -985,7 +985,7 @@
     "parodiya": {
      "name": "Parodiya",
      "nameEn": "Parodiya",
-     "total": 27,
+     "total": 25,
      "signalCount": 6,
      "entries": [
       {
@@ -1131,7 +1131,7 @@
     "gerbera": {
      "name": "Gerbera",
      "nameEn": "Gerbera",
-     "total": 47,
+     "total": 42,
      "signalCount": 6,
      "entries": [
       {
@@ -1280,7 +1280,7 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 25,
+     "total": 22,
      "signalCount": 6,
      "entries": [
       {
@@ -1938,7 +1938,7 @@
     "fpv": {
      "name": "FPV-drones",
      "nameEn": "FPV-drones",
-     "total": 112,
+     "total": 108,
      "signalCount": 5,
      "entries": [
       {
@@ -2523,7 +2523,7 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 91,
+     "total": 89,
      "signalCount": 6,
      "entries": [
       {
@@ -2851,7 +2851,7 @@
     "starlink": {
      "name": "Starlink / Starshield",
      "nameEn": "Starlink / Starshield",
-     "total": 49,
+     "total": 46,
      "signalCount": 4,
      "entries": [
       {
@@ -3091,38 +3091,6 @@
        "signals": [
         "loss",
         "perf"
-       ]
-      }
-     ]
-    },
-    "klin": {
-     "name": "Klin (Roboavia)",
-     "nameEn": "Klin (Roboavia)",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20261018-08",
-       "title": "Ukraine says it hit Roboavia drone plant in Rostov Oblast; Ryazan refinery halts main unit after drone attack",
-       "titleNl": "Oekraïne meldt treffer op dronefabriek Roboavia in oblast Rostov; raffinaderij Rjazan legt hoofdinstallatie stil na droneaanval",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "industry"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-17T10:18:00.000Z",
-       "updatedAt": "2026-10-19T18:47:46.409Z",
-       "nlSummary": "De Oekraïense Generale Staf meldt dat Oekraïense eenheden op vrijdag 16 oktober de fabriek van Roboavia bij de nederzetting Choetor Lenina in de Russische oblast Rostov hebben getroffen. Daarbij zou een productie- en opslaggebouw zijn geraakt en de infrastructuur van het bedrijf zijn beschadigd. Volgens de Generale St…",
-       "enSummary": "Ukraine's General Staff says Ukrainian forces struck the Roboavia plant near the settlement of Khutor Lenina in Russia's Rostov Oblast on Friday 16 October, hitting a production and storage building and damaging the company's infrastructure. According to the General Staff, Roboavia develops and manufactures UAVs for t…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/17/8058516",
-       "sourceCount": 3,
-       "signals": [
-        "loss",
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -4345,7 +4313,7 @@
     "zak30": {
      "name": "ZAK-30 Tsitadel",
      "nameEn": "ZAK-30 Tsitadel",
-     "total": 7,
+     "total": 6,
      "signalCount": 6,
      "entries": [
       {
@@ -5169,8 +5137,8 @@
     "sa8": {
      "name": "9K33 Osa (SA-8)",
      "nameEn": "9K33 Osa (SA-8)",
-     "total": 3,
-     "signalCount": 3,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20261105-s04",
@@ -5218,28 +5186,6 @@
        "signals": [
         "loss",
         "perf"
-       ]
-      },
-      {
-       "id": "e-20260919-s02",
-       "title": "Ukrainian Drone Worth Hundreds of Dollars Destroys russian Air Defense System Worth $10 Million (Video)",
-       "titleNl": "Oekraïense drone van een paar honderd dollar vernietigt Russisch luchtverdedigingssysteem ter waarde van $10 miljoen (video)",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-16T15:41:44.000Z",
-       "updatedAt": "2026-09-19T09:00:00.000Z",
-       "nlSummary": "Volgens Defense Express vernietigde de Phoenix-eenheid van de Oekraïense Pomsta-brigade met een FPV-drone een Russisch 9K33 Osa-luchtverdedigingssysteem diep achter de Russische linies. De bron, die zich baseert op het Oekraïense ministerie van Binnenlandse Zaken, schat de drone op enkele honderden dollars en het vern…",
-       "enSummary": "According to Defense Express, the Phoenix unit of Ukraine's Pomsta Brigade destroyed a Russian 9K33 Osa air defense system deep behind Russian lines using an FPV drone. The source, citing Ukraine's Ministry of Internal Affairs, estimates the drone's cost at several hundred dollars and the destroyed Osa system's value…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukrainian_drone_worth_hundreds_of_dollars_destroys_russian_air_defense_system_worth_10_million_video-19802.html",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -5833,7 +5779,7 @@
     "oreshnik": {
      "name": "Oreshnik",
      "nameEn": "Oreshnik",
-     "total": 9,
+     "total": 8,
      "signalCount": 5,
      "entries": [
       {
@@ -5974,7 +5920,7 @@
     "umpk": {
      "name": "KAB / UMPK-glijbommen",
      "nameEn": "KAB / UMPK glide bombs",
-     "total": 22,
+     "total": 21,
      "signalCount": 6,
      "entries": [
       {
@@ -6477,37 +6423,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      }
-     ]
-    },
-    "tos1": {
-     "name": "TOS-1A / TOS-2",
-     "nameEn": "TOS-1A / TOS-2",
-     "total": 1,
-     "signalCount": 1,
-     "entries": [
-      {
-       "id": "e-20261018-01",
-       "title": "Ukraine's 3rd Army Corps reports first drone strike on Russia's new TOS-3 Drakon thermobaric launcher",
-       "titleNl": "Oekraïens 3e Legerkorps meldt eerste dronetreffer op nieuwe Russische TOS-3 Drakon thermobarische raketwerper",
-       "category": "weapon",
-       "topics": [
-        "artillery",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-17T08:46:00.000Z",
-       "updatedAt": "2026-10-18T05:15:57.364Z",
-       "nlSummary": "Het Oekraïense 3e Legerkorps zegt voor het eerst een Russische TOS-3 Drakon (\"Draak\") thermobarische raketwerper te hebben getroffen en heeft beelden van de aanval gepubliceerd, meldt Ukrainska Pravda op basis van de sociale media van het korps. Het systeem werd geraakt door een drone van de eenheid Muramasa van het K…",
-       "enSummary": "Ukraine's 3rd Army Corps says it has struck a Russian TOS-3 Drakon (\"Dragon\") thermobaric rocket launcher for the first time, and has published video of the attack, Ukrainska Pravda reports citing the corps' social media. The system was hit by a drone flown by the Muramasa unit of the Kraken Separate Unmanned Systems…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/17/8058481",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "perf"
        ]
       }
      ]
@@ -7423,7 +7338,7 @@
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
-     "total": 9,
+     "total": 8,
      "signalCount": 6,
      "entries": [
       {
@@ -7567,7 +7482,7 @@
     "su34": {
      "name": "Su-34",
      "nameEn": "Su-34",
-     "total": 11,
+     "total": 10,
      "signalCount": 6,
      "entries": [
       {
@@ -7859,8 +7774,8 @@
     "su57": {
      "name": "Su-57",
      "nameEn": "Su-57",
-     "total": 6,
-     "signalCount": 6,
+     "total": 5,
+     "signalCount": 5,
      "entries": [
       {
        "id": "e-20261111-09",
@@ -7978,36 +7893,14 @@
         "loss",
         "scale"
        ]
-      },
-      {
-       "id": "e-20260917-s01",
-       "title": "Rostec touts 'exceptional' range of export Su-57E",
-       "titleNl": "Rostec prijst 'uitzonderlijke' actieradius van exportversie Su-57E",
-       "category": "weapon",
-       "topics": [
-        "airforce"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-09-17T05:33:26.000Z",
-       "updatedAt": "2026-09-17T09:00:00.000Z",
-       "nlSummary": "SINGLE SOURCE — Russisch, niet-officieel medium (Topwar.ru); niet onafhankelijk geverifieerd. Staatsconcern Rostec claimt dat de exportversie van de Soechoj Su-57 stealth-jager, de Su-57E, over een 'uitzonderlijke' actieradius en vliegduur beschikt. Aanleiding is de vlucht van het toestel naar de El Alamein Internatio…",
-       "enSummary": "SINGLE SOURCE — Russian, non-official outlet (Topwar.ru); not independently verified. State conglomerate Rostec claims the export variant of the Sukhoi Su-57 stealth fighter, the Su-57E, has an 'exceptional' range and airtime. The claim follows the aircraft's flight to the El Alamein International Airshow in Egypt (Se…",
-       "sourceUrl": "https://topwar.ru/289885-rosteh-rasskazal-ob-iskljuchitelnoj-dalnosti-su-57je.html",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf"
-       ]
       }
      ]
     },
     "tu160": {
      "name": "Tu-160",
      "nameEn": "Tu-160",
-     "total": 4,
-     "signalCount": 4,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20261111-s03",
@@ -8054,31 +7947,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20261018-07",
-       "title": "Tupolev says Tu-160M bomber rebuilt on 'entirely new technological base', with 80% of systems modernized",
-       "titleNl": "Tupolev: Tu-160M-bommenwerper gebouwd op 'geheel nieuwe technologische basis', 80% van de systemen gemoderniseerd",
-       "category": "weapon",
-       "topics": [
-        "airforce",
-        "nuclear",
-        "industry"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-17T08:05:00.000Z",
-       "updatedAt": "2026-10-18T05:15:57.364Z",
-       "nlSummary": "Volgens Joeri Abrosimov, algemeen directeur van Tupolev, heeft de strategische bommenwerper Tu-160M (NAVO-codenaam Blackjack) uiterlijk hetzelfde silhouet als de Sovjet-Tu-160, maar is hij \"gebouwd op een geheel nieuwe technologische basis met actief gebruik van digitale technologie\". Ongeveer 80% van de systemen en a…",
-       "enSummary": "Tupolev general director Yuri Abrosimov says the Tu-160M strategic bomber (NATO: Blackjack) keeps the outward silhouette of the Soviet-era Tu-160 but was \"created on an entirely new technological base with active use of digital technologies\", with 80% of its systems and equipment modernized, including avionics, naviga…",
-       "sourceUrl": "https://defence-blog.com/russia-rebuilt-its-blackjack-bomber-on-a-new-tech-base",
-       "sourceCount": 1,
-       "signals": [
-        "variant",
-        "deploy",
-        "perf"
        ]
       },
       {
@@ -8231,8 +8099,8 @@
     "tu22m3": {
      "name": "Tu-22M3",
      "nameEn": "Tu-22M3",
-     "total": 4,
-     "signalCount": 4,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20261111-s03",
@@ -8278,32 +8146,6 @@
        "sourceCount": 1,
        "signals": [
         "loss",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20261017-04",
-       "title": "Russia strikes Ukraine overnight 16–17 October with Iskander-M/KN-23, Kh-22/32, Kalibr and 332 drones; no ballistic or Kh-22/32 missiles reported intercepted",
-       "titleNl": "Rusland valt Oekraïne in nacht van 16 op 17 oktober aan met Iskander-M/KN-23, Kh-22/32, Kalibr en 332 drones; geen ballistische of Kh-22/32-raketten onderschept gemeld",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-17T05:28:00.000Z",
-       "updatedAt": "2026-10-18T05:15:57.364Z",
-       "nlSummary": "In de nacht van 16 op 17 oktober voerde Rusland een gecombineerde raket- en droneaanval uit op Oekraïne, aldus de Oekraïense luchtmacht volgens Ukrainska Pravda. Daarbij werden ingezet: ballistische Iskander-M/KN-23-raketten, Kh-22/32-kruisvluchtwapens, vier vanaf zee gelanceerde Kalibr-kruisvluchtwapens en 332 Shahed…",
-       "enSummary": "On the night of 16–17 October Russia carried out a combined missile and drone attack on Ukraine, according to Ukraine's Air Force as reported by Ukrainska Pravda. It used Iskander-M/KN-23 ballistic missiles, Kh-22/32 cruise missiles, four sea-launched Kalibr cruise missiles and 332 Shahed (31 jet-powered) and Gerbera…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/17/8058458",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
         "scale"
        ]
       },
@@ -8394,7 +8236,7 @@
     "kn23": {
      "name": "KN-23 (Hwasong-11A)",
      "nameEn": "KN-23 (Hwasong-11A)",
-     "total": 12,
+     "total": 11,
      "signalCount": 6,
      "entries": [
       {
@@ -8766,7 +8608,7 @@
     "kalibr": {
      "name": "3M14 Kalibr",
      "nameEn": "3M14 Kalibr",
-     "total": 12,
+     "total": 11,
      "signalCount": 6,
      "entries": [
       {
@@ -9070,7 +8912,7 @@
     "iskander": {
      "name": "Iskander-M (9K720)",
      "nameEn": "Iskander-M (9K720)",
-     "total": 41,
+     "total": 39,
      "signalCount": 6,
      "entries": [
       {
@@ -9364,8 +9206,8 @@
     "kh22": {
      "name": "Kh-22 / Kh-32",
      "nameEn": "Kh-22 / Kh-32",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20261017-s03",
@@ -9390,32 +9232,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20261017-04",
-       "title": "Russia strikes Ukraine overnight 16–17 October with Iskander-M/KN-23, Kh-22/32, Kalibr and 332 drones; no ballistic or Kh-22/32 missiles reported intercepted",
-       "titleNl": "Rusland valt Oekraïne in nacht van 16 op 17 oktober aan met Iskander-M/KN-23, Kh-22/32, Kalibr en 332 drones; geen ballistische of Kh-22/32-raketten onderschept gemeld",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-17T05:28:00.000Z",
-       "updatedAt": "2026-10-18T05:15:57.364Z",
-       "nlSummary": "In de nacht van 16 op 17 oktober voerde Rusland een gecombineerde raket- en droneaanval uit op Oekraïne, aldus de Oekraïense luchtmacht volgens Ukrainska Pravda. Daarbij werden ingezet: ballistische Iskander-M/KN-23-raketten, Kh-22/32-kruisvluchtwapens, vier vanaf zee gelanceerde Kalibr-kruisvluchtwapens en 332 Shahed…",
-       "enSummary": "On the night of 16–17 October Russia carried out a combined missile and drone attack on Ukraine, according to Ukraine's Air Force as reported by Ukrainska Pravda. It used Iskander-M/KN-23 ballistic missiles, Kh-22/32 cruise missiles, four sea-launched Kalibr cruise missiles and 332 Shahed (31 jet-powered) and Gerbera…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/17/8058458",
-       "sourceCount": 2,
-       "signals": [
-        "loss",
-        "deploy",
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -9556,7 +9372,7 @@
     "kh59": {
      "name": "Kh-59M / Kh-59MK2",
      "nameEn": "Kh-59M / Kh-59MK2",
-     "total": 7,
+     "total": 6,
      "signalCount": 6,
      "entries": [
       {
@@ -9678,24 +9494,25 @@
        ]
       },
       {
-       "id": "e-20261016-02",
-       "title": "Russia follows its ballistic strike with a 580-drone wave heavy on jet-powered Gerans, hitting Kirovohrad Oblast hardest and severing a unique Dnipro power-line tower in Kyiv",
-       "titleNl": "Rusland laat op de ballistische aanval een golf van 580 drones volgen met veel straalaangedreven Gerans, die Kirovohrad het zwaarst treft en in Kyiv een unieke hoogspanningsmast over de Dnipro doorsnijdt",
+       "id": "e-20261011-s01",
+       "title": "«Понад 52 тисячі цілей за місяць: Повітряні Сили оприлюднили результати роботи у вересні» (ArmyInform: More than 52,000 targets in a month: the Air Force publishes its September results)",
+       "titleNl": "Meer dan 52.000 doelen in één maand: de Luchtmacht publiceert haar resultaten over september (ArmyInform)",
        "category": "ttp",
        "topics": [
+        "air-defense",
         "drones",
         "missiles",
-        "air-defense"
+        "airforce"
        ],
-       "stream": "verified",
-       "origin": null,
+       "stream": "single",
+       "origin": "ua",
        "significance": 2,
-       "publishedAt": "2026-10-14T12:11:32.000Z",
-       "updatedAt": "2026-10-16T04:53:06.806Z",
-       "nlSummary": "Van 18.00 uur op 14 oktober tot 08.00 uur op 15 oktober lanceerde Rusland volgens de Oekraïense luchtmacht twee Kh-59-luchtgelanceerde raketten (vanboven de Zwarte Zee) en 580 drones van verschillende typen, waaronder Shaheds en Gerbera-lokdrones. De drones werden gestart vanuit Orjol, Millerovo, Sjatalovo, Brjansk, K…",
-       "enSummary": "From 18:00 on 14 October to 08:00 on 15 October, Russia launched two Kh-59 air-launched missiles (fired from over the Black Sea) and 580 drones of various types, including Shaheds and Gerbera decoys, according to Ukraine's Air Force. The drones were launched from Oryol, Millerovo, Shatalovo, Bryansk, Kursk and Primors…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/15/8058090",
-       "sourceCount": 7,
+       "publishedAt": "2026-10-10T10:08:32.000Z",
+       "updatedAt": "2026-10-11T07:45:00.000Z",
+       "nlSummary": "ArmyInform, het persbureau van het Oekraïense ministerie van Defensie, meldt de resultaten van de Oekraïense Luchtmacht over september 2026, die op 10 oktober zijn gepubliceerd. Volgens de Luchtmacht hebben de Oekraïense strijdkrachten in die maand meer dan 4.700 luchtdoelen vernietigd en daarnaast meer dan 48.000 dro…",
+       "enSummary": "ArmyInform, the news agency of the Ukrainian Ministry of Defence, reports the Ukrainian Air Force's results for September 2026, published on 10 October. According to the Air Force, Ukraine's Defence Forces destroyed more than 4,700 aerial targets during the month and also neutralised more than 48,000 tactical-level UA…",
+       "sourceUrl": "https://armyinform.com.ua/2026/10/10/ponad-52-tysyachi-czilej-za-misyacz-povitryani-syly-oprylyudnyly-rezultaty-roboty-u-veresni",
+       "sourceCount": 1,
        "signals": [
         "loss"
        ]
@@ -9855,7 +9672,7 @@
     "dant": {
      "name": "Dan-T / S8000 Banderol",
      "nameEn": "Dan-T / S8000 Banderol",
-     "total": 43,
+     "total": 40,
      "signalCount": 6,
      "entries": [
       {
@@ -10249,8 +10066,8 @@
     "yak130": {
      "name": "Yak-130M",
      "nameEn": "Yak-130M",
-     "total": 3,
-     "signalCount": 3,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20261103-s02",
@@ -10273,31 +10090,6 @@
        "sourceCount": 1,
        "signals": [
         "counter"
-       ]
-      },
-      {
-       "id": "e-20261016-01",
-       "title": "Ukraine's Navy says it hit six Su-34M bombers at Borisoglebsk air base in Voronezh Oblast with Neptune missiles; Zelensky claims four destroyed",
-       "titleNl": "Oekraïense marine zegt met Neptune-raketten zes Su-34M-bommenwerpers op vliegbasis Borisoglebsk (oblast Voronezj) te hebben geraakt; Zelensky claimt er vier vernietigd",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "missiles",
-        "glide-bombs",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 3,
-       "publishedAt": "2026-10-14T21:24:00.000Z",
-       "updatedAt": "2026-10-16T04:53:06.806Z",
-       "nlSummary": "In de nacht van 14 op 15 oktober 2026 heeft de Oekraïense marine met het kustverdedigingssysteem Neptune het militaire vliegveld Borisoglebsk in de Russische oblast Voronezj aangevallen, zo'n 400 km van de frontlinie. Volgens de marine zijn zes Su-34M-bommenwerpers geraakt, is grondmaterieel voor vliegondersteuning ve…",
-       "enSummary": "On the night of 14-15 October 2026 the Ukrainian Navy struck the Borisoglebsk military airfield in Russia's Voronezh Oblast, roughly 400 km from the front line, with its Neptune coastal missile system. According to the Navy, six Su-34M bombers were hit, aviation support equipment was destroyed, and secondary explosion…",
-       "sourceUrl": "https://defence-blog.com/ukrainian-cruise-missiles-hit-six-su-34-bombers-deep-inside-russia",
-       "sourceCount": 8,
-       "signals": [
-        "loss",
-        "perf"
        ]
       },
       {
@@ -10392,9 +10184,33 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 66,
+     "total": 64,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261116-01",
+       "title": "Russia claims to have downed a record 2,049 Ukrainian drones in one day, including about 600 heading for the Moscow region",
+       "titleNl": "Rusland claimt recordaantal van 2.049 Oekraïense drones in één dag te hebben neergehaald, waarvan zo'n 600 op weg naar de regio Moskou",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-16T05:45:01.000Z",
+       "updatedAt": null,
+       "nlSummary": "Het Russische ministerie van Defensie claimde op 16 november 2026 dat zijn luchtverdediging in de voorgaande 24 uur 2.049 Oekraïense drones, vier Flamingo-kruisraketten en zeven geleide vliegtuigbommen heeft neergehaald. De verklaring werd verspreid door Zvezda, de eigen tv-zender van het ministerie, en is een claim v…",
+       "enSummary": "The Russian Ministry of Defence claimed on 16 November 2026 that its air defences shot down 2,049 Ukrainian drones, four Flamingo cruise missiles and seven guided aerial bombs in the preceding 24 hours. The statement was relayed by Zvezda, the ministry's own TV channel, and is a state-source claim. According to Defenc…",
+       "sourceUrl": "https://tass.com/emergencies/2218457",
+       "sourceCount": 2,
+       "signals": [
+        "loss",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261114-08",
        "title": "Russia launches 117 attack drones overnight, 63 of them jet-powered; two killed in Odesa, Kyiv trauma institute damaged",
@@ -10508,31 +10324,6 @@
         "deploy",
         "perf",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20261110-s08",
-       "title": "«Учение на Балтике» (Krasnaya Zvezda: 'Exercise in the Baltic') — small missile ship Serpukhov rehearses simulated Kalibr strikes, air defence against small aerial targets and jamming",
-       "titleNl": "«Учение на Балтике» (Krasnaja Zvezda: 'Oefening op de Oostzee') — klein raketschip Serpoechov oefent gesimuleerde Kalibr-aanvallen, luchtverdediging tegen kleine luchtdoelen en stoorzenden",
-       "category": "ttp",
-       "topics": [
-        "navy",
-        "missiles",
-        "air-defense",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-11-09T21:00:00.000Z",
-       "updatedAt": null,
-       "nlSummary": "Volgens Krasnaja Zvezda hield de bemanning van het kleine raketschip (MRK) Serpoechov een oefening in het uitschakelen van zee- en kustdoelen van een fictieve tegenstander; de kop plaatst de oefening op de Oostzee. De bemanning voerde elektronische (gesimuleerde) lanceringen uit met het Kalibr-raketsysteem op doelen d…",
-       "enSummary": "According to Krasnaya Zvezda, the crew of the small missile ship (MRK) Serpukhov held an exercise in destroying the naval and coastal targets of a notional enemy; the headline places the exercise in the Baltic. The crew carried out electronic (simulated) launches of the Kalibr missile system against targets representi…",
-       "sourceUrl": "http://redstar.ru/uchenie-na-baltike-17",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "scale"
        ]
       }
      ]
