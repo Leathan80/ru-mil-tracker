@@ -596,8 +596,8 @@
         },
         "peresvetm": {
           "name": "Peresvet-M (Starlink-jammer)",
-          "match": "\\bperesvet-?m\\b|\\bпересвет-?м\\b",
-          "require": "starlink|jamming|jammer|stoorzender|РЭБ|глушени|подавлени"
+          "match": "\\bperesvet-?m\\b|\\bпересвет-?м\\b|\\bvolna-kupol|волна-купол",
+          "require": "starlink|jamming|jammer|stoorzender|РЭБ|глушени|подавлени|спутников"
         },
         "yastreb": {
           "name": "Jastreb 1.0 / Jastreb-S (EW)",
