@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T06:15:24.709Z",
+ "updated": "2026-11-18T18:10:03.173Z",
  "analysisUpdated": "2026-11-18T06:14:32.568Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 833,
-  "cardsWithHits": 124,
-  "matches": 1267
+  "cardsWithHits": 125,
+  "matches": 1270
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -3286,6 +3286,87 @@
        "sourceUrl": "https://topwar.ru/291564-mobilnye-ognevye-gruppy-pvo-ugrozy-koncepcija-i-reshenija.html",
        "sourceCount": 1,
        "signals": [
+        "deploy",
+        "perf"
+       ]
+      }
+     ]
+    },
+    "sokol": {
+     "name": "Sokol / Kokoshnik interceptors",
+     "nameEn": "Sokol / Kokoshnik interceptors",
+     "total": 3,
+     "signalCount": 3,
+     "entries": [
+      {
+       "id": "e-20261118-s01",
+       "title": "«Беспилотники-перехватчики серии «Сокол»» (Topwar: 'Interceptor drones of the Sokol series') — Russian air-defence units field a family of cheap interceptor UAVs, from hand-launched Sokol-I to catapult-launched Sokol-3",
+       "titleNl": "«Беспилотники-перехватчики серии «Сокол»» (Topwar: 'Interceptordrones van de Sokol-serie') — Russische luchtverdedigingseenheden zetten een familie goedkope interceptor-UAV's in, van met de hand gelanceerde Sokol-I tot de katapultgelanceerde Sokol-3",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-11-18T00:21:18.000Z",
+       "updatedAt": null,
+       "nlSummary": "Topwar (Voennoye Obozreniye) beschrijft de Sokol-familie van interceptor-UAV's op basis van berichten van het Russische ministerie van Defensie. De met de hand gelanceerde Sokol-I werd naar verluidt vanaf de eerste helft van 2026 ingezet: op 2 juni meldde het ministerie een bemanning op de richting Dobropillja die ver…",
+       "enSummary": "Topwar (Voennoye Obozreniye) describes the Sokol family of interceptor UAVs, based on Russian Ministry of Defence reports. The hand-launched Sokol-I was reported in use from the first half of 2026: on 2 June the MoD cited a crew on the Dobropillia axis targeting fixed-wing reconnaissance and strike drones, and on 11 S…",
+       "sourceUrl": "https://topwar.ru/293650-bespilotniki-perehvatchiki-serii-sokol.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "variant",
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261118-06",
+       "title": "Russia's Kokoshnik interceptor drone ready for combat testing, developer tells TASS",
+       "titleNl": "Russische Kokoshnik-onderscheppingsdrone klaar voor gevechtstests, zegt ontwikkelaar tegen TASS",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-11-17T14:17:12.000Z",
+       "updatedAt": null,
+       "nlSummary": "Het Russische staatspersbureau TASS meldde op 17 november dat de Kokoshnik-onderscheppingsdrone, uitgerust met een intelligent geleidingssysteem, klaar is voor gevechtstests. De bewering komt van Alexander Barashkov, directeur van het bedrijf Gagaring. Electronics Laboratory, die zegt dat de veldtests volledig zijn af…",
+       "enSummary": "Russian state news agency TASS reported on 17 November that the Kokoshnik interceptor drone, fitted with an intelligent guidance system, is ready for combat testing. The claim comes from Alexander Barashkov, CEO of the company Gagaring. Electronics Laboratory, who said field tests are fully completed and that the main…",
+       "sourceUrl": "https://tass.com/economy/2219773",
+       "sourceCount": 1,
+       "signals": [
+        "perf",
+        "scale"
+       ]
+      },
+      {
+       "id": "e-20261114-12",
+       "title": "Russia unveils Sokol-3 FPV interceptor drone, claims it can intercept jet-powered drones",
+       "titleNl": "Rusland presenteert Sokol-3 FPV-onderscheppingsdrone en claimt dat die straalaangedreven drones kan onderscheppen",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "air-defense"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-12T19:28:07.000Z",
+       "updatedAt": null,
+       "nlSummary": "Rusland heeft de Sokol-3 gepresenteerd, omschreven als een nieuwe snelle FPV-luchtafweerdrone en een doorontwikkeling van de Sokol-I-onderscheppingsdrone, meldde Militarnyi op 12 november. De beelden en video komen uit een Russisch propagandafragment dat werd gedeeld door het Telegramkanaal Potuzhny Informator; het Ru…",
+       "enSummary": "Russia has unveiled the Sokol-3, described as a new high-speed FPV anti-aircraft drone and a further development of the Sokol-I interceptor, Militarnyi reported on 12 November. The images and video come from a Russian propaganda segment posted by the Telegram channel Potuzhny Informator, while the Russian Ministry of…",
+       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV2ZLdnFPTjdmdVlPa2FCTTIzT0JfNlRQN2o1dHZHV2hXdDJhc1RyZzktWV9NSWZvNVNkdWVpaGJKUW5GTVdUU3U1TWhRMFRaMmZERkZWS3pUakFOQ1NpcDBjMlM0X0p5am1CZjVkdjdiWTZ5Q2tyX080RWlwWVdyUzRjejRmYTd0dG82RmVHWHhTUDdsbk1WWnpndw?oc=5",
+       "sourceCount": 1,
+       "signals": [
+        "variant",
         "deploy",
         "perf"
        ]
