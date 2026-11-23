@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T14:49:40.739Z",
+ "updated": "2026-11-23T17:50:17.390Z",
  "analysisUpdated": "2026-11-23T14:48:34.084Z",
  "window": "60d",
  "stats": {
   "entriesConsidered": 789,
   "cardsWithHits": 122,
-  "matches": 1180
+  "matches": 1185
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -2486,9 +2486,34 @@
     "hardkill": {
      "name": "Hard-kill counter-UAS",
      "nameEn": "Hard-kill counter-UAS",
-     "total": 84,
+     "total": 89,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261123-05",
+       "title": "Belgian F-16s on NATO Baltic deployment seen carrying FZ275 laser-guided counter-drone rockets",
+       "titleNl": "Belgische F-16's in NAVO-inzet in de Baltische staten gezien met lasergeleide FZ275-raketten tegen drones",
+       "category": "weapon",
+       "topics": [
+        "air-defense",
+        "airforce",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 1,
+       "publishedAt": "2026-11-22T18:06:32.000Z",
+       "updatedAt": null,
+       "nlSummary": "Belgische F-16's die deelnemen aan de NAVO-luchtpolitiemissie in de Baltische staten zijn gefotografeerd met pods vol lasergeleide 70mm-raketten van het type FZ275, bedoeld voor het bestrijden van drones. Dat meldt Militarnyi op basis van The Aviationist. De foto's, van luchtvaartfotograaf Gustavs Gailītis, tonen de t…",
+       "enSummary": "Belgian F-16s on NATO's air policing mission in the Baltic have been photographed carrying pods of FZ275 70mm laser-guided rockets meant for engaging drones. Militarnyi reports this, citing The Aviationist. The photos, by aviation photographer Gustavs Gailītis, show the jets flying over Riga on 18 November 2026 during…",
+       "sourceUrl": "https://militarnyi.com/en/news/belgian-f-16s-spotted-in-latvia-armed-with-fz275-counter-drone-guided-rockets/",
+       "sourceCount": 1,
+       "signals": [
+        "deploy",
+        "perf",
+        "counter"
+       ]
+      },
       {
        "id": "e-20261122-06",
        "title": "Latvian firm Rannon prepares small unguided anti-drone missiles, launched from drones, for testing in Ukraine",
@@ -2609,29 +2634,6 @@
        "signals": [
         "perf",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20261117-09",
-       "title": "Quantum Wiy Industries unveils upgraded serial SPYS 'Shahed hunter' interceptor: ~500 km/h on trials, 500 g warhead, radar-cued auto-intercept",
-       "titleNl": "Quantum Wiy Industries presenteert verbeterde serieversie van 'Shahed-jager' SPYS: ~500 km/u bij proeven, 500 g gevechtskop, radargestuurde automatische onderschepping",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-11-16T20:41:58.000Z",
-       "updatedAt": null,
-       "nlSummary": "Het Oekraïense bedrijf Quantum Wiy Industries, maker van de interceptors SPYS en Strila, heeft een verbeterde serieversie van zijn snelle interceptordrone SPYS gepresenteerd, zo vertelde een woordvoerder aan Militarnyi. Het ontwerp is afgerond en geschikt gemaakt voor massaproductie, op basis van feedback van gevechts…",
-       "enSummary": "Ukrainian company Quantum Wiy Industries, which makes the SPYS and Strila interceptors, has presented an updated serial version of its high-speed SPYS interceptor drone, a company representative told Militarnyi. The design was finalised and industrialised using feedback from combat crews who had tested the first proto…",
-       "sourceUrl": "https://militarnyi.com/en/news/spys-shahed-hunter-upgrade-speed-500-km-h/",
-       "sourceCount": 1,
-       "signals": [
-        "variant",
-        "perf"
        ]
       }
      ]
