@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T06:17:57.273Z",
- "analysisUpdated": "2026-11-27T06:16:39.193Z",
+ "updated": "2026-11-28T06:19:17.828Z",
+ "analysisUpdated": "2026-11-28T06:18:23.161Z",
  "window": "60d",
  "stats": {
-  "entriesConsidered": 784,
-  "cardsWithHits": 120,
-  "matches": 1111
+  "entriesConsidered": 792,
+  "cardsWithHits": 118,
+  "matches": 1100
  },
  "signalLabels": {
   "loss": "Verlies / uitgeschakeld",
@@ -23,7 +23,7 @@
     "shahed": {
      "name": "Shahed-136 / Geran-2",
      "nameEn": "Shahed-136 / Geran-2",
-     "total": 121,
+     "total": 120,
      "signalCount": 5,
      "entries": [
       {
@@ -96,8 +96,8 @@
       },
       {
        "id": "e-20261126-08",
-       "title": "Russia strikes Ukraine on 24–26 November with ballistic missiles and 110+ drones a night: Kyiv shopping centre hit, 10 killed in one day, Kharkiv Aviation Institute struck, Zelensky warns of new massive strike",
-       "titleNl": "Rusland valt Oekraïne op 24–26 november aan met ballistische raketten en ruim 110 drones per nacht: winkelcentrum Kyiv geraakt, 10 doden op één dag, Luchtvaartinstituut Charkiv getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
+       "title": "Russia strikes Ukraine on 24–27 November with ballistic missiles and 110–155 drones a night: Kyiv shopping centre and Kharkiv Aviation Institute hit, rail and businesses struck in nine oblasts, Zelensky warns of new massive strike",
+       "titleNl": "Rusland valt Oekraïne op 24–27 november aan met ballistische raketten en 110–155 drones per nacht: winkelcentrum Kyiv en Luchtvaartinstituut Charkiv geraakt, spoor en bedrijven in negen oblasten getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
        "category": "ttp",
        "topics": [
         "missiles",
@@ -109,14 +109,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-11-25T06:01:10.000Z",
-       "updatedAt": "2026-11-27T06:16:39.193Z",
-       "nlSummary": "Rusland zette op 24–26 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort. Laat op 25 november troffen ballistische raketten het Kyivse district Desnjanskyj, waarbij een winkelcentrum, een gebouw op een industrieterrein en een niet-residentieel gebouw werden geraakt; burgemeester Vitali Klitsjko…",
-       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–26 November. Late on 25 November ballistic missiles struck Kyiv's Desnianskyi district, hitting a shopping centre, an industrial-zone building and a non-residential building; by morning Mayor Vitali Klitschko counted seven injured, three hosp…",
+       "updatedAt": "2026-11-28T06:18:23.161Z",
+       "nlSummary": "Rusland zette op 24–27 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort, met ruim honderd drones per nacht, waarvan meer dan de helft met straalmotor. Volgens de Oekraïense luchtmacht lanceerde Rusland in de nacht van 24 op 25 november 112 Shahed-drones (66 met straalmotor) plus Gerbera- en 'Pa…",
+       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–27 November, with more than a hundred drones a night, over half of them jet-powered. According to the Ukrainian Air Force, Russia launched 112 Shahed-type drones (66 jet-powered) plus Gerbera and 'Parodiya' decoys on the night of 24–25 Novemb…",
        "sourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-       "sourceCount": 16,
+       "sourceCount": 23,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -482,6 +481,29 @@
      "signalCount": 5,
      "entries": [
       {
+       "id": "e-20261128-03",
+       "title": "Ukraine spots new Russian jet-powered front-line drone, provisionally dubbed 'izdeliye K5'",
+       "titleNl": "Oekraïne ziet nieuwe Russische straalaangedreven frontdrone, voorlopig aangeduid als 'izdeliye K5'",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-27T08:35:55.000Z",
+       "updatedAt": null,
+       "nlSummary": "Volgens Serhii 'Flash' Beskrestnov, radiotechnisch specialist en adviseur defensietechnologie van president Zelensky, is aan het front in Oekraïne een nieuwe straalaangedreven Russische drone opgedoken. Hij plaatste woensdag foto's en schreef dat het onbemande toestel \"voorlopig geïdentificeerd is als 'izdeliye K5'\".…",
+       "enSummary": "A new jet-powered Russian drone has appeared on the front in Ukraine, according to Serhii \"Flash\" Beskrestnov, a radio technology specialist who advises President Zelenskyy on defence technology. On Wednesday he posted photos and wrote that the UAV is \"preliminarily identified as 'izdeliye K5'\". 'Izdeliye' ('item' or…",
+       "sourceUrl": "https://defence-blog.com/ukraine-spots-new-russian-jet-drone",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
+      {
        "id": "e-20261127-s08",
        "title": "«Хто такі споттери й до чого тут реактивні «Шахеди»» (ArmyInform: 'Who spotters are and what jet-powered Shaheds have to do with it') — Ukraine's 1020th air-defence brigade shows its interceptor-drone crews",
        "titleNl": "«Хто такі споттери й до чого тут реактивні «Шахеди»» (ArmyInform: 'Wie zijn spotters en wat hebben straal-Shaheds ermee te maken') — Oekraïense 1020e luchtverdedigingsbrigade toont haar interceptordrone-bemanningen",
@@ -596,30 +618,6 @@
        "sourceCount": 1,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20261119-01",
-       "title": "Ukrainian lawmaker: Russia is testing a jet-powered Geran-6 that could reach 1,000 km/h, and missiles, not just interceptor drones, must be the answer",
-       "titleNl": "Oekraïens Kamerlid: Rusland test een straalaangedreven Geran-6 die tot 1.000 km/u zou halen, en raketten, niet alleen interceptordrones, moeten het antwoord zijn",
-       "category": "weapon",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-11-18T14:42:25.000Z",
-       "updatedAt": null,
-       "nlSummary": "Rusland voert experimentele proeven uit met een straalaangedreven 'Geran-6'-aanvalsdrone die tot 1.000 km/u zou halen en een grote gevechtskop kan dragen. Dat blijkt uit Oekraïense inlichtingengegevens die Fedir Venislavsky, lid van de commissie Nationale Veiligheid, Defensie en Inlichtingen van de Verchovna Rada, doo…",
-       "enSummary": "Russia is running experimental trials of a jet-powered \"Geran-6\" attack drone that could reach 1,000 km/h and carry a large warhead, according to Ukrainian intelligence data relayed by Fedir Venislavsky, a member of the Verkhovna Rada's Committee on National Security, Defence and Intelligence, in an interview with RBC…",
-       "sourceUrl": "https://euromaidanpress.com/2026/11/18/russias-first-shaheds-flew-at-about-185-km-h-its-newest-jet-powered-drone-could-hit-1000-and-interceptor-drones-arent-only-answer-lawmaker-says",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "scale"
        ]
       }
      ]
@@ -778,9 +776,32 @@
     "kub": {
      "name": "KUB-BLA / KUB-2",
      "nameEn": "KUB-BLA / KUB-2",
-     "total": 1,
-     "signalCount": 1,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
+      {
+       "id": "e-20261128-03",
+       "title": "Ukraine spots new Russian jet-powered front-line drone, provisionally dubbed 'izdeliye K5'",
+       "titleNl": "Oekraïne ziet nieuwe Russische straalaangedreven frontdrone, voorlopig aangeduid als 'izdeliye K5'",
+       "category": "weapon",
+       "topics": [
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-27T08:35:55.000Z",
+       "updatedAt": null,
+       "nlSummary": "Volgens Serhii 'Flash' Beskrestnov, radiotechnisch specialist en adviseur defensietechnologie van president Zelensky, is aan het front in Oekraïne een nieuwe straalaangedreven Russische drone opgedoken. Hij plaatste woensdag foto's en schreef dat het onbemande toestel \"voorlopig geïdentificeerd is als 'izdeliye K5'\".…",
+       "enSummary": "A new jet-powered Russian drone has appeared on the front in Ukraine, according to Serhii \"Flash\" Beskrestnov, a radio technology specialist who advises President Zelenskyy on defence technology. On Wednesday he posted photos and wrote that the UAV is \"preliminarily identified as 'izdeliye K5'\". 'Izdeliye' ('item' or…",
+       "sourceUrl": "https://defence-blog.com/ukraine-spots-new-russian-jet-drone",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "perf"
+       ]
+      },
       {
        "id": "e-20261006-s04",
        "title": "«От тактики роевого применения дронов до атак безэкипажных танков» (Krasnaya Zvezda: From swarm drone tactics to uncrewed tank attacks — Tsentr-2026 wrap-up)",
@@ -948,8 +969,8 @@
      "entries": [
       {
        "id": "e-20261126-08",
-       "title": "Russia strikes Ukraine on 24–26 November with ballistic missiles and 110+ drones a night: Kyiv shopping centre hit, 10 killed in one day, Kharkiv Aviation Institute struck, Zelensky warns of new massive strike",
-       "titleNl": "Rusland valt Oekraïne op 24–26 november aan met ballistische raketten en ruim 110 drones per nacht: winkelcentrum Kyiv geraakt, 10 doden op één dag, Luchtvaartinstituut Charkiv getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
+       "title": "Russia strikes Ukraine on 24–27 November with ballistic missiles and 110–155 drones a night: Kyiv shopping centre and Kharkiv Aviation Institute hit, rail and businesses struck in nine oblasts, Zelensky warns of new massive strike",
+       "titleNl": "Rusland valt Oekraïne op 24–27 november aan met ballistische raketten en 110–155 drones per nacht: winkelcentrum Kyiv en Luchtvaartinstituut Charkiv geraakt, spoor en bedrijven in negen oblasten getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
        "category": "ttp",
        "topics": [
         "missiles",
@@ -961,14 +982,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-11-25T06:01:10.000Z",
-       "updatedAt": "2026-11-27T06:16:39.193Z",
-       "nlSummary": "Rusland zette op 24–26 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort. Laat op 25 november troffen ballistische raketten het Kyivse district Desnjanskyj, waarbij een winkelcentrum, een gebouw op een industrieterrein en een niet-residentieel gebouw werden geraakt; burgemeester Vitali Klitsjko…",
-       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–26 November. Late on 25 November ballistic missiles struck Kyiv's Desnianskyi district, hitting a shopping centre, an industrial-zone building and a non-residential building; by morning Mayor Vitali Klitschko counted seven injured, three hosp…",
+       "updatedAt": "2026-11-28T06:18:23.161Z",
+       "nlSummary": "Rusland zette op 24–27 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort, met ruim honderd drones per nacht, waarvan meer dan de helft met straalmotor. Volgens de Oekraïense luchtmacht lanceerde Rusland in de nacht van 24 op 25 november 112 Shahed-drones (66 met straalmotor) plus Gerbera- en 'Pa…",
+       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–27 November, with more than a hundred drones a night, over half of them jet-powered. According to the Ukrainian Air Force, Russia launched 112 Shahed-type drones (66 jet-powered) plus Gerbera and 'Parodiya' decoys on the night of 24–25 Novemb…",
        "sourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-       "sourceCount": 16,
+       "sourceCount": 23,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -1099,8 +1119,8 @@
      "entries": [
       {
        "id": "e-20261126-08",
-       "title": "Russia strikes Ukraine on 24–26 November with ballistic missiles and 110+ drones a night: Kyiv shopping centre hit, 10 killed in one day, Kharkiv Aviation Institute struck, Zelensky warns of new massive strike",
-       "titleNl": "Rusland valt Oekraïne op 24–26 november aan met ballistische raketten en ruim 110 drones per nacht: winkelcentrum Kyiv geraakt, 10 doden op één dag, Luchtvaartinstituut Charkiv getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
+       "title": "Russia strikes Ukraine on 24–27 November with ballistic missiles and 110–155 drones a night: Kyiv shopping centre and Kharkiv Aviation Institute hit, rail and businesses struck in nine oblasts, Zelensky warns of new massive strike",
+       "titleNl": "Rusland valt Oekraïne op 24–27 november aan met ballistische raketten en 110–155 drones per nacht: winkelcentrum Kyiv en Luchtvaartinstituut Charkiv geraakt, spoor en bedrijven in negen oblasten getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
        "category": "ttp",
        "topics": [
         "missiles",
@@ -1112,14 +1132,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-11-25T06:01:10.000Z",
-       "updatedAt": "2026-11-27T06:16:39.193Z",
-       "nlSummary": "Rusland zette op 24–26 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort. Laat op 25 november troffen ballistische raketten het Kyivse district Desnjanskyj, waarbij een winkelcentrum, een gebouw op een industrieterrein en een niet-residentieel gebouw werden geraakt; burgemeester Vitali Klitsjko…",
-       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–26 November. Late on 25 November ballistic missiles struck Kyiv's Desnianskyi district, hitting a shopping centre, an industrial-zone building and a non-residential building; by morning Mayor Vitali Klitschko counted seven injured, three hosp…",
+       "updatedAt": "2026-11-28T06:18:23.161Z",
+       "nlSummary": "Rusland zette op 24–27 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort, met ruim honderd drones per nacht, waarvan meer dan de helft met straalmotor. Volgens de Oekraïense luchtmacht lanceerde Rusland in de nacht van 24 op 25 november 112 Shahed-drones (66 met straalmotor) plus Gerbera- en 'Pa…",
+       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–27 November, with more than a hundred drones a night, over half of them jet-powered. According to the Ukrainian Air Force, Russia launched 112 Shahed-type drones (66 jet-powered) plus Gerbera and 'Parodiya' decoys on the night of 24–25 Novemb…",
        "sourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-       "sourceCount": 16,
+       "sourceCount": 23,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -1245,9 +1264,32 @@
     "molniya2": {
      "name": "Molniya-2",
      "nameEn": "Molniya-2",
-     "total": 24,
+     "total": 25,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261128-s09",
+       "title": "«Молния-13» / «НАБАТ V.3» (Dva Mayora: 'Molniya-13' / 'NABAT V.3') — milblogger on a mine-laying drone with digital video and a volunteer-supplied FPV video interceptor",
+       "titleNl": "«Молния-13» / «НАБАТ V.3» (Dva Mayora: 'Molnija-13' / 'NABAT V.3') — milblogger over een mijnenleggende drone met digitale video en een door vrijwilligers geleverde FPV-video-onderschepper",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-11-26T17:10:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "In een bericht van 26 november schreef het Telegramkanaal Dva Mayora, met een beroep op niet bij naam genoemde \"experts\", dat er een aanpassing van de Molnija-drone bestaat voor het op afstand leggen van antipersoneelsmijnen: de Molnija-13. Volgens het bericht is de drone goedkoop en kan hij 15 kg over een afstand van…",
+       "enSummary": "In a post on 26 November, the Telegram channel Dva Mayora, citing unnamed \"experts\", wrote that a modification of the Molniya drone exists for the remote laying of anti-personnel mines: the Molniya-13. According to the post, the drone is cheap and can carry 15 kg over a distance of 50 km, allowing mines to be dropped…",
+       "sourceUrl": "https://t.me/dva_majors/102593",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20261120-06",
        "title": "Fibre-optic Molniya drones now seen on several front sectors, flying up to 30 km into Ukraine's rear beyond the reach of EW, says Ukrainian adviser Beskrestnov",
@@ -1354,28 +1396,6 @@
        "enSummary": "The Russian milblogger channel Dva Mayora posted footage it describes as BARS crews (Russian volunteer reserve formations) repelling a drone attack on the Omsk oil refinery in western Siberia. According to the post, the crews launched seven Molniya interceptor drones in the air-defence role and destroyed seven hostile…",
        "sourceUrl": "https://t.me/dva_majors/101980",
        "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
-      },
-      {
-       "id": "e-20261114-s09",
-       "title": "«Ай, гарно»: військовий збив «Шахед» з ПЗРК «Стінгер» (ArmyInform: '\"Nice one\": a serviceman shoots down a Shahed with a Stinger MANPADS') — Ukrainian mobile fire groups down strike drones with Stinger and Strela-2M",
-       "titleNl": "«Ай, гарно»: військовий збив «Шахед» з ПЗРК «Стінгер» (ArmyInform: '\"Mooi zo\": militair haalt Shahed neer met Stinger-MANPADS') — Oekraïense mobiele vuurgroepen halen aanvalsdrones neer met Stinger en Strela-2M",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "air-defense"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 1,
-       "publishedAt": "2026-11-13T11:52:52.000Z",
-       "updatedAt": null,
-       "nlSummary": "ArmyInform publiceerde op 13 november twee korte berichten over Oekraïense militairen die Russische eenrichtings-aanvalsdrones neerhaalden met schoudergelanceerde raketten. In het eerste vernietigde een mobiele vuurgroep een aanvalsdrone van het type Shahed met een Stinger-MANPADS; de video verscheen op de pagina van…",
-       "enSummary": "ArmyInform published two short reports on 13 November about Ukrainian troops downing Russian one-way attack drones with shoulder-fired missiles. In the first, a mobile fire group destroyed a Shahed-type strike drone with a Stinger MANPADS; the video appeared on the page of the 39th Tactical Aviation Brigade and shows…",
-       "sourceUrl": "https://armyinform.com.ua/2026/11/13/%c2%abaj-garno%c2%bb-vijskovyj-zbyv-%c2%abshahed%c2%bb-z%c2%a0pzrk-%c2%abstinger%c2%bb",
-       "sourceCount": 2,
        "signals": [
         "loss"
        ]
@@ -1720,8 +1740,8 @@
     "supercam": {
      "name": "Supercam",
      "nameEn": "Supercam",
-     "total": 5,
-     "signalCount": 5,
+     "total": 4,
+     "signalCount": 4,
      "entries": [
       {
        "id": "e-20261111-04",
@@ -1824,28 +1844,6 @@
         "deploy",
         "counter"
        ]
-      },
-      {
-       "id": "e-20260930-s01",
-       "title": "Российские дроны Supercam S350 и S180 впервые представят на оборонной выставке ADEX-2026 в Баку",
-       "titleNl": "Russische Supercam S350- en S180-drones voor het eerst getoond op defensiebeurs ADEX-2026 in Bakoe",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-09-29T05:26:32.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "WarGonzo (Telegram, 29 sep 2026) geeft een aankondiging door van de bedrijvengroep Onbemande Systemen (Bespilotnye Sistemy, maker van de Supercam-lijn): de nieuwste versie van het snelle verkenningsdronesysteem Supercam S180 wordt voor het eerst getoond op de internationale defensie-industriebeurs ADEX-2026 in Bakoe,…",
-       "enSummary": "WarGonzo (Telegram, 29 Sep 2026) relays an announcement by the Unmanned Systems group of companies (Bespilotnye Sistemy, maker of the Supercam line) that it will show the newest version of its high-speed reconnaissance UAS Supercam S180 for the first time at the ADEX-2026 international defence industry exhibition in B…",
-       "sourceUrl": "https://t.me/wargonzo/37264",
-       "sourceCount": 1,
-       "signals": [
-        "perf",
-        "counter"
-       ]
       }
      ]
     },
@@ -1879,6 +1877,29 @@
        ]
       },
       {
+       "id": "e-20261128-s09",
+       "title": "«Молния-13» / «НАБАТ V.3» (Dva Mayora: 'Molniya-13' / 'NABAT V.3') — milblogger on a mine-laying drone with digital video and a volunteer-supplied FPV video interceptor",
+       "titleNl": "«Молния-13» / «НАБАТ V.3» (Dva Mayora: 'Molnija-13' / 'NABAT V.3') — milblogger over een mijnenleggende drone met digitale video en een door vrijwilligers geleverde FPV-video-onderschepper",
+       "category": "weapon",
+       "topics": [
+        "drones",
+        "ew"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 1,
+       "publishedAt": "2026-11-26T17:10:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "In een bericht van 26 november schreef het Telegramkanaal Dva Mayora, met een beroep op niet bij naam genoemde \"experts\", dat er een aanpassing van de Molnija-drone bestaat voor het op afstand leggen van antipersoneelsmijnen: de Molnija-13. Volgens het bericht is de drone goedkoop en kan hij 15 kg over een afstand van…",
+       "enSummary": "In a post on 26 November, the Telegram channel Dva Mayora, citing unnamed \"experts\", wrote that a modification of the Molniya drone exists for the remote laying of anti-personnel mines: the Molniya-13. According to the post, the drone is cheap and can carry 15 kg over a distance of 50 km, allowing mines to be dropped…",
+       "sourceUrl": "https://t.me/dva_majors/102593",
+       "sourceCount": 2,
+       "signals": [
+        "deploy",
+        "counter"
+       ]
+      },
+      {
        "id": "e-20261127-06",
        "title": "Ukraine steered FP-5 Flamingo cruise missiles into the Kerch Bridge via a live camera feed, as Kyiv reportedly weighs shifting funds to the Neptune",
        "titleNl": "Oekraïne stuurde FP-5 Flamingo-kruisvluchtwapens via een live camerabeeld naar de Kerch-brug, terwijl Kyiv volgens berichten overweegt geld naar de Neptun te verschuiven",
@@ -1900,31 +1921,6 @@
         "loss",
         "perf",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20261126-08",
-       "title": "Russia strikes Ukraine on 24–26 November with ballistic missiles and 110+ drones a night: Kyiv shopping centre hit, 10 killed in one day, Kharkiv Aviation Institute struck, Zelensky warns of new massive strike",
-       "titleNl": "Rusland valt Oekraïne op 24–26 november aan met ballistische raketten en ruim 110 drones per nacht: winkelcentrum Kyiv geraakt, 10 doden op één dag, Luchtvaartinstituut Charkiv getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "glide-bombs",
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-11-25T06:01:10.000Z",
-       "updatedAt": "2026-11-27T06:16:39.193Z",
-       "nlSummary": "Rusland zette op 24–26 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort. Laat op 25 november troffen ballistische raketten het Kyivse district Desnjanskyj, waarbij een winkelcentrum, een gebouw op een industrieterrein en een niet-residentieel gebouw werden geraakt; burgemeester Vitali Klitsjko…",
-       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–26 November. Late on 25 November ballistic missiles struck Kyiv's Desnianskyi district, hitting a shopping centre, an industrial-zone building and a non-residential building; by morning Mayor Vitali Klitschko counted seven injured, three hosp…",
-       "sourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-       "sourceCount": 16,
-       "signals": [
-        "loss",
-        "deploy"
        ]
       },
       {
@@ -2443,6 +2439,30 @@
      "signalCount": 5,
      "entries": [
       {
+       "id": "e-20261128-01",
+       "title": "Ukrainian drones hit St. Petersburg area and Tula Oblast; rubber plant linked to Iskander fuel set ablaze",
+       "titleNl": "Oekraïense drones treffen omgeving Sint-Petersburg en oblast Toela; rubberfabriek gelinkt aan Iskander-brandstof in brand",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-27T04:03:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "In de nacht van 26 op 27 november 2026 troffen Oekraïense drones de synthetische-rubberfabriek in Jefremov in de oblast Toela, zo'n 295 km van de Oekraïense grens. De Oekraïense Generale Staf bevestigde de aanval en meldde dat die is uitgevoerd samen met de verzetsbeweging Black Spark (Tsjornaja Iskra) in Rusland, dat…",
+       "enSummary": "Overnight on 26–27 November 2026, Ukrainian drones struck the Yefremov Synthetic Rubber Plant in Tula Oblast, about 295 km from the Ukrainian border. Ukraine's General Staff confirmed the strike, saying it was carried out together with the Black Spark (Chornaya Iskra) resistance movement inside Russia, that the plant…",
+       "sourceUrl": "https://kyivindependent.com/explosions-reported-at-power-plant-synthetic-rubber-factory-in-russias-tula-oblast-following-drone-attack/",
+       "sourceCount": 3,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
        "id": "e-20261127-s08",
        "title": "«Хто такі споттери й до чого тут реактивні «Шахеди»» (ArmyInform: 'Who spotters are and what jet-powered Shaheds have to do with it') — Ukraine's 1020th air-defence brigade shows its interceptor-drone crews",
        "titleNl": "«Хто такі споттери й до чого тут реактивні «Шахеди»» (ArmyInform: 'Wie zijn spotters en wat hebben straal-Shaheds ermee te maken') — Oekraïense 1020e luchtverdedigingsbrigade toont haar interceptordrone-bemanningen",
@@ -2554,30 +2574,6 @@
        "nlSummary": "Belgische F-16's die deelnemen aan de NAVO-luchtpolitiemissie in de Baltische staten zijn gefotografeerd met pods vol lasergeleide 70mm-raketten van het type FZ275, bedoeld voor het bestrijden van drones. Dat meldt Militarnyi op basis van The Aviationist. De foto's, van luchtvaartfotograaf Gustavs Gailītis, tonen de t…",
        "enSummary": "Belgian F-16s on NATO's air policing mission in the Baltic have been photographed carrying pods of FZ275 70mm laser-guided rockets meant for engaging drones. Militarnyi reports this, citing The Aviationist. The photos, by aviation photographer Gustavs Gailītis, show the jets flying over Riga on 18 November 2026 during…",
        "sourceUrl": "https://militarnyi.com/en/news/belgian-f-16s-spotted-in-latvia-armed-with-fz275-counter-drone-guided-rockets/",
-       "sourceCount": 1,
-       "signals": [
-        "deploy",
-        "perf",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20261122-06",
-       "title": "Latvian firm Rannon prepares small unguided anti-drone missiles, launched from drones, for testing in Ukraine",
-       "titleNl": "Lets bedrijf Rannon maakt kleine ongeleide anti-droneraketten, gelanceerd vanaf drones, klaar voor tests in Oekraïne",
-       "category": "weapon",
-       "topics": [
-        "air-defense",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 1,
-       "publishedAt": "2026-11-21T09:16:01.000Z",
-       "updatedAt": null,
-       "nlSummary": "Het Letse defensiebedrijf Rannon ontwikkelt compacte, ongeleide lucht-luchtraketten tegen luchtdoelen en legt de laatste hand aan het systeem voor tests in Oekraïne, meldt Militarnyi, dat sprak met een vertegenwoordiger van het bedrijf op het Defence Innovation Forum 2026 in Den Haag. De lanceerinrichtingen kunnen op…",
-       "enSummary": "Latvian defence company Rannon is developing compact, unguided air-to-air missiles to counter aerial targets and is finalising the system for testing in Ukraine, according to Militarnyi, which spoke to a company representative at the Defence Innovation Forum 2026 in The Hague. The launchers can be mounted on fixed-win…",
-       "sourceUrl": "https://militarnyi.com/en/news/rannon-small-anti-drone-missiles-testing-in-ukraine/",
        "sourceCount": 1,
        "signals": [
         "deploy",
@@ -3445,13 +3441,13 @@
     "sa21": {
      "name": "S-400 (SA-21)",
      "nameEn": "S-400 (SA-21)",
-     "total": 22,
+     "total": 21,
      "signalCount": 6,
      "entries": [
       {
        "id": "e-20261126-08",
-       "title": "Russia strikes Ukraine on 24–26 November with ballistic missiles and 110+ drones a night: Kyiv shopping centre hit, 10 killed in one day, Kharkiv Aviation Institute struck, Zelensky warns of new massive strike",
-       "titleNl": "Rusland valt Oekraïne op 24–26 november aan met ballistische raketten en ruim 110 drones per nacht: winkelcentrum Kyiv geraakt, 10 doden op één dag, Luchtvaartinstituut Charkiv getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
+       "title": "Russia strikes Ukraine on 24–27 November with ballistic missiles and 110–155 drones a night: Kyiv shopping centre and Kharkiv Aviation Institute hit, rail and businesses struck in nine oblasts, Zelensky warns of new massive strike",
+       "titleNl": "Rusland valt Oekraïne op 24–27 november aan met ballistische raketten en 110–155 drones per nacht: winkelcentrum Kyiv en Luchtvaartinstituut Charkiv geraakt, spoor en bedrijven in negen oblasten getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
        "category": "ttp",
        "topics": [
         "missiles",
@@ -3463,14 +3459,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-11-25T06:01:10.000Z",
-       "updatedAt": "2026-11-27T06:16:39.193Z",
-       "nlSummary": "Rusland zette op 24–26 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort. Laat op 25 november troffen ballistische raketten het Kyivse district Desnjanskyj, waarbij een winkelcentrum, een gebouw op een industrieterrein en een niet-residentieel gebouw werden geraakt; burgemeester Vitali Klitsjko…",
-       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–26 November. Late on 25 November ballistic missiles struck Kyiv's Desnianskyi district, hitting a shopping centre, an industrial-zone building and a non-residential building; by morning Mayor Vitali Klitschko counted seven injured, three hosp…",
+       "updatedAt": "2026-11-28T06:18:23.161Z",
+       "nlSummary": "Rusland zette op 24–27 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort, met ruim honderd drones per nacht, waarvan meer dan de helft met straalmotor. Volgens de Oekraïense luchtmacht lanceerde Rusland in de nacht van 24 op 25 november 112 Shahed-drones (66 met straalmotor) plus Gerbera- en 'Pa…",
+       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–27 November, with more than a hundred drones a night, over half of them jet-powered. According to the Ukrainian Air Force, Russia launched 112 Shahed-type drones (66 jet-powered) plus Gerbera and 'Parodiya' decoys on the night of 24–25 Novemb…",
        "sourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-       "sourceCount": 16,
+       "sourceCount": 23,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -3660,7 +3655,7 @@
     "sa22": {
      "name": "Pantsir (SA-22)",
      "nameEn": "Pantsir (SA-22)",
-     "total": 17,
+     "total": 15,
      "signalCount": 6,
      "entries": [
       {
@@ -4699,8 +4694,8 @@
     "s350": {
      "name": "S-350 Vityaz",
      "nameEn": "S-350 Vityaz",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20261006-s04",
@@ -4727,28 +4722,6 @@
        "signals": [
         "variant",
         "deploy",
-        "counter"
-       ]
-      },
-      {
-       "id": "e-20260930-s01",
-       "title": "Российские дроны Supercam S350 и S180 впервые представят на оборонной выставке ADEX-2026 в Баку",
-       "titleNl": "Russische Supercam S350- en S180-drones voor het eerst getoond op defensiebeurs ADEX-2026 in Bakoe",
-       "category": "weapon",
-       "topics": [
-        "drones"
-       ],
-       "stream": "single",
-       "origin": "ru",
-       "significance": 1,
-       "publishedAt": "2026-09-29T05:26:32.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "WarGonzo (Telegram, 29 sep 2026) geeft een aankondiging door van de bedrijvengroep Onbemande Systemen (Bespilotnye Sistemy, maker van de Supercam-lijn): de nieuwste versie van het snelle verkenningsdronesysteem Supercam S180 wordt voor het eerst getoond op de internationale defensie-industriebeurs ADEX-2026 in Bakoe,…",
-       "enSummary": "WarGonzo (Telegram, 29 Sep 2026) relays an announcement by the Unmanned Systems group of companies (Bespilotnye Sistemy, maker of the Supercam line) that it will show the newest version of its high-speed reconnaissance UAS Supercam S180 for the first time at the ADEX-2026 international defence industry exhibition in B…",
-       "sourceUrl": "https://t.me/wargonzo/37264",
-       "sourceCount": 1,
-       "signals": [
-        "perf",
         "counter"
        ]
       }
@@ -5467,7 +5440,7 @@
     "oreshnik": {
      "name": "Oreshnik",
      "nameEn": "Oreshnik",
-     "total": 9,
+     "total": 8,
      "signalCount": 5,
      "entries": [
       {
@@ -5610,9 +5583,34 @@
     "umpk": {
      "name": "KAB / UMPK-glijbommen",
      "nameEn": "KAB / UMPK glide bombs",
-     "total": 21,
+     "total": 22,
      "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261128-s05",
+       "title": "«How Ukraine Uses Neptune Missiles to Target russia's Su-34 Guided Bomb Carriers» (Defense Express) — Ukrainian outlet on Neptune strikes against Su-34 glide-bomb bases",
+       "titleNl": "«How Ukraine Uses Neptune Missiles to Target russia's Su-34 Guided Bomb Carriers» (Defense Express: 'Hoe Oekraïne Neptune-raketten inzet tegen Russische Su-34-dragers van geleide bommen') — Oekraïens medium over Neptune-aanvallen op Su-34-glijbombases",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "airforce",
+        "glide-bombs"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-11-27T09:45:35.000Z",
+       "updatedAt": null,
+       "nlSummary": "Defense Express betoogt dat aanvallen op de vliegbases waar Su-34-jachtbommenwerpers gestationeerd zijn één manier is om de Russische campagne met geleide (glij)bommen tegen te gaan, en dat Oekraïne daarvoor sinds kort zijn zelfontwikkelde kruisvluchtwapens uit de Neptune-familie inzet. Volgens een verklaring van de O…",
+       "enSummary": "Defense Express argues that striking the airfields where Su-34 fighter-bombers are based is one way to counter Russia's guided (glide) bomb campaign, and that Ukraine has recently begun using its domestically built Neptune-family cruise missiles for this. According to a statement by the Ukrainian General Staff, Ukrain…",
+       "sourceUrl": "https://en.defence-ua.com/news/how_ukraine_uses_neptune_missiles_to_target_russias_su_34_guided_bomb_carriers-20558.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
       {
        "id": "e-20261126-01",
        "title": "Ukraine's General Staff says three MiG-31s and two Su-34s were hit at Savasleyka air base in Russia's Nizhny Novgorod Oblast",
@@ -5639,8 +5637,8 @@
       },
       {
        "id": "e-20261126-08",
-       "title": "Russia strikes Ukraine on 24–26 November with ballistic missiles and 110+ drones a night: Kyiv shopping centre hit, 10 killed in one day, Kharkiv Aviation Institute struck, Zelensky warns of new massive strike",
-       "titleNl": "Rusland valt Oekraïne op 24–26 november aan met ballistische raketten en ruim 110 drones per nacht: winkelcentrum Kyiv geraakt, 10 doden op één dag, Luchtvaartinstituut Charkiv getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
+       "title": "Russia strikes Ukraine on 24–27 November with ballistic missiles and 110–155 drones a night: Kyiv shopping centre and Kharkiv Aviation Institute hit, rail and businesses struck in nine oblasts, Zelensky warns of new massive strike",
+       "titleNl": "Rusland valt Oekraïne op 24–27 november aan met ballistische raketten en 110–155 drones per nacht: winkelcentrum Kyiv en Luchtvaartinstituut Charkiv geraakt, spoor en bedrijven in negen oblasten getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
        "category": "ttp",
        "topics": [
         "missiles",
@@ -5652,14 +5650,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-11-25T06:01:10.000Z",
-       "updatedAt": "2026-11-27T06:16:39.193Z",
-       "nlSummary": "Rusland zette op 24–26 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort. Laat op 25 november troffen ballistische raketten het Kyivse district Desnjanskyj, waarbij een winkelcentrum, een gebouw op een industrieterrein en een niet-residentieel gebouw werden geraakt; burgemeester Vitali Klitsjko…",
-       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–26 November. Late on 25 November ballistic missiles struck Kyiv's Desnianskyi district, hitting a shopping centre, an industrial-zone building and a non-residential building; by morning Mayor Vitali Klitschko counted seven injured, three hosp…",
+       "updatedAt": "2026-11-28T06:18:23.161Z",
+       "nlSummary": "Rusland zette op 24–27 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort, met ruim honderd drones per nacht, waarvan meer dan de helft met straalmotor. Volgens de Oekraïense luchtmacht lanceerde Rusland in de nacht van 24 op 25 november 112 Shahed-drones (66 met straalmotor) plus Gerbera- en 'Pa…",
+       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–27 November, with more than a hundred drones a night, over half of them jet-powered. According to the Ukrainian Air Force, Russia launched 112 Shahed-type drones (66 jet-powered) plus Gerbera and 'Parodiya' decoys on the night of 24–25 Novemb…",
        "sourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-       "sourceCount": 16,
+       "sourceCount": 23,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -5732,30 +5729,6 @@
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/16/8063108",
        "sourceCount": 1,
        "signals": []
-      },
-      {
-       "id": "e-20261114-16",
-       "title": "Analyst: Ukraine has stabilised the front east of Sloviansk; Kramatorsk under heavier Russian fire",
-       "titleNl": "Analist: Oekraïne heeft het front ten oosten van Slovjansk gestabiliseerd; Kramatorsk onder zwaarder Russisch vuur",
-       "category": "ttp",
-       "topics": [
-        "fortifications",
-        "command",
-        "drones",
-        "glide-bombs"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-11-13T13:59:56.000Z",
-       "updatedAt": null,
-       "nlSummary": "Oekraïense eenheden hebben het front ten oosten van Slovjansk (oblast Donetsk) na maanden van Russische offensieven gestabiliseerd, aldus analist en kaartmaker Clément Molin (12 november), zoals Euromaidan Press meldt. Molin schrijft dat vooral toe aan verse versterkingen en aan brigadegeneraal Andrii Biletskyi, die h…",
-       "enSummary": "Ukrainian forces have stabilised the front east of Sloviansk (Donetsk Oblast) after months of Russian offensives, according to analyst and mapper Clément Molin (12 November), as reported by Euromaidan Press. Molin attributes the change mainly to fresh reinforcements and to Brigadier General Andrii Biletskyi taking com…",
-       "sourceUrl": "https://euromaidanpress.com/2026/11/13/ukraine-stabilized-the-sloviansk-front-after-months-of-russian-offensives-an-analyst-finds",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
-       ]
       }
      ]
     },
@@ -6325,8 +6298,8 @@
     "nebosvu": {
      "name": "Nebo-SVU",
      "nameEn": "Nebo-SVU",
-     "total": 4,
-     "signalCount": 4,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20261114-02",
@@ -6399,39 +6372,14 @@
         "loss",
         "deploy"
        ]
-      },
-      {
-       "id": "e-20260929-s08",
-       "title": "Авіація, катери, радари та міст: ГУР знищило низку критичних елементів військової системи окупантів",
-       "titleNl": "Vliegtuig, boten, radars en een brug: GUR claimt vernietiging van reeks kritieke elementen van het Russische militaire systeem",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "navy",
-        "logistics",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-28T09:19:07.000Z",
-       "updatedAt": "2026-09-29T07:00:00.000Z",
-       "nlSummary": "De Oekraïense militaire inlichtingendienst (GUR) meldde op 28 september 2026 dat operators van de speciale eenheid 'Prymary' (Spoken) een reeks Russische doelen troffen, van logistiek en communicatie tot radar, luchtvaart en marine. ArmyInform noemt: een spoorbrug over het Noord-Krimkanaal; 9 communicatietorens, EW-,…",
-       "enSummary": "Ukraine's Main Intelligence Directorate (GUR) reported on 28 September 2026 that operators of its special unit 'Prymary' (Ghosts) struck a range of Russian targets, from logistics and communications to radar, aviation and naval assets. ArmyInform lists: a railway bridge over the North Crimean Canal; 9 communication to…",
-       "sourceUrl": "https://armyinform.com.ua/2026/09/28/aviacziya-katery-radary-ta-mist-gur-znyshhylo-nyzku-krytychnyh-elementiv-vijskovoyi-systemy-okupantiv",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "perf"
-       ]
       }
      ]
     },
     "p18": {
      "name": "P-18 Terek",
      "nameEn": "P-18 Terek",
-     "total": 5,
-     "signalCount": 4,
+     "total": 3,
+     "signalCount": 3,
      "entries": [
       {
        "id": "e-20261126-01",
@@ -6506,91 +6454,14 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20260930-s06",
-       "title": "Ukraine Strikes russian Missile Fuel Plants, Drone Launch Sites, and Air Defense Radars in One Week",
-       "titleNl": "Oekraïne treft in één week Russische raketbrandstoffabrieken, drone-lanceerplaatsen en luchtverdedigingsradars",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-29T02:07:31.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "Defense Express vat een overzicht van de Oekraïense generale staf samen van aanvallen die op 21–27 september 2026 zijn uitgevoerd. Aan de defensie-industriële kant staan op de lijst het onderzoeks- en productiebedrijf Zavod Iskra in Oeljanovsk (onderdeel van het concern Almaz-Antej, maakt elektronica en wapencomponent…",
-       "enSummary": "Defense Express summarises a General Staff of the Armed Forces of Ukraine overview of strikes carried out on 21–27 September 2026. On the defence-industrial side, the list includes the Zavod Iskra research and production enterprise in Ulyanovsk (part of the Almaz-Antey concern, making electronic equipment and weapon c…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukraine_strikes_russian_missile_fuel_plants_drone_launch_sites_and_air_defense_radars_in_one_week-19933.html",
-       "sourceCount": 1,
-       "signals": []
-      },
-      {
-       "id": "e-20260929-s08",
-       "title": "Авіація, катери, радари та міст: ГУР знищило низку критичних елементів військової системи окупантів",
-       "titleNl": "Vliegtuig, boten, radars en een brug: GUR claimt vernietiging van reeks kritieke elementen van het Russische militaire systeem",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "navy",
-        "logistics",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-28T09:19:07.000Z",
-       "updatedAt": "2026-09-29T07:00:00.000Z",
-       "nlSummary": "De Oekraïense militaire inlichtingendienst (GUR) meldde op 28 september 2026 dat operators van de speciale eenheid 'Prymary' (Spoken) een reeks Russische doelen troffen, van logistiek en communicatie tot radar, luchtvaart en marine. ArmyInform noemt: een spoorbrug over het Noord-Krimkanaal; 9 communicatietorens, EW-,…",
-       "enSummary": "Ukraine's Main Intelligence Directorate (GUR) reported on 28 September 2026 that operators of its special unit 'Prymary' (Ghosts) struck a range of Russian targets, from logistics and communications to radar, aviation and naval assets. ArmyInform lists: a railway bridge over the North Crimean Canal; 9 communication to…",
-       "sourceUrl": "https://armyinform.com.ua/2026/09/28/aviacziya-katery-radary-ta-mist-gur-znyshhylo-nyzku-krytychnyh-elementiv-vijskovoyi-systemy-okupantiv",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "perf"
-       ]
-      }
-     ]
-    },
-    "gamma": {
-     "name": "Gamma-DE/S1",
-     "nameEn": "Gamma-DE/S1",
-     "total": 1,
-     "signalCount": 0,
-     "entries": [
-      {
-       "id": "e-20260930-s06",
-       "title": "Ukraine Strikes russian Missile Fuel Plants, Drone Launch Sites, and Air Defense Radars in One Week",
-       "titleNl": "Oekraïne treft in één week Russische raketbrandstoffabrieken, drone-lanceerplaatsen en luchtverdedigingsradars",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-29T02:07:31.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "Defense Express vat een overzicht van de Oekraïense generale staf samen van aanvallen die op 21–27 september 2026 zijn uitgevoerd. Aan de defensie-industriële kant staan op de lijst het onderzoeks- en productiebedrijf Zavod Iskra in Oeljanovsk (onderdeel van het concern Almaz-Antej, maakt elektronica en wapencomponent…",
-       "enSummary": "Defense Express summarises a General Staff of the Armed Forces of Ukraine overview of strikes carried out on 21–27 September 2026. On the defence-industrial side, the list includes the Zavod Iskra research and production enterprise in Ulyanovsk (part of the Almaz-Antey concern, making electronic equipment and weapon c…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukraine_strikes_russian_missile_fuel_plants_drone_launch_sites_and_air_defense_radars_in_one_week-19933.html",
-       "sourceCount": 1,
-       "signals": []
       }
      ]
     },
     "kasta": {
      "name": "Kasta-2E2",
      "nameEn": "Kasta-2E2",
-     "total": 4,
-     "signalCount": 3,
+     "total": 2,
+     "signalCount": 2,
      "entries": [
       {
        "id": "e-20261010-s06",
@@ -6640,53 +6511,6 @@
        "sourceCount": 2,
        "signals": [
         "loss"
-       ]
-      },
-      {
-       "id": "e-20260930-s06",
-       "title": "Ukraine Strikes russian Missile Fuel Plants, Drone Launch Sites, and Air Defense Radars in One Week",
-       "titleNl": "Oekraïne treft in één week Russische raketbrandstoffabrieken, drone-lanceerplaatsen en luchtverdedigingsradars",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-29T02:07:31.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "Defense Express vat een overzicht van de Oekraïense generale staf samen van aanvallen die op 21–27 september 2026 zijn uitgevoerd. Aan de defensie-industriële kant staan op de lijst het onderzoeks- en productiebedrijf Zavod Iskra in Oeljanovsk (onderdeel van het concern Almaz-Antej, maakt elektronica en wapencomponent…",
-       "enSummary": "Defense Express summarises a General Staff of the Armed Forces of Ukraine overview of strikes carried out on 21–27 September 2026. On the defence-industrial side, the list includes the Zavod Iskra research and production enterprise in Ulyanovsk (part of the Almaz-Antey concern, making electronic equipment and weapon c…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukraine_strikes_russian_missile_fuel_plants_drone_launch_sites_and_air_defense_radars_in_one_week-19933.html",
-       "sourceCount": 1,
-       "signals": []
-      },
-      {
-       "id": "e-20260929-s08",
-       "title": "Авіація, катери, радари та міст: ГУР знищило низку критичних елементів військової системи окупантів",
-       "titleNl": "Vliegtuig, boten, radars en een brug: GUR claimt vernietiging van reeks kritieke elementen van het Russische militaire systeem",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "navy",
-        "logistics",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-28T09:19:07.000Z",
-       "updatedAt": "2026-09-29T07:00:00.000Z",
-       "nlSummary": "De Oekraïense militaire inlichtingendienst (GUR) meldde op 28 september 2026 dat operators van de speciale eenheid 'Prymary' (Spoken) een reeks Russische doelen troffen, van logistiek en communicatie tot radar, luchtvaart en marine. ArmyInform noemt: een spoorbrug over het Noord-Krimkanaal; 9 communicatietorens, EW-,…",
-       "enSummary": "Ukraine's Main Intelligence Directorate (GUR) reported on 28 September 2026 that operators of its special unit 'Prymary' (Ghosts) struck a range of Russian targets, from logistics and communications to radar, aviation and naval assets. ArmyInform lists: a railway bridge over the North Crimean Canal; 9 communication to…",
-       "sourceUrl": "https://armyinform.com.ua/2026/09/28/aviacziya-katery-radary-ta-mist-gur-znyshhylo-nyzku-krytychnyh-elementiv-vijskovoyi-systemy-okupantiv",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "perf"
        ]
       }
      ]
@@ -6742,36 +6566,6 @@
         "loss",
         "counter"
        ]
-      }
-     ]
-    },
-    "voronezh": {
-     "name": "Voronezh",
-     "nameEn": "Voronezh",
-     "total": 1,
-     "signalCount": 0,
-     "entries": [
-      {
-       "id": "e-20260930-s06",
-       "title": "Ukraine Strikes russian Missile Fuel Plants, Drone Launch Sites, and Air Defense Radars in One Week",
-       "titleNl": "Oekraïne treft in één week Russische raketbrandstoffabrieken, drone-lanceerplaatsen en luchtverdedigingsradars",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense",
-        "logistics"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-29T02:07:31.000Z",
-       "updatedAt": "2026-09-30T07:00:00.000Z",
-       "nlSummary": "Defense Express vat een overzicht van de Oekraïense generale staf samen van aanvallen die op 21–27 september 2026 zijn uitgevoerd. Aan de defensie-industriële kant staan op de lijst het onderzoeks- en productiebedrijf Zavod Iskra in Oeljanovsk (onderdeel van het concern Almaz-Antej, maakt elektronica en wapencomponent…",
-       "enSummary": "Defense Express summarises a General Staff of the Armed Forces of Ukraine overview of strikes carried out on 21–27 September 2026. On the defence-industrial side, the list includes the Zavod Iskra research and production enterprise in Ulyanovsk (part of the Almaz-Antey concern, making electronic equipment and weapon c…",
-       "sourceUrl": "https://en.defence-ua.com/news/ukraine_strikes_russian_missile_fuel_plants_drone_launch_sites_and_air_defense_radars_in_one_week-19933.html",
-       "sourceCount": 1,
-       "signals": []
       }
      ]
     },
@@ -7096,7 +6890,7 @@
     "su35": {
      "name": "Su-35",
      "nameEn": "Su-35",
-     "total": 9,
+     "total": 10,
      "signalCount": 5,
      "entries": [
       {
@@ -7165,6 +6959,29 @@
        ]
       },
       {
+       "id": "e-20261106-01",
+       "title": "Komyshuvakha: final death toll from Russian glide-bomb strike on underground school reaches 72, and Slidstvo.Info journalists identify the Su-34 crews and commanders behind it",
+       "titleNl": "Komysjoevacha: definitief dodental van Russische glijbomaanval op ondergrondse school is 72, en journalisten van Slidstvo.Info identificeren de Su-34-bemanningen en commandanten erachter",
+       "category": "ttp",
+       "topics": [
+        "glide-bombs",
+        "airforce",
+        "drones"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 3,
+       "publishedAt": "2026-11-05T16:07:11.000Z",
+       "updatedAt": "2026-11-28T06:18:23.161Z",
+       "nlSummary": "De Russische luchtaanval van 2 november op het dorp Komysjoevacha in de oblast Zaporizja heeft 72 doden geëist, meldde Militarnyi op 27 november na afloop van de reddingsoperatie. Er waren bijna 100 mensen ter plaatse toen twee bommen van Su-34's het terrein van gymnasium Dzjerelo troffen, waar een weerbaarheidscentru…",
+       "enSummary": "The Russian air strike of 2 November on the village of Komyshuvakha, Zaporizhzhia Oblast, killed 72 people, Militarnyi reported on 27 November after the rescue operation ended. Nearly 100 people were at the site when two bombs from Su-34s hit the grounds of the Dzherelo gymnasium, where a resilience centre was distrib…",
+       "sourceUrl": "https://euromaidanpress.com/2026/11/05/komyshuvakha-death-toll-rises-to-43",
+       "sourceCount": 5,
+       "signals": [
+        "perf"
+       ]
+      },
+      {
        "id": "e-20261103-s02",
        "title": "«Теперь у России новый эшелон ПВО»: Як-130М способен проводить сетевые операции (Topwar: \"'Now Russia has a new air defence echelon': Yak-130M capable of network operations\") — KSS-130 datalink for drone patrol and interception",
        "titleNl": "Topwar: \"'Rusland heeft nu een nieuwe luchtverdedigingslaag': Jak-130M geschikt voor netwerkoperaties\" — KSS-130-datalink voor patrouille en onderschepping van drones",
@@ -7207,40 +7024,64 @@
        "signals": [
         "deploy"
        ]
-      },
-      {
-       "id": "e-20261101-07",
-       "title": "Russia has lost about 13 military aircraft since late September, Defence Blog tallies: seven Su-34s destroyed on the ground by Ukrainian strikes, a Tu-95MS and two Su-30SMs in crashes, and a Su-57 burned out at Akhtubinsk",
-       "titleNl": "Rusland verloor sinds eind september zo'n 13 militaire toestellen, telt Defence Blog: zeven Su-34's op de grond vernietigd door Oekraïense aanvallen, een Tu-95MS en twee Su-30SM's bij crashes, en een Su-57 uitgebrand in Achtoebinsk",
-       "category": "weapon",
-       "topics": [
-        "airforce",
-        "missiles",
-        "drones"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-10-31T11:37:18.000Z",
-       "updatedAt": "2026-11-01T06:16:31.797Z",
-       "nlSummary": "Defence Blog schat de verliezen van de Russische militaire luchtvaart op zo'n twaalf toestellen in ongeveer vijf weken. Het baseert de telling op het Oekraïense open-bronproject Oko Gora, dat in oktober 11 verloren Russische gevechtsvliegtuigen en één helikopter telde, plus twee gedeeltelijk beschadigde Su-34's. Met d…",
-       "enSummary": "Defence Blog puts Russia's military aviation losses at about a dozen aircraft in roughly five weeks. It bases the count on the Ukrainian open-source project Oko Gora, which counted 11 Russian fighter aircraft and one helicopter lost in October, plus two Su-34s partially damaged. Adding the Tu-95MS that crashed on 29 S…",
-       "sourceUrl": "https://defence-blog.com/russia-loses-about-13-warplanes-in-a-month",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
-        "scale"
-       ]
       }
      ]
     },
     "su34": {
      "name": "Su-34",
      "nameEn": "Su-34",
-     "total": 14,
+     "total": 17,
      "signalCount": 6,
      "entries": [
+      {
+       "id": "e-20261128-s05",
+       "title": "«How Ukraine Uses Neptune Missiles to Target russia's Su-34 Guided Bomb Carriers» (Defense Express) — Ukrainian outlet on Neptune strikes against Su-34 glide-bomb bases",
+       "titleNl": "«How Ukraine Uses Neptune Missiles to Target russia's Su-34 Guided Bomb Carriers» (Defense Express: 'Hoe Oekraïne Neptune-raketten inzet tegen Russische Su-34-dragers van geleide bommen') — Oekraïens medium over Neptune-aanvallen op Su-34-glijbombases",
+       "category": "ttp",
+       "topics": [
+        "missiles",
+        "airforce",
+        "glide-bombs"
+       ],
+       "stream": "single",
+       "origin": "ua",
+       "significance": 1,
+       "publishedAt": "2026-11-27T09:45:35.000Z",
+       "updatedAt": null,
+       "nlSummary": "Defense Express betoogt dat aanvallen op de vliegbases waar Su-34-jachtbommenwerpers gestationeerd zijn één manier is om de Russische campagne met geleide (glij)bommen tegen te gaan, en dat Oekraïne daarvoor sinds kort zijn zelfontwikkelde kruisvluchtwapens uit de Neptune-familie inzet. Volgens een verklaring van de O…",
+       "enSummary": "Defense Express argues that striking the airfields where Su-34 fighter-bombers are based is one way to counter Russia's guided (glide) bomb campaign, and that Ukraine has recently begun using its domestically built Neptune-family cruise missiles for this. According to a statement by the Ukrainian General Staff, Ukrain…",
+       "sourceUrl": "https://en.defence-ua.com/news/how_ukraine_uses_neptune_missiles_to_target_russias_su_34_guided_bomb_carriers-20558.html",
+       "sourceCount": 1,
+       "signals": [
+        "loss",
+        "deploy",
+        "counter"
+       ]
+      },
+      {
+       "id": "e-20261128-01",
+       "title": "Ukrainian drones hit St. Petersburg area and Tula Oblast; rubber plant linked to Iskander fuel set ablaze",
+       "titleNl": "Oekraïense drones treffen omgeving Sint-Petersburg en oblast Toela; rubberfabriek gelinkt aan Iskander-brandstof in brand",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-27T04:03:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "In de nacht van 26 op 27 november 2026 troffen Oekraïense drones de synthetische-rubberfabriek in Jefremov in de oblast Toela, zo'n 295 km van de Oekraïense grens. De Oekraïense Generale Staf bevestigde de aanval en meldde dat die is uitgevoerd samen met de verzetsbeweging Black Spark (Tsjornaja Iskra) in Rusland, dat…",
+       "enSummary": "Overnight on 26–27 November 2026, Ukrainian drones struck the Yefremov Synthetic Rubber Plant in Tula Oblast, about 295 km from the Ukrainian border. Ukraine's General Staff confirmed the strike, saying it was carried out together with the Black Spark (Chornaya Iskra) resistance movement inside Russia, that the plant…",
+       "sourceUrl": "https://kyivindependent.com/explosions-reported-at-power-plant-synthetic-rubber-factory-in-russias-tula-oblast-following-drone-attack/",
+       "sourceCount": 3,
+       "signals": [
+        "loss"
+       ]
+      },
       {
        "id": "e-20261127-03",
        "title": "Ukraine says Neptune missiles hit Marinovka Su-34 airbase in Volgograd Oblast, alongside strikes on two Russian oil facilities",
@@ -7337,51 +7178,6 @@
         "deploy",
         "perf",
         "scale"
-       ]
-      },
-      {
-       "id": "e-20261118-07",
-       "title": "Rostec announces third Su-34 delivery batch of 2026; number of aircraft not disclosed",
-       "titleNl": "Rostec meldt derde Su-34-leveringsbatch van 2026; aantal toestellen niet bekendgemaakt",
-       "category": "weapon",
-       "topics": [
-        "airforce"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-11-17T11:50:45.000Z",
-       "updatedAt": null,
-       "nlSummary": "Defence Blog meldt dat het Russische staatsconglomeraat Rostec dinsdag een nieuwe batch Su-34-gevechtsbommenwerpers heeft aangekondigd die is geleverd aan de Russische luchtruimstrijdkrachten, de derde aangekondigde levering in 2026 na eerdere op 9 juli en 7 oktober. Volgens Rostec zijn de toestellen gebouwd door Unit…",
-       "enSummary": "Defence Blog reports that Russian state conglomerate Rostec announced on Tuesday a new batch of Su-34 fighter-bombers delivered to the Russian Aerospace Forces, the third such handover announced in 2026 after earlier ones on 9 July and 7 October. Rostec said the aircraft were built by United Aircraft Corporation (UAC)…",
-       "sourceUrl": "https://defence-blog.com/russia-gets-third-batch-of-new-su-34-bombers-this-year",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy"
-       ]
-      },
-      {
-       "id": "e-20261117-02",
-       "title": "Ukraine strikes Akhtubinsk test airbase (Astrakhan) 650 km from front and Tsimbulova drone launch site (Oryol); at least 30 explosions reported",
-       "titleNl": "Oekraïne treft testvliegbasis Akhtubinsk (Astrachan) 650 km achter het front en droneslanceerplaats Tsimbulova (Orjol); minstens 30 explosies gemeld",
-       "category": "ttp",
-       "topics": [
-        "drones",
-        "airforce",
-        "missiles"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-11-15",
-       "updatedAt": null,
-       "nlSummary": "In de nacht van 15 november 2026 trof Oekraïne volgens de Oekraïense Generale Staf het militaire vliegveld Akhtubinsk in de Russische oblast Astrachan, ongeveer 650 km achter het front, en een droneslanceerplaats bij Tsimbulova in de oblast Orjol. In Akhtubinsk zit het 929e Staats-Vliegtestcentrum 'Tsjkalov' van het R…",
-       "enSummary": "On the night of 15 November 2026, Ukraine struck the Akhtubinsk military airfield in Russia's Astrakhan region, about 650 km from the front line, and a drone launch site near Tsimbulova in Oryol region, according to Ukraine's General Staff. Akhtubinsk hosts the Russian Defence Ministry's 929th Chkalov State Flight Tes…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUkowbV8xR2J0QmJlRE4yUDR0T3c5S3NoREFMdmJGVE01WGtBNWhfOU50RXJnS3ZoSW1UYVZrdm1Sbm1XTzZuOFA2a1BkYTREUnBFMUNzTVV3OV9JZlFJQnBzcGVSaE5jcTV3aUxuTEd6b2VpcUJvR1ZvM2dIcjREd3NIWF9DeUpJLWhNNUwwTDRkR3p5c3B4WThIQTFTY3UxUmhrdDVFb0xoWVJaNmhud3EzaVFBNDBlVjJNdTdVVWl2UlgyX19KYjNn?oc=5",
-       "sourceCount": 3,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -8035,8 +7831,29 @@
      "name": "KN-23 (Hwasong-11A)",
      "nameEn": "KN-23 (Hwasong-11A)",
      "total": 13,
-     "signalCount": 6,
+     "signalCount": 5,
      "entries": [
+      {
+       "id": "e-20261128-s02",
+       "title": "«Без оснований» (Rybar: 'Without grounds') — milblogger dismisses Ukrainian intelligence claim that North Korea has paused arms deliveries to Russia",
+       "titleNl": "«Без оснований» (Rybar: 'Zonder grond') — milblogger noemt Oekraïense inlichtingenclaim over Noord-Koreaanse leveringspauze aan Rusland ongegrond",
+       "category": "org",
+       "topics": [
+        "north-korea",
+        "missiles",
+        "artillery"
+       ],
+       "stream": "single",
+       "origin": "ru",
+       "significance": 2,
+       "publishedAt": "2026-11-27T06:35:23.000Z",
+       "updatedAt": null,
+       "nlSummary": "Het Russische milbloggerkanaal Rybar verwerpt een claim van de Oekraïense inlichtingendienst dat Kim Jong Un de leveringen van KN-23-raketten en artilleriemunitie aan Rusland heeft opgeschort, het Noord-Koreaanse luchtruim voor Russische toestellen heeft gesloten en een verzoek heeft afgewezen om het Noord-Koreaanse c…",
+       "enSummary": "The Russian milblogger channel Rybar rejects a claim by Ukrainian intelligence that Kim Jong Un has suspended deliveries of KN-23 missiles and artillery ammunition to Russia, closed North Korean airspace to Russian aircraft and turned down a request to enlarge the North Korean contingent from 8,500 to 50,000 personnel…",
+       "sourceUrl": "https://t.me/rybar/84964",
+       "sourceCount": 1,
+       "signals": []
+      },
       {
        "id": "e-20261127-01",
        "title": "Ukraine's HUR claims North Korea has paused KN-23 missile and artillery-shell deliveries to Russia and closed its airspace to Russian military transport aircraft after a row over Moscow's stance on South Korea",
@@ -8052,11 +7869,11 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-11-26T08:58:00.000Z",
-       "updatedAt": null,
+       "updatedAt": "2026-11-28T06:18:23.161Z",
        "nlSummary": "De Oekraïense militaire inlichtingendienst (HUR/DIU) meldde op 26 november dat Noord-Korea zijn militaire steun aan Rusland tijdelijk heeft ingeperkt. Volgens HUR gaat het om \"een verbod op het gebruik van het Noord-Koreaanse luchtruim door Russische militaire transportvliegtuigen, en de opschorting van leveringen van…",
        "enSummary": "Ukraine's military intelligence agency (HUR/DIU) said on 26 November that North Korea has temporarily restricted its military support for Russia. According to HUR, the measures include \"a ban on the use of North Korean airspace by Russian military transport aircraft, as well as the suspension of deliveries of KN-23 ba…",
        "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/26/8064748",
-       "sourceCount": 4,
+       "sourceCount": 5,
        "signals": [
         "loss",
         "deploy"
@@ -8157,31 +7974,6 @@
        "signals": [
         "loss"
        ]
-      },
-      {
-       "id": "e-20261108-01",
-       "title": "Russia's 6–7 November combined strike on Kyiv used 36 ballistic missiles, including North Korean KN-23s, plus 172 drones; Zelensky says only four missiles were downed amid a Patriot interceptor shortage",
-       "titleNl": "Russische gecombineerde aanval op Kyiv van 6 op 7 november met 36 ballistische raketten, waaronder Noord-Koreaanse KN-23's, en 172 drones; volgens Zelensky slechts vier raketten neergehaald door tekort aan Patriot-interceptors",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense",
-        "north-korea"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-11-07T07:15:00.000Z",
-       "updatedAt": "2026-11-08T06:14:30.651Z",
-       "nlSummary": "Rusland voerde in de nacht van 6 op 7 november een gecombineerde aanval uit met 172 drones (Shahed, Gerbera, Parodiya en andere typen) en raketten van de typen Iskander-M, Zircon, KN-23 en S-400, met Kyiv en de oblast Kyiv als hoofddoel, aldus de cijfers van de Oekraïense luchtmacht via Ukrainska Pravda. President Zel…",
-       "enSummary": "On the night of 6–7 November Russia launched a combined strike on Ukraine with 172 drones (Shahed, Gerbera, Parodiya and other types) and missiles of the Iskander-M, Zircon, KN-23 and S-400 types, with Kyiv and Kyiv Oblast as the main target, according to the Ukrainian Air Force figures reported by Ukrainska Pravda. P…",
-       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/07/8061685",
-       "sourceCount": 7,
-       "signals": [
-        "loss",
-        "variant"
-       ]
       }
      ]
     },
@@ -8219,13 +8011,35 @@
     "zircon": {
      "name": "3M22 Zircon",
      "nameEn": "3M22 Zircon",
-     "total": 12,
+     "total": 13,
      "signalCount": 6,
      "entries": [
       {
+       "id": "e-20261128-02",
+       "title": "Yasen-M nuclear submarine Perm commissioned for the Pacific Fleet; Putin says seven more nuclear boats under construction",
+       "titleNl": "Jasen-M-atoomonderzeeër Perm in dienst gesteld voor de Pacifische Vloot; Poetin: nog zeven nucleaire boten in aanbouw",
+       "category": "weapon",
+       "topics": [
+        "navy",
+        "missiles"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-27T17:43:06.000Z",
+       "updatedAt": null,
+       "nlSummary": "De nucleair aangedreven multifunctionele onderzeeër Perm, een serieboot van Projekt 885M (Jasen-M), is in dienst gesteld bij de Russische marine, meldt TASS op 27 november vanuit Severodvinsk (oblast Archangelsk). Marinecommandant admiraal Aleksandr Mojsejev meldde dat de boot de staatsproeven had afgerond en gereed w…",
+       "enSummary": "The nuclear-powered multipurpose submarine Perm, a serial boat of Project 885M (Yasen-M), has been commissioned into the Russian Navy, TASS reports from Severodvinsk (Arkhangelsk region) on 27 November. Navy commander-in-chief Admiral Alexander Moiseyev reported that the boat had completed state trials and was ready f…",
+       "sourceUrl": "https://tass.com/politics/2226229",
+       "sourceCount": 2,
+       "signals": [
+        "deploy"
+       ]
+      },
+      {
        "id": "e-20261126-08",
-       "title": "Russia strikes Ukraine on 24–26 November with ballistic missiles and 110+ drones a night: Kyiv shopping centre hit, 10 killed in one day, Kharkiv Aviation Institute struck, Zelensky warns of new massive strike",
-       "titleNl": "Rusland valt Oekraïne op 24–26 november aan met ballistische raketten en ruim 110 drones per nacht: winkelcentrum Kyiv geraakt, 10 doden op één dag, Luchtvaartinstituut Charkiv getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
+       "title": "Russia strikes Ukraine on 24–27 November with ballistic missiles and 110–155 drones a night: Kyiv shopping centre and Kharkiv Aviation Institute hit, rail and businesses struck in nine oblasts, Zelensky warns of new massive strike",
+       "titleNl": "Rusland valt Oekraïne op 24–27 november aan met ballistische raketten en 110–155 drones per nacht: winkelcentrum Kyiv en Luchtvaartinstituut Charkiv geraakt, spoor en bedrijven in negen oblasten getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
        "category": "ttp",
        "topics": [
         "missiles",
@@ -8237,14 +8051,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-11-25T06:01:10.000Z",
-       "updatedAt": "2026-11-27T06:16:39.193Z",
-       "nlSummary": "Rusland zette op 24–26 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort. Laat op 25 november troffen ballistische raketten het Kyivse district Desnjanskyj, waarbij een winkelcentrum, een gebouw op een industrieterrein en een niet-residentieel gebouw werden geraakt; burgemeester Vitali Klitsjko…",
-       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–26 November. Late on 25 November ballistic missiles struck Kyiv's Desnianskyi district, hitting a shopping centre, an industrial-zone building and a non-residential building; by morning Mayor Vitali Klitschko counted seven injured, three hosp…",
+       "updatedAt": "2026-11-28T06:18:23.161Z",
+       "nlSummary": "Rusland zette op 24–27 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort, met ruim honderd drones per nacht, waarvan meer dan de helft met straalmotor. Volgens de Oekraïense luchtmacht lanceerde Rusland in de nacht van 24 op 25 november 112 Shahed-drones (66 met straalmotor) plus Gerbera- en 'Pa…",
+       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–27 November, with more than a hundred drones a night, over half of them jet-powered. According to the Ukrainian Air Force, Russia launched 112 Shahed-type drones (66 jet-powered) plus Gerbera and 'Parodiya' decoys on the night of 24–25 Novemb…",
        "sourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-       "sourceCount": 16,
+       "sourceCount": 23,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -8339,31 +8152,6 @@
        "sourceCount": 6,
        "signals": [
         "loss",
-        "scale"
-       ]
-      },
-      {
-       "id": "e-20261113-09",
-       "title": "Russia strikes Kyiv with Iskander-M, S-400 and Zircon missiles and jet drones hours after Abu Dhabi peace talks end",
-       "titleNl": "Rusland valt Kyiv aan met Iskander-M-, S-400- en Zircon-raketten en straalaangedreven drones, uren na afloop van vredesoverleg in Abu Dhabi",
-       "category": "ttp",
-       "topics": [
-        "missiles",
-        "drones",
-        "air-defense"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-11-11T23:27:06.000Z",
-       "updatedAt": null,
-       "nlSummary": "Uren nadat de tweede dag van het door de VS bemiddelde vredesoverleg in Abu Dhabi zonder wezenlijke doorbraak was afgesloten, viel Rusland in de nacht van 12 november Kyiv en omgeving aan, meldt de Kyiv Independent. Rond 01:00 uur klonken de eerste explosies, enkele minuten nadat de Oekraïense luchtmacht voor naderend…",
-       "enSummary": "Hours after the second day of US-brokered peace talks in Abu Dhabi ended without a meaningful breakthrough, Russia attacked Kyiv and the surrounding region overnight on 12 November, the Kyiv Independent reports. Explosions started around 01:00, minutes after Ukraine's Air Force warned of incoming ballistic missiles. A…",
-       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNanJqck5pbEpxaFEzUTRNdEhrQXZJbGFudFR4THE1YkJ2UGRDX180cFRwMDEwZXlqbEtyYlBCdFJaWWFfUGlrVHU2VmNyMjBPVnQ3QTBjNWttYWY4V1diMWxWUkd0UGJNNVBuczlCcC1iM1Q5V2l4ODBReWM1UEJMN1pCN0tHX2R5VWtuaVd3RGJIT1JhWkRnWFBhbGs4a0FGS2c?oc=5",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "deploy",
         "scale"
        ]
       }
@@ -8522,7 +8310,7 @@
     "kh101": {
      "name": "Kh-101",
      "nameEn": "Kh-101",
-     "total": 14,
+     "total": 13,
      "signalCount": 6,
      "entries": [
       {
@@ -8673,13 +8461,37 @@
     "iskander": {
      "name": "Iskander-M (9K720)",
      "nameEn": "Iskander-M (9K720)",
-     "total": 36,
+     "total": 35,
      "signalCount": 6,
      "entries": [
       {
+       "id": "e-20261128-01",
+       "title": "Ukrainian drones hit St. Petersburg area and Tula Oblast; rubber plant linked to Iskander fuel set ablaze",
+       "titleNl": "Oekraïense drones treffen omgeving Sint-Petersburg en oblast Toela; rubberfabriek gelinkt aan Iskander-brandstof in brand",
+       "category": "ttp",
+       "topics": [
+        "drones",
+        "missiles",
+        "air-defense",
+        "logistics"
+       ],
+       "stream": "verified",
+       "origin": null,
+       "significance": 2,
+       "publishedAt": "2026-11-27T04:03:16.000Z",
+       "updatedAt": null,
+       "nlSummary": "In de nacht van 26 op 27 november 2026 troffen Oekraïense drones de synthetische-rubberfabriek in Jefremov in de oblast Toela, zo'n 295 km van de Oekraïense grens. De Oekraïense Generale Staf bevestigde de aanval en meldde dat die is uitgevoerd samen met de verzetsbeweging Black Spark (Tsjornaja Iskra) in Rusland, dat…",
+       "enSummary": "Overnight on 26–27 November 2026, Ukrainian drones struck the Yefremov Synthetic Rubber Plant in Tula Oblast, about 295 km from the Ukrainian border. Ukraine's General Staff confirmed the strike, saying it was carried out together with the Black Spark (Chornaya Iskra) resistance movement inside Russia, that the plant…",
+       "sourceUrl": "https://kyivindependent.com/explosions-reported-at-power-plant-synthetic-rubber-factory-in-russias-tula-oblast-following-drone-attack/",
+       "sourceCount": 3,
+       "signals": [
+        "loss"
+       ]
+      },
+      {
        "id": "e-20261126-08",
-       "title": "Russia strikes Ukraine on 24–26 November with ballistic missiles and 110+ drones a night: Kyiv shopping centre hit, 10 killed in one day, Kharkiv Aviation Institute struck, Zelensky warns of new massive strike",
-       "titleNl": "Rusland valt Oekraïne op 24–26 november aan met ballistische raketten en ruim 110 drones per nacht: winkelcentrum Kyiv geraakt, 10 doden op één dag, Luchtvaartinstituut Charkiv getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
+       "title": "Russia strikes Ukraine on 24–27 November with ballistic missiles and 110–155 drones a night: Kyiv shopping centre and Kharkiv Aviation Institute hit, rail and businesses struck in nine oblasts, Zelensky warns of new massive strike",
+       "titleNl": "Rusland valt Oekraïne op 24–27 november aan met ballistische raketten en 110–155 drones per nacht: winkelcentrum Kyiv en Luchtvaartinstituut Charkiv geraakt, spoor en bedrijven in negen oblasten getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
        "category": "ttp",
        "topics": [
         "missiles",
@@ -8691,14 +8503,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-11-25T06:01:10.000Z",
-       "updatedAt": "2026-11-27T06:16:39.193Z",
-       "nlSummary": "Rusland zette op 24–26 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort. Laat op 25 november troffen ballistische raketten het Kyivse district Desnjanskyj, waarbij een winkelcentrum, een gebouw op een industrieterrein en een niet-residentieel gebouw werden geraakt; burgemeester Vitali Klitsjko…",
-       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–26 November. Late on 25 November ballistic missiles struck Kyiv's Desnianskyi district, hitting a shopping centre, an industrial-zone building and a non-residential building; by morning Mayor Vitali Klitschko counted seven injured, three hosp…",
+       "updatedAt": "2026-11-28T06:18:23.161Z",
+       "nlSummary": "Rusland zette op 24–27 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort, met ruim honderd drones per nacht, waarvan meer dan de helft met straalmotor. Volgens de Oekraïense luchtmacht lanceerde Rusland in de nacht van 24 op 25 november 112 Shahed-drones (66 met straalmotor) plus Gerbera- en 'Pa…",
+       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–27 November, with more than a hundred drones a night, over half of them jet-powered. According to the Ukrainian Air Force, Russia launched 112 Shahed-type drones (66 jet-powered) plus Gerbera and 'Parodiya' decoys on the night of 24–25 Novemb…",
        "sourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-       "sourceCount": 16,
+       "sourceCount": 23,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -8796,29 +8607,6 @@
        "signals": [
         "loss",
         "deploy"
-       ]
-      },
-      {
-       "id": "e-20261121-07",
-       "title": "Ukrainian officials count more than 147 foreign components in an Iskander-M and dozens of US-made parts in Geran drones as Kyiv says sanctions still leak",
-       "titleNl": "Oekraïense functionarissen tellen ruim 147 buitenlandse onderdelen in een Iskander-M en tientallen Amerikaanse onderdelen in Geran-drones; volgens Kyiv lekken de sancties nog steeds",
-       "category": "weapon",
-       "topics": [
-        "missiles",
-        "drones",
-        "logistics"
-       ],
-       "stream": "verified",
-       "origin": null,
-       "significance": 2,
-       "publishedAt": "2026-11-20T13:15:30.000Z",
-       "updatedAt": null,
-       "nlSummary": "De Oekraïense minister van Buitenlandse Zaken Andrii Sybiha meldde op 19 november op X dat Russische raketten en drones buitenlandse elektronica uit minstens acht landen bevatten; welke landen noemde hij niet. Volgens zijn cijfers bevat een Iskander-M ballistische raket ruim 147 buitenlandse onderdelen, de Geran-5 met…",
-       "enSummary": "Ukrainian Foreign Minister Andrii Sybiha said on X on 19 November that Russian missiles and drones contain foreign electronics from at least eight countries, which he did not name. According to his figures, an Iskander-M ballistic missile contains more than 147 foreign components, the Geran-5 jet-powered drone more th…",
-       "sourceUrl": "https://euromaidanpress.com/2026/11/20/whats-inside-the-missiles-hitting-ukraines-cities-kyivs-count-shows-how-sanctions-still-leak",
-       "sourceCount": 1,
-       "signals": [
-        "loss"
        ]
       }
      ]
@@ -9422,8 +9210,8 @@
      "entries": [
       {
        "id": "e-20261126-08",
-       "title": "Russia strikes Ukraine on 24–26 November with ballistic missiles and 110+ drones a night: Kyiv shopping centre hit, 10 killed in one day, Kharkiv Aviation Institute struck, Zelensky warns of new massive strike",
-       "titleNl": "Rusland valt Oekraïne op 24–26 november aan met ballistische raketten en ruim 110 drones per nacht: winkelcentrum Kyiv geraakt, 10 doden op één dag, Luchtvaartinstituut Charkiv getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
+       "title": "Russia strikes Ukraine on 24–27 November with ballistic missiles and 110–155 drones a night: Kyiv shopping centre and Kharkiv Aviation Institute hit, rail and businesses struck in nine oblasts, Zelensky warns of new massive strike",
+       "titleNl": "Rusland valt Oekraïne op 24–27 november aan met ballistische raketten en 110–155 drones per nacht: winkelcentrum Kyiv en Luchtvaartinstituut Charkiv geraakt, spoor en bedrijven in negen oblasten getroffen, Zelensky waarschuwt voor nieuwe massale aanval",
        "category": "ttp",
        "topics": [
         "missiles",
@@ -9435,14 +9223,13 @@
        "origin": null,
        "significance": 2,
        "publishedAt": "2026-11-25T06:01:10.000Z",
-       "updatedAt": "2026-11-27T06:16:39.193Z",
-       "nlSummary": "Rusland zette op 24–26 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort. Laat op 25 november troffen ballistische raketten het Kyivse district Desnjanskyj, waarbij een winkelcentrum, een gebouw op een industrieterrein en een niet-residentieel gebouw werden geraakt; burgemeester Vitali Klitsjko…",
-       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–26 November. Late on 25 November ballistic missiles struck Kyiv's Desnianskyi district, hitting a shopping centre, an industrial-zone building and a non-residential building; by morning Mayor Vitali Klitschko counted seven injured, three hosp…",
+       "updatedAt": "2026-11-28T06:18:23.161Z",
+       "nlSummary": "Rusland zette op 24–27 november zijn gecombineerde raket- en dronecampagne tegen Oekraïne voort, met ruim honderd drones per nacht, waarvan meer dan de helft met straalmotor. Volgens de Oekraïense luchtmacht lanceerde Rusland in de nacht van 24 op 25 november 112 Shahed-drones (66 met straalmotor) plus Gerbera- en 'Pa…",
+       "enSummary": "Russia kept up its combined missile and drone campaign against Ukraine on 24–27 November, with more than a hundred drones a night, over half of them jet-powered. According to the Ukrainian Air Force, Russia launched 112 Shahed-type drones (66 jet-powered) plus Gerbera and 'Parodiya' decoys on the night of 24–25 Novemb…",
        "sourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-       "sourceCount": 16,
+       "sourceCount": 23,
        "signals": [
-        "loss",
-        "deploy"
+        "loss"
        ]
       },
       {
@@ -9928,7 +9715,7 @@
     "jamming": {
      "name": "Jamming",
      "nameEn": "Jamming",
-     "total": 52,
+     "total": 51,
      "signalCount": 6,
      "entries": [
       {
@@ -10075,7 +9862,7 @@
     "gnss": {
      "name": "GNSS-denial & spoofing",
      "nameEn": "GNSS denial & spoofing",
-     "total": 22,
+     "total": 21,
      "signalCount": 6,
      "entries": [
       {
@@ -10527,8 +10314,8 @@
     "esm": {
      "name": "ESM / SIGINT",
      "nameEn": "ESM / SIGINT",
-     "total": 2,
-     "signalCount": 2,
+     "total": 1,
+     "signalCount": 1,
      "entries": [
       {
        "id": "e-20261111-04",
@@ -10555,31 +10342,6 @@
         "deploy",
         "perf",
         "counter"
-       ]
-      },
-      {
-       "id": "e-20260929-s08",
-       "title": "Авіація, катери, радари та міст: ГУР знищило низку критичних елементів військової системи окупантів",
-       "titleNl": "Vliegtuig, boten, radars en een brug: GUR claimt vernietiging van reeks kritieke elementen van het Russische militaire systeem",
-       "category": "ttp",
-       "topics": [
-        "airforce",
-        "navy",
-        "logistics",
-        "ew"
-       ],
-       "stream": "single",
-       "origin": "ua",
-       "significance": 2,
-       "publishedAt": "2026-09-28T09:19:07.000Z",
-       "updatedAt": "2026-09-29T07:00:00.000Z",
-       "nlSummary": "De Oekraïense militaire inlichtingendienst (GUR) meldde op 28 september 2026 dat operators van de speciale eenheid 'Prymary' (Spoken) een reeks Russische doelen troffen, van logistiek en communicatie tot radar, luchtvaart en marine. ArmyInform noemt: een spoorbrug over het Noord-Krimkanaal; 9 communicatietorens, EW-,…",
-       "enSummary": "Ukraine's Main Intelligence Directorate (GUR) reported on 28 September 2026 that operators of its special unit 'Prymary' (Ghosts) struck a range of Russian targets, from logistics and communications to radar, aviation and naval assets. ArmyInform lists: a railway bridge over the North Crimean Canal; 9 communication to…",
-       "sourceUrl": "https://armyinform.com.ua/2026/09/28/aviacziya-katery-radary-ta-mist-gur-znyshhylo-nyzku-krytychnyh-elementiv-vijskovoyi-systemy-okupantiv",
-       "sourceCount": 1,
-       "signals": [
-        "loss",
-        "perf"
        ]
       }
      ]
